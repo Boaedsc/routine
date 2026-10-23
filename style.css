@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #1a1a2e;
+  color: #f0e9d8;
+  padding: env(safe-area-inset-top) 1.5rem 2rem;
+}
+main { max-width: 40rem; margin: 3rem auto; }
+h1 { font-size: 2.2rem; }
+#date { font-size: 1.2rem; opacity: 0.8; }
