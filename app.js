@@ -7,6 +7,38 @@ document.getElementById('date').textContent =
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
+
+// Sections : [clé dans le JSON, titre affiché, afficher le latin ?]
+const SECTIONS = [
+  ['Introitus',    'Introït',    true],
+  ['Lectio',       'Lecture',    false],
+  ['Graduale',     'Graduel',    true],
+  ['Evangelium',   'Évangile',   false],
+  ['Offertorium',  'Offertoire', true],
+  ['Communio',     'Communion',  true],
+];
+
+// Cherche une clé sans tenir compte de la casse
+function trouver(obj, cle) {
+  if (!obj || typeof obj !== 'object') return undefined;
+  const k = Object.keys(obj).find(x => x.toLowerCase() === cle.toLowerCase());
+  return k ? obj[k] : undefined;
+}
+
+function construireTexte(m) {
+  const blocs = [];
+  for (const [cle, titre, avecLatin] of SECTIONS) {
+    const fr = trouver(m.francais, cle);
+    const la = trouver(m.latin, cle);
+    if (!fr && !la) continue;
+    let bloc = `— ${titre} —\n`;
+    if (avecLatin && la) bloc += `${la}\n\n`;
+    if (fr) bloc += fr;
+    blocs.push(bloc.trim());
+  }
+  return blocs.join('\n\n');
+}
+
 // Charge la messe du jour depuis messes/AAAA-MM-JJ.json
 async function chargerMesseDuJour() {
   const jour = new Date();
@@ -16,14 +48,20 @@ async function chargerMesseDuJour() {
     String(jour.getDate()).padStart(2, '0'),
   ].join('-');
 
+  const titre = document.getElementById('titre-messe');
+  const texte = document.getElementById('messe-texte');
+
   try {
-    const r = await fetch(`messes/${cle}.json`);
+    const r = await fetch(`messes/${cle}.json`, { cache: 'no-cache' });
     if (!r.ok) throw new Error(`Pas de messe pour ${cle}`);
     const m = await r.json();
-    document.getElementById('titre-messe').textContent = m.titre;
-    document.getElementById('messe-texte').textContent = m.texte;
+    console.log('Clés du JSON :', Object.keys(m), m);
+
+    titre.textContent = m.titre || m.nom || 'Messe du jour';
+    texte.textContent = construireTexte(m) || JSON.stringify(m, null, 2);
   } catch (e) {
-    document.getElementById('titre-messe').textContent = 'Messe du jour indisponible';
+    titre.textContent = 'Messe du jour indisponible';
+    texte.textContent = '';
     console.warn(e);
   }
 }
