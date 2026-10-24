@@ -1,7 +1,27 @@
 {
   "date": "2026-02-07",
-  "titre": "Saint Romuald",
-  "classe": 3,
-  "note": "",
-  "texte": "Graduel\n@Tempora/Quadp1-0:GradualeF\n\n@Tempora/Quadp1-0:GradualeF"
+  "celebration": {
+    "nom": "Saint Romuald",
+    "classe": 3,
+    "note": ""
+  },
+  "fichiers": [
+    "Sancti/02-07",
+    "Tempora/Quadp1-6"
+  ],
+  "cles_jour": [
+    "02-07",
+    "Quadp1-6"
+  ],
+  "sections": [
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Tempora/Quadp1-0:GradualeF",
+        "Francais": "@Tempora/Quadp1-0:GradualeF"
+      },
+      "audios": null
+    }
+  ]
 }

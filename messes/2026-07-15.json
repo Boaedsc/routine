@@ -1,7 +1,26 @@
 {
   "date": "2026-07-15",
-  "titre": "Saint Henri",
-  "classe": 4,
-  "note": "(temporal : Mercredi de la 7e semaine après la Pentecôte)",
-  "texte": "Communion\n@Commune/C4-1"
+  "celebration": {
+    "nom": "Saint Henri",
+    "classe": 4,
+    "note": "(temporal : Mercredi de la 7e semaine après la Pentecôte)"
+  },
+  "fichiers": [
+    "Sancti/07-15",
+    "Tempora/Pent07-3"
+  ],
+  "cles_jour": [
+    "07-15",
+    "Pent07-3"
+  ],
+  "sections": [
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "@Commune/C4-1"
+      },
+      "audios": null
+    }
+  ]
 }

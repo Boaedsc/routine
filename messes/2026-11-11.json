@@ -1,7 +1,70 @@
 {
   "date": "2026-11-11",
-  "titre": "Saint Martin",
-  "classe": 3,
-  "note": "",
-  "texte": "Introït\n@Commune/C2\n\n!Eccli 45:30\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n\nLecture\nLecture du livre de la Sagesse\n!Eccli 44:16-27; 45:3-20\nVoici le grand pontife, qui pendant les jours de sa vie fut agréable à Dieu, et est devenu, au temps de sa colère, la réconciliation des hommes. Nul ne l’a égalé dans l’observation des lois du Très-Haut. C’est pourquoi le Seigneur a jure de le rendre père de son peuple. Le Seigneur a béni en lui toutes les nations et a confirmé en lui son alliance. Il a versé sur lui ses bénédictions ; il lui a continué sa miséricorde ; et cet homme a trouve grâce aux yeux du Seigneur. Celui-là l’a rendu grand devant les rois, et il lui a donné une couronne de gloire. Il a fait avec lui une alliance éternelle ; il lui a donné le suprême sacerdoce, et il l’a rendu heureux dans la gloire, pour exercer le sacerdoce, louer son nom et lui offrir dignement un encens d’agréable odeur.\n\nGraduel\n!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. \nAllelúja, allelúja.\nV. Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.\n\n!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\nV. Cet homme bienheureux, saint Martin, Évêque de Tours, est entré dans son repos : et les Anges, les Archanges, les Trônes, les Dominations et les Vertus l’ont accueilli. Alléluia.\n\nÉvangile\nSuite ++ du saint Évangile selon Saint Luc\n!Luc 11:33-36\nEn ce temps-là, Jésus dit à ses disciples : Personne n’allume une lampe pour la mettre dans un lieu caché, ou sous le boisseau ; mais on la met sur le candélabre, afin que ceux qui entrent voient la lumière. La lampe de ton corps, c’est ton œil. Si ton œil est simple, tout ton corps sera lumineux ; mais s’il est mauvais, ton corps sera aussi ténébreux. Prends donc garde que la lumière qui est en toi ne soit ténèbres. Si donc tout ton corps est éclairé, n’ayant aucune partie ténébreuse, il sera tout lumineux, et tu seras éclairé comme par une lampe brillante.\n\nOffertoire\n@Commune/C2\n\n!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance.\n\nCommunion\n@Commune/C4-1\n\n!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
+  "celebration": {
+    "nom": "Saint Martin",
+    "classe": 3,
+    "note": ""
+  },
+  "fichiers": [
+    "Sancti/11-11",
+    "Tempora/Pent22-3"
+  ],
+  "cles_jour": [
+    "11-11",
+    "Pent22-3"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Commune/C2",
+        "Francais": "!Eccli 45:30\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "Lecture du livre de la Sagesse\n!Eccli 44:16-27; 45:3-20\nVoici le grand pontife, qui pendant les jours de sa vie fut agréable à Dieu, et est devenu, au temps de sa colère, la réconciliation des hommes. Nul ne l’a égalé dans l’observation des lois du Très-Haut. C’est pourquoi le Seigneur a jure de le rendre père de son peuple. Le Seigneur a béni en lui toutes les nations et a confirmé en lui son alliance. Il a versé sur lui ses bénédictions ; il lui a continué sa miséricorde ; et cet homme a trouve grâce aux yeux du Seigneur. Celui-là l’a rendu grand devant les rois, et il lui a donné une couronne de gloire. Il a fait avec lui une alliance éternelle ; il lui a donné le suprême sacerdoce, et il l’a rendu heureux dans la gloire, pour exercer le sacerdoce, louer son nom et lui offrir dignement un encens d’agréable odeur."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. \nAllelúja, allelúja.\nV. Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.",
+        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\nV. Cet homme bienheureux, saint Martin, Évêque de Tours, est entré dans son repos : et les Anges, les Archanges, les Trônes, les Dominations et les Vertus l’ont accueilli. Alléluia."
+      },
+      "audios": "Graduale Project/graduel_ecce-sacerdos-magnus.mp3"
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "Suite ++ du saint Évangile selon Saint Luc\n!Luc 11:33-36\nEn ce temps-là, Jésus dit à ses disciples : Personne n’allume une lampe pour la mettre dans un lieu caché, ou sous le boisseau ; mais on la met sur le candélabre, afin que ceux qui entrent voient la lumière. La lampe de ton corps, c’est ton œil. Si ton œil est simple, tout ton corps sera lumineux ; mais s’il est mauvais, ton corps sera aussi ténébreux. Prends donc garde que la lumière qui est en toi ne soit ténèbres. Si donc tout ton corps est éclairé, n’ayant aucune partie ténébreuse, il sera tout lumineux, et tu seras éclairé comme par une lampe brillante."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "@Commune/C2",
+        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "@Commune/C4-1",
+        "Francais": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
+      },
+      "audios": null
+    }
+  ]
 }

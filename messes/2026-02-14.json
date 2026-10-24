@@ -1,7 +1,27 @@
 {
   "date": "2026-02-14",
-  "titre": "Saint Valentin",
-  "classe": 4,
-  "note": "(temporal : Samedi après la Septuagésime)",
-  "texte": "Graduel\n@Tempora/Quadp2-0:GradualeF\n\n@Tempora/Quadp2-0:GradualeF"
+  "celebration": {
+    "nom": "Saint Valentin",
+    "classe": 4,
+    "note": "(temporal : Samedi après la Septuagésime)"
+  },
+  "fichiers": [
+    "Sancti/02-14",
+    "Tempora/Quadp2-6"
+  ],
+  "cles_jour": [
+    "02-14",
+    "Quadp2-6"
+  ],
+  "sections": [
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Tempora/Quadp2-0:GradualeF",
+        "Francais": "@Tempora/Quadp2-0:GradualeF"
+      },
+      "audios": null
+    }
+  ]
 }

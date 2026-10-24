@@ -1,7 +1,26 @@
 {
   "date": "2026-01-17",
-  "titre": "Saint Antoine, abbé",
-  "classe": 3,
-  "note": "",
-  "texte": "Évangile\n@Commune/C5:Evangelium"
+  "celebration": {
+    "nom": "Saint Antoine, abbé",
+    "classe": 3,
+    "note": ""
+  },
+  "fichiers": [
+    "Sancti/01-17",
+    "Tempora/Epi2-6"
+  ],
+  "cles_jour": [
+    "01-17",
+    "Epi2-6"
+  ],
+  "sections": [
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "@Commune/C5:Evangelium"
+      },
+      "audios": null
+    }
+  ]
 }

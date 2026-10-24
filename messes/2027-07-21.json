@@ -1,0 +1,50 @@
+{
+  "date": "2027-07-21",
+  "celebration": {
+    "nom": "Saint Laurent de Brindisi",
+    "classe": 3,
+    "note": ""
+  },
+  "fichiers": [
+    "Sancti/07-21",
+    "Tempora/Pent09-3"
+  ],
+  "cles_jour": [
+    "07-21",
+    "Pent09-3"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Commune/C6"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Commune/C7"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "@Commune/C6-1"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "@Commune/C6a-1"
+      },
+      "audios": null
+    }
+  ]
+}

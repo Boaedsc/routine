@@ -1,7 +1,70 @@
 {
   "date": "2026-03-27",
-  "titre": "Saint Jean Damascène",
-  "classe": 3,
-  "note": "(temporal : Vendredi de la semaine de la Passion)",
-  "texte": "Introït\n!Ps 72:24\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.\n\n!Ps 72:24\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire.\n!Ps 72:1.\nQue Dieu est bon pour Israël, pour ceux qui ont le cœur droit !\n&Gloria\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire.\n\nLecture\n@Commune/C2a:Lectio\n\nGraduel\nDeus, qui præcínxit me virtúte: et pósuit immaculátam viam meam.\nV. Qui docet manus meas ad prœ́lium: et posuísti, ut arcum æreum, bráchia mea.\nAllelúja, allelúja.\nV. Dedísti mihi protectiónem salútis tuæ: et déxtera tua suscépit me. Allelúja.\n\nLe Dieu qui m’a ceint de force, et qui a rendu ma voie immaculée.\nV. Lui qui enseigne à mes mains le combat : c’est vous qui avez fait de mes bras comme un arc d’airain.\nv. Alléluia, alléluia.\nV. Vous m’avez donné votre protection pour me sauver, et votre droite m’a soutenu. Alléluia.\n\nÉvangile\nSequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nEn ce temps-là : Il arriva, un autre jour de sabbat, qu’Il entra dans la synagogue et qu’Il enseignait ; et il y avait là un homme dont la main droite était desséchée. Or les scribes et les pharisiens L’observaient, pour voir s’Il ferait une guérison le jour du sabbat, afin de trouver de quoi L’accuser. Mais Lui, Il connaissait leurs pensées, et Il dit à l’homme qui avait la main desséchée : Lève-toi, et tiens-toi là au milieu. Et se levant, il se tint debout. Alors Jésus leur dit : Je vous demande s’il est permis, les jours de sabbat, de faire du bien ou de faire du mal, de sauver la vie ou de l’ôter ? Et ayant promené Ses regards sur eux tous, Il dit à l’homme : Étends ta main. Il l’étendit, et sa main fut guérie. Mais eux, remplis de démence, s’entretenaient ensemble de ce qu’ils feraient à Jésus.\n\nOffertoire\n!Job 14:7\nLignum habet spem: si præcísum fúerit, rursum viréscit, et rami ejus púllulant.\n\n!Job 14:7\nUn arbre n’est pas sans espérance : si on le coupe, il reverdit encore, et ses branches se multiplient.\n\nCommunion\n!Ps 36:17\nBráchia peccatórum conteréntur, confírmat autem justos Dóminus.\n\n!Ps 36:17\nLes bras des pécheurs seront brisés, mais le Seigneur affermit les justes."
+  "celebration": {
+    "nom": "Saint Jean Damascène",
+    "classe": 3,
+    "note": "(temporal : Vendredi de la semaine de la Passion)"
+  },
+  "fichiers": [
+    "Sancti/03-27",
+    "Tempora/Quad5-5"
+  ],
+  "cles_jour": [
+    "03-27",
+    "Quad5-5"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "!Ps 72:24\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.",
+        "Francais": "!Ps 72:24\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire.\n!Ps 72:1.\nQue Dieu est bon pour Israël, pour ceux qui ont le cœur droit !\n&Gloria\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "@Commune/C2a:Lectio"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "Deus, qui præcínxit me virtúte: et pósuit immaculátam viam meam.\nV. Qui docet manus meas ad prœ́lium: et posuísti, ut arcum æreum, bráchia mea.\nAllelúja, allelúja.\nV. Dedísti mihi protectiónem salútis tuæ: et déxtera tua suscépit me. Allelúja.",
+        "Francais": "Le Dieu qui m’a ceint de force, et qui a rendu ma voie immaculée.\nV. Lui qui enseigne à mes mains le combat : c’est vous qui avez fait de mes bras comme un arc d’airain.\nv. Alléluia, alléluia.\nV. Vous m’avez donné votre protection pour me sauver, et votre droite m’a soutenu. Alléluia."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nEn ce temps-là : Il arriva, un autre jour de sabbat, qu’Il entra dans la synagogue et qu’Il enseignait ; et il y avait là un homme dont la main droite était desséchée. Or les scribes et les pharisiens L’observaient, pour voir s’Il ferait une guérison le jour du sabbat, afin de trouver de quoi L’accuser. Mais Lui, Il connaissait leurs pensées, et Il dit à l’homme qui avait la main desséchée : Lève-toi, et tiens-toi là au milieu. Et se levant, il se tint debout. Alors Jésus leur dit : Je vous demande s’il est permis, les jours de sabbat, de faire du bien ou de faire du mal, de sauver la vie ou de l’ôter ? Et ayant promené Ses regards sur eux tous, Il dit à l’homme : Étends ta main. Il l’étendit, et sa main fut guérie. Mais eux, remplis de démence, s’entretenaient ensemble de ce qu’ils feraient à Jésus."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "!Job 14:7\nLignum habet spem: si præcísum fúerit, rursum viréscit, et rami ejus púllulant.",
+        "Francais": "!Job 14:7\nUn arbre n’est pas sans espérance : si on le coupe, il reverdit encore, et ses branches se multiplient."
+      },
+      "audios": "Graduale Project/offertoire_recordare-virgo-mater.mp3"
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "!Ps 36:17\nBráchia peccatórum conteréntur, confírmat autem justos Dóminus.",
+        "Francais": "!Ps 36:17\nLes bras des pécheurs seront brisés, mais le Seigneur affermit les justes."
+      },
+      "audios": null
+    }
+  ]
 }

@@ -1,0 +1,70 @@
+{
+  "date": "2027-12-07",
+  "celebration": {
+    "nom": "Saint Ambroise",
+    "classe": 3,
+    "note": "(temporal : Mardi de la 2e semaine de l'Avent)"
+  },
+  "fichiers": [
+    "Sancti/12-07",
+    "Tempora/Adv2-2"
+  ],
+  "cles_jour": [
+    "12-07",
+    "Adv2-2"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Commune/C4a\n\n[Commemoratio Oratio]\n!Commemoratio Vigiliæ Immaculatæ Conceptionis\nDeus, qui Unigéniti tui Matrem ab origináli culpa in sua Conceptióne mirabíliter præservásti: da, quǽsumus; ut sua nos intercessióne munítos, corde mundos fácias suæ interésse festivitáti:\n$Per eundem",
+        "Francais": "!Eccli 15:5\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "@Commune/C4a:Lectio"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Commune/C4",
+        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nLe Seigneur l'a juré et il ne s'en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "@Commune/C4a:Evangelium"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "@Commune/C2",
+        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "@Commune/C2",
+        "Francais": "!Ps 88:36-38\nJe l’ai juré une fois par ma sainteté, sa race demeurera éternellement et son trône sera comme le soleil en ma présence ; et comme la lune qui subsistera à jamais, et le témoin qui est au ciel est fidèle."
+      },
+      "audios": null
+    }
+  ]
+}

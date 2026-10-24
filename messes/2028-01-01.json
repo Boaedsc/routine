@@ -1,0 +1,70 @@
+{
+  "date": "2028-01-01",
+  "celebration": {
+    "nom": "Circoncision du Seigneur",
+    "classe": 2,
+    "note": "(temporal : Octave de Noël / Circoncision)"
+  },
+  "fichiers": [
+    "Sancti/01-01",
+    "Sancti/01-01"
+  ],
+  "cles_jour": [
+    "01-01",
+    "01-01"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Tempora/Nat30",
+        "Francais": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule et on l’appellera le Messager d’en haut."
+      },
+      "audios": "Graduale Project/introitus_puer-natus-est.mp3"
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "Lecture de l’Épître de Saint Paul à Tite.\n!Tit 2:11-15\nTrès cher ami : elle s’est manifestée la grâce de Dieu, source de salut pour tous les hommes ; elle nous enseigne à renoncer à l’impiété et aux convoitises mondaines, et à vivre dans le siècle présent avec tempérance, justice et piété, en attendant la bienheureuse espérance et l’apparition glorieuse de notre grand Dieu et Sauveur Jésus-Christ, qui s’est donné lui-même pour nous, afin de nous racheter de toute iniquité et de se faire, en nous purifiant, un peuple qui lui appartienne, et qui soit zélé pour les bonnes œuvres. Voilà ce que tu dois prêcher, recommander et revendiquer avec une pleine autorité dans le Christ Notre Seigneur."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. \nAllelúja, allelúja.\n!Heb 1:1-2\nMultifárie olim Deus loquens pátribus in Prophétis, novíssime diébus istis locútus est nobis in Fílio. Allelúja.",
+        "Francais": "!Ps 97:3; 97:2\nLes extrêmités de la terre ont vu le Sauveur envoyé par notre Dieu, Terre entière, chante à Dieu ta joie.\nV. Le Seigneur a fait connaître son œuvre de salut : devant tous les peuples il a montré sa justice.\n!Heb 1:1-2\nAprès avoir, à plusieurs reprises et en diverses manières, parlé autrefois à nos pères par les Prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils. Alléluia"
+      },
+      "audios": "Graduale Project/graduel_viderunt-omnes.mp3"
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "Lecture du Saint Évangile selon saint Luc.\n!Luc 2:21\nEn ce temps là, le huitième jour, auquel l’enfant devait être circoncis, étant arrivé, on lui donna le nom de Jésus, que l’ange avait indiqué avant qu’il fût conçu dans le sein de sa mère."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "@Tempora/Nat30",
+        "Francais": "!Ps 88:12; 88:15\nÀ toi sont les cieux, à toi la terre. C’est toi qui as posé les fondations de l’univers, et créé ce qu’il renferme. Ton trône repose sur le droit et la justice."
+      },
+      "audios": "Graduale Project/offertoire_tui-sunt-caeli.mp3"
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "@Tempora/Nat30",
+        "Francais": "!Ps 97:3\nLes extrêmités de la terre ont vu le Sauveur envoyé par notre Dieu."
+      },
+      "audios": "Graduale Project/communion_viderunt-omnes.mp3"
+    }
+  ]
+}

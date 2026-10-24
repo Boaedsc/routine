@@ -1,0 +1,52 @@
+{
+  "date": "2027-12-13",
+  "celebration": {
+    "nom": "Sainte Lucie",
+    "classe": 3,
+    "note": "(temporal : Lundi de la 3e semaine de l'Avent)"
+  },
+  "fichiers": [
+    "Sancti/12-13",
+    "Tempora/Adv3-1"
+  ],
+  "cles_jour": [
+    "12-13",
+    "Adv3-1"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Commune/C6a"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!2 Cor 10:17-18; 11:1-2\nMes frères, que celui qui se glorifie, se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est approuvé, mais celui que Dieu recommande. Ah ! Si vous pouviez supporter de ma part un peu de folie ! Eh bien, supportez-moi. Car je suis jaloux de vous d’une jalousie de Dieu ; en effet, je vous ai fiancés à un unique époux, au Christ, pour vous présenter à lui comme une vierge pure."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Sancti/07-22",
+        "Francais": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia.\n!Ps 44:3\nV. La grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais. Alléluia."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "!Ps 118:161-162\nPríncipes persecúti sunt me gratis, et a verbis tuis formidávit cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia multa.",
+        "Francais": "!Ps 118:161-162\nLes princes m’ont persécuté sans raison et mon cœur n’a été effrayé que de vos paroles. Je mets ma joie dans vos ordres, comme celui qui a trouvé de riches dépouilles."
+      },
+      "audios": "Graduale Project/communion_principes-persecuti-sunt.mp3"
+    }
+  ]
+}

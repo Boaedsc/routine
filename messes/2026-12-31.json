@@ -1,7 +1,51 @@
 {
   "date": "2026-12-31",
-  "titre": "Saint Silvestre Ier",
-  "classe": 3,
-  "note": "(temporal : Jeudi dans l'octave de Noël)",
-  "texte": "Lecture\n@Commune/C4a:Lectio\n\nGraduel\n!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 88:21\nV. Invéni David servum meum: óleo sancto meo unxi eum. Allelúja.\n\n!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nV. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\n!Ps 88:21\nV. J’ai trouvé David mon serviteur ; je l’ai oint de mon huile sainte. Alléluia.\n\nÉvangile\n@Commune/C5:Evangelium\n\nOffertoire\n@Commune/C4"
+  "celebration": {
+    "nom": "Saint Silvestre Ier",
+    "classe": 3,
+    "note": "(temporal : Jeudi dans l'octave de Noël)"
+  },
+  "fichiers": [
+    "Sancti/12-31",
+    "Tempora/Nat31"
+  ],
+  "cles_jour": [
+    "12-31",
+    "Nat31"
+  ],
+  "sections": [
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "@Commune/C4a:Lectio"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 88:21\nV. Invéni David servum meum: óleo sancto meo unxi eum. Allelúja.",
+        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nV. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\n!Ps 88:21\nV. J’ai trouvé David mon serviteur ; je l’ai oint de mon huile sainte. Alléluia."
+      },
+      "audios": "Graduale Project/graduel_ecce-sacerdos-magnus.mp3"
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "@Commune/C5:Evangelium"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "@Commune/C4"
+      },
+      "audios": null
+    }
+  ]
 }

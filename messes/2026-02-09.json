@@ -1,7 +1,27 @@
 {
   "date": "2026-02-09",
-  "titre": "Saint Cyrille d'Alexandrie",
-  "classe": 3,
-  "note": "",
-  "texte": "Graduel\n@Tempora/Quadp2-0:GradualeF\n\n@Tempora/Quadp2-0:GradualeF"
+  "celebration": {
+    "nom": "Saint Cyrille d'Alexandrie",
+    "classe": 3,
+    "note": ""
+  },
+  "fichiers": [
+    "Sancti/02-09",
+    "Tempora/Quadp2-1"
+  ],
+  "cles_jour": [
+    "02-09",
+    "Quadp2-1"
+  ],
+  "sections": [
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Tempora/Quadp2-0:GradualeF",
+        "Francais": "@Tempora/Quadp2-0:GradualeF"
+      },
+      "audios": null
+    }
+  ]
 }

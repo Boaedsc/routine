@@ -1,7 +1,27 @@
 {
   "date": "2026-02-03",
-  "titre": "Saint Blaise",
-  "classe": 4,
-  "note": "(temporal : Mardi après la Septuagésime)",
-  "texte": "Graduel\n@Tempora/Quadp1-0:GradualeF\n\n@Tempora/Quadp1-0:GradualeF"
+  "celebration": {
+    "nom": "Saint Blaise",
+    "classe": 4,
+    "note": "(temporal : Mardi après la Septuagésime)"
+  },
+  "fichiers": [
+    "Sancti/02-03",
+    "Tempora/Quadp1-2"
+  ],
+  "cles_jour": [
+    "02-03",
+    "Quadp1-2"
+  ],
+  "sections": [
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Tempora/Quadp1-0:GradualeF",
+        "Francais": "@Tempora/Quadp1-0:GradualeF"
+      },
+      "audios": null
+    }
+  ]
 }

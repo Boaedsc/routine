@@ -1,7 +1,25 @@
 {
   "date": "2026-02-12",
-  "titre": "Jeudi après la Septuagésime",
-  "classe": 4,
-  "note": "",
-  "texte": "Graduel\n@Tempora/Quadp2-0:GradualeF\n\n@Tempora/Quadp2-0:GradualeF"
+  "celebration": {
+    "nom": "Jeudi après la Septuagésime",
+    "classe": 4,
+    "note": ""
+  },
+  "fichiers": [
+    "Tempora/Quadp2-4"
+  ],
+  "cles_jour": [
+    "Quadp2-4"
+  ],
+  "sections": [
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "@Tempora/Quadp2-0:GradualeF",
+        "Francais": "@Tempora/Quadp2-0:GradualeF"
+      },
+      "audios": null
+    }
+  ]
 }

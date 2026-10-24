@@ -1,7 +1,68 @@
 {
   "date": "2026-05-31",
-  "titre": "Sainte Trinité",
-  "classe": 1,
-  "note": "",
-  "texte": "Introït\n@Tempora/Pent01-0r:Introitus\n\n!Tob 12:6.\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde.\n!Ps 8:2\nSeigneur, notre Dieu, que votre Nom est admirable sur toute la terre !\n&Gloria\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde.\n\nLecture\nLéctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 11:33-36.\nÔ profondeur inépuisable de la sagesse et de la science de Dieu ! Que ses jugements sont insondables et ses voies incompréhensibles ! Car qui a connu la pensée du Seigneur ou qui a été son conseiller ? Ou bien qui lui a donné le premier, pour qu'il ait à recevoir en retour ? De Lui, par Lui et pour Lui sont toutes choses. À lui la gloire dans tous les siècles ! Amen !\n\nGraduel\n!Dan 3:55-56\nBenedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim,\nV. Benedíctus es, Dómine, in firmaménto cæli, et laudábilis in sǽcula. Allelúja, allelúja.\n!Dan 3:52\nV. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.\n\n!Dan 3:55-56.\nVous êtes béni, Seigneur, vous qui contemplez les abîmes, et trônez sur les Chérubins.\nV. Vous êtes béni, Seigneur, dans le firmament du ciel, et digne de louange à jamais. Allelúja, allelúja.\n!Dan 3:52\nV. Vous êtes béni, Seigneur, Dieu de nos pères, et digne de louange à jamais. Allelúja.\n\nÉvangile\nSequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 28:18-20\nEn ce temps-là, Jésus dit à ses disciples : « Toute puissance m'a été donnée dans le ciel et sur la terre. Allez donc, enseignez toutes les nations, les baptisant au nom du Père, du Fils et du Saint-Esprit, leur apprenant à observer tout ce que je vous ai commandé. Et moi, je suis avec vous toujours jusqu'à la fin du monde. »\n\nOffertoire\n!Tob 12:6.\nBenedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus quoque Spíritus: quia fecit nobíscum misericórdiam suam.\n\n!Tob 12:6.\nBéni soit Dieu le Père, et le Fils unique de Dieu, et le Saint-Esprit, car Il nous a fait miséricorde.\n\nCommunion\n!Tob 12:6\nBenedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei: quia fecit nobíscum misericórdiam suam.\n\n!Tob 12:6.\nNous bénissons le Dieu du ciel, et devant tous les vivants nous le louons, car Il nous a fait miséricorde."
+  "celebration": {
+    "nom": "Sainte Trinité",
+    "classe": 1,
+    "note": ""
+  },
+  "fichiers": [
+    "Tempora/Pent01-0"
+  ],
+  "cles_jour": [
+    "Pent01-0"
+  ],
+  "sections": [
+    {
+      "cle": "Introitus",
+      "titre": "Introït",
+      "textes": {
+        "Latin": "@Tempora/Pent01-0r:Introitus",
+        "Francais": "!Tob 12:6.\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde.\n!Ps 8:2\nSeigneur, notre Dieu, que votre Nom est admirable sur toute la terre !\n&Gloria\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde."
+      },
+      "audios": null
+    },
+    {
+      "cle": "Lectio",
+      "titre": "Lecture",
+      "textes": {
+        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 11:33-36.\nÔ profondeur inépuisable de la sagesse et de la science de Dieu ! Que ses jugements sont insondables et ses voies incompréhensibles ! Car qui a connu la pensée du Seigneur ou qui a été son conseiller ? Ou bien qui lui a donné le premier, pour qu'il ait à recevoir en retour ? De Lui, par Lui et pour Lui sont toutes choses. À lui la gloire dans tous les siècles ! Amen !"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Graduale",
+      "titre": "Graduel",
+      "textes": {
+        "Latin": "!Dan 3:55-56\nBenedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim,\nV. Benedíctus es, Dómine, in firmaménto cæli, et laudábilis in sǽcula. Allelúja, allelúja.\n!Dan 3:52\nV. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.",
+        "Francais": "!Dan 3:55-56.\nVous êtes béni, Seigneur, vous qui contemplez les abîmes, et trônez sur les Chérubins.\nV. Vous êtes béni, Seigneur, dans le firmament du ciel, et digne de louange à jamais. Allelúja, allelúja.\n!Dan 3:52\nV. Vous êtes béni, Seigneur, Dieu de nos pères, et digne de louange à jamais. Allelúja."
+      },
+      "audios": "Graduale Project/graduel_benedictus-es.mp3"
+    },
+    {
+      "cle": "Evangelium",
+      "titre": "Évangile",
+      "textes": {
+        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 28:18-20\nEn ce temps-là, Jésus dit à ses disciples : « Toute puissance m'a été donnée dans le ciel et sur la terre. Allez donc, enseignez toutes les nations, les baptisant au nom du Père, du Fils et du Saint-Esprit, leur apprenant à observer tout ce que je vous ai commandé. Et moi, je suis avec vous toujours jusqu'à la fin du monde. »"
+      },
+      "audios": null
+    },
+    {
+      "cle": "Offertorium",
+      "titre": "Offertoire",
+      "textes": {
+        "Latin": "!Tob 12:6.\nBenedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus quoque Spíritus: quia fecit nobíscum misericórdiam suam.",
+        "Francais": "!Tob 12:6.\nBéni soit Dieu le Père, et le Fils unique de Dieu, et le Saint-Esprit, car Il nous a fait miséricorde."
+      },
+      "audios": "Graduale Project/offertoire_benedictus-sit.mp3"
+    },
+    {
+      "cle": "Communio",
+      "titre": "Communion",
+      "textes": {
+        "Latin": "!Tob 12:6\nBenedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei: quia fecit nobíscum misericórdiam suam.",
+        "Francais": "!Tob 12:6.\nNous bénissons le Dieu du ciel, et devant tous les vivants nous le louons, car Il nous a fait miséricorde."
+      },
+      "audios": "Graduale Project/communion_benedicimus-deum-caeli.mp3"
+    }
+  ]
 }
