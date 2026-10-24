@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Routine matinale</title>
+  <title>Messe du jour</title>
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icon-180.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Routine">
-  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-title" content="Messe">
+  <meta name="theme-color" content="#f6f0e4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <h1>Bonjour</h1>
-    <p id="date"></p>
-    <section id="messe">
+    <header class="entete">
+      <div class="croix">✠</div>
       <h2 id="titre-messe"></h2>
-      <details>
-        <summary>Messe du Jour</summary>
-        <div id="messe-texte"></div>
-      </details>
-    </section>
+      <div class="filet"><span>✦</span></div>
+    </header>
+
+    <article id="messe-texte"></article>
   </main>
   <script src="app.js"></script>
 </body>
