@@ -1,5 +1,5 @@
 
-const CACHE = 'routine-v3';          // incrémenter pour forcer la mise à jour
+const CACHE = 'routine-v4';          // incrémenter pour forcer la mise à jour
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json'];
 
 self.addEventListener('install', e => {
