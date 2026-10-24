@@ -21,8 +21,7 @@ async function chargerMesseDuJour() {
     if (!r.ok) throw new Error(`Pas de messe pour ${cle}`);
     const m = await r.json();
     document.getElementById('titre-messe').textContent = m.titre;
-    document.getElementById('messe-latin').textContent = m.latin;
-    document.getElementById('messe-francais').textContent = m.francais;
+    document.getElementById('messe-texte').textContent = m.texte;
   } catch (e) {
     document.getElementById('titre-messe').textContent = 'Messe du jour indisponible';
     console.warn(e);

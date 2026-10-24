@@ -52,9 +52,8 @@ def propre_du_jour(d: date, langue_dossier: str) -> dict:
             propre.setdefault(k, v)
     return propre
 
-def messe(d: date, langue: str = "les_deux") -> str:
-    """Renvoie le propre du jour selon PLAN. (le paramètre langue est ignoré)"""
-    nom, cl, note = celebration(d)
+def corps_messe(d: date) -> str:
+    """Renvoie uniquement le propre selon PLAN (sans en-tête)."""
     propres = {
         "Latin": propre_du_jour(d, "Latin"),
         "Francais": propre_du_jour(d, "Francais"),
@@ -65,8 +64,13 @@ def messe(d: date, langue: str = "les_deux") -> str:
                    if propres[l].get(cle)]
         if parties:
             blocs.append(f"{titre}\n" + "\n\n".join(parties))
-    corps = "\n\n".join(blocs) if blocs else "[propre absent]"
-    return f"=== {d.isoformat()} — {nom} ===\n\n{corps}"
+    return "\n\n".join(blocs) if blocs else "[propre absent]"
+
+def messe(d: date, langue: str = "les_deux") -> str:
+    """Version avec en-tête, pour la ligne de commande.
+    (le paramètre langue est conservé pour compatibilité, il est ignoré)"""
+    nom, cl, note = celebration(d)
+    return f"=== {d.isoformat()} — {nom} ===\n\n{corps_messe(d)}"
 
 if __name__ == "__main__":
     jour = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
