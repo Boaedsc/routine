@@ -1,10 +1,30 @@
-body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background: #1a1a2e;
-  color: #f0e9d8;
-  padding: env(safe-area-inset-top) 1.5rem 2rem;
+#messe-texte {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
-main { max-width: 40rem; margin: 3rem auto; }
-h1 { font-size: 2.2rem; }
-#date { font-size: 1.2rem; opacity: 0.8; }
+
+#messe-texte h3 {
+  margin: 1.8rem 0 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid currentColor;
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#messe-texte p { margin: 0.4rem 0; }
+
+#messe-texte .ref {
+  font-size: 0.85rem;
+  font-style: italic;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+#messe-texte .verset { padding-left: 1.2rem; }
+#messe-texte .v { font-weight: bold; margin-left: -1.2rem; margin-right: 0.3rem; }
+
+#messe-texte .gloria { font-style: italic; opacity: 0.8; }
+
+#messe-texte .espace { height: 0.8rem; }

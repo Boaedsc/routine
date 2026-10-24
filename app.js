@@ -8,45 +8,58 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
 
-// Sections : [clé dans le JSON, titre affiché, afficher le latin ?]
-const SECTIONS = [
-  ['Introitus',    'Introït',    true],
-  ['Lectio',       'Lecture',    false],
-  ['Graduale',     'Graduel',    true],
-  ['Evangelium',   'Évangile',   false],
-  ['Offertorium',  'Offertoire', true],
-  ['Communio',     'Communion',  true],
-];
+// Titres de sections reconnus
+const TITRES = ['Introït', 'Lecture', 'Épître', 'Graduel', 'Trait', 'Séquence',
+                'Évangile', 'Offertoire', 'Secrète', 'Préface', 'Communion',
+                'Postcommunion', 'Oraison', 'Collecte'];
 
-// Cherche une clé sans tenir compte de la casse
-function trouver(obj, cle) {
-  if (!obj || typeof obj !== 'object') return undefined;
-  const k = Object.keys(obj).find(x => x.toLowerCase() === cle.toLowerCase());
-  return k ? obj[k] : undefined;
+function echapper(s) {
+  return s.replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>');
 }
 
-// Transforme les "\n" littéraux (backslash + n) en vrais retours à la ligne
-function nettoyer(s) {
-  if (typeof s !== 'string') return s;
-  return s
-    .replace(/\\r\\n/g, '\n')
-    .replace(/\\n/g, '\n')
-    .replace(/\\t/g, ' ')
-    .replace(/\\"/g, '"');
-}
+// Met en forme une ligne de texte
+function formaterLigne(ligne) {
+  const l = ligne.trim();
+  if (!l) return '';
 
-function construireTexte(m) {
-  const blocs = [];
-  for (const [cle, titre, avecLatin] of SECTIONS) {
-    const fr = nettoyer(trouver(m.francais, cle));
-    const la = nettoyer(trouver(m.latin, cle));
-    if (!fr && !la) continue;
-    let bloc = `— ${titre} —\n`;
-    if (avecLatin && la) bloc += `${la}\n\n`;
-    if (fr) bloc += fr;
-    blocs.push(bloc.trim());
+  // Renvoi interne (ex: @Sancti/10-02:Communio) : on masque
+  if (l.startsWith('@')) return '';
+
+  // Rappel du Gloria Patri
+  if (l === '&Gloria') return '<p class="gloria">Gloria Patri…</p>';
+
+  // Référence biblique
+  if (l.startsWith('!')) {
+    return `<p class="ref">${echapper(l.slice(1).trim().replace(/\.$/, ''))}</p>`;
   }
-  return blocs.join('\n\n');
+
+  // Verset
+  const v = l.match(/^[vV]\.\s*(.*)$/);
+  if (v) return `<p class="verset"><span class="v">℣.</span> ${echapper(v[1])}</p>`;
+
+  return `<p>${echapper(l)}</p>`;
+}
+
+// Découpe le texte brut en sections et génère le HTML
+function construireHTML(brut) {
+  const lignes = brut.replace(/\r\n/g, '\n').split('\n');
+  let html = '';
+  let sectionOuverte = false;
+
+  for (const ligne of lignes) {
+    const t = ligne.trim();
+    if (TITRES.includes(t)) {
+      if (sectionOuverte) html += '</section>';
+      html += `<section class="partie"><h3>${t}</h3>`;
+      sectionOuverte = true;
+    } else if (t === '') {
+      html += '<div class="espace"></div>';
+    } else {
+      html += formaterLigne(t);
+    }
+  }
+  if (sectionOuverte) html += '</section>';
+  return html;
 }
 
 // Charge la messe du jour depuis messes/AAAA-MM-JJ.json
@@ -65,13 +78,12 @@ async function chargerMesseDuJour() {
     const r = await fetch(`messes/${cle}.json`, { cache: 'no-cache' });
     if (!r.ok) throw new Error(`Pas de messe pour ${cle}`);
     const m = await r.json();
-    console.log('Clés du JSON :', Object.keys(m), m);
 
-    titre.textContent = m.titre || m.nom || 'Messe du jour';
-    texte.textContent = construireTexte(m) || nettoyer(JSON.stringify(m, null, 2));
+    titre.textContent = m.titre || 'Messe du jour';
+    texte.innerHTML = construireHTML(m.texte || '');
   } catch (e) {
     titre.textContent = 'Messe du jour indisponible';
-    texte.textContent = '';
+    texte.innerHTML = '';
     console.warn(e);
   }
 }
