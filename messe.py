@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Assemble la messe complète d'un jour donné, en latin et/ou en français,
-à partir de calendrier.py et des fichiers de data/.
-Usage : python messe.py 2026-10-24 [latin|francais|les_deux]
+Assemble le PROPRE chanté et lu de la messe d'un jour donné :
+- Introït, Graduel, Offertoire, Communion : latin puis français
+- Lecture, Évangile : français seul
+Usage : python messe.py 2026-10-24
 """
 import re
 import sys
@@ -12,9 +13,16 @@ from pathlib import Path
 from calendrier import fichiers_du_jour, celebration
 
 RACINE = Path("data")
-LANGUES = {"latin": "Latin", "francais": "Francais"}
-ORDO = "Ordo.txt"
 
+# (section, titre affiché, langues affichées dans l'ordre)
+PLAN = [
+    ("Introitus",   "Introït",    ["Latin", "Francais"]),
+    ("Lectio",      "Lecture",    ["Francais"]),
+    ("Graduale",    "Graduel",    ["Latin", "Francais"]),
+    ("Evangelium",  "Évangile",   ["Francais"]),
+    ("Offertorium", "Offertoire", ["Latin", "Francais"]),
+    ("Communio",    "Communion",  ["Latin", "Francais"]),
+]
 
 def lire_sections(chemin: Path) -> dict:
     """Lit un fichier de données et renvoie {nom_section: texte}."""
@@ -35,7 +43,6 @@ def lire_sections(chemin: Path) -> dict:
         sections[courant] = "\n".join(tampon).strip()
     return sections
 
-
 def propre_du_jour(d: date, langue_dossier: str) -> dict:
     """Fusionne les sections des fichiers du jour (priorité au premier)."""
     propre = {}
@@ -45,41 +52,22 @@ def propre_du_jour(d: date, langue_dossier: str) -> dict:
             propre.setdefault(k, v)
     return propre
 
-
-def assembler(d: date, langue_dossier: str) -> str:
-    """Remplace les &marqueurs de Ordo.txt par le propre du jour."""
-    ordo_path = RACINE / langue_dossier / "Ordo" / ORDO
-    ordo = ordo_path.read_text(encoding="utf-8")
-    propre = propre_du_jour(d, langue_dossier)
-
-    def remplacer(m):
-        cle = m.group(1)
-        # Correspondances Ordo -> sections du propre
-        table = {
-            "introitus": "Introitus", "collect": "Oratio",
-            "lectio": "Lectio", "graduale": "Graduale",
-            "evangelium": "Evangelium", "offertorium": "Offertorium",
-            "secreta": "Secreta", "communio": "Communio",
-            "postcommunio": "Postcommunio", "Gloria": "Gloria",
-            "Credo": "Credo",
-        }
-        nom = table.get(cle, cle)
-        return propre.get(nom, f"[{cle} absent]")
-
-    # Les marqueurs sont de la forme &nom (en début de mot)
-    return re.sub(r"&(\w+)", remplacer, ordo)
-
-
-def messe(d: date, langue: str) -> str:
+def messe(d: date, langue: str = "les_deux") -> str:
+    """Renvoie le propre du jour selon PLAN. (le paramètre langue est ignoré)"""
     nom, cl, note = celebration(d)
-    entete = f"=== {d.isoformat()} — {nom} ===\n"
-    if langue == "les_deux":
-        return entete + "\n--- LATIN ---\n" + assembler(d, "Latin") + \
-               "\n\n--- FRANÇAIS ---\n" + assembler(d, "Francais")
-    return entete + assembler(d, LANGUES[langue])
-
+    propres = {
+        "Latin": propre_du_jour(d, "Latin"),
+        "Francais": propre_du_jour(d, "Francais"),
+    }
+    blocs = []
+    for cle, titre, langues in PLAN:
+        parties = [propres[l][cle] for l in langues
+                   if propres[l].get(cle)]
+        if parties:
+            blocs.append(f"{titre}\n" + "\n\n".join(parties))
+    corps = "\n\n".join(blocs) if blocs else "[propre absent]"
+    return f"=== {d.isoformat()} — {nom} ===\n\n{corps}"
 
 if __name__ == "__main__":
     jour = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
-    langue = sys.argv[2] if len(sys.argv) > 2 else "les_deux"
-    print(messe(jour, langue))
+    print(messe(jour))
