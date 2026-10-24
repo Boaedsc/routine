@@ -624,7 +624,7 @@ def verifier(annee):
     d = date(annee, 1, 1)
     while d.year == annee:
         for f in fichiers_du_jour(d):
-            if not (Path("data/missa/Latin") / f"{f}.txt").exists():
+            if not (Path("data/Latin") / f"{f}.txt").exists():
                 manquants.add(f)
         d += timedelta(days=1)
     return sorted(manquants)

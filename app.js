@@ -7,3 +7,26 @@ document.getElementById('date').textContent =
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
+// Charge la messe du jour depuis messes/AAAA-MM-JJ.json
+async function chargerMesseDuJour() {
+  const jour = new Date();
+  const cle = [
+    jour.getFullYear(),
+    String(jour.getMonth() + 1).padStart(2, '0'),
+    String(jour.getDate()).padStart(2, '0'),
+  ].join('-');
+
+  try {
+    const r = await fetch(`messes/${cle}.json`);
+    if (!r.ok) throw new Error(`Pas de messe pour ${cle}`);
+    const m = await r.json();
+    document.getElementById('titre-messe').textContent = m.titre;
+    document.getElementById('messe-latin').textContent = m.latin;
+    document.getElementById('messe-francais').textContent = m.francais;
+  } catch (e) {
+    document.getElementById('titre-messe').textContent = 'Messe du jour indisponible';
+    console.warn(e);
+  }
+}
+
+chargerMesseDuJour();
