@@ -25,11 +25,21 @@ function trouver(obj, cle) {
   return k ? obj[k] : undefined;
 }
 
+// Transforme les "\n" littéraux (backslash + n) en vrais retours à la ligne
+function nettoyer(s) {
+  if (typeof s !== 'string') return s;
+  return s
+    .replace(/\\r\\n/g, '\n')
+    .replace(/\\n/g, '\n')
+    .replace(/\\t/g, ' ')
+    .replace(/\\"/g, '"');
+}
+
 function construireTexte(m) {
   const blocs = [];
   for (const [cle, titre, avecLatin] of SECTIONS) {
-    const fr = trouver(m.francais, cle);
-    const la = trouver(m.latin, cle);
+    const fr = nettoyer(trouver(m.francais, cle));
+    const la = nettoyer(trouver(m.latin, cle));
     if (!fr && !la) continue;
     let bloc = `— ${titre} —\n`;
     if (avecLatin && la) bloc += `${la}\n\n`;
@@ -58,7 +68,7 @@ async function chargerMesseDuJour() {
     console.log('Clés du JSON :', Object.keys(m), m);
 
     titre.textContent = m.titre || m.nom || 'Messe du jour';
-    texte.textContent = construireTexte(m) || JSON.stringify(m, null, 2);
+    texte.textContent = construireTexte(m) || nettoyer(JSON.stringify(m, null, 2));
   } catch (e) {
     titre.textContent = 'Messe du jour indisponible';
     texte.textContent = '';
