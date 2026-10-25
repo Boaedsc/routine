@@ -42,40 +42,95 @@ main {
 }
 
 /* ---------- En-tête ---------- */
-.entete { text-align: center; margin-bottom: 2.5rem; }
-
-.croix {
+main > h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
   color: var(--rouge);
+  margin: 0 0 0.3rem;
+}
+main > h1::before {
+  content: '✠';
+  display: block;
   font-size: 1.8rem;
-  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 0.3rem;
 }
 
-#titre-messe {
+#date {
+  text-align: center;
+  font-style: italic;
+  color: var(--discret);
+  margin: 0 0 1rem;
+}
+
+.picker {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  color: var(--discret);
+  font-size: 1rem;
+}
+.picker input {
+  font: inherit;
+  color: var(--texte);
+  background: var(--carte);
+  border: 1px solid var(--filet);
+  border-radius: 8px;
+  padding: 0.25rem 0.6rem;
+}
+
+#titre {
   font-family: 'Cinzel', 'Cormorant Garamond', serif;
   font-weight: 600;
   font-size: clamp(1.4rem, 5.5vw, 2rem);
   letter-spacing: 0.06em;
   line-height: 1.25;
-  margin: 0.6rem 0 1rem;
+  text-align: center;
+  margin: 1rem 0 0.4rem;
   text-wrap: balance;
 }
-
-.filet {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  color: var(--or);
-  font-size: 0.8rem;
+#titre .classe {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--rouge);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0.4rem;
 }
-.filet::before, .filet::after {
+
+#note {
+  text-align: center;
+  font-style: italic;
+  color: var(--discret);
+  margin: 0 0 2rem;
+  padding-bottom: 1.2rem;
+  position: relative;
+}
+#note::before {
   content: '';
-  flex: 1;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
   height: 1px;
   background: linear-gradient(to right, transparent, var(--or), transparent);
 }
+#note::after {
+  content: '✠';
+  position: absolute;
+  bottom: -0.65rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--fond);
+  padding: 0 0.6rem;
+  color: var(--or);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
 
 /* ---------- Sections ---------- */
-#messe-texte .partie {
+#messe .section {
   background: var(--carte);
   border: 1px solid var(--filet);
   border-radius: 14px;
@@ -84,7 +139,7 @@ main {
   box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 6px 20px rgba(0,0,0,0.04);
 }
 
-#messe-texte h3 {
+#messe h3 {
   font-family: 'Cinzel', serif;
   font-weight: 500;
   font-size: 0.95rem;
@@ -97,15 +152,23 @@ main {
   border-bottom: 1px solid var(--filet);
 }
 
-#messe-texte p {
+#messe p {
   margin: 0.5rem 0;
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
 }
 
+.texte {
+  white-space: pre-line;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* Lettrine sur le premier paragraphe de texte de chaque section */
-#messe-texte .partie > p:not(.ref):not(.gloria):first-of-type::first-letter {
+#messe .section > p:not(.ref):not(.gloria):first-of-type::first-letter,
+#messe .texte::first-letter {
   font-family: 'Cinzel', serif;
   color: var(--or);
   float: left;
@@ -115,7 +178,7 @@ main {
 }
 
 /* Références bibliques : rubrique en rouge */
-#messe-texte .ref {
+#messe .ref {
   color: var(--rouge);
   font-style: italic;
   font-size: 0.9rem;
@@ -123,34 +186,34 @@ main {
   text-align: left;
   margin: 1.4rem 0 0.2rem;
 }
-#messe-texte .ref::before { content: '— '; }
+#messe .ref::before { content: '— '; }
 
 /* Versets */
-#messe-texte .verset {
+#messe .verset {
   padding-left: 1.6rem;
   position: relative;
   text-align: left;
 }
-#messe-texte .v {
+#messe .v {
   position: absolute;
   left: 0;
   color: var(--rouge);
   font-weight: 600;
 }
 
-#messe-texte .gloria {
+#messe .gloria {
   color: var(--discret);
   font-style: italic;
   text-align: center;
   margin: 0.8rem 0;
 }
 
-#messe-texte .espace {
+#messe .espace {
   height: 1.1rem;
   margin: 0.6rem 0;
   position: relative;
 }
-#messe-texte .espace::after {
+#messe .espace::after {
   content: '';
   position: absolute;
   left: 35%; right: 35%; top: 50%;
@@ -158,9 +221,35 @@ main {
   background: var(--filet);
 }
 
+/* ---------- Bouton de langue, audio, erreur ---------- */
+.toggle-langue {
+  font: inherit;
+  font-size: 0.85rem;
+  background: none;
+  color: var(--rouge);
+  border: 1px solid var(--rouge);
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+}
+
+.audio audio {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.erreur {
+  border: 1px solid var(--rouge);
+  color: var(--rouge);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
 /* ---------- Petits écrans ---------- */
 @media (max-width: 480px) {
   body { font-size: 1.12rem; }
   main { padding: 1.4rem 0.9rem 3rem; }
-  #messe-texte .partie { padding: 1.1rem 1rem; border-radius: 12px; }
+  #messe .section { padding: 1.1rem 1rem; border-radius: 12px; }
 }

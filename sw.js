@@ -1,5 +1,4 @@
-
-const CACHE = 'routine-v5';          // incrémenter pour forcer la mise à jour
+const CACHE = 'routine-v6';
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json'];
 
 self.addEventListener('install', e => {
@@ -17,19 +16,19 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
-  const estMesse = url.pathname.includes('/messes/');
+  if (url.origin !== location.origin) return;   // laisse passer polices, Cloudflare...
 
   e.respondWith(
-    caches.match(e.request).then(r => {
-      if (r) return r;
-      return fetch(e.request).then(rep => {
-        if (estMesse && rep.ok) {
+    fetch(e.request)
+      .then(rep => {
+        if (rep.ok) {
           const copie = rep.clone();
           caches.open(CACHE).then(c => c.put(e.request, copie));
         }
         return rep;
-      });
-    })
+      })
+      .catch(() => caches.match(e.request))
   );
 });
