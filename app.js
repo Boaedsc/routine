@@ -1,10 +1,8 @@
 // app.js — affiche la ou les messes d'une date à partir du JSON produit par messe.py.
-// Vanilla JS, aucune dépendance.
 (function () {
   'use strict';
 
   var BASE_JSON = 'messes';
-  // Ordre d'affichage des sections de la messe (aligné sur PARTS de messe.py)
   var ORDRE = ['Introitus', 'Oratio', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
                'Evangelium', 'Offertorium', 'Secreta', 'Prefatio', 'Communio', 'Postcommunio'];
   var TITRES = {
@@ -27,6 +25,26 @@
     return d.getFullYear() + '-' + m + '-' + j;
   }
 
+  function texteOk(t) {
+    return typeof t === 'string' && t.trim().length > 0;
+  }
+
+  // Nettoie les marqueurs de rubrique du texte source :
+  // "!Ps 97:1" -> "Ps 97:1", "&Gloria" -> "Gloria Patri", "℣"/"v." gardés
+  function nettoyer(t) {
+    if (!texteOk(t)) return '';
+    return t
+      .split('\n')
+      .map(function (ligne) {
+        return ligne
+          .replace(/^\s*!\s*/, '')          // marque de rubrique en début de ligne
+          .replace(/^\s*&Gloria\s*$/, 'Gloria Patri')
+          .replace(/^\s*\$/, '');           // marqueur $ (ex. "$Qui tecum")
+      })
+      .join('\n')
+      .trim();
+  }
+
   function showError(message) {
     var zone = $('messe');
     zone.textContent = '';
@@ -37,16 +55,10 @@
     zone.appendChild(err);
   }
 
-  // Un texte est "utile" s'il est non vide après trim
-  function texteOk(t) {
-    return typeof t === 'string' && t.trim().length > 0;
-  }
-
-  // Construit un bloc de section : titre, incipit, mp3, puis texte(s)
   function renderSection(cle, fr, la) {
-    var frTexte = fr && texteOk(fr.texte) ? fr.texte : '';
-    var laTexte = la && texteOk(la.texte) ? la.texte : '';
-    if (!frTexte && !laTexte) return null; // rien à afficher
+    var frTexte = nettoyer(fr && fr.texte);
+    var laTexte = nettoyer(la && la.texte);
+    if (!frTexte && !laTexte) return null;
 
     var block = document.createElement('section');
     block.className = 'section';
@@ -56,29 +68,16 @@
     h.textContent = TITRES[cle] || cle;
     block.appendChild(h);
 
-    // Incipit : juste après le titre, dans la section
-    var inc = (fr && fr.incipit) || (la && la.incipit);
-    if (texteOk(inc)) {
+    // Incipit juste après le titre
+    var inc = nettoyer((fr && fr.incipit) || (la && la.incipit));
+    if (inc) {
       var pInc = document.createElement('p');
       pInc.className = 'incipit';
       pInc.textContent = inc;
       block.appendChild(pInc);
     }
 
-    // Audio : juste après l'incipit
-    var mp3 = (fr && fr.mp3) || (la && la.mp3);
-    if (texteOk(mp3)) {
-      var wrap = document.createElement('div');
-      wrap.className = 'audio';
-      var audio = document.createElement('audio');
-      audio.controls = true;
-      audio.preload = 'none';
-      audio.src = mp3;
-      wrap.appendChild(audio);
-      block.appendChild(wrap);
-    }
-
-    // Textes : français puis latin (si différent), en paragraphes distincts
+    // Textes
     if (frTexte) {
       var pFr = document.createElement('p');
       pFr.className = 'texte texte-fr';
@@ -92,6 +91,23 @@
       block.appendChild(pLa);
     }
 
+    // Audio en dernier, sous le texte, sans titre
+    var mp3 = (fr && fr.mp3) || (la && la.mp3);
+    if (texteOk(mp3)) {
+      var wrap = document.createElement('div');
+      wrap.className = 'audio';
+      var audio = document.createElement('audio');
+      audio.controls = true;
+      audio.preload = 'none';
+      audio.src = encodeURI(mp3);
+      audio.addEventListener('error', function () {
+        wrap.classList.add('audio-indispo');
+        wrap.setAttribute('title', 'Fichier audio introuvable : ' + mp3);
+      });
+      wrap.appendChild(audio);
+      block.appendChild(wrap);
+    }
+
     return block;
   }
 
@@ -100,8 +116,7 @@
     zone.textContent = '';
 
     var occ = messe.occurrence || {};
-    var titre = $('titre');
-    titre.textContent = occ.nom_sanctoral || occ.gagnant || '';
+    $('titre').textContent = occ.nom_sanctoral || occ.gagnant || '';
 
     var meta = [];
     if (occ.classe != null) meta.push('classe ' + occ.classe);
@@ -124,7 +139,6 @@
     if (rendu === 0) showError('Aucun texte disponible pour cette messe.');
   }
 
-  // Remplit le sélecteur et affiche la messe n° choisie
   function renderJour(data) {
     var messes = Array.isArray(data.messes) ? data.messes : [];
     var wrap = $('choix-messe-wrap');
@@ -162,9 +176,7 @@
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.json();
       })
-      .then(function (data) {
-        renderJour(data);
-      })
+      .then(renderJour)
       .catch(function (err) {
         $('titre').textContent = '';
         showError('Impossible de charger la messe du ' + dateStr

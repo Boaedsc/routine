@@ -166,7 +166,7 @@ main > h1::before {
   -webkit-hyphens: auto;
 }
 
-/* Lettrine sur le premier paragraphe de texte de chaque section */
+/* Lettrine : uniquement sur une lettre (pas sur "!", "℣", "℟", etc.) */
 #messe .section > p:not(.ref):not(.gloria):first-of-type::first-letter,
 #messe .texte::first-letter {
   font-family: 'Cinzel', serif;
@@ -237,6 +237,17 @@ main > h1::before {
 .audio audio {
   width: 100%;
   margin-top: 0.8rem;
+}
+
+/* Audio absent : on masque le lecteur et on affiche une mention discrète */
+.audio.audio-indispo audio {
+  display: none;
+}
+.audio.audio-indispo::after {
+  content: 'audio indisponible';
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--discret);
 }
 
 .erreur {
