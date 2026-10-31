@@ -1,17 +1,228 @@
 {
   "date": "2027-05-07",
-  "celebration": {
-    "nom": "Saint Stanislas",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-07",
-    "Tempora/Pasc5-5"
-  ],
-  "cles_jour": [
-    "05-07",
-    "Pasc5-5"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc5",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/05-07",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-07.txt",
+        "temporal": "Latin/Tempora/Pasc5-5.txt",
+        "sanctoral": "Latin/Sancti/05-07.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
+            "incipit": "Státuit ei Dóminus",
+            "mp3": "introitus_statuit-ei-dominus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, pro cujus honóre gloriósus Póntifex Stanisláus gládiis impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant auxílium, petitiónis suæ salutárem consequántur efféctum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc5-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja\n!Ps 109:4\nJurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": "Invéni David servum",
+            "mp3": "graduel_inveni-david.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Invéni David servum",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc5-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Communio",
+            "texte": "!Ps 88:36; 88:37-38\nSemel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in coelo fidélis. (Allelúja.)",
+            "incipit": "Semel jurávi in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30.\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)\n!Ps 131:1.\nSouvenez-vous, ô Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)",
+            "incipit": "Le Seigneur a",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, pro cujus honóre gloriósus Póntifex Stanisláus gládiis impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant auxílium, petitiónis suæ salutárem consequántur efféctum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc5-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n\n!Ps 109:4.\nV. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n!Ps 20:3-4.\nVous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc5-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nEn ce temps-là, Jésus se montra aux Onze eux-mêmes, pendant qu'ils étaient à table ; et il leur reprocha leur incrédulité et leur dureté de cœur, pour n'avoir pas cru ceux qui l'avaient vu ressuscité des morts. Puis il leur dit : « Allez dans le monde entier et prêchez l'Évangile à toute créature. Celui qui croira et sera baptisé sera sauvé ; celui qui ne croira pas sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru : en mon nom ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris. » Après leur avoir ainsi parlé, le Seigneur Jésus fut enlevé au ciel et s'assit à la droite de Dieu. Et eux s'en allèrent prêcher partout, le Seigneur travaillant avec eux et confirmant leur parole par les miracles qui l'accompagnaient.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc5-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Secreta",
+            "texte": "Dans votre bienveillance, Seigneur, acceptez les hosties qui vous sont dédiées par les mérites du bienheureux N., votre évêque et martyr, et faites qu’elles nous viennent continuellement en aide.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Communio",
+            "texte": "!Ps 88:36-38.\nJe l’ai juré une fois pour toutes par ma sainteté : sa postérité sub­sistera éternellement et son trône sera devant moi comme le soleil, comme la pleine lune il durera toujours ; et le témoin qui est au ciel est ﬁdèle.",
+            "incipit": "Je l’ai juré",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Postcommunio",
+            "texte": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2.txt",
+        "../horas/Latin/Commune/C2.txt",
+        "Francais/Sancti/05-07.txt",
+        "Francais/Tempora/Pasc5-5.txt",
+        "Latin/Sancti/05-07.txt",
+        "Latin/Tempora/Pasc5-5.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

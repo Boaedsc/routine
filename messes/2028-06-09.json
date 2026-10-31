@@ -1,68 +1,210 @@
 {
   "date": "2028-06-09",
-  "celebration": {
-    "nom": "Vendredi dans l'octave de Pentecôte",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc7-5"
-  ],
-  "cles_jour": [
-    "Pasc7-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc7",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 70:8 70:23\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.\n!Ps 70:1-2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me.\n&Gloria\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.",
-        "Francais": "!Ps 70:8 70:23\nv. Que ma bouche soit remplie de votre louange, alléluia, afin que je puisse chanter, alléluia ; mes lèvres se réjouiront tandis que je chanterai pour vous, alléluia, alléluia.\n!Ps 70:1-2\nEn vous, Seigneur, j'ai espéré, je ne serai pas confondu à jamais ; dans votre justice libérez-moi et sauvez-moi.\n&Gloria\nv. Que ma bouche soit remplie de votre louange, alléluia, afin que je puisse chanter, alléluia ; mes lèvres se réjouiront tandis que je chanterai pour vous, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc7-5",
+        "nom_sanctoral": "",
+        "classe": 6.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc7-5.txt",
+        "temporal": "Latin/Tempora/Pasc7-5.txt",
+        "sanctoral": "Latin/Sancti/06-09.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_repleatur-os-meum.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Joélis Prophétæ.\n!Joel 2:23-24; 2:26-27\nVoici ce que dit le Seigneur Dieu : Enfants de Sion, soyez dans l'allégresse et réjouissez-vous dans le Seigneur votre Dieu, car il vous a donné le docteur pour vous enseigner la justice, et il fera descendre pour vous l'ondée, pluie d'automne et pluie du printemps, comme autrefois. Vos aires se rempliront de froment, et les cuves regorgeront de vin et d'huile. Vous mangerez abondamment et vous serez rassasiés, et vous louerez le nom du Seigneur votre Dieu, qui a fait pour vous des merveilles ; et mon peuple ne sera plus jamais confondu. Et vous saurez que je suis au milieu d'Israël ! Moi, je suis le Seigneur votre Dieu, et il n'y en a point d'autre, et mon peuple ne sera plus jamais confondu, dit le Seigneur tout-puissant."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 70:8 70:23\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.\n!Ps 70:1-2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me.\n&Gloria\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.",
+            "incipit": "Repleátur os meum",
+            "mp3": "introitus_repleatur-os-meum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Oratio",
+            "texte": "Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut, Sancto Spíritu congregáta, hostíli nullátenus incursióne turbétur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Joélis Prophétæ\n!Joël 2:23-24; 2:26-27\nHæc dicit Dóminus Deus: Exsultáte, fílii Sion, et lætámini in Dómino, Deo vestro: quia dedit vobis doctórem justítiæ, et descéndere fáciet ad vos imbrem matutínum et serótinum, sicut in princípio. Et implebúntur áreæ fruménto et redundábunt torculária vino et óleo. Et comedétis vescéntes et saturabímini, et laudábitis nomen Dómini, Dei vestri, qui fecit mirabília vobíscum: et non confundétur pópulus meus in sempitérnum. Et sciétis, quia in médio Israël ego sum: et ego Dóminus, Deus vester, et non est ámplius: et non confundétur pópulus meus in ætérnum: ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 12:1\nO quam bonus et suávis est, Dómine, Spíritus tuus in nobis! Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. O",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 5:17-26\nIn illo témpore: Factum est in una diérum, et Jesus sedébat docens. Et erant pharisǽi sedéntes, et legis doctóres, qui vénerant ex omni castéllo Galilǽæ et Judǽæ et Jerúsalem: et virtus Dómini erat ad sanándum eos. Et ecce, viri portántes in lecto hóminem, qui erat paralýticus: et quærébant eum inférre, et pónere ante eum. Et non inveniéntes, qua parte illum inférrent præ turba, ascendérunt supra tectum, et per tégulas summisérunt eum cum lecto in médium ante Jesum. Quorum fidem ut vidit, dixit: Homo, remittúntur tibi peccáta tua. Et cœpérunt cogitáre scribæ et pharisǽi, dicéntes: Quis est hic, qui lóquitur blasphémias ? Quis potest dimíttere peccáta nisi solus Deus? Ut cognóvit autem Jesus cogitatiónes eórum, respóndens dixit ad illos: Quid cogitátis in córdibus vestris? Quid est facílius dícere: Dimittúntur tibi peccáta, an dícere: Surge et ámbula? Ut autem sciátis, quia Fílius hóminis habet potestátem in terra dimitténdi peccáta, ait paralýtico: Tibi dico, surge, tolle lectum tuum et vade in domum tuam. Et conféstim consúrgens coram illis, tulit lectum, in quo jacébat: et ábiit in domum suam, magníficans Deum. Et stupor apprehéndit omnes et magnificábant Deum. Et repléti sunt timóre, dicéntes: Quia vídimus mirabília hódie.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
+            "incipit": "Lauda, ánima mea,",
+            "mp3": "offertoire_lauda-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícia, Dómine, tuis obláta conspéctibus, ignis ille divínus absúmat, qui discipulórum Christi, Fílii tui, per Spíritum Sanctum corda succéndit.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:18\nNon vos relínquam órphanos: véniam ad vos íterum, allelúja: et gaudébit cor vestrum, allelúja.",
+            "incipit": "Non vos relínquam",
+            "mp3": "communion_non-vos-relinquam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc7-5.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut, quæ in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 70:8 70:23\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.\n!Ps 70:1-2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe me.\n&Gloria\nv. Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.",
+            "incipit": "Repleátur os meum",
+            "mp3": "introitus_repleatur-os-meum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Oratio",
+            "texte": "Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut, Sancto Spíritu congregáta, hostíli nullátenus incursióne turbétur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Joélis Prophétæ\n!Joël 2:23-24; 2:26-27\nHæc dicit Dóminus Deus: Exsultáte, fílii Sion, et lætámini in Dómino, Deo vestro: quia dedit vobis doctórem justítiæ, et descéndere fáciet ad vos imbrem matutínum et serótinum, sicut in princípio. Et implebúntur áreæ fruménto et redundábunt torculária vino et óleo. Et comedétis vescéntes et saturabímini, et laudábitis nomen Dómini, Dei vestri, qui fecit mirabília vobíscum: et non confundétur pópulus meus in sempitérnum. Et sciétis, quia in médio Israël ego sum: et ego Dóminus, Deus vester, et non est ámplius: et non confundétur pópulus meus in ætérnum: ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 12:1\nO quam bonus et suávis est, Dómine, Spíritus tuus in nobis! Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. O",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 5:17-26\nIn illo témpore: Factum est in una diérum, et Jesus sedébat docens. Et erant pharisǽi sedéntes, et legis doctóres, qui vénerant ex omni castéllo Galilǽæ et Judǽæ et Jerúsalem: et virtus Dómini erat ad sanándum eos. Et ecce, viri portántes in lecto hóminem, qui erat paralýticus: et quærébant eum inférre, et pónere ante eum. Et non inveniéntes, qua parte illum inférrent præ turba, ascendérunt supra tectum, et per tégulas summisérunt eum cum lecto in médium ante Jesum. Quorum fidem ut vidit, dixit: Homo, remittúntur tibi peccáta tua. Et cœpérunt cogitáre scribæ et pharisǽi, dicéntes: Quis est hic, qui lóquitur blasphémias ? Quis potest dimíttere peccáta nisi solus Deus? Ut cognóvit autem Jesus cogitatiónes eórum, respóndens dixit ad illos: Quid cogitátis in córdibus vestris? Quid est facílius dícere: Dimittúntur tibi peccáta, an dícere: Surge et ámbula? Ut autem sciátis, quia Fílius hóminis habet potestátem in terra dimitténdi peccáta, ait paralýtico: Tibi dico, surge, tolle lectum tuum et vade in domum tuam. Et conféstim consúrgens coram illis, tulit lectum, in quo jacébat: et ábiit in domum suam, magníficans Deum. Et stupor apprehéndit omnes et magnificábant Deum. Et repléti sunt timóre, dicéntes: Quia vídimus mirabília hódie.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
+            "incipit": "Lauda, ánima mea,",
+            "mp3": "offertoire_lauda-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícia, Dómine, tuis obláta conspéctibus, ignis ille divínus absúmat, qui discipulórum Christi, Fílii tui, per Spíritum Sanctum corda succéndit.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:18\nNon vos relínquam órphanos: véniam ad vos íterum, allelúja: et gaudébit cor vestrum, allelúja.",
+            "incipit": "Non vos relínquam",
+            "mp3": "communion_non-vos-relinquam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc7-5.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut, quæ in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 12:1\nO quam bonus et suávis est, Dómine, Spíritus tuus in nobis! Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
-        "Francais": "Allelúja, allelúja\n!Ps 12:1\nOh ! comme il est bon et suave, Seigneur, votre Esprit en nous ! Alléluia. (Hic genuflectitur)\nV. Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 5:17-26\nEn ce temps-là, il arriva qu'un jour Jésus était assis en enseignant. Et étaient assis également des Pharisiens et des docteurs de la Loi, venus de tous les bourgs de la Galilée, de la Judée et de Jérusalem, et la vertu du Seigneur le poussait à opérer des guérisons. Et voilà que des gens, portant sur un lit un homme qui était paralysé, cherchaient à le faire entrer et à le mettre devant lui. Et ne trouvant pas moyen de le faire entrer à cause de la foule, ils montèrent sur la terrasse et, à travers les tuiles, le descendirent avec la civière, au milieu devant Jésus. Voyant leur foi, il dit : « Homme, tes péchés te sont remis. » Les scribes et les Pharisiens se mirent à réfléchir, disant : « Qui est celui-ci qui profère des blasphèmes ? Qui peut remettre les péchés, sinon Dieu seul ? » Jésus, connaissant leurs pensées, prit la parole et leur dit : « Quelles pensées avez-vous en vous-mêmes ? Lequel est le plus facile, de dire : « Tes péchés te sont remis, » ou de dire : « Lève-toi et marche » ? Mais, afin que vous sachiez que le Fils de l'homme a, sur la terre, le pouvoir de remettre les péchés, il dit au paralytique : « Je te le dis, lève-toi, prends ta civière et va dans ta maison. » À l'instant, il se leva devant eux, prit le lit sur lequel il était couché, et s'en retourna dans sa maison en glorifiant Dieu. Et tous furent pris de stupeur et ils glorifiaient Dieu, et ils furent remplis de crainte, disant : « Nous avons vu aujourd'hui des choses merveilleuses. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
-        "Francais": "!Ps 145:2\nLoue, ô mon âme, le Seigneur ; je louerai le Seigneur toute ma vie ; je psalmodierai pour mon Dieu tant que je vivrai, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_lauda-anima-mea.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 14:18\nNon vos relínquam órphanos: véniam ad vos íterum, allelúja: et gaudébit cor vestrum, allelúja.",
-        "Francais": "!Joannes 14:18\nJe ne vous laisserai pas orphelins ; je reviendrai vers vous, alléluia, et votre cœur se réjouira, alléluia."
-      },
-      "audios": "Graduale Project/communion_non-vos-relinquam.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc7-5.txt",
+        "Latin/Tempora/Pasc7-5.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

@@ -1,68 +1,210 @@
 {
   "date": "2028-10-08",
-  "celebration": {
-    "nom": "18e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent18-0"
-  ],
-  "cles_jour": [
-    "Pent18-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent18",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Eccli 36:18\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël\n!Ps 121:1\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\n&Gloria\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël",
-        "Francais": "!Eccli 36:18\nv. Donnez la paix, Seigneur, à ceux qui espèrent en vous, afin que vos prophètes soient trouvés dignes de foi ; exaucez les prières de votre serviteur et de votre peuple Israël.\n!Ps 121:1\nJe me suis réjoui lorsqu'on m'a dit : Nous irons à la maison du Seigneur.\n&Gloria\nv. Donnez la paix, Seigneur, à ceux qui espèrent en vous, afin que vos prophètes soient trouvés dignes de foi ; exaucez les prières de votre serviteur et de votre peuple Israël."
+      "occurrence": {
+        "gagnant": "Tempora/Pent18-0",
+        "nom_sanctoral": "S. Brigittae Viduae",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent18-0.txt",
+        "temporal": "Latin/Tempora/Pent18-0.txt",
+        "sanctoral": "Latin/Sancti/10-08.txt",
+        "calendrier": "10-08",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_da-pacem-domine.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:4-8\nFrères, je rends à mon Dieu de continuelles actions de grâces à votre sujet, pour la grâce de Dieu qui vous a été faite en Jésus-Christ. Car par votre union avec lui, vous avez été comblés de toute sorte de richesses, en toute parole et en toute connaissance, le témoignage du Christ ayant été solidement établi parmi vous, de sorte que vous ne le cédez à personne en aucun don de grâce, attendant avec confiance la révélation de Notre-Seigneur Jésus-Christ. Il vous affermira aussi jusqu'à la fin, pour que vous soyez irréprochables, au jour de Notre-Seigneur Jésus-Christ."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 36:18\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël\n!Ps 121:1\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\n&Gloria\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël",
+            "incipit": "Da pacem, Dómine,",
+            "mp3": "introitus_da-pacem-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Oratio",
+            "texte": "Dírigat corda nostra, quǽsumus, Dómine, tuæ miseratiónis operátio: quia tibi sine te placére non póssumus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:4-8\nFratres: Grátias ago Deo meo semper pro vobis in grátia Dei, quæ data est vobis in Christo Jesu: quod in ómnibus dívites facti estis in illo, in omni verbo et in omni sciéntia: sicut testimónium Christi confirmátum est in vobis: ita ut nihil vobis desit in ulla grátia, exspectántibus revelatiónem Dómini nostri Jesu Christi, qui et confirmábit vos usque in finem sine crímine, in die advéntus Dómini nostri Jesu Christi.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 121:1; 121:7\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\nV. Fiat pax in virtúte tua: et abundántia in túrribus tuis. Allelúja, allelúja\n!Ps 101:16\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.",
+            "incipit": "Lætátus sum in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:1-8\nIn illo témpore: Ascéndens Jesus in navículam, transfretávit et venit in civitátem suam. Et ecce, offerébant ei paralýticum jacéntem in lecto. Et videns Jesus fidem illórum, dixit paralýtico: Confíde, fili, remittúntur tibi peccáta tua. Et ecce, quidam de scribis dixérunt intra se: Hic blasphémat. Et cum vidísset Jesus cogitatiónes eórum, dixit: Ut quid cogitátis mala in córdibus vestris? Quid est facílius dícere: Dimittúntur tibi peccáta tua; an dícere: Surge et ámbula? Ut autem sciátis, quia Fílius hóminis habet potestátem in terra dimitténdi peccáta, tunc ait paralýtico: Surge, tolle lectum tuum, et vade in domum tuam. Et surréxit et ábiit in domum suam. Vidéntes autem turbæ timuérunt, et glorificavérunt Deum, qui dedit potestátem talem homínibus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Offertorium",
+            "texte": "!Exodi 24:4; 24:5\nSanctificávit Móyses altáre Dómino, ófferens super illud holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in odórem suavitátis Dómino Deo, in conspéctu filiórum Israël.",
+            "incipit": "Sanctificávit Móyses altáre",
+            "mp3": "offertoire_sanctificavit-moyses.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui nos, per hujus sacrifícii veneránda commércia, uníus summæ divinitátis partícipes éfficis: præsta, quǽsumus; ut, sicut tuam cognóscimus veritátem, sic eam dignis móribus assequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus.",
+            "incipit": "Tóllite hóstias, et",
+            "mp3": "communion_tollite-hostias.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Postcommunio",
+            "texte": "Grátias tibi reférimus, Dómine, sacro múnere vegetáti: tuam misericórdiam deprecántes; ut dignos nos ejus participatióne perfícias.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 36:18\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël\n!Ps 121:1\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\n&Gloria\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël",
+            "incipit": "Da pacem, Dómine,",
+            "mp3": "introitus_da-pacem-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Oratio",
+            "texte": "Dírigat corda nostra, quǽsumus, Dómine, tuæ miseratiónis operátio: quia tibi sine te placére non póssumus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:4-8\nFratres: Grátias ago Deo meo semper pro vobis in grátia Dei, quæ data est vobis in Christo Jesu: quod in ómnibus dívites facti estis in illo, in omni verbo et in omni sciéntia: sicut testimónium Christi confirmátum est in vobis: ita ut nihil vobis desit in ulla grátia, exspectántibus revelatiónem Dómini nostri Jesu Christi, qui et confirmábit vos usque in finem sine crímine, in die advéntus Dómini nostri Jesu Christi.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 121:1; 121:7\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\nV. Fiat pax in virtúte tua: et abundántia in túrribus tuis. Allelúja, allelúja\n!Ps 101:16\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.",
+            "incipit": "Lætátus sum in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:1-8\nIn illo témpore: Ascéndens Jesus in navículam, transfretávit et venit in civitátem suam. Et ecce, offerébant ei paralýticum jacéntem in lecto. Et videns Jesus fidem illórum, dixit paralýtico: Confíde, fili, remittúntur tibi peccáta tua. Et ecce, quidam de scribis dixérunt intra se: Hic blasphémat. Et cum vidísset Jesus cogitatiónes eórum, dixit: Ut quid cogitátis mala in córdibus vestris? Quid est facílius dícere: Dimittúntur tibi peccáta tua; an dícere: Surge et ámbula? Ut autem sciátis, quia Fílius hóminis habet potestátem in terra dimitténdi peccáta, tunc ait paralýtico: Surge, tolle lectum tuum, et vade in domum tuam. Et surréxit et ábiit in domum suam. Vidéntes autem turbæ timuérunt, et glorificavérunt Deum, qui dedit potestátem talem homínibus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Offertorium",
+            "texte": "!Exodi 24:4; 24:5\nSanctificávit Móyses altáre Dómino, ófferens super illud holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in odórem suavitátis Dómino Deo, in conspéctu filiórum Israël.",
+            "incipit": "Sanctificávit Móyses altáre",
+            "mp3": "offertoire_sanctificavit-moyses.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui nos, per hujus sacrifícii veneránda commércia, uníus summæ divinitátis partícipes éfficis: præsta, quǽsumus; ut, sicut tuam cognóscimus veritátem, sic eam dignis móribus assequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus.",
+            "incipit": "Tóllite hóstias, et",
+            "mp3": "communion_tollite-hostias.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Postcommunio",
+            "texte": "Grátias tibi reférimus, Dómine, sacro múnere vegetáti: tuam misericórdiam deprecántes; ut dignos nos ejus participatióne perfícias.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 121:1; 121:7\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\nV. Fiat pax in virtúte tua: et abundántia in túrribus tuis. Allelúja, allelúja\n!Ps 101:16\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.",
-        "Francais": "!Ps 121:1; 121:7\nJe me suis réjoui lorsqu'on m'a dit : Nous irons à la maison du Seigneur.\nV. Que la paix soit dans tes fortifications, et l'abondance dans tes tours. Alléluia, alléluia.\n!Ps 101:16\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre votre gloire. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:1-8\nEn ce temps-là, étant monté dans la barque, Jésus fit la traversée et revint dans sa ville. Et voilà qu'on lui présentait un paralytique, étendu sur un lit. Jésus, voyant leur foi, dit au paralytique : « Aie confiance, mon fils, tes péchés te sont remis. » Et voici que quelques scribes se dirent en eux-mêmes : « Cet homme blasphème. » Jésus, ayant connaissance de leurs pensées, leur dit : « Pourquoi pensez-vous au mal dans vos cœurs ? Lequel est le plus aisé de dire : Tes péchés te sont remis; ou de dire : Lève-toi et marche ? Mais pour que vous sachiez que le Fils de l'homme a, sur la terre, le pouvoir de remettre les péchés : Lève-toi, dit-il alors au paralytique, prends ton lit, et va dans ta maison. » Et il se dressa et s'en retourna dans sa maison. À cette vue les foules furent saisies de crainte et glorifièrent Dieu d'avoir donné une telle puissance aux hommes."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Exodi 24:4; 24:5\nSanctificávit Móyses altáre Dómino, ófferens super illud holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in odórem suavitátis Dómino Deo, in conspéctu filiórum Israël.",
-        "Francais": "!Exodi 24:4; 24:5\nMoïse consacra un autel au Seigneur, offrant sur lui des holocaustes et immolant des victimes. Il fit le sacrifice du soir en odeur de suavité pour le Seigneur Dieu, en présence des fils d'Israël."
-      },
-      "audios": "Graduale Project/offertoire_sanctificavit-moyses.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus.",
-        "Francais": "!Ps 95:8-9\nPrenez des hosties et entrez dans ses parvis ; adorez le Seigneur dans son temple saint."
-      },
-      "audios": "Graduale Project/communion_tollite-hostias.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent18-0.txt",
+        "Latin/Tempora/Pent18-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

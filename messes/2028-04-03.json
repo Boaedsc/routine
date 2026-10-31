@@ -1,68 +1,210 @@
 {
   "date": "2028-04-03",
-  "celebration": {
-    "nom": "Lundi de la semaine de la Passion",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad5-1"
-  ],
-  "cles_jour": [
-    "Quad5-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad5",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 55:2\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.\n!Ps 55:3\nConculcavérunt me inimíci mei tota die: quóniam multi bellántes advérsum me.\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.",
-        "Francais": "!Ps 55:2\nv. Ayez pitié de moi, Seigneur, car l’homme m’a foulé aux pieds ; m’attaquant tout le jour, il m’a tourmenté.\n!Ps 55:3\nMes ennemis m’ont foulé aux pieds tout le jour ; car il y en a beaucoup qui me font la guerre.\nv. Ayez pitié de moi, Seigneur, car l’homme m’a foulé aux pieds ; m’attaquant tout le jour, il m’a tourmenté."
+      "occurrence": {
+        "gagnant": "Tempora/Quad5-1",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad5-1.txt",
+        "temporal": "Latin/Tempora/Quad5-1.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Jonæ Prophétæ.\n!Jonæ 3:1-10\nEn ces Jours-là, la parole du Seigneur fut adressée une seconde fois à Jonas, en ces termes : Lève-toi, et va à Ninive, la grande ville, et prêches-y la prédication que je t’ordonne. Jonas se leva et alla à Ninive, selon la parole du Seigneur ; or Ninive était une grande ville, de trois jours de marche. Et Jonas commença à entrer dans la ville pendant un jour de marche ; et il cria, en disant : Encore quarante jours, et Ninive sera détruite. Les Ninivites crurent à Dieu ; ils publièrent un jeûne et se couvrirent de sacs, depuis le plus grand jusqu’au plus petit. La chose parvint au roi de Ninive ; et il se leva de son trône, ôta son vêtement, se couvrit d’un sac, et s’assit sur la cendre. Il fit crier et publier dans Ninive cet ordre, comme venant de la bouche du roi et de ses princes : Que les hommes et les bêtes, les bœufs et les brebis ne goûtent rien ; qu’ils ne paissent point, et ne boivent pas d’eau. Que les hommes et les bêtes soient couverts de sacs, et qu’ils crient au Seigneur avec force ; et que chacun revienne de sa voie mauvaise, et de l’iniquité qui est dans ses mains. Qui sait si Dieu ne se retournera pas pour pardonner, s’il n’apaisera pas la fureur de sa colère, de sorte que nous ne périssions pas ? Dieu vit leurs œuvres, II vit qu’ils étalent revenus de leur voie mauvaise ; et le Seigneur Dieu eut pitié de son peuple."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 55:2\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.\n!Ps 55:3\nConculcavérunt me inimíci mei tota die: quóniam multi bellántes advérsum me.\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Oratio",
+            "texte": "Sanctífica, quǽsumus, Dómine, nostra jejúnia: et cunctárum nobis indulgéntiam propítius largíre culpárum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jonæ Prophétæ.\n!Jonæ 3:1-10\nIn diébus illis: Factum est verbum Dómini ad Jonam Prophétam secúndo, dicens: Surge, et vade in Níniven civitátem magnam: et prǽdica in ea prædicatiónem, quam ego loquor ad te. Et surréxit Jonas, et ábiit in Níniven juxta verbum Dómini. Et Nínive erat civitas magna itínere trium diérum. Et cœpit Jonas introíre in civitátem itínere diéi uníus: et clamávit et dixit: Adhuc quadragínta dies, et Nínive subvertétur. Et credidérunt viri Ninivítæ in Deum: et prædicavérunt jejúnium, et vestíti sunt saccis a majore usque ad minórem. Et pervénit verbum ad regem Nínive: et surréxit de sólio suo, et abjécit vestiméntum suum a se, et indútus est sacco, et sedit in cínere. Et clamávit et dixit in Nínive ex ore regis et príncipum ejus, dicens: Hómines et juménta et boves et pécora non gustent quidquam: nec pascántur, et aquam non bibant. Et operiántur saccis hómines et juménta, et clament ad Dóminum in fortitúdine, et convertátur vir a via sua mala, et ab iniquitáte, quæ est in mánibus eórum. Quis scit, si convertátur et ignóscat Deus: et revertátur a furóre iræ suæ, et non períbimus? Et vidit Deus ópera eórum, quia convérsi sunt de via sua mala: et misértus est pópulo suo Dóminus, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 53:4, 3\nDeus, exáudi oratiónem meam: áuribus pércipe verba oris mei.\nV. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Deus, exáudi oratiónem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 7:32-39\nIn illo témpore: Misérunt príncipes et pharisǽi minístros, ut apprehénderent Jesum. Dixit ergo eis Jesus: Adhuc módicum tempus vobíscum sum: et vado ad eum, qui me misit. Quærétis me, et non inveniétis: et ubi ego sum, vos non potéstis veníre. Dixérunt ergo Judǽi ad semetípsos: Quo hic itúrus est, quia non inveniémus eum? numquid in dispersiónem géntium itúrus est, et doctúrus gentes? Quis est hic sermo, quem dixit: Quærétis me, et non inveniétis: et ubi sum ego, vos non potéstis veníre? In novíssimo autem die magno festivitátis stabat Jesus, et clamábat, dicens: Si quis sitit, véniat ad me et bibat. Qui credit in me, sicut dicit Scriptúra, flúmina de ventre ejus fluent aquæ vivæ. Hoc autem dixit de Spíritu, quem acceptúri erant credéntes in eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
+            "incipit": "Dómine, convértere, et",
+            "mp3": "offertoire_domine-convertere.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Secreta",
+            "texte": "Concéde nobis, Dómine, Deus noster: ut hæc hóstia salutáris et nostrórum fiat purgátio delictórum, et tuæ propitiátio majestátis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 23:10\nDóminus virtútum ipse est Rex glóriæ.",
+            "incipit": "Dóminus virtútum ipse",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad5-1.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménti tui, quǽsumus, Dómine, participátio salutáris, et purificatiónem nobis tríbuat, et medélam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 55:2\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.\n!Ps 55:3\nConculcavérunt me inimíci mei tota die: quóniam multi bellántes advérsum me.\nv. Miserére mihi, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Oratio",
+            "texte": "Sanctífica, quǽsumus, Dómine, nostra jejúnia: et cunctárum nobis indulgéntiam propítius largíre culpárum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jonæ Prophétæ.\n!Jonæ 3:1-10\nIn diébus illis: Factum est verbum Dómini ad Jonam Prophétam secúndo, dicens: Surge, et vade in Níniven civitátem magnam: et prǽdica in ea prædicatiónem, quam ego loquor ad te. Et surréxit Jonas, et ábiit in Níniven juxta verbum Dómini. Et Nínive erat civitas magna itínere trium diérum. Et cœpit Jonas introíre in civitátem itínere diéi uníus: et clamávit et dixit: Adhuc quadragínta dies, et Nínive subvertétur. Et credidérunt viri Ninivítæ in Deum: et prædicavérunt jejúnium, et vestíti sunt saccis a majore usque ad minórem. Et pervénit verbum ad regem Nínive: et surréxit de sólio suo, et abjécit vestiméntum suum a se, et indútus est sacco, et sedit in cínere. Et clamávit et dixit in Nínive ex ore regis et príncipum ejus, dicens: Hómines et juménta et boves et pécora non gustent quidquam: nec pascántur, et aquam non bibant. Et operiántur saccis hómines et juménta, et clament ad Dóminum in fortitúdine, et convertátur vir a via sua mala, et ab iniquitáte, quæ est in mánibus eórum. Quis scit, si convertátur et ignóscat Deus: et revertátur a furóre iræ suæ, et non períbimus? Et vidit Deus ópera eórum, quia convérsi sunt de via sua mala: et misértus est pópulo suo Dóminus, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 53:4, 3\nDeus, exáudi oratiónem meam: áuribus pércipe verba oris mei.\nV. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Deus, exáudi oratiónem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 7:32-39\nIn illo témpore: Misérunt príncipes et pharisǽi minístros, ut apprehénderent Jesum. Dixit ergo eis Jesus: Adhuc módicum tempus vobíscum sum: et vado ad eum, qui me misit. Quærétis me, et non inveniétis: et ubi ego sum, vos non potéstis veníre. Dixérunt ergo Judǽi ad semetípsos: Quo hic itúrus est, quia non inveniémus eum? numquid in dispersiónem géntium itúrus est, et doctúrus gentes? Quis est hic sermo, quem dixit: Quærétis me, et non inveniétis: et ubi sum ego, vos non potéstis veníre? In novíssimo autem die magno festivitátis stabat Jesus, et clamábat, dicens: Si quis sitit, véniat ad me et bibat. Qui credit in me, sicut dicit Scriptúra, flúmina de ventre ejus fluent aquæ vivæ. Hoc autem dixit de Spíritu, quem acceptúri erant credéntes in eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
+            "incipit": "Dómine, convértere, et",
+            "mp3": "offertoire_domine-convertere.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Secreta",
+            "texte": "Concéde nobis, Dómine, Deus noster: ut hæc hóstia salutáris et nostrórum fiat purgátio delictórum, et tuæ propitiátio majestátis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 23:10\nDóminus virtútum ipse est Rex glóriæ.",
+            "incipit": "Dóminus virtútum ipse",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad5-1.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménti tui, quǽsumus, Dómine, participátio salutáris, et purificatiónem nobis tríbuat, et medélam.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 53:4, 3\nDeus, exáudi oratiónem meam: áuribus pércipe verba oris mei.\nV. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
-        "Francais": "!Ps 53:4, 3\nÔ Dieu, exaucez ma prière ; prêtez l’oreille aux paroles de ma bouche.\nV. Ô Dieu, sauvez-moi par votre nom, et par votre puissance, délivrez-moi.\n_\n!Tractus\n!Ps 102:10\nSeigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités.\n!Ps 78:8-9. \nV. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux)\nV. Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 7:32-39\nEn ce temps-là les Princes et les Pharisiens envoyèrent des agents pour arrêter Jésus. Jésus leur dit donc : Je suis encore avec vous pour un peu de temps, puis je m’en vais à celui qui m’a envoyé. Vous me chercherez, et vous ne me trouverez pas ; et là où je serai, vous ne pouvez venir. Les Juifs dirent donc entre eux : Où ira-t-il, que nous ne le trouverons pas ? Ira-t-il vers ceux qui sont dispersés parmi les Gentils, et instruira-t-il les Gentils ? Que signifie cette parole qu’il a dite : Vous me chercherez, et vous ne me trouverez pas, et là où je serai, vous ne pouvez venir ? Le dernier Jour, qui est le plus grand de la fête, Jésus se tenait debout, et criait, en disant : Si quelqu’un a soif, qu’il vienne à moi, et qu’il boive. Celui qui croît en moi, des fleuves d’eau vive couleront de son sein, comme dit l’Écriture. Il dit cela de l’Esprit que devaient recevoir ceux qui croyaient en lui."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
-        "Francais": "!Ps 6:5\nRevenez, Seigneur, et délivrez mon âme : sauvez-moi à cause de votre miséricorde."
-      },
-      "audios": "Graduale Project/offertoire_domine-convertere.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 23:10\nDóminus virtútum ipse est Rex glóriæ.",
-        "Francais": "!Ps 23:10\nLe Seigneur des armées est lui-même le roi de gloire."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad5-1.txt",
+        "Latin/Tempora/Quad5-1.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

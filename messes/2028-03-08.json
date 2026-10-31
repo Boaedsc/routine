@@ -1,70 +1,228 @@
 {
   "date": "2028-03-08",
-  "celebration": {
-    "nom": "Saint Jean de Dieu",
-    "classe": 3,
-    "note": "(temporal : Mercredi de la 1e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/03-08",
-    "Tempora/Quad1-3"
-  ],
-  "cles_jour": [
-    "03-08",
-    "Quad1-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad1",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 24:6; 24:3; 24:22\nv. Reminíscere miseratiónum tuárum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. Reminíscere miseratiónum tuárum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.",
-        "Francais": "!Ps 24:6; 24:3; 24:22\nv. Souvenez-vous de vos bontés, Seigneur, et de votre miséricorde qui datent des siècles passés. Que nos ennemis ne triomphent jamais de nous. Dieu d’Israël, délivrez-nous de toutes nos tribulations.\n!Ps 24:1-2\nVers vous, Seigneur, j’ai élevé mon âme ; mon Dieu, je mets ma confiance en vous, que je n’aie pas à rougir.\n&Gloria\nv. Souvenez-vous de vos bontés, Seigneur, et de votre miséricorde qui datent des siècles passés. Que nos ennemis ne triomphent jamais de nous. Dieu d’Israël, délivrez-nous de toutes nos tribulations."
+      "occurrence": {
+        "gagnant": "Sancti/03-08",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/03-08.txt",
+        "temporal": "Latin/Tempora/Quad1-3.txt",
+        "sanctoral": "Latin/Sancti/03-08.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_reminiscere.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Regum\n!3 Reg 19:3-8\nEn ces jours-là, Élie, étant arrivé à Bersabée, qui appartient à Juda, y laissa son serviteur. Pour lui, il alla dans le désert l’espace d’une journée de marche ; arrivé là, il s’assit sous un genêt et demanda pour lui la mort, en disant : « C’est assez ! Maintenant, Seigneur, prends ma vie, car je ne suis pas meilleur que mes pères ! » Il se coucha et s’endormit sous le genêt. Et voici qu’un ange le toucha et lui dit : « Lève-toi, mange. » Il regarda, et voici qu’il y avait à son chevet un gâteau cuit sur des pierres chauffées et une cruche d’eau. Après avoir mangé et bu, il se recoucha. L’ange du Seigneur vint une seconde fois, le toucha et dit : « Lève-toi, mange, car le chemin est trop long pour toi. » Il se leva, mangea et but, et, avec la force que lui donna cette nourriture, il marcha quarante jours et quarante nuits jusqu’à la montagne de Dieu, à Horeb."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/03-08.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad1-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nIn diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi púerum suum, et perréxit in desértum, viam uníus diéi. Cumque venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut morerétur, et ait: Súfficit mihi, Dómine, tolle ánimam meam: neque enim mélior sum quam patres mei. Projecítque se, et obdormívit in umbra juníperi: et ecce, Angelus Dómini tétigit eum, et dixit illi: Surge et cómede. Respéxit, et ecce ad caput suum subcinerícius panis, et vas aquæ: comédit ergo et bibit, et rursum obdormívit. Reversúsque est Angelus Dómini secundo, et tétigit eum, dixítque illi: Surge, cómede: grandis enim tibi restat via. Qui cum surrexísset, comédit et bibit, et ambulávit in fortitúdine cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad montem Dei Horeb.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/03-08.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad1-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 12:38-50\nIn illo témpore: Respondérunt Jesu quidam de scribis et pharisǽis, dicéntes: Magíster, vólumus a te signum vidére. Qui respóndens, ait illis: Generátio mala et adúltera signum quærit: et signum non dábitur ei, nisi signum Jonæ Prophétæ. Sicut enim fuit Jonas in ventre ceti tribus diébus et tribus nóctibus: sic erit Fílius hóminis in corde terræ tribus diébus et tribus nóctibus. Viri Ninivítæ surgent in judício cum generatióne ista, et condemnábunt eam: quia pæniténtiam egérunt in prædicatióne Jonæ. Et ecce plus quam Jonas hic. Regína Austri surget in judício cum generatióne ista, et condemnábit eam: quia venit a fínibus terræ audire sapiéntiam Salomónis. Et ecce plus quam Sálomon hic. Cum autem immúndus spíritus exíerit ab hómine, ámbulat per loca árida, quærens réquiem, et non invénit. Tunc dicit: Revértar in domum meam, unde exívi. Et véniens invénit eam vacántem, scopis mundátam, et ornátam. Tunc vadit, et assúmit septem álios spíritus secum nequióres se, et intrántes hábitant ibi: et fiunt novíssima hóminis illíus pejóra prióribus. Sic erit et generatióni huic péssimæ. Adhuc eo loquénte ad turbas, ecce, Mater ejus et fratres stabant foris, quæréntes loqui ei. Dixit autem ei quidam: Ecce, mater tua et fratres tui foris stant, quæréntes te. At ipse respóndens dicénti sibi, ait: Quæ est mater mea, et qui sunt fratres mei? Et exténdens manum in discípulos suos, dixit: Ecce mater mea et fratres mei. Quicúmque enim fécerit voluntátem Patris mei, qui in cœlis est: ipse meus frater et soror et mater est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/03-08.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/03-08.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad1-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nIn diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi púerum suum, et perréxit in desértum, viam uníus diéi. Cumque venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut morerétur, et ait: Súfficit mihi, Dómine, tolle ánimam meam: neque enim mélior sum quam patres mei. Projecítque se, et obdormívit in umbra juníperi: et ecce, Angelus Dómini tétigit eum, et dixit illi: Surge et cómede. Respéxit, et ecce ad caput suum subcinerícius panis, et vas aquæ: comédit ergo et bibit, et rursum obdormívit. Reversúsque est Angelus Dómini secundo, et tétigit eum, dixítque illi: Surge, cómede: grandis enim tibi restat via. Qui cum surrexísset, comédit et bibit, et ambulávit in fortitúdine cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad montem Dei Horeb.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/03-08.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad1-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 12:38-50\nIn illo témpore: Respondérunt Jesu quidam de scribis et pharisǽis, dicéntes: Magíster, vólumus a te signum vidére. Qui respóndens, ait illis: Generátio mala et adúltera signum quærit: et signum non dábitur ei, nisi signum Jonæ Prophétæ. Sicut enim fuit Jonas in ventre ceti tribus diébus et tribus nóctibus: sic erit Fílius hóminis in corde terræ tribus diébus et tribus nóctibus. Viri Ninivítæ surgent in judício cum generatióne ista, et condemnábunt eam: quia pæniténtiam egérunt in prædicatióne Jonæ. Et ecce plus quam Jonas hic. Regína Austri surget in judício cum generatióne ista, et condemnábit eam: quia venit a fínibus terræ audire sapiéntiam Salomónis. Et ecce plus quam Sálomon hic. Cum autem immúndus spíritus exíerit ab hómine, ámbulat per loca árida, quærens réquiem, et non invénit. Tunc dicit: Revértar in domum meam, unde exívi. Et véniens invénit eam vacántem, scopis mundátam, et ornátam. Tunc vadit, et assúmit septem álios spíritus secum nequióres se, et intrántes hábitant ibi: et fiunt novíssima hóminis illíus pejóra prióribus. Sic erit et generatióni huic péssimæ. Adhuc eo loquénte ad turbas, ecce, Mater ejus et fratres stabant foris, quæréntes loqui ei. Dixit autem ei quidam: Ecce, mater tua et fratres tui foris stant, quæréntes te. At ipse respóndens dicénti sibi, ait: Quæ est mater mea, et qui sunt fratres mei? Et exténdens manum in discípulos suos, dixit: Ecce mater mea et fratres mei. Quicúmque enim fécerit voluntátem Patris mei, qui in cœlis est: ipse meus frater et soror et mater est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad1-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:47; 118:48\nJe méditerai sur vos commandements, car je les aime, et je lèverai mes mains vers vos commandements que j’aime.",
+            "incipit": "Je méditerai sur",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/03-08.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad1-3.txt",
+            "section": "Communio",
+            "texte": "!Ps 5:2-4\nComprenez mon cri. Soyez attentifs à la voix de ma prière, mon roi et mon Dieu, car c’est vous que je prierai, Seigneur.",
+            "incipit": "Comprenez mon cri.",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 24:17; 24:18; 24:1-4\nDe necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.\nV. Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei.\nV. Etenim univérsi, qui te exspéctant, non confundéntur: confundántur omnes faciéntes vana.",
-        "Francais": "!Ps 24:17; 24:18; 24:1-4\nTirez-moi de mes angoisses, Seigneur, voyez mon humiliation et ma peine et remettez-moi tous mes péchés.\nV. Vers vous, Seigneur, j’ai élevé mon âme ; mon Dieu, je mets ma confiance en vous, que je n’aie pas à rougir ; et que mes ennemis ne se moquent pas de moi.\nV. Car tous ceux qui vous attendent ne seront pas confondus. Qu’ils soient confondus tous ceux qui commettent l’iniquité sans raison."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:34-46.\nEn ce temps-là, les pharisiens s’approchèrent de Jésus, et l’un d’eux, docteur de la loi, lui demanda pour le tenter : Maître, quel est le plus grand commandement de la loi ? Jésus lui dit : Tu aimeras le Seigneur ton Dieu de tout ton cœur, et de toute ton âme, et de tout ton esprit. C’est là le plus grand et le premier commandement. Mais le second lui est semblable : Tu aimeras ton prochain comme toi-même. Dans ces deux commandements sont renfermés la loi et les prophètes. Les pharisiens étant rassemblés, Jésus les interrogea, en disant : Que vous semble du Christ ? De qui est-il fils ? Ils lui répondirent de David. Il leur dit : Comment donc David 1’appelle-t-il en esprit son Seigneur, en disant : Le Seigneur a dit à mon Seigneur : Assieds-toi à ma droite, jusqu’à ce que j’aie fait de tes ennemis l’escabeau de tes pieds ? Si donc David l’appelle son Seigneur, comment est-il son fils ? Et personne ne pouvait rien lui répondre, et, depuis ce jour, nul n’osa plus lui proposer des questions."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 118:47; 118:48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.",
-        "Francais": "!Ps 118:47; 118:48\nJe méditerai sur vos commandements, car je les aime, et je lèverai mes mains vers vos commandements que j’aime."
-      },
-      "audios": "Graduale Project/offertoire_meditabor.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 5:2-4\nIntéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.",
-        "Francais": "!Ps 5:2-4\nComprenez mon cri. Soyez attentifs à la voix de ma prière, mon roi et mon Dieu, car c’est vous que je prierai, Seigneur."
-      },
-      "audios": "Graduale Project/communion_intellege-clamorem-meum.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/03-08.txt",
+        "Francais/Tempora/Quad1-3.txt",
+        "Latin/Sancti/03-08.txt",
+        "Latin/Tempora/Quad1-3.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

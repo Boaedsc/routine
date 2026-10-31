@@ -1,70 +1,224 @@
 {
   "date": "2027-05-05",
-  "celebration": {
-    "nom": "Saint Pie V",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-05",
-    "Tempora/Pasc5-3"
-  ],
-  "cles_jour": [
-    "05-05",
-    "Pasc5-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc5",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Is 48:20\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja",
-        "Francais": "!Is 48:20\nv. Avec des cris de joie, annoncez-le, et qu'on l'entende, alléluia ; faites-le savoir jusqu'aux extrémités de la terre : le Seigneur a libéré son peuple, alléluia, alléluia.\n!Ps 65:1-2\nJubilez pour Dieu, toute la terre, psalmodiez pour son Nom ; donnez de l'éclat à sa louange.\n&Gloria\nv. Avec des cris de joie, annoncez-le, et qu'on l'entende, alléluia ; faites-le savoir jusqu'aux extrémités de la terre : le Seigneur a libéré son peuple, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc5-3",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc5-3.txt",
+        "temporal": "Latin/Tempora/Pasc5-3.txt",
+        "sanctoral": "Latin/Sancti/05-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Eph 4:7-13\nFrères, à chacun de nous la grâce a été donnée selon la mesure du don du Christ. C'est pourquoi il est dit : Il est monté dans les hauteurs, il a emmené des captifs, et il a fait des largesses aux hommes. Or que signifie : « Il est monté », sinon qu'il était descendu d'abord dans les régions inférieures de la terre ? Celui qui est descendu est celui-là même qui est monté au-dessus de tous les cieux, afin de tout remplir. C'est lui aussi qui a fait les uns apôtres, d'autres prophètes, d'autres évangélistes, d'autres pasteurs et docteurs, en vue du perfectionnement des saints, pour l'œuvre du ministère, pour l'édification du corps du Christ, jusqu'à ce que nous soyons tous parvenus à l'unité de la foi et de la connaissance du Fils de Dieu, à l'état d'homme fait, à la mesure de la stature parfaite du Christ."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Introitus",
+            "texte": "!Is 48:20\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja",
+            "incipit": "Vocem jucunditátis annuntiáte,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Oratio",
+            "texte": "Deus, a quo bona cuncta procédunt, largíre supplícibus tuis: ut cogitémus, te inspiránte, quæ recta sunt; et, te gubernánte, eadem faciámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Eph 4:7-13\nFratres: Unicuíque nostrum data est grátia secúndum mensúram donatiónis Christi. Propter quod dicit: Ascéndens in altum, captívam duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid est, nisi quia et descéndit primum in inferióres partes terræ? Qui descéndit, ipse est et qui ascéndit super omnes cœlos, ut impléret ómnia. Et ipse dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres, ad consummatiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi: donec occurrámus omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.\n!Joannes 16:28\nV. Exívi a Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.",
+            "incipit": "Allelúja, allelúja. Surréxit",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 17:1-11\nIn illo témpore: Sublevátis Jesus óculis in cœlum, dixit: Pater, venit hora, clarífica Fílium tuum, ut Fílius tuus claríficet te: sicut dedísti ei potestátem omnis carnis, ut omne, quod dedísti ei, det eis vitam ætérnam. Hæc est autem vita ætérna: ut cognóscant te, solum Deum verum, et quem misísti Jesum Christum. Ego te clarificávi super terram: opus consummávi, quod dedísti mihi, ut fáciam: et nunc clarífica me tu, Pater, apud temetípsum, claritáte, quam hábui, priúsquam mundus esset, apud te. Manifestávi nomen tuum homínibus, quos dedísti mihi de mundo. Tui erant, et mihi eos dedísti; et sermónem tuum servavérunt. Nunc cognovérunt, quia ómnia, quæ dedísti mihi, abs te sunt: quia verba, quæ dedísti mihi, dedi eis: et ipsi accepérunt, et cognovérunt vere, quia a te exivi, et credidérunt, quia tu me misísti. Ego pro eis rogo, non pro mundo rogo, sed pro his, quos dedísti mihi: quia tui sunt: et mea ómnia tua sunt, et tua mea sunt: et clarificátus sum in eis. Et jam non sum in mundo, et hi in mundo sunt, et ego ad te vénio.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:8-9; 65:20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam et misericórdiam suam a me, allelúja.",
+            "incipit": "Benedícite, gentes, Dóminum,",
+            "mp3": "offertoire_benedicite-gentes.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut, per hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc0-2.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Communio",
+            "texte": "!Ps 95:2.\nCantáte Dómino, allelúja: cantáte Dómino et benedícite nomen ejus: bene nuntiáte de die in diem salutáre ejus, allelúja, allelúja.",
+            "incipit": "Cantáte Dómino, allelúja:",
+            "mp3": "communion_cantate-domino.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc5-3.txt",
+            "section": "Postcommunio",
+            "texte": "Tríbue nobis, Dómine, cœléstis mensæ virtúte satiátis: et desideráre, quæ recta sunt, et desideráta percípere.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Introitus",
+            "texte": "!Is 48:20\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja",
+            "incipit": "Vocem jucunditátis annuntiáte,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Oratio",
+            "texte": "Deus, a quo bona cuncta procédunt, largíre supplícibus tuis: ut cogitémus, te inspiránte, quæ recta sunt; et, te gubernánte, eadem faciámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Eph 4:7-13\nFratres: Unicuíque nostrum data est grátia secúndum mensúram donatiónis Christi. Propter quod dicit: Ascéndens in altum, captívam duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid est, nisi quia et descéndit primum in inferióres partes terræ? Qui descéndit, ipse est et qui ascéndit super omnes cœlos, ut impléret ómnia. Et ipse dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres, ad consummatiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi: donec occurrámus omnes in unitátem fídei, et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.\n!Joannes 16:28\nV. Exívi a Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.",
+            "incipit": "Allelúja, allelúja. Surréxit",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 17:1-11\nIn illo témpore: Sublevátis Jesus óculis in cœlum, dixit: Pater, venit hora, clarífica Fílium tuum, ut Fílius tuus claríficet te: sicut dedísti ei potestátem omnis carnis, ut omne, quod dedísti ei, det eis vitam ætérnam. Hæc est autem vita ætérna: ut cognóscant te, solum Deum verum, et quem misísti Jesum Christum. Ego te clarificávi super terram: opus consummávi, quod dedísti mihi, ut fáciam: et nunc clarífica me tu, Pater, apud temetípsum, claritáte, quam hábui, priúsquam mundus esset, apud te. Manifestávi nomen tuum homínibus, quos dedísti mihi de mundo. Tui erant, et mihi eos dedísti; et sermónem tuum servavérunt. Nunc cognovérunt, quia ómnia, quæ dedísti mihi, abs te sunt: quia verba, quæ dedísti mihi, dedi eis: et ipsi accepérunt, et cognovérunt vere, quia a te exivi, et credidérunt, quia tu me misísti. Ego pro eis rogo, non pro mundo rogo, sed pro his, quos dedísti mihi: quia tui sunt: et mea ómnia tua sunt, et tua mea sunt: et clarificátus sum in eis. Et jam non sum in mundo, et hi in mundo sunt, et ego ad te vénio.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:8-9; 65:20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam et misericórdiam suam a me, allelúja.",
+            "incipit": "Benedícite, gentes, Dóminum,",
+            "mp3": "offertoire_benedicite-gentes.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Secreta",
+            "texte": "Accueillez, Seigneur, les prières des fidèles avec l'offrande de ce sacrifice, afin qu'en vous rendant ces devoirs de pieuse fidélité, nous parvenions à la gloire du ciel.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc0-2.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Communio",
+            "texte": "!Ps 95:2.\nCantáte Dómino, allelúja: cantáte Dómino et benedícite nomen ejus: bene nuntiáte de die in diem salutáre ejus, allelúja, allelúja.",
+            "incipit": "Cantáte Dómino, allelúja:",
+            "mp3": "communion_cantate-domino.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc5-3.txt",
+            "section": "Postcommunio",
+            "texte": "Tríbue nobis, Dómine, cœléstis mensæ virtúte satiátis: et desideráre, quæ recta sunt, et desideráta percípere.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\nV. Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.\n!Joannes 16:28\nV. Exívi a Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.",
-        "Francais": "Allelúja, allelúja.\nV. Le Christ est ressuscité et a fait briller sa lumière sur nous, qu'il a rachetés par son Sang. Alléluia.\n!Joannes 16:28\nJe suis sorti du Père, et je suis venu dans le monde ; de nouveau je quitte le monde et je vais au Père. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 17:1-11\nEn ce temps-là, Jésus leva les yeux au ciel et dit : « Père, l'heure est venue, glorifiez votre Fils, afin que votre Fils vous glorifie, puisque vous lui avez donné autorité sur toute chair, afin qu'à tous ceux que vous lui avez donnés, il donne la vie éternelle. Or, la vie éternelle, c'est qu'ils vous connaissent, vous, le seul vrai Dieu, et celui que vous avez envoyé, Jésus-Christ. Je vous ai glorifié sur la terre, j'ai achevé l'œuvre que vous m'avez donnée à faire. Et maintenant, Père, glorifiez-moi auprès de vous, de la gloire que j'avais auprès de vous, avant que le monde fût. J'ai manifesté votre nom aux hommes que vous m'avez donnés du milieu du monde. Ils étaient à vous, et vous me les avez donnés : et ils ont gardé votre parole. Ils savent à présent que tout ce que vous m'avez donné vient de vous ; car les paroles que vous m'avez données, je les leur ai données. Et ils les ont reçues, et ils ont vraiment reconnu que je suis sorti de vous, et ils ont cru que c'est vous qui m'avez envoyé. C'est pour eux que je prie. Je ne prie pas pour le monde, mais pour ceux que vous m'avez donnés ; parce qu'ils sont à vous. Car tout ce qui est à moi est à vous, et tout ce qui est à vous est à moi, et que je suis glorifié en eux. Je ne suis plus dans le monde. Pour eux, ils sont dans le monde, et moi, je vais à vous."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 65:8-9; 65:20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam et misericórdiam suam a me, allelúja.\n\n[Secreta Mariæ](sed non rubrica 1960)\n!de S. Maria.\n@Commune/C10:Secreta",
-        "Francais": "!Ps 65:8-9; 65:20\nPeuples, bénissez le Seigneur notre Dieu, et faites retentir sa louange. Il a gardé mon âme en vie, et n'a pas laissé mes pieds trébucher. Béni soit le Seigneur, lui qui n'a pas repoussé ma prière ni détourné de moi sa miséricorde, alléluia.\n\n[Secreta Mariae]\n!de S. Maria.\nPar votre propitiation, Seigneur, et par l'intercession de la bienheureuse Marie toujours vierge, que cette offrande nous obtienne la prospérité et la paix pour le temps présent et pour l'éternité.\n$Per Dominum"
-      },
-      "audios": "Graduale Project/offertoire_benedicite-gentes.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 95:2.\nCantáte Dómino, allelúja: cantáte Dómino et benedícite nomen ejus: bene nuntiáte de die in diem salutáre ejus, allelúja, allelúja.\n\n[Postcommunio Mariæ] (sed non rubrica 1960)\n@Commune/C10:Postcommunio",
-        "Francais": "!Ps 95:2.\nChantez pour le Seigneur, alléluia ; chantez pour le Seigneur et bénissez son Nom. Jour après jour, annoncez son salut, alléluia, alléluia.\n\n[Postcommunio Mariae]\nAyant reçu les secours de notre salut, nous vous en prions, Seigneur : donnez-nous d'être protégés en tout lieu par le patronage de la bienheureuse Marie toujours vierge, puisque c'est en son honneur que nous avons offert ces dons à votre Majesté.\n$Per Dominum"
-      },
-      "audios": "Graduale Project/communion_cantate-domino.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc5-3.txt",
+        "Latin/Tempora/Pasc5-3.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

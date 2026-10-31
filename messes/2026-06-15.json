@@ -1,70 +1,242 @@
 {
   "date": "2026-06-15",
-  "celebration": {
-    "nom": "Saints Vit, Modeste et Crescence",
-    "classe": 4,
-    "note": "(temporal : Lundi de la 3e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/06-15",
-    "Tempora/Pent03-1"
-  ],
-  "cles_jour": [
-    "06-15",
-    "Pent03-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent03",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 33:20-21\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo. \n&Gloria\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.",
-        "Francais": "!Ps 33:20-21\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps ; toujours sa louange sera dans ma bouche.\n&Gloria\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé."
+      "occurrence": {
+        "gagnant": "Sancti/06-15",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-15.txt",
+        "temporal": "Latin/Tempora/Pent03-1Feria.txt",
+        "sanctoral": "Latin/Sancti/06-15.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pent03-1Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Sap 3:1-8\nLes âmes des justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas. Aux yeux des insensés ils ont paru mourir, et leur sortie de ce monde a été regardée comme une affliction, et leur séparation d’avec nous comme un anéantissement, et cependant ils sont en paix ; et s’ils ont souffert des tourments devant les hommes, leur espérance est pleine d’immortalité. Leur tribulation a été légère, et leur récompense sera grande, car Dieu les a éprouvés, et les a trouvés dignes de lui. Il les a mis à l’épreuve comme l’or dans la fournaise, il les a agréés comme une hostie d’holocauste, et quand leur temps sera venu, il les regardera favorablement. Les justes brilleront, et ils étincelleront comme les feux qui courent à travers les roseaux. Ils jugeront les nations, et ils domineront les peuples, et leur Seigneur régnera éternellement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:20-21\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.",
+            "incipit": "Multæ tribulatiónes justórum,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Oratio",
+            "texte": "Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito, Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed tibi plácita humilitáte profícere: ut, prava despíciens, quæcúmque recta sunt, libera exérceat caritáte.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 3:1-8\nJustorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus illórum: et quod a nobis est iter, extermínium: illi autem sunt in pace. Et si coram homínibus torménta passi sunt, spes illórum immortalitáte plena est. In paucis vexáti, in multis bene disponéntur: quóniam Deus tentávit eos, et invenit illos dignos se. Tamquam aurum in fornáce probávit illos, et quasi holocáusti hóstiam accépit illos, et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Graduale",
+            "texte": "!Ps 149:5; 149:1\nExsultábunt Sancti in glória: lætabúntur in cubílibus suis.\nV. Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum.\nAllelúja, allelúja.\n!Ps 144:10-11\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Gloriósus Deus in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:16-20\nIn illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me audit: et qui vos spernit, me spernit. Qui autem me spernit, spernit eum, qui misit me. Revérsi sunt autem septuagínta duo cum gáudio, dicéntes: Dómine, étiam dæmónia subjiciúntur nobis in nómine tuo. Et ait illis: Vidébam sátanam sicut fulgur de cœlo cadéntem. Ecce, dedi vobis potestátem calcandi supra serpéntes et scorpiónes, et super omnem virtútem inimíci: et nihil vobis nocébit. Verúmtamen in hoc nolíte gaudére, quia spíritus vobis subjiciúntur: gaudéte autem, quod nómina vestra scripta sunt in cœlis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
+            "incipit": "Mirábilis Deus in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Secreta",
+            "texte": "Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur: sic nobis efféctum, Dómine, tuæ salvatiónis impéndant.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-15.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et Crescéntiæ, medicína sacraménti et corpóribus nostris prosit et méntibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:20-21\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custódit ómnia ossa eórum: unum ex his non conterétur.",
+            "incipit": "Multæ tribulatiónes justórum,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Oratio",
+            "texte": "Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito, Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed tibi plácita humilitáte profícere: ut, prava despíciens, quæcúmque recta sunt, libera exérceat caritáte.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 3:1-8\nLes âmes des justes sont dans la main de Dieu, et les tourments de la mort ne les toucheront pas. Aux yeux des insensés ils pa­raissent être morts, leur sortie de ce monde semble un malheur, et leur départ du milieu de nous un anéan­tissement : mais eux sont dans la paix.\nEt même si, de­vant les hommes ils ont subi des châtiments, leur espé­rance est pleine d’immorta­lité. Après une légère peine ils recevront une grande ré­compense : car Dieu les a éprouvés et les a trouvés dignes de lui. Il les a éprou­vés comme l’or dans la four­naise et les a reçus comme une hostie d’holocauste, et il sera leur récompense au temps voulu. Les justes brilleront, semblables à la flamme qui court à tra­vers les roseaux. Ils jugeront les nations et domineront les peuples, et le Seigneur régnera sur eux à jamais.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Graduale",
+            "texte": "!Ps 149:5; 149:1\nExsultábunt Sancti in glória: lætabúntur in cubílibus suis.\nV. Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum.\nAllelúja, allelúja.\n!Ps 144:10-11\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Dieu est glo­rifié",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:16-20\nIn illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me audit: et qui vos spernit, me spernit. Qui autem me spernit, spernit eum, qui misit me. Revérsi sunt autem septuagínta duo cum gáudio, dicéntes: Dómine, étiam dæmónia subjiciúntur nobis in nómine tuo. Et ait illis: Vidébam sátanam sicut fulgur de cœlo cadéntem. Ecce, dedi vobis potestátem calcandi supra serpéntes et scorpiónes, et super omnem virtútem inimíci: et nihil vobis nocébit. Verúmtamen in hoc nolíte gaudére, quia spíritus vobis subjiciúntur: gaudéte autem, quod nómina vestra scripta sunt in cœlis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu.",
+            "incipit": "Dieu est admirable",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Secreta",
+            "texte": "Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur: sic nobis efféctum, Dómine, tuæ salvatiónis impéndant.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-15.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et Crescéntiæ, medicína sacraménti et corpóribus nostris prosit et méntibus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 149:5; 149:1\nExsultábunt Sancti in glória: lætabúntur in cubílibus suis.\nV. Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum. \nAllelúja, allelúja.\n!Ps 144:10-11\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
-        "Francais": "!Ps 149:5; 149:1\nLes saints tressailliront dans la gloire ; ils se réjouiront sur leurs couches.\nV. Chantez au Seigneur un cantique nouveau : que sa louange retentisse dans l’assemblée des saints. Alléluia, alléluia.\n!Ps 144:10-11\nSeigneur, Vos saints vous bénissent : ils diront la gloire de votre règne. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:16-20\nEn ce temps-là : Jésus dit à ses disciples : Celui qui vous écoute, m’écoute ; celui qui vous méprise, me méprise. Et celui qui me méprise, méprise Celui qui m’a envoyé. Or les soixante-douze revinrent avec joie, disant : Seigneur, les démons même nous sont soumis en votre nom. Et il leur dit : Je voyais Satan tomber du Ciel comme la foudre. Voici que je vous ai donné le pouvoir de fouler aux pieds les serpents, et les scorpions, et toute la puissance de l’ennemi ; et rien ne pourra vous nuire. Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les Cieux."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C3",
-        "Francais": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
-        "Francais": "!Sap 3:1-2; 3:3\nLes âmes des Justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas ; aux yeux des insensés, ils ont paru mourir, cependant ils sont en paix."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3.txt",
+        "../horas/Latin/Commune/C3.txt",
+        "Francais/Sancti/06-15.txt",
+        "Latin/Sancti/06-15.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,61 +1,238 @@
 {
   "date": "2026-01-19",
-  "celebration": {
-    "nom": "Saints Marius, Marthe, Audifax et Abachum",
-    "classe": 4,
-    "note": "(temporal : Lundi après l'Épiphanie)"
-  },
-  "fichiers": [
-    "Sancti/01-19",
-    "Tempora/Epi2-1"
-  ],
-  "cles_jour": [
-    "01-19",
-    "Epi2-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 67:4\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant qui odérunt eum, a fácie ejus.\n&Gloria\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.",
-        "Francais": "!Ps 67:4\nv. Les justes prendront part au festin et exulteront en présence de Dieu ; ils goûteront de grandes délices dans leur joie.\n!Ps 67:2\nQue Dieu se lève et ses ennemis seront dispersés ; qu’ils fuient devant sa face, ceux qui l’ont haï.\n&Gloria\nv. Les justes prendront part au festin et exulteront en présence de Dieu ; ils goûteront de grandes délices dans leur joie."
+      "occurrence": {
+        "gagnant": "Sancti/01-19",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-19.txt",
+        "temporal": "Latin/Tempora/Epi2-1.txt",
+        "sanctoral": "Latin/Sancti/01-19.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt: et non tanget illos torméntum malítiæ.\nV. Visi sunt óculis insipiéntium mori: illi autem sunt in pace. \nAllelúja, allelúja.\n!Ps 67:36\nMirábilis Deus noster in Sanctis suis. Allelúja.",
-        "Francais": "!Sap 3:1; 3:2; 3:3\nLes âmes des Justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas.\nV. Aux yeux des insensés, ils ont paru mourir, mais ils sont dans la paix. Allelúja, allelúja\n!Ps 67:36\nNotre Dieu est admirable dans ses saints. Allelúja."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Introitus",
+            "texte": "!Ps 67:4\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant qui odérunt eum, a fácie ejus.\n&Gloria\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.",
+            "incipit": "Justi epuléntur et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Oratio",
+            "texte": "Exáudi, Dómine, pópulum tuum cum Sanctórum tuórum patrocínio supplicántem: ut et temporális vitæ nos tríbuas pace gaudére; et ætérnæ reperíre subsídium.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos\n!Hebr 10:32-38\nFratres: Rememorámini prístinos dies, in quibus illumináti magnum certámen sustinuístis passiónum: et in áltero quidem oppróbriis et tribulatiónibus spectáculum facti: in áltero autem sócii táliter conversántium effécti. Nam et vinctis compássi estis, et rapínam bonórum vestrórum cum gáudio suscepístis, cognoscéntes vos habere meliórem et manéntem substántiam. Nolíte itaque amíttere confidéntiam vestram, quæ magnam habet remuneratiónem. Patiéntia enim vobis necessária est: ut, voluntátem Dei faciéntes, reportétis promissiónem. Adhuc enim módicum aliquántulum, qui ventúrus est, véniet, et non tardábit. Justus autem meus ex fide vivit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Graduale",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt: et non tanget illos torméntum malítiæ.\nV. Visi sunt óculis insipiéntium mori: illi autem sunt in pace.\nAllelúja, allelúja.\n!Ps 67:36\nMirábilis Deus noster in Sanctis suis. Allelúja.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Tractus",
+            "texte": "!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Qui séminant in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nIn illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et quod signum advéntus tui et consummatiónis sǽculi? ¶ Et respóndens Jesus, dixit eis: Vidéte, ne quis vos sedúcat. Multi enim vénient in nómine meo, dicéntes: Ego sum Christus: et multos sedúcent. Auditúri enim estis prælia et opiniónes prœliórum. Vidéte, ne turbémini. Opórtet enim hæc fíeri, sed nondum est finis. Consúrget enim gens in gentem, et regnum in regnum, et erunt pestiléntiæ et fames et terræmótus per loca. Hæc autem ómnia inítia sunt dolórum. Tunc tradent vos in tribulatiónem et occídent vos: et éritis odio ómnibus géntibus propter nomen meum. Et tunc scandalizabúntur multi, et ínvicem tradent, et odio habébunt ínvicem. Et multi pseudoprophétæ surgent, et sedúcent multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit usque in finem, hic salvus erit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 128:7\nAnima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "offertoire_anima-nostra-sicut.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Secreta",
+            "texte": "Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant tuæ propitiatiónis auxílium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4\nDico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
+            "incipit": "Dico autem vobis",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-19.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quæ temporáli celebrámus actióne, perpétua salvatióne capiámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Introitus",
+            "texte": "!Ps 67:4\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant qui odérunt eum, a fácie ejus.\n&Gloria\nv. Justi epuléntur et exsúltent in conspéctu Dei et delecténtur in lætítia.",
+            "incipit": "Justi epuléntur et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Oratio",
+            "texte": "Exáudi, Dómine, pópulum tuum cum Sanctórum tuórum patrocínio supplicántem: ut et temporális vitæ nos tríbuas pace gaudére; et ætérnæ reperíre subsídium.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul aux Hébreux.\n!Hebr 10:32-38\nFrères, rappelez-vous ces premiers jours où, après avoir été illuminés par le baptême, vous avez soutenu un long et douloureux combat : tantôt exposés publiquement aux outrages et aux persécutions, tantôt vous faisant solidaires de ceux qui les subissaient. Car vous avez eu compassion des prisonniers, et vous avez accepté avec joie d’être dépouillés de vos biens, sachant que vous possédez une richesse meilleure et durable. Ne perdez donc pas votre confiance : une grande et juste récompense lui est réservée. La patience en effet vous est nécessaire afin que, faisant la volonté de Dieu, vous obteniez ce qui vous est promis. Car encore un peu, bien peu de temps, celui qui doit venir viendra : il ne tardera pas. Mon juste vit de la foi.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Graduale",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt: et non tanget illos torméntum malítiæ.\nV. Visi sunt óculis insipiéntium mori: illi autem sunt in pace.\nAllelúja, allelúja.\n!Ps 67:36\nMirábilis Deus noster in Sanctis suis. Allelúja.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Tractus",
+            "texte": "!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Qui séminant in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nIn illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et quod signum advéntus tui et consummatiónis sǽculi? ¶ Et respóndens Jesus, dixit eis: Vidéte, ne quis vos sedúcat. Multi enim vénient in nómine meo, dicéntes: Ego sum Christus: et multos sedúcent. Auditúri enim estis prælia et opiniónes prœliórum. Vidéte, ne turbémini. Opórtet enim hæc fíeri, sed nondum est finis. Consúrget enim gens in gentem, et regnum in regnum, et erunt pestiléntiæ et fames et terræmótus per loca. Hæc autem ómnia inítia sunt dolórum. Tunc tradent vos in tribulatiónem et occídent vos: et éritis odio ómnibus géntibus propter nomen meum. Et tunc scandalizabúntur multi, et ínvicem tradent, et odio habébunt ínvicem. Et multi pseudoprophétæ surgent, et sedúcent multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit usque in finem, hic salvus erit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 128:7\nAnima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "offertoire_anima-nostra-sicut.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Secreta",
+            "texte": "Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant tuæ propitiatiónis auxílium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4.\nJe vous dis donc à vous qui êtes mes amis : ne craignez pas ceux qui vous persécutent.",
+            "incipit": "Je vous dis",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-19.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quæ temporáli celebrámus actióne, perpétua salvatióne capiámus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 24:3-13\nEn ce temps-là : Jésus était assis sur le mont des Oliviers, ses disciples s’approchèrent de lui en particulier, et lui dirent : Dites-nous quand ces choses arriveront, et quel signe il y aura de votre avènement et de la consommation du siècle. Et Jésus leur répondit : Prenez garde que personne ne vous séduise. Car beaucoup viendront sous mon nom, disant : Je suis le Christ, et ils en séduiront beaucoup. Vous entendrez parler de guerres et de bruits de guerres. Gardez-vous de vous troubler ; car il faut que ces choses arrivent, mais ce ne sera pas encore la fin. Car on verra se soulever peuple contre peuple, et royaume contre royaume ; et il y aura des pestes et des famines, et des tremblements de terre en divers lieux. Et tout cela ne sera que le commencement des douleurs. Alors on vous livrera aux tourments, et on vous fera mourir ; et vous serez en haine à toutes les nations, à cause de Mon nom. Alors aussi beaucoup seront scandalisés, et ils se trahiront et se haïront les uns les autres. Et de nombreux faux prophètes surgiront, et séduiront beaucoup de monde. Et parce que l’iniquité abondera, la charité d’un grand nombre se refroidira. Mais celui qui persévérera jusqu’à la fin sera sauvé."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 128:7\nAnima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
-        "Francais": "!Ps 128:7\nNotre âme s’est échappée comme un passereau du filet des chasseurs : le filet a été brisé et nous avons été délivrés."
-      },
-      "audios": "Graduale Project/offertoire_anima-nostra-sicut.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C3a"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/01-19.txt",
+        "Latin/Sancti/01-19.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,68 +1,254 @@
 {
   "date": "2026-10-18",
-  "celebration": {
-    "nom": "21e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent21-0"
-  ],
-  "cles_jour": [
-    "Pent21-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent21",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Esth 13:9; 13:10-11\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es.",
-        "Francais": "!Esth 13:9; 13:10-11\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout.\n!Ps 118:1\nHeureux ceux qui sont sans tache dans le chemin, qui marchent dans la loi du Seigneur. \n&Gloria\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout."
+      "occurrence": {
+        "gagnant": "Sancti/10-18",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-18.txt",
+        "temporal": "Latin/Tempora/Pent21-0.txt",
+        "sanctoral": "Latin/Sancti/10-18.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_in-voluntate-tua.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 6:10-17\nFrères, fortifiez-vous dans le Seigneur et dans sa vertu toute-puissante. Revêtez-vous de l'armure de Dieu, afin de pouvoir résister aux embûches du diable. Car nous n'avons pas à lutter contre la chair et le sang, mais contre les princes, contre les puissances, contre les dominateurs de ce monde de ténèbres, contre les esprits mauvais répandus dans l'air. C'est pourquoi prenez l'armure de Dieu, afin de pouvoir résister au jour mauvais, et rester parfaits en toute chose. Soyez donc fermes, les reins ceints de la vérité, revêtus de la cuirasse de justice et les sandales aux pieds, prêts à annoncer l'Évangile de paix. Et surtout, prenez le bouclier de la foi, par lequel vous pourrez éteindre tous les traits enflammés du Malin. Prenez aussi le casque du salut, et le glaive de l'Esprit, qui est la parole de Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Oratio",
+            "texte": "Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas Evangélista: qui crucis mortificatiónem júgiter in suo córpore, pro tui nóminis honóre, portávit.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent21-0.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 6:10-17\nFratres: Confortámini in Dómino et in poténtia virtútis ejus. Indúite vos armatúram Dei, ut póssitis stare advérsus insídias diáboli. Quóniam non est nobis colluctátio advérsus carnem et sánguinem: sed advérsus príncipes et potestátes, advérsus mundi rectóres tenebrárum harum, contra spirituália nequítiæ, in cœléstibus. Proptérea accípite armatúram Dei, ut póssitis resístere in die malo et in ómnibus perfécti stare. State ergo succíncti lumbos vestros in veritáte, et indúti lorícam justítiæ, et calceáti pedes in præparatióne Evangélii pacis: in ómnibus suméntes scutum fídei, in quo póssitis ómnia tela nequíssimi ígnea exstínguere: et gáleam salútis assúmite: et gládium spíritus, quod est verbum Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Graduale",
+            "texte": "!Ps 18:5; 18:2\nIn omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.\nV. Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. Allelúja, allelúja.\n!Joann 15:16\nEgo vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.",
+            "incipit": "In omnem terram",
+            "mp3": "graduel_in-omnem-terram.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent21-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:23-35\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Assimilátum est regnum cœlórum hómini regi, qui vóluit ratiónem pónere cum servis suis. Et cum cœpísset ratiónem pónere, oblátus est ei unus, qui debébat ei decem mília talénta. Cum autem non habéret, unde rédderet, jussit eum dóminus ejus venúmdari et uxórem ejus et fílios et ómnia, quæ habébat, et reddi. Prócidens autem servus ille, orábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Misértus autem dóminus servi illíus, dimísit eum et débitum dimísit ei. Egréssus autem servus ille, invénit unum de consérvis suis, qui debébat ei centum denários: et tenens suffocábat eum, dicens: Redde, quod debes. Et prócidens consérvus ejus, rogábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Ille autem nóluit: sed ábiit, et misit eum in cárcerem, donec rédderet débitum. Vidéntes autem consérvi ejus, quæ fiébant, contristáti sunt valde: et venérunt et narravérunt dómino suo ómnia, quæ facta fúerant. Tunc vocávit illum dóminus suus: et ait illi: Serve nequam, omne débitum dimísi tibi, quóniam rogásti me: nonne ergo opórtuit et te miseréri consérvi tui, sicut et ego tui misértus sum? Et irátus dóminus ejus, trádidit eum tortóribus, quoadúsque rédderet univérsum débitum. Sic et Pater meus cœléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 138:17\nMihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "offertoire_mihi-autem-nimis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Secreta",
+            "texte": "Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta tuo Luca, et medélam nobis operéntur et glóriam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-18.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas nostras, per quod tuti esse possímus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2.\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.",
+            "incipit": "Selon moi, vos",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Oratio",
+            "texte": "Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas Evangélista: qui crucis mortificatiónem júgiter in suo córpore, pro tui nóminis honóre, portávit.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent21-0.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 6:10-17\nFratres: Confortámini in Dómino et in poténtia virtútis ejus. Indúite vos armatúram Dei, ut póssitis stare advérsus insídias diáboli. Quóniam non est nobis colluctátio advérsus carnem et sánguinem: sed advérsus príncipes et potestátes, advérsus mundi rectóres tenebrárum harum, contra spirituália nequítiæ, in cœléstibus. Proptérea accípite armatúram Dei, ut póssitis resístere in die malo et in ómnibus perfécti stare. State ergo succíncti lumbos vestros in veritáte, et indúti lorícam justítiæ, et calceáti pedes in præparatióne Evangélii pacis: in ómnibus suméntes scutum fídei, in quo póssitis ómnia tela nequíssimi ígnea exstínguere: et gáleam salútis assúmite: et gládium spíritus, quod est verbum Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Graduale",
+            "texte": "!Ps 18:5; 18:2\nIn omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.\nV. Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum. Allelúja, allelúja.\n!Joann 15:16\nEgo vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.",
+            "incipit": "In omnem terram",
+            "mp3": "graduel_in-omnem-terram.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent21-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:23-35\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Assimilátum est regnum cœlórum hómini regi, qui vóluit ratiónem pónere cum servis suis. Et cum cœpísset ratiónem pónere, oblátus est ei unus, qui debébat ei decem mília talénta. Cum autem non habéret, unde rédderet, jussit eum dóminus ejus venúmdari et uxórem ejus et fílios et ómnia, quæ habébat, et reddi. Prócidens autem servus ille, orábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Misértus autem dóminus servi illíus, dimísit eum et débitum dimísit ei. Egréssus autem servus ille, invénit unum de consérvis suis, qui debébat ei centum denários: et tenens suffocábat eum, dicens: Redde, quod debes. Et prócidens consérvus ejus, rogábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Ille autem nóluit: sed ábiit, et misit eum in cárcerem, donec rédderet débitum. Vidéntes autem consérvi ejus, quæ fiébant, contristáti sunt valde: et venérunt et narravérunt dómino suo ómnia, quæ facta fúerant. Tunc vocávit illum dóminus suus: et ait illi: Serve nequam, omne débitum dimísi tibi, quóniam rogásti me: nonne ergo opórtuit et te miseréri consérvi tui, sicut et ego tui misértus sum? Et irátus dóminus ejus, trádidit eum tortóribus, quoadúsque rédderet univérsum débitum. Sic et Pater meus cœléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.",
+            "incipit": "Ô Dieu, que",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Secreta",
+            "texte": "Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta tuo Luca, et medélam nobis operéntur et glóriam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël.",
+            "incipit": "Vous qui m’avez",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-18.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas nostras, per quod tuti esse possímus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 89:1-2\nDómine, refúgium factus es nobis, a generatióne et progénie.\nV. Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo et usque in sǽculum tu es, Deus. \nAllelúja, allelúja.\n!Ps 113:1\nIn éxitu Israël de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.",
-        "Francais": "!Ps 89:1-2\nSeigneur vous êtes notre refuge de génération en génération.\nV. Avant que les montagnes fussent, ou que fût formée la terre et le monde, depuis toujours et pour toujours vous êtes Dieu. Alléluia, alléluia.\n!Ps 113:1\nQuand Israël sortit d'Égypte, et la maison de Jacob du milieu d'un peuple barbare. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_domine-refugium.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:23-35\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le royaume des cieux est semblable à un roi qui voulut régler ses comptes avec ses serviteurs. Quand il commençait, on lui amena un débiteur qui lui devait dix mille talents. Comme il n'avait pas de quoi payer, son maître ordonna qu'on le vendît, lui, sa femme, ses enfants et tout ce qu'il avait pour que paiement fût fait. Alors le serviteur, tombant à ses pieds, demeurait prosterné, disant : « Seigneur, aie patience envers moi, et je te paierai tout.» Touché de compassion, le maître de ce serviteur le laissa aller et lui remit sa dette. Ce serviteur, à peine sorti, rencontra un de ses compagnons de service, qui lui devait cent deniers. L'ayant saisi à la gorge, il l'étouffait, disant : « Paie ce que tu dois.» Son compagnon de service, tombant à ses pieds, le suppliait, disant : « Aie patience envers moi, et je te paierai.» Mais lui ne voulait pas, et il s'en alla le faire mettre en prison jusqu'à ce qu'il eût payé sa dette. Ce que voyant, ses compagnons de service furent grandement contristés, et ils vinrent raconter à leur maître ce qui s'était passé. Alors le maître le fit appeler et lui dit : « Serviteur méchant, je t'ai remis toute cette dette, parce que tu m'as supplié. Ne devais-tu pas, toi aussi, avoir pitié de ton compagnon de service, comme moi-même j'ai eu pitié de toi ?» Et son maître irrité le livra aux bourreaux, jusqu'à ce qu'il eût payé toute sa dette. Ainsi vous traitera mon Père céleste, si chacun de vous ne pardonne à son frère du fond du cœur. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Job 1.1\nVir erat in terra Hus, nómine Job: simplex et rectus ac timens Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a Dómino in facultátes et in carnem ejus: perdidítque omnem substántiam ipsíus et fílios: carnem quoque ejus gravi úlcere vulnerávit.",
-        "Francais": "!Job 1.1\nIl y avait un homme dans la terre de Hus, du nom de Job. Il était simple et droit, et craignait Dieu. Satan demanda à le tenter, et il lui fut donné pouvoir par le Seigneur contre ses richesses et sa chair ; et il perdit tout ses richesses et ses fils ; et sa chair fut blessée d'un grave ulcère."
-      },
-      "audios": "Graduale Project/offertoire_vir-erat.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 118:81; 118:84; 118:86\nIn salutári tuo ánima mea, et in verbum tuum sperávi: quando fácies de persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me, Dómine, Deus meus.",
-        "Francais": "!Ps 118:81; 118:84; 118:86\nMon âme est en votre salut, et j'espère en votre parole ; quand me ferez-vous justice contre ceux qui me persécutent ? Les iniques m'ont persécuté ; aidez-moi, Seigneur mon Dieu."
-      },
-      "audios": "Graduale Project/communion_in-salutari-tuo.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/10-18.txt",
+        "Francais/Tempora/Pent21-0.txt",
+        "Latin/Sancti/10-18.txt",
+        "Latin/Tempora/Pent21-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

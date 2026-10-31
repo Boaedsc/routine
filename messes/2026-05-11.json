@@ -1,68 +1,212 @@
 {
   "date": "2026-05-11",
-  "celebration": {
-    "nom": "Lundi du temps pascal",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc5-1"
-  ],
-  "cles_jour": [
-    "Pasc5-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc5",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 17:7.\nv. Exaudívit de templo sancto suo vocem meam, allelúja: et clamor meus in conspectu ejus, introívit in aures ejus, allelúja, allelúja.\n!Ps 17:2-3\nDíligam te, Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.\n&Gloria\nv. Exaudívit de templo sancto suo vocem meam, allelúja: et clamor meus in conspectu ejus, introívit in aures ejus, allelúja, allelúja.",
-        "Francais": "!Ps 17:7.\nv. Depuis son saint temple, il a exaucé ma voix, alléluia ; et mon cri est entré en sa présence, alléluia, alléluia.\n!Ps 17:2-3\nJe vous aime, Seigneur, ma force ; le Seigneur est mon soutien, mon refuge et mon libérateur.\n&Gloria\nv. Depuis son saint temple, il a exaucé ma voix, alléluia ; et mon cri est entré en sa présence, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc5-1r",
+        "nom_sanctoral": "",
+        "classe": 1.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc5-1r.txt",
+        "temporal": "Latin/Tempora/Pasc5-1r.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pasc5-1r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Jacóbi Apóstoli.\n!Ja 5:16-20\nBien-aimés, confessez vos fautes l'un à l'autre, et priez les uns pour les autres, afin que vous soyez guéris ; car la prière fervente du juste a beaucoup de puissance. Élie était un homme soumis aux mêmes misères que nous : il pria instamment qu'il ne tombât point de pluie, et la pluie ne tomba pas sur la terre pendant trois ans et six mois ; il pria de nouveau, et le ciel donna la pluie, et la terre produisit ses fruits. Mes frères, se quelqu'un d'entre vous s'est laissé entraîner loin de la vérité, et qu'un autre l'y ramène, sachez que celui qui ramène un pécheur de la voie où il s'égare, sauvera une âme de la mort et couvrira une multitude de péchés."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc5-1r.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc5-1r.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja.\n!Ps 117:1.\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.",
-        "Francais": "Allelúja.\n!Ps 117:1.\nConfessez-vous au Seigneur, car il est bon ; car sa miséricorde est à jamais."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 11:5-13\nEn ce temps-là, Jésus dit à ses disciples : « Qui de vous, ayant un ami, s'il va le trouver au milieu de la nuit et lui dit : « Ami, prête-moi trois pains, car un de mes amis m'est arrivé de voyage, et je n'ai rien à lui offrir» , et que celui-là réponde de l'intérieur : « Ne m'importune point : déjà la porte est fermée et mes enfants sont avec moi au lit ; je ne puis me lever pour te donner» , je vous le dis, quand même il ne se lèverait pas pour lui donner parce qu'il est son ami, du moins à cause de son importunité, il se lèvera pour lui donner tout ce dont il a besoin. Et moi je vous dis : Demandez et l'on vous donnera ; cherchez et vous trouverez ; frappez et l'on vous ouvrira. Car quiconque demande reçoit ; qui cherche trouve, et l'on ouvrira à qui frappe. Y a-t-il parmi vous un père qui, si son fils lui demande du pain, lui donnera une pierre ? Ou, s'il demande un poisson, lui donnera-t-il, au lieu de poisson, un serpent ? Ou, s'il demande un œuf, lui donnera-t-il un scorpion ? Si donc vous, tout méchants que vous êtes, vous savez donner à vos enfants de bonnes choses, combien plus le Père du ciel donnera-t-il l'Esprit-Saint à ceux qui lui demandent. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 108:30-31\nConfitébor Dómino nimis in ore meo: et in médio multórum laudábo eum, qui ástitit a dextris páuperis: ut salvam fáceret a persequéntibus ánimam meam, allelúja.",
-        "Francais": "!Ps 108:30-31\nJe louerai hautement le Seigneur par ma bouche, et au milieu de la multitude je le célébrerai ; car il s'est tenu à la droite du pauvre, afin de sauver mon âme de ceux qui la poursuivent, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_confitebor-domino.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Luc 11:9-10\nPétite, et accipiétis: quǽrite, et inveniétis: pulsáte, et aperiétur vobis: omnis enim qui pétit, áccipit: et qui quærit, ínvenit: et pulsánti aperiétur, allelúja.",
-        "Francais": "!Luc 11:9-10\nDemandez et vous recevrez ; cherchez et vous trouverez ; frappez et l'on vous ouvrira. Car quiconque demande reçoit ; qui cherche trouve ; et à qui frappe on ouvre, alléluia."
-      },
-      "audios": "Graduale Project/communion_petite-et-accipietis.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc5-1r.txt",
+        "Latin/Tempora/Pasc5-1r.txt"
+      ],
+      "sections_vides": 24,
+      "numero": 1
     }
   ]
 }

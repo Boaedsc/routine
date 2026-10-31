@@ -1,68 +1,210 @@
 {
   "date": "2026-05-26",
-  "celebration": {
-    "nom": "Mardi dans l'octave de Pentecôte",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc7-2"
-  ],
-  "cles_jour": [
-    "Pasc7-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc7",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Esdr 2:36 2:37\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.\n!Ps 77:1. \nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.",
-        "Francais": "!Esdr 2:36 2:37\nv. Accueillez la joie de votre gloire, alléluia ; rendez grâces à Dieu, alléluia, qui vous a appelés au Royaume céleste, alléluia, alléluia, alléluia.\n!Ps 77:1. \nÔ mon peuple, écoute mon enseignement, prête l'oreille aux paroles de ma bouche.\n&Gloria\nv. Accueillez la joie de votre gloire, alléluia ; rendez grâces à Dieu, alléluia, qui vous a appelés au Royaume céleste, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc7-2",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc7-2.txt",
+        "temporal": "Latin/Tempora/Pasc7-2.txt",
+        "sanctoral": "Latin/Sancti/05-26.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Actuum Apostolórum.\n!Acts 8:14-17\nEn ces jours-là, quand les Apôtres, qui étaient à Jérusalem, entendirent que la Samarie avait reçu la parole de Dieu, ils leur envoyèrent Pierre et Jean. Quand ceux-ci s'y furent rendus, ils prièrent pour eux afin qu'ils reçoivent l'Esprit-Saint. En effet, Il n'était encore venu sur aucun d'eux ; ils avaient seulement été baptisés au nom du Seigneur Jésus. Alors ils leur imposaient les mains, et ils recevaient l'Esprit Saint."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Introitus",
+            "texte": "!Esdr 2:36 2:37\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.\n!Ps 77:1.\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.",
+            "incipit": "Accípite jucunditátem glóriæ",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Oratio",
+            "texte": "Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et corda nostra cleménter expúrget, et ab ómnibus tueátur advérsis.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 8:14-17\nIn diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum: nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant Spíritum Sanctum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 14:26\nSpíritus Sanctus docébit vos, quæcúmque díxero vobis. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. Spíritus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 10:1-10\nIn illo témpore: Dixit Jesus pharisǽis: Amen, amen, dico vobis: qui non intrat per óstium in ovíle óvium, sed ascéndit aliúnde, ille fur est et latro. Qui autem intrat per óstium, pastor est óvium. Huic ostiárius áperit, et oves vocem ejus áudiunt, et próprias oves vocat nominátim et edúcit eas. Et cum próprias oves emíserit, ante eas vadit: et oves illum sequúntur, quia sciunt vocem ejus. Aliénum autem non sequúntur, sed fúgiunt ab eo; quia non novérunt vocem alienórum. Hoc provérbium dixit eis Jesus. Illi autem non cognovérunt, quid loquerétur eis. Dixit ergo eis íterum Jesus: Amen, amen, dico vobis, quia ego sum óstium óvium. Omnes, quotquot venérunt, fures sunt et latrónes, et non audiérunt eos oves. Ego sum óstium. Per me si quis introíerit, salvábitur: et ingrediétur et egrediétur et páscua invéniet. Fur non venit, nisi ut furétur et mactet et perdat. Ego veni, ut vitam hábeant et abundántius hábeant.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 77:23-25\nPortas cœli aperuit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.",
+            "incipit": "Portas cœli aperuit",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Secreta",
+            "texte": "Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et dignos sacra participatióne effíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Communio",
+            "texte": "!Joannes 15:26; 16:14\nSpíritus qui a Patre procédit, allelúja: ille me clarificábit, allelúja, allelúja.",
+            "incipit": "Spíritus qui a",
+            "mp3": "communion_spiritus-qui-a.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc7-2.txt",
+            "section": "Postcommunio",
+            "texte": "Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet sacraméntis: quia ipse est remíssio ómnium peccatórum.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Introitus",
+            "texte": "!Esdr 2:36 2:37\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.\n!Ps 77:1.\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja, allelúja.",
+            "incipit": "Accípite jucunditátem glóriæ",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Oratio",
+            "texte": "Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et corda nostra cleménter expúrget, et ab ómnibus tueátur advérsis.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 8:14-17\nIn diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum: nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant Spíritum Sanctum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 14:26\nSpíritus Sanctus docébit vos, quæcúmque díxero vobis. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. Spíritus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 10:1-10\nIn illo témpore: Dixit Jesus pharisǽis: Amen, amen, dico vobis: qui non intrat per óstium in ovíle óvium, sed ascéndit aliúnde, ille fur est et latro. Qui autem intrat per óstium, pastor est óvium. Huic ostiárius áperit, et oves vocem ejus áudiunt, et próprias oves vocat nominátim et edúcit eas. Et cum próprias oves emíserit, ante eas vadit: et oves illum sequúntur, quia sciunt vocem ejus. Aliénum autem non sequúntur, sed fúgiunt ab eo; quia non novérunt vocem alienórum. Hoc provérbium dixit eis Jesus. Illi autem non cognovérunt, quid loquerétur eis. Dixit ergo eis íterum Jesus: Amen, amen, dico vobis, quia ego sum óstium óvium. Omnes, quotquot venérunt, fures sunt et latrónes, et non audiérunt eos oves. Ego sum óstium. Per me si quis introíerit, salvábitur: et ingrediétur et egrediétur et páscua invéniet. Fur non venit, nisi ut furétur et mactet et perdat. Ego veni, ut vitam hábeant et abundántius hábeant.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 77:23-25\nPortas cœli aperuit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.",
+            "incipit": "Portas cœli aperuit",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Secreta",
+            "texte": "Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et dignos sacra participatióne effíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Communio",
+            "texte": "!Joannes 15:26; 16:14\nSpíritus qui a Patre procédit, allelúja: ille me clarificábit, allelúja, allelúja.",
+            "incipit": "Spíritus qui a",
+            "mp3": "communion_spiritus-qui-a.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc7-2.txt",
+            "section": "Postcommunio",
+            "texte": "Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet sacraméntis: quia ipse est remíssio ómnium peccatórum.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 14:26\nSpíritus Sanctus docébit vos, quæcúmque díxero vobis. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
-        "Francais": "Allelúja, allelúja\n!Ps 14:26\nL'Esprit Saint vous enseignera tout ce que je vous ai dit. Alléluia. (Hic genuflectitur)\nV. Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 10:1-10\nEn ce temps-là, Jésus dit aux Pharisiens : « En vérité, en vérité, je vous le dis, celui qui n'entre point par la porte dans la bergerie, mais qui y monte par ailleurs, est un voleur et un brigand. Mais celui qui entre par la porte est le pasteur des brebis. C'est à lui que le portier ouvre, et les brebis entendent sa voix ; il appelle par leur nom ses brebis, et il les mène aux pâturages. Quand il a fait sortir toutes ses brebis, il marche devant elles, et les brebis le suivent, parce qu'elles connaissent sa voix. Elles ne suivront point un étranger, mais elles le fuiront, parce qu'elles ne connaissent pas la voix des étrangers. » Jésus leur dit cette parabole ; mais ils ne comprirent pas de quoi il leur parlait. Jésus donc leur dit encore : « En vérité, en vérité, je vous le dis, je suis la porte des brebis. Tous ceux qui sont venus avant moi sont des voleurs et des brigands ; mais les brebis ne les ont point écoutés. Je suis la porte ; si quelqu'un entre par moi, il sera sauvé ; il entrera, et il sortira, et il trouvera des pâturages. Le voleur ne vient que pour dérober, égorger et détruire ; moi, je suis venu pour que les brebis aient la vie, et qu'elles l'aient en abondance. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 77:23-25\nPortas cœli aperuit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.",
-        "Francais": "!Ps 77:23-25\nLe Seigneur a ouvert les portes du ciel, et il a fait pleuvoir pour eux la manne, afin qu'ils mangent ; il leur a donné le pain du ciel, l'homme a mangé le pain des anges, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 15:26; 16:14\nSpíritus qui a Patre procédit, allelúja: ille me clarificábit, allelúja, allelúja.",
-        "Francais": "!Joannes 15:26; 16:14\nL'Esprit qui procède du Père, alléluia, Lui me glorfiera, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_spiritus-qui-a.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc7-2.txt",
+        "Latin/Tempora/Pasc7-2.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

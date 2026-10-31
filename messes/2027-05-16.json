@@ -1,68 +1,210 @@
 {
   "date": "2027-05-16",
-  "celebration": {
-    "nom": "Dimanche de Pentecôte",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc7-0"
-  ],
-  "cles_jour": [
-    "Pasc7-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc7",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Sap 1:7.\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.",
-        "Francais": "!Sap 1:7.\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia.\n!Ps 67:2\nQue Dieu se lève, et que ses ennemis se dispersent ; qu'ils fuient, ceux qui le haïssent, devant sa face.\n&Gloria\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc7-0",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc7-0.txt",
+        "temporal": "Latin/Tempora/Pasc7-0.txt",
+        "sanctoral": "Latin/Sancti/05-16.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_spiritus-domini.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Actuum Apostolórum.\n!Acts 2:1-11\nComme le jour de la Pentecôte était arrivé, tous les disciples étaient tous ensemble au même endroit. Tout à coup, il vint du ciel un bruit comme celui d'un violent coup de vent, qui remplit toute la maison où ils étaient assis. Et ils virent paraître des langues séparées, comme de feu ; et il s'en posa une sur chacun d'eux. Et tous furent remplis de l'Esprit-Saint, et ils se mirent à parler en diverses langues, selon ce que l'Esprit Saint leur donnait de dire. Or il y avait, séjournant à Jérusalem, des Juifs, hommes pieux de toutes les nations qui sont sous le ciel. Ce bruit s'étant produit, la foule s'assembla et fut bouleversée, parce que chacun les entendait parler en sa propre langue. Ils étaient stupéfaits et s'étonnaient, disant : « Tous ces gens qui parlent, ne sont-ils pas des Galiléens ? Comment donc les entendons-nous chacun dans notre propre langue maternelle ? Partes, Mèdes, Élamites, habitants de la Mésopotamie, de la Judée et de la Cappadoce, du Pont et de l'Asie, de la Phrygie et de la Pamphylie, de l'Égypte et des contrées de la Lybie Cyrénaïque, Romains résidant ici, Juifs et prosélytes, Crétois et Arabes, nous les entendons dire dans nos langues les merveilles de Dieu. »"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Introitus",
+            "texte": "!Sap 1:7.\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.",
+            "incipit": "Spíritus Dómini replévit",
+            "mp3": "introitus_spiritus-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 2:1-11\nCum compleréntur dies Pentecóstes, erant omnes discípuli pariter in eódem loco: et factus est repénte de cœlo sonus, tamquam adveniéntis spíritus veheméntis: et replévit totam domum, ubi erant sedentes. Et apparuérunt illis dispertítæ linguæ tamquam ignis, sedítque supra síngulos eórum: et repléti sunt omnes Spíritu Sancto, et cœpérunt loqui váriis linguis, prout Spíritus Sanctus dabat éloqui illis. Erant autem in Jerúsalem habitántes Judǽi, viri religiósi ex omni natióne, quæ sub cœlo est. Facta autem hac voce, convénit multitúdo, et mente confúsa est, quóniam audiébat unusquísque lingua sua illos loquéntes. Stupébant autem omnes et mirabántur, dicéntes: Nonne ecce omnes isti, qui loquúntur, Galilǽi sunt? Et quómodo nos audívimus unusquísque linguam nostram, in qua nati sumus? Parthi et Medi et Ælamítæ et qui hábitant Mesopotámiam, Judǽam et Cappadóciam, Pontum et Asiam, Phrýgiam et Pamphýliam, Ægýptum et partes Líbyæ, quæ est circa Cyrénen, et ádvenæ Románi, Judǽi quoque et Prosélyti, Cretes et Arabes: audívimus eos loquéntes nostris linguis magnália Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 103:30\nEmítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. Emítte",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:23-31\nIn illo témpore: Dixit Jesus discípulis suis: Si quis díligit me, sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus et mansiónem apud eum faciémus: qui non díligit me, sermónes meos non servat. Et sermónem quem audístis, non est meus: sed ejus, qui misit me, Patris. Hæc locútus sum vobis, apud vos manens. Paráclitus autem Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia, quæcúmque díxero vobis. Pacem relínquo vobis, pacem meam do vobis: non quómodo mundus dat, ego do vobis. Non turbétur cor vestrum neque formídet. Audístis, quia ego dixi vobis: Vado et vénio ad vos. Si diligerétis me, gauderétis útique, quia vado ad Patrem: quia Pater major me est. Et nunc dixi vobis, priúsquam fiat: ut, cum factum fúerit, credátis. Jam non multa loquar vobíscum. Venit enim princeps mundi hujus, et in me non habet quidquam. Sed ut cognóscat mundus, quia díligo Patrem, et sicut mandátum dedit mihi Pater, sic fácio.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:29-30\nConfírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod est in Jerúsalem, tibi ófferent reges múnera, allelúja.",
+            "incipit": "Confírma hoc, Deus,",
+            "mp3": "offertoire_confirma-hoc-deus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Secreta",
+            "texte": "Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Communio",
+            "texte": "!Act 2:2; 2:4\nFactus est repénte de cœlo sonus, tamquam adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúja, allelúja.",
+            "incipit": "Factus est repénte",
+            "mp3": "communion_factus-est-repente.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc7-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Introitus",
+            "texte": "!Sap 1:7.\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.\n!Ps 67:2\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.",
+            "incipit": "Spíritus Dómini replévit",
+            "mp3": "introitus_spiritus-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 2:1-11\nCum compleréntur dies Pentecóstes, erant omnes discípuli pariter in eódem loco: et factus est repénte de cœlo sonus, tamquam adveniéntis spíritus veheméntis: et replévit totam domum, ubi erant sedentes. Et apparuérunt illis dispertítæ linguæ tamquam ignis, sedítque supra síngulos eórum: et repléti sunt omnes Spíritu Sancto, et cœpérunt loqui váriis linguis, prout Spíritus Sanctus dabat éloqui illis. Erant autem in Jerúsalem habitántes Judǽi, viri religiósi ex omni natióne, quæ sub cœlo est. Facta autem hac voce, convénit multitúdo, et mente confúsa est, quóniam audiébat unusquísque lingua sua illos loquéntes. Stupébant autem omnes et mirabántur, dicéntes: Nonne ecce omnes isti, qui loquúntur, Galilǽi sunt? Et quómodo nos audívimus unusquísque linguam nostram, in qua nati sumus? Parthi et Medi et Ælamítæ et qui hábitant Mesopotámiam, Judǽam et Cappadóciam, Pontum et Asiam, Phrýgiam et Pamphýliam, Ægýptum et partes Líbyæ, quæ est circa Cyrénen, et ádvenæ Románi, Judǽi quoque et Prosélyti, Cretes et Arabes: audívimus eos loquéntes nostris linguis magnália Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 103:30\nEmítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. Emítte",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:23-31\nIn illo témpore: Dixit Jesus discípulis suis: Si quis díligit me, sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus et mansiónem apud eum faciémus: qui non díligit me, sermónes meos non servat. Et sermónem quem audístis, non est meus: sed ejus, qui misit me, Patris. Hæc locútus sum vobis, apud vos manens. Paráclitus autem Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia, quæcúmque díxero vobis. Pacem relínquo vobis, pacem meam do vobis: non quómodo mundus dat, ego do vobis. Non turbétur cor vestrum neque formídet. Audístis, quia ego dixi vobis: Vado et vénio ad vos. Si diligerétis me, gauderétis útique, quia vado ad Patrem: quia Pater major me est. Et nunc dixi vobis, priúsquam fiat: ut, cum factum fúerit, credátis. Jam non multa loquar vobíscum. Venit enim princeps mundi hujus, et in me non habet quidquam. Sed ut cognóscat mundus, quia díligo Patrem, et sicut mandátum dedit mihi Pater, sic fácio.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:29-30\nConfírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod est in Jerúsalem, tibi ófferent reges múnera, allelúja.",
+            "incipit": "Confírma hoc, Deus,",
+            "mp3": "offertoire_confirma-hoc-deus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Secreta",
+            "texte": "Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Communio",
+            "texte": "!Act 2:2; 2:4\nFactus est repénte de cœlo sonus, tamquam adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúja, allelúja.",
+            "incipit": "Factus est repénte",
+            "mp3": "communion_factus-est-repente.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc7-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 103:30\nEmítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
-        "Francais": "Allelúja, allelúja\n!Ps 103:30\nEnvoyez votre Esprit et tout renaîtra, et vous renouvellerez la face de la terre. Alléluia. (Hic genuflectitur)\nV. Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia sancti Evangélii secúndum Joánnem.\n!Joannes 14:23-31\nEn ce temps-là, Jésus dit à ses disciples : « Si quelqu'un m'aime, il gardera ma parole, et mon Père l'aimera, et nous viendrons à lui, et nous ferons chez lui notre demeure. Celui qui ne m'aime pas, ne gardera pas mes paroles. Et la parole que vous entendez n'est pas de moi, mais du Père qui m'a envoyé. Je vous ai dit ces choses pendant que je demeure avec vous. Mais le Consolateur, l'Esprit-Saint, que mon Père enverra en mon nom, lui, vous enseignera toutes choses, et vous rappellera tout ce que je vous ai dit. Je vous laisse la paix, je vous donne ma paix ; je ne la donne pas comme la donne le monde. Que votre cœur ne se trouble point et ne s'effraye point. Vous avez entendu que je vous ai dit : Je m'en vais, et je reviens à vous. Si vous m'aimiez, vous vous réjouiriez de ce que je vais au Père, car le Père est plus grand que moi. Et maintenant, je vous ai dit ces choses avant qu'elles n'arrivent, afin que, quand elles seront arrivées, vous croyiez. Je ne m'entretiendrai plus guère avec vous, car le Prince de ce monde vient et il n'a rien en moi. Mais c'est afin que le monde sache que j'aime mon Père, et que j'agis selon le commandement que mon Père m'a donné. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 67:29-30\nConfírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod est in Jerúsalem, tibi ófferent reges múnera, allelúja.",
-        "Francais": "!Ps 67:29-30\nAffermissez, Seigneur, ce que vous avez opéré en nous ; du milieu de votre temple, qui est à Jérusalem, des rois vous offriront des présents, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_confirma-hoc-deus.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Act 2:2; 2:4\nFactus est repénte de cœlo sonus, tamquam adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúja, allelúja.",
-        "Francais": "!Acts 2:2; 2:4\nIl y eut soudain un bruit venant du ciel, comme d'un violent coup de vent, là où ils étaient assis, alléluia ; et ils furent tous remplis de l'Esprit Saint, racontant les merveilles de Dieu, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_factus-est-repente.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc7-0.txt",
+        "Latin/Tempora/Pasc7-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

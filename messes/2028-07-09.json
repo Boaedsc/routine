@@ -1,68 +1,210 @@
 {
   "date": "2028-07-09",
-  "celebration": {
-    "nom": "5e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent05-0"
-  ],
-  "cles_jour": [
-    "Pent05-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent05",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 26:7; 26:9\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.\n!Ps 26:1\nDóminus illuminátio mea et salus mea, quem timébo?\n&Gloria\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.",
-        "Francais": "!Ps 26:7; 62:9\nv. Exaucez ma voix, Seigneur, quand je crie vers vous ; soyez mon secours, ne m'abandonnez pas, ne me méprisez pas, ô Dieu mon salut.\n!Ps 26:1\nLe Seigneur est ma lumière et mon salut, qui craindrais-je ?\n&Gloria\nv. Exaucez ma voix, Seigneur, quand je crie vers vous ; soyez mon secours, ne m'abandonnez pas, ne me méprisez pas, ô Dieu mon salut."
+      "occurrence": {
+        "gagnant": "Tempora/Pent05-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent05-0.txt",
+        "temporal": "Latin/Tempora/Pent05-0.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Pet 3:8-15\nBien-aimés, soyez tous unanimes dans la prière, compatissants, amis de la vie fraternelle, miséricordieux, modestes, humbles. Ne rendez point le mal pour le mal, ni l'injure pour l'injure ; bénissez, au contraire, car c'est à cela que vous avez été appelés, afin de devenir héritiers de la bénédiction. Celui qui veut aimer la vie et voir des jours heureux, qu'il garde sa langue du mal, et ses lèvres des paroles trompeuses ; qu'il se détourne du mal, et fasse le bien ; qu'il cherche la paix et la poursuive. Car le Seigneur a les yeux sur les justes, et ses oreilles sont attentives à leurs prières ; mais la face du Seigneur est contre ceux qui font le mal. Et qui pourra vous faire du mal, si vous êtes appliqués à faire le bien ? Que si pourtant vous souffrez pour la justice, heureux êtes-vous ! Ne craignez point leurs menaces et ne vous laissez point troubler ; mais sanctifiez dans vos cœurs le Seigneur Christ."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 26:7; 26:9\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.\n!Ps 26:1\nDóminus illuminátio mea et salus mea, quem timébo?\n&Gloria\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.",
+            "incipit": "Exáudi, Dómine, vocem",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui diligéntibus te bona invisibília præparásti: infúnde córdibus nostris tui amóris afféctum; ut te in ómnibus et super ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant, consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 3:8-15\nCaríssimi: Omnes unánimes in oratióne estóte, compatiéntes, fraternitátis amatóres, misericórdes, modésti, húmiles: non reddéntes malum pro malo, nec maledíctum pro maledícto, sed e contrário benedicéntes: quia in hoc vocáti estis, ut benedictiónem hereditáte possideátis. Qui enim vult vitam dilígere et dies vidére bonos, coérceat linguam suam a malo, et lábia ejus ne loquántur dolum. Declínet a malo, et fáciat bonum: inquírat pacem, et sequátur eam. Quia óculi Dómini super justos, et aures ejus in preces eórum: vultus autem Dómini super faciéntes mala. Et quis est, qui vobis nóceat, si boni æmulatóres fuéritis? Sed et si quid patímini propter justítiam, beáti. Timórem autem eórum ne timuéritis: et non conturbémini. Dóminum autem Christum sanctificáte in córdibus vestris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 83:10; 83:9\nProtéctor noster, áspice, Deus, et réspice super servos tuos.\nV. Dómine, Deus virtútum, exáudi preces servórum tuórum.\nAllelúja, allelúja.\n!Ps 20:1\nDómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.",
+            "incipit": "Protéctor noster, áspice,",
+            "mp3": "graduel_protector-noster.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:20-24\nIn illo témpore: Dixit Jesus discípulis suis: Nisi abundáverit justítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cœlórum. Audístis, quia dictum est antíquis: Non occídes: qui autem occíderit, reus erit judício. Ego autem dico vobis: quia omnis, qui iráscitur fratri suo, reus erit judício. Qui autem díxerit fratri suo, raca: reus erit concílio. Qui autem díxerit, fátue: reus erit gehénnæ ignis. Si ergo offers munus tuum ad altáre, et ibi recordátus fúeris, quia frater tuus habet áliquid advérsum te: relínque ibi munus tuum ante altáre et vade prius reconciliári fratri tuo: et tunc véniens ófferes munus tuum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7 et 8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Secreta",
+            "texte": "Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli obtulérunt ad honórem nóminis tui, cunctis profíciat ad salútem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:4\nUnam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ.",
+            "incipit": "Unam pétii a",
+            "mp3": "communion_unam-petii.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent05-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris mundémur occúltis et ab hóstium liberémur insídiis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 26:7; 26:9\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.\n!Ps 26:1\nDóminus illuminátio mea et salus mea, quem timébo?\n&Gloria\nv. Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne derelínquas me neque despícias me, Deus, salutáris meus.",
+            "incipit": "Exáudi, Dómine, vocem",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui diligéntibus te bona invisibília præparásti: infúnde córdibus nostris tui amóris afféctum; ut te in ómnibus et super ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant, consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 3:8-15\nCaríssimi: Omnes unánimes in oratióne estóte, compatiéntes, fraternitátis amatóres, misericórdes, modésti, húmiles: non reddéntes malum pro malo, nec maledíctum pro maledícto, sed e contrário benedicéntes: quia in hoc vocáti estis, ut benedictiónem hereditáte possideátis. Qui enim vult vitam dilígere et dies vidére bonos, coérceat linguam suam a malo, et lábia ejus ne loquántur dolum. Declínet a malo, et fáciat bonum: inquírat pacem, et sequátur eam. Quia óculi Dómini super justos, et aures ejus in preces eórum: vultus autem Dómini super faciéntes mala. Et quis est, qui vobis nóceat, si boni æmulatóres fuéritis? Sed et si quid patímini propter justítiam, beáti. Timórem autem eórum ne timuéritis: et non conturbémini. Dóminum autem Christum sanctificáte in córdibus vestris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 83:10; 83:9\nProtéctor noster, áspice, Deus, et réspice super servos tuos.\nV. Dómine, Deus virtútum, exáudi preces servórum tuórum.\nAllelúja, allelúja.\n!Ps 20:1\nDómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.",
+            "incipit": "Protéctor noster, áspice,",
+            "mp3": "graduel_protector-noster.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:20-24\nIn illo témpore: Dixit Jesus discípulis suis: Nisi abundáverit justítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cœlórum. Audístis, quia dictum est antíquis: Non occídes: qui autem occíderit, reus erit judício. Ego autem dico vobis: quia omnis, qui iráscitur fratri suo, reus erit judício. Qui autem díxerit fratri suo, raca: reus erit concílio. Qui autem díxerit, fátue: reus erit gehénnæ ignis. Si ergo offers munus tuum ad altáre, et ibi recordátus fúeris, quia frater tuus habet áliquid advérsum te: relínque ibi munus tuum ante altáre et vade prius reconciliári fratri tuo: et tunc véniens ófferes munus tuum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7 et 8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Secreta",
+            "texte": "Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli obtulérunt ad honórem nóminis tui, cunctis profíciat ad salútem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:4\nUnam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ.",
+            "incipit": "Unam pétii a",
+            "mp3": "communion_unam-petii.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent05-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris mundémur occúltis et ab hóstium liberémur insídiis.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 83:10; 83:9\nProtéctor noster, áspice, Deus, et réspice super servos tuos. \nV. Dómine, Deus virtútum, exáudi preces servórum tuórum. \nAllelúja, allelúja.\n!Ps 20:1\nDómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.",
-        "Francais": "!Ps 83:10; 83:9\nRegardez, ô Dieu, notre protecteur, et tournez les yeux vers vos serviteurs.\nV. Seigneur, Dieu des armées, exaucez les prières de vos serviteurs. Alléluia, alléluia.\n!Ps 20:1\nSeigneur, en votre force se réjouira le roi, et à cause de votre salut il débordera de joie. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_protector-noster.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 5:20-24\nEn ce temps-là, Jésus dit à ses disciples : « Si votre justice ne surpasse celle des Scribes et des Pharisiens, vous n'entrerez point dans le royaume des cieux. Vous avez appris qu'il a été dit aux anciens : Tu ne tueras point ; mais qui tuera sera justiciable du tribunal. Et moi, je vous dis : Quiconque se met en colère contre son frère sera justiciable du tribunal ; et qui dira à son frère : Raca ! sera justiciable de l'assemblée ; et qui lui dira : Fou ! sera justiciable pour la géhenne du feu. Si donc tu viens présenter ton offrande à l'autel et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande, devant l'autel, et va d'abord te réconcilier avec ton frère ; et alors viens présenter ton offrande."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 15:7 et 8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.",
-        "Francais": "!Ps 15:7 et 8.\nJe bénirai le Seigneur qui m'a donné l'intelligence. Je voyais Dieu toujours en ma présence, car il est à ma droite pour que je ne sois pas ébranlé."
-      },
-      "audios": "Graduale Project/offertoire_benedicam-dominum.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 26:4\nUnam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini ómnibus diébus vitæ meæ.",
-        "Francais": "!Ps 26:4\nJ'ai demandé au Seigneur une seule chose, que je recherche : c'est d'habiter dans la maison du Seigneur tous les jours de ma vie."
-      },
-      "audios": "Graduale Project/communion_unam-petii.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent05-0.txt",
+        "Latin/Tempora/Pent05-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

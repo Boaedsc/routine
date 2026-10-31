@@ -1,26 +1,254 @@
 {
   "date": "2027-07-19",
-  "celebration": {
-    "nom": "Saint Vincent de Paul",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-19",
-    "Tempora/Pent09-1"
-  ],
-  "cles_jour": [
-    "07-19",
-    "Pent09-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent09",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
+      "occurrence": {
+        "gagnant": "Sancti/07-19",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-19.txt",
+        "temporal": "Latin/Tempora/Pent09-1.txt",
+        "sanctoral": "Latin/Sancti/07-19.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-19.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis decórem promovéndum, beátum Vincéntium apostólica virtúte roborásti: præsta, quǽsumus; ut, cujus pia mérita venerámur, virtútum quoque instruámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-19.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis decórem promovéndum, beátum Vincéntium apostólica virtúte roborásti: præsta, quǽsumus; ut, cujus pia mérita venerámur, virtútum quoque instruámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de l’Ecclésiastique.\n!Eccli 31:8-11.\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, ni espéré dans l’argent et les trésors. Qui est-il, que nous le louions ? Car il a fait des choses admirables dans sa vie. Il a été soumis à cette épreuve et il a eu la perfection : il y aura pour lui une gloire éternelle. Il pouvait violer la loi et ne l’a pas violée, faire le mal et ne l’a pas fait. C’est pourquoi ses biens sont affermis dans le Seigneur, et toute l’assemblée des saints publiera ses bienfaits.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Secreta",
+            "texte": "Dieu tout-puissant, accordez-nous, s’il vous plaît, que cette offrande que vous présente notre bassesse en l’honneur de vos Saints vous soit agréable à cause d’eux, et nous purifie en notre corps ainsi qu’en notre âme.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-19.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en supplions, Dieu tout-puissant, faites qu’ayant reçu un aliment tout céleste et que le bienheureux Vincent votre Confesseur, intercédant pour nous, nous soyons grâce à ses secours munis contre toutes les adversités.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/07-19.txt",
+        "Latin/Sancti/07-19.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

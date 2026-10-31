@@ -1,70 +1,252 @@
 {
   "date": "2027-12-27",
-  "celebration": {
-    "nom": "Saint Jean, apôtre et évangéliste",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/12-27",
-    "Tempora/Nat27"
-  ],
-  "cles_jour": [
-    "12-27",
-    "Nat27"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat27",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C4a",
-        "Francais": "!Eccli 15:5\nv. Au milieu de l’Église, le Seigneur l’a chargé d’enseigner. Il l’a pénétré de l’esprit de sagesse et d’intelligence. Il l’a revêtu d’un vêtement de gloire.\n!Ps 91:2\nQu’il est bon de proclamer sa foi dans le Seigneur et de chanter ton nom Dieu Très Haut.\n&Gloria\nv. Au milieu de l’Église, le Seigneur l’a chargé d’enseigner. Il l’a pénétré de l’esprit de sagesse et d’intelligence. Il l’a revêtu d’un vêtement de gloire."
+      "occurrence": {
+        "gagnant": "Sancti/12-27",
+        "nom_sanctoral": "",
+        "classe": 5.3,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-27.txt",
+        "temporal": "Latin/Tempora/Nat27.txt",
+        "sanctoral": "Latin/Sancti/12-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lecture du livre de l’Ecclésiastique.\n!Eccli 15:1-6\nVoilà ce que fait celui qui craint le Seigneur, et celui qui s’attache à la loi obtiendra la sagesse. Elle viendra au-devant de lui comme une mère, Elle le nourrira du pain de l’intelligence, et lui donnera à boire l’eau de la sagesse. Il s’appuiera sur elle et ne fléchira pas, Il s’attachera à elle et ne sera pas confondu. Elle l’élèvera devant ses compagnons, et lui ouvrira la bouche au milieu de l’assemblée. Elle le remplira d’un esprit de sagesse et d’intelligence et le revêtira d’un vêtement de gloire. La joie, une couronne d’allégresse, et un nom éternel seront son partage."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
+            "incipit": "In médio Ecclésiæ",
+            "mp3": "introitus_in-medio-ecclesiae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Oratio",
+            "texte": "Ecclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis Apóstoli tui et Evangelístæ illumináta doctrínis, ad dona pervéniat sempitérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapiéntiæ\n!Eccli 15:1-6\nQui timet Deum, fáciet bona: et qui cóntinens est justítiæ, apprehéndet illam, et obviábit illi quasi mater honorificáta. Cibábit illum pane vitæ et intelléctus, et aqua sapiéntiæ salutáris potábit illum: et firmábitur in illo, et non flectétur: et continébit illum, et non confundétur: et exaltábit illum apud próximos suos, et in médio ecclésiæ apériet os ejus, et adimplébit illum spíritu sapiéntiæ et intelléctus, et stola glóriæ véstiet illum. Jucunditátem et exsultatiónem thesaurizábit super illum, et nómine ætérno hereditábit illum, Dóminus, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Graduale",
+            "texte": "!Joann 21:23; 21:19\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur,\nV. Sed: Sic eum volo manére, donec véniam: tu me séquere.\nAllelúja, allelúja.\n!Joann 21:24\nV. Hic est discípulus ille, qui testimónium pérhibet de his: et scimus, quia verum est testimónium ejus. Allelúja.",
+            "incipit": "Exiit sermo inter",
+            "mp3": "graduel_exiit-sermo.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Beátus vir, qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Joánnem\n!Joann 21:19-24\nIn illo témpore: Dixit Jesus Petro: Séquere me. Convérsus Petrus vidit illum discípulum, quem diligébat Jesus, sequéntem, qui et recúbuit in cena super pectus ejus, et dixit: Dómine, quis est qui tradet te ? Hunc ergo cum vidísset Petrus, dixit Jesu: Dómine, hic autem quid? Dicit ei Jesus: Sic eum volo manére, donec véniam, quid ad te? tu me séquere. Exiit ergo sermo iste inter fratres, quia discípulus ille non móritur. Et non dixit ei Jesus: Non móritur; sed: Sic eum volo manére, donec véniam: quid ad te? Hic est discípulus ille, qui testimónium pérhibet de his, et scripsit hæc: et scimus, quia verum est testimónium ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus, cujus nos confídimus patrocínio liberári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Communio",
+            "texte": "!Joann 21:23\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur; sed: Sic eum volo manére, donec véniam.",
+            "incipit": "Exiit sermo inter",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-27.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)\n!Ps 91:2\nIl est bon de louer le Seigneur, et de chanter votre nom, ô Très-Haut..\n&Gloria\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)",
+            "incipit": "Au milieu de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Oratio",
+            "texte": "Ecclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis Apóstoli tui et Evangelístæ illumináta doctrínis, ad dona pervéniat sempitérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapiéntiæ\n!Eccli 15:1-6\nQui timet Deum, fáciet bona: et qui cóntinens est justítiæ, apprehéndet illam, et obviábit illi quasi mater honorificáta. Cibábit illum pane vitæ et intelléctus, et aqua sapiéntiæ salutáris potábit illum: et firmábitur in illo, et non flectétur: et continébit illum, et non confundétur: et exaltábit illum apud próximos suos, et in médio ecclésiæ apériet os ejus, et adimplébit illum spíritu sapiéntiæ et intelléctus, et stola glóriæ véstiet illum. Jucunditátem et exsultatiónem thesaurizábit super illum, et nómine ætérno hereditábit illum, Dóminus, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Graduale",
+            "texte": "!Joann 21:23; 21:19\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur,\nV. Sed: Sic eum volo manére, donec véniam: tu me séquere.\nAllelúja, allelúja.\n!Joann 21:24\nV. Hic est discípulus ille, qui testimónium pérhibet de his: et scimus, quia verum est testimónium ejus. Allelúja.",
+            "incipit": "Exiit sermo inter",
+            "mp3": "graduel_exiit-sermo.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Beátus vir, qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Joánnem\n!Joann 21:19-24\nIn illo témpore: Dixit Jesus Petro: Séquere me. Convérsus Petrus vidit illum discípulum, quem diligébat Jesus, sequéntem, qui et recúbuit in cena super pectus ejus, et dixit: Dómine, quis est qui tradet te ? Hunc ergo cum vidísset Petrus, dixit Jesu: Dómine, hic autem quid? Dicit ei Jesus: Sic eum volo manére, donec véniam, quid ad te? tu me séquere. Exiit ergo sermo iste inter fratres, quia discípulus ille non móritur. Et non dixit ei Jesus: Non móritur; sed: Sic eum volo manére, donec véniam: quid ad te? Hic est discípulus ille, qui testimónium pérhibet de his, et scripsit hæc: et scimus, quia verum est testimónium ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nLe juste fleurira comme le palmier et il s’élèvera comme le cèdre du Liban. (Alléluia.)",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus, cujus nos confídimus patrocínio liberári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Communio",
+            "texte": "!Joann 21:23\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur; sed: Sic eum volo manére, donec véniam.",
+            "incipit": "Exiit sermo inter",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-27.txt",
+            "section": "Postcommunio",
+            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Joann 21:23; 21:19\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur,\nV. Sed: Sic eum volo manére, donec véniam: tu me séquere. \nAllelúja, allelúja.\n!Joann 21:24\nV. Hic est discípulus ille, qui testimónium pérhibet de his: et scimus, quia verum est testimónium ejus. Allelúja.",
-        "Francais": "!Joann 21:23; 21:19\nLe bruit courut parmi les disciples que Jean ne mourrait pas. Pourtant, Jésus n’a pas dit : il ne mourra pas.\nV. Mais seulement : si je veux qu’il demeure jusqu’à mon retour ? toi, suis-moi. Alléluia, alléluia.\n!Joann 21:24\nV. C’est ce disciple qui rend témoignage de ces faits, et nous savons que son témoignage est véridique. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_exiit-sermo.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Joánnem.\n!Joann 21:19-24\nEn ce temps là : Jésus dit à Pierre : « Suis-moi ». Pierre, s’étant retourné, vit venir derrière lui, le disciple que Jésus aimait, celui qui, pendant la cène, s’était penché sur son sein, et lui avait dit : « Seigneur, qui est celui qui vous trahit ? » Pierre donc, l’ayant vu, dit à Jésus : « Seigneur, et celui-ci que deviendra-t-il ? » Jésus lui dit : « Si je veux qu’il demeure jusqu’à ce que je vienne, que t’importe ? Toi, suis-moi ! » Le bruit courut donc parmi les frères que ce disciple ne mourrait point. Pourtant Jésus ne lui avait pas dit qu’il ne mourrait pas, mais « Si je veux qu’il demeure jusqu’à ce que je vienne, que t’importe ? » C’est ce même disciple qui rend témoignage de ces choses et qui les a écrites ; et nous savons que son témoignage est vrai."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C4a",
-        "Francais": "!Ps 91:13\nLe Juste s’épanouit comme le palmier ; il s’élève comme le cèdre du Liban."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 21:23\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Jesus: Non móritur; sed: Sic eum volo manére, donec véniam.",
-        "Francais": "!Joann 21:23\nLe bruit courut parmi les disciples que Jean ne mourrait pas. Pourtant, Jésus n’a pas dit : il ne mourra pas. Mais seulement : si je veux qu’il demeure jusqu’à mon retour !"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/12-27.txt",
+        "Latin/Sancti/12-27.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

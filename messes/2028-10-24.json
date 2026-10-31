@@ -1,70 +1,224 @@
 {
   "date": "2028-10-24",
-  "celebration": {
-    "nom": "Saint Raphaël Archange",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/10-24",
-    "Tempora/Pent20-2"
-  ],
-  "cles_jour": [
-    "10-24",
-    "Pent20-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent20",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 102:20\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.\n!Ps 102:1\nBénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
-        "Francais": "!Ps 102:20.\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres.\n!Ps 102:1\nMon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.\n&Gloria\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres."
+      "occurrence": {
+        "gagnant": "Sancti/10-24",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-24.txt",
+        "temporal": "Latin/Tempora/Pent20-2.txt",
+        "sanctoral": "Latin/Sancti/10-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_benedicite-dominum.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Tobíæ.\n!Tob 12:7-15\nEn ces jours-là : L’ange Raphaël dit à Tobie : Il est bon de cacher le secret du roi, mais il est honorable de révéler et de publier les oeuvres de Dieu. La prière accompagnée du jeûne est bonne, et l’aumône vaut mieux que d’amasser des monceaux d’or. Car l’aumône délivre de la mort, et c’est elle qui efface les péchés, et qui fait trouver la miséricorde et la vie éternelle. Mais ceux qui commettent le péché et l’iniquité sont les ennemis de leur âme. Je vais donc vous découvrir la vérité, et je ne vous cacherai point une chose qui est secrète. Lorsque vous priiez avec larmes, et que vous ensevelissiez les morts, que vous quittiez votre repas, et que vous cachiez les morts dans votre maison durant le jour pour les ensevelir pendant la nuit, j’ai présenté votre prière au Seigneur. Et parce que vous étiez agréable à Dieu, il a été nécessaire que la tentation vous éprouvât.Et maintenant le Seigneur m’a envoyé pour vous guérir, et pour délivrer du démon Sara, la femme de votre fils. Car je suis l’Ange Raphaël, l’un des sept qui nous tenons en la présence du Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 102:20\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.\n!Ps 102:1\nBénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": "introitus_benedicite-dominum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Raphaélem Archángelum Tobíæ fámulo tuo cómitem dedísti in via: concéde nobis fámulis tuis; ut ejúsdem semper protegámur custódia et muniámur auxílio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Tobíæ\n!Tob 12:7-15\nIn diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum regis abscóndere bonum est: ópera autem Dei reveláre et confitéri honoríficum est. Bona est orátio cum jejúnio, et eleemósyna magis quam thesáuros auri recóndere: quóniam eleemósyna a morte liberat, et ipsa est, quæ purgat peccáta et facit invenire misericórdiam et vitam ætérnam. Qui autem faciunt peccátum et iniquitátem, hostes sunt ánimæ suæ. Manifésto ergo vobis veritátem, et non abscóndam a vobis occúltum sermónem. Quando orábas cum lácrimis, et sepeliébas mórtuos, et derelinquébas prándium tuum, et mórtuos abscondébas per diem in domo tua, et nocte sepeliébas eos, ego óbtuli oratiónem tuam Dómino. Et quia accéptus eras Deo, necésse fuit, ut tentátio probáret te. Et nunc misit me Dóminus, ut curárem te, et Saram uxórem fílii tui a dæmónio liberárem. Ego enim sum Raphaël Angelus, unus ex septem, qui astámus ante Dóminum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Graduale",
+            "texte": "!Tob 8:3\nAngelus Dómini Raphaël apprehéndit et ligávit dæmonem.\n!Ps 146:5.\nV. Magnus Dóminus noster, et magna virtus ejus.\nAllelúja, allelúja.\n!Ps 137:1-2.\nV. In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo, Dómine. Allelúja.",
+            "incipit": "Angelus Dómini Raphaël",
+            "mp3": "graduel_angelus-domini-raphael.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.\n!Ps 102:21\nBenedícite Dóminum, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus.",
+            "incipit": "Laudáte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-4\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. ¶ Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsaida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiebat, a quacúmque detinebátur infirmitáte.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Offertorium",
+            "texte": "!Apoc 8:3; 8:4\nStetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei.",
+            "incipit": "Stetit Angelus juxta",
+            "mp3": "offertoire_stetit-angelus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram proveníre concédas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Communio",
+            "texte": "!Dan 3:58\nBenedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula.",
+            "incipit": "Benedícite, omnes Angeli",
+            "mp3": "communion_benedicite-omnes-angeli.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/10-02.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-24.txt",
+            "section": "Postcommunio",
+            "texte": "Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum Raphaélem Archángelum: et, quem tuæ majestáti semper assístere crédimus, tibi nostras exíguas preces benedicéndas assígnet.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 102:20\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.\n!Ps 102:1\nBénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": "introitus_benedicite-dominum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Raphaélem Archángelum Tobíæ fámulo tuo cómitem dedísti in via: concéde nobis fámulis tuis; ut ejúsdem semper protegámur custódia et muniámur auxílio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Tobíæ\n!Tob 12:7-15\nIn diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum regis abscóndere bonum est: ópera autem Dei reveláre et confitéri honoríficum est. Bona est orátio cum jejúnio, et eleemósyna magis quam thesáuros auri recóndere: quóniam eleemósyna a morte liberat, et ipsa est, quæ purgat peccáta et facit invenire misericórdiam et vitam ætérnam. Qui autem faciunt peccátum et iniquitátem, hostes sunt ánimæ suæ. Manifésto ergo vobis veritátem, et non abscóndam a vobis occúltum sermónem. Quando orábas cum lácrimis, et sepeliébas mórtuos, et derelinquébas prándium tuum, et mórtuos abscondébas per diem in domo tua, et nocte sepeliébas eos, ego óbtuli oratiónem tuam Dómino. Et quia accéptus eras Deo, necésse fuit, ut tentátio probáret te. Et nunc misit me Dóminus, ut curárem te, et Saram uxórem fílii tui a dæmónio liberárem. Ego enim sum Raphaël Angelus, unus ex septem, qui astámus ante Dóminum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Graduale",
+            "texte": "!Tob 8:3\nAngelus Dómini Raphaël apprehéndit et ligávit dæmonem.\n!Ps 146:5.\nV. Magnus Dóminus noster, et magna virtus ejus.\nAllelúja, allelúja.\n!Ps 137:1-2.\nV. In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo, Dómine. Allelúja.",
+            "incipit": "Angelus Dómini Raphaël",
+            "mp3": "graduel_angelus-domini-raphael.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.\n!Ps 102:21\nBenedícite Dóminum, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus.",
+            "incipit": "Laudáte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-4\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. ¶ Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsaida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiebat, a quacúmque detinebátur infirmitáte.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Offertorium",
+            "texte": "!Apoc 8:3; 8:4\nStetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei.",
+            "incipit": "Stetit Angelus juxta",
+            "mp3": "offertoire_stetit-angelus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram proveníre concédas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Communio",
+            "texte": "!Dan 3:58\nTous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles.",
+            "incipit": "Tous les anges",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/10-02.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-24.txt",
+            "section": "Postcommunio",
+            "texte": "Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum Raphaélem Archángelum: et, quem tuæ majestáti semper assístere crédimus, tibi nostras exíguas preces benedicéndas assígnet.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Tob 8:3\nAngelus Dómini Raphaël apprehéndit et ligávit dæmonem.\n!Ps 146:5.\nV. Magnus Dóminus noster, et magna virtus ejus.\nAllelúja, allelúja.\n!Ps 137:1-2.\nV. In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo, Dómine. Allelúja.",
-        "Francais": "!Tob 8:3\nL’Ange Raphaël saisit et lia le démon.\n!Ps 146:5.\nV. Notre Seigneur est grand, et sa puissance est grande.\nAlléluia, alléluia.\n!Ps 137:1-2.\nV. Sous le regard des Anges, je vous chanterai : j’adorerai dans votre saint temple, et je louerai votre nom. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_angelus-domini-raphael.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 5:1-4\nEn ce temps-là, il y eut une fête des Juifs, et Jésus monta à Jérusalem. Or, à Jérusalem, près de la porte des Brebis, il y a une piscine qui s’appelle en hébreu Béthesda, et qui a cinq portiques. Sous ces portiques étaient couchés un grand nombre de malades, d’aveugles, de boiteux et de paralytiques. Ils attendaient le bouillonnement de l’eau. Car un ange du Seigneur descendait à certains temps dans la piscine, et agitait l’eau. Et celui qui y descendait le premier après l’agitation de l’eau, était guéri de son infirmité quelle qu’elle fut."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Apoc 8:3; 8:4\nStetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei.",
-        "Francais": "!Apoc 8:3; 8:4\nL’Ange se plaça devant l’autel du temple, ayant un encensoir d’or dans sa main ; et il lui fut donné beaucoup de parfums : et la fumée des parfums monta devant Dieu."
-      },
-      "audios": "Graduale Project/offertoire_stetit-angelus.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Sancti/10-02:Communio",
-        "Francais": "!Dan 3:58\nTous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/10-24.txt",
+        "Latin/Sancti/10-24.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

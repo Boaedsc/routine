@@ -1,17 +1,238 @@
 {
   "date": "2028-05-30",
-  "celebration": {
-    "nom": "Saint Félix Ier",
-    "classe": 4,
-    "note": "(temporal : Mardi du temps pascal)"
-  },
-  "fichiers": [
-    "Sancti/05-30",
-    "Tempora/Pasc6-2"
-  ],
-  "cles_jour": [
-    "05-30",
-    "Pasc6-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc6",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Tempora/Pasc6-2",
+        "nom_sanctoral": "",
+        "classe": 2.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc6-2.txt",
+        "temporal": "Latin/Tempora/Pasc6-2.txt",
+        "sanctoral": "Latin/Sancti/05-30.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Introitus",
+            "texte": "!Acta 1:11\nv. Viri Galilǽi, quid admirámini aspiciéntes in cœlum? allelúja: quemádmodum vidístis eum ascendéntem in cœlum, ita véniet, allelúja, allelúja, allelúja.\n!Ps 46:2\nOmnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.\n&Gloria\nv. Viri Galilǽi, quid admirámini aspiciéntes in cœlum? allelúja: quemádmodum vidístis eum ascendéntem in cœlum, ita véniet, allelúja, allelúja, allelúja.",
+            "incipit": "Viri Galilǽi, quid",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Oratio",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui hodiérna die Unigénitum tuum, Redemptórem nostrum, ad cœlos ascendísse crédimus; ipsi quoque mente in cœléstibus habitémus.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 46:6\nAscéndit Deus in jubilatióne, et Dóminus in voce tubæ. Allelúja.\n!Ps 67:18-19\nV. Dóminus in Sina in sancto, ascéndens in altum, captívam duxit captivitátem. Allelúja.",
+            "incipit": "Allelúja, allelúja. Ascéndit",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 46:6\nAscéndit Deus in jubilatióne, et Dóminus in voce tubæ, allelúja.",
+            "incipit": "Ascéndit Deus in",
+            "mp3": "offertoire_ascendit-deus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ pro Fílii tui gloriósa Ascensióne deférimus: et concéde propítius; ut a præséntibus perículis liberémur, et ad vitam perveniámus ætérnam.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 67:33-34\nPsállite Dómino, qui ascéndit super cœlos cœlórum ad Oriéntem, allelúja.",
+            "incipit": "Psállite Dómino, qui",
+            "mp3": "communion_psallite-domino.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta nobis, quǽsumus, omnípotens et miséricors Deus: ut, quæ visibílibus mystériis suménda percépimus, invisíbili consequámur efféctu.\n$Per Dominum.",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Introitus",
+            "texte": "!Acta 1:11.\nv. Hommes de Galilée, pourquoi restez-vous à regarder le ciel ? alléluia. Ce Jésus que vous avez vu montant au ciel reviendra ainsi, alléluia, alléluia, alléluia.\n!Ps 46:2\nApplaudissez, tous les peuples, jubilez pour Dieu avec des cris d'allégresse.\n&Gloria\nv. Hommes de Galilée, pourquoi restez-vous à regarder le ciel ? alléluia. Ce Jésus que vous avez vu montant au ciel reviendra ainsi, alléluia, alléluia, alléluia.",
+            "incipit": "Hommes de Galilée,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Oratio",
+            "texte": "Accordez-nous, Dieu tout-puissant, à nous qui croyons qu'en ce jour votre Fils unique, notre Rédempteur, est monté aux cieux, de vivre, nous aussi, en esprit, dans les réalités célestes.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 46:6.\nDieu est monté dans la jubilation ; le Seigneur au son de la trompette. Alléluia.\n!Ps 67:18-19.\nV. Le Seigneur vient du Sinaï dans son sanctuaire. Montant dans les hauteurs, il emmène captive la captivité.\nAllelúja.",
+            "incipit": "Allelúja, allelúja. Dieu",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 46:6.\nDieu est monté dans la jubilation ; le Seigneur au son de la trompette, alléluia.",
+            "incipit": "Dieu est monté",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Secreta",
+            "texte": "Accueillez, Seigneur, les offrandes que nous vous présentons pour célébrer la glorieuse ascension de votre Fils, et accordez-nous, dans votre bonté, d'être délivrés des périls de la vie présente et de parvenir à la vie éternelle.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 67:33-34\nPsalmodiez pour Seigneur qui monte au-dessus des cieux des cieux vers l'Orient, alléluia.",
+            "incipit": "Psalmodiez pour Seigneur",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Postcommunio",
+            "texte": "Accordez-nous, Dieu tout-puissant et bon, de recueillir le fruit invisible des sacrements que nous recevons sous une forme visible.\n$Per Dominum.",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc6-2.txt",
+        "Latin/Tempora/Pasc6-2.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
+    }
+  ]
 }

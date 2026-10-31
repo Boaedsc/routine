@@ -1,70 +1,210 @@
 {
   "date": "2026-01-31",
-  "celebration": {
-    "nom": "Saint Jean Bosco",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-31",
-    "Tempora/Epi4-6"
-  ],
-  "cles_jour": [
-    "01-31",
-    "Epi4-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi3",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!3 Reg 4:29\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.\n!Ps 112:1.\nLaudáte, púeri, Dóminum, laudáte nomen Dómini.\n&Gloria\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.",
-        "Francais": "!3 Reg 4:29.\nv. Dieu lui donna une sagesse et une prudence très grandes, et une étendue de cœur, comme le sable qui estsur le rivage de la mer.\n!Ps 112:1.\nLouez le Seigneur, enfants, louez le nom du Seigneur.\n&Gloria\nv. Dieu lui donna une sagesse et une prudence très grandes, et une étendue de cœur, comme le sable qui estsur le rivage de la mer."
+      "occurrence": {
+        "gagnant": "Sancti/01-31",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-31.txt",
+        "temporal": "Latin/Tempora/Epi3-6.txt",
+        "sanctoral": "Latin/Sancti/01-31.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 4:4-9\nMes Frères : Réjouissez-vous dans le Seigneur, en tout temps ; je le répète, réjouissez-vous. Que votre modestie soit connue de tous les hommes ; le Seigneur est proche. Ne vous inquiétez de rien ; mais, en toute chose, faites connaître vos demandes à Dieu par la prière et la supplication, accompagnées d’actions de grâces ; et que la paix de Dieu, qui surpasse toute intelligence, garde vos cœurs et vos esprits dans le Christ Jésus ! Au reste, frères, tout ce qui est vrai, tout ce qui est pudique, tout ce qui est juste, tout ce qui est saint, tout ce qui est aimable, tout ce qui est de bonne réputation, ce qui est vertueux, ce qui est louable dans le règlement des moeurs, que ce soit l’objet de vos pensées. Ce que vous avez appris, et reçu, et entendu de moi, et ce que vous avez vu en moi, pratiquez-le, et le Dieu de paix sera avec vous."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Introitus",
+            "texte": "!3 Reg 4:29\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.\n!Ps 112:1.\nLaudáte, púeri, Dóminum, laudáte nomen Dómini.\n&Gloria\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.",
+            "incipit": "Dedit illi Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et magístrum excitásti, ac per eum, auxiliatríce Vírgine María, novas in Ecclésia tua famílias floréscere voluísti: concéde, quǽsumus; ut eódem caritátis igne succénsi, ánimas quærere, tibíque soli servíre valeámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 4:4-9\nFratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti sitis; sed in omni oratióne et obsecratióne, cum gratiárum actióne, petitiónes vestræ innotéscant apud Deum. Et pax Dei quæ exsúperat omnem sensum, custódiat corda vestra et intelligéntias vestras, in Christo Jesu. De cétero, fratres, quæcúmque sunt vera, quæcúmque púdica, quæcúmque justa, quæcúmque sancta, quæcúmque amabília, quæcúmque bonæ famæ, si qua virtus, si qua laus disciplínæ, hæc cogitáte. Quæ et didicístis, et accepístis, et audístis, et vidístis in me, hæc agite: et Deus pacis erit vobíscum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:3-5\nSpera in Dómino, et fac bonitátem, et inhábita terram, et pascéris in divítiis ejus.\nV. Delectáre in Dómino, et dabit tibi petitiónes cordis tui; revéla Dómino viam tuam et spera in eo, et ipse fáciet. Allelúja, allelúja\n!Ps 73:21\nPauper et inops laudábunt nomen tuum. Allelúja.",
+            "incipit": "Spera in Dómino,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Tractus",
+            "texte": "!Ps 60:4-6\nFactus es spes mea, Dómine: turris fortitúdinis a fácie inimíci.\nV. Inhabitábo in tabernáculo tuo in sǽcula: prótegar in velaménto alárum tuárum.\nV. Quóniam tu, Deus, exaudísti oratiónem meam: dedísti hereditátem timéntibus nomen tuum.",
+            "incipit": "Factus es spes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas, major est in regno cælórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 33:12\nVeníte, fílii, audíte me: timórem Dómini docébo vos.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, oblatiónem mundam salutáris Hóstiæ, et præsta: ut, te in ómnibus et super ómnia diligéntes, in glóriæ tuæ laudem vívere mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Communio",
+            "texte": "!Rom 4:18\nContra spem in spem crédidit, ut fíeret pater multárum géntium, secúndum quod dictum est ei.",
+            "incipit": "Contra spem in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-31.txt",
+            "section": "Postcommunio",
+            "texte": "Córporis et Sánguinis tui, Dómine, mystério satiátis, concéde, quǽsumus; ut, intercedénte sancto Joánne Confessóre tuo, in gratiárum semper actióne maneámus:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Introitus",
+            "texte": "!3 Reg 4:29\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.\n!Ps 112:1.\nLaudáte, púeri, Dóminum, laudáte nomen Dómini.\n&Gloria\nv. Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem cordis, quasi arénam quæ est in líttore maris.",
+            "incipit": "Dedit illi Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et magístrum excitásti, ac per eum, auxiliatríce Vírgine María, novas in Ecclésia tua famílias floréscere voluísti: concéde, quǽsumus; ut eódem caritátis igne succénsi, ánimas quærere, tibíque soli servíre valeámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 4:4-9\nFratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti sitis; sed in omni oratióne et obsecratióne, cum gratiárum actióne, petitiónes vestræ innotéscant apud Deum. Et pax Dei quæ exsúperat omnem sensum, custódiat corda vestra et intelligéntias vestras, in Christo Jesu. De cétero, fratres, quæcúmque sunt vera, quæcúmque púdica, quæcúmque justa, quæcúmque sancta, quæcúmque amabília, quæcúmque bonæ famæ, si qua virtus, si qua laus disciplínæ, hæc cogitáte. Quæ et didicístis, et accepístis, et audístis, et vidístis in me, hæc agite: et Deus pacis erit vobíscum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:3-5\nSpera in Dómino, et fac bonitátem, et inhábita terram, et pascéris in divítiis ejus.\nV. Delectáre in Dómino, et dabit tibi petitiónes cordis tui; revéla Dómino viam tuam et spera in eo, et ipse fáciet. Allelúja, allelúja\n!Ps 73:21\nPauper et inops laudábunt nomen tuum. Allelúja.",
+            "incipit": "Spera in Dómino,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Tractus",
+            "texte": "!Ps 60:4-6\nFactus es spes mea, Dómine: turris fortitúdinis a fácie inimíci.\nV. Inhabitábo in tabernáculo tuo in sǽcula: prótegar in velaménto alárum tuárum.\nV. Quóniam tu, Deus, exaudísti oratiónem meam: dedísti hereditátem timéntibus nomen tuum.",
+            "incipit": "Factus es spes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas, major est in regno cælórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 33:12\nVeníte, fílii, audíte me: timórem Dómini docébo vos.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, oblatiónem mundam salutáris Hóstiæ, et præsta: ut, te in ómnibus et super ómnia diligéntes, in glóriæ tuæ laudem vívere mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Communio",
+            "texte": "!Rom 4:18\nContra spem in spem crédidit, ut fíeret pater multárum géntium, secúndum quod dictum est ei.",
+            "incipit": "Contra spem in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-31.txt",
+            "section": "Postcommunio",
+            "texte": "Córporis et Sánguinis tui, Dómine, mystério satiátis, concéde, quǽsumus; ut, intercedénte sancto Joánne Confessóre tuo, in gratiárum semper actióne maneámus:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 36:3-5\nSpera in Dómino, et fac bonitátem, et inhábita terram, et pascéris in divítiis ejus.\nV. Delectáre in Dómino, et dabit tibi petitiónes cordis tui; revéla Dómino viam tuam et spera in eo, et ipse fáciet. Allelúja, allelúja\n!Ps 73:21\nPauper et inops laudábunt nomen tuum. Allelúja.",
-        "Francais": "!Ps 36:3-5\nEspère dans le Seigneur et fais le bien, et habite la terre, et tu seras rassasié de ses richesses.\nV. Mets tes délices dans le Seigneur, et il t’accordera les demandes de ton cœur ; révèle au Seigneur ta voie et espère en lui, et lui fera selon tes désirs. Allelúja, allelúja\n!Ps 73:21\nLe pauvre et l’indigent loueront votre nom. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nEn ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 33:12\nVeníte, fílii, audíte me: timórem Dómini docébo vos.",
-        "Francais": "!Ps 33:12\nVenez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Rom 4:18\nContra spem in spem crédidit, ut fíeret pater multárum géntium, secúndum quod dictum est ei.",
-        "Francais": "!Rom 4:18\nIl a espéré contre l’espérance, pour devenir père d’un grand nombre de nations, selon ce qui lui fut dit."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/01-31.txt",
+        "Latin/Sancti/01-31.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

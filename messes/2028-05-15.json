@@ -1,70 +1,282 @@
 {
   "date": "2028-05-15",
-  "celebration": {
-    "nom": "Saint Jean-Baptiste de La Salle",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-15",
-    "Tempora/Pasc4-1"
-  ],
-  "cles_jour": [
-    "05-15",
-    "Pasc4-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc4",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C5b",
-        "Francais": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur, alléluia, alléluia.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-15",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-15.txt",
+        "temporal": "Latin/Tempora/Pasc4-1.txt",
+        "sanctoral": "Latin/Sancti/05-15.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam collegísti: concéde propítius; ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Jas 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.\n!Eccli 45:9\nAmávit eum Dóminus et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Beátus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-15.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam collegísti: concéde propítius; ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de l’Ecclésiastique.\n!Eccli 31:8-11.\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, ni espéré dans l’argent et les trésors. Qui est-il, que nous le louions ? Car il a fait des choses admirables dans sa vie. Il a été soumis à cette épreuve et il a eu la perfection : il y aura pour lui une gloire éternelle. Il pouvait violer la loi et ne l’a pas violée, faire le mal et ne l’a pas fait. C’est pourquoi ses biens sont affermis dans le Seigneur, et toute l’assemblée des saints publiera ses bienfaits.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Jas 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.\n!Eccli 45:9\nAmávit eum Dóminus et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Beátus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-15.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47.\nHeureux le serviteur que son maître, à son arrivée, trouvera veillant : en vérité je vous le dis, il l’établira sur tous ses biens. (Alléluia.)",
+            "incipit": "Heureux le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Jas 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.\n!Eccli 45:9\nAmávit eum Dóminus et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
-        "Francais": "Alléluia, alléluia\n!Jas 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.\n!Eccli 45:9\nLe Seigneur l’a aimé et l’a orné. Il l’a revêtu d’une robe de gloire. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nEn ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4-1",
-        "Francais": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/05-15.txt",
+        "Latin/Sancti/05-15.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

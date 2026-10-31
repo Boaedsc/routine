@@ -1,66 +1,224 @@
 {
   "date": "2027-07-29",
-  "celebration": {
-    "nom": "Sainte Marthe",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-29",
-    "Tempora/Pent10-4"
-  ],
-  "cles_jour": [
-    "07-29",
-    "Pent10-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Francais": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes."
+      "occurrence": {
+        "gagnant": "Sancti/07-29",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-29.txt",
+        "temporal": "Latin/Tempora/Pent10-4.txt",
+        "sanctoral": "Latin/Sancti/07-29.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11, 1-2.\nMes frères : que celui qui se glorifie, se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est approuvé, mais celui que Dieu recommande. Ah ! Si vous pouviez supporter de ma part un peu de folie ! Eh bien, supportez-moi. Car je suis jaloux de vous d’une jalousie de Dieu ; en effet, je vous ai fiancés à un unique époux, au Christ, pour vous présenter à lui comme une vierge pure."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:8\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Oratio",
+            "texte": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ N. festivitáte gaudémus; ita piæ devotiónis erudiámur afféctu.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11:1-2\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "incipit": "Spécie tua et",
+            "mp3": "graduel_specie-tua.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13; 44:10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nV. Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Afferéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
+            "incipit": "Spécie tua et",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:38-42\nIn illo témpore: Intravit Jesus in quoddam castellum: et mulier quaedam, Martha nomine, excepit illum in domum suam et huic erat soror nomine Maria quae etiam sedens secus pedes Domini audiebat verbum illius. ¶ Martha autem satagebat circa frequens ministerium quae stetit, et ait: Domine non est tibi curae quod soror mea reliquit me solam ministrare dic ergo illi ut me adiuvet et respondens dixit illi Dominus: “Martha, Martha, sollicita es, et turbaris erga plurima: porro unum est necessarium. Maria optimam partem elegit, quae non auferetur ab ea.”",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:10\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)",
+            "incipit": "Fíliæ regum in",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Secreta",
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Communio",
+            "texte": "!Matt 25:4-6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)",
+            "incipit": "Quinque prudéntes vírgines",
+            "mp3": "communion_quinque-prudentes-virgines.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-29.txt",
+            "section": "Postcommunio",
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Oratio",
+            "texte": "Exaucez-nous, Dieu notre Sauveur, afin que célébrant dans la joie la fête de la bienheureuse N., nous nous laissions gagner aussi par l’ardeur de son amour.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Lectio",
+            "texte": "Lecture du Bienheureux Paul apôtres aux Corinthiens.\n!2 Cor 10:17-18; 11:1-2\nFrère, si quelqu’un se glorifie, qu’il se glorifie dans le Seigneur. Ce n’est pas celui qui se recommande lui-même qui est un homme de valeur éprouvée, c’est celui que le Seigneur recommande. Oh ! si vous pouviez supporter de ma part un peu de folie ! Eh bien ! oui, supportez-moi. J’éprouve à votre égard une jalousie divine ; car je vous ai fiancés à un époux unique : comme une vierge pure, je vous ai présentés au Christ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:15-16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Alléluia.",
+            "incipit": "Dans votre grâce,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\ndéxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nV. Écoutez, ma fille, voyez, prêtez l’oreille, car le Roi est épris de votre beauté.\n!Ps 44:13; 44:10\nV. Les plus riches du peuple réclameront votre faveur, des filles de rois viendront à votre rencontre.\n!Ps 44:15-16\nV. Elle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Elles font leur entrée dans le palais du Roi.",
+            "incipit": "Dans votre grâce,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:38-42\nIn illo témpore: Intravit Jesus in quoddam castellum: et mulier quaedam, Martha nomine, excepit illum in domum suam et huic erat soror nomine Maria quae etiam sedens secus pedes Domini audiebat verbum illius. ¶ Martha autem satagebat circa frequens ministerium quae stetit, et ait: Domine non est tibi curae quod soror mea reliquit me solam ministrare dic ergo illi ut me adiuvet et respondens dixit illi Dominus: “Martha, Martha, sollicita es, et turbaris erga plurima: porro unum est necessarium. Maria optimam partem elegit, quae non auferetur ab ea.”",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:10\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
+            "incipit": "Des filles de",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Secreta",
+            "texte": "Agréez, Seigneur, l’offrande que vous fait le peuple fidèle pour honorer vos saints, sachant qu’il doit à leur mérites le secours qu’il a reçu dans les épreuves.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Communio",
+            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)",
+            "incipit": "Les cinq vierges",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-29.txt",
+            "section": "Postcommunio",
+            "texte": "Seigneur, qui avez rassasié votre famille de ces dons sacrés, daignez retremper toujours nos forces à la prière de celle que nous fêtons.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 44:5\nAvec votre gloire et votre majesté, avancez, marchez victorieusement et régnez.\nV. Pour la vérité, la douceur et la justice ; et votre droite vous conduira merveilleusement. Alléluia, alléluia.\n!Ps 44:15-16\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:38-42\nEn ce temps-là : Jésus entra dans un certain bourg, et une femme, nommée Marthe, le reçut dans sa maison. Elle avait une sœur, appelée Marie, qui, s’étant même assise aux pieds du Seigneur, écoutait sa parole. Marthe, qui était occupée par maint service, se présenta, disant : « Seigneur, vous n’avez cure que ma sœur me laissait seule faire le service ? Dites-lui donc de m’aider.» Le Seigneur lui répondit : « Marthe, Marthe, vous vous inquiétez et vous agitez pour beaucoup de choses ! Or il n’est besoin que de peu de choses ou d’une seule. Marie en effet a choisi la bonne part, qui ne lui sera point ôtée.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Francais": "!Ps 44:10\nLes filles des rois sont dans votre gloire ; la reine se tient à votre droite en vêtements tissés d’or, couverte de broderies."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Francais": "!Matt 25:4; 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/07-29.txt",
+        "Latin/Sancti/07-29.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

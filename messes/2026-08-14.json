@@ -1,70 +1,294 @@
 {
   "date": "2026-08-14",
-  "celebration": {
-    "nom": "Vigile de l'Assomption",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-14",
-    "Tempora/Pent11-5"
-  ],
-  "cles_jour": [
-    "08-14",
-    "Pent11-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent11",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C10b",
-        "Francais": "!Ps 44:13; 44:15-16\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières : des vierges seront amenées au roi après vous : vos compagnes seront présentées au milieu de la joie et de l’allégresse.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole : c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières : des vierges seront amenées au roi après vous : vos compagnes seront présentées au milieu de la joie et de l’allégresse."
+      "occurrence": {
+        "gagnant": "Sancti/08-14",
+        "nom_sanctoral": "",
+        "classe": 1.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-14.txt",
+        "temporal": "Latin/Tempora/Pent11-5.txt",
+        "sanctoral": "Latin/Sancti/08-14.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:13; 44:15-16\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)",
+            "incipit": "Vultum tuum deprecabúntur",
+            "mp3": "introitus_vultum-tuum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere dignátus es: da, quǽsumus; ut, sua nos defensióne munitos, jucúndos fácias suæ interésse festivitáti:\n$Qui vivis.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-16.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:27-28\nIn illo témpore: Loquénte Jesu ad turbas, extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. ¶ At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Offertorium",
+            "texte": "Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui te fecit, et in ætérnum pérmanes Virgo. (Allelúja.)",
+            "incipit": "Beáta es, Virgo",
+            "mp3": "offertoire_beata-es-virgo.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10Pasc.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Secreta",
+            "texte": "Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis comméndet orátio: quam idcírco de præsénti sǽculo transtulísti; ut pro peccátis nostris apud te fiduciáliter intercédat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Communio",
+            "texte": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)",
+            "incipit": "Beáta víscera Maríæ",
+            "mp3": "communion_beata-viscera-mariae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Postcommunio",
+            "texte": "Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui sanctæ Dei Genetrícis festivitátem prævenímus; intercessiónis ejus auxílio a nostris iniquitátibus resurgámus.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:13; 44:15-16\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème. Je dis mes œuvres au Roi.\n&Gloria\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)",
+            "incipit": "Tous les riches",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere dignátus es: da, quǽsumus; ut, sua nos defensióne munitos, jucúndos fácias suæ interésse festivitáti:\n$Qui vivis.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-16.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Évangile selon saint Luc.\n!Luc 11:27-28\nEn ce temps-là, Jésus parlait aux foules, quand une femme éleva la voix du milieu de la foule et lui dit : « Heureux le ventre qui t’a porté, et les seins qui t’ont allaité ! » Mais lui répondit : « Heureux bien plutôt ceux qui écoutent la Parole de Dieu et qui la gardent. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C11.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Offertorium",
+            "texte": "Heureuse êtes vous, ô Vierge Marie, vous qui avez porté le Créateur de toute chose. Vous avez engendré Celui qui vous a faite, et à jamais vous demeurez vierge. (Alléluia.)",
+            "incipit": "Heureuse êtes vous,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10Pasc.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Secreta",
+            "texte": "Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis comméndet orátio: quam idcírco de præsénti sǽculo transtulísti; ut pro peccátis nostris apud te fiduciáliter intercédat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-14.txt",
+            "section": "Communio",
+            "texte": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)",
+            "incipit": "Beáta víscera Maríæ",
+            "mp3": "communion_beata-viscera-mariae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-14.txt",
+            "section": "Postcommunio",
+            "texte": "Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui sanctæ Dei Genetrícis festivitátem prævenímus; intercessiónis ejus auxílio a nostris iniquitátibus resurgámus.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
-        "Francais": "Vous êtes bénie et digne de vénération, Vierge Marie : qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte.\nV. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 11:27-28\nEn ce temps-là : Un jour que Jésus parlait au milieu de la foule, une femme s’écria : « Comme elle est heureuse, la Mère qui vous a mis au monde, et qui vous a nourri de son lait ! » Mais Jésus répondit : « Bien plus heureux encore celui qui écoute la parole de Dieu et qui la met en pratique ! »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C10Pasc",
-        "Francais": "Vous êtes bienheureuse, Vierge Marie, qui avez porté le Créateur de toutes choses : vous avez enfanté celui qui vous a créée, et vous demeurez à jamais Vierge."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C10",
-        "Francais": "Bienheureux le sein de la Vierge Marie, qui a porté le Fils du Père éternel."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/08-14.txt",
+        "Latin/Sancti/08-14.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

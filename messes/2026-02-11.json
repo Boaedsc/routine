@@ -1,70 +1,210 @@
 {
   "date": "2026-02-11",
-  "celebration": {
-    "nom": "Apparition de la B.V.M. Immaculée (Lourdes)",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/02-11",
-    "Tempora/Quadp2-3"
-  ],
-  "cles_jour": [
-    "02-11",
-    "Quadp2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quadp2",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Apoc 21:2\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.\n!Ps 44,2.\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.",
-        "Francais": "!Apoc 21:2.\nv. J’ai vu la sainte cité, la nouvelle Jérusalem, qui descendait du ciel où est Dieu, et elle était toute ornée comme une épouse parée pour son époux.\n!Ps 44,2.\nDe mon cœur a jailli une parole excellente, c’est que je consacre mes œuvres à mon Roi.\n&Gloria\nv. J’ai vu la sainte cité, la nouvelle Jérusalem, qui descendait du ciel où est Dieu, et elle était toute ornée comme une épouse parée pour son époux."
+      "occurrence": {
+        "gagnant": "Sancti/02-11",
+        "nom_sanctoral": "",
+        "classe": 2.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-11.txt",
+        "temporal": "Latin/Tempora/Quadp2-3.txt",
+        "sanctoral": "Latin/Sancti/02-11.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 11:19; 12:1, 10\nAlors le temple de Dieu s’ouvrit dans le Ciel, et l’Arche de Son alliance fut vue dans Son temple ; et il se fit des éclairs, et des voix, et un tremblement de terre, et une forte grêle. Et un grand signe parut dans le Ciel : une Femme revêtue du soleil, et qui avait la lune sous Ses pieds, et sur la tête une couronne de douze étoiles. Et j’entendis dans le Ciel une voix forte qui disait : Maintenant est établi le salut, et la force, et le règne de notre Dieu, et la puissance de Son Christ."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Introitus",
+            "texte": "!Apoc 21:2\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.\n!Ps 44,2.\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.",
+            "incipit": "Vidi civitátem sanctam,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo habitáculum præparásti: súpplices a te quǽsumus; ut, ejúsdem Vírginis Apparitiónem celebrántes, salútem mentis et córporis consequámur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 11:19; 12:1, 10\nApértum est templum Dei in cœlo: et visa est arca testaménti ejus in templo ejus, et facta sunt fúlgura et voces et terræmótus et grando magna. Et signum magnum appáruit in cœlo: Múlier amícta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim. Et audívi vocem magnam in cœlo dicéntem: Nunc facta est salus et virtus, et regnum Dei nostri et potéstas Christi ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Graduale",
+            "texte": "!Cant 2:12\nFlores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra.\n!Cant 2:10 et 14\nV. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ.\nAllelúia, allelúia.\nV. Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis, et fácies tua decóra. Allelúia.",
+            "incipit": "Flores apparuérunt in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Tractus",
+            "texte": "!Cant 2:12\nFlores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra.\n!Cant 2:10 et 14\nV. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ.\n_\n!Tractus\n!Judith 15:10\nTu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.\n!Cant 4:7\nV. Tota pulchra es, María: et mácula originális non est in te.\nV. Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis caput virgíneo pede contrivísti.",
+            "incipit": "Flores apparuérunt in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-31\nIn illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilææ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28\nAve, grátia plena; Dóminus tecum: benedícta tu in muliéribus.",
+            "incipit": "Ave, grátia plena;",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Secreta",
+            "texte": "Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et immaculátæ Vírginis offérimus, sit tibi in odórem suavitátis, et nobis optátam cónferat córporis et ánimæ sanitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Communio",
+            "texte": "!Ps 64:10\nVisitásti terram et inebriásti eam, multiplicásti locupletáre eam.",
+            "incipit": "Visitásti terram et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/02-11.txt",
+            "section": "Postcommunio",
+            "texte": "Quos cœlésti, Dómine, aliménto satiásti, súblevet dextera Genetrícis tuæ immaculátæ: ut ad ætérnam pátriam, ipsa adjuvánte, perveníre mereámur:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Introitus",
+            "texte": "!Apoc 21:2\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.\n!Ps 44,2.\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo.",
+            "incipit": "Vidi civitátem sanctam,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo habitáculum præparásti: súpplices a te quǽsumus; ut, ejúsdem Vírginis Apparitiónem celebrántes, salútem mentis et córporis consequámur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 11:19; 12:1, 10\nApértum est templum Dei in cœlo: et visa est arca testaménti ejus in templo ejus, et facta sunt fúlgura et voces et terræmótus et grando magna. Et signum magnum appáruit in cœlo: Múlier amícta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim. Et audívi vocem magnam in cœlo dicéntem: Nunc facta est salus et virtus, et regnum Dei nostri et potéstas Christi ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Graduale",
+            "texte": "!Cant 2:12\nFlores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra.\n!Cant 2:10 et 14\nV. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ.\nAllelúia, allelúia.\nV. Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis, et fácies tua decóra. Allelúia.",
+            "incipit": "Flores apparuérunt in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Tractus",
+            "texte": "!Cant 2:12\nFlores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra.\n!Cant 2:10 et 14\nV. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ.\n_\n!Tractus\n!Judith 15:10\nTu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.\n!Cant 4:7\nV. Tota pulchra es, María: et mácula originális non est in te.\nV. Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis caput virgíneo pede contrivísti.",
+            "incipit": "Flores apparuérunt in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-31\nIn illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilææ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28\nAve, grátia plena; Dóminus tecum: benedícta tu in muliéribus.",
+            "incipit": "Ave, grátia plena;",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Secreta",
+            "texte": "Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et immaculátæ Vírginis offérimus, sit tibi in odórem suavitátis, et nobis optátam cónferat córporis et ánimæ sanitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Communio",
+            "texte": "!Ps 64:10\nVisitásti terram et inebriásti eam, multiplicásti locupletáre eam.",
+            "incipit": "Visitásti terram et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/02-11.txt",
+            "section": "Postcommunio",
+            "texte": "Quos cœlésti, Dómine, aliménto satiásti, súblevet dextera Genetrícis tuæ immaculátæ: ut ad ætérnam pátriam, ipsa adjuvánte, perveníre mereámur:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Cant 2:12\nFlores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra.\n!Cant 2:10 et 14\nV. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ. \nAllelúia, allelúia.\nV. Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis, et fácies tua decóra. Allelúia.",
-        "Francais": "!Cant 2:12.\nLes fleurs s’épanouirent dans notre champ ; c’est le temps de tailler, parce que l’on entend déjà roucouler les tourterelles.\n!Cant 2:10 et l4.\nLève-toi, ô ma bien-aimée, ma belle, et viens, ma colombe, entre les fentes des roches, entre les pierres des cavernes. Allelúja, allelúja.\nV. Montre-moi ton visage, que ta voix résonne à mes oreilles, car ta voix est suave et ton visage splendide. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-31.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Luc 1:28\nAve, grátia plena; Dóminus tecum: benedícta tu in muliéribus.",
-        "Francais": "!Luc 1:28.\n Je vous salue, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 64:10\nVisitásti terram et inebriásti eam, multiplicásti locupletáre eam.",
-        "Francais": "!Ps 64:10.\nVous avez visité la terre et l’avez désaltérée, vous l’avez rendue immensément riche."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/02-11.txt",
+        "Latin/Sancti/02-11.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

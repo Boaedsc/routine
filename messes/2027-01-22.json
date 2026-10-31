@@ -1,17 +1,226 @@
 {
   "date": "2027-01-22",
-  "celebration": {
-    "nom": "Saints Vincent et Anastase",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-22",
-    "Tempora/Epi3-5"
-  ],
-  "cles_jour": [
-    "01-22",
-    "Epi3-5"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/01-22",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-22.txt",
+        "temporal": "Latin/Tempora/Epi2-5.txt",
+        "sanctoral": "Latin/Sancti/01-22.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 78:11-12; 78:10\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.\n!Ps 78:1\nDeus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Jerúsalem in pomórum custódiam.\n&Gloria\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
+            "incipit": "Intret in conspéctu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Oratio",
+            "texte": "Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte nostra reos nos esse cognóscimus, beatórum Mártyrum tuórum Vincéntii et Anastásii intercessióne liberémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 3:1-8\nJustorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus illórum: et quod a nobis est iter, extermínium: illi autem sunt in pace. Et si coram homínibus torménta passi sunt, spes illórum immortalitáte plena est. In paucis vexáti, in multis bene disponéntur: quóniam Deus tentávit eos, et invenit illos dignos se. Tamquam aurum in fornáce probávit illos, et quasi holocáusti hóstiam accépit illos, et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Graduale",
+            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos. Allelúja, allelúja.\n!Eccl 44:14\nCórpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
+            "incipit": "Gloriósus Deus in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Gloriósus Deus in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
+            "incipit": "Mirábilis Deus in",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:4-6\nEt si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.",
+            "incipit": "Et si coram",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-22.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per hæc contra ómnia advérsa muniámur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.",
+            "incipit": "Que les gémissements",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-22.txt",
+            "section": "Oratio",
+            "texte": "Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte nostra reos nos esse cognóscimus, beatórum Mártyrum tuórum Vincéntii et Anastásii intercessióne liberémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 3:1-8\nLes âmes des justes sont dans la main de Dieu, et les tourments de la mort ne les toucheront pas. Aux yeux des insensés ils pa­raissent être morts, leur sortie de ce monde semble un malheur, et leur départ du milieu de nous un anéan­tissement : mais eux sont dans la paix.\nEt même si, de­vant les hommes ils ont subi des châtiments, leur espé­rance est pleine d’immorta­lité. Après une légère peine ils recevront une grande ré­compense : car Dieu les a éprouvés et les a trouvés dignes de lui. Il les a éprou­vés comme l’or dans la four­naise et les a reçus comme une hostie d’holocauste, et il sera leur récompense au temps voulu. Les justes brilleront, semblables à la flamme qui court à tra­vers les roseaux. Ils jugeront les nations et domineront les peuples, et le Seigneur régnera sur eux à jamais.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Graduale",
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Eccl 44:14\nLes corps des saints ont été ensevelis dans la paix, et leurs noms vivront de génération en génération. Alléluia.",
+            "incipit": "Dieu est glo­rifié",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Dieu est glo­rifié",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-22.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 21:9-19\nIn illo témpore: Dixit Jesus discípulis suis: Cum audiéritis prǽlia et seditiónes, nolíte terréri: opórtet primum hæc fíeri, sed nondum statim finis. Tunc dicébat illis: Surget gens contra gentem, et regnum advérsus regnum. Et terræmótus magni erunt per loca, et pestiléntiæ, et fames, terrorésque de coelo, et signa magna erunt. Sed ante hæc ómnia injícient vobis manus suas, et persequéntur tradéntes in synagógas et custódias, trahéntes ad reges et praesides propter nomen meum: contínget autem vobis in testimónium. Pónite ergo in córdibus vestris non præmeditári, quemádmodum respondeátis. Ego enim dabo vobis os et sapiéntiam, cui non potérunt resístere et contradícere omnes adversárii vestri. Tradémini autem a paréntibus, et frátribus, et cognátis, et amícis, et morte affícient ex vobis: et éritis ódio ómnibus propter nomen meum: et capíllus de cápite vestro non períbit. In patiéntia vestra possidébitis ánimas vestras.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu.",
+            "incipit": "Dieu est admirable",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-22.txt",
+            "section": "Secreta",
+            "texte": "Nous vous offrons, Seigneur, les présents de notre dévotion : daignez les agréer pour l’honneur de vos saints et, dans votre miséri­corde, faites qu’ils soient utiles à notre salut.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-22.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:4-6\nEt s’ils ont souffert des tourments de­vant les hommes, c’est que Dieu les a éprouvés : comme l’or dans la fournaise il les a mis à l’épreuve, et il les a reçus comme un holocauste.",
+            "incipit": "Et s’ils ont",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-22.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per hæc contra ómnia advérsa muniámur.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3.txt",
+        "../horas/Latin/Commune/C3.txt",
+        "Francais/Sancti/01-22.txt",
+        "Latin/Sancti/01-22.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

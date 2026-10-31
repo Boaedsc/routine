@@ -1,70 +1,224 @@
 {
   "date": "2028-05-01",
-  "celebration": {
-    "nom": "Saints Philippe et Jacques, apôtres",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-01",
-    "Tempora/Pasc2-1"
-  ],
-  "cles_jour": [
-    "05-01",
-    "Pasc2-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Neh 9:27\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.",
-        "Francais": "!Neh 9:27\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur; la louange sied aux hommes droits.\n&Gloria\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-01",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-01.txt",
+        "temporal": "Latin/Tempora/Pasc2-1.txt",
+        "sanctoral": "Latin/Sancti/05-01.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ\n!Sap 5:1-5.\nLes justes se lèveront avec une grande assurance contre ceux qui les auront mis dans l’angoisse, et qui auront ravi le fruit de leurs travaux. A cette vue les méchants seront troublés par une horrible frayeur, et ils seront stupéfaits en voyant tout à coup ceux dont ils n’attendaient pas le salut ; ils diront en eux-mêmes, saisis de remords, et gémissant dans l’angoisse de leur cœur : Voici ceux dont nous avons fait autrefois un objet de risée, et un thème d’outrages. Insensés que nous étions, nous regardions leur vie comme une folie, et leur mort comme une honte ; et voilà qu’ils sont comptés parmi les fils de Dieu, et que leur partage est avec les saints."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Introitus",
+            "texte": "!Neh 9:27\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.",
+            "incipit": "Clamavérunt ad te,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus méritis, instruámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 14:9\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Confitebúntur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nIn illo témpore: Dixit Jesus discípulis suis: Non turbátur cor vestrum. Creditis in Deum, et in me crédite. In domo Patris mei mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado paráre vobis locum. Et si abíero et præparávero vobis locum: íterum vénio et accípiam vos ad meípsum, ut, ubi sum ego, et vos sitis. Et quo ego vado, scitis, et viam scitis. Dicit ei Thomas: Dómine, nescímus, quo vadis: et quómodo póssumus viam scire? Dicit ei Jesus: Ego sum via et véritas et vita; nemo venit ad Patrem nisi per me. Si cognovissétis me, et Patrem meum útique cognovissétis: et ámodo cognoscátis eum, et vidístis eum. Dicit ei Philíppus: Dómine, osténde nobis Patrem, et sufficit nobis. Dicit ei Jesus: Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem. Quómodo tu dicis: Osténde nobis Patrem? Non créditis, quia ego in Patre, et Pater in me est? Verba, quæ ego loquor vobis, a meípso non loquor. Pater autem in me manens, ipse facit ópera. Non créditis, quia ego in Patre, et Pater in me est? Alióquin propter ópera ipsa crédite. Amen, amen, dico vobis, qui credit in me, ópera, quæ ego fácio, et ipse fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et quodcúmque petiéritis Patrem in nómine meo, hoc fáciam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
+            "incipit": "Confitebúntur cœli mirabília",
+            "mp3": "offertoire_confitebuntur.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ merémur avérte.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:9; 14:10\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum, allelúja: non credis, quia ego in Patre, et Pater in me est? Allelúja, allelúja.",
+            "incipit": "Tanto témpore vobíscum",
+            "mp3": "communion_tanto-tempore.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-01.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Introitus",
+            "texte": "!Neh 9:27\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo exaudísti eos, allelúja, allelúja.",
+            "incipit": "Clamavérunt ad te,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus méritis, instruámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 14:9\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Confitebúntur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nIn illo témpore: Dixit Jesus discípulis suis: Non turbátur cor vestrum. Creditis in Deum, et in me crédite. In domo Patris mei mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado paráre vobis locum. Et si abíero et præparávero vobis locum: íterum vénio et accípiam vos ad meípsum, ut, ubi sum ego, et vos sitis. Et quo ego vado, scitis, et viam scitis. Dicit ei Thomas: Dómine, nescímus, quo vadis: et quómodo póssumus viam scire? Dicit ei Jesus: Ego sum via et véritas et vita; nemo venit ad Patrem nisi per me. Si cognovissétis me, et Patrem meum útique cognovissétis: et ámodo cognoscátis eum, et vidístis eum. Dicit ei Philíppus: Dómine, osténde nobis Patrem, et sufficit nobis. Dicit ei Jesus: Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem. Quómodo tu dicis: Osténde nobis Patrem? Non créditis, quia ego in Patre, et Pater in me est? Verba, quæ ego loquor vobis, a meípso non loquor. Pater autem in me manens, ipse facit ópera. Non créditis, quia ego in Patre, et Pater in me est? Alióquin propter ópera ipsa crédite. Amen, amen, dico vobis, qui credit in me, ópera, quæ ego fácio, et ipse fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et quodcúmque petiéritis Patrem in nómine meo, hoc fáciam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
+            "incipit": "Confitebúntur cœli mirabília",
+            "mp3": "offertoire_confitebuntur.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ merémur avérte.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:9; 14:10\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum, allelúja: non credis, quia ego in Patre, et Pater in me est? Allelúja, allelúja.",
+            "incipit": "Tanto témpore vobíscum",
+            "mp3": "communion_tanto-tempore.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-01.txt",
+            "section": "Postcommunio",
+            "texte": "Abondamment munis de vos mystères de salut, nous vous demandons, Sei­gneur, d’être aidés par les prières de ceux dont nous célébrons la solennité.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 14:9\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.",
-        "Francais": "Alléluia, alléluia.\n!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints. Alléluia.\n!Ps 14:9\nIl y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nEn ce temps-là : Jésus dit à ses disciples : Que votre cœur ne se trouble point. Vous croyez en Dieu, croyez aussi en moi. Dans la maison de mon Père, il y a de nombreuses demeures. Si cela n’était pas, Je vous l’aurais dit ; car je vais vous préparer une place. Et lorsque je m’en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis, vous y soyez aussi. Vous savez où je vais, et vous en savez le chemin. Thomas Lui dit : Seigneur, nous ne savons pas où vous allez ; comment pourrions-nous en savoir le chemin ? Jésus lui dit : Je suis la voie, la vérité et la vie. Personne ne vient au Père, si ce n’est par moi. Si vous m’aviez connu, vous auriez aussi connu mon Père ; et bientôt vous Le connaîtrez, et vous l’avez déjà vu. Philippe Lui dit : Seigneur, montrez-nous le Père, et cela nous suffit. Jésus lui dit : Il y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi le Père. Comment peux-tu dire : Montrez-nous le Père ? Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Les paroles que je vous dis, je ne les dis pas de moi-même ; mais le Père, qui demeure en moi, fait lui-même mes œuvres. Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Croyez-le du moins à cause de ces œuvres. En vérité, en vérité, je vous le dis, celui qui croit en moi fera lui-même les œuvres que je fais, et il en fera de plus grandes, parce que je m’en vais auprès du Père. Et tout ce que vous demanderez au Père en mon nom, je le ferai, afin que le Père soit glorifié dans le Fils. Si vous me demandez quelque chose en mon nom, je le ferai."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
-        "Francais": "!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_confitebuntur.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 14:9; 14:10\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum, allelúja: non credis, quia ego in Patre, et Pater in me est? Allelúja, allelúja.",
-        "Francais": "!Joannes 14:9; 14:10\nIl y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père, alléluia : ne crois-tu pas que je suis dans le Père, et que le Père est en moi ? Alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_tanto-tempore.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/05-01.txt",
+        "Latin/Sancti/05-01.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

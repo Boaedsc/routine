@@ -1,62 +1,225 @@
 {
   "date": "2026-02-05",
-  "celebration": {
-    "nom": "Sainte Agathe",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/02-05",
-    "Tempora/Quadp1-4"
-  ],
-  "cles_jour": [
-    "02-05",
-    "Quadp1-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quadp1",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi. \n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
-        "Francais": "v. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Agathe. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 44:2\nDe mon cœur a jailli une parole excellente, c’est que je consacre mes œuvres à mon Roi.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Agathe. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu."
+      "occurrence": {
+        "gagnant": "Sancti/02-05",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-05.txt",
+        "temporal": "Latin/Tempora/Quadp1-4.txt",
+        "sanctoral": "Latin/Sancti/02-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:26-31.\nMes Frères : Voyez quels sont parmi vous ceux qui ont été appelés : il n’y a ni beaucoup de sages selon la chair, ni beaucoup de puissants, ni beaucoup de nobles. Mais Dieu a choisi les choses folles du monde, pour confondre les sages ; et Dieu a choisi les choses faibles du monde, pour confondre les forts et Dieu a choisi les choses viles du monde et les choses méprisables, et celles qui ne sont rien, pour détruire celles qui sont, afin que nulle chair ne se glorifie devant Lui. C’est par Lui que vous êtes dans le Christ Jésus, qui est devenu pour nous, de la part de Dieu, sagesse, justice, sanctification et rédemption ; afin que, selon qu’il est écrit, Celui qui se glorifie se glorifie dans le Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ N. Vírginis et Mártyris tuæ natalícia cólimus, per ejus ad te exémpla gradiámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:26-31\nFratres: Vidéte vocatiónem vestram: quia non multi sapiéntes secúndum carnem, non multi poténtes, non multi nóbiles: sed quæ stulta sunt mundi elégit Deus, ut confúndat sapiéntes: et infírma mundi elégit Deus, ut confúndat fórtia: et ignobília mundi et contemptibília elégit Deus, et ea quæ non sunt, ut ea quæ sunt destrúeret: ut non gloriétur omnis caro in conspéctu ejus. Ex ipso autem vos estis in Christo Jesu, qui factus est nobis sapiéntia a Deo, et justítia, et sanctificátio, et redémptio: ut, quemádmodum scriptum est: Qui gloriátur, in Dómino gloriétur.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Graduale",
+            "texte": "!Ps 45:6 et 5\nAdjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.\nV. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus. Allelúja, allelúja.\n!Ps 118:46\nLoquébar de testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.",
+            "incipit": "Adjuvábit eam Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Tractus",
+            "texte": "!Ps 45:6 et 5\nAdjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.\nV. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.\n_\n!Tractus\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et fiébant, mitténtes semina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Adjuvábit eam Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:44-52\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. ¶ Íterum símile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Íterum símile est regnum cœlórum sagénæ missæ in mare et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cœlórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15.\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.",
+            "incipit": "Afferéntur Regi Vírgines",
+            "mp3": "offertoire_afferentur-regi-virgines-proximae.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ in beátæ N. Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/02-05.txt",
+            "section": "Communio",
+            "texte": "Qui me dignátus est ab omni plaga curáre et mamíllam meam meo péctori restitúere, ipsum ínvoco Deum vivum.",
+            "incipit": "Qui me dignátus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Postcommunio",
+            "texte": "Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta N. Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Oratio",
+            "texte": "Ô Dieu, qui, entre autres merveilles de votre puissance, avez fait remporter la victoire du martyre même par le sexe le plus faible ; faites, dans votre bonté, qu’honorant la naissance au ciel de la Bienheureuse Agathe, votre Vierge et Martyre, nous tendions vers vous par l’imitation de ses exemples.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:26-31\nFratres: Vidéte vocatiónem vestram: quia non multi sapiéntes secúndum carnem, non multi poténtes, non multi nóbiles: sed quæ stulta sunt mundi elégit Deus, ut confúndat sapiéntes: et infírma mundi elégit Deus, ut confúndat fórtia: et ignobília mundi et contemptibília elégit Deus, et ea quæ non sunt, ut ea quæ sunt destrúeret: ut non gloriétur omnis caro in conspéctu ejus. Ex ipso autem vos estis in Christo Jesu, qui factus est nobis sapiéntia a Deo, et justítia, et sanctificátio, et redémptio: ut, quemádmodum scriptum est: Qui gloriátur, in Dómino gloriétur.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Graduale",
+            "texte": "!Ps 45:6 et 5\nAdjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.\nV. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus. Allelúja, allelúja.\n!Ps 118:46\nLoquébar de testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.",
+            "incipit": "Adjuvábit eam Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Tractus",
+            "texte": "!Ps 45:6 et 5\nAdjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.\nV. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.\n_\n!Tractus\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et fiébant, mitténtes semina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Adjuvábit eam Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Evangile seon Saint Matthieu.\n!Matt 13:44-52\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le Royaume des cieux est comparable à un trésor caché dans un champ. L'homme qui l'a trouvé le cache de nouveau, puis, dans sa joie, il s'en va vendre tout ce qu'il a et achète ce champ. Le Royaume des cieux est encore comparable à un marchand qui cherche de belles perles. En ayant trouvé une de grand prix, il s'en va vendre tout ce qu'il a et l'achète. Le Royaume des cieux est encore comparable à un grand filet jeté en mer et qui a ramené des poissons de toute espèce. Une fois qu'il a été rempli, les pêcheurs l'ont tiré sur le rivage, puis, s'étant assis, ils ont recueilli les bons dans des corbeilles et rejeté les mauvais. Ainsi en sera-t-il à la fin du monde : les anges se présenteront, sépareront les méchants d'avec les justes, et les jetteront dans la fournaise ardente. Là seront les pleurs et les grincements de dents. Avez-vous compris tout cela ? » Ils lui répondent : « Oui. » Il leur dit alors : « C'est pourquoi tout scribe inité au Royaume des cieux est semblable à un maître de maison qui tire de son trésor du neuf et du vieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15.\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.",
+            "incipit": "Afferéntur Regi Vírgines",
+            "mp3": "offertoire_afferentur-regi-virgines-proximae.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Secreta",
+            "texte": "Recevez, Seigneur, les dons que nous vous présentons en la fête de la Bienheureuse Agathe, votre Vierge et Martyre ; en la protection de qui nous avons confiance pour être délivrés.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Communio",
+            "texte": "Qui me dignátus est ab omni plaga curáre et mamíllam meam meo péctori restitúere, ipsum ínvoco Deum vivum.",
+            "incipit": "Qui me dignátus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/02-05.txt",
+            "section": "Postcommunio",
+            "texte": "Qu’ils nous soient un secours efficace, ô Seigneur, les mystères auxquels nous avons participé et que la bienheureuse Agathe, votre Vierge et Martyre, intercédant pour nous, ils nous fassent jouir d’une protection constante.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 45:6 et 5\nAdjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.\nV. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus. Allelúja, allelúja.\n!Ps 118:46\nLoquébar de testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.",
-        "Francais": "!Ps 45:6 et 5.\nDieu la protégera de son regard. Dieu est au milieu d’elle, elle ne sera pas ébranlée.\nV. Un fleuve réjouit la cité de Dieu par ses flots abondants ; le Très-Haut a sanctifié son tabernacle. Allelúja, allelúja\n!Ps 118:46.\nJe parlais de vos préceptes devant les rois, et je n’en avais pas de confusion. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 44:15.\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.",
-        "Francais": "!Ps 44:15.\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. On les conduira au temple du roi."
-      },
-      "audios": "Graduale Project/offertoire_afferentur-regi-virgines-post.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "Qui me dignátus est ab omni plaga curáre et mamíllam meam meo péctori restitúere, ipsum ínvoco Deum vivum.",
-        "Francais": "Celui qui a daigné me guérir de toute blessure et rendre à ma poitrine mon sein arraché, je l’invoque comme le Dieu vivant."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Latin/Commune/C6.txt",
+        "Francais/Sancti/02-05.txt",
+        "Latin/Sancti/02-05.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,70 +1,212 @@
 {
   "date": "2026-02-27",
-  "celebration": {
-    "nom": "Saint Gabriel de l'Addolorata",
-    "classe": 3,
-    "note": "(temporal : Vendredi de la 1e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/02-27",
-    "Tempora/Quad1-5"
-  ],
-  "cles_jour": [
-    "02-27",
-    "Quad1-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad1",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Eccli 11:13.\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)",
-        "Francais": "!Eccli 11:13.\nv. L’œil de Dieu le regarde favorablement, le tire de son humiliation et lui relève la tête : et beaucoup sont dans l’admiration à son sujet et rendent gloire à Dieu. (Allelúja, allelúja)\n!Ps 72:1.\nQue Dieu est bon pour Israël, pour ceux qui ont le cœur droit !\n&Gloria\nv. L’œil de Dieu le regarde favorablement, le tire de son humiliation et lui relève la tête : et beaucoup sont dans l’admiration à son sujet et rendent gloire à Dieu. (Allelúja, allelúja)"
+      "occurrence": {
+        "gagnant": "Sancti/02-27",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-27.txt",
+        "temporal": "Latin/Tempora/Quad1-5.txt",
+        "sanctoral": "Latin/Sancti/02-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Joannis Apóstoli.\n!1 Joann 2, 14-17.\nMes Très chers Frères : Je vous écris, jeunes gens, parce que vous êtes forts, que la parole de Dieu demeure en vous, et que vous avez vaincu le malin. N’aimez pas le monde, ni les choses qui sont dans le monde. Si quelqu’un aime le monde, l’amour du Père n’est point en lui, car tout ce qui est dans le monde est concupiscence de la chair, et concupiscence des yeux, et orgueil de la vie ; et cela ne vient pas du Père, mais du monde. Or le monde passe, et sa concupiscence avec lui ; mais celui qui fait la volonté de Dieu demeure éternellement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 11:13.\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)",
+            "incipit": "Oculus Dei respéxit",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Gabriélem dulcíssimæ Matris tuæ dolóres assídue recólere docuísti, ac per illam sanctitátis et miraculórum glória sublimásti: da nobis, ejus intercessióne et exémplo; ita Genetrícis tuæ consociári flétibus, ut matérna ejúsdem protectióne salvémur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:20-28\nHæc dicit Dóminus Deus: Anima, quæ peccáverit, ipsa moriétur: fílius non portábit iniquitátem patris, et pater non portábit iniquitátem fílii: justítia justi super eum erit, et impíetas ímpii erit super eum. Si autem ímpius égerit pæniténtiam ab ómnibus peccátis suis, quæ operátus est, et custodíerit ómnia præcépta mea, et fécerit judícium et justítiam: vita vivet, et non moriétur. Omnium iniquitátum ejus, quas operátus est, non recordábor: in justítia sua, quam operátus est, vivet. Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis, et vivat? Si autem avérterit se justus a justítia sua, et fécerit iniquitátem secúndum omnes abominatiónes, quas operári solet ímpius, numquid vivet? omnes justítiæ ejus, quas fécerat, non recordabúntur: in prævaricatióne, qua prævaricátus est, et in peccáto suo, quod peccávit, in ipsis moriétur. Et dixístis: Non est æqua via Dómini. Audíte ergo, domus Israël: Numquid via mea non est æqua, et non magis viæ vestræ pravæ sunt? Cum enim avérterit se justus a justítia sua, et fécerit iniquitátem, moriétur in eis: in injustítia, quam operátus est, moriétur. Et cum avérterit se ímpius ab impietáte sua, quam operátus est, et fécerit judícium et justítiam: ipse ánimam suam vivificábit. Consíderans enim, et avértens se ab ómnibus iniquitátibus suis, quas operátus est, vita vivet, et non moriétur, ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum. Allelúja, allelúja.\n!Ps 8:6-7\nMinuísti eum, Dómine, paulo minus ab Angelis: glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum. Allelúja.",
+            "incipit": "Quam magna multitúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Tractus",
+            "texte": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum.\n_\n!Tractus\n!Ps 83:6-7, 11 et 13\nBeátus vir, cujus est auxílium abs te: ascensiónes in corde suo dispósuit, in valle lacrimárum, in loco, quem pósuit.\nV. Elégi abjéctus esse in domo Dei mei: magis quam habitáre in tabernáculis peccatórum.\nV. Non privábit bonis eos, qui ámbulant in innocéntia: Dómine virtútum, beátus homo, qui sperat in te.",
+            "incipit": "Quam magna multitúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-15\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsáida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiébat, a quacúmque detinebátur infirmitáte. Erat autem quidam homo ibi, trigínta et octo annos habens in infirmitáte sua. Hunc cum vidísset Jesus jacéntem, et cognovísset, quia jam multum tempus habéret, dicit ei: Vis sanus fíeri? Respóndit ei lánguidus: Dómine, hóminem non hábeo, ut, cum turbáta fúerit aqua, mittat me in piscínam: dum vénio enim ego, álius ante me descéndit. Dicit ei Jesus: Surge, tolle grabátum tuum, et ámbula. Et statim sanus factus est homo ille: et sústulit grabátum suum, et ambulábat. Erat autem sábbatum in die illo. Dicébant ergo Judǽi illi, qui sanátus fúerat: Sábbatum est, non licet tibi tóllere grabátum tuum. Respóndit eis: Qui me sanum fecit, ille mihi dixit: Tolle grabátum tuum, et ámbula. Interrogavérunt ergo eum: Quis est ille homo, qui dixit tibi: Tolle grabátum tuum et ámbula? Is autem, qui sanus fúerat efféctus, nesciébat, quis esset. Jesus enim declinávit a turba constitúta in loco. Póstea invénit eum Jesus in templo, et dixit illi: Ecce, sanus factus es: jam noli peccáre, ne detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit Judǽis, quia Jesus esset, qui fecit eum sanum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 115:16-17\nO Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti víncula mea, tibi sacrificábo hóstiam laudis.",
+            "incipit": "O Dómine, quia",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Secreta",
+            "texte": "Salutárem hóstiam in memóriam sancti Gabriélis tibi, Dómine, offeréntes, fac nos sacrifícium mortis tuæ rite recólere: ac, méritis perdoléntis Vírginis, ejúsdem sacrifícii fructum copióse percípere:\n$Qui vivis",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Communio",
+            "texte": "!Apoc. 3:20\nEcce, sto ad óstium et pulso: si quis audiérit vocem meam, et aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.",
+            "incipit": "Ecce, sto ad",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/02-27.txt",
+            "section": "Postcommunio",
+            "texte": "Quas tibi, Dómine, in festivitáte sancti Gabriélis Confessóris tui, pro collátis donis grátias ágimus: súscipe propítius per manus gloriósæ semper Vírginis Maríæ; ex qua carnem illam assumpsísti, cujus in hoc salutári convívio merúimus gustáre dulcédinem:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 11:13.\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)",
+            "incipit": "Oculus Dei respéxit",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Gabriélem dulcíssimæ Matris tuæ dolóres assídue recólere docuísti, ac per illam sanctitátis et miraculórum glória sublimásti: da nobis, ejus intercessióne et exémplo; ita Genetrícis tuæ consociári flétibus, ut matérna ejúsdem protectióne salvémur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:20-28\nHæc dicit Dóminus Deus: Anima, quæ peccáverit, ipsa moriétur: fílius non portábit iniquitátem patris, et pater non portábit iniquitátem fílii: justítia justi super eum erit, et impíetas ímpii erit super eum. Si autem ímpius égerit pæniténtiam ab ómnibus peccátis suis, quæ operátus est, et custodíerit ómnia præcépta mea, et fécerit judícium et justítiam: vita vivet, et non moriétur. Omnium iniquitátum ejus, quas operátus est, non recordábor: in justítia sua, quam operátus est, vivet. Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis, et vivat? Si autem avérterit se justus a justítia sua, et fécerit iniquitátem secúndum omnes abominatiónes, quas operári solet ímpius, numquid vivet? omnes justítiæ ejus, quas fécerat, non recordabúntur: in prævaricatióne, qua prævaricátus est, et in peccáto suo, quod peccávit, in ipsis moriétur. Et dixístis: Non est æqua via Dómini. Audíte ergo, domus Israël: Numquid via mea non est æqua, et non magis viæ vestræ pravæ sunt? Cum enim avérterit se justus a justítia sua, et fécerit iniquitátem, moriétur in eis: in injustítia, quam operátus est, moriétur. Et cum avérterit se ímpius ab impietáte sua, quam operátus est, et fécerit judícium et justítiam: ipse ánimam suam vivificábit. Consíderans enim, et avértens se ab ómnibus iniquitátibus suis, quas operátus est, vita vivet, et non moriétur, ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum. Allelúja, allelúja.\n!Ps 8:6-7\nMinuísti eum, Dómine, paulo minus ab Angelis: glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum. Allelúja.",
+            "incipit": "Quam magna multitúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Tractus",
+            "texte": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum.\n_\n!Tractus\n!Ps 83:6-7, 11 et 13\nBeátus vir, cujus est auxílium abs te: ascensiónes in corde suo dispósuit, in valle lacrimárum, in loco, quem pósuit.\nV. Elégi abjéctus esse in domo Dei mei: magis quam habitáre in tabernáculis peccatórum.\nV. Non privábit bonis eos, qui ámbulant in innocéntia: Dómine virtútum, beátus homo, qui sperat in te.",
+            "incipit": "Quam magna multitúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-15\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsáida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiébat, a quacúmque detinebátur infirmitáte. Erat autem quidam homo ibi, trigínta et octo annos habens in infirmitáte sua. Hunc cum vidísset Jesus jacéntem, et cognovísset, quia jam multum tempus habéret, dicit ei: Vis sanus fíeri? Respóndit ei lánguidus: Dómine, hóminem non hábeo, ut, cum turbáta fúerit aqua, mittat me in piscínam: dum vénio enim ego, álius ante me descéndit. Dicit ei Jesus: Surge, tolle grabátum tuum, et ámbula. Et statim sanus factus est homo ille: et sústulit grabátum suum, et ambulábat. Erat autem sábbatum in die illo. Dicébant ergo Judǽi illi, qui sanátus fúerat: Sábbatum est, non licet tibi tóllere grabátum tuum. Respóndit eis: Qui me sanum fecit, ille mihi dixit: Tolle grabátum tuum, et ámbula. Interrogavérunt ergo eum: Quis est ille homo, qui dixit tibi: Tolle grabátum tuum et ámbula? Is autem, qui sanus fúerat efféctus, nesciébat, quis esset. Jesus enim declinávit a turba constitúta in loco. Póstea invénit eum Jesus in templo, et dixit illi: Ecce, sanus factus es: jam noli peccáre, ne detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit Judǽis, quia Jesus esset, qui fecit eum sanum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 115:16-17\nO Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti víncula mea, tibi sacrificábo hóstiam laudis.",
+            "incipit": "O Dómine, quia",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Secreta",
+            "texte": "Salutárem hóstiam in memóriam sancti Gabriélis tibi, Dómine, offeréntes, fac nos sacrifícium mortis tuæ rite recólere: ac, méritis perdoléntis Vírginis, ejúsdem sacrifícii fructum copióse percípere:\n$Qui vivis",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Communio",
+            "texte": "!Apoc. 3:20\nEcce, sto ad óstium et pulso: si quis audiérit vocem meam, et aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.",
+            "incipit": "Ecce, sto ad",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/02-27.txt",
+            "section": "Postcommunio",
+            "texte": "Quas tibi, Dómine, in festivitáte sancti Gabriélis Confessóris tui, pro collátis donis grátias ágimus: súscipe propítius per manus gloriósæ semper Vírginis Maríæ; ex qua carnem illam assumpsísti, cujus in hoc salutári convívio merúimus gustáre dulcédinem:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum. Allelúja, allelúja.\n!Ps 8:6-7\nMinuísti eum, Dómine, paulo minus ab Angelis: glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum. Allelúja.",
-        "Francais": "!Ps 30:20.\nQu’elle est grande, Seigneur, l’abondance de votre douceur, que vous avez mise en réserve pour ceux qui vous craignent !\nV. Vous l’exercez envers ceux qui espèrent en vous, à la vue des enfants des hommes. Allelúja, allelúja.\n!Ps 8:6-7.\nVous ne l’avez mis qu’un peu au-dessous des Anges : vous l’avez couronné de gloire et d’honneur : et vous l’avez établi sur les ouvrages de vos mains. Allelúja."
-      },
-      "audios": "Graduale Project/graduel_salvum-fac-servum.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 10:13-21.\nEn ce temps-là : On présentait à Jésus de petits enfants, afin qu’Il les touchât ; mais les disciples repoussaient durement ceux qui les présentaient. Jésus, les voyant, en fut indigné, et leur dit : Laissez venir à moi les petits enfants, et ne les empêchez pas ; car le royaume de Dieu est à ceux qui leur ressemblent. Je vous le dis, en vérité, qui ne recevra pas comme un petit enfant le royaume de Dieu, n’y entrera point. Puis il les embrassa, et les bénit en leur imposant les mains. Comme il se mettait en route, quelqu’un accourut, et fléchissant le genou devant lui, lui demanda : Bon Maître, que dois-je faire pour entrer en possession de la vie éternelle ? Jésus lui dit : Pourquoi m’appelles-tu bon ? Nul n’est bon que Dieu seul. Tu connais les commandements : Ne tue pas, ne commets pas l’adultère, ne dérobe pas, ne porte pas de faux témoignage, ne fais pas de tort, honore ton père et ta mère. Il lui répondit : Maître, j’ai observé tout cela dès ma jeunesse. Jésus, ayant fixé son regard sur lui, l’aima et lui dit : Il te manque une chose : va, vends tout ce que tu as, donne-le aux pauvres, et tu auras un trésor dans le ciel ; puis viens, et suis-moi."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 115:16-17\nO Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti víncula mea, tibi sacrificábo hóstiam laudis.",
-        "Francais": "!Ps 115:16-17.\nÔ Seigneur, je suis votre serviteur et le fils de votre servante : vous avez rompu mes liens, je vous sacrifierai une hostie de louanges."
-      },
-      "audios": "Graduale Project/offertoire_benedic-anima-mea.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Apoc. 3:20\nEcce, sto ad óstium et pulso: si quis audiérit vocem meam, et aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.",
-        "Francais": "!Apoc, 3, 20.\nVoici, je me tiens à la porte, et je frappe : si quelqu’un entend ma voix et m’ouvre la porte, j’entrerai chez lui, et je souperai avec lui, et lui avec moi."
-      },
-      "audios": "Graduale Project/communion_erubescant-et-conturbentur.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/02-27.txt",
+        "Francais/Tempora/Quad1-5.txt",
+        "Latin/Sancti/02-27.txt",
+        "Latin/Tempora/Quad1-5.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

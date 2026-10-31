@@ -1,68 +1,273 @@
 {
   "date": "2027-11-07",
-  "celebration": {
-    "nom": "25e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent21-0"
-  ],
-  "cles_jour": [
-    "Pent21-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "PentEpi5",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Esth 13:9; 13:10-11\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es.",
-        "Francais": "!Esth 13:9; 13:10-11\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout.\n!Ps 118:1\nHeureux ceux qui sont sans tache dans le chemin, qui marchent dans la loi du Seigneur. \n&Gloria\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout."
+      "occurrence": {
+        "gagnant": "Tempora/PentEpi5-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/PentEpi5-0.txt",
+        "temporal": "Latin/Tempora/PentEpi5-0.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_in-voluntate-tua.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 6:10-17\nFrères, fortifiez-vous dans le Seigneur et dans sa vertu toute-puissante. Revêtez-vous de l'armure de Dieu, afin de pouvoir résister aux embûches du diable. Car nous n'avons pas à lutter contre la chair et le sang, mais contre les princes, contre les puissances, contre les dominateurs de ce monde de ténèbres, contre les esprits mauvais répandus dans l'air. C'est pourquoi prenez l'armure de Dieu, afin de pouvoir résister au jour mauvais, et rester parfaits en toute chose. Soyez donc fermes, les reins ceints de la vérité, revêtus de la cuirasse de justice et les sandales aux pieds, prêts à annoncer l'Évangile de paix. Et surtout, prenez le bouclier de la foi, par lequel vous pourrez éteindre tous les traits enflammés du Malin. Prenez aussi le casque du salut, et le glaive de l'Esprit, qui est la parole de Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Introitus",
+            "texte": "!Jer 29:11; 29:12; 29:14\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.\n!Ps 84:2\nBenedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.\n&Gloria\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.",
+            "incipit": "Dicit Dóminus: Ego",
+            "mp3": "introitus_dicit-dominus-ego.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Oratio",
+            "texte": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, tua semper protectióne muniátur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses\n!Col 3:12-17\nFratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam: supportántes ínvicem, et donántes vobismetípsis, si quis advérsus áliquem habet querélam: sicut et Dóminus donávit vobis, ita et vos. Super ómnia autem hæc caritátem habéte, quod est vínculum perfectiónis: et pax Christi exsúltet in córdibus vestris, in qua et vocáti estis in uno córpore: et grati estóte. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia, docéntes et commonéntes vosmetípsos psalmis, hymnis et cánticis spirituálibus, in grátia cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo et Patri per ipsum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi1-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 43:8-9\nLiberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti.\nV. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula. Allelúja, allelúja.\n!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.",
+            "incipit": "Liberásti nos, Dómine,",
+            "mp3": "graduel_liberasti-nos.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:24-30\nIn illo témpore: Dixit Jesus turbis parábolam hanc: Símile factum est regnum cœlórum hómini, qui seminávit bonum semen in agro suo. Cum autem dormírent hómines, venit inimícus ejus, et superseminávit zizánia in médio trítici, et ábiit. Cum autem crevísset herba et fructum fecísset, tunc apparuérunt et zizánia. Accedéntes autem servi patrisfamílias, dixérunt ei: Dómine, nonne bonum semen seminásti in agro tuo? Unde ergo habet zizánia? Et ait illis: Inimícus homo hoc fecit. Servi autem dixérunt ei: Vis, imus, et collígimus ea? Et ait: Non: ne forte colligéntes zizánia eradicétis simul cum eis et tríticum. Sínite utráque créscere usque ad messem, et in témpore messis dicam messóribus: Collígite primum zizánia, et alligáte ea in fascículos ad comburéndum, tríticum autem congregáte in hórreum meum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te, Dómine.",
+            "incipit": "De profúndis clamávi",
+            "mp3": "offertoire_de-profundis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Communio",
+            "texte": "!Marc 11:24\nAmen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.",
+            "incipit": "Amen, dico vobis,",
+            "mp3": "communion_amen-dico-vobis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/PentEpi5-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Introitus",
+            "texte": "!Jer 29:11; 29:12; 29:14\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.\n!Ps 84:2\nVous avez béni votre terre, Seigneur, vous avez détourné la captivité de Jacob.\n&Gloria\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.",
+            "incipit": "Ainsi parle le",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Oratio",
+            "texte": "Gardez, Seigneur, votre famille avec une inlassable bonté, afin que s'appuyant sur la seule espérance de la grâce céleste, elle soit soutenue par votre constante protection.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses\n!Col 3:12-17\nFrères, comme élus de Dieu, saints et bien-aimés, revêtez-vous d'entrailles de miséricorde, de bonté, d'humilité, de douceur, et patience, vous supportant les uns les autres et vous pardonnant réciproquement, si l'un a sujet de se plaindre de l'autre. Comme le Seigneur vous a pardonné, pardonnez-vous aussi. Mais surtout revêtez-vous de la charité, qui est le lien de la perfection. Et que la paix du Christ, à laquelle vous avez été appelés de manière à former un seul corps, règne dans vos cœurs ; soyez reconnaissants. Que la parole du Christ demeure en vous avec abondance, de telle sorte que vous vous instruisiez et vous avertissiez les uns les autres en toute sagesse : sous l'inspiration de la grâce que vos cœurs s'épanchent vers Dieu en chants, par des psaumes, par des hymnes, par des cantiques spirituels. Tout ce que vous faites, en parole ou en œuvre, faites tout au nom du Seigneur Jésus, en rendant par lui des actions de grâces à Dieu le Père.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 43:8-9\nVous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient.\nV. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais. Alléluia, alléluia.\n!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Alléluia.",
+            "incipit": "Vous nous avez",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 13:24-30\nEn ce temps-là, Jésus dit aux foules cette parabole : « Le royaume des cieux est semblable à un homme qui avait semé du bon grain dans son champ. Or, pendant que les hommes dormaient, son ennemi vint et sema de l'ivraie au milieu du froment par dessus, et il s'en alla. Quand l'herbe eut poussé et donné son fruit, alors apparut aussi l'ivraie. Et les serviteurs du maître de maison vinrent lui dire : « Maître, n'avez-vous pas semé du bon grain dans votre champ ? D'où vient donc qu'il s'y trouve de l'ivraie ? » Il leur dit : « C'est un ennemi qui a fait cela. » Les serviteurs lui disent : « Voulez-vous que nous allions la ramasser ? — Non, dit-il, de peur qu'en ramassant l'ivraie vous n'arrachiez aussi le froment. Laissez croître ensemble l'un et l'autre jusqu'à la moisson, et au temps de la moisson je dirai aux moissonneurs : Ramassez d'abord l'ivraie, et liez-la en bottes pour la brûler ; quant aufroment, amassez-le dans mon grenier. »",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Des profondeurs je crie vers vous, Seigneur",
+            "incipit": "Des profondeurs je",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Secreta",
+            "texte": "Nous vous offrons, Seigneur, ce sacrifice d'expiation, pour que vous nous pardonniez nos fautes avec bonté, et dirigiez vous-même nos cœurs vacillants.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Communio",
+            "texte": "!Marc 11:24\nAmen je vous le dis : tout ce que vous demandez dans la prière, croyez que vous le recevrez, et cela adviendra pour vous.",
+            "incipit": "Amen je vous",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/PentEpi5-0.txt",
+            "section": "Postcommunio",
+            "texte": "Accordez à nos supplications, Dieu tout-puissant, le plein effet de ce salut dont nous avons, en ces mystères, reçu le gage.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 89:1-2\nDómine, refúgium factus es nobis, a generatióne et progénie.\nV. Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo et usque in sǽculum tu es, Deus. \nAllelúja, allelúja.\n!Ps 113:1\nIn éxitu Israël de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.",
-        "Francais": "!Ps 89:1-2\nSeigneur vous êtes notre refuge de génération en génération.\nV. Avant que les montagnes fussent, ou que fût formée la terre et le monde, depuis toujours et pour toujours vous êtes Dieu. Alléluia, alléluia.\n!Ps 113:1\nQuand Israël sortit d'Égypte, et la maison de Jacob du milieu d'un peuple barbare. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_domine-refugium.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:23-35\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le royaume des cieux est semblable à un roi qui voulut régler ses comptes avec ses serviteurs. Quand il commençait, on lui amena un débiteur qui lui devait dix mille talents. Comme il n'avait pas de quoi payer, son maître ordonna qu'on le vendît, lui, sa femme, ses enfants et tout ce qu'il avait pour que paiement fût fait. Alors le serviteur, tombant à ses pieds, demeurait prosterné, disant : « Seigneur, aie patience envers moi, et je te paierai tout.» Touché de compassion, le maître de ce serviteur le laissa aller et lui remit sa dette. Ce serviteur, à peine sorti, rencontra un de ses compagnons de service, qui lui devait cent deniers. L'ayant saisi à la gorge, il l'étouffait, disant : « Paie ce que tu dois.» Son compagnon de service, tombant à ses pieds, le suppliait, disant : « Aie patience envers moi, et je te paierai.» Mais lui ne voulait pas, et il s'en alla le faire mettre en prison jusqu'à ce qu'il eût payé sa dette. Ce que voyant, ses compagnons de service furent grandement contristés, et ils vinrent raconter à leur maître ce qui s'était passé. Alors le maître le fit appeler et lui dit : « Serviteur méchant, je t'ai remis toute cette dette, parce que tu m'as supplié. Ne devais-tu pas, toi aussi, avoir pitié de ton compagnon de service, comme moi-même j'ai eu pitié de toi ?» Et son maître irrité le livra aux bourreaux, jusqu'à ce qu'il eût payé toute sa dette. Ainsi vous traitera mon Père céleste, si chacun de vous ne pardonne à son frère du fond du cœur. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Job 1.1\nVir erat in terra Hus, nómine Job: simplex et rectus ac timens Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a Dómino in facultátes et in carnem ejus: perdidítque omnem substántiam ipsíus et fílios: carnem quoque ejus gravi úlcere vulnerávit.",
-        "Francais": "!Job 1.1\nIl y avait un homme dans la terre de Hus, du nom de Job. Il était simple et droit, et craignait Dieu. Satan demanda à le tenter, et il lui fut donné pouvoir par le Seigneur contre ses richesses et sa chair ; et il perdit tout ses richesses et ses fils ; et sa chair fut blessée d'un grave ulcère."
-      },
-      "audios": "Graduale Project/offertoire_vir-erat.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 118:81; 118:84; 118:86\nIn salutári tuo ánima mea, et in verbum tuum sperávi: quando fácies de persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me, Dómine, Deus meus.",
-        "Francais": "!Ps 118:81; 118:84; 118:86\nMon âme est en votre salut, et j'espère en votre parole ; quand me ferez-vous justice contre ceux qui me persécutent ? Les iniques m'ont persécuté ; aidez-moi, Seigneur mon Dieu."
-      },
-      "audios": "Graduale Project/communion_in-salutari-tuo.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/PentEpi5-0.txt",
+        "Latin/Tempora/PentEpi5-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

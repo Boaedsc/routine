@@ -1,68 +1,210 @@
 {
   "date": "2027-01-17",
-  "celebration": {
-    "nom": "2e dimanche après l'Épiphanie",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Epi2-0"
-  ],
-  "cles_jour": [
-    "Epi2-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 65:4\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.",
-        "Francais": "!Ps 65:4\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut.\n!Ps 65:1-2\nPoussez vers Dieu des cris de joie, ô terre entière ; chantez un hymne à son nom ; rendez glorieuse sa louange.\n&Gloria\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut."
+      "occurrence": {
+        "gagnant": "Tempora/Epi2-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Epi2-0.txt",
+        "temporal": "Latin/Tempora/Epi2-0.txt",
+        "sanctoral": "Latin/Sancti/01-17.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_omnis-terra.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lecture de l’Épître de Saint Paul Apôtre aux Romains.\n!Rom 12:6-16\nMes Frères : nous avons des dons différents selon la grâce qui nous a été donnée : soit de prophétie, selon la mesure de notre foi, soit de ministère, pour nous exercer dans le ministère ; celui-ci a reçu le don d’enseigner : qu’il enseigne ; celui-là, le don d’exhorter : qu’il exhorte ; un autre distribue : qu’il s’en acquitte avec simplicité ; un autre préside : qu’il le fasse avec zèle ; un autre exerce les œuvres de miséricorde : qu’il s’y livre avec joie. Que votre charité soit sans hypocrisie. Ayez le mal en horreur ; attachez-vous fortement au bien. Quant à l’amour fraternel, soyez pleins d’affection les uns pour les autres, vous prévenant d’honneur les uns les autres ; pour ce qui est du zèle, ne soyez pas nonchalants. Soyez fervents d’esprit ; c’est le Seigneur que vous servez. Soyez pleins de la joie que donne l’espérance, patients dans l’affliction, assidus à la prière, prêts à subvenir aux nécessités des saints, empressés à donner l’hospitalité. Bénissez ceux qui vous persécutent : bénissez et ne maudissez pas. Réjouissez-vous avec ceux qui sont dans la joie ; pleurez avec ceux qui pleurent. Ayez les mêmes sentiments entre vous ; n’aspirez pas à ce qui est élevé, mais laissez-vous attirer par ce qui est humble."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 65:4\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.",
+            "incipit": "Omnis terra adóret",
+            "mp3": "introitus_omnis-terra.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui cœléstia simul et terréna moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem tuam nostris concéde tempóribus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 12:6-16\nFratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis, differéntes: sive prophetíam secúndum ratiónem fídei, sive ministérium in ministrándo, sive qui docet in doctrína, qui exhortátur in exhortándo, qui tríbuit in simplicitáte, qui præest in sollicitúdine, qui miserétur in hilaritáte. Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono: Caritáte fraternitátis ínvicem diligéntes: Honóre ínvicem præveniéntes: Sollicitúdine non pigri: Spíritu fervéntes: Dómino serviéntes: Spe gaudéntes: In tribulatióne patiéntes: Oratióni instántes: Necessitátibus sanctórum communicántes: Hospitalitátem sectántes. Benedícite persequéntibus vos: benedícite, et nolíte maledícere. Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:20-21\nMisit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum.\nV. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum. Allelúja, allelúja.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.",
+            "incipit": "Misit Dóminus verbum",
+            "mp3": "graduel_misit-dominus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 2:1-11\nIn illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus minístris: Quodcúmque díxerit vobis, fácite. Erant autem ibi lapídeæ hýdriæ sex pósitæ secúndum purificatiónem Judæórum, capiéntes síngulæ metrétas binas vel ternas. Dicit eis Jesus: Implete hýdrias aqua. Et implevérunt eas usque ad summum. Et dicit eis Jesus: Hauríte nunc, et ferte architriclíno. Et tulérunt. Ut autem gustávit architriclínus aquam vinum fáctam, et non sciébat unde esset, minístri autem sciébant, qui háuserant aquam: vocat sponsum architriclínus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebriáti fúerint, tunc id, quod detérius est. Tu autem servásti bonum vinum usque adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et manifestávit glóriam suam, et credidérunt in eum discípuli ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:1-2; 65:16\nJubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.",
+            "incipit": "Jubiláte Deo, univérsa",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Secreta",
+            "texte": "Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Communio",
+            "texte": "!Joann 2:7; 2:8; 2:9; 2:10-11\nDicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum gustásset architriclínus aquam vinum factam, dicit sponso: Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram discípulis suis.",
+            "incipit": "Dicit Dóminus: Implete",
+            "mp3": "communion_dicit-dominus-implete.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo múnere præparémur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 65:4\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.",
+            "incipit": "Omnis terra adóret",
+            "mp3": "introitus_omnis-terra.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui cœléstia simul et terréna moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem tuam nostris concéde tempóribus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 12:6-16\nFratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis, differéntes: sive prophetíam secúndum ratiónem fídei, sive ministérium in ministrándo, sive qui docet in doctrína, qui exhortátur in exhortándo, qui tríbuit in simplicitáte, qui præest in sollicitúdine, qui miserétur in hilaritáte. Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono: Caritáte fraternitátis ínvicem diligéntes: Honóre ínvicem præveniéntes: Sollicitúdine non pigri: Spíritu fervéntes: Dómino serviéntes: Spe gaudéntes: In tribulatióne patiéntes: Oratióni instántes: Necessitátibus sanctórum communicántes: Hospitalitátem sectántes. Benedícite persequéntibus vos: benedícite, et nolíte maledícere. Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:20-21\nMisit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum.\nV. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum. Allelúja, allelúja.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.",
+            "incipit": "Misit Dóminus verbum",
+            "mp3": "graduel_misit-dominus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 2:1-11\nIn illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus minístris: Quodcúmque díxerit vobis, fácite. Erant autem ibi lapídeæ hýdriæ sex pósitæ secúndum purificatiónem Judæórum, capiéntes síngulæ metrétas binas vel ternas. Dicit eis Jesus: Implete hýdrias aqua. Et implevérunt eas usque ad summum. Et dicit eis Jesus: Hauríte nunc, et ferte architriclíno. Et tulérunt. Ut autem gustávit architriclínus aquam vinum fáctam, et non sciébat unde esset, minístri autem sciébant, qui háuserant aquam: vocat sponsum architriclínus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebriáti fúerint, tunc id, quod detérius est. Tu autem servásti bonum vinum usque adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et manifestávit glóriam suam, et credidérunt in eum discípuli ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:1-2; 65:16\nJubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.",
+            "incipit": "Jubiláte Deo, univérsa",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Secreta",
+            "texte": "Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Communio",
+            "texte": "!Joann 2:7; 2:8; 2:9; 2:10-11\nDicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum gustásset architriclínus aquam vinum factam, dicit sponso: Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram discípulis suis.",
+            "incipit": "Dicit Dóminus: Implete",
+            "mp3": "communion_dicit-dominus-implete.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Epi2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo múnere præparémur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 106:20-21\nMisit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum.\nV. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum. Allelúja, allelúja.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.",
-        "Francais": "!Ps 106:20-21\nLe Seigneur envoya sa parole et il les guérit, et les arracha à la mort.\nV. Qu’ils louent le Seigneur pour sa miséricorde et pour les merveilles en faveur des enfants des hommes. Alleluia, alleluia.\n!Ps 148:2\nLouez le Seigneur, vous tous ses Anges ; louez-le, toutes ses puissances. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_misit-dominus.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Lecture du Saint Évangile selon saint Jean.\n!Joann 2:1-11\nEn ce temps là : il se fit des noces à Cana en Galilée ; et la mère de Jésus y était. Jésus fut aussi convié aux noces avec ses disciples. Le vin étant venu à manquer, la mère de Jésus lui dit : « Ils n’ont plus de vin.» Jésus lui répondit : « Femme, qu’est-ce que cela pour moi et pour vous ? Mon heure n’est pas encore venue.» Sa mère dit aux serviteurs : « Faites tout ce qu’il vous dira.» Or, il y avait là six urnes de pierre destinées aux ablutions des Juifs et contenant chacune deux ou trois mesures. Jésus leur dit : « Remplissez d’eau ces urnes.» Et ils les remplirent jusqu’au haut. Et il leur dit : « Puisez maintenant, et portez-en au maître du festin ; et ils en portèrent. Dès que le maître du festin eut goûté l’eau changée en vin — il ne savait pas d’où venait ce vin, mais les serviteurs qui avaient puisé l’eau le savaient — il interpella l’époux et lui dit : « Tout homme sert d’abord le bon vin, et après qu’on a bu abondamment, le moins bon ; mais toi, tu as gardé le bon jusqu’à ce moment.» Tel fut, à Cana de Galilée, le premier des miracles que fit Jésus, et il manifesta sa gloire, et ses disciples crurent en lui."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 65:1-2; 65:16\nJubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.",
-        "Francais": "!Ps 65:1-2; 65:16\nPoussez des cris de joie, ô terre entière ; chantez un hymne à son nom. Venez et entendez, vous tous qui craignez Dieu et je vous raconterai tout ce que le Seigneur a fait à mon âme. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 2:7; 2:8; 2:9; 2:10-11\nDicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum gustásset architriclínus aquam vinum factam, dicit sponso: Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram discípulis suis.",
-        "Francais": "!Joann 2:7; 2:8; 2:9; 2:10-11\nLe Seigneur dit : Remplissez d’eau ces urnes et portez-en au maître du festin. Dès que le maître du festin eut goûté l’eau changée en vin, il dit à l’époux : tu as gardé le bon jusqu’à ce moment. Tel fut le premier miracle que fit Jésus devant ses disciples"
-      },
-      "audios": "Graduale Project/communion_dicit-dominus-implete.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Epi2-0.txt",
+        "Latin/Tempora/Epi2-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

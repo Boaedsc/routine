@@ -1,68 +1,284 @@
 {
   "date": "2027-03-21",
-  "celebration": {
-    "nom": "Dimanche des Rameaux",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad6-0"
-  ],
-  "cles_jour": [
-    "Quad6-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad6",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 21:20 et 22.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.\n!Ps 21:2\nDeus, Deus meus, réspice in me: quare me dereliquísti? longe a salúte mea verba delictórum meórum.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.",
-        "Francais": "!Ps 21:20 et 22.\nv. Seigneur, n’éloignez pas de moi votre secours : soyez attentif à me défendre ; délivrez-moi de la gueule du lion et des cornes des buffles, car je suis bien faible et humilié.\n!Ps 21:2\nÔ Dieu, mon Dieu, tournez vers moi votre regard ; pourquoi m’avez-vous abandonné ? La voix de mes péchés éloigne de moi le salut.\nv. Seigneur, n’éloignez pas de moi votre secours : soyez attentif à me défendre ; délivrez-moi de la gueule du lion et des cornes des buffles, car je suis bien faible et humilié."
+      "occurrence": {
+        "gagnant": "Tempora/Quad6-0r",
+        "nom_sanctoral": "",
+        "classe": 6.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad6-0r.txt",
+        "temporal": "Latin/Tempora/Quad6-0r.txt",
+        "sanctoral": "Latin/Sancti/03-21.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Quad6-0r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Phil 2:5-11\nMes frères : Ayez en vous les mêmes sentiments dont était animé le Christ Jésus : bien qu’il fût Dieu par nature, il n’a pas retenu avidement son égalité avec Dieu, mais il s’est anéanti lui-même en prenant la condition d’esclave, en devenant semblable aux hommes, à l’extérieur absolument comme un homme. Il s’est abaissé lui-même, se faisant obéissant jusqu’à la mort de la croix. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom (ici on fléchit le genou), afin qu’au nom de Jésus tout genou fléchisse, au ciel, sur la terre et dans les enfers, et que toute langue proclame, à la gloire de Dieu le Père, que Jésus-Christ est Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 21:20 et 22.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.\n!Ps 21:2\nDeus, Deus meus, réspice in me: quare me dereliquísti? longe a salúte mea verba delictórum meórum.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.",
+            "incipit": "Dómine, ne longe",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui humáno géneri, ad imitándum humilitátis exémplum, Salvatórem nostrum carnem súmere et crucem subíre fecísti: concéde propítius; ut et patiéntiæ ipsíus habére documénta et resurrectiónis consórtia mereámur.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 72:24 et 1-3\nTenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.\nV. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nDeus, Deus meus, réspice in me: quare me dereliquísti?\nV. Longe a salúte mea verba delictórum meórum.\nV. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.\nV. Tu autem in sancto hábitas, laus Israël.\nV. In te speravérunt patres nostri: speravérunt, et liberásti eos.\nV. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confúsi.\nV. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.\nV. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.\nV. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.\nV. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\nV. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.\nV. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.\nV. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus.\nV. Pópulo, qui nascétur, quem fecit Dóminus.",
+            "incipit": "Tenuísti manum déxteram",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 72:24 et 1-3\nTenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.\nV. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nDeus, Deus meus, réspice in me: quare me dereliquísti?\nV. Longe a salúte mea verba delictórum meórum.\nV. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.\nV. Tu autem in sancto hábitas, laus Israël.\nV. In te speravérunt patres nostri: speravérunt, et liberásti eos.\nV. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confúsi.\nV. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.\nV. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.\nV. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.\nV. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\nV. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.\nV. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.\nV. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus.\nV. Pópulo, qui nascétur, quem fecit Dóminus.",
+            "incipit": "Tenuísti manum déxteram",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Evangelium",
+            "texte": "_\nv.~\nPássio Dómini nostri Jesu Christi secúndum Matthǽum\n!Matt 26:36-75; 27:1-60\nTunc venit Jesus cum illis in villam, quæ dícitur Gethsémani, et dixit discípulis suis: J. Sedéte hic, donec vadam illuc et orem. C. Et assúmpto Petro et duóbus fíliis Zebedæi, cœpit contristári et mæstus esse. Tunc ait illis: J. Tristis est ánima mea usque ad mortem: sustinéte hic, et vigilate mecum. C. Et progréssus pusíllum, prócidit in fáciem suam, orans et dicens: J. Pater mi, si possíbile est, tránseat a me calix iste: Verúmtamen non sicut ego volo, sed sicut tu. C. Et venit ad discípulos suos, et invénit eos dormiéntes: et dicit Petro: J. Sic non potuístis una hora vigiláre mecum? Vigiláte et oráte, ut non intrétis in tentatiónem. Spíritus quidem promptus est, caro autem infírma. C. Iterum secúndo ábiit et orávit, dicens: J. Pater mi, si non potest hic calix transíre, nisi bibam illum, fiat volúntas tua. C. Et venit íterum, et invenit eos dormiéntes: erant enim óculi eórum graváti. Et relíctis illis, íterum ábiit et orávit tértio, eúndem sermónem dicens. Tunc venit ad discípulos suos, et dicit illis: J. Dormíte jam et requiéscite: ecce, appropinquávit hora, et Fílius hóminis tradétur in manus peccatórum. Súrgite, eámus: ecce, appropinquávit, qui me tradet. C. Adhuc eo loquénte, ecce, Judas, unus de duódecim, venit, et cum eo turba multa cum gládiis et fústibus, missi a princípibus sacerdótum et senióribus pópuli. Qui autem trádidit eum, dedit illis signum, dicens: S. Quemcúmque osculátus fúero, ipse est, tenéte eum. C. Et conféstim accédens ad Jesum, dixit: S. Ave, Rabbi. C. Et osculátus est eum. Dixítque illi Jesus: J. Amíce, ad quid venísti? C. Tunc accessérunt, et manus injecérunt in Jesum et tenuérunt eum. Et ecce, unus ex his, qui erant cum Jesu, exténdens manum, exémit gládium suum, et percútiens servum príncipis sacerdótum, amputávit aurículam ejus. Tunc ait illi Jesus: J. Convérte gládium tuum in locum suum. Omnes enim, qui accéperint gládium, gládio períbunt. An putas, quia non possum rogáre Patrem meum, et exhibébit mihi modo plus quam duódecim legiónes Angelórum? Quómodo ergo implebúntur Scripturæ, quia sic oportet fíeri? C. In illa hora dixit Jesus turbis: J. Tamquam ad latrónem exístis cum gládiis et fústibus comprehéndere me: cotídie apud vos sedébam docens in templo, et non me tenuístis. C. Hoc autem totum factum est, ut adimpleréntur Scripturæ Prophetárum. Tunc discípuli omnes, relícto eo, fugérunt. At illi tenéntes Jesum, duxérunt ad Cáipham, príncipem sacerdótum, ubi scribæ et senióres convénerant. Petrus autem sequebátur eum a longe, usque in átrium príncipis sacerdótum. Et ingréssus intro, sedébat cum minístris, ut vidéret finem. Príncipes autem sacerdótum et omne concílium quærébant falsum testimónium contra Jesum, ut eum morti tráderent: et non invenérunt, cum multi falsi testes accessíssent. Novíssime autem venérunt duo falsi testes et dixérunt: S. Hic dixit: Possum destrúere templum Dei, et post tríduum reædificáre illud. C. Et surgens princeps sacerdótum, ait illi: S. Nihil respóndes ad ea, quæ isti advérsum te testificántur? C. Jesus autem tacébat. Et princeps sacerdótum ait illi: S. Adjúro te per Deum vivum, ut dicas nobis, si tu es Christus, Fílius Dei. C. Dicit illi Jesus: J. Tu dixísti. Verúmtamen dico vobis, ámodo vidébitis Fílium hóminis sedéntem a dextris virtútis Dei, et veniéntem in núbibus cœli. C. Tunc princeps sacerdótum scidit vestiménta sua, dicens: S. Blasphemávit: quid adhuc egémus téstibus? Ecce, nunc audístis blasphémiam: quid vobis vidétur? C. At illi respondéntes dixérunt: S. Reus est mortis. C. Tunc exspuérunt in fáciem ejus, et cólaphis eum cecidérunt, álii autem palmas in fáciem ejus dedérunt, dicéntes: S. Prophetíza nobis, Christe, quis est, qui te percússit? C. Petrus vero sedébat foris in átrio: et accéssit ad eum una ancílla, dicens: S. Et tu cum Jesu Galilæo eras. C. At ille negávit coram ómnibus, dicens: S. Néscio, quid dicis. C. Exeúnte autem illo jánuam, vidit eum ália ancílla, et ait his, qui erant ibi: S. Et hic erat cum Jesu Nazaréno. C. Et íterum negávit cum juraménto: Quia non novi hóminem. Et post pusíllum accessérunt, qui stabant, et dixérunt Petro: S. Vere et tu ex illis es: nam et loquéla tua maniféstum te facit. C. Tunc cœpit detestári et juráre, quia non novísset hóminem. Et contínuo gallus cantávit. Et recordátus est Petrus verbi Jesu, quod díxerat: Priúsquam gallus cantet, ter me negábis. Et egréssus foras, flevit amáre. Mane autem facto, consílium iniérunt omnes príncipes sacerdótum et senióres pópuli advérsus Jesum, ut eum morti tráderent. Et vinctum adduxérunt eum, et tradidérunt Póntio Piláto præsidi. Tunc videns Judas, qui eum trádidit, quod damnátus esset, pæniténtia ductus, réttulit trigínta argénteos princípibus sacerdótum et senióribus, dicens: S. Peccávi, tradens sánguinem justum. C. At illi dixérunt: S. Quid ad nos? Tu vidéris. C. Et projéctis argénteis in templo, recéssit: et ábiens, láqueo se suspéndit. Príncipes autem sacerdótum, accéptis argénteis, dixérunt: S. Non licet eos míttere in córbonam: quia prétium sánguinis est. C. Consílio autem ínito, emérunt ex illis agrum fíguli, in sepultúram peregrinórum. Propter hoc vocátus est ager ille, Hacéldama, hoc est, ager sánguinis, usque in hodiérnum diem. Tunc implétum est, quod dictum est per Jeremíam Prophétam, dicéntem: Et accepérunt trigínta argénteos prétium appretiáti, quem appretiavérunt a fíliis Israël: et dedérunt eos in agrum fíguli, sicut constítuit mihi Dóminus. Jesus autem stetit ante præsidem, et interrogávit eum præses, dicens: S. Tu es Rex Judæórum? C. Dicit illi Jesus: J. Tu dicis. C. Et cum accusarétur a princípibus sacerdótum et senióribus, nihil respóndit. Tunc dicit illi Pilátus: S. Non audis, quanta advérsum te dicunt testimónia? C. Et non respóndit ei ad ullum verbum, ita ut mirarétur præses veheménter. Per diem autem sollémnem consuéverat præses pópulo dimíttere unum vinctum, quem voluíssent. Habébat autem tunc vinctum insígnem, qui dicebátur Barábbas. Congregátis ergo illis, dixit Pilátus: S. Quem vultis dimíttam vobis: Barábbam, an Jesum, qui dícitur Christus? C. Sciébat enim, quod per invídiam tradidíssent eum. Sedénte autem illo pro tribunáli, misit ad eum uxor ejus, dicens: S. Nihil tibi et justo illi: multa enim passa sum hódie per visum propter eum. C. Príncipes autem sacerdótum et senióres persuasérunt populis, ut péterent Barábbam, Jesum vero pérderent. Respóndens autem præses, ait illis: S. Quem vultis vobis de duóbus dimítti? C. At illi dixérunt: S. Barábbam. C. Dicit illis Pilátus: S. Quid ígitur fáciam de Jesu, qui dícitur Christus? C. Dicunt omnes: S. Crucifigátur. C. Ait illis præses: S. Quid enim mali fecit? C. At illi magis clamábant, dicéntes: S. Crucifigátur. C. Videns autem Pilátus, quia nihil profíceret, sed magis tumúltus fíeret: accépta aqua, lavit manus coram pópulo, dicens: S. Innocens ego sum a sánguine justi hujus: vos vidéritis. C. Et respóndens univérsus pópulus, dixit: S. Sanguis ejus super nos et super fílios nostros. C. Tunc dimísit illis Barábbam: Jesum autem flagellátum trádidit eis, ut crucifigerétur. Tunc mílites præsidis suscipiéntes Jesum in prætórium, congregavérunt ad eum univérsam cohórtem: et exuéntes eum, chlámydem coccíneam circumdedérunt ei: et plecténtes corónam de spinis, posuérunt super caput ejus, et arúndinem in déxtera ejus. Et genu flexo ante eum, illudébant ei, dicéntes: S. Ave, Rex Judæórum. C. Et exspuéntes in eum, accepérunt arúndinem, et percutiébant caput ejus. Et postquam illusérunt ei, exuérunt eum chlámyde et induérunt eum vestiméntis ejus, et duxérunt eum, ut crucifígerent. Exeúntes autem, invenérunt hóminem Cyrenæum, nómine Simónem: hunc angariavérunt, ut tólleret crucem ejus. Et venérunt in locum, qui dícitur Gólgotha, quod est Calváriæ locus. Et dedérunt ei vinum bíbere cum felle mixtum. Et cum gustásset, nóluit bibere. Postquam autem crucifixérunt eum, divisérunt vestiménta ejus, sortem mitténtes: ut implerétur, quod dictum est per Prophétam dicentem: Divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem. Et sedéntes, servábant eum. Et imposuérunt super caput ejus causam ipsíus scriptam: Hic est Jesus, Rex Judæórum. Tunc crucifíxi sunt cum eo duo latrónes: unus a dextris et unus a sinístris. Prætereúntes autem blasphemábant eum, movéntes cápita sua et dicéntes: S. Vah, qui déstruis templum Dei et in tríduo illud reædíficas: salva temetípsum. Si Fílius Dei es, descénde de cruce. C. Simíliter et príncipes sacerdótum illudéntes cum scribis et senióribus, dicébant: S. Alios salvos fecit, seípsum non potest salvum fácere: si Rex Israël est, descéndat nunc de cruce, et crédimus ei: confídit in Deo: líberet nunc, si vult eum: dixit enim: Quia Fílius Dei sum. C. Idípsum autem et latrónes, qui crucifíxi erant cum eo, improperábant ei. A sexta autem hora ténebræ factæ sunt super univérsam terram usque ad horam nonam. Et circa horam nonam clamávit Jesus voce magna, dicens: J. Eli, Eli, lamma sabactháni? C. Hoc est: J. Deus meus, Deus meus, ut quid dereliquísti me? C. Quidam autem illic stantes et audiéntes dicébant: S. Elíam vocat iste. C. Et contínuo currens unus ex eis, accéptam spóngiam implévit acéto et impósuit arúndini, et dabat ei bíbere. Céteri vero dicébant: S. Sine, videámus, an véniat Elías líberans eum. C. Jesus autem íterum clamans voce magna, emísit spíritum.\n!Hic genuflectitur, et pausatur aliquantulum.\nEt ecce, velum templi scissum est in duas partes a summo usque deórsum: et terra mota est, et petræ scissæ sunt, et monuménta apérta sunt: et multa córpora sanctórum, qui dormíerant, surrexérunt. Et exeúntes de monuméntis post resurrectiónem ejus, venérunt in sanctam civitátem, et apparuérunt multis. Centúrio autem et qui cum eo erant, custodiéntes Jesum, viso terræmótu et his, quæ fiébant, timuérunt valde, dicéntes: S. Vere Fílius Dei erat iste. C. Erant autem ibi mulíeres multæ a longe, quæ secútæ erant Jesum a Galilæa, ministrántes ei: inter quas erat María Magdaléne, et María Jacóbi, et Joseph mater, et mater filiórum Zebedæi. Cum autem sero factum esset, venit quidam homo dives ab Arimathæa, nómine Joseph, qui et ipse discípulus erat Jesu. Hic accéssit ad Pilátum, et pétiit corpus Jesu. Tunc Pilátus jussit reddi corpus. Et accépto córpore, Joseph invólvit illud in síndone munda. Et pósuit illud in monuménto suo novo, quod excíderat in petra. Et advólvit saxum magnum ad óstium monuménti, et ábiit.\n_\nv.~\nPássio Dómini nostri Jesu Christi secúndum Matthǽum\n!Matt 26:36-75; 27:1-60\nTunc venit Jesus cum illis in villam, quæ dícitur Gethsémani, et dixit discípulis suis: J. Sedéte hic, donec vadam illuc et orem. C. Et assúmpto Petro et duóbus fíliis Zebedæi, cœpit contristári et mæstus esse. Tunc ait illis: J. Tristis est ánima mea usque ad mortem: sustinéte hic, et vigilate mecum. C. Et progréssus pusíllum, prócidit in fáciem suam, orans et dicens: J. Pater mi, si possíbile est, tránseat a me calix iste: Verúmtamen non sicut ego volo, sed sicut tu. C. Et venit ad discípulos suos, et invénit eos dormiéntes: et dicit Petro: J. Sic non potuístis una hora vigiláre mecum? Vigiláte et oráte, ut non intrétis in tentatiónem. Spíritus quidem promptus est, caro autem infírma. C. Iterum secúndo ábiit et orávit, dicens: J. Pater mi, si non potest hic calix transíre, nisi bibam illum, fiat volúntas tua. C. Et venit íterum, et invenit eos dormiéntes: erant enim óculi eórum graváti. Et relíctis illis, íterum ábiit et orávit tértio, eúndem sermónem dicens. Tunc venit ad discípulos suos, et dicit illis: J. Dormíte jam et requiéscite: ecce, appropinquávit hora, et Fílius hóminis tradétur in manus peccatórum. Súrgite, eámus: ecce, appropinquávit, qui me tradet. C. Adhuc eo loquénte, ecce, Judas, unus de duódecim, venit, et cum eo turba multa cum gládiis et fústibus, missi a princípibus sacerdótum et senióribus pópuli. Qui autem trádidit eum, dedit illis signum, dicens: S. Quemcúmque osculátus fúero, ipse est, tenéte eum. C. Et conféstim accédens ad Jesum, dixit: S. Ave, Rabbi. C. Et osculátus est eum. Dixítque illi Jesus: J. Amíce, ad quid venísti? C. Tunc accessérunt, et manus injecérunt in Jesum et tenuérunt eum. Et ecce, unus ex his, qui erant cum Jesu, exténdens manum, exémit gládium suum, et percútiens servum príncipis sacerdótum, amputávit aurículam ejus. Tunc ait illi Jesus: J. Convérte gládium tuum in locum suum. Omnes enim, qui accéperint gládium, gládio períbunt. An putas, quia non possum rogáre Patrem meum, et exhibébit mihi modo plus quam duódecim legiónes Angelórum? Quómodo ergo implebúntur Scripturæ, quia sic oportet fíeri? C. In illa hora dixit Jesus turbis: J. Tamquam ad latrónem exístis cum gládiis et fústibus comprehéndere me: cotídie apud vos sedébam docens in templo, et non me tenuístis. C. Hoc autem totum factum est, ut adimpleréntur Scripturæ Prophetárum. Tunc discípuli omnes, relícto eo, fugérunt. At illi tenéntes Jesum, duxérunt ad Cáipham, príncipem sacerdótum, ubi scribæ et senióres convénerant. Petrus autem sequebátur eum a longe, usque in átrium príncipis sacerdótum. Et ingréssus intro, sedébat cum minístris, ut vidéret finem. Príncipes autem sacerdótum et omne concílium quærébant falsum testimónium contra Jesum, ut eum morti tráderent: et non invenérunt, cum multi falsi testes accessíssent. Novíssime autem venérunt duo falsi testes et dixérunt: S. Hic dixit: Possum destrúere templum Dei, et post tríduum reædificáre illud. C. Et surgens princeps sacerdótum, ait illi: S. Nihil respóndes ad ea, quæ isti advérsum te testificántur? C. Jesus autem tacébat. Et princeps sacerdótum ait illi: S. Adjúro te per Deum vivum, ut dicas nobis, si tu es Christus, Fílius Dei. C. Dicit illi Jesus: J. Tu dixísti. Verúmtamen dico vobis, ámodo vidébitis Fílium hóminis sedéntem a dextris virtútis Dei, et veniéntem in núbibus cœli. C. Tunc princeps sacerdótum scidit vestiménta sua, dicens: S. Blasphemávit: quid adhuc egémus téstibus? Ecce, nunc audístis blasphémiam: quid vobis vidétur? C. At illi respondéntes dixérunt: S. Reus est mortis. C. Tunc exspuérunt in fáciem ejus, et cólaphis eum cecidérunt, álii autem palmas in fáciem ejus dedérunt, dicéntes: S. Prophetíza nobis, Christe, quis est, qui te percússit? C. Petrus vero sedébat foris in átrio: et accéssit ad eum una ancílla, dicens: S. Et tu cum Jesu Galilæo eras. C. At ille negávit coram ómnibus, dicens: S. Néscio, quid dicis. C. Exeúnte autem illo jánuam, vidit eum ália ancílla, et ait his, qui erant ibi: S. Et hic erat cum Jesu Nazaréno. C. Et íterum negávit cum juraménto: Quia non novi hóminem. Et post pusíllum accessérunt, qui stabant, et dixérunt Petro: S. Vere et tu ex illis es: nam et loquéla tua maniféstum te facit. C. Tunc cœpit detestári et juráre, quia non novísset hóminem. Et contínuo gallus cantávit. Et recordátus est Petrus verbi Jesu, quod díxerat: Priúsquam gallus cantet, ter me negábis. Et egréssus foras, flevit amáre. Mane autem facto, consílium iniérunt omnes príncipes sacerdótum et senióres pópuli advérsus Jesum, ut eum morti tráderent. Et vinctum adduxérunt eum, et tradidérunt Póntio Piláto præsidi. Tunc videns Judas, qui eum trádidit, quod damnátus esset, pæniténtia ductus, réttulit trigínta argénteos princípibus sacerdótum et senióribus, dicens: S. Peccávi, tradens sánguinem justum. C. At illi dixérunt: S. Quid ad nos? Tu vidéris. C. Et projéctis argénteis in templo, recéssit: et ábiens, láqueo se suspéndit. Príncipes autem sacerdótum, accéptis argénteis, dixérunt: S. Non licet eos míttere in córbonam: quia prétium sánguinis est. C. Consílio autem ínito, emérunt ex illis agrum fíguli, in sepultúram peregrinórum. Propter hoc vocátus est ager ille, Hacéldama, hoc est, ager sánguinis, usque in hodiérnum diem. Tunc implétum est, quod dictum est per Jeremíam Prophétam, dicéntem: Et accepérunt trigínta argénteos prétium appretiáti, quem appretiavérunt a fíliis Israël: et dedérunt eos in agrum fíguli, sicut constítuit mihi Dóminus. Jesus autem stetit ante præsidem, et interrogávit eum præses, dicens: S. Tu es Rex Judæórum? C. Dicit illi Jesus: J. Tu dicis. C. Et cum accusarétur a princípibus sacerdótum et senióribus, nihil respóndit. Tunc dicit illi Pilátus: S. Non audis, quanta advérsum te dicunt testimónia? C. Et non respóndit ei ad ullum verbum, ita ut mirarétur præses veheménter. Per diem autem sollémnem consuéverat præses pópulo dimíttere unum vinctum, quem voluíssent. Habébat autem tunc vinctum insígnem, qui dicebátur Barábbas. Congregátis ergo illis, dixit Pilátus: S. Quem vultis dimíttam vobis: Barábbam, an Jesum, qui dícitur Christus? C. Sciébat enim, quod per invídiam tradidíssent eum. Sedénte autem illo pro tribunáli, misit ad eum uxor ejus, dicens: S. Nihil tibi et justo illi: multa enim passa sum hódie per visum propter eum. C. Príncipes autem sacerdótum et senióres persuasérunt populis, ut péterent Barábbam, Jesum vero pérderent. Respóndens autem præses, ait illis: S. Quem vultis vobis de duóbus dimítti? C. At illi dixérunt: S. Barábbam. C. Dicit illis Pilátus: S. Quid ígitur fáciam de Jesu, qui dícitur Christus? C. Dicunt omnes: S. Crucifigátur. C. Ait illis præses: S. Quid enim mali fecit? C. At illi magis clamábant, dicéntes: S. Crucifigátur. C. Videns autem Pilátus, quia nihil profíceret, sed magis tumúltus fíeret: accépta aqua, lavit manus coram pópulo, dicens: S. Innocens ego sum a sánguine justi hujus: vos vidéritis. C. Et respóndens univérsus pópulus, dixit: S. Sanguis ejus super nos et super fílios nostros. C. Tunc dimísit illis Barábbam: Jesum autem flagellátum trádidit eis, ut crucifigerétur. Tunc mílites præsidis suscipiéntes Jesum in prætórium, congregavérunt ad eum univérsam cohórtem: et exuéntes eum, chlámydem coccíneam circumdedérunt ei: et plecténtes corónam de spinis, posuérunt super caput ejus, et arúndinem in déxtera ejus. Et genu flexo ante eum, illudébant ei, dicéntes: S. Ave, Rex Judæórum. C. Et exspuéntes in eum, accepérunt arúndinem, et percutiébant caput ejus. Et postquam illusérunt ei, exuérunt eum chlámyde et induérunt eum vestiméntis ejus, et duxérunt eum, ut crucifígerent. Exeúntes autem, invenérunt hóminem Cyrenæum, nómine Simónem: hunc angariavérunt, ut tólleret crucem ejus. Et venérunt in locum, qui dícitur Gólgotha, quod est Calváriæ locus. Et dedérunt ei vinum bíbere cum felle mixtum. Et cum gustásset, nóluit bibere. Postquam autem crucifixérunt eum, divisérunt vestiménta ejus, sortem mitténtes: ut implerétur, quod dictum est per Prophétam dicentem: Divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem. Et sedéntes, servábant eum. Et imposuérunt super caput ejus causam ipsíus scriptam: Hic est Jesus, Rex Judæórum. Tunc crucifíxi sunt cum eo duo latrónes: unus a dextris et unus a sinístris. Prætereúntes autem blasphemábant eum, movéntes cápita sua et dicéntes: S. Vah, qui déstruis templum Dei et in tríduo illud reædíficas: salva temetípsum. Si Fílius Dei es, descénde de cruce. C. Simíliter et príncipes sacerdótum illudéntes cum scribis et senióribus, dicébant: S. Alios salvos fecit, seípsum non potest salvum fácere: si Rex Israël est, descéndat nunc de cruce, et crédimus ei: confídit in Deo: líberet nunc, si vult eum: dixit enim: Quia Fílius Dei sum. C. Idípsum autem et latrónes, qui crucifíxi erant cum eo, improperábant ei. A sexta autem hora ténebræ factæ sunt super univérsam terram usque ad horam nonam. Et circa horam nonam clamávit Jesus voce magna, dicens: J. Eli, Eli, lamma sabactháni? C. Hoc est: J. Deus meus, Deus meus, ut quid dereliquísti me? C. Quidam autem illic stantes et audiéntes dicébant: S. Elíam vocat iste. C. Et contínuo currens unus ex eis, accéptam spóngiam implévit acéto et impósuit arúndini, et dabat ei bíbere. Céteri vero dicébant: S. Sine, videámus, an véniat Elías líberans eum. C. Jesus autem íterum clamans voce magna, emísit spíritum.\n!Hic genuflectitur, et pausatur aliquantulum.\nEt ecce, velum templi scissum est in duas partes a summo usque deórsum: et terra mota est, et petræ scissæ sunt, et monuménta apérta sunt: et multa córpora sanctórum, qui dormíerant, surrexérunt. Et exeúntes de monuméntis post resurrectiónem ejus, venérunt in sanctam civitátem, et apparuérunt multis. Centúrio autem et qui cum eo erant, custodiéntes Jesum, viso terræmótu et his, quæ fiébant, timuérunt valde, dicéntes: S. Vere Fílius Dei erat iste. C. Erant autem ibi mulíeres multæ a longe, quæ secútæ erant Jesum a Galilæa, ministrántes ei: inter quas erat María Magdaléne, et María Jacóbi, et Joseph mater, et mater filiórum Zebedæi. Cum autem sero factum esset, venit quidam homo dives ab Arimathæa, nómine Joseph, qui et ipse discípulus erat Jesu. Hic accéssit ad Pilátum, et pétiit corpus Jesu. Tunc Pilátus jussit reddi corpus. Et accépto córpore, Joseph invólvit illud in síndone munda. Et pósuit illud in monuménto suo novo, quod excíderat in petra. Et advólvit saxum magnum ad óstium monuménti, et ábiit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad6-0r.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Evangelium",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad6-0r.txt",
+                    "section": "Evangelium1",
+                    "resolu": true,
+                    "sous_references": null
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad6-0.txt",
+                    "section": "Evangelium3",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad6-0r.txt",
+                "section": "Evangelium1",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad6-0.txt",
+                "section": "Evangelium3",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 68:21-22\nImpropérium exspectávit cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni: et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
+            "incipit": "Impropérium exspectávit cor",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Secreta",
+            "texte": "Concéde, quǽsumus, Dómine: ut óculis tuæ majestátis munus oblátum, et grátiam nobis devotiónis obtíneat, et efféctum beátæ perennitátis acquírat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Communio",
+            "texte": "!Matt 26:42\nPater, si non potest hic calix transíre, nisi bibam illum: fiat volúntas tua.",
+            "incipit": "Pater, si non",
+            "mp3": "communion_pater-si-non.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad6-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Per hujus, Dómine, operatiónem mystérii: et vitia nostra purgéntur, et justa desidéria compleántur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 21:20 et 22.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.\n!Ps 21:2\nDeus, Deus meus, réspice in me: quare me dereliquísti? longe a salúte mea verba delictórum meórum.\nv. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leónis, et a córnibus unicórnium humilitátem meam.",
+            "incipit": "Dómine, ne longe",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui humáno géneri, ad imitándum humilitátis exémplum, Salvatórem nostrum carnem súmere et crucem subíre fecísti: concéde propítius; ut et patiéntiæ ipsíus habére documénta et resurrectiónis consórtia mereámur.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 72:24 et 1-3\nTenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.\nV. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nDeus, Deus meus, réspice in me: quare me dereliquísti?\nV. Longe a salúte mea verba delictórum meórum.\nV. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.\nV. Tu autem in sancto hábitas, laus Israël.\nV. In te speravérunt patres nostri: speravérunt, et liberásti eos.\nV. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confúsi.\nV. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.\nV. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.\nV. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.\nV. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\nV. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.\nV. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.\nV. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus.\nV. Pópulo, qui nascétur, quem fecit Dóminus.",
+            "incipit": "Tenuísti manum déxteram",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 72:24 et 1-3\nTenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.\nV. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nDeus, Deus meus, réspice in me: quare me dereliquísti?\nV. Longe a salúte mea verba delictórum meórum.\nV. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.\nV. Tu autem in sancto hábitas, laus Israël.\nV. In te speravérunt patres nostri: speravérunt, et liberásti eos.\nV. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confúsi.\nV. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.\nV. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.\nV. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.\nV. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\nV. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.\nV. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.\nV. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus.\nV. Pópulo, qui nascétur, quem fecit Dóminus.",
+            "incipit": "Tenuísti manum déxteram",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Evangelium",
+            "texte": "_\nv.~\nPássio Dómini nostri Jesu Christi secúndum Matthǽum.\n!Matt 26:36-75; 27:1-60.\n_\nv.~\nPássio Dómini nostri Jesu Christi secúndum Matthǽum.\n!Matt 26:36-75; 27:1-60.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad6-0r.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Evangelium",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad6-0r.txt",
+                    "section": "Evangelium1",
+                    "resolu": true,
+                    "sous_references": null
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad6-0.txt",
+                    "section": "Evangelium3",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad6-0r.txt",
+                "section": "Evangelium1",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad6-0.txt",
+                "section": "Evangelium3",
+                "resolu": false
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 68:21-22\nImpropérium exspectávit cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni: et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
+            "incipit": "Impropérium exspectávit cor",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Secreta",
+            "texte": "Concéde, quǽsumus, Dómine: ut óculis tuæ majestátis munus oblátum, et grátiam nobis devotiónis obtíneat, et efféctum beátæ perennitátis acquírat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Communio",
+            "texte": "!Matt 26:42\nPater, si non potest hic calix transíre, nisi bibam illum: fiat volúntas tua.",
+            "incipit": "Pater, si non",
+            "mp3": "communion_pater-si-non.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad6-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Per hujus, Dómine, operatiónem mystérii: et vitia nostra purgéntur, et justa desidéria compleántur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 72:24 et 1-3\nTenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.\nV. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nDeus, Deus meus, réspice in me: quare me dereliquísti?\nV. Longe a salúte mea verba delictórum meórum.\nV. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.\nV. Tu autem in sancto hábitas, laus Israël.\nV. In te speravérunt patres nostri: speravérunt, et liberásti eos.\nV. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confúsi.\nV. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.\nV. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.\nV. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.\nV. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\nV. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.\nV. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.\nV. Annuntiábitur Dómino generátio ventúra: et annuntiábunt cœli justítiam ejus.\nV. Pópulo, qui nascétur, quem fecit Dóminus.",
-        "Francais": "!Ps 72:24 et 1-3\nMon Dieu, vous m’avez pris la main droite ; vous m’avez conduit selon votre volonté et vous m’avez glorifié.\nV. Qu’il est bon, le Dieu d’Israël, pour tous ceux qui ont le cœur droit. J’étais sur le point de fléchir, mon pied a presque glissé, car je portais envie aux impies en voyant le bonheur de ces méchants.\n_\n!Tractus 21:2-9, 18, 19, 22, 24, 32\nMon Dieu, mon Dieu, tournez vers moi votre regard, pourquoi m’avez-vous abandonné ?\nV. La voix de mes péchés éloigne de moi le salut.\nV. Mon Dieu, je crie pendant le jour et vous ne m’écoutez pas ; la nuit, et je n’obtiens pas de soulagement.\nV. Pourtant vous habitez dans votre sanctuaire et vers vous montent les louanges d’Israël.\nV. Nos pères ont espéré en vous et vous les avez délivrés.\nV. Ils ont mis en vous leur confiance et ils n’ont pas été trompés.\nV. Mais moi, je suis un ver de terre et non un homme, l’opprobre des hommes et le rebut du peuple.\nV. Tous ceux qui me voient me méprisent. Ils ouvrent les lèvres et branlent la tête, en disant\nV. « Il a mis sa confiance dans le Seigneur, qu’il le sauve, puisqu’il l’aime. »\nV. Ils m’observent et me regardent. Ils se partagent mes vêtements, ils tirent au sort ma tunique.\nV. « Seigneur, délivrez-moi de la gueule du lion et des cornes des buffles. »\nV. Vous qui craignez le Seigneur, louez-le, vous tous, descendants de Jacob, chantez ses louanges.\nV. On parlera du Seigneur à la génération future. Ils viendront et ils annonceront ce qu’il a accompli.\nV. Au peuple qui naîtra, ils diront ce qu’il a fait."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@:Evangelium1\n@:Evangelium2\n@:Evangelium3\n@:Evangelium4"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 68:21-22.\nImpropérium exspectávit cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni: et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
-        "Francais": "!Ps 68:21-22.\nMon cœur est dans l’attente des humiliations et des souffrances. Je cherche quelqu’un qui s’attriste avec moi, mais en vain ; un consolateur, et je n’en trouve pas. Pour nourriture, ils me donnent du fiel ; et dans ma soif, ils m’abreuvent de vinaigre."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 26:42.\nPater, si non potest hic calix transíre, nisi bibam illum: fiat volúntas tua.",
-        "Francais": "!Matt 26:42.\nPère, si ce calice de souffrances ne peut passer sans que je le boive, que votre volonté soit faite."
-      },
-      "audios": "Graduale Project/communion_pater-si-non.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad6-0r.txt",
+        "Latin/Tempora/Quad6-0r.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

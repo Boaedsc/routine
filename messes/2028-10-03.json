@@ -1,70 +1,210 @@
 {
   "date": "2028-10-03",
-  "celebration": {
-    "nom": "Sainte Thérèse de l'Enfant-Jésus",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/10-03",
-    "Tempora/Pent17-2"
-  ],
-  "cles_jour": [
-    "10-03",
-    "Pent17-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent17",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Cant 4:8-9.\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)\n!Ps 112:1\nLaudáte, púeri, Dóminum: laudáte nomen Dómini.\n&Gloria\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)",
-        "Francais": "!Cant 4:8-9.\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur.\n!Ps 112:1\nLouez le Seigneur, enfants, louez le nom du Seigneur.&Gloria\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur."
+      "occurrence": {
+        "gagnant": "Sancti/10-03",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-03.txt",
+        "temporal": "Latin/Tempora/Pent17-2.txt",
+        "sanctoral": "Latin/Sancti/10-03.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 66:12-14\nVoici ce que dit le Seigneur : Je dirigerai vers elle la paix comme un fleuve, et la gloire des nations comme un torrent qui déborde. Vous serez comme des nourrissons que l’on porte sur son bras, que l’on caresse sur ses genoux. De même qu’une mère console son enfant, moi-même je vous consolerai, dans Jérusalem vous serez consolés. Vous le verrez, et votre coeur se réjouira ; vos membres, comme l’herbe nouvelle, seront rajeunis. Et le Seigneur fera connaître sa puissance à ses serviteurs."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Introitus",
+            "texte": "!Cant 4:8-9.\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)\n!Ps 112:1\nLaudáte, púeri, Dóminum: laudáte nomen Dómini.\n&Gloria\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)",
+            "incipit": "Veni de Líbano,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Oratio",
+            "texte": "Dómine, qui dixísti: Nisi efficiámini sicut párvuli, non intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia sectári, ut præmia consequámur ætérna.\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 66:12-14\nHæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium pacis, et quasi torréntem inundántem glóriam géntium, quam sugétis: ad úbera portabímini, et super génua blandiéntur vobis. Quómodo si cui mater blandiátur, ita ego consolábor vos, et in Jerúsalem consolabímini. Vidébitis, et gaudébit cor vestrum, et ossa vestra quasi herba germinábunt, et cognoscétur manus Dómini servis ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Graduale",
+            "texte": "!Matt 11:25\nConfíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus, et prudéntibus, et revelásti ea párvulis.\n!Ps 70:5\nDómine, spes mea a juventúte mea.\nAllelúja, allelúja.\n!Ps 39:17-19\nQuasi rosa plantáta super rivos aquárum fructificate: quasi Libanus odórem suavitátis habete: florete, flores, quasi lílium, et date odórem, et frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus suis. Allelúja.",
+            "incipit": "Confíteor tibi, Pater,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Tractus",
+            "texte": "!Cant 2:11-12\nJam hiems tránsiit, imber ábiit, et recéssit.\nV. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra.\n!Jer 31:3\nIn caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.",
+            "incipit": "Jam hiems tránsiit,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-4\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et advocans Jesus párvulum, státuit eum in médio eórum, et dixit; Amen, dico vobis, nisi convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlorum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:46-49\nMagníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi magna qui potens est. (Allelúja, allelúja.)",
+            "incipit": "Magníficat ánima mea",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur, ejus méritis efficiátur accéptum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Communio",
+            "texte": "!Deut 32:10-12\nCircumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque portávit in húmeris suis. Dóminus solus dux ejus fuit. (Allelúja, allelúja.)",
+            "incipit": "Circumdúxit eam, et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-03.txt",
+            "section": "Postcommunio",
+            "texte": "Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam devóvit.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Introitus",
+            "texte": "!Cant 4:8-9.\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)\n!Ps 112:1\nLaudáte, púeri, Dóminum: laudáte nomen Dómini.\n&Gloria\nv. Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum, soror mea sponsa, vulnerásti cor meum. (Allelúja, allelúja.)",
+            "incipit": "Veni de Líbano,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Oratio",
+            "texte": "Dómine, qui dixísti: Nisi efficiámini sicut párvuli, non intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia sectári, ut præmia consequámur ætérna.\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 66:12-14\nHæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium pacis, et quasi torréntem inundántem glóriam géntium, quam sugétis: ad úbera portabímini, et super génua blandiéntur vobis. Quómodo si cui mater blandiátur, ita ego consolábor vos, et in Jerúsalem consolabímini. Vidébitis, et gaudébit cor vestrum, et ossa vestra quasi herba germinábunt, et cognoscétur manus Dómini servis ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Graduale",
+            "texte": "!Matt 11:25\nConfíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus, et prudéntibus, et revelásti ea párvulis.\n!Ps 70:5\nDómine, spes mea a juventúte mea.\nAllelúja, allelúja.\n!Ps 39:17-19\nQuasi rosa plantáta super rivos aquárum fructificate: quasi Libanus odórem suavitátis habete: florete, flores, quasi lílium, et date odórem, et frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus suis. Allelúja.",
+            "incipit": "Confíteor tibi, Pater,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Tractus",
+            "texte": "!Cant 2:11-12\nJam hiems tránsiit, imber ábiit, et recéssit.\nV. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra.\n!Jer 31:3\nIn caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.",
+            "incipit": "Jam hiems tránsiit,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-4\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et advocans Jesus párvulum, státuit eum in médio eórum, et dixit; Amen, dico vobis, nisi convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlorum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:46-49\nMagníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi magna qui potens est. (Allelúja, allelúja.)",
+            "incipit": "Magníficat ánima mea",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur, ejus méritis efficiátur accéptum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Communio",
+            "texte": "!Deut 32:10-12\nCircumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque portávit in húmeris suis. Dóminus solus dux ejus fuit. (Allelúja, allelúja.)",
+            "incipit": "Circumdúxit eam, et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-03.txt",
+            "section": "Postcommunio",
+            "texte": "Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam devóvit.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Matt 11:25\nConfíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus, et prudéntibus, et revelásti ea párvulis.\n!Ps 70:5\nDómine, spes mea a juventúte mea. \nAllelúja, allelúja.\n!Ps 39:17-19\nQuasi rosa plantáta super rivos aquárum fructificate: quasi Libanus odórem suavitátis habete: florete, flores, quasi lílium, et date odórem, et frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus suis. Allelúja.",
-        "Francais": "!Matt 11:25\nJe vous bénis, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents de ce monde et les avez révélées aux petits.\n!Ps 70:5\nSeigneur, dès mon enfance, j’ai espéré en vous. Alléluia, alléluia.\n!Ps 39:17-19\nCroissez comme la rose plantée sur les bords des eaux : comme le Liban répandez votre parfum suave : semblable au lys, faites éclore vos fleurs et exhalez vos parfums, parez-vous de beauté, chantez un cantique et louez le Seigneur pour la grandeur de ses œuvres. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-4\nEn ce temps-là, les disciples s’approchèrent de Jésus et lui dirent : « Qui donc est le plus grand dans le Royaume des cieux ? » Alors Jésus appela un petit enfant ; il le plaça au milieu d’eux, et il déclara : « Amen, je vous le dis : si vous ne changez pas pour devenir comme les petits enfants, vous n’entrerez point dans le Royaume des cieux. Mais celui qui se fera petit comme cet enfant, c’est celui-là qui est le plus grand dans le Royaume des cieux. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Luc 1:46-49\nMagníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi magna qui potens est. (Allelúja, allelúja.)",
-        "Francais": "!Luc 1:46-49\nMon âme exalte le Seigneur et mon esprit exulte en Dieu mon Sauveur : car il a jeté les yeux sur son humble servante, il a fait en moi de grandes choses."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Deut 32:10-12\nCircumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque portávit in húmeris suis. Dóminus solus dux ejus fuit. (Allelúja, allelúja.)",
-        "Francais": "!Deut 32:10-12\nIl l’a entouré et a pris soin d’elle : il l’a gardée comme la prunelle de ses yeux. Comme l’aigle il a déployé ses ailes, l’a enlevée et emportée sur ses épaules. Le Seigneur seul fut son guide."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/10-03.txt",
+        "Latin/Sancti/10-03.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

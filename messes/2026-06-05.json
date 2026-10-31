@@ -1,70 +1,226 @@
 {
   "date": "2026-06-05",
-  "celebration": {
-    "nom": "Saint Boniface",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-05",
-    "Tempora/Pent01-5"
-  ],
-  "cles_jour": [
-    "06-05",
-    "Pent01-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent01",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Is 65:19; 65:23\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Ps 43:2\nDeus, áuribus nostris audívimus: patres nostri narravérunt opus, quod operátus es in diébus eórum.\n&Gloria\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.",
-        "Francais": "!Is 65:19; 65:23\nv. Je mettrai mon allégresse dans Jérusalem et ma joie dans mon peuple : et on n’entendra plus le bruit des pleurs ni le bruit des cris. Mes élus ne travailleront point en vain, et ils n’engendreront point pour le trouble ; car ils seront une race bénie du Seigneur, et leurs petits-enfants seront avec eux.\n!Ps 43:2\nÔ Dieu, nous avons entendu de nos oreilles ; nos pères nous ont annoncé l’œuvre que vous avez faite en leurs jours.\n&Gloria\nv. Je mettrai mon allégresse dans Jérusalem et ma joie dans mon peuple : et on n’entendra plus le bruit des pleurs ni le bruit des cris. Mes élus ne travailleront point en vain, et ils n’engendreront point pour le trouble ; car ils seront une race bénie du Seigneur, et leurs petits-enfants seront avec eux."
+      "occurrence": {
+        "gagnant": "Sancti/06-05",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-05.txt",
+        "temporal": "Latin/Tempora/Pent01-5.txt",
+        "sanctoral": "Latin/Sancti/06-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 44:1-15\nLouons ces hommes illustres, nos pères dont nous sommes la race. Le Seigneur a opéré beaucoup de merveilles, et signalé sa puissance dès le commencement. Ils ont dominé dans leurs États ; ils ont été des hommes grands en puissance et doués de prudence ; les prédictions qu’ils ont annoncées leur ont acquis la dignité de prophètes ; ils ont commandé au peuple de leur temps, et les nations ont reçu de la solidité de leur sagesse des paroles toutes saintes ; ils ont inventé par leur habileté des accords harmonieux, et ils ont publié les cantiques des Écritures ; ils ont été riches en vertu, ils ont eu le goût de la beauté, et ils ont établi la paix dans leurs maisons. Ils ont tous acquis la gloire parmi les générations de leur peuple, et de leur temps ils ont été loués. Ceux qui sont nés d’eux ont laissé un nom qui fait publier leur louange. Il en est d’autres dont on a perdu le souvenir ; ils ont péri comme s’ils n’avaient jamais existé ; ils sont nés comme s’ils n’étaient jamais nés, eux et leurs enfants. Quant aux premiers, ce sont des hommes de miséricorde, dont les œuvres de piété subsistent à jamais. Les biens qu’ils ont laissés demeurent à leur postérité ; leurs descendants sont un saint héritage, et leur race demeurée fidèle à l’alliance ; à cause d’eux, leurs fils subsistent éternellement, et ni leur race ni leur gloire n’aura de fin. Leurs corps ont été ensevelis en paix, et leur nom vivra de génération en génération. Que les peuples racontent leur sagesse, et que l’assemblée publie leurs louanges."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Introitus",
+            "texte": "!Is 65:19; 65:23\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Ps 43:2\nDeus, áuribus nostris audívimus: patres nostri narravérunt opus, quod operátus es in diébus eórum.\n&Gloria\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.",
+            "incipit": "Exsultábo in Jerúsalem",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui multitúdinem populórum, beáti Bonifátii Mártyris tui atque Pontíficis zelo, ad agnitiónem tui nóminis vocáre dignátus es: concéde propítius; ut, cujus sollémnia cólimus, étiam patrocínia sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:1-15\nLaudémus viros gloriósos et paréntes nostros in generatióne sua. Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in potestátibus suis, hómines magni virtúte et prudéntia sua præditi, nuntiántes in prophétis dignitátem prophetárum, et imperántes in præsénti pópulo, et virtúte prudéntiæ pópulis sanctíssima verba. In perítia sua requiréntes modos músicos, et narrántes cármina scripturárum. Hómines dívites in virtúte, pulchritúdinis stúdium habéntes: pacificántes in dómibus suis. Omnes isti in generatiónibus gentis suæ glóriam adépti sunt, et in diébus suis habéntur in láudibus. Qui de illis nati sunt, reliquérunt nomen narrándi laudes eórum. Et sunt, quorum non est memória: periérunt, quasi qui non fúerint: et nati sunt, quasi non nati, et fílii ipsórum cum ipsis. Sed illi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-12.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Graduale",
+            "texte": "!1 Pet 4:13-14\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes.\nV. Si exprobrámini in nómine Christi, beáti éritis: quóniam, quod est honóris, glóriæ et virtútis Dei, et qui est ejus Spíritus, super vos requiéscet. Allelúja, allelúja.\n!Is 66:12\nDeclinábo super eum quasi flúvium pacis, et quasi torréntem inundántem glóriam. Allelúja.",
+            "incipit": "Communicántes Christi passiónibus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Invéni David servum",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:1-12\nIn illo témpore: Videns Jesus turbas, ascéndit in montem, et cum sedísset, accessérunt ad eum discípuli ejus, et apériens os suum, docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsórum est regnum cœlórum. ¶ Beáti mites: quóniam ipsi possidébunt terram. Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi misericórdiam consequántur. Beáti mundo corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter justítiam: quóniam ipsórum est regnum cœlórum. Beáti estis, cum maledíxerint vobis et persecúti vos fúerint, et díxerint omne malum advérsum vos, mentiéntes, propter me: gaudete et exsultáte, quóniam merces vestra copiósa est in cœlis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7; 15:8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper, quóniam a dextris est mihi ne commóvear. (Allelúja.)",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Secreta",
+            "texte": "Super has hóstias, Dómine, quǽsumus, benedíctio copiósa descéndat: quæ et sanctificatiónem nostram misericórditer operátur; et de sancti Bonifátii Mártyris tui atque Pontíficis fáciat sollemnitáte gaudére.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Communio",
+            "texte": "!Apoc 3:21\nQui vícerit, dabo ei sedére mecum in throno meo: sicut et ego vici et sedi cum Patre meo in throno ejus. (Allelúja.)",
+            "incipit": "Qui vícerit, dabo",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-05.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis sancti Bonifátii Mártyris tui atque Pontíficis pia non desit orátio, cujus nos donásti patrocínio gubernári.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Introitus",
+            "texte": "!Is 65:19; 65:23\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Ps 43:2\nDeus, áuribus nostris audívimus: patres nostri narravérunt opus, quod operátus es in diébus eórum.\n&Gloria\nv. Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt frustra neque generábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.",
+            "incipit": "Exsultábo in Jerúsalem",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui multitúdinem populórum, beáti Bonifátii Mártyris tui atque Pontíficis zelo, ad agnitiónem tui nóminis vocáre dignátus es: concéde propítius; ut, cujus sollémnia cólimus, étiam patrocínia sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:1-15.\nFaisons l’éloge de ces hommes illustres que sont les fondateurs de notre famille. En eux, le Seigneur a fait une œuvre éclatante : dès l’origine il a manifesté par eux sa magnificence. Ce furent de vrais chefs dans l’exercice de leur responsabilité. Leur force et leur sagesse leur donnaient une grande autorité. Doués d’une clairvoyance prophétique, ils se montrèrent pour le peuple des guides à la décision ferme et à la doctrine très sûre. Ils ont composé de belles mélodies pour faire chanter les psaumes. Riches en vertu, ayant le goût de la beauté, ils ont fait régner la paix dans leurs maisons. Ils firent tous l’admiration de leurs contemporains, furent pour leur époque un sujet de fierté, et laissèrent un grand nom aux fils qui leur sont nés. Tant d’hommes sont oubliés, qui sont passés comme s’ils n’avaient jamais existé, qui ont vécu comme s’ils n’étaient pas nés, et leurs descendants avec eux ! Mais nos pères, étaient des hommes si pleins de charité que leurs vertus ne pouvaient être oubliées. Leur bonheur reste attaché à leur descendance ; un saint héritage est confié à leurs enfants, qui gardent fidèlement leur testament. Et voilà pourquoi cette famille ne disparaît pas, et sa gloire ne s’éteint pas. Leurs restes reposent en paix ; et leur souvenir survit de génération en génération. Les peuples continuent de célébrer leur sagesse, et l’Église de publier leur éloge.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-12.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Graduale",
+            "texte": "!1 Pet 4:13-14\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes.\nV. Si exprobrámini in nómine Christi, beáti éritis: quóniam, quod est honóris, glóriæ et virtútis Dei, et qui est ejus Spíritus, super vos requiéscet. Allelúja, allelúja.\n!Is 66:12\nDeclinábo super eum quasi flúvium pacis, et quasi torréntem inundántem glóriam. Allelúja.",
+            "incipit": "Communicántes Christi passiónibus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n!Ps 20:3-4.\nVous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:1-12\nIn illo témpore: Videns Jesus turbas, ascéndit in montem, et cum sedísset, accessérunt ad eum discípuli ejus, et apériens os suum, docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsórum est regnum cœlórum. ¶ Beáti mites: quóniam ipsi possidébunt terram. Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi misericórdiam consequántur. Beáti mundo corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter justítiam: quóniam ipsórum est regnum cœlórum. Beáti estis, cum maledíxerint vobis et persecúti vos fúerint, et díxerint omne malum advérsum vos, mentiéntes, propter me: gaudete et exsultáte, quóniam merces vestra copiósa est in cœlis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7; 15:8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper, quóniam a dextris est mihi ne commóvear. (Allelúja.)",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Secreta",
+            "texte": "Super has hóstias, Dómine, quǽsumus, benedíctio copiósa descéndat: quæ et sanctificatiónem nostram misericórditer operátur; et de sancti Bonifátii Mártyris tui atque Pontíficis fáciat sollemnitáte gaudére.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Communio",
+            "texte": "!Apoc 3:21\nQui vícerit, dabo ei sedére mecum in throno meo: sicut et ego vici et sedi cum Patre meo in throno ejus. (Allelúja.)",
+            "incipit": "Qui vícerit, dabo",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-05.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis sancti Bonifátii Mártyris tui atque Pontíficis pia non desit orátio, cujus nos donásti patrocínio gubernári.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!1 Pet 4:13-14\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes.\nV. Si exprobrámini in nómine Christi, beáti éritis: quóniam, quod est honóris, glóriæ et virtútis Dei, et qui est ejus Spíritus, super vos requiéscet. Allelúja, allelúja.\n!Is 66:12\nDeclinábo super eum quasi flúvium pacis, et quasi torréntem inundántem glóriam. Allelúja.",
-        "Francais": "!1 Pet 4:13-14\nParce que vous participez aux souffrances du Christ, réjouissez-vous, afin que, lorsque sa gloire sera manifestée, vous soyez aussi dans la joie et l’allégresse.\nV. Si vous recevez des injures pour le nom du Christ, vous êtes bienheureux parce que l’honneur, la gloire et la puissance de Dieu, ainsi que l’Esprit de Dieu reposent sur vous. Alléluia, alléluia.\n!Is 66:12\nJe ferai couler sur elle comme un fleuve de paix et la gloire comme un torrent qui déborde. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 5:1-12\nEn ce temps-là : Jésus, voyant les foules, monta sur la montagne, et lorsqu’il se fut assis, ses disciples s’approchèrent de lui. Alors, prenant la parole, il se mit à les enseigner, en disant : « Heureux les pauvres en esprit, car le royaume des cieux est à eux ! Heureux ceux qui sont affligés, car ils seront consolés ! Heureux ceux qui sont doux, car ils posséderont la terre ! Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés ! Heureux les miséricordieux, car ils obtiendront miséricorde ! Heureux ceux qui ont le cœur pur, car ils verront Dieu ! Heureux les pacifiques, car ils seront appelés enfants de Dieu ! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux ! Heureux serez-vous, lorsqu’on vous insultera, qu’on vous persécutera, et qu’on dira faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous et soyez dans l’allégresse, parce que votre récompense est grande dans les cieux."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 15:7; 15:8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in conspéctu meo semper, quóniam a dextris est mihi ne commóvear. (Allelúja.)",
-        "Francais": "!Ps 15:7; 15:8\nJe bénirai le Seigneur, qui m’a donné l’intelligence : je prenais soin d’avoir toujours le Seigneur devant mes yeux ; car il est à ma droite, pour que je ne sois pas ébranlé. (Alléluia.)"
-      },
-      "audios": "Graduale Project/offertoire_benedicam-dominum.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Apoc 3:21\nQui vícerit, dabo ei sedére mecum in throno meo: sicut et ego vici et sedi cum Patre meo in throno ejus. (Allelúja.)",
-        "Francais": "!Apoc 3:21\nCelui qui vaincra, je le ferai asseoir avec moi sur mon trône, de même que moi aussi j’ai vaincu et me suis assis avec mon Père sur son trône. (Alléluia.)"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2.txt",
+        "../horas/Latin/Commune/C2.txt",
+        "Francais/Sancti/06-05.txt",
+        "Latin/Sancti/06-05.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

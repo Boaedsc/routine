@@ -1,70 +1,280 @@
 {
   "date": "2027-01-13",
-  "celebration": {
-    "nom": "Commémoration du Baptême du Seigneur",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-13",
-    "Tempora/Epi2-3"
-  ],
-  "cles_jour": [
-    "01-13",
-    "Epi2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi1",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Sancti/01-06",
-        "Francais": "!Malach 3:1; 3:1; Par 29:12\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.\n!Ps 71:1\nÔ Dieu, donnez au roi votre jugement et au fils du roi votre justice.\n&Gloria\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire."
+      "occurrence": {
+        "gagnant": "Sancti/01-13",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-13.txt",
+        "temporal": "Latin/Tempora/Epi1-3.txt",
+        "sanctoral": "Latin/Sancti/01-13.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 60:1-6\nLève-toi, et resplendis, Jérusalem ! Car ta lumière paraît, et la gloire du Seigneur s’est levée sur toi. Voici que les ténèbres couvrent la terre, et une sombre obscurité les peuples ; mais sur toi le Seigneur se lève, et sa gloire se manifeste sur toi. Les nations marchent vers ta lumière, et les rois vers la clarté de ton lever. Lève tes regards autour de toi, et vois : Tous se rassemblent, ils viennent à toi ; tes fils viennent de loin, et tes filles sont portées sur les bras. Tu le verras alors, et tu seras radieuse ; ton cœur tressaillira et se dilatera ; car les richesses de la mer se dirigeront vers toi, les trésors des nations viendront à toi. Des multitudes de chameaux te couvriront, les dromadaires de Madian et d’Epha ; tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Introitus",
+            "texte": "!Malach 3:1; 1 Par 29:12\nv. Ecce, advénit dominátor Dóminus: et regnum in manu ejus et potéstas et impérium.\n!Ps 71:1\nDeus, judícium tuum Regi da: et justítiam tuam Fílio Regis.\n&Gloria\nv. Ecce, advénit dominátor Dóminus: et regnum in manu ejus et potéstas et impérium.",
+            "incipit": "Ecce, advénit dominátor",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 60:1-6\nSurge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce, ténebræ opérient terram et calígo pópulos: super te autem oriétur Dóminus, et glória ejus in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te, dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Graduale",
+            "texte": "!Isa 60:6; 60:1\nOmnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.\nV. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est. Allelúja, allelúja\n!Matt 2:2.\nVídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.",
+            "incipit": "Omnes de Saba",
+            "mp3": "graduel_omnes-de-saba.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 1:29-34\nIn illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi: Post me venit vir, qui ante me factus est: quia prior me erat. Et ego nesciébam eum, sed ut manifestétur in Israël, proptérea veni ego in aqua baptízans. Et testimónium perhíbuit Joánnes, dicens: Quia vidi Spíritum descendéntem quasi colúmbam de coelo, et mansit super eum. Et ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem, et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et testimónium perhíbui, quia hic est Fílius Dei.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 71:10-11\nReges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes sérvient ei.",
+            "incipit": "Reges Tharsis, et",
+            "mp3": "offertoire_reges-tharsis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster:\n$Qui tecum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Communio",
+            "texte": "!Matt 2:2\nVídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum.",
+            "incipit": "Vídimus stellam ejus",
+            "mp3": "communion_vidimus-stellam.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-13.txt",
+            "section": "Postcommunio",
+            "texte": "Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos præveni: ut mystérium, cujus nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus affectu.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Introitus",
+            "texte": "!Malach 3:1; 1 Par 29:12\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.\n!Ps 71:1\nÔ Dieu, donnez au roi votre jugement et au fils du roi votre justice.\n&Gloria\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.",
+            "incipit": "Voilà que vient",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-06.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 60:1-6\nLève-toi, et resplendis, Jérusalem ! Car ta lumière paraît, et la gloire du Seigneur s’est levée sur toi. Voici que les ténèbres couvrent la terre, et une sombre obscurité les peuples ; mais sur toi le Seigneur se lève, et sa gloire se manifeste sur toi. Les nations marchent vers ta lumière, et les rois vers la clarté de ton lever. Lève tes regards autour de toi, et vois : Tous se rassemblent, ils viennent à toi ; tes fils viennent de loin, et tes filles sont portées sur les bras. Tu le verras alors, et tu seras radieuse ; ton cœur tressaillira et se dilatera ; car les richesses de la mer se dirigeront vers toi, les trésors des nations viendront à toi. Des multitudes de chameaux te couvriront, les dromadaires de Madian et d’Epha ; tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-06.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Graduale",
+            "texte": "!Isa 60:6; 60:1\nTous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.\nV. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi.\nAllelúja, allelúja\n!Matt 2:2.\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.\nAllelúja.",
+            "incipit": "Tous ceux de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-06.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 1:29-34\nIn illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi: Post me venit vir, qui ante me factus est: quia prior me erat. Et ego nesciébam eum, sed ut manifestétur in Israël, proptérea veni ego in aqua baptízans. Et testimónium perhíbuit Joánnes, dicens: Quia vidi Spíritum descendéntem quasi colúmbam de coelo, et mansit super eum. Et ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem, et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et testimónium perhíbui, quia hic est Fílius Dei.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 71:10-11\nLes rois de Tharsis et les îles lui offriront des présents, les rois d’Arabie et de Saba apporteront des dons et tous les rois de la terre l’adoreront, toutes les nations le serviront.",
+            "incipit": "Les rois de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-06.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster:\n$Qui tecum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Communio",
+            "texte": "!Matt 2:2\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.",
+            "incipit": "Nous avons vu",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-06.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-13.txt",
+            "section": "Postcommunio",
+            "texte": "Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos præveni: ut mystérium, cujus nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus affectu.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Sancti/01-06",
-        "Francais": "!Isa 60:6; 60:11 \nTous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.\nV. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi.\nAllelúja, allelúja\n!Matt 2:2.\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.\nAllelúja."
-      },
-      "audios": "Graduale Project/graduel_omnes-de-saba.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 1:29-34\nEn ce temps là : Jean vit Jésus qui venait à lui, et il dit : voici l’Agneau de Dieu, voici celui qui enlève le péché du monde. C’est celui dont j’ai dit : Après moi vient un homme qui a été placé au dessus de moi, parce qu’il était avant moi. Et moi, je ne le connaissais pas ; mais c’est pour qu’il soit manifesté en Israël que je suis venu baptiser dans l’eau. Et Jean rendit témoignage en disant : J’ai vu l’esprit descendre du ciel comme une colombe, et se reposer sur lui. Et moi, je ne le connaissais pas ; mais celui qui m’a envoyé baptiser dans l’eau m’a dit : Celui sur qui tu verras l’esprit descendre et se reposer, c’est celui qui baptise dans l’Esprit-Saint. Et j’ai vu, et j’ai rendu témoignage qu’il est le fils de Dieu."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/01-06",
-        "Francais": "!Ps 71:10-11\nLes rois de Tharsis et les îles lui offriront des présents, les rois d’Arabie et de Saba apporteront des dons et tous les rois de la terre l’adoreront, toutes les nations le serviront."
-      },
-      "audios": "Graduale Project/offertoire_reges-tharsis.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Sancti/01-06",
-        "Francais": "!Matt 2:2\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur."
-      },
-      "audios": "Graduale Project/communion_vidimus-stellam.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/01-13.txt",
+        "Latin/Sancti/01-13.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

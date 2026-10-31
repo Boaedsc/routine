@@ -1,70 +1,280 @@
 {
   "date": "2026-12-29",
-  "celebration": {
-    "nom": "Saint Thomas de Cantorbéry",
-    "classe": 3,
-    "note": "(temporal : Mardi dans l'octave de Noël)"
-  },
-  "fichiers": [
-    "Sancti/12-29",
-    "Tempora/Nat29"
-  ],
-  "cles_jour": [
-    "12-29",
-    "Nat29"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat29",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Thomæ Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 32:1.\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Thomæ Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
-        "Francais": "! \nv. Réjouissons-nous tous dans le Seigneur, en célébrant ce jour de fête en l’honneur du bienheureux Martyr Thomas. Les Anges se réjouissent de sa passion et ils en rendent gloireau Fils de Dieu.\n!Ps 32:1.\nJustes, réjouissez-vous dans le Seigneur ; c’est aux hommes droits que sied la louange.\n&Gloria\nv. Réjouissons-nous tous dans le Seigneur, en célébrant ce jour de fête en l’honneur du bienheureux Martyr Thomas. Les Anges se réjouissent de sa passion et ils en rendent gloireau Fils de Dieu."
+      "occurrence": {
+        "gagnant": "Tempora/Nat29",
+        "nom_sanctoral": "Die quinta infra octavam Nativitatis",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Nat29.txt",
+        "temporal": "Latin/Tempora/Nat29.txt",
+        "sanctoral": "Latin/Sancti/12-29.txt",
+        "calendrier": "12-29",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 5:1-6\nMes frères : Tout pontife pris d’entre les hommes est établi pour les hommes, en ce qui regarde le culte de Dieu, afin qu’il offre des dons et des sacrifices pour les péchés ; il peut compatir à ceux qui sont dans l’ignorance et dans l’erreur, puisqu’il est lui-même environné de faiblesse, et c’est pour cela qu’il doit offrir, pour lui-même, aussi bien que pour le peuple, des sacrifices pour les péchés. Et nul ne s’attribue à lui-même cet honneur ; mais on y est appelé de Dieu, comme Aaron. Et ainsi le Christ ne s’est point arrogé à lui-même la dignité de pontife, mais il l’a reçue de celui qui a dit : tu est mon Fils, je t’ai engendré aujourd’hui. Comme il est dit aussi dans un autre endroit : Tu est prêtre pour l’éternité, selon l’ordre de Melchisédech."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Introitus",
+            "texte": "!Isa 9:6\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.\n!Ps 97:1\nCantáte Dómino cánticum novum, quia mirabília fecit.\n&Gloria\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
+            "incipit": "Puer natus est",
+            "mp3": "introitus_puer-natus-est.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Oratio",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Titum\n!Tit 3:4-7\nCaríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam salvos nos fecit, per lavácrum regeneratiónis et renovatiónis Spíritus Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatórem nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. Allelúja, allelúja.\nV. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "graduel_viderunt-omnes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:15-20\nIn illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et Joseph, et Infántem pósitum in præsépio. Vidéntes autem cognovérunt de verbo, quod dictum erat illis de Púero hoc. Et omnes, qui audiérunt, miráti sunt: et de his, quæ dicta erant a pastóribus ad ipsos. María autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi sunt pastores, glorificántes et laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum est ad illos.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:12; 88:15\nTui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu fundásti: justítia et judícium præparátio sedis tuæ.",
+            "incipit": "Tui sunt cœli",
+            "mp3": "offertoire_tui-sunt-caeli.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Secreta",
+            "texte": "Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per eundem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Communio",
+            "texte": "!Ps 97:3\nVidérunt omnes fines terræ salutáre Dei nostri.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "communion_viderunt-omnes.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n$Qui tecum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Introitus",
+            "texte": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.",
+            "incipit": "Un enfant nous",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Oratio",
+            "texte": "Nous vous en prions, Dieu tout puissant, que votre Fils éternel, par sa nouvelle naissance en notre chair, vienne nous délivrer de l’ancien esclavage qui nous maintient sous le joug du péché.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Titum\n!Tit 3:4-7\nCaríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam salvos nos fecit, per lavácrum regeneratiónis et renovatiónis Spíritus Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatórem nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. Allelúja, allelúja.\nV. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "graduel_viderunt-omnes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:15-20\nIn illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et Joseph, et Infántem pósitum in præsépio. Vidéntes autem cognovérunt de verbo, quod dictum erat illis de Púero hoc. Et omnes, qui audiérunt, miráti sunt: et de his, quæ dicta erant a pastóribus ad ipsos. María autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi sunt pastores, glorificántes et laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum est ad illos.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:12; 88:15\nÀ vous sont les cieux, à vous la terre : c’est vous qui avez posé les fondations de l’univers, et créé ce qu’il renferme : votre trône repose sur le droit et la justice.",
+            "incipit": "À vous sont",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Secreta",
+            "texte": "Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per eundem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Nat29.txt",
+            "section": "Communio",
+            "texte": "!Ps 97:3\nLes extrémités de la terre ont vu le Sauveur envoyé par notre Dieu.",
+            "incipit": "Les extrémités de",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n$Qui tecum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Joann 10:14\nV. Ego sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.",
-        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui pendant les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable dans la conservation de la loi du Très Haut. Alléluia, alléluia.\n!Joann 10:14\nV. Je suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_ecce-sacerdos-magnus.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Joánnem\n!Joann 10:11-16\nEn ce temps là : Jésus dit aux pharisiens : Je suis le bon pasteur. Le bon pasteur donne sa vie pour les brebis. Mais le mercenaire, et celui qui n’est point le pasteur, à qui les brebis n’appartiennent pas, voit venir le loup et abandonne les brebis et s’enfuit ; et le loup ravit et disperse les brebis Le mercenaire s’enfuit, parce qu’il est mercenaire et qu’il ne se met point en peine des brebis. Je suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent, comme mon Père me connaît, et que je connais mon père ; et je donne ma vie pour les brebis. J’ai encore d’autres brebis, qui ne sont pas de cette bergerie ; celles-là aussi, il faut que je les amène, et elles écouteront ma vopix, et il n’y aura qu’une seule bergerie et qu’un seul pasteur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2a-1",
-        "Francais": "!Ps 20:4-5\nVous avez mis sur sa tête une couronne de pierres précieuses ; il vous a demandé la vie et vous la lui avez accordée. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Pasc2-0",
-        "Francais": "!Joann 10:14. \nJe suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent."
-      },
-      "audios": "Graduale Project/communion_ego-sum-pastor.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Nat29.txt",
+        "Latin/Tempora/Nat29.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

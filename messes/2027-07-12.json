@@ -1,67 +1,233 @@
 {
   "date": "2027-07-12",
-  "celebration": {
-    "nom": "Saint Jean Gualbert",
-    "classe": 4,
-    "note": "(temporal : Lundi de la 8e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/07-12",
-    "Tempora/Pent08-1"
-  ],
-  "cles_jour": [
-    "07-12",
-    "Pent08-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent08",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Francais": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur."
+      "occurrence": {
+        "gagnant": "Sancti/07-12",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-12.txt",
+        "temporal": "Latin/Tempora/Pent08-1.txt",
+        "sanctoral": "Latin/Sancti/07-12.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 45:1-6\nIl a été aimé de Dieu et des hommes ; sa mémoire est en bénédiction. Le Seigneur lui a donné une gloire égale à celle des saints ; il l’a rendu grand et redoutable à ses ennemis, et il a fait cesser les prodiges par ses paroles. Il l’a glorifié en présence des rois, il lui a donné ses ordres devant son peuple, et lui a montré sa gloire. Il l’a sanctifié dans sa foi et dans sa douceur, et il l’a choisi entre tous les hommes. Il l’a écouté et a entendu sa voix, et il l’a fait entrer dans la nuée. Il lui a donné ses préceptes face à face, et la loi de la vie et de la science."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos beáti N. Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut cujus natalítia cólimus, étiam actiónes imitémur.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-12.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-12.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:43-48\nIn illo témpore: Dixit Jesus discípulis suis: Audístis, quia dictum est: Diliges próximum tuum, et ódio habébis inimícum tuum. Ego autem dico vobis: Dilígite inimícos vestros, ¶  benefácite his, qui odérunt vos, et oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cœlis est: qui solem suum oriri facit super bonos et malos, et pluit super justos et injústos. Si enim dilígitis eos, qui vos díligunt, quam mercédem habébitis? nonne et publicáni hoc fáciunt? Et si salutavéritis fratres vestros tantum, quid ámplius fácitis? nonne et éthnici hoc fáciunt? Estóte ergo vos perfécti, sicut et Pater vester cœléstis perféctus est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-12.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-12.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Oratio",
+            "texte": "Ô Dieu, qui nous réjouissez chaque année par la solennité du bienheureux N., votre confesseur : puisque nous honorons sa naissance au ciel, accordez, dans votre bonté, que nous imitions aussi ses œuvres.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 45:1-6\nIl a été aimé de Dieu et des hommes ; sa mémoire est en bénédiction. Le Seigneur lui a donné une gloire égale à celle des saints ; il l’a rendu grand et redoutable à ses ennemis, et il a fait cesser les prodiges par ses paroles. Il l’a glorifié en présence des rois, il lui a donné ses ordres devant son peuple, et lui a montré sa gloire. Il l’a sanctifié dans sa foi et dans sa douceur, et il l’a choisi entre tous les hommes. Il l’a écouté et a entendu sa voix, et il l’a fait entrer dans la nuée. Il lui a donné ses préceptes face à face, et la loi de la vie et de la science.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Graduale",
+            "texte": "!Ps 20:4-5\nSeigneur, vous l’avez prévenu des plus douces bénédictions ; vous avez mis sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie, et vous lui avez accordé des jours qui dureront dans les siècles des siècles. Alléluia, alléluia.\n!Ps 91:13\nLe juste fleurira comme le palmier, et il se multipliera comme le cèdre du Liban. Alléluia.",
+            "incipit": "Seigneur, vous l’avez",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:43-48\nIn illo témpore: Dixit Jesus discípulis suis: Audístis, quia dictum est: Diliges próximum tuum, et ódio habébis inimícum tuum. Ego autem dico vobis: Dilígite inimícos vestros, ¶  benefácite his, qui odérunt vos, et oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cœlis est: qui solem suum oriri facit super bonos et malos, et pluit super justos et injústos. Si enim dilígitis eos, qui vos díligunt, quam mercédem habébitis? nonne et publicáni hoc fáciunt? Et si salutavéritis fratres vestros tantum, quid ámplius fácitis? nonne et éthnici hoc fáciunt? Estóte ergo vos perfécti, sicut et Pater vester cœléstis perféctus est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 20:3; 20:4\nVous lui avez accordé, Seigneur, le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres. Vous avez mis sur sa tête une couronne de pierres précieuses.",
+            "incipit": "Vous lui avez",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Secreta",
+            "texte": "Nous vous en supplions, Seigneur, que Saint Jean, abbé, nous obtienne que les offrandes déposées sur vos sacrés autels nous soient utiles pour notre salut.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-12.txt",
+            "section": "Postcommunio",
+            "texte": "Ô Seigneur, que le bienheureux Abbé Jean, nous protège, en intercédant pour nous en ce moment où nous avons reçu votre sacrement, afin que nous imitions les remarquables exemples de sa vie et que nous recevions les fruits de son intercession.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 20:4-5\nSeigneur, vous l’avez prévenu des plus douces bénédictions ; vous avez mis sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie, et vous lui avez accordé des jours qui dureront dans les siècles des siècles. Alléluia, alléluia.\n!Ps 91:13\nLe juste fleurira comme le palmier, et il se multipliera comme le cèdre du Liban. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 5:43-48\nEn ce temps-là : Jésus dit à ses disciples : Vous avez appris qu’il a été dit : Tu aimeras ton proche, et tu haïras ton ennemi. Et moi je vous dis : Aimez vos ennemis et priez pour ceux qui vous persécutent, afin que vous deveniez enfants de votre Père qui est dans les cieux ; car il fait lever son soleil sur les méchants et sur les bons, et descendre la pluie sur les justes et sur les injustes. Si en effet vous aimez ceux qui vous aiment, quelle récompense méritez-vous ? Les publicains eux-mêmes n’en font-ils pas autant ? Et si vous ne saluez que vos frères, que faites-vous d’extraordinaire ? Les païens eux-mêmes n’en font-ils pas autant ? Vous donc, vous serez parfaits comme votre Père céleste est parfait."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Francais": "!Ps 20:3; 20:4\nVous lui avez accordé, Seigneur, le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres. Vous avez mis sur sa tête une couronne de pierres précieuses."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/07-12.txt",
+        "Latin/Sancti/07-12.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,68 +1,238 @@
 {
   "date": "2028-03-12",
-  "celebration": {
-    "nom": "2e dimanche de Carême",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad2-0"
-  ],
-  "cles_jour": [
-    "Quad2-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 24:6; 24:3; 24:22\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.",
-        "Francais": "!Ps 24:6; 24:3; 24:22\nv. Souvenez-vous de vos bontés, Seigneur, et de votre miséricorde qui datent des siècles passés. Que nos ennemis ne triomphent jamais de nous. Dieu d’Israël, délivrez-nous de toutes nos tribulations.\n!Ps 24:1-2\nVers vous, Seigneur, j’ai élevé mon âme ; mon Dieu, je mets ma confiance en vous, que je n’aie pas à rougir.i\n&Gloria\nv. Souvenez-vous de vos bontés, Seigneur, et de votre miséricorde qui datent des siècles passés. Que nos ennemis ne triomphent jamais de nous. Dieu d’Israël, délivrez-nous de toutes nos tribulations."
+      "occurrence": {
+        "gagnant": "Tempora/Quad2-0",
+        "nom_sanctoral": "",
+        "classe": 6.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad2-0.txt",
+        "temporal": "Latin/Tempora/Quad2-0.txt",
+        "sanctoral": "Latin/Sancti/03-12.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_reminiscere.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.\n!1 Thess 4:1-7.\nMes frères, nous vous demandons et vous conjurons dans le Seigneur Jésus, qu’ayant appris de nous comment vous devez marcher et plaire à Dieu, vous marchiez ainsi, de manière à progresser de plus en plus. En effet, vous savez quels préceptes je vous ai donnés de la part du Seigneur Jésus ! Car la volonté de Dieu est que vous soyez saints ; que vous vous absteniez de la fornication ; que chacun de vous sache posséder le vase de son corps dans la sainteté et l’honnêteté, et non en suivant les convoitises de la passion, comme les païens, qui ne connaissent pas Dieu ; et que personne à cet égard ne trompe son frère, et ne lui fasse tort, parce que le Seigneur tire vengeance de toutes ces choses, comme nous l’avons déjà dit et attesté. Car Dieu ne nous a pas appelés à l’impureté, mais à la sanctification en Jésus-Christ Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:6; 24:3; 24:22\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.",
+            "incipit": "Reminíscere miseratiónum tuarum,",
+            "mp3": "introitus_reminiscere.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis omni nos virtúte destítui: intérius exteriúsque custódi; ut ab ómnibus adversitátibus muniámur in córpore, et a pravis cogitatiónibus mundémur in mente.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 4:1-7.\nFratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo, sic et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta déderim vobis Per Dominum Jesum. Hæc est enim volúntas Dei, sanctificátio vestra: ut abstineátis vos a fornicatióne, ut sciat unusquísque vestrum vas suum possidére in sanctificatióne et honóre; non in passióne desidérii, sicut et gentes, quæ ignórant Deum: et ne quis supergrediátur neque circumvéniat in negótio fratrem suum: quóniam vindex est Dóminus de his ómnibus, sicut prædíximus vobis et testificáti sumus. Non enim vocávit nos Deus in immundítiam, sed in sanctificatiónem: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 24:17-18\nTribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe me, Dómine,\nV. Vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.\n_\n!Tractus\n!Ps 105:1-4\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.\nV. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus?\nV. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore.\nV. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
+            "incipit": "Tribulatiónes cordis mei",
+            "mp3": "graduel_tribulationes-cordis-mei.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 105:1-4\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.\nV. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus?\nV. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore.\nV. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
+            "incipit": "Confitémini Dómino, quóniam",
+            "mp3": "trait_confitemini-domino.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:47; 118:48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.",
+            "incipit": "Meditábor in mandátis",
+            "mp3": "offertoire_meditabor.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quadp3-4.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 5:2-4\nIntéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.",
+            "incipit": "Intéllege clamórem meum:",
+            "mp3": "communion_intellege-clamorem-meum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad1-3.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:6; 24:3; 24:22\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos, Deus Israël, ex ómnibus angústiis nostris.",
+            "incipit": "Reminíscere miseratiónum tuarum,",
+            "mp3": "introitus_reminiscere.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis omni nos virtúte destítui: intérius exteriúsque custódi; ut ab ómnibus adversitátibus muniámur in córpore, et a pravis cogitatiónibus mundémur in mente.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 4:1-7.\nFratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo, sic et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta déderim vobis Per Dominum Jesum. Hæc est enim volúntas Dei, sanctificátio vestra: ut abstineátis vos a fornicatióne, ut sciat unusquísque vestrum vas suum possidére in sanctificatióne et honóre; non in passióne desidérii, sicut et gentes, quæ ignórant Deum: et ne quis supergrediátur neque circumvéniat in negótio fratrem suum: quóniam vindex est Dóminus de his ómnibus, sicut prædíximus vobis et testificáti sumus. Non enim vocávit nos Deus in immundítiam, sed in sanctificatiónem: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 24:17-18\nTribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe me, Dómine,\nV. Vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.\n_\n!Tractus\n!Ps 105:1-4\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.\nV. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus?\nV. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore.\nV. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
+            "incipit": "Tribulatiónes cordis mei",
+            "mp3": "graduel_tribulationes-cordis-mei.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 105:1-4\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.\nV. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus?\nV. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore.\nV. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
+            "incipit": "Confitémini Dómino, quóniam",
+            "mp3": "trait_confitemini-domino.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:47; 118:48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.",
+            "incipit": "Meditábor in mandátis",
+            "mp3": "offertoire_meditabor.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Secreta",
+            "texte": "Nous vous en supplions, Seigneur, regardez avec bienveillance le présent sacrifice pour qu’il augmente notre piété et serve à notre salut.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quadp3-4.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 5:2-4\nComprenez mon cri. Soyez attentifs à la voix de ma prière, mon roi et mon Dieu, car c’est vous que je prierai, Seigneur.",
+            "incipit": "Comprenez mon cri.",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad1-3.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 24:17-18\nTribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe me, Dómine,\nV. Vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.\n_\n!Tractus\n!Ps 105:1-4\nConfitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.\nV. Quis loquétur poténtias Dómini: audítas fáciet omnes laudes ejus?\nV. Beáti, qui custódiunt judícium et fáciunt justítiam in omni témpore.\nV. Meménto nostri, Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.",
-        "Francais": "!Ps 24:17-18\nLes tribulations de mon cœur se sont multipliées ; tirez-moi de mes angoisses.\nV. Voyez mon humiliation et ma peine et remettez-moi tous mes péchés.\n_\n!Tractus\n!Ps 105:1-4\nCélébrez le Seigneur, parce qu’il est bon et que sa miséricorde est éternelle.\nV. Qui racontera les œuvres de puissance du Seigneur ? Qui fera entendre toutes ses louanges ?\nV. Heureux ceux qui gardent l’équité et qui pratiquent la justice en tout temps.\nV. Souvenez-vous de nous, Seigneur, dans votre bienveillance pour votre peuple ; visitez-nous par votre salut."
-      },
-      "audios": "Graduale Project/graduel_tribulationes-cordis-mei.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 17:1-9\nEn ce temps-là, Jésus prit avec lui Pierre, Jacques, et Jean son frère, et les conduisit à l’écart sur une haute montagne. Et il fut transfiguré devant eux : son visage resplendit comme le soleil, et ses vêtements devinrent blancs comme la neige. Et voici que Moïse et Élie leur apparurent, s’entretenant avec lui. Alors Pierre prenant la parole, dit à Jésus : Seigneur, il nous est bon d’être ici ; si vous le voulez, faisons-y trois tentes, une pour vous, une pour Moïse, et une pour Élie. Comme il parlait encore, voici qu’une nuée lumineuse les couvrit ; et voici qu’une voix sortit de la nuée, disant : Celui-ci est mon Fils bien-aimé, en qui j’ai mis toutes mes complaisances ; écoutez-le. Les disciples, l’entendant, tombèrent le visage contre terre, et furent saisis d’une grande crainte. Mais Jésus, s’approchant, les toucha, et leur dit : Levez-vous, et ne craignez point. Alors, levant les yeux, ils ne virent plus que Jésus seul. Lorsqu’ils descendaient de la montagne, Jésus leur donna cet ordre : Ne parlez à personne de ce que vous avez vu, jusqu’à ce que le Fils de l’homme soit ressuscité d’entre les morts."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 118:47; 118:48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi.",
-        "Francais": "Je méditerai sur vos commandements, car je les aime, et je lèverai mes mains vers vos commandements que j’aime.\n!Ps 118:47; 118:48"
-      },
-      "audios": "Graduale Project/offertoire_meditabor.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Quad1-3:Communio",
-        "Francais": "Comprenez mon cri. Soyez attentif à la voix de ma prière, mon roi et mon Dieu, car c’est vous que je prierai, Seigneur.\n!Ps 5:2-4"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad2-0.txt",
+        "Latin/Tempora/Quad2-0.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,70 +1,224 @@
 {
   "date": "2027-12-24",
-  "celebration": {
-    "nom": "Vigile de Noël",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/12-24",
-    "Tempora/Adv4-5"
-  ],
-  "cles_jour": [
-    "12-24",
-    "Adv4-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv4",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Exod 16:6; 16:7\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 23:1\nDómini est terra, et plenitúdo ejus: orbis terrárum, et univérsi, qui hábitant in eo.\n&Gloria\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.",
-        "Francais": "!Exod 16:6; 16:7\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.\n!Ps 23:1\nAu Seigneur appartient la terre et tout ce qui la remplit, l’univers et tous ceux qui l’habitent.\n&Gloria\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire."
+      "occurrence": {
+        "gagnant": "Sancti/12-24",
+        "nom_sanctoral": "",
+        "classe": 6.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-24.txt",
+        "temporal": "Latin/Tempora/Adv4-5.txt",
+        "sanctoral": "Latin/Sancti/12-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_hodie-scietis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Evangile de Dieu, Evangile que Dieu avait promis auparavant par ses prophètes dans les saintes Ecritures, touchant son Fils né de la postérité de David selon la chair, et déclaré Fils de Dieu miraculeusement, selon l’Esprit de sainteté, par une résurrection d’entre les morts, Jésus-Christ Notre-Seigneur, par qui nous avons reçu la grâce et l’apostolat, pour amener en son nom à l’obéissance de la foi tous les Gentils, du nombre desquels vous êtes, vous aussi, par appel de Jésus-Christ."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Introitus",
+            "texte": "!Exod 16:6; 16:7\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 23:1\nDómini est terra, et plenitúdo ejus: orbis terrárum, et univérsi, qui hábitant in eo.\n&Gloria\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.",
+            "incipit": "Hódie sciétis, quia",
+            "mp3": "introitus_hodie-scietis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos redemptiónis nostræ ánnua exspectatióne lætíficas: præsta; ut Unigénitum tuum, quem Redemptórem læti suscípimus, veniéntem quoque Júdicem secúri videámus, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaulus, servus Jesu Christi, vocátus Apóstolus, segregátus in Evangélium Dei, quod ante promíserat per Prophétas suos in Scriptúris sanctis de Fílio suo, qui factus est ei ex sémine David secúndum carnem: qui prædestinátus est Fílius Dei in virtúte secúndum spíritum sanctificatiónis ex resurrectióne mortuórum Jesu Christi, Dómini nostri: per quem accépimus grátiam, et apostolátum ad obœdiéndum fídei in ómnibus géntibus pro nómine ejus, in quibus estis et vos vocáti Jesu Christi, Dómini nostri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Graduale",
+            "texte": "!Exod 16:6; 16:7\nHódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.",
+            "incipit": "Hódie sciétis, quia",
+            "mp3": "graduel_hodie-scietis.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:18-21\nCum esset desponsáta Mater Jesu María Joseph, ántequam convenírent, invénta est in útero habens de Spíritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam tradúcere, vóluit occúlte dimíttere eam. Hæc autem eo cogitánte, ecce, Angelus Dómini appáruit in somnis ei, dicens: Joseph, fili David, noli timére accípere Maríam cónjugem tuam: quod enim in ea natum est, de Spíritu Sancto est. Páriet autem fílium, et vocábis nomen ejus Jesum: ipse enim salvum fáciet pópulum suum a peccátis eórum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/03-19.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 23:7\nTóllite portas, principes, vestras: et elevámini, portæ æternáles, et introíbit Rex glóriæ.",
+            "incipit": "Tóllite portas, principes,",
+            "mp3": "offertoire_tollite-portas.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Secreta",
+            "texte": "Da nobis, quǽsumus, omnípotens Deus: ut, sicut adoránda Fílii tui natalítia prævenímus, sic ejus múnera capiámus sempitérna gaudéntes:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Communio",
+            "texte": "!Isa 40:5\nRevelábitur glória Dómini: et vidébit omnis caro salutáre Dei nostri.",
+            "incipit": "Revelábitur glória Dómini:",
+            "mp3": "communion_revelabitur.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-24.txt",
+            "section": "Postcommunio",
+            "texte": "Da nobis, quǽsumus, Dómine: unigéniti Fílii tui recensíta nativitáte respiráre; cujus cœlésti mystério páscimur et potámur.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Introitus",
+            "texte": "!Exod 16:6; 16:7\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 23:1\nDómini est terra, et plenitúdo ejus: orbis terrárum, et univérsi, qui hábitant in eo.\n&Gloria\nv. Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.",
+            "incipit": "Hódie sciétis, quia",
+            "mp3": "introitus_hodie-scietis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos redemptiónis nostræ ánnua exspectatióne lætíficas: præsta; ut Unigénitum tuum, quem Redemptórem læti suscípimus, veniéntem quoque Júdicem secúri videámus, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaulus, servus Jesu Christi, vocátus Apóstolus, segregátus in Evangélium Dei, quod ante promíserat per Prophétas suos in Scriptúris sanctis de Fílio suo, qui factus est ei ex sémine David secúndum carnem: qui prædestinátus est Fílius Dei in virtúte secúndum spíritum sanctificatiónis ex resurrectióne mortuórum Jesu Christi, Dómini nostri: per quem accépimus grátiam, et apostolátum ad obœdiéndum fídei in ómnibus géntibus pro nómine ejus, in quibus estis et vos vocáti Jesu Christi, Dómini nostri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Graduale",
+            "texte": "!Exod 16:6; 16:7\nHódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.",
+            "incipit": "Hódie sciétis, quia",
+            "mp3": "graduel_hodie-scietis.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:18-21\nMarie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/03-19.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 23:7\nTóllite portas, principes, vestras: et elevámini, portæ æternáles, et introíbit Rex glóriæ.",
+            "incipit": "Tóllite portas, principes,",
+            "mp3": "offertoire_tollite-portas.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Secreta",
+            "texte": "Da nobis, quǽsumus, omnípotens Deus: ut, sicut adoránda Fílii tui natalítia prævenímus, sic ejus múnera capiámus sempitérna gaudéntes:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Communio",
+            "texte": "!Isa 40:5\nRevelábitur glória Dómini: et vidébit omnis caro salutáre Dei nostri.",
+            "incipit": "Revelábitur glória Dómini:",
+            "mp3": "communion_revelabitur.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-24.txt",
+            "section": "Postcommunio",
+            "texte": "Da nobis, quǽsumus, Dómine: unigéniti Fílii tui recensíta nativitáte respiráre; cujus cœlésti mystério páscimur et potámur.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Exod 16:6; 16:7\nHódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.",
-        "Francais": "!Exod 16:6; 16:7\nAujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.\n!Ps 79:2-3\nÉcoutez, Pasteur d’Israël, vous qui menez le peuple de Joseph comme un berger son troupeau. Vous dont le trône est porté par les Chérubins, montrez-vous aux descendants d’Éphraïm, de Benjamin et de Manassé."
-      },
-      "audios": "Graduale Project/graduel_hodie-scietis.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Matthǽum.\n!Matt 1:18-21\nMarie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 23:7\nTóllite portas, principes, vestras: et elevámini, portæ æternáles, et introíbit Rex glóriæ.",
-        "Francais": "!Ps 23:7\nPortes, relevez vos frontons ! Soulevez-vous, portails antiques, et le Roi de gloire fera son entrée."
-      },
-      "audios": "Graduale Project/offertoire_tollite-portas.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Isa 40:5\nRevelábitur glória Dómini: et vidébit omnis caro salutáre Dei nostri.",
-        "Francais": "!Isa 40:5\nLa Seigneur apparaîtra dans sa gloire et tout être vivant verra le Sauveur notre Dieu."
-      },
-      "audios": "Graduale Project/communion_revelabitur.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/12-24.txt",
+        "Latin/Sancti/12-24.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

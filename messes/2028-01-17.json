@@ -1,26 +1,254 @@
 {
   "date": "2028-01-17",
-  "celebration": {
-    "nom": "Saint Antoine, abbé",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-17",
-    "Tempora/Epi2-1"
-  ],
-  "cles_jour": [
-    "01-17",
-    "Epi2-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@Commune/C5:Evangelium"
+      "occurrence": {
+        "gagnant": "Sancti/01-17",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-17.txt",
+        "temporal": "Latin/Tempora/Epi2-1.txt",
+        "sanctoral": "Latin/Sancti/01-17.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Oratio",
+            "texte": "Intercéssio nos, quǽsumus, Dómine, beáti N. Abbátis comméndet: ut, quod nostris méritis non valémus, ejus patrocínio assequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 45:1-6\nDiléctus Deo et homínibus, cujus memória in benedictióne est. Símilem illum fecit in glória sanctórum, et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspéctu regum, et jussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Audívit enim eum et vocem ipsíus, et indúxit illum in nubem. Et dedit illi coram præcépta, et legem vitæ et disciplínæ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 20:4-5\nDómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso.\nV. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi. Allelúja, allelúja.\n!Ps 91:13\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja.",
+            "incipit": "Dómine, prævenísti eum",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:4-5\nDómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso.\nV. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Dómine, prævenísti eum",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-17.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-17.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. ¶ Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei, Dómine, et voluntáte labiórum ejus non fraudásti eum: posuísti in cápite ejus corónam de lápide pretióso. (Allelúja.)",
+            "incipit": "Desidérium ánimæ ejus",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Secreta",
+            "texte": "Sacris altáribus, Dómine, hóstias superpósitas sanctus N. Abbas, quǽsumus, in salútem nobis proveníre depóscat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-17.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Postcommunio",
+            "texte": "Prótegat nos, Dómine, cum tui perceptióne sacraménti beátus N. Abbas, pro nobis intercedéndo: ut et conversatiónis ejus experiámur insígnia, et intercessiónis percipiámus suffrágia.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-17.txt",
+            "section": "Oratio",
+            "texte": "Que l’intercession du bienheureux Abbé Antoine, nous recommande, s’il vous plaît, auprès de vous, Seigneur, afin que nous obtenions, par son patronage, ce que nous ne pouvons attendre de nos mérites.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de l’Ecclésiastique.\n!Eccli 45:1-6\nIl a été aimé de Dieu et des hommes : sa mémoire est en bénédiction. Dieu lui a donné une gloire semblable à celle des saints, il l’a rendu grand par la terreur qu’il inspira aux ennemis. Par sa parole, il a fait cesser des prodiges. Il l’a glorifié devant les rois, il lui a donné un commandement devant son peuple et il lui a montré sa gloire. À cause de sa foi et de sa douceur, il l’a sanctifié et l’a choisi entre tous les hommes. Il lui a fait entendre sa voix et l’a introduit dans la nuée. Il lui a donné face à face ses commandements, la loi de la vie et de la science.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 20:4-5\nVous l’avez prévenu, Seigneur, de bénédictions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie et vous lui avez accordé de longs jours pour la durée des siècles. Alléluia, alléluia.\n!Ps 91:13\nLe juste fleurira comme le palmier, il s’élèvera comme le cèdre du Liban. Alléluia.",
+            "incipit": "Vous l’avez prévenu,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:4-5\nVous l’avez prévenu, Seigneur, de bénédictions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie et vous lui avez accordé de longs jours pour la durée des siècles.\n!Ps 111:1-3\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison, et sa justice demeure dans tous les siècles.",
+            "incipit": "Vous l’avez prévenu,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-17.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-17.txt",
+            "section": "Evangelium",
+            "texte": "Évangile ++ selon saint Luc.\n!Luc 12:35-40\nEn ce temps-là, Jésus dit à ses disciples : « Ayez les reins ceints et des lampes allumées en vos mains. Soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin de lui ouvrir dès qu’il arrivera et frappera. Heureux ces serviteurs que le maître, à son retour, trouvera veillant ! En vérité, je vous le dis, il se ceindra, les fera mettre à table et, passant de l’un et l’autre, il les servira. Et s’il arrive à la deuxième ou à la troisième veille, et les trouve ainsi veillant, heureux sont ces serviteurs ! Sachez-le bien, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement et ne laisserait pas percer sa maison. Vous aussi, tenez-vous prêts, car à l’heure où vous n’y pensez pas, le Fils de l’homme viendra. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 20:3; 20:4\nVous lui avez accordé le désir de son cœur et vous ne l’avez point frustré de la demande de ses lèvres : vous avez mis sur sa tête une couronne de pierres précieuses. (Alléluia.)",
+            "incipit": "Vous lui avez",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Secreta",
+            "texte": "Nous vous en prions, Seigneur, que le saint abbé N. nous obtienne que les hosties déposées sur votre saint autel nous procurent le salut.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-17.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5b.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C5b.txt",
+            "section": "Postcommunio",
+            "texte": "Que l’intercession du bienheureux abbé N. unie à la réception de votre sacrement, nous protège, Seigneur ; afin que nous puissions imiter les exemples de sa vie et ressentir les effets de son intercession.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5b.txt",
+        "../horas/Latin/Commune/C5b.txt",
+        "Francais/Sancti/01-17.txt",
+        "Latin/Sancti/01-17.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

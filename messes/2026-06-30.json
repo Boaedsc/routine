@@ -1,68 +1,418 @@
 {
   "date": "2026-06-30",
-  "celebration": {
-    "nom": "Commémoration de saint Paul",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-30",
-    "Tempora/Pent05-2"
-  ],
-  "cles_jour": [
-    "06-30",
-    "Pent05-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent05",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Sancti/01-25\n\n[Oratio Pauli]\nDeus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, cujus natalícia cólimus, ejus apud te patrocínia sentiámus.\n$Per Dominum."
+      "occurrence": {
+        "gagnant": "Sancti/06-30",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-30.txt",
+        "temporal": "Latin/Tempora/Pent05-2.txt",
+        "sanctoral": "Latin/Sancti/06-30.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_scio-cui-credidi.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 1:11-20\nMes frères : je vous déclare, que l’évangile que j’ai annoncé n’est pas selon l’homme ; car ce n’est pas d’un homme que je l’ai reçu ni appris, mais par la révélation de Jésus-Christ. Vous avez appris, en effet, quelle était autrefois ma conduite dans le judaïsme, comment je persécutais à outrance l’Église de Dieu, et la ravageais. Et je surpassais dans le judaïsme bon nombre de ceux de mon âge et de ma nation ayant un zèle plus ardent pour les traditions de mes pères. Mais lorsqu’il plut à celui qui m’a mis à part dès le sein de ma mère, et qui m’a appelé par sa grâce, de révéler son Fils en moi, pour que je fusse son évangéliste parmi les nations, aussitôt je ne pris conseil ni de la chair ni du sang ; je n’allais pas non plus à Jérusalem vers ceux qui étaient apôtres avant moi ; mais je m’en allai en Arabie, et je revins encore à Damas. Ensuite, trois ans plus tard, je vins à Jérusalem pour voir Pierre, et je demeurai auprès de lui quinze jours ; mais je ne vis aucun autre des apôtres, sinon Jacques, le frère du Seigneur. Dans ce que je vous écris, je proteste devant Dieu que je ne mens pas."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Introitus",
+            "texte": "!2 Tim 1:12\nv. Scio, cui crédidi, et certus sum, quia potens est depósitum meum serváre in illum diem, justus judex.\n!Ps 138:1-2\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Scio, cui crédidi, et certus sum, quia potens est depósitum meum serváre in illum diem, justus judex.",
+            "incipit": "Scio, cui crédidi,",
+            "mp3": "introitus_scio-cui-credidi.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Oratio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-30.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                    "section": "Oratio",
+                    "resolu": true,
+                    "sous_references": [
+                      {
+                        "fichier": null,
+                        "section": "Oratio",
+                        "resolu": false
+                      },
+                      {
+                        "fichier": null,
+                        "section": "Oratio",
+                        "resolu": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 1:11-20\nFratres: Notum vobis facio Evangélium, quod evangelizátum est a me, quia non est secúndum hóminem: neque enim ego ab hómine accépi illud neque dídici, sed per revelatiónem Jesu Christi. Audístis enim conversatiónem meam aliquándo in Judaísmo: quóniam supra modum persequébar Ecclésiam Dei, et expugnábam illam, et proficiébam in Judaísmo supra multos coætáneos meos in génere meo, abundántius æmulátor exsístens paternárum mearum traditiónum. Cum autem plácuit ei, qui me segregávit ex útero matris meæ, et vocávit per grátiam suam, ut reveláret Fílium suum in me, ut evangelizárem illum in géntibus: contínuo non acquiévi carni et sánguini, neque veni Jerosólymam ad antecessóres meos Apóstolos: sed ábii in Arábiam: et íterum revérsus sum Damáscum: déinde post annos tres veni Jerosólymam vidére Petrum, et mansi apud eum diébus quíndecim: álium autem Apostolórum vidi néminem, nisi Jacóbum fratrem Dómini. Quæ autem scribo vobis, ecce coram Deo, quia non méntior.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Graduale",
+            "texte": "!Gal 2:8-9\nQui operátus est Petro in apostolátum, operátus est et mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi.\n!1 Cor 15:10\nGrátia Dei in me vácua non fuit: sed grátia ejus semper in me manet. Allelúja, allelúja.\nV. Sancte Paule Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis. Allelúja.",
+            "incipit": "Qui operátus est",
+            "mp3": "graduel_qui-operatus-est.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Tractus",
+            "texte": "Tu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus.\nV. Prædicátor veritátis et doctor géntium in fide et veritáte.\nV. Per te omnes gentes cognovérunt grátiam Dei.\nV. Intercéde pro nobis ad Deum, qui te elégit.",
+            "incipit": "Tu es vas",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:16-22\nIn illo témpore: Dixit Jesus discípulis suis: Ecce, ego mitto vos sicut oves in médio lupórum. Estóte ergo prudéntes sicut serpentes, et símplices sicut colúmbæ. ¶ Cavéte autem ab homínibus. Tradent enim vos in concíliis, et in synagógis suis flagellábunt vos: et ad præsides et ad reges ducémini propter me in testimónium illis et géntibus. Cum autem tradent vos, nolíte cogitáre, quómodo aut quid loquámini: dábitur enim vobis in illa hora, quid loquámini. Non enim vos estis, qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis. Tradet autem frater fratrem in mortem, et pater fílium: et insúrgent fílii in paréntes, et morte eos affícient: et éritis odio ómnibus propter nomen meum: qui autem perseveráverit usque in finem, hic salvus erit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-11.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 138:17\nMihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "offertoire_mihi-autem-nimis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Secreta",
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28-29\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (Allelúja.)",
+            "incipit": "Amen, dico vobis:",
+            "mp3": "communion_amen-dico-vobis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Postcommunio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-30.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                    "section": "Postcommunio",
+                    "resolu": true,
+                    "sous_references": [
+                      {
+                        "fichier": null,
+                        "section": "Postcommunio",
+                        "resolu": false
+                      },
+                      {
+                        "fichier": null,
+                        "section": "Postcommunio",
+                        "resolu": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Introitus",
+            "texte": "!2 Tim 1:12\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge.\n!Ps 138:1-2\nSeigneur, vous m’avez sondé et vous me connaissez, vous savez quand je m’assieds et quand je me lève.\n&Gloria\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge.",
+            "incipit": "Je sais en",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Oratio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-30.txt",
+                "section": "Oratio",
+                "resolu": false
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": false
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 1:11-20\nFratres: Notum vobis facio Evangélium, quod evangelizátum est a me, quia non est secúndum hóminem: neque enim ego ab hómine accépi illud neque dídici, sed per revelatiónem Jesu Christi. Audístis enim conversatiónem meam aliquándo in Judaísmo: quóniam supra modum persequébar Ecclésiam Dei, et expugnábam illam, et proficiébam in Judaísmo supra multos coætáneos meos in génere meo, abundántius æmulátor exsístens paternárum mearum traditiónum. Cum autem plácuit ei, qui me segregávit ex útero matris meæ, et vocávit per grátiam suam, ut reveláret Fílium suum in me, ut evangelizárem illum in géntibus: contínuo non acquiévi carni et sánguini, neque veni Jerosólymam ad antecessóres meos Apóstolos: sed ábii in Arábiam: et íterum revérsus sum Damáscum: déinde post annos tres veni Jerosólymam vidére Petrum, et mansi apud eum diébus quíndecim: álium autem Apostolórum vidi néminem, nisi Jacóbum fratrem Dómini. Quæ autem scribo vobis, ecce coram Deo, quia non méntior.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Graduale",
+            "texte": "!Gal 2:8-9\nQui operátus est Petro in apostolátum, operátus est et mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi.\n!1 Cor 15:10\nGrátia Dei in me vácua non fuit: sed grátia ejus semper in me manet. Allelúja, allelúja.\nV. Sancte Paule Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis. Allelúja.",
+            "incipit": "Qui operátus est",
+            "mp3": "graduel_qui-operatus-est.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Tractus",
+            "texte": "Tu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus.\nV. Prædicátor veritátis et doctor géntium in fide et veritáte.\nV. Per te omnes gentes cognovérunt grátiam Dei.\nV. Intercéde pro nobis ad Deum, qui te elégit.",
+            "incipit": "Tu es vas",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:16-22\nEn ce temps-là : Jésus dit à ses disciples : Voici que je vous envoie comme des brebis au milieu des loups. Soyez donc prudents comme des serpents, et simples comme des colombes. Mais mettez-vous en garde contre les hommes : car ils vous livreront aux tribunaux, et ils vous flagelleront dans leurs synagogues ; et vous serez traduits, à cause de moi, devant les gouverneurs et devant les rois, pour servir de témoignage à eux et aux nations. Mais, lorsqu’ils vous livreront, ne vous inquiétez pas de la manière dont vous parlerez, ni de ce que vous direz ; car ce que vous devrez dire vous sera donné à l’heure même. En effet, ce n’est pas vous qui parlez, mais c’est l’Esprit de votre Père qui parle en vous. Or, le frère livrera son frère à la mort, et le père son fils ; les enfants se soulèveront contre leurs parents, et les feront mourir. Et vous serez haïs de tous, à cause de mon nom ; mais celui qui persévérera jusqu’à la fin sera sauvé.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-11.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.",
+            "incipit": "Ô Dieu, que",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-30.txt",
+            "section": "Secreta",
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28 et 29.\nEn vérité, je vous le dis ; vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple, et posséderez la vie éternelle. (Alléluia.)",
+            "incipit": "En vérité, je",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-30.txt",
+            "section": "Postcommunio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-30.txt",
+                "section": "Postcommunio",
+                "resolu": false
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": false
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Gal 2:8-9\nQui operátus est Petro in apostolátum, operátus est et mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi.\n!1 Cor 15:10\nGrátia Dei in me vácua non fuit: sed grátia ejus semper in me manet. Allelúja, allelúja.\nV. Sancte Paule Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis. Allelúja.",
-        "Francais": "!Gal 2:8-9\nCelui qui a agi efficacement dans Pierre pour le rendre Apôtre, a aussi agi efficacement en moi pour me rendre Apôtre des Gentils, et ils ont reconnu la grâce de Dieu, qui m’avait été accordée.\n!Ps 15:10\nLa grâce de Dieu n’a pas été stérile en moi ; mais elle demeure toujours en moi. Alléluia, alléluia.\nV. Saint Paul, Apôtre, prédicateur de la vérité et docteur des nations, intercédez pour nous. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_qui-operatus-est.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@Sancti/06-11:Evangelium"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/01-25"
-      },
-      "audios": "Graduale Project/offertoire_mihi-autem-nimis.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C5-1\n\n[Postcommunio Pauli]\nPercéptis, Dómine, sacraméntis: beáto Paulo Apóstolo tuo interveniénte, deprecámur; ut, quæ pro illíus celebráta sunt glória, nobis profíciant ad medélam.\n$Per Dominum",
-        "Francais": "!Matt 19:28-29\nEn vérité, je vous le dis : vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple et posséderez la vie éternelle.\n\n[Postcommunio Pauli]\nAyant reçu, Seigneur, votre sacrement, et le bienheureux Apôtre Paul intervenant en notre faveur : nous vous prions de faire servir à notre guérison, le sacrifice qui a été célébré pour glorifier cet Apôtre.\n$Per Dominum"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/06-30.txt",
+        "Latin/Sancti/06-30.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

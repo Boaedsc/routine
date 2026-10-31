@@ -1,70 +1,210 @@
 {
   "date": "2027-02-22",
-  "celebration": {
-    "nom": "Chaire de saint Pierre à Antioche",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/02-22",
-    "Tempora/Quad2-1"
-  ],
-  "cles_jour": [
-    "02-22",
-    "Quad2-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C2a\n\n[Oratio Pauli]\n!Commemoratio S. Pauli\nDeus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus, ejus apud te patrocínia sentiámus.\n$Per Dominum\n\n[Oratio Petri]\nDeus, qui beáto Petro Apóstolo tuo, collátis clávibus regni cœléstis, ligándi atque solvéndi pontifícium tradidísti: concéde; ut, intercessiónis ejus auxílio, a peccatórum nostrórum néxibus liberémur:\n$Qui vivis",
-        "Francais": "!Eccli 45:30.\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince de son Eglise, en sorte qu’il possède à jamais la dignité du sacerdoce.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince de son Eglise, en sorte qu’il possède à jamais la dignité du sacerdoce.\n\n[Oratio Pauli]\n!Commemoratio S. Pauli\nÔ Dieu, qui avez instruit une multitude de nations par la prédication du B. Apôtre Paul, faites, nous vous en supplions, que, nous qui honorons sa mémoire, nous ressentons les effets de sa protection auprès de vous.\n$Per Dominum\n\n[Oratio Petri]\nÔ Dieu, qui, en confiant au Bienheureux Pierre, votre Apôtre, les clés du royaume céleste, lui avez donné l’autorité pontificale de lier et de délier ; faites que nous soyons délivrés des liens de nos péchés par le secours de son intercession.\n$Qui vivis"
+      "occurrence": {
+        "gagnant": "Tempora/Quad2-1",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad2-1.txt",
+        "temporal": "Latin/Tempora/Quad2-1.txt",
+        "sanctoral": "Latin/Sancti/02-22.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli.\n!1. Pet 1:1-7\nPierre, Apôtre de Jésus-Christ, aux élus étrangers et dispersés dans le Pont, la Galatie, la Cappadoce, l’Asie et la Bithynie, élus selon la prescience de Dieu le Père pour la sanctification de l’Esprit, pour obéir à la foi et avoir part à l’aspersion du sang de Jésus-Christ, que la grâce et la paix vous soient multipliées ! Béni soit le Dieu et le Père de Notre-Seigneur Jésus-Christ, qui, selon sa grande miséricorde, nous a régénérés pour une espérance vivante par la résurrection de Jésus-Christ d’entre les morts, pour un héritage qui ne peut ni se corrompre, ni se souiller, ni se flétrir, qui est réservé dans les cieux pour vous, qui êtes gardés par la puissance de Dieu, par la foi, pour le salut qui est prêt à être manifesté dans le dernier temps. Vous devez en être transportés de joie, supposé même qu’il faille que, pour un peu de temps, vous soyez attristés par diverses épreuves, afin que votre foi ainsi éprouvée, plus précieuse que l’or (qu’on éprouve par le feu) tourne à votre louange, votre gloire et votre honneur, lorsque paraîtra Jésus-Christ Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 25:11-12.\nv. Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum.\n!Ps 25:1\nJúdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino sperans, non infirmábor.\n&Gloria\nv. Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum.",
+            "incipit": "Rédime me, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut família tua, quæ se, affligéndo carnem, ab aliméntis ábstinet: sectándo justítiam, a culpa jejúnet.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ.\n!Dan 9:15-19\nIn diébus illis: Orávit Dániel Dóminum, dicens: Dómine, Deus noster, qui eduxísti pópulum tuum de terra Ægýpti in manu forti, et fecísti tibi nomen secúndum diem hanc; peccávimus, iniquitátem fécimus, Dómine, in omnem justítiam tuam: avertátur, óbsecro, ira tua et furor tuus a civitáte tua Jerúsalem et monte sancto tuo. Propter peccáta enim nostra et iniquitátes patrum nostrórum. Jerúsalem et pópulus tuus in oppróbrium sunt ómnibus per circúitum nostrum. Nunc ergo exáudi, Deus noster, oratiónem servi tui et preces ejus: et osténde fáciem tuam super sanctuárium tuum, quod desértum est, propter temetípsum. Inclína, Deus meus, aurem tuam, et audi: áperi óculos tuos, et vide desolatiónem nostram et civitátem, super quam invocátum est nomen tuum: neque enim in justificatiónibus nostris prostérnimus preces ante fáciem tuam, sed in miseratiónibus tuis multis. Exáudi, Dómine, placáre, Dómine: atténde et fac: ne moréris propter temetípsum, Deus meus: quia nomen tuum invocátum est super civitátem et super pópulum tuum, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 69:6; 69:3\nAdjútor meus et liberátor meus esto: Dómine, ne tardáveris.\nV. Confundántur et revereántur inimíci mei, qui quærunt ánimam meam.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Adjútor meus et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joh 8:21-29\nIn illo témpore: Dixit Jesus turbis Judæórum: Ego vado, et quærétis me, et in peccáto vestro moriémini. Quo ego vado, vos non potéstis veníre. Dicébant ergo Judǽi: Numquid interfíciet semetípsum, quia dixit: Quo ego vado, vos non potéstis veníre? Et dicébat eis: Vos de deórsum estis, ego de supérnis sum. Vos de mundo hoc estis, ego non sum de hoc mundo. Dixi ergo vobis, quia moriémini in peccátis vestris: si enim non credidéritis, quia ego sum, moriémini in peccáto vestro. Dicébant ergo ei: Tu quis es? Dixit eis Jesus: Princípium, qui et loquor vobis. Multa habeo de vobis loqui et judicáre. Sed qui me misit, verax est: et ego quæ audívi ab eo, hæc loquor in mundo. Et non cognovérunt, quia Patrem ejus dicébat Deum. Dixit ergo eis Jesus: Cum exaltavéritis Fílium hóminis, tunc cognoscétis quia ego sum, et a meípso fácio nihil: sed, sicut dócuit me Pater, hæc loquor: et qui me misit, mecum est, et non relíquit me solum: quia ego, quæ plácita sunt ei, fácio semper.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7; 15:8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Dóminum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Secreta",
+            "texte": "Hæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne dignos effíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 8:2\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!",
+            "incipit": "Dómine, Dóminus noster,",
+            "mp3": "communion_domine-dominus-noster.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad2-1.txt",
+            "section": "Postcommunio",
+            "texte": "Hæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii fáciat esse consórtes.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 25:11-12.\nv. Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum.\n!Ps 25:1\nJúdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino sperans, non infirmábor.\n&Gloria\nv. Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis benedícam Dóminum.",
+            "incipit": "Rédime me, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut família tua, quæ se, affligéndo carnem, ab aliméntis ábstinet: sectándo justítiam, a culpa jejúnet.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ.\n!Dan 9:15-19\nIn diébus illis: Orávit Dániel Dóminum, dicens: Dómine, Deus noster, qui eduxísti pópulum tuum de terra Ægýpti in manu forti, et fecísti tibi nomen secúndum diem hanc; peccávimus, iniquitátem fécimus, Dómine, in omnem justítiam tuam: avertátur, óbsecro, ira tua et furor tuus a civitáte tua Jerúsalem et monte sancto tuo. Propter peccáta enim nostra et iniquitátes patrum nostrórum. Jerúsalem et pópulus tuus in oppróbrium sunt ómnibus per circúitum nostrum. Nunc ergo exáudi, Deus noster, oratiónem servi tui et preces ejus: et osténde fáciem tuam super sanctuárium tuum, quod desértum est, propter temetípsum. Inclína, Deus meus, aurem tuam, et audi: áperi óculos tuos, et vide desolatiónem nostram et civitátem, super quam invocátum est nomen tuum: neque enim in justificatiónibus nostris prostérnimus preces ante fáciem tuam, sed in miseratiónibus tuis multis. Exáudi, Dómine, placáre, Dómine: atténde et fac: ne moréris propter temetípsum, Deus meus: quia nomen tuum invocátum est super civitátem et super pópulum tuum, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 69:6; 69:3\nAdjútor meus et liberátor meus esto: Dómine, ne tardáveris.\nV. Confundántur et revereántur inimíci mei, qui quærunt ánimam meam.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Adjútor meus et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joh 8:21-29\nIn illo témpore: Dixit Jesus turbis Judæórum: Ego vado, et quærétis me, et in peccáto vestro moriémini. Quo ego vado, vos non potéstis veníre. Dicébant ergo Judǽi: Numquid interfíciet semetípsum, quia dixit: Quo ego vado, vos non potéstis veníre? Et dicébat eis: Vos de deórsum estis, ego de supérnis sum. Vos de mundo hoc estis, ego non sum de hoc mundo. Dixi ergo vobis, quia moriémini in peccátis vestris: si enim non credidéritis, quia ego sum, moriémini in peccáto vestro. Dicébant ergo ei: Tu quis es? Dixit eis Jesus: Princípium, qui et loquor vobis. Multa habeo de vobis loqui et judicáre. Sed qui me misit, verax est: et ego quæ audívi ab eo, hæc loquor in mundo. Et non cognovérunt, quia Patrem ejus dicébat Deum. Dixit ergo eis Jesus: Cum exaltavéritis Fílium hóminis, tunc cognoscétis quia ego sum, et a meípso fácio nihil: sed, sicut dócuit me Pater, hæc loquor: et qui me misit, mecum est, et non relíquit me solum: quia ego, quæ plácita sunt ei, fácio semper.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 15:7; 15:8\nBenedícam Dóminum, qui tríbuit mihi intelléctum: providébam Dóminum in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.",
+            "incipit": "Benedícam Dóminum, qui",
+            "mp3": "offertoire_benedicam-dominum.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Secreta",
+            "texte": "Hæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne dignos effíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 8:2\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!",
+            "incipit": "Dómine, Dóminus noster,",
+            "mp3": "communion_domine-dominus-noster.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad2-1.txt",
+            "section": "Postcommunio",
+            "texte": "Hæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii fáciat esse consórtes.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Commune/C4b",
-        "Francais": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple, et qu’ils le louent dans le conseil des vieillards.\nV. Qu’ils louent le Seigneur pour ses miséricordes et pour ses merveilles en faveur des enfants des hommes. Allelúja, allelúja\n!Matt 16:18\nTu es Pierre et sur cette pierre je bâtirai mon Église. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joh 8:21-29\nEn ce temps-là, Jésus dit à la foule des Juifs : Je m’en vais, et vous me chercherez, et vous mourrez dans votre péché. Là où je vais, vous ne pouvez venir. Les Juifs disaient donc : Est-ce qu’il se tuera lui-même, puisqu’il dit : Là où je vais, vous ne pouvez venir ? Et il leur dit : Vous, vous êtes d’en bas ; moi, je suis d’en haut. Vous êtes de ce monde ; moi je ne suis pas de ce monde. Je vous ai donc dit que vous mourrez dans vos péchés ; car, si vous ne croyez pas à ce que je suis, vous mourrez dans votre péché. Ils lui dirent donc : Qui êtes-vous ? Jésus leur répondit : Je suis le principe, moi qui vous parle. J’ai beaucoup de choses à dire de vous et à juger en vous. Mais celui qui m’a envoyé est véridique, et ce que j’ai appris de lui, je le dis dans le monde. Ils ne comprirent pas qu’il disait que Dieu était son Père. Jésus leur dit donc : Quand vous aurez élevé le Fils de l’homme, alors vous connaîtrez, qui je suis et que je ne fais rien de moi-même, mais que je parle de ce que le Père m’a enseigné. Et celui qui m’a envoyé est avec moi, et il ne m’a pas laissé seul, parce que je fais toujours ce qui lui est agréable."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/Coronatio\n\n[Secreta Pauli]\n!Pro S. Paulo\n@Sancti/01-25:Secreta Pauli\n\n[Secreta Petri]\nEcclésiæ tuæ, quǽsumus, Dómine, preces et hóstias beáti Petri Apóstoli comméndet orátio: ut, quod pro illíus glória celebrámus, nobis prosit ad véniam.\n$Per Dominum",
-        "Francais": "!Matt 16:18-19\nTu es Pierre et sur cette pierre je bâtirai mon église, et les portes de l’enfer ne prévaudront point contre elle ; et je te donnerai les clefs du royaume des cieux.\n\n[Secreta Pauli]\n!Pro S. Paulo\nEn égard aux prières de votre Apôtre Paul, rendez saintes, Seigneur, les offrandes, de votre peuple, en sorte que vous étant déjà agréables du fait que ce sacrifice a été institué par vous, elles le deviennent plus encore grâce au patronage de celui qui intercède pour nous. Par Notre-Seigneur.\n$Per Dominum\n\n[Secreta Petri]\nNous vous en supplions, Seigneur, que l’intercession du Bienheureux Apôtre Pierre, contribue à vous faire agréer les prières et les hosties de votre Église, en sorte que ce que nous faisons pour célébrer sa gloire nous soit utile pour obtenir notre pardon.\n$Per Dominum"
-      },
-      "audios": "Graduale Project/offertoire_benedicam-dominum.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4b\n\n[Postcommunio Pauli]\n!Pro S. Paulo\n@Sancti/01-25:Postcommunio Pauli\n\n[Postcommunio Petri]\nLætíficet nos, Dómine, munus oblátum: ut, sicut in Apóstolo tuo Petro te mirábilem prædicámus; sic per illum tuæ sumámus indulgéntiæ largitátem.\n$Per Dominum",
-        "Francais": "!Matt 16:18\nTu es Pierre et sur cette pierre je bâtirai mon Église.\n\n[Postcommunio Pauli]\n!Pro S. Paulo\n@Sancti/01-25:Postcommunio Pauli\n\n[Postcommunio Petri]\nSeigneur, que le sacrifice offert nous laisse dans la joie et que comme nous vous proclamons admirable en votre Apôtre Pierre, ainsi, par lui, nous recevions l’abondance de votre miséricorde.\n$Per Dominum"
-      },
-      "audios": "Graduale Project/communion_domine-dominus-noster.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad2-1.txt",
+        "Latin/Tempora/Quad2-1.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

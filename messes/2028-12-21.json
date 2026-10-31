@@ -1,70 +1,252 @@
 {
   "date": "2028-12-21",
-  "celebration": {
-    "nom": "Saint Thomas, apôtre",
-    "classe": 2,
-    "note": "(temporal : Jeudi avant Noël (21 déc.))"
-  },
-  "fichiers": [
-    "Sancti/12-21",
-    "Tempora/Adv3-4"
-  ],
-  "cles_jour": [
-    "12-21",
-    "Adv3-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Sancti/02-24",
-        "Francais": "!Ps 138:17.\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie."
+      "occurrence": {
+        "gagnant": "Sancti/12-21",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-21.txt",
+        "temporal": "Latin/Tempora/Adv3-4.txt",
+        "sanctoral": "Latin/Sancti/12-21.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_mihi-autem-nimis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 2:19-22\nMes Frères : Désormais vous n’êtes plus des étrangers et des gens du dehors ; mais vous êtes concitoyens des saints, et membres de la famille de Dieu, puisque vous avez été édifiés sur le fondement des Apôtres et des prophètes, le Christ Jésus étant lui-même la pierre angulaire. En lui, tout l’édifice, bien coordonné, grandit pour être un temple saint dans le Seigneur. En lui, vous aussi, vous entrez dans sa structure, pour être une habitation de Dieu par l’Esprit-Saint."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Oratio",
+            "texte": "Da nobis, quǽsumus, Dómine, beáti Apóstoli tui Thomæ sollemnitátibus gloriári: ut ejus semper et patrocíniis sublevémur; et fidem cóngrua devotióne sectémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 2:19-22\nFratres: Jam non estis hóspites et ádvenæ: sed estis cives sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum et Prophetárum, ipso summo angulári lápide Christo Jesu: in quo omnis ædificátio constrúcta crescit in templum sanctum in Dómino, in quo et vos coædificámini in habitáculum Dei in Spíritu.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18.\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur. Allelúja, allelúja.\n!Ps 32:1\nGaudéte, justi, in Dómino: rectos decet collaudátio. Allelúja.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Desidérium ánimæ ejus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 20:24-29\nIn illo témpore: Thomas, unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei alii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi videro in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deinde dicit Thomæ: Inter dígitum tuum huc, et vide manus meas, et affer manum tuam, et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidisti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:5\nIn omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.",
+            "incipit": "In omnem terram",
+            "mp3": "offertoire_in-omnem-terram.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-04oct.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Secreta",
+            "texte": "Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter exorántes: ut, suffrágiis beáti Thomæ Apóstoli, in nobis tua múnera tueáris, cujus honoránda confessióne laudis tibi hóstias immolámus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Communio",
+            "texte": "!Joannes 20:27\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, allelúja.",
+            "incipit": "Mitte manum tuam,",
+            "mp3": "communion_mitte-manum-tuam.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc1-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-21.txt",
+            "section": "Postcommunio",
+            "texte": "Adésto nobis, miséricors Deus: et, intercedénte pro nobis beáto Thoma Apóstolo, tua circa nos propitiátus dona custódi.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2.\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.",
+            "incipit": "Selon moi, vos",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Oratio",
+            "texte": "Da nobis, quǽsumus, Dómine, beáti Apóstoli tui Thomæ sollemnitátibus gloriári: ut ejus semper et patrocíniis sublevémur; et fidem cóngrua devotióne sectémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 2:19-22\nFratres: Jam non estis hóspites et ádvenæ: sed estis cives sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum et Prophetárum, ipso summo angulári lápide Christo Jesu: in quo omnis ædificátio constrúcta crescit in templum sanctum in Dómino, in quo et vos coædificámini in habitáculum Dei in Spíritu.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18.\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur. Allelúja, allelúja.\n!Ps 32:1\nGaudéte, justi, in Dómino: rectos decet collaudátio. Allelúja.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Desidérium ánimæ ejus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 20:24-29\nIn illo témpore: Thomas, unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei alii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi videro in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deinde dicit Thomæ: Inter dígitum tuum huc, et vide manus meas, et affer manum tuam, et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidisti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:5\nLeur bruit s’est répandu dans toute la terre, et leurs paroles jusqu’aux extrémités du monde",
+            "incipit": "Leur bruit s’est",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-04oct.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Secreta",
+            "texte": "Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter exorántes: ut, suffrágiis beáti Thomæ Apóstoli, in nobis tua múnera tueáris, cujus honoránda confessióne laudis tibi hóstias immolámus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Communio",
+            "texte": "!Joannes 20:27\nAvance ta main et reconnais l'endroit des clous, alléluia ; et ne sois pas incrédule, mais croyant, alléluia, alléluia.",
+            "incipit": "Avance ta main",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc1-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-21.txt",
+            "section": "Postcommunio",
+            "texte": "Adésto nobis, miséricors Deus: et, intercedénte pro nobis beáto Thoma Apóstolo, tua circa nos propitiátus dona custódi.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 138:17-18.\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur. Allelúja, allelúja.\n!Ps 32:1\nGaudéte, justi, in Dómino: rectos decet collaudátio. Allelúja.",
-        "Francais": "!Ps 138:17-18.\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.\nV. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer. Alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur : aux coeurs droits convient sa louange. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 20:24-29\nEn ce temps-là, Thomas, l’un des douze, appelé Didyme, n’était pas avec eux lorsque Jésus vint. Les autres disciples lui dirent donc : Nous avons vu le Seigneur. Mais il leur dit : Si je ne vois dans ses mains le trou des clous, et si je ne mets mon doigt à la place des clous, et si je ne mets ma main dans son côté, je ne croirai point. Huit jours après, les disciples étaient enfermés de nouveau, et Thomas avec eux. Jésus vint, les portes étant fermées ; et il se tint au milieu d’eux, et dit : La paix soit avec vous ! Ensuite il dit à Thomas : Introduis ton doigt ici, et vois mes mains ; approche aussi ta main, et mets-la dans mon côté ; et ne sois pas incrédule, mais fidèle. Thomas répondit, et lui dit : Mon Seigneur et mon Dieu ! Jésus lui dit : Parce que tu m’as vu, Thomas, tu as cru ; heureux ceux qui n’ont pas vu, et qui ont cru !"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/07-04oct",
-        "Francais": "!Ps 18:5\nLeur bruit s’est répandu dans toute la terre, et leurs paroles jusqu’aux extrémités du monde."
-      },
-      "audios": "Graduale Project/offertoire_in-omnem-terram.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Pasc1-0",
-        "Francais": "!Joann 20:27\n Approche ta main, et reconnais l’emplacement des clous : et ne sois pas incrédule, mais fidèle."
-      },
-      "audios": "Graduale Project/communion_mitte-manum-tuam.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/12-21.txt",
+        "Latin/Sancti/12-21.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

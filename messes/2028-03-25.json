@@ -1,70 +1,284 @@
 {
   "date": "2028-03-25",
-  "celebration": {
-    "nom": "Annonciation de la B.V.M.",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/03-25",
-    "Tempora/Quad3-6"
-  ],
-  "cles_jour": [
-    "03-25",
-    "Quad3-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C10b",
-        "Francais": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)"
+      "occurrence": {
+        "gagnant": "Sancti/03-25",
+        "nom_sanctoral": "",
+        "classe": 6.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/03-25.txt",
+        "temporal": "Latin/Tempora/Quad3-6.txt",
+        "sanctoral": "Latin/Sancti/03-25.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_verba-mea-auribus.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:13; 44:15-16\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)",
+            "incipit": "Vultum tuum deprecabúntur",
+            "mp3": "introitus_vultum-tuum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad3-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 13:1-9, 15-17, 19-30, 33-62\nIn diébus illis: Erat vir hábitans in Babylóne, et nomen ejus Jóakim: et accépit uxorem nómine Susánnam, fíliam Helcíæ, pulchram nimis, et timéntem Deum: paréntes enim illíus, cum essent justi, erudiérunt fíliam suam secúndum legem Móysi. Erat autem Jóakim dives valde, et erat ei pomárium vicínum dómui suæ: et ad ipsum confluébant Judǽi, eo quod esset honorabílior ómnium. Et constítuti sunt de pópulo duo senes júdices in illo anno: de quibus locútus est Dóminus: Quia egréssa est iníquitas de Babylóne a senióribus judícibus, qui videbántur régere pópulum. Isti frequentábant domum Jóakim, et veniébant ad eos omnes, qui habébant judícia. Cum autem pópulus revertísset per merídiem, ingrediebátur Susánna, et deambulábat in pomário viri sui. Et vidébant eam senes cotídie ingrediéntem et deambulántem: et exarsérunt in concupiscéntiam ejus: et evertérunt sensum suum, et declinavérunt óculos suos, ut non vidérent cœlum, neque recordaréntur judiciórum justórum. Factum est autem, cum observárent diem aptum, ingréssa est aliquándo sicut heri et núdius tértius, cum duábus solis puéllis, voluítque lavári in pomário: æstus quippe erat, et non erat ibi quisquam, præter duos senes abscónditos et contemplántes eam. Dixit ergo puéllis: Afférte mihi óleum et smígmata, et óstia pomárii cláudite, ut laver. Cum autem egréssæ essent puéllæ, surrexérunt duo senes, et accurrérunt ad eam, et dixérunt: Ecce, óstia pomárii clausa sunt, et nemo nos videt, et nos in concupiscéntia tui sumus: quam ob rem assentíre nobis, et commiscére nobiscum. Quod si nolúeris, dicémus contra te testimónium, quod fúerit tecum júvenis, et ob hanc causam emíseris puéllas a te. Ingémuit Susánna, et ait: Angústiæ sunt mihi úndique: si enim hoc égero, mors mihi est: si autem non egero, non effúgiam manus vestras. Sed mélius est mihi absque ópere incídere in manus vestras, quam peccáre in conspéctu Dómini. Et exclamávit voce magna Susánna: exclamavérunt autem et senes adversus eam. Et cucúrrit unus ad óstia pomárii, et aperuit. Cum ergo audíssent clamórem fámuli domus in pomário, irruérunt per postícum, ut vidérent, quidnam esset. Postquam autem senes locúti sunt, erubuérunt servi veheménter: quia numquam dictus fúerat sermo hujuscémodi de Susánna. Et facta est dies crástina. Cumque venísset pópulus ad Jóakim virum ejus, venérunt et duo senióres, pleni iníqua cogitatióne advérsus Susánnam, ut interfícerent eam. Et dixérunt coram pópulo: Míttite ad Susánnam fíliam Helcíæ, uxórem Jóakim. Et statim misérunt. Et venit cum paréntibus et fíliis et univérsis cognátis suis. Flébant ígitur sui, et omnes qui nóverant eam. Consurgéntes autem duo senióres in médio pópuli, posuérunt manus suas super caput ejus. Quæ flens suspéxit ad cœlum: erat enim cor ejus fidúciam habens in Dómino. Et dixérunt senióres: Cum deambularémus in pomário soli, ingréssa est hæc cum duábus puéllis: et clausit óstia pomárii, et dimísit a se puéllas. Venítque ad eam adoléscens, qui erat abscónditus, et concúbuit cum ea. Porro nos, cum essémus in ángulo pomárii, vidéntes iniquitátem, cucúrrimus ad eos, et vídimus eos pariter commiscéri. Et illum quidem non quívimus comprehéndere, quia fórtior nobis erat, et apértis óstiis exsilívit: hanc autem cum apprehendissémus, interrogávimus, quisnam esset adoléscens, et nóluit indicáre nobis: hujus rei testes sumus. Crédidit eis multitúdo quasi sénibus et judícibus pópuli, et condemnavérunt eam ad mortem. Exclamávit autem voce magna Susánna, et dixit: Deus ætérne, qui absconditórum es cógnitor, qui nosti ómnia, ántequam fiant, tu scis, quóniam falsum testimónium tulérunt contra me: et ecce, mórior, cum nihil horum fécerim, quæ isti malitióse composuérunt advérsum me. Exaudívit autem Dóminus vocem ejus. Cumque ducerétur ad mortem, suscitávit Dóminus spíritum sanctum pueri junióris, cujus nomen Dániel. Et exclamávit voce magna: Mundus ego sum a sánguine hujus. Et convérsus omnis pópulus ad eum, dixit: Quis est iste sermo, quem tu locútus es? Qui cum staret in médio eórum, ait: Sic fátui, fílii Israël, non judicántes, neque quod verum est cognoscéntes, condemnástis fíliam Israël? Revertímini ad judícium, quia falsum testimónium locúti sunt advérsus eam. Revérsus est ergo pópulus cum festinatióne. Et dixit ad eos Dániel: Separáte illos ab ínvicem procul, et dijudicábo eos. Cum ergo divísi essent alter ab áltero, vocávit unum de eis, et dixit ad eum: Inveteráte diérum malórum, nunc venérunt peccáta tua, quæ operabáris prius: júdicans judícia injústa, innocéntes ópprimens, et dimíttens nóxios, dicénte Dómino: Innocéntem et justum non interfícies. Nunc ergo, si vidisti eam, dic, sub qua arbóre vidéris eos colloquéntes sibi. Qui ait: Sub schino. Dixit autem Dániel: Recte mentítus es in caput tuum. Ecce enim, Angelus Dei, accépta senténtia ab eo, scindet te médium. Et, amóto eo, jussit veníre álium, et dixit ei: Semen Chánaan, et non Juda, spécies decépit te, et concupiscéntia subvértit cor tuum: sic faciebátis filiábus Israël, et illæ timéntes loquebántur vobis: sed fília Juda non sustínuit iniquitátem vestram. Nunc ergo dic mihi, sub qua arbóre comprehénderis eos loquéntes sibi. Qui ait: Sub prino. Dixit autem ei Dániel: Recte mentítus es et tu in caput tuum: manet enim Angelus Dómini, gládium habens, ut secet te médium, et interfíciat vos. Exclamávit itaque omnis cœtus voce magna, et benedixérunt Deum, qui salvat sperántes in se. Et consurrexérunt advérsus duos senióres [convícerat enim eos Dániel ex ore suo falsum dixísse testimónium], fecerúntque eis, sicut male égerant advérsus próximum: et interfecérunt eos, et salvátus est sanguis innóxius in die illa.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja.\n!Luc 1:28\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3 et 5\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11 et 12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13 et 10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Adducéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad3-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 8:1-11\nIn illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo íterum venit in templum, et omnis pópulus venit ad eum, et sedens docébat eos. Addúcunt autem scribæ et pharisǽi mulíerem in adultério deprehénsam: et statuérunt eam in médio, et dixérunt ei: Magíster, hæc múlier modo deprehénsa est in adultério. In lege autem Móyses mandávit nobis hujúsmodi lapidáre. Tu ergo quid dicis? Hoc autem dicébant tentántes eum, ut possent accusáre eum. Jesus autem inclínans se deórsum, dígito scribébat in terra. Cum ergo perseverárent interrogántes eum, eréxit se, et dixit eis: Qui sine peccáto est vestrum, primus in illam lápidem mittat. Et íterum se inclínans, scribébat in terra. Audiéntes autem unus post unum exíbant, incipiéntes a senióribus: et remánsit solus Jesus, et múlier in médio stans. Erigens autem se Jesus, dixit ei: Múlier, ubi sunt, qui te accusábant? nemo te condemnávit? Quæ dixit: Nemo, Dómine. Dixit autem Jesus: Nec ego te condemnábo: Vade, et jam ámplius noli peccáre.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
+            "incipit": "Ave, María, grátia",
+            "mp3": "offertoire_ave-maria.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Offertorium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Secreta",
+            "texte": "In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta confírma: ut, qui concéptum de Vírgine Deum verum et hóminem confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad ætérnam mereámur perveníre lætítiam.\n$Per eundem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Communio",
+            "texte": "!Is 7:14\nEcce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus Emmánuel.",
+            "incipit": "Ecce, Virgo concípiet",
+            "mp3": "communion_ecce-virgo-concipiet.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Postcommunio",
+            "texte": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:13; 44:15-16\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème. Je dis mes œuvres au Roi.\n&Gloria\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)",
+            "incipit": "Tous les riches",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad3-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 13:1-9, 15-17, 19-30, 33-62\nIn diébus illis: Erat vir hábitans in Babylóne, et nomen ejus Jóakim: et accépit uxorem nómine Susánnam, fíliam Helcíæ, pulchram nimis, et timéntem Deum: paréntes enim illíus, cum essent justi, erudiérunt fíliam suam secúndum legem Móysi. Erat autem Jóakim dives valde, et erat ei pomárium vicínum dómui suæ: et ad ipsum confluébant Judǽi, eo quod esset honorabílior ómnium. Et constítuti sunt de pópulo duo senes júdices in illo anno: de quibus locútus est Dóminus: Quia egréssa est iníquitas de Babylóne a senióribus judícibus, qui videbántur régere pópulum. Isti frequentábant domum Jóakim, et veniébant ad eos omnes, qui habébant judícia. Cum autem pópulus revertísset per merídiem, ingrediebátur Susánna, et deambulábat in pomário viri sui. Et vidébant eam senes cotídie ingrediéntem et deambulántem: et exarsérunt in concupiscéntiam ejus: et evertérunt sensum suum, et declinavérunt óculos suos, ut non vidérent cœlum, neque recordaréntur judiciórum justórum. Factum est autem, cum observárent diem aptum, ingréssa est aliquándo sicut heri et núdius tértius, cum duábus solis puéllis, voluítque lavári in pomário: æstus quippe erat, et non erat ibi quisquam, præter duos senes abscónditos et contemplántes eam. Dixit ergo puéllis: Afférte mihi óleum et smígmata, et óstia pomárii cláudite, ut laver. Cum autem egréssæ essent puéllæ, surrexérunt duo senes, et accurrérunt ad eam, et dixérunt: Ecce, óstia pomárii clausa sunt, et nemo nos videt, et nos in concupiscéntia tui sumus: quam ob rem assentíre nobis, et commiscére nobiscum. Quod si nolúeris, dicémus contra te testimónium, quod fúerit tecum júvenis, et ob hanc causam emíseris puéllas a te. Ingémuit Susánna, et ait: Angústiæ sunt mihi úndique: si enim hoc égero, mors mihi est: si autem non egero, non effúgiam manus vestras. Sed mélius est mihi absque ópere incídere in manus vestras, quam peccáre in conspéctu Dómini. Et exclamávit voce magna Susánna: exclamavérunt autem et senes adversus eam. Et cucúrrit unus ad óstia pomárii, et aperuit. Cum ergo audíssent clamórem fámuli domus in pomário, irruérunt per postícum, ut vidérent, quidnam esset. Postquam autem senes locúti sunt, erubuérunt servi veheménter: quia numquam dictus fúerat sermo hujuscémodi de Susánna. Et facta est dies crástina. Cumque venísset pópulus ad Jóakim virum ejus, venérunt et duo senióres, pleni iníqua cogitatióne advérsus Susánnam, ut interfícerent eam. Et dixérunt coram pópulo: Míttite ad Susánnam fíliam Helcíæ, uxórem Jóakim. Et statim misérunt. Et venit cum paréntibus et fíliis et univérsis cognátis suis. Flébant ígitur sui, et omnes qui nóverant eam. Consurgéntes autem duo senióres in médio pópuli, posuérunt manus suas super caput ejus. Quæ flens suspéxit ad cœlum: erat enim cor ejus fidúciam habens in Dómino. Et dixérunt senióres: Cum deambularémus in pomário soli, ingréssa est hæc cum duábus puéllis: et clausit óstia pomárii, et dimísit a se puéllas. Venítque ad eam adoléscens, qui erat abscónditus, et concúbuit cum ea. Porro nos, cum essémus in ángulo pomárii, vidéntes iniquitátem, cucúrrimus ad eos, et vídimus eos pariter commiscéri. Et illum quidem non quívimus comprehéndere, quia fórtior nobis erat, et apértis óstiis exsilívit: hanc autem cum apprehendissémus, interrogávimus, quisnam esset adoléscens, et nóluit indicáre nobis: hujus rei testes sumus. Crédidit eis multitúdo quasi sénibus et judícibus pópuli, et condemnavérunt eam ad mortem. Exclamávit autem voce magna Susánna, et dixit: Deus ætérne, qui absconditórum es cógnitor, qui nosti ómnia, ántequam fiant, tu scis, quóniam falsum testimónium tulérunt contra me: et ecce, mórior, cum nihil horum fécerim, quæ isti malitióse composuérunt advérsum me. Exaudívit autem Dóminus vocem ejus. Cumque ducerétur ad mortem, suscitávit Dóminus spíritum sanctum pueri junióris, cujus nomen Dániel. Et exclamávit voce magna: Mundus ego sum a sánguine hujus. Et convérsus omnis pópulus ad eum, dixit: Quis est iste sermo, quem tu locútus es? Qui cum staret in médio eórum, ait: Sic fátui, fílii Israël, non judicántes, neque quod verum est cognoscéntes, condemnástis fíliam Israël? Revertímini ad judícium, quia falsum testimónium locúti sunt advérsus eam. Revérsus est ergo pópulus cum festinatióne. Et dixit ad eos Dániel: Separáte illos ab ínvicem procul, et dijudicábo eos. Cum ergo divísi essent alter ab áltero, vocávit unum de eis, et dixit ad eum: Inveteráte diérum malórum, nunc venérunt peccáta tua, quæ operabáris prius: júdicans judícia injústa, innocéntes ópprimens, et dimíttens nóxios, dicénte Dómino: Innocéntem et justum non interfícies. Nunc ergo, si vidisti eam, dic, sub qua arbóre vidéris eos colloquéntes sibi. Qui ait: Sub schino. Dixit autem Dániel: Recte mentítus es in caput tuum. Ecce enim, Angelus Dei, accépta senténtia ab eo, scindet te médium. Et, amóto eo, jussit veníre álium, et dixit ei: Semen Chánaan, et non Juda, spécies decépit te, et concupiscéntia subvértit cor tuum: sic faciebátis filiábus Israël, et illæ timéntes loquebántur vobis: sed fília Juda non sustínuit iniquitátem vestram. Nunc ergo dic mihi, sub qua arbóre comprehénderis eos loquéntes sibi. Qui ait: Sub prino. Dixit autem ei Dániel: Recte mentítus es et tu in caput tuum: manet enim Angelus Dómini, gládium habens, ut secet te médium, et interfíciat vos. Exclamávit itaque omnis cœtus voce magna, et benedixérunt Deum, qui salvat sperántes in se. Et consurrexérunt advérsus duos senióres [convícerat enim eos Dániel ex ore suo falsum dixísse testimónium], fecerúntque eis, sicut male égerant advérsus próximum: et interfecérunt eos, et salvátus est sanguis innóxius in die illa.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Graduale",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Alléluia, alléluia.\n!Luc 1:28\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3 et 5\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11 et 12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13 et 10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Adducéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad3-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 8:1-11\nIn illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo íterum venit in templum, et omnis pópulus venit ad eum, et sedens docébat eos. Addúcunt autem scribæ et pharisǽi mulíerem in adultério deprehénsam: et statuérunt eam in médio, et dixérunt ei: Magíster, hæc múlier modo deprehénsa est in adultério. In lege autem Móyses mandávit nobis hujúsmodi lapidáre. Tu ergo quid dicis? Hoc autem dicébant tentántes eum, ut possent accusáre eum. Jesus autem inclínans se deórsum, dígito scribébat in terra. Cum ergo perseverárent interrogántes eum, eréxit se, et dixit eis: Qui sine peccáto est vestrum, primus in illam lápidem mittat. Et íterum se inclínans, scribébat in terra. Audiéntes autem unus post unum exíbant, incipiéntes a senióribus: et remánsit solus Jesus, et múlier in médio stans. Erigens autem se Jesus, dixit ei: Múlier, ubi sunt, qui te accusábant? nemo te condemnávit? Quæ dixit: Nemo, Dómine. Dixit autem Jesus: Nec ego te condemnábo: Vade, et jam ámplius noli peccáre.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
+            "incipit": "Ave, María, grátia",
+            "mp3": "offertoire_ave-maria.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Offertorium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Secreta",
+            "texte": "Affermissez en nous, Seigneur, les sacrements de la vraie foi, afin que, par la puissance de la résurrection du Christ qui nous sauve, lui que nous confessons vrai Dieu et vrai homme, nous méritions de parvenir à la joie éternelle.\n$Per eumdem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Communio",
+            "texte": "!Is 7:14\nVoici que la Vierge concevra et elle enfantera un fils, et on l'appellera Emmanuel.",
+            "incipit": "Voici que la",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/03-25.txt",
+            "section": "Postcommunio",
+            "texte": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 22:4\nSi ámbulem in médio umbræ mortis, non timébo mala: quóniam tu mecum es, Dómine.\nV. Virga tua et báculus tuus, ipsa me consoláta sunt.",
-        "Francais": "!Ps 22:4\nSi je marche au milieu de l'ombre de la mort, je ne crains aucun mal, car vous êtes avec moi, Seigneur.\nV. Votre houlette et votre bâton m’ont consolé."
-      },
-      "audios": "Graduale Project/graduel_si-ambulem.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C10",
-        "Francais": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)"
-      },
-      "audios": "Graduale Project/offertoire_gressus-meos.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C10a",
-        "Francais": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)"
-      },
-      "audios": "Graduale Project/communion_nemo-te-condemnavit.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/03-25.txt",
+        "Francais/Tempora/Quad3-6.txt",
+        "Latin/Sancti/03-25.txt",
+        "Latin/Tempora/Quad3-6.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

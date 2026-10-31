@@ -1,68 +1,252 @@
 {
   "date": "2026-12-20",
-  "celebration": {
-    "nom": "4e dimanche de l'Avent",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Adv4-0"
-  ],
-  "cles_jour": [
-    "Adv4-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv4",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Isa 45:8\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem\n!Ps 18:2\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem",
-        "Francais": "!Isa 45:8\nv. Cieux, répandez d'en-haut votre rosée, et que les nuées fasssent pleuvoir le Juste ; que la terre s'ouvre, et qu'elle fasse germer le Sauveur.\n!Ps 18:2\nLes cieux racontent la gloire de Dieu, et le firmament annonce l'œuvre de ses mains.\n&Gloria\nv. Cieux, répandez d'en-haut votre rosée, et que les nuées fasssent pleuvoir le Juste ; que la terre s'ouvre, et qu'elle fasse germer le Sauveur."
+      "occurrence": {
+        "gagnant": "Tempora/Adv4-0",
+        "nom_sanctoral": "",
+        "classe": 6.01,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Adv4-0.txt",
+        "temporal": "Latin/Tempora/Adv4-0.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:1-5\nFrères, qu'on nous regarde bien comme des serviteurs du Christ et des dispensateurs des mystères de Dieu. Ce que l'on cherche dans les dispensateurs, c'est que chacun soit trouvé fidèle. Pour moi, il m'importe fort peu d'être jugé par vous ou par un tribunal humain ; je ne me juge pas moi-même ; car, quoique je ne me sente coupable de rien, je ne suis pas pour cela justifié : mon juge, c'est le Seigneur. C'est pourquoi ne jugez de rien avant le temps jusqu'à ce que vienne le Seigneur : il mettra en lumière ce qui est caché dans les ténèbres et manifestera les desseins des cœurs, et alors chacun recevra de Dieu la louange qui lui est due."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Introitus",
+            "texte": "!Isa 45:8\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem\n!Ps 18:2\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem",
+            "incipit": "Roráte, cœli, désuper,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Oratio",
+            "texte": "Excita, quǽsumus, Dómine, poténtiam tuam, et veni: et magna nobis virtúte succúrre; ut per auxílium grátiæ tuæ, quod nostra peccáta præpédiunt, indulgéntia tuæ propitiatiónis accéleret:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:1-5\nFratres: Sic nos exístimet homo ut minístros Christi, et dispensatóres mysteriórum Dei. Hic jam quǽritur inter dispensatóres, ut fidélis quis inveniátur. Mihi autem pro mínimo est, ut a vobis júdicer aut ab humáno die: sed neque meípsum júdico. Nihil enim mihi cónscius sum: sed non in hoc justificátus sum: qui autem júdicat me, Dóminus est. Ítaque nolíte ante tempus judicáre, quoadúsque véniat Dóminus: qui et illuminábit abscóndita tenebrárum, et manifestábit consília córdium: et tunc laus erit unicúique a Deo.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 144:18; 144:21\nPrope est Dóminus ómnibus invocántibus eum: ómnibus, qui ínvocant eum in veritáte.\nV. Laudem Dómini loquétur os meum: et benedícat omnis caro nomen sanctum ejus. Allelúja, allelúja,\nV. Veni, Dómine, et noli tardáre: reláxa facínora plebis tuæ Israël. Allelúja.",
+            "incipit": "Prope est Dóminus",
+            "mp3": "graduel_prope-est-dominus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 3:1-6\nAnno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto Judǽam, tetrárcha autem Galilǽæ Heróde, Philíppo autem fratre ejus tetrárcha Iturǽæ et Trachonítidis regionis, et Lysánia Abilínæ tetrárcha, sub princípibus sacerdotum Anna et Cáipha: factum est verbum Domini super Joannem, Zacharíæ filium, in deserto. Et venit in omnem regiónem Jordánis, prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum, sicut scriptum est in libro sermónum Isaíæ Prophétæ: Vox clamántis in desérto: Paráte viam Dómini: rectas fácite sémitas ejus: omnis vallis implébitur: et omnis mons et collis humiliábitur: et erunt prava in dirécta, et áspera in vias planas: et vidébit omnis caro salutáre Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-6.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28\nAve, María, gratia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
+            "incipit": "Ave, María, gratia",
+            "mp3": "offertoire_ave-maria.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, placátus inténde: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-6.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Communio",
+            "texte": "!Is 7:14\nEcce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus Emmánuel.",
+            "incipit": "Ecce, Virgo concípiet",
+            "mp3": "communion_ecce-virgo-concipiet.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Adv4-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis munéribus, quǽsumus, Dómine: ut, cum frequentatióne mystérii, crescat nostræ salútis efféctus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Introitus",
+            "texte": "!Isa 45:8\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem\n!Ps 18:2\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et gérminet Salvatórem",
+            "incipit": "Roráte, cœli, désuper,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Oratio",
+            "texte": "Excita, quǽsumus, Dómine, poténtiam tuam, et veni: et magna nobis virtúte succúrre; ut per auxílium grátiæ tuæ, quod nostra peccáta præpédiunt, indulgéntia tuæ propitiatiónis accéleret:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:1-5\nFratres: Sic nos exístimet homo ut minístros Christi, et dispensatóres mysteriórum Dei. Hic jam quǽritur inter dispensatóres, ut fidélis quis inveniátur. Mihi autem pro mínimo est, ut a vobis júdicer aut ab humáno die: sed neque meípsum júdico. Nihil enim mihi cónscius sum: sed non in hoc justificátus sum: qui autem júdicat me, Dóminus est. Ítaque nolíte ante tempus judicáre, quoadúsque véniat Dóminus: qui et illuminábit abscóndita tenebrárum, et manifestábit consília córdium: et tunc laus erit unicúique a Deo.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 144:18; 144:21\nPrope est Dóminus ómnibus invocántibus eum: ómnibus, qui ínvocant eum in veritáte.\nV. Laudem Dómini loquétur os meum: et benedícat omnis caro nomen sanctum ejus. Allelúja, allelúja,\nV. Veni, Dómine, et noli tardáre: reláxa facínora plebis tuæ Israël. Allelúja.",
+            "incipit": "Prope est Dóminus",
+            "mp3": "graduel_prope-est-dominus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 3:1-6\nLa quinzième année du règne de Tibère César, Ponce Pilate étant gouverneur de la Judée ; Hérode, tétrarque de la Galilée ; Philippe, son frère, tétrarque de l'Iturée et du pays de la Trachonitide, et Lysanias, tétrarque de l'Abilène ; au temps des grands prêtres Anne et Caïphe, la parole de Dieu fut sur Jean, fils de Zacharie, dans le désert. Et il vint dans toute la région du Jourdain, prêchant un baptême de repentir pour la rémission des péchés, ainsi qu'il est écrit au livre des oracles du prophète Isaïe : Voix de celui qui crie dans le désert : Préparez le chemin du Seigneur, aplanissez ses sentiers. Toute vallée sera comblée, toute montagne et colline seront abaissées; les chemins tortueux deviendront droits, et les raboteux unis. Et toute chair verra le salut de Dieu.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Adv3-6.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28\nAve, María, gratia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
+            "incipit": "Ave, María, gratia",
+            "mp3": "offertoire_ave-maria.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Secreta",
+            "texte": "Jetez, Seigneur, un regard bienveillant sur ce sacrifice, afin que notre dévotion s'en trouve accrue, et notre salut mieux assuré.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Adv3-6.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Communio",
+            "texte": "!Is 7:14\nVoici que la Vierge concevra et elle enfantera un fils, et on l'appellera Emmanuel.",
+            "incipit": "Voici que la",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Adv4-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis munéribus, quǽsumus, Dómine: ut, cum frequentatióne mystérii, crescat nostræ salútis efféctus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 144:18; 144:21\nPrope est Dóminus ómnibus invocántibus eum: ómnibus, qui ínvocant eum in veritáte.\nV. Laudem Dómini loquétur os meum: et benedícat omnis caro nomen sanctum ejus. Allelúja, allelúja,\nV. Veni, Dómine, et noli tardáre: reláxa facínora plebis tuæ Israël. Allelúja.",
-        "Francais": "!Ps 144:18; 144:21\nLe Seigneur est proche de tous ceux qui l'invoquent, de tous ceux qui l'invoquent en vérité.\nV. Ma bouche annoncera la louange du Seigneur ; que toute chair bénisse son saint Nom. Alléluia, alléluia.\nV. Venez, Seigneur, et ne tardez point ; pardonnez les péchés de votre peuple Israël. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_prope-est-dominus.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 3:1-6\nLa quinzième année du règne de Tibère César, Ponce Pilate étant gouverneur de la Judée ; Hérode, tétrarque de la Galilée ; Philippe, son frère, tétrarque de l'Iturée et du pays de la Trachonitide, et Lysanias, tétrarque de l'Abilène ; au temps des grands prêtres Anne et Caïphe, la parole de Dieu fut sur Jean, fils de Zacharie, dans le désert. Et il vint dans toute la région du Jourdain, prêchant un baptême de repentir pour la rémission des péchés, ainsi qu'il est écrit au livre des oracles du prophète Isaïe : Voix de celui qui crie dans le désert : Préparez le chemin du Seigneur, aplanissez ses sentiers. Toute vallée sera comblée, toute montagne et colline seront abaissées; les chemins tortueux deviendront droits, et les raboteux unis. Et toute chair verra le salut de Dieu."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Luc 1:28\nAve, María, gratia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
-        "Francais": "!Luc 1:28\nJe vous salue, Marie, pleine de grâce, le Seigneur est avec vous. Vous êtes bénie parmi les femmes, et béni est le fruit de votre ventre."
-      },
-      "audios": "Graduale Project/offertoire_ave-maria.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C10a:Communio",
-        "Francais": "!Is 7:14\nVoici que la Vierge concevra et enfantera un fils, et on l'appellera Emmanuel."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Adv4-0.txt",
+        "Latin/Tempora/Adv4-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

@@ -1,70 +1,331 @@
 {
   "date": "2026-09-15",
-  "celebration": {
-    "nom": "Notre-Dame des Sept Douleurs",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/09-15",
-    "Tempora/Pent16-2"
-  ],
-  "cles_jour": [
-    "09-15",
-    "Pent16-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent16",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Tempora/Quad5-5",
-        "Francais": "!Joann 19:25\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine.\n!Joann 19:26-27\nFemme, voilà votre fils : dit Jésus. Puis iau disciple : Voilà ta mère.\n&Gloria\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine."
+      "occurrence": {
+        "gagnant": "Sancti/09-15",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/09-15.txt",
+        "temporal": "Latin/Tempora/Pent16-2.txt",
+        "sanctoral": "Latin/Sancti/09-15.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Judith.\n!Judith 13:22; 13:23-25\nLe Seigneur vous a bénie de sa force, et il a anéanti par vous nos ennemis. Vous êtes bénie, ma fille, par le Seigneur, le Très Haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur qui a créé le ciel et la terre, car il a rendu aujourd’hui votre nom si célèbre, que les hommes, se souvenant à jamais de la puissance du Seigneur, ne cesseront jamais de vous louer, parce que vous n’avez pas épargné votre vie pour eux, en voyant les angoisses et les tribulations de votre peuple ; mais vous avez empêché sa ruine en présence de notre Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Introitus",
+            "texte": "!Joann 19:25\nv. Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne.\n!Joann 19:26-27.\nMúlier, ecce fílius tuus: dixit Jesus; ad discípulum autem: Ecce Mater tua.\n&Gloria\nv. Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne.",
+            "incipit": "Stabant juxta Crucem",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Oratio",
+            "texte": "Deus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gladius pertransívit: concéde propítius; ut, qui transfixiónem ejus et passiónem venerándo recólimus, gloriósis méritis et précibus ómnium Sanctórum Cruci fidéliter astántium intercedéntibus, passiónis tuæ efféctum felícem consequámur:\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Judith.\n!Judith 13:22, 23-25\nBenedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino, Deo excélso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram: quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Graduale",
+            "texte": "Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini Jesu, Fílii tui, Redemptóris.\nV. Virgo Dei Génetrix, quem totus non capift orbis, hoc crucis fert supplícium, auctor vitæ factus homo. Allelúja, allelúja.\nV. Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa.",
+            "incipit": "Dolorósa et lacrimábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_\n!Tractus\nGaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 19:25-27\nIn illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus Matrem, et discípulum stantem, quem diligébat, dicit Matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce Mater tua. Et ex illa hora accépit eam discípulus in sua.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 18:20\nRecordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.",
+            "incipit": "Recordáre, Virgo Mater,",
+            "mp3": "offertoire_recordare-virgo-mater.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-16.txt",
+                    "section": "Offertorium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Secreta",
+            "texte": "Offérimus tibi preces et hóstias, Dómine Jesu Christe, humíliter supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátæ Maríæ, Matris tuæ, précibus recensémus; suo suorúmque sub Cruce Sanctórum consórtium multiplicáto piíssimo intervéntu, méritis mortis tuæ, méritum cum beátis habeámus:\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Communio",
+            "texte": "Felices sensus beátæ Maríæ Vírginis, qui sine morte meruérunt martýrii palmam sub Cruce Dómini.",
+            "incipit": "Felices sensus beátæ",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/09-15.txt",
+            "section": "Postcommunio",
+            "texte": "Sacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem Matris tuæ et Vírginis devóte celebrántes: nobis ímpetrent apud cleméntiam tuam omnis boni salutáris efféctum:\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad5-5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Introitus",
+            "texte": "!Joann 19:25\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine.\n!Joann 19:26-27.\nFemme, voilà votre fils : dit Jésus. Puis iau disciple : Voilà ta mère.\n&Gloria\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine.",
+            "incipit": "Debout près de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Oratio",
+            "texte": "Ô Dieu, dans la passion duquel, suivant la prophétie de Siméon, un glaive de douleur a percé le cœur très doux de la glorieuse Vierge Marie, votre Mère, faites, dans votre miséricorde, que célébrant avec respect le souvenir de ses douleurs, nous recueillions les heureux fruits de votre passion.\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Judith.\n!Judith 13:22, 23-25\nLe Seigneur vous a bénie de sa force, et il a anéanti par vous nos ennemis. Vous êtes bénie, ma fille, par le Seigneur, le Très Haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur qui a créé le ciel et la terre, car il a rendu aujourd’hui votre nom si célèbre, que les hommes, se souvenant à jamais de la puissance du Seigneur, ne cesseront jamais de vous louer, parce que vous n’avez pas épargné votre vie pour eux, en voyant les angoisses et les tribulations de votre peuple ; mais vous avez empêché sa ruine en présence de notre Dieu.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Graduale",
+            "texte": "Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini Jesu, Fílii tui, Redemptóris.\nV. Virgo Dei Génetrix, quem totus non capift orbis, hoc crucis fert supplícium, auctor vitæ factus homo. Allelúja, allelúja.\nV. Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa.",
+            "incipit": "Dolorósa et lacrimábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.\n!\nRéjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies.\nV. Vous qui avez cru aux paroles de l’Archange Gabriel.\nV. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée.\nV. Mère de Dieu, intercédez pour nous.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem. P\n!Joann 19:25-27\nEn ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 18:20.\nSouvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation.",
+            "incipit": "Souvenez-vous, ô Vierge",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Secreta",
+            "texte": "Seigneur Jésus-Christ, nous vous offrons ces prières et ces hosties, en suppliant humblement de faire que, nous qui nous rappelons dans nos prières que l’âme très douce de la bienheureuse Marie, votre Mère fut transpercée : nous méritions, grâce à sa très miséricordieuse intervention jointe à celle des Saints qui l’accompagnaient au pied de la Croix, d’avoir part avec les bieheureux aux mérites de votre mort.\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Communio",
+            "texte": "!\nHeureux le cœur de la bienheureuse Vierge Marie, qui sans mourir obtint la palme du martyre au pied de la Croix du Seigneur.",
+            "incipit": "Heureux le cœur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/09-15.txt",
+            "section": "Postcommunio",
+            "texte": "Que le sacrifice auquel nous avons communié, Seigneur Jésus-Christ, en célébrant avec dévotion la transfixion de la Vierge, votre Mère, nous obtienne de votre clémence le plein effet de votre œuvre de salut.\n$Qui vivis",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad5-5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini Jesu, Fílii tui, Redemptóris.\nV. Virgo Dei Génetrix, quem totus non capift orbis, hoc crucis fert supplícium, auctor vitæ factus homo. Allelúja, allelúja.\nV. Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa.",
-        "Francais": "Douloureuse et en larmes, Vierge Marie, vous vous tenez au pied de la Croix du Seigneur Jésus, votre Fils, le Rédempteur.\nV. Vierge Mère de Dieu, celui que le monde ne peut contenir, l’auteur de la vie fait homme, subit ce supplice de la Croix. Alléluia, alléluia.\nV. Sainte Marie, la Reine du ciel et Maîtresse du Monde, se tenait pleine de douleurs au pied de la Croix de Notre-Seigneur Jésus-Christ."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 19:25-27.\nEn ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Tempora/Quad5-5",
-        "Francais": "!Jer 18:20\nSouvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Quad5-5",
-        "Francais": "Heureux le cœur de la bienheureuse Vierge Marie, qui sans mourir obtint la palme du martyre au pied de la Croix du Seigneur."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/09-15.txt",
+        "Latin/Sancti/09-15.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,69 +1,266 @@
 {
   "date": "2028-07-25",
-  "celebration": {
-    "nom": "Saint Jacques le Majeur, apôtre",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-25",
-    "Tempora/Pent07-2"
-  ],
-  "cles_jour": [
-    "07-25",
-    "Pent07-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent07",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Sancti/02-24",
-        "Francais": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu : leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2\nSeigneur, vous m’avez éprouvé et vous m’avez connu : vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu : leur dignité de princes de l’Église a été puissamment établie."
+      "occurrence": {
+        "gagnant": "Sancti/07-25",
+        "nom_sanctoral": "",
+        "classe": 5.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-25.txt",
+        "temporal": "Latin/Tempora/Pent07-2.txt",
+        "sanctoral": "Latin/Sancti/07-25.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_mihi-autem-nimis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 4:9-15\nMes Frères : il me semble que Dieu nous ait fait paraître, nous les Apôtres, comme les derniers des hommes, comme des condamnés à mort, puisque nous avons été en spectacle au monde, aux anges et aux hommes. Nous, nous sommes insensés à cause du Christ, et vous, vous êtes sages en Jésus-Christ ; nous, nous sommes faibles, et vous, vous êtes forts ; vous, vous êtes en honneur, et nous dans le mépris ! A cette heure encore, nous souffrons la faim, la soif, la nudité ; nous sommes meurtris de coups, nous n’avons ni feu ni lieu, et nous nous fatiguons à travailler de nos propres mains ; maudits, nous bénissons ; persécutés, nous le supportons ; calomniés, nous supplions ; nous sommes jusqu’à présent comme des balayures du monde, le rebut des hommes. Ce n’est pas pour vous faire honte que j’écris ces choses ; mais je vous avertis comme mes enfants bien-aimés. Car, eussiez-vous dix mille maîtres dans le Christ, vous n’avez pas cependant plusieurs pères, puisque c’est moi qui vous ai engendrés en Jésus-Christ par l’Évangile."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Oratio",
+            "texte": "Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra mente desérviat.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:9-15\nFratres: Puto, quod Deus nos Apóstolos novíssimos osténdit, tamquam morti destinátos: quia spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cædimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndam vos, hæc scribo, sed ut fílios meos caríssimos móneo. Nam si decem mília pædagogórum habeátis in Christo: sed non multos patres. Nam in Christo Jesu per Evangélium ego vos génui.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:17; 44:18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.\nAllelúja, allelúja.\n!Joannes 15:16\nEgo vos elegi de mundo, ut eátis, et fructum afferátis, et fructus vester máneat. Allelúja.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "graduel_constitues-eos-principes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 20:20-23\nIn illo témpore: Accessit ad Jesum mater filiórum Zebedæi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Néscitis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/05-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:5\nIn omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.",
+            "incipit": "In omnem terram",
+            "mp3": "offertoire_in-omnem-terram.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-04oct.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Secreta",
+            "texte": "Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli pássio beáta concíliet: et, quæ nostris non aptæ sunt méritis, fiant tibi plácitæ ejus deprecatióne.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-25.txt",
+            "section": "Postcommunio",
+            "texte": "Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos ádjuva: pro cujus festivitáte percépimus tua sancta lætántes.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2.\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.",
+            "incipit": "Selon moi, vos",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Oratio",
+            "texte": "Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra mente desérviat.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:9-15\nFratres: Puto, quod Deus nos Apóstolos novíssimos osténdit, tamquam morti destinátos: quia spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cædimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndam vos, hæc scribo, sed ut fílios meos caríssimos móneo. Nam si decem mília pædagogórum habeátis in Christo: sed non multos patres. Nam in Christo Jesu per Evangélium ego vos génui.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:17; 44:18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.\nAllelúja, allelúja.\n!Joannes 15:16\nEgo vos elegi de mundo, ut eátis, et fructum afferátis, et fructus vester máneat. Allelúja.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "graduel_constitues-eos-principes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:20-23\nEn ce temps-là : la mère des fils de Zébédée s’approcha de Jésus avec ses fils et se prosterna pour lui faire une demande ; Il lui dit : « Que voulez-vous ?» Elle lui dit : « Ordonnez que mes deux fils, que voici, siègent l’un à votre droite, l’autre à votre gauche, dans votre royaume.» Jésus répondit : « Vous ne savez pas ce que vous demandez. Pouvez-vous boire le calice que, moi, je dois boire ? — Nous le pouvons,» lui dirent-ils. Il leur dit : « Vous boirez, en effet, mon calice ; quant à siéger à ma droite ou à ma gauche, il ne m’appartient pas de l’accorder ; c’est pour ceux pour qui mon Père l’a préparé.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/05-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:5\nLeur bruit s’est répandu dans toute la terre, et leurs paroles jusqu’aux extrémités du monde",
+            "incipit": "Leur bruit s’est",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-04oct.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Secreta",
+            "texte": "Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli pássio beáta concíliet: et, quæ nostris non aptæ sunt méritis, fiant tibi plácitæ ejus deprecatióne.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël.",
+            "incipit": "Vous qui m’avez",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-25.txt",
+            "section": "Postcommunio",
+            "texte": "Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos ádjuva: pro cujus festivitáte percépimus tua sancta lætántes.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 44:17; 44:18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi. \nAllelúja, allelúja.\n!Joannes 15:16\nEgo vos elegi de mundo, ut eátis, et fructum afferátis, et fructus vester máneat. Allelúja.",
-        "Francais": "!Ps 44:17; 44:18\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération, Seigneur.\nV. À la place de vos pères, des fils vous sont nés, c’est pourquoi les peuples vous loueront. Alléluia, alléluia.\n!Joannes 15:16\nC’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_constitues-eos-principes.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:20-23\nEn ce temps-là : la mère des fils de Zébédée s’approcha de Jésus avec ses fils et se prosterna pour lui faire une demande ; Il lui dit : « Que voulez-vous ?» Elle lui dit : « Ordonnez que mes deux fils, que voici, siègent l’un à votre droite, l’autre à votre gauche, dans votre royaume.» Jésus répondit : « Vous ne savez pas ce que vous demandez. Pouvez-vous boire le calice que, moi, je dois boire ? — Nous le pouvons,» lui dirent-ils. Il leur dit : « Vous boirez, en effet, mon calice ; quant à siéger à ma droite ou à ma gauche, il ne m’appartient pas de l’accorder ; c’est pour ceux pour qui mon Père l’a préparé.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/07-04oct",
-        "Francais": "!Ps 18:5\nLeur bruit s’est répandu dans toute la terre, et leurs paroles jusqu’aux extrémités du monde"
-      },
-      "audios": "Graduale Project/offertoire_in-omnem-terram.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Sancti/02-24"
-      },
-      "audios": "Graduale Project/communion_vos-qui-secuti.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/07-25.txt",
+        "Latin/Sancti/07-25.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

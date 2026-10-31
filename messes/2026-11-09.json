@@ -1,17 +1,212 @@
 {
   "date": "2026-11-09",
-  "celebration": {
-    "nom": "Dédicace de la basilique du Latran",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/11-09",
-    "Tempora/Pent22-1"
-  ],
-  "cles_jour": [
-    "11-09",
-    "Pent22-1"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "PentEpi5",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/11-09",
+        "nom_sanctoral": "",
+        "classe": 5.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/11-09.txt",
+        "temporal": "Latin/Tempora/PentEpi5-1.txt",
+        "sanctoral": "Latin/Sancti/11-09.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Introitus",
+            "texte": "!Gen 28:17\nv. Terríbilis est locus iste: hic domus Dei est et porta cœli: et vocábitur aula Dei. (Allelúja, allelúja.)\n!Ps 83:2-3\nQuam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.\n&Gloria\nv. Terríbilis est locus iste: hic domus Dei est et porta cœli: et vocábitur aula Dei. (Allelúja, allelúja.)",
+            "incipit": "Terríbilis est locus",
+            "mp3": "introitus_terribilis-est.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Oratio",
+            "texte": "!In Anniversario Dedicationis Ecclesiæ\nv. Deus, qui nobis per síngulos annos hujus sancti templi tui consecratiónis réparas diem, et sacris semper mystériis repræséntas incólumes: exáudi preces pópuli tui, et præsta; ut quisquis hoc templum benefícia petitúrus ingréditur, cuncta se impetrásse lætétur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 21:2-5\nIn diébus illis: Vidi sanctam civitátem Jerúsalem novam descendéntem de cœlo a Deo, parátam sicut sponsam ornátam viro suo. Et audívi vocem magnam de throno dicéntem: Ecce tabernáculum Dei cum homínibus, et habitábit cum eis. Et ipsi pópulus ejus erunt, et ipse Deus cum eis erit eórum Deus: et abstérget Deus omnem lácrimam ab óculis eórum: et mors ultra non erit, neque luctus neque clamor neque dolor erit ultra, quia prima abiérunt. Et dixit, qui sedébat in throno: Ecce, nova fácio ómnia.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Graduale",
+            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est.\nV. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum. Allelúja, allelúja.\n!Ps 137:2\nAdorábo ad templum sanctum tuum: et confitébor nómini tuo. Allelúja.",
+            "incipit": "Locus iste a",
+            "mp3": "graduel_locus-iste.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Tractus",
+            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est.\nV. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum.\n!Ps 124:1-2\nQui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum, qui hábitat in Jerúsalem.\nV. Montes in circúitu ejus, et Dóminus in circúitu pópuli sui, ex hoc nunc, et usque in sǽculum.",
+            "incipit": "Locus iste a",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/11-09.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/11-09.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Offertorium",
+            "texte": "!1 Par 29:17-18\nDómine Deus, in simplicitáte cordis mei lætus óbtuli univérsa; et pópulum tuum, qui repértus est, vidi cum ingénti gáudio: Deus Israël, custódi hanc voluntátem, allelúja.",
+            "incipit": "Dómine Deus, in",
+            "mp3": "offertoire_domine-deus-in.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/11-09.txt",
+            "section": "Secreta",
+            "texte": "Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præséntia réddimus, ad ætérna præmia, te adjuvánte, perveníre mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/11-09.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Communio",
+            "texte": "!Matt 21:13\nDomus mea domus oratiónis vocábitur, dicit Dóminus: in ea omnis, qui petit, áccipit; et qui quærit, invénit; et pulsánti aperiétur. (Allelúja.)",
+            "incipit": "Domus mea domus",
+            "mp3": "communion_domus-mea.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut, quod Ecclésiæ tuæ corporálibus próficit spátiis, spirituálibus amplificétur augméntis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Introitus",
+            "texte": "!Gn 28:17\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)\n!Ps 83:2-3\nQue vos demeures sont aimables, Dieu des armées ! Mon âme languit, défaillante, après les parvis du Seigneur.\n&Gloria\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)",
+            "incipit": "Que ce lieu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Oratio",
+            "texte": "Ô Dieu, qui chaque année faites revivre pour nous le jour où fut consacré ce sanctuaire, votre temple, et nous maintenez en vie pour participer à ces saints mystères, exaucez les prières de votre peuple, et faites que tout fidèle qui pénètre ici pour implorer vos bienfaits ait la joie de voir ses désirs comblés.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de l’Apocalypse du bienheureux Jean.\n!Apoc 21:2-5\nEn ces jours-là : Je vis descendre du ciel, d’auprès de Dieu, la ville sainte, une Jérusalem nouvelle, vêtue comme une nouvelle mariée parée pour son époux. Et j’entendis une voix forte qui disait : « Voici le tabernacle de Dieu avec les hommes : il habitera avec eux, et ils seront son peuple; et lui-même il sera le Dieu avec eux, il sera leur Dieu. Et Dieu essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n’y aura plus ni deuil, ni cri, ni douleur, car les premières choses ont disparu. » Et Celui qui était assis sur le trône, dit : « Voici que je fais toutes choses nouvelles. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Graduale",
+            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs. Alléluia, alléluia.\n!Ps 137:2\nJ’adorerai vers votre saint temple, et je célébrerai votre Nom. Alléluia.",
+            "incipit": "Dieu a fait",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Tractus",
+            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs.\n!Ps 124:1-2\nCelui qui se confie dans le Seigneur est comme le mont Sion ; il ne chancelle pas, immuable à jamais.\nV. Autour de Jérusalem, des montagnes ; autour de son peuple, le Seigneur, dès maintenant et à jamais.",
+            "incipit": "Dieu a fait",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/11-09.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:1-10\nIn illo témpore: Ingréssus Jesus perambulábat Jéricho. Et ecce, vir nómine Zachǽus: et hic princeps erat publicanórum, et ipse dives: ¶ et quærébat vidére Jesum, quis esset: et non póterat præ turba, quia statúra pusíllus erat. Et præcúrrens ascéndit in árborem sycómorum, ut vidéret eum; quia inde erat transitúrus. Et cum venísset ad locum, suspíciens Jesus vidit illum, et dixit ad eum: Zachǽe, festínans descénde; quia hódie in domo tua opórtet me manére. Et festínans descéndit, et excépit illum gaudens. Et cum vidérent omnes, murmurábant, dicéntes, quod ad hóminem peccatórem divertísset. Stans autem Zachǽus, dixit ad Dóminum: Ecce, dimídium bonórum meórum, Dómine, do paupéribus: et si quid áliquem defraudávi, reddo quádruplum. Ait Jesus ad eum: Quia hódie salus dómui huic facta est: eo quod et ipse fílius sit Abrahæ. Venit enim Fílius hóminis quǽrere et salvum fácere, quod períerat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Offertorium",
+            "texte": "!1 Par 29:17-18\nSeigneur mon Dieu, c’est en droiture de cœur que je vous ai offert tous ces dons, et je vois avec joie votre peuple ici réuni ; Dieu d’Israël, gardez-nous ces bonnes dispositions, alléluia.",
+            "incipit": "Seigneur mon Dieu,",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/11-09.txt",
+            "section": "Secreta",
+            "texte": "Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præséntia réddimus, ad ætérna præmia, te adjuvánte, perveníre mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/11-09.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Communio",
+            "texte": "!Matt 21:13\nMa maison sera appelée une maison de prière, dit le Seigneur. En elle, celui qui demande reçoit, celui qui cherche trouve, et pour celui qui frappe la porte s’ouvre. (Alléluia)",
+            "incipit": "Ma maison sera",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Postcommunio",
+            "texte": "Ô Dieu qui vous choisissez des pierres vivantes pour bâtir la demeure éternelle de votre gloire, venez en aide à votre peuple qui vous implore, pour que l’extension matérielle de votre Église en ses temples se double d’une croissance spirituelle.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C8.txt",
+        "../horas/Latin/Commune/C8.txt",
+        "Francais/Sancti/11-09.txt",
+        "Latin/Sancti/11-09.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

@@ -1,70 +1,240 @@
 {
   "date": "2027-10-07",
-  "celebration": {
-    "nom": "Notre-Dame du Rosaire",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/10-07",
-    "Tempora/Pent20-4"
-  ],
-  "cles_jour": [
-    "10-07",
-    "Pent20-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent20",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.",
-        "Francais": "! \nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 44:2\nDe mon cœur a jailli une parole excellente, c’est que je consacre mes œuvres à mon Roi.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu."
+      "occurrence": {
+        "gagnant": "Sancti/10-07",
+        "nom_sanctoral": "Festum Beatae Mariae Virginis a Rosario",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-07.txt",
+        "temporal": "Latin/Tempora/Pent20-4.txt",
+        "sanctoral": "Latin/Sancti/10-07.txt",
+        "calendrier": "10-07",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Prov 8:22-24; 8:32-35\nLe Seigneur m’a possédée au commencement de ses voies, avant de faire quoi que ce soit, dès le principe. J’ai été établie dès l’éternité, et dès les temps anciens, avant que la terre fût créée. Les abîmes n’étaient pas encore, et déjà j’étais conçue. Maintenant donc, mes fils, écoutez-moi : Heureux ceux qui gardent mes voies. Ecoutez mes instructions et soyez sages, et ne les rejetez pas. Heureux l’homme qui m’écoute, et qui veille tous les jours à ma porte, et qui se tient à la porte de ma maison. Celui qui me trouvera, trouvera la vie, et puisera le salut dans le Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis salútis ætérnæ præmia comparávit: concéde, quǽsumus; ut, hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur, quod cóntinent, et quod promíttunt, assequámur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-24; 8:32-35\nDóminus possédit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram. Nunc ergo, fílii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:5; 44:11; 44:12\nPropter veritátem et mansuetúdinem et justítiam, et dedúcet te mirabíliter déxtera tua.\nV. Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\nAllelúja, allelúja.\nV. Sollémnitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de tribu Juda, clara ex stirpe David. Allelúja.",
+            "incipit": "Propter veritátem et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_\n!Tractus\nGaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/09-12.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": [
+                      {
+                        "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
+                        "section": "Evangelium",
+                        "resolu": true,
+                        "sous_references": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Offertorium",
+            "texte": "!Eccli 24:25; Eccli 39:17\nIn me grátia omnis viæ et veritátis, in me omnis spes vitæ et virtútis: ego quasi rosa plantáta super rivos aquárum fructificávi.",
+            "incipit": "In me grátia",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Secreta",
+            "texte": "Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter aptári: et per sacratíssimi Rosárii mystéria sic vitam, passiónem et glóriam Unigéniti tui recólere; ut ejus digni promissiónibus efficiámur:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Communio",
+            "texte": "!Eccli 39:19\nFloréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus suis.",
+            "incipit": "Floréte, flores, quasi",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-07.txt",
+            "section": "Postcommunio",
+            "texte": "Sacratíssimæ Genetrícis tuæ, cujus Rosárium celebrámus, quǽsumus, Dómine, précibus adjuvémur: ut et mysteriórum, quæ cólimus, virtus percipiátur; et sacramentórum, quæ súmpsimus, obtineátur efféctus:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis salútis ætérnæ præmia comparávit: concéde, quǽsumus; ut, hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur, quod cóntinent, et quod promíttunt, assequámur.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-24; 8:32-35\nDóminus possédit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram. Nunc ergo, fílii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:5; 44:11; 44:12\nPropter veritátem et mansuetúdinem et justítiam, et dedúcet te mirabíliter déxtera tua.\nV. Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\nAllelúja, allelúja.\nV. Sollémnitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de tribu Juda, clara ex stirpe David. Allelúja.",
+            "incipit": "Propter veritátem et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.\n!\nRéjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies.\nV. Vous qui avez cru aux paroles de l’Archange Gabriel.\nV. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée.\nV. Mère de Dieu, intercédez pour nous.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/09-12.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Offertorium",
+            "texte": "!Eccli 24:25; Eccli 39:17\nIn me grátia omnis viæ et veritátis, in me omnis spes vitæ et virtútis: ego quasi rosa plantáta super rivos aquárum fructificávi.",
+            "incipit": "In me grátia",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Secreta",
+            "texte": "Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter aptári: et per sacratíssimi Rosárii mystéria sic vitam, passiónem et glóriam Unigéniti tui recólere; ut ejus digni promissiónibus efficiámur:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Communio",
+            "texte": "!Eccli 39:19\nFloréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus suis.",
+            "incipit": "Floréte, flores, quasi",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-07.txt",
+            "section": "Postcommunio",
+            "texte": "Sacratíssimæ Genetrícis tuæ, cujus Rosárium celebrámus, quǽsumus, Dómine, précibus adjuvémur: ut et mysteriórum, quæ cólimus, virtus percipiátur; et sacramentórum, quæ súmpsimus, obtineátur efféctus:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 44:5; 44:11; 44:12\nPropter veritátem et mansuetúdinem et justítiam, et dedúcet te mirabíliter déxtera tua. \nV. Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam. \nAllelúja, allelúja.\nV. Sollémnitas gloriósæ Vírginis Maríæ ex sémine Abrahæ, ortæ de tribu Juda, clara ex stirpe David. Allelúja.",
-        "Francais": "!Ps 44:5; 44:11; 44:12\nPour la vérité, la douceur et la justice, et que ta droite te fasse accomplir des faits merveilleux.\nV. Écoutez, ma Fille, voyez et tendez l’oreille : le Roi a désiré votre beauté. Alléluia, alléluia.\nV. Voici la Solennité de la glorieuse Vierge Marie de la race d’Abraham, née de la tribu de Juda, de la noble lignée de David. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Eccli 24:25; Eccli 39:17\nIn me grátia omnis viæ et veritátis, in me omnis spes vitæ et virtútis: ego quasi rosa plantáta super rivos aquárum fructificávi.",
-        "Francais": "!Eccli 24:25; Eccli 39:17\nEn moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu : j’ai porté des fruits comme le rosier planté près des eaux courantes."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Eccli 39:19\nFloréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus suis.",
-        "Francais": "!Eccli 39:19\nFleurissez des fleurs comme le lis ; exhalez votre parfum, émettez de gracieux rameaux ; chantez un cantique de louange, et bénissez le Seigneur dans ses oeuvres."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/10-07.txt",
+        "Latin/Sancti/10-07.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

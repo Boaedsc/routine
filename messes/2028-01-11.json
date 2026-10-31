@@ -1,15 +1,240 @@
 {
   "date": "2028-01-11",
-  "celebration": {
-    "nom": "Mardi après l'Épiphanie",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Epi1-2"
-  ],
-  "cles_jour": [
-    "Epi1-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi1",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/01-11",
+        "nom_sanctoral": "",
+        "classe": 1.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-11.txt",
+        "temporal": "Latin/Tempora/Epi1-2.txt",
+        "sanctoral": "Latin/Sancti/01-11.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joann 21:15-17\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\n&Gloria\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)",
+            "incipit": "Si díligis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Oratio",
+            "texte": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 5:1-4; 5:10-11\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminum\n!Ps 39:10-11\nAnnuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non prohibébo: Dómine, tu scisti.\nV. Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.\nV. Non abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-11.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+            "incipit": "Ecce, dedi verba",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Secreta",
+            "texte": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Postcommunio",
+            "texte": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joannes 21:15-17\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)",
+            "incipit": "Si tu m’aimes,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Oratio",
+            "texte": "Pasteur éternel, considérez avec bonté votre troupeau, et gardez-le sous la constante protection du bienheureux N., souverain pontife, que vous avez constitué pasteur de toute l’Église.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Pierre.\n!1 Pet 5:1-4; 5:10-11.\nMes bien-aimés : j’exhorte les anciens qui sont parmi vous, moi ancien comme eux, témoin de la passion du Christ, et qui aurai part à la gloire qui doit être manifestée. Soyez les pasteurs du troupeau de Dieu qui vous est confié, veillant sur lui non par contrainte mais de bon gré, selon Dieu ; non dans un intérêt vil, mais spontanément ; non en dominant sur l’héritage du Seigneur, mais en devenant de tout votre cœur les modèles du troupeau. Et quand paraîtra le maître des pasteurs, vous recevrez une impérissable couronne de gloire. Le Dieu de toute grâce qui nous a appelés dans le Christ Jésus à sa gloire éternelle, après ces quelques souffrances achèvera lui-même son œuvre, vous affermira et vous rendra inébranlables. À lui gloire et puissance dans les siècles des siècles. Ainsi soit-il.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes. Alléluia, alléluia.\n!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes.\n!Ps 39:10-11\nJ’ai annoncé votre justice dans la grande assemblée ; Seigneur, vous le savez, je n’ai pas fermé la bouche.\nV. Je n’ai pas caché votre justice au fond de mon cœur : j’ai proclamé votre vérité et votre salut.\nV. Je n’ai pas caché votre bonté ni votre vérité à la grande assemblée.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:13-19\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nVoici : j’ai mis mes paroles dans ta bouche ; je t’ai établi sur les nations et sur les royaumes, pour que tu arraches et que tu détruises, que tu bâtisses et que tu plantes. (Alléluia.)",
+            "incipit": "Voici : j’ai",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Secreta",
+            "texte": "Après l’offrande de ces dons, Seigneur, veuillez éclairer votre Église dans votre bonté : afin que votre troupeau progresse en tout lieu, et que ses pasteurs, gouvernés par vous, soient agréables à vos yeux.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Postcommunio",
+            "texte": "Gouvernez avec bienveillance, Seigneur, votre Église qui s’est nourrie à la table sainte ; afin que, sous votre conduite toute-puissante, elle reçoive un accroissement de liberté et demeure ferme dans l’intégrité de sa foi.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4b.txt",
+        "../horas/Latin/Commune/C4b.txt",
+        "Francais/Sancti/01-11.txt",
+        "Latin/Sancti/01-11.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

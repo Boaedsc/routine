@@ -1,70 +1,210 @@
 {
   "date": "2027-06-28",
-  "celebration": {
-    "nom": "Saint Irénée",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-28",
-    "Tempora/Pent06-1"
-  ],
-  "cles_jour": [
-    "06-28",
-    "Pent06-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent06",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Malach 2:6\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.",
-        "Francais": "!Malach 2:6\nv. La loi de vérité fut dans sa bouche, et l'iniquité ne s'est point trouvée sur ses lèvres; il a marché en paix et dans l'équité avec moi, et il en a détourné un grand nombre de l'iniquité.\n!Ps 77:1\nSoyez attentif, ô mon peuple, à ma loi; inclinez votre oreille vers les paroles de ma bouche.\n&Gloria\nv. La loi de vérité fut dans sa bouche, et l'iniquité ne s'est point trouvée sur ses lèvres; il a marché en paix et dans l'équité avec moi, et il en a détourné un grand nombre de l'iniquité."
+      "occurrence": {
+        "gagnant": "Sancti/06-28",
+        "nom_sanctoral": "Vigilia Ss. Petri et Pauli Apostolorum",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-28.txt",
+        "temporal": "Latin/Tempora/Pent06-1.txt",
+        "sanctoral": "Latin/Sancti/06-28.txt",
+        "calendrier": "06-28",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.\n!2 Tim 3:14-17; 4:1-5\nBien-aimé, demeure dans ce que tu as appris et dont tu as la certitude, sachant de qui tu l'as appris et que, depuis l'enfance, tu connais les Saintes Lettres, qui peuvent te donner la sagesse pour le salut par la foi dans le Christ Jésus. Toute Écriture est inspirée de Dieu et utile pour enseigner, pour reprendre, pour redresser, pour éduquer en la justice, afin que l'homme de Dieu soit parfait, prêt pour toute œuvre bonne. Je t'adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, et par son apparition et par son règne : prêche la parole, insiste à temps et à contretemps, reprends, censure, exhorte, avec une entière patience et souci d'instruction. Car un temps viendra où les hommes ne supporteront pas la saine doctrine, mais au gré de leurs désirs se donneront une foule de maîtres, l'oreille leur démangeant, et ils détourneront l'oreille de la vérité pour se tourner vers les fables. Pour toi, sois sobre en toutes choses, endure la souffrance, fais œuvre de prédicateur de l'Évangile, remplis pleinement ton ministère."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Introitus",
+            "texte": "!Malach 2:6\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.",
+            "incipit": "Lex veritátis fuit",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beáto Irenǽo Mártyri tuo atque Pontífici tribuísti, ut et veritáte doctrínæ expugnáret hǽreses, et pacem Ecclésiæ felíciter confirmáret: da, quǽsumus, plebi tuæ in sancta religióne constántiam; et pacem tuam nostris concéde tempóribus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 3:14-17; 4:1-5\nCaríssime: Pérmane in iis, quæ didicísti et crédita sunt tibi: sciens, a quo didíceris; et quia ab infántia sacras; lítteras nosti, quæ te possunt instrúere ad salútem, per fidem, quæ est in Christo Jesu. Omnis Scriptúra divínitus inspiráta útilis est ad docéndum, ad arguéndum, ad corripiéndum, ad erudiéndum in justítia: ut perféctus sit homo Dei, ad omne opus bonum instrúctus. Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Graduale",
+            "texte": "!Ps 121:8\nPropter fratres meos et próximos meos loquébar pacem de te.\n!Ps 36:37\nCustódi innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini pacífico.\nAllelúja, allelúja.\n!Eccli. 6:35\nIn multitúdine presbyterórum prudéntium sta, et sapiéntiæ illórum ex corde conjúngere, ut omnem narratiónem Dei possis audíre. Allelúja.",
+            "incipit": "Propter fratres meos",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:23; 36:30-31\nApud Dóminum gressus hóminis dirigéntur: et viam ejus volet.\nV. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "incipit": "Apud Dóminum gressus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:28-33\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere; sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam. ¶ Nonne duo pásseres asse véneunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem capílli cápitis omnes numeráti sunt. Nolíte ergo timére: multis passéribus melióres estis vos. Omnis ergo, qui confitébitur me coram homínibus, confitébor et ego eum coram Patre meo, qui in cœlis est. Qui autem negáverit me coram homínibus, negábo et ego eum coram Patre meo, qui in cœlis est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Offertorium",
+            "texte": "!Eccli 24:44\nDoctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam usque ad longínquum.",
+            "incipit": "Doctrínam quasi ante",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus: dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a tua pietáte concéssa, christianórum fines ab omni hoste fáciat esse secúros.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Communio",
+            "texte": "!Eccli 24:47\nVidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus veritátem.",
+            "incipit": "Vidéte, quóniam non",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-28.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, auctor pacis et amátor, quem nosse vívere, cui servíre regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos; ut, qui in defensióne tua confídimus, beáti Irenæi Mártyris tui atque Pontíficis intercessióne, nullius hostilitátis arma timeámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Introitus",
+            "texte": "!Malach 2:6\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab iniquitáte.",
+            "incipit": "Lex veritátis fuit",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beáto Irenǽo Mártyri tuo atque Pontífici tribuísti, ut et veritáte doctrínæ expugnáret hǽreses, et pacem Ecclésiæ felíciter confirmáret: da, quǽsumus, plebi tuæ in sancta religióne constántiam; et pacem tuam nostris concéde tempóribus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 3:14-17; 4:1-5\nCaríssime: Pérmane in iis, quæ didicísti et crédita sunt tibi: sciens, a quo didíceris; et quia ab infántia sacras; lítteras nosti, quæ te possunt instrúere ad salútem, per fidem, quæ est in Christo Jesu. Omnis Scriptúra divínitus inspiráta útilis est ad docéndum, ad arguéndum, ad corripiéndum, ad erudiéndum in justítia: ut perféctus sit homo Dei, ad omne opus bonum instrúctus. Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Graduale",
+            "texte": "!Ps 121:8\nPropter fratres meos et próximos meos loquébar pacem de te.\n!Ps 36:37\nCustódi innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini pacífico.\nAllelúja, allelúja.\n!Eccli. 6:35\nIn multitúdine presbyterórum prudéntium sta, et sapiéntiæ illórum ex corde conjúngere, ut omnem narratiónem Dei possis audíre. Allelúja.",
+            "incipit": "Propter fratres meos",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:23; 36:30-31\nApud Dóminum gressus hóminis dirigéntur: et viam ejus volet.\nV. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "incipit": "Apud Dóminum gressus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:28-33\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere; sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam. ¶ Nonne duo pásseres asse véneunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem capílli cápitis omnes numeráti sunt. Nolíte ergo timére: multis passéribus melióres estis vos. Omnis ergo, qui confitébitur me coram homínibus, confitébor et ego eum coram Patre meo, qui in cœlis est. Qui autem negáverit me coram homínibus, negábo et ego eum coram Patre meo, qui in cœlis est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Offertorium",
+            "texte": "!Eccli 24:44\nDoctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam usque ad longínquum.",
+            "incipit": "Doctrínam quasi ante",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus: dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a tua pietáte concéssa, christianórum fines ab omni hoste fáciat esse secúros.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Communio",
+            "texte": "!Eccli 24:47\nVidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus veritátem.",
+            "incipit": "Vidéte, quóniam non",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-28.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, auctor pacis et amátor, quem nosse vívere, cui servíre regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos; ut, qui in defensióne tua confídimus, beáti Irenæi Mártyris tui atque Pontíficis intercessióne, nullius hostilitátis arma timeámus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 121:8\nPropter fratres meos et próximos meos loquébar pacem de te.\n!Ps 36:37\nCustódi innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini pacífico. \nAllelúja, allelúja.\n!Eccli. 6:35\nIn multitúdine presbyterórum prudéntium sta, et sapiéntiæ illórum ex corde conjúngere, ut omnem narratiónem Dei possis audíre. Allelúja.",
-        "Francais": "!Ps 121:8\nÀ cause de mes frères et de mes proches, j’ai demandé pour toi la paix.\n!Ps 36:37\nConserve l’innocence et aie les yeux sur l’équité : car il y a une postérité pour l’homme qui est pacifique. Alléluia, alléluia.\n!Ps 6:35\nTiens-toi au milieu de la multitude des vieillards prudents, et à leur sagesse unis-toi de cœur, afin que tu puisses écouter tout leur récit sur Dieu. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 10:28-33\nEn ce temps-là : Jésus dit à ses disciples : Ne craignez pas ceux qui tuent le corps, mais ne peuvent tuer l’âme ; craignez plutôt celui qui peut perdre l’âme et le corps dans la géhenne. Deux moineaux ne se vendent-ils pas un as ? Et pas un d’entre eux ne tombe sur la terre, sans (la permission de) votre Père. Quant à vous, même les cheveux de votre tête sont tous comptés. Ne craignez donc point : vous valez, vous, plus que beaucoup de moineaux. Celui donc qui me confessera devant les hommes, moi aussi je le confesserai devant mon Père qui est dans les cieux ; mais celui qui me reniera devant les hommes, moi aussi je le renierai devant mon Père qui est dans les cieux.\n\n[Ultima Evangelium]\nSequéntia sancti Evangélii secúndum Joánnem.\n!Joannes 21:15-19\nEn ce temps-là : Jésus dit à Simon-Pierre : Simon, fils de Jean, m’aimes-tu plus que ceux-ci ? Il lui répondit : Oui, Seigneur, vous savez que je vous aime. Jésus lui dit : Pais mes agneaux. Il lui dit de nouveau : Simon, fils de Jean, m’aimes-tu ? Pierre lui répondit : Oui, Seigneur, vous savez que je vous aime. Jésus lui dit : Pais mes agneaux. Il lui dit pour la troisième fois : Simon, fils de Jean, m’aimes-tu ? Pierre fut attristé de ce qu’il lui avait dit pour la troisième fois : M’aimes-tu ? et il lui répondit : Seigneur, vous savez toutes choses ; vous savez que je vous aime. Jésus lui dit : Pais mes brebis. En vérité, en vérité, je te le dis, lorsque tu étais plus jeune, tu te ceignais toi-même, et tu allais où tu voulais ; mais lorsque tu seras vieux, tu étendras tes mains, et un autre te ceindra et te conduira où tu ne voudras pas. Or il dit cela pour marquer par quelle mort il devait glorifier Dieu."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Eccli 24:44\nDoctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam usque ad longínquum.",
-        "Francais": "!Eccli 24:44.\nJe fais briller la doctrine pour tous, et je l’expliquerai jusqu’au loin."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Eccli 24:47\nVidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus veritátem.",
-        "Francais": "!Eccli 24:47\nVoyez comme je n’ai pas travaillé pour moi seul, mais pour tous ceux qui recherchent la vérité."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/06-28.txt",
+        "Latin/Sancti/06-28.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

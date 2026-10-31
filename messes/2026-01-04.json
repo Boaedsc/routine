@@ -1,15 +1,212 @@
 {
   "date": "2026-01-04",
-  "celebration": {
-    "nom": "Très Saint Nom de Jésus",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Nat04"
-  ],
-  "cles_jour": [
-    "Nat04"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat04",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Tempora/Nat04",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Nat2-0.txt",
+        "temporal": "Latin/Tempora/Nat2-0.txt",
+        "sanctoral": "Latin/Sancti/01-04.txt",
+        "calendrier": null,
+        "table_transfert": "1960",
+        "transfert_annuel": [
+          "Tempora/Nat2-0"
+        ],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Introitus",
+            "texte": "!Phil 2:10-11\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris\n!Ps 8:2.\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris",
+            "incipit": "In nómine Jesu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cœlis.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolorum\n!Act 4:8-12\nIn diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu Christi Nazaréni, quem vos crucifixístis, quem Deus suscitávit a mórtuis, in hoc iste astat coram vobis sanus. Hic est lapis, qui reprobátus est a vobis ædificántibus: qui factus est in caput ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est sub cœlo datum homínibus, in quo opórteat nos salvos fíeri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 105:47\nSalvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in glória tua.\n!Isa 63:16\nTu, Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum. Allelúja, allelúja\n!Ps 144:21\nLaudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.",
+            "incipit": "Salvos fac nos,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Tractus",
+            "texte": "!Ps 79:20; Cant 2:14\nDómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi érimus: sonet vox tua in áuribus meis. Vox enim tua dulcis, et fácies tua decóra nimis.\n!Cant 1:2\nV. Oleum effúsum nomen tuum, Jesu: ideo adolescéntulæ dilexérunt te.",
+            "incipit": "Dómine, Deus virtútum,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nIn illo témpore: Postquam consummáti sunt dies octo, ut circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est ab Angelo, priúsquam in útero conciperétur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 85:12; 85:5\nConfitébor tibi, Dómine, Deus meus, in toto corde meo, et glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et mitis es: et multæ misericórdiæ ómnibus invocántibus te, allelúja.",
+            "incipit": "Confitébor tibi, Dómine,",
+            "mp3": "offertoire_confitebor-tibi-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Secreta",
+            "texte": "Benedíctio tua, clementíssime Deus, qua omnis viget creatúra, sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut majestáti tuæ placére possit ad laudem, et nobis profícere ad salútem.\n$Per eumdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 85:9-10\nOmnes gentes, quascúmque fecísti, vénient et adorábunt coram te, Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et fáciens mirabília: tu es Deus solus, allelúja.",
+            "incipit": "Omnes gentes, quascúmque",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Nat2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Omnípotens ætérne Deus, qui creásti et redemísti nos, réspice propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti tuæ obtúlimus, plácido et benígno vultu suscípere dignéris; ut grátia tua nobis infúsa, sub glorióso nómine Jesu, ætérnæ prædestinatiónis titulo gaudeámus nómina nostra scripta esse in cœlis.\n$Per eumdem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Introitus",
+            "texte": "!Phil 2:10-11\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris\n!Ps 8:2.\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris",
+            "incipit": "In nómine Jesu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cœlis.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolorum\n!Act 4:8-12\nIn diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu Christi Nazaréni, quem vos crucifixístis, quem Deus suscitávit a mórtuis, in hoc iste astat coram vobis sanus. Hic est lapis, qui reprobátus est a vobis ædificántibus: qui factus est in caput ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est sub cœlo datum homínibus, in quo opórteat nos salvos fíeri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 105:47\nSalvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in glória tua.\n!Isa 63:16\nTu, Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum. Allelúja, allelúja\n!Ps 144:21\nLaudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.",
+            "incipit": "Salvos fac nos,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Tractus",
+            "texte": "!Ps 79:20; Cant 2:14\nDómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi érimus: sonet vox tua in áuribus meis. Vox enim tua dulcis, et fácies tua decóra nimis.\n!Cant 1:2\nV. Oleum effúsum nomen tuum, Jesu: ideo adolescéntulæ dilexérunt te.",
+            "incipit": "Dómine, Deus virtútum,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nIn illo témpore: Postquam consummáti sunt dies octo, ut circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est ab Angelo, priúsquam in útero conciperétur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 85:12; 85:5\nConfitébor tibi, Dómine, Deus meus, in toto corde meo, et glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et mitis es: et multæ misericórdiæ ómnibus invocántibus te, allelúja.",
+            "incipit": "Confitébor tibi, Dómine,",
+            "mp3": "offertoire_confitebor-tibi-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Secreta",
+            "texte": "Benedíctio tua, clementíssime Deus, qua omnis viget creatúra, sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut majestáti tuæ placére possit ad laudem, et nobis profícere ad salútem.\n$Per eumdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 85:9-10\nOmnes gentes, quascúmque fecísti, vénient et adorábunt coram te, Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et fáciens mirabília: tu es Deus solus, allelúja.",
+            "incipit": "Omnes gentes, quascúmque",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Nat2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Omnípotens ætérne Deus, qui creásti et redemísti nos, réspice propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti tuæ obtúlimus, plácido et benígno vultu suscípere dignéris; ut grátia tua nobis infúsa, sub glorióso nómine Jesu, ætérnæ prædestinatiónis titulo gaudeámus nómina nostra scripta esse in cœlis.\n$Per eumdem",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Tempora/Nat2-0.txt",
+        "Latin/Tempora/Nat2-0.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

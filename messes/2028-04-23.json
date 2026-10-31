@@ -1,68 +1,210 @@
 {
   "date": "2028-04-23",
-  "celebration": {
-    "nom": "Dimanche in albis (2e de Pâques)",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc1-0"
-  ],
-  "cles_jour": [
-    "Pasc1-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc1",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!1 Pet 2:2\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.\n!Ps 80:2.\nExsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.\n&Gloria\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.",
-        "Francais": "!1 Pet 2, 2.\nv. Tels des enfants nouveaux-nés, alléluia, soyez avides du pur lait spirituel, alléluia, alléluia, alléluia.\n!Ps 80:2.\nPoussez des cris de joie pour Dieu, notre soutien ; acclamez le Dieu de Jacob.\n&Gloria\nv. Tels des enfants nouveaux-nés, alléluia, soyez avides du pur lait spirituel, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc1-0",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc1-0.txt",
+        "temporal": "Latin/Tempora/Pasc1-0.txt",
+        "sanctoral": "Latin/Sancti/04-23.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_quasi-modo-geniti.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Joannis Apóstoli. \n!1 John 5:4-10.\nMes bien-aimés, tout ce qui est né de Dieu remporte la victoire sur le monde ; et la victoire qui a vaincu le monde, c'est notre foi. Qui est celui qui est vainqueur du monde, sinon celui qui croit que Jésus est le Fils de Dieu ? C'est ce même Jésus-Christ qui est venu par l'eau et par le sang, non avec l'eau seulement, mais avec l'eau et avec le sang. Et c'est l'Esprit qui rend témoignage, parce que l'Esprit est la vérité. Car il y en a trois qui rendent témoignage dans le ciel : le Père, le Verbe et l'Esprit ; et ces trois sont un. Et il y en a trois qui rendent témoignage sur la terre : l'Esprit, l'eau et le sang ; et ces trois sont d'accord. Si nous recevons le témoignage des hommes, le témoignage de Dieu est plus grand ; et c'est bien là le témoignage de Dieu, qui a rendu témoignage à son Fils. Celui qui croit au Fils de Dieu a ce témoignage de Dieu en lui-même."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Introitus",
+            "texte": "!1 Pet 2:2\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.\n!Ps 80:2.\nExsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.\n&Gloria\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.",
+            "incipit": "Quasi modo géniti",
+            "mp3": "introitus_quasi-modo-geniti.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 Joannes 5:4-10\nCaríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est victória, quæ vincit mundum, fides nostra. Quis est, qui vincit mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua solum, sed in aqua et sánguine. Et Spíritus est, qui testificátur, quóniam Christus est véritas. Quóniam tres sunt, qui testimónium dant in cœlo: Pater, Verbum, et Spíritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, et aqua, et sanguis: et hi tres unum sunt. Si testimónium hóminum accípimus, testimónium Dei majus est: quóniam hoc est testimónium Dei, quod majus est: quóniam testificátus est de Fílio suo. Qui credit in Fílium Dei, habet testimónium Dei in se.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Matt 28:7\nIn die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.\n!Joannes 20:26\nPost dies octo, jánuis clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax vobis. Allelúja.",
+            "incipit": "Allelúja, allelúja. In",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 20:19-31\nIn illo témpore: Cum sero esset die illo, una sabbatórum, et fores essent clausæ, ubi erant discípuli congregáti propter metum Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc dixísset, osténdit eis manus et latus. Gavísi sunt ergo discípuli, viso Dómino. Dixit ergo eis íterum: Pax vobis. Sicut misit me Pater, et ego mitto vos. Hæc cum dixísset, insufflávit, et dixit eis: Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis; et quorum retinuéritis, reténta sunt. Thomas autem unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei álii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi vídero in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus, jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deínde dicit Thomæ: Infer dígitum tuum huc et vide manus meas, et affer manum tuam et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidísti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt. Multa quidem et ália signa fecit Jesus in conspéctu discipulórum suórum, quæ non sunt scripta in libro hoc. Hæc autem scripta sunt, ut credátis, quia Jesus est Christus, Fílius Dei: et ut credéntes vitam habeátis in nómine ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Offertorium",
+            "texte": "!Matt 28:2; 28:5-6\nAngelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúja.",
+            "incipit": "Angelus Dómini descéndit",
+            "mp3": "offertoire_angelus-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Secreta",
+            "texte": "Súscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Communio",
+            "texte": "!Joannes 20:27\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, allelúja.",
+            "incipit": "Mitte manum tuam,",
+            "mp3": "communion_mitte-manum-tuam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc1-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.\n$Per Dominum.",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Introitus",
+            "texte": "!1 Pet 2:2\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.\n!Ps 80:2.\nExsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.\n&Gloria\nv. Quasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.",
+            "incipit": "Quasi modo géniti",
+            "mp3": "introitus_quasi-modo-geniti.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 Joannes 5:4-10\nCaríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est victória, quæ vincit mundum, fides nostra. Quis est, qui vincit mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua solum, sed in aqua et sánguine. Et Spíritus est, qui testificátur, quóniam Christus est véritas. Quóniam tres sunt, qui testimónium dant in cœlo: Pater, Verbum, et Spíritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, et aqua, et sanguis: et hi tres unum sunt. Si testimónium hóminum accípimus, testimónium Dei majus est: quóniam hoc est testimónium Dei, quod majus est: quóniam testificátus est de Fílio suo. Qui credit in Fílium Dei, habet testimónium Dei in se.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Matt 28:7\nIn die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.\n!Joannes 20:26\nPost dies octo, jánuis clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax vobis. Allelúja.",
+            "incipit": "Allelúja, allelúja. In",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 20:19-31\nIn illo témpore: Cum sero esset die illo, una sabbatórum, et fores essent clausæ, ubi erant discípuli congregáti propter metum Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc dixísset, osténdit eis manus et latus. Gavísi sunt ergo discípuli, viso Dómino. Dixit ergo eis íterum: Pax vobis. Sicut misit me Pater, et ego mitto vos. Hæc cum dixísset, insufflávit, et dixit eis: Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis; et quorum retinuéritis, reténta sunt. Thomas autem unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei álii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi vídero in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus, jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deínde dicit Thomæ: Infer dígitum tuum huc et vide manus meas, et affer manum tuam et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidísti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt. Multa quidem et ália signa fecit Jesus in conspéctu discipulórum suórum, quæ non sunt scripta in libro hoc. Hæc autem scripta sunt, ut credátis, quia Jesus est Christus, Fílius Dei: et ut credéntes vitam habeátis in nómine ejus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Offertorium",
+            "texte": "!Matt 28:2; 28:5-6\nAngelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúja.",
+            "incipit": "Angelus Dómini descéndit",
+            "mp3": "offertoire_angelus-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Secreta",
+            "texte": "Súscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Communio",
+            "texte": "!Joannes 20:27\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, allelúja.",
+            "incipit": "Mitte manum tuam,",
+            "mp3": "communion_mitte-manum-tuam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc1-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.\n$Per Dominum.",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Matt 28:7\nIn die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.\n!Joannes 20:26\nPost dies octo, jánuis clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax vobis. Allelúja.",
-        "Francais": "Alleluia, alleluia\n!Matt 28:7.\nAu jour de ma résurrection, dit le Seigneur, je vous précéderai en Galilée.\n!Joannes 20:26.\nAprès huit jours, les portes étant fermées, Jésus se tint au milieu de ses disciples, et il leur dit : La paix soit avec vous. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 20:19-31.\nEn ce temps-là, comme c'était le soir de ce même jour, le premier de la semaine, les portes du lieu où se trouvaient les disciples étant fermées, parce qu'ils craignaient les Juifs, Jésus vint, et se présentant au milieu d'eux, il leur dit : « La paix soit avec vous ! » Ayant ainsi parlé, il leur montra ses mains et son côté. Les disciples furent remplis de joie en voyant le Seigneur. Il leur dit une seconde fois : « La paix soit avec vous ! Comme mon Père m'a envoyé, moi aussi je vous envoie. » Après ces paroles, il souffla sur eux et leur dit : « Recevez l'Esprit-Saint. Ceux à qui vous remettrez les péchés, ils leur seront remis ; et ceux à qui vous les retiendrez, ils leur seront retenus. » Mais Thomas, l'un des douze, celui qu'on appelle Didyme, n'était pas avec eux lorsque Jésus vint. Les autres disciples lui dirent donc : « Nous avons vu le Seigneur. » Mais il leur dit : « Si je ne vois dans ses mains la marque des clous, et si je ne mets mon doigt à la place des clous et ma main dans son côté, je ne croirai point. » Huit jours après, les disciples étant encore dans le même lieu, et Thomas avec eux, Jésus vint, les portes étant fermées, et se tenant au milieu d'eux, il leur dit : « La paix soit avec vous ! » Puis il dit à Thomas : « Mets ici ton doigt, et regarde mes mains ; approche aussi ta main, et mets-la dans mon côté ; et ne sois plus incrédule, mais croyant. » Thomas lui répondit : « Mon Seigneur, et mon Dieu ! » Jésus lui dit : « Parce que tu m'as vu, Thomas, tu as cru. Heureux ceux qui n'ont pas vu et qui ont cru. » Jésus a fait encore en présence de ses disciples beaucoup d'autres miracles qui ne sont pas écrits dans ce livre. Mais ceux-ci ont été écrits, afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Matt 28:2; 28:5-6\nAngelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúja.",
-        "Francais": "!Matt 28:2; 28:5-6.\nL'ange du Seigneur descendit du ciel, et il dit aux femmes : Celui que vous cherchez est ressuscité comme il l'avait dit, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_angelus-domini.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 20:27\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, allelúja.",
-        "Francais": "!Joannes 20:27\nAvance ta main et reconnais l'endroit des clous, alléluia ; et ne sois pas incrédule, mais croyant, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_mitte-manum-tuam.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc1-0.txt",
+        "Latin/Tempora/Pasc1-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

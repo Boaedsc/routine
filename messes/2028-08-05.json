@@ -1,17 +1,212 @@
 {
   "date": "2028-08-05",
-  "celebration": {
-    "nom": "Dédicace de Sainte-Marie des Neiges",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-05",
-    "Tempora/Pent08-6"
-  ],
-  "cles_jour": [
-    "08-05",
-    "Pent08-6"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent08",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/08-05",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-05.txt",
+        "temporal": "Latin/Tempora/Pent08-6.txt",
+        "sanctoral": "Latin/Sancti/08-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Introitus",
+            "texte": "!Sedulius\nv. Salve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Salve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum.",
+            "incipit": "Salve, sancta parens,",
+            "mp3": "introitus_salve-sancta-parens.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Oratio",
+            "texte": "Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:14-16\nAb inítio et ante sǽcula creáta sum, et usque ad futúrum sǽculum non désinam, et in habitatióne sancta coram ipso ministrávi. Et sic in Sion firmáta sum, et in civitáte sanctificáta simíliter requiévi, et in Jerúsalem potéstas mea. Et radicávi in pópulo honorificáto, et in parte Dei mei heréditas illíus, et in plenitúdine sanctórum deténtio mea.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja.\n!Luc 1:28\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_\n!Tractus\nGaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-05.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
+            "incipit": "Ave, María, grátia",
+            "mp3": "offertoire_ave-maria.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Secreta",
+            "texte": "Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem et pacem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Communio",
+            "texte": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)",
+            "incipit": "Beáta víscera Maríæ",
+            "mp3": "communion_beata-viscera-mariae.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in cujus veneratióne hæc tuæ obtúlimus majestáti.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Introitus",
+            "texte": "!Sedulius.\nv. Nous vous saluons, ô Mère sainte, vous qui avez mis au monde le Roi qui règne sur le ciel et la terre, dans les siècles des siècles, alléluia, alléluia.\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Nous vous saluons, ô Mère sainte, vous qui avez mis au monde le Roi qui règne sur le ciel et la terre, dans les siècles des siècles, alléluia, alléluia.",
+            "incipit": "Nous vous saluons,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Oratio",
+            "texte": "Accordez-nous, Seigneur, une heureuse santé de l’âme et du corps, et par la glorieuse intercession de la bienheureuse Marie toujours vierge, délivrez-nous des tristesses de la vie présente, et conduisez-nous à la joie de l’éternité.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Eccli 24:14-16\nDès l’origine, avant tous les siècles, il m’a créée, et jusqu’à la fin des temps je ne cesserai d’exister ; en sa présence j’ai officié dans le saint tabernacle. Ainsi je me suis établie en Sion ; dans la cité sainte j’ai trouvé mon repos ; Jérusalem est le siège de ma puissance. J’ai poussé mes racines chez un peuple prévenu d’honneur, dans la portion du Seigneur, dans son héritage, et j’ai fixé mon séjour dans l’assemblée des saints.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Graduale",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Alléluia, alléluia.\n!Luc 1:28\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.\n!\nRéjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies.\nV. Vous qui avez cru aux paroles de l’Archange Gabriel.\nV. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée.\nV. Mère de Dieu, intercédez pour nous.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:27-28\nIn illo témpore: Loquénte Jesu ad turbas, extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. ¶ At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Offertorium",
+            "texte": "!Luc 1:28; 1:42\nJe vous salue, Marie, pleine de grâce, le Seigneur est avec vous, vous êtes bénie entre toutes les femmes, et le fruit de vos entrailles est béni. (Alléluia.)",
+            "incipit": "Je vous salue,",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Secreta",
+            "texte": "Que par votre bonté, Seigneur, et par l’intercession de la bienheureuse Marie toujours vierge, l’offrande de ce sacrifice nous procure, pour l’éternité comme pour la vie présente, le bonheur et la paix.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Communio",
+            "texte": "Heureuses les entrailles de la Vierge Marie, qui ont porté le Fils du Père éternel. (Alléluia.)",
+            "incipit": "Heureuses les entrailles",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Postcommunio",
+            "texte": "Ayant reçu ces moyens de salut, nous vous demandons, Seigneur, d’être toujours et partout assurés de la protecion de la bienheureuse Vierge Marie, en l’honneur de qui nous avons offert ce sacrifice à votre Majesté.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/08-05.txt",
+        "Latin/Sancti/08-05.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

@@ -1,70 +1,210 @@
 {
   "date": "2027-02-27",
-  "celebration": {
-    "nom": "Saint Gabriel de l'Addolorata",
-    "classe": 3,
-    "note": "(temporal : Samedi de la 2e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/02-27",
-    "Tempora/Quad2-6"
-  ],
-  "cles_jour": [
-    "02-27",
-    "Quad2-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Eccli 11:13.\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt Deum. (Allelúja, allelúja)",
-        "Francais": "!Eccli 11:13.\nv. L’œil de Dieu le regarde favorablement, le tire de son humiliation et lui relève la tête : et beaucoup sont dans l’admiration à son sujet et rendent gloire à Dieu. (Allelúja, allelúja)\n!Ps 72:1.\nQue Dieu est bon pour Israël, pour ceux qui ont le cœur droit !\n&Gloria\nv. L’œil de Dieu le regarde favorablement, le tire de son humiliation et lui relève la tête : et beaucoup sont dans l’admiration à son sujet et rendent gloire à Dieu. (Allelúja, allelúja)"
+      "occurrence": {
+        "gagnant": "Tempora/Quad2-6",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad2-6.txt",
+        "temporal": "Latin/Tempora/Quad2-6.txt",
+        "sanctoral": "Latin/Sancti/02-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Joannis Apóstoli.\n!1 Joann 2, 14-17.\nMes Très chers Frères : Je vous écris, jeunes gens, parce que vous êtes forts, que la parole de Dieu demeure en vous, et que vous avez vaincu le malin. N’aimez pas le monde, ni les choses qui sont dans le monde. Si quelqu’un aime le monde, l’amour du Père n’est point en lui, car tout ce qui est dans le monde est concupiscence de la chair, et concupiscence des yeux, et orgueil de la vie ; et cela ne vient pas du Père, mais du monde. Or le monde passe, et sa concupiscence avec lui ; mais celui qui fait la volonté de Dieu demeure éternellement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Introitus",
+            "texte": "!Ps 18:8.\nv. Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini fidéle, sapiéntiam præstans párvulis.\n!Ps 18:2\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini fidéle, sapiéntiam præstans párvulis.",
+            "incipit": "Lex Dómini irreprehensíbilis,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Oratio",
+            "texte": "Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat animárum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Genesis\n!Gen 27:6-40\nIn diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne tua, et fac cibos, ut cómedam et benedícam tibi coram Dómino, ántequam móriar. Nunc ergo, fili mi, acquiésce consíliis meis: et pergens ad gregem, affer mihi duos hædos óptimos, ut fáciam ex eis escas patri tuo, quibus libénter véscitur: quas cum intúleris et coméderit, benedícat tibi, priúsquam moriátur. Cui ille respóndit: Nosti, quod Esau, frater meus, homo pilósus sit, et ego lenis: si attrectáverit me pater meus et sénserit, tímeo, ne putet me sibi voluísse illúdere, et indúcam super me maledictiónem pro benedictióne. Ad quem mater: In me sit, ait, ista maledíctio, fili mi: tantum audi vocem meam, et pergens affer quæ dixi. Abiit, et áttulit, dedítque matri. Parávit illa cibos, sicut velle nóverat patrem illíus. Et véstibus Esau valde bonis, quas apud se habébat domi, índuit eum: pelliculásque hædórum circúmdedit mánibus, et colli nuda protéxit. Dedítque pulméntum, et panes, quos cóxerat, trádidit. Quibus illátis, dixit: Pater mi! At ille respóndit: Audio. Quis es tu, fili mi? Dixítque Jacob: Ego sum primogénitus tuus Esau: feci, sicut præcepísti mihi: surge, sede, et cómede de venatióne mea, ut benedícat mihi ánima tua. Rursúmque Isaac ad fílium suum: Quómodo, inquit, tam cito inveníre potuísti, fili mi? Qui respóndit: Volúntas Dei fuit, ut cito occúrreret mihi quod volébam. Dixítque Isaac: Accéde huc, ut tangam te, fili mi, et probem, utrum tu sis fílius meus Esau, an non. Accéssit ille ad patrem, et palpáto eo, dixit Isaac: Vox quidem vox Jacob est, sed manus manus sunt Esau. Et non cognóvit eum, quia pilósæ manus similitúdinem majóris exprésserant. Benedícens ergo illi, ait: Tu es fílius meus Esau? Respóndit: Ego sum. At ille: Affer mihi, inquit, cibos de venatióne tua, fili mi, ut benedícat tibi ánima mea. Quos cum oblátos comedísset, óbtulit ei étiam vinum. Quo hausto, dixit ad eum: Accéde ad me, et da mihi ósculum, fili mi. Accéssit, et osculátus est eum. Statímque ut sensit vestimentórum illíus fragrántiam, benedícens illi, ait: Ecce, odor fílii mei sicut odor agri pleni, cui benedíxit Dóminus. Det tibi Deus de rore cœli, et de pinguédine terræ abundántiam fruménti et vini. Et sérviant tibi pópuli, et adorent te tribus: esto dóminus fratrum tuórum, et incurvéntur ante te fílii matris tuæ. Qui male díxerit tibi, sit ille maledíctus: et qui benedíxerit tibi, benedictiónibus repleátur. Vix Isaac sermónem impléverat, et egrésso Jacob foras, venit Esau, coctósque de venatióne cibos íntulit patri, dicens: Surge, pater mi, et cómede de venatióne fílii tui, ut benedícat mihi ánima tua. Dixítque illi Isaac: Quis enim es tu? Qui respóndit: Ego sum fílius tuus primogénitus Esau. Expávit Isaac stupóre veheménti, et ultra quam credi potest, admírans, ait: Quis ígitur ille est, qui dudum captam venatiónem áttulit mihi, et comédi ex ómnibus, priúsquam tu veníres? Benedixíque ei, et erit benedíctus. Audítis Esau sermónibus patris, irrúgiit clamóre magno, et consternátus, ait: Bénedic étiam et mihi, pater mi. Qui ait: Venit germánus tuus fraudulénter, et accépit benedictiónem tuam. At ille subjunxit: Juste vocátum est nomen ejus Jacob: supplantávit enim me en áltera vice: primogénita mea ante tulit, et nunc secúndo surrípuit benedictiónem meam. Rursúmque ad patrem: Numquid non reservásti, ait, et mihi benedictiónem? Respóndit Isaac: Dóminum tuum illum constítui, et omnes fratres ejus servitúti illíus subjugávi: fruménto et vino stabilívi eum, et tibi post hæc, fili mi, ultra quid fáciam? Cui Esau: Num unam, inquit, tantum benedictiónem habes, pater? mihi quoque óbsecro ut benedícas. Cumque ejulátu magno fleret, motus Isaac, dixit ad eum: In pinguédine terræ, et in rore cœli désuper erit benedíctio tua.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:2-3\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "incipit": "Bonum est confitéri",
+            "mp3": "graduel_bonum-est-confiteri.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 15:11-32\nIn illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam: Homo quidam hábuit duos fílios, et dixit adolescéntior ex illis patri: Pater, da mihi portiónem substántiæ, quæ me contíngit. Et divísit illis substántiam. Et non post multos dies, congregátis ómnibus, adolescéntior fílius péregre proféctus est in regiónem longínquam, et ibi dissipávit substántiam suam vivéndo luxurióse. Et postquam ómnia consummásset, facta est fames válida in regióne illa, et ipse cœpit egére. Et ábiit, et adhǽsit uni cívium regiónis illíus. Et misit illum in villam suam, ut pásceret porcos. Et cupiébat implére ventrem suum de síliquis, quas porci manducábant: et nemo illi dabat. In se autem revérsus, dixit: Quanti mercenárii in domo patris mei abúndant pánibus, ego autem hic fame péreo? Surgam, et ibo ad patrem meum, et dicam ei: Pater, peccávi in cœlum et coram te: jam non sum dignus vocári fílius tuus: fac me sicut unum de mercenáriis tuis. Et surgens venit ad patrem suum. Cum autem adhuc longe esset, vidit illum pater ipsíus, et misericórdia motus est, et accúrrens cécidit super collum ejus, et osculátus est eum. Dixítque ei fílius: Pater, peccávi in cœlum et coram te, jam non sum dignus vocári fílius tuus. Dixit autem pater ad servos suos: Cito proférte stolam primam, et indúite illum, et date ánnulum in manum ejus, et calceaménta in pedes ejus: et addúcite vítulum saginátum et occídite, et manducémus et epulémur, quia hic fílius meus mórtuus erat, et revíxit: períerat, et invéntus est. Et cœpérunt epulári. Erat autem fílius ejus sénior in agro: et cum veníret, et appropinquáret dómui, audívit symphóniam et chorum: et vocávit unum de servis, et interrogávit, quid hæc essent. Isque dixit illi: Frater tuus venit, et occídit pater tuus vítulum saginátum, quia salvum illum recépit. Indignátus est autem, et nolébat introíre. Pater ergo illíus egréssus, cœpit rogáre illum. At ille respóndens, dixit patri suo: Ecce, tot annis sérvio tibi, et numquam mandátum tuum præterívi, et numquam dedísti mihi hædum, ut cum amícis meis epulárer: sed postquam fílius tuus hic, qui devorávit substántiam suam cum meretrícibus, venit, occidísti illi vítulum saginátum. At ipse dixit illi: Fili, tu semper mecum es, et ómnia mea tua sunt: epulári autem et gaudére oportébat, quia frater tuus hic mórtuus erat, et revíxit: períerat, et invéntus est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 12:4-5\nIllúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.",
+            "incipit": "Illúmina óculos meos,",
+            "mp3": "offertoire_illumina-oculos-meos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Secreta",
+            "texte": "His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus absólvi delíctis, non gravémur extérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Communio",
+            "texte": "!Luc 15:32\nOpórtet te, fili, gaudére, quia frater tuus mórtuus fúerat, et revíxit: períerat, et invéntus est.",
+            "incipit": "Opórtet te, fili,",
+            "mp3": "communion_oportet-te-fili.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad2-6.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis infúndat: et sui nos partícipes poténter effíciat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Introitus",
+            "texte": "!Ps 18:8.\nv. Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini fidéle, sapiéntiam præstans párvulis.\n!Ps 18:2\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini fidéle, sapiéntiam præstans párvulis.",
+            "incipit": "Lex Dómini irreprehensíbilis,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Oratio",
+            "texte": "Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat animárum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Genesis\n!Gen 27:6-40\nIn diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne tua, et fac cibos, ut cómedam et benedícam tibi coram Dómino, ántequam móriar. Nunc ergo, fili mi, acquiésce consíliis meis: et pergens ad gregem, affer mihi duos hædos óptimos, ut fáciam ex eis escas patri tuo, quibus libénter véscitur: quas cum intúleris et coméderit, benedícat tibi, priúsquam moriátur. Cui ille respóndit: Nosti, quod Esau, frater meus, homo pilósus sit, et ego lenis: si attrectáverit me pater meus et sénserit, tímeo, ne putet me sibi voluísse illúdere, et indúcam super me maledictiónem pro benedictióne. Ad quem mater: In me sit, ait, ista maledíctio, fili mi: tantum audi vocem meam, et pergens affer quæ dixi. Abiit, et áttulit, dedítque matri. Parávit illa cibos, sicut velle nóverat patrem illíus. Et véstibus Esau valde bonis, quas apud se habébat domi, índuit eum: pelliculásque hædórum circúmdedit mánibus, et colli nuda protéxit. Dedítque pulméntum, et panes, quos cóxerat, trádidit. Quibus illátis, dixit: Pater mi! At ille respóndit: Audio. Quis es tu, fili mi? Dixítque Jacob: Ego sum primogénitus tuus Esau: feci, sicut præcepísti mihi: surge, sede, et cómede de venatióne mea, ut benedícat mihi ánima tua. Rursúmque Isaac ad fílium suum: Quómodo, inquit, tam cito inveníre potuísti, fili mi? Qui respóndit: Volúntas Dei fuit, ut cito occúrreret mihi quod volébam. Dixítque Isaac: Accéde huc, ut tangam te, fili mi, et probem, utrum tu sis fílius meus Esau, an non. Accéssit ille ad patrem, et palpáto eo, dixit Isaac: Vox quidem vox Jacob est, sed manus manus sunt Esau. Et non cognóvit eum, quia pilósæ manus similitúdinem majóris exprésserant. Benedícens ergo illi, ait: Tu es fílius meus Esau? Respóndit: Ego sum. At ille: Affer mihi, inquit, cibos de venatióne tua, fili mi, ut benedícat tibi ánima mea. Quos cum oblátos comedísset, óbtulit ei étiam vinum. Quo hausto, dixit ad eum: Accéde ad me, et da mihi ósculum, fili mi. Accéssit, et osculátus est eum. Statímque ut sensit vestimentórum illíus fragrántiam, benedícens illi, ait: Ecce, odor fílii mei sicut odor agri pleni, cui benedíxit Dóminus. Det tibi Deus de rore cœli, et de pinguédine terræ abundántiam fruménti et vini. Et sérviant tibi pópuli, et adorent te tribus: esto dóminus fratrum tuórum, et incurvéntur ante te fílii matris tuæ. Qui male díxerit tibi, sit ille maledíctus: et qui benedíxerit tibi, benedictiónibus repleátur. Vix Isaac sermónem impléverat, et egrésso Jacob foras, venit Esau, coctósque de venatióne cibos íntulit patri, dicens: Surge, pater mi, et cómede de venatióne fílii tui, ut benedícat mihi ánima tua. Dixítque illi Isaac: Quis enim es tu? Qui respóndit: Ego sum fílius tuus primogénitus Esau. Expávit Isaac stupóre veheménti, et ultra quam credi potest, admírans, ait: Quis ígitur ille est, qui dudum captam venatiónem áttulit mihi, et comédi ex ómnibus, priúsquam tu veníres? Benedixíque ei, et erit benedíctus. Audítis Esau sermónibus patris, irrúgiit clamóre magno, et consternátus, ait: Bénedic étiam et mihi, pater mi. Qui ait: Venit germánus tuus fraudulénter, et accépit benedictiónem tuam. At ille subjunxit: Juste vocátum est nomen ejus Jacob: supplantávit enim me en áltera vice: primogénita mea ante tulit, et nunc secúndo surrípuit benedictiónem meam. Rursúmque ad patrem: Numquid non reservásti, ait, et mihi benedictiónem? Respóndit Isaac: Dóminum tuum illum constítui, et omnes fratres ejus servitúti illíus subjugávi: fruménto et vino stabilívi eum, et tibi post hæc, fili mi, ultra quid fáciam? Cui Esau: Num unam, inquit, tantum benedictiónem habes, pater? mihi quoque óbsecro ut benedícas. Cumque ejulátu magno fleret, motus Isaac, dixit ad eum: In pinguédine terræ, et in rore cœli désuper erit benedíctio tua.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:2-3\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "incipit": "Bonum est confitéri",
+            "mp3": "graduel_bonum-est-confiteri.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 15:11-32\nIn illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam: Homo quidam hábuit duos fílios, et dixit adolescéntior ex illis patri: Pater, da mihi portiónem substántiæ, quæ me contíngit. Et divísit illis substántiam. Et non post multos dies, congregátis ómnibus, adolescéntior fílius péregre proféctus est in regiónem longínquam, et ibi dissipávit substántiam suam vivéndo luxurióse. Et postquam ómnia consummásset, facta est fames válida in regióne illa, et ipse cœpit egére. Et ábiit, et adhǽsit uni cívium regiónis illíus. Et misit illum in villam suam, ut pásceret porcos. Et cupiébat implére ventrem suum de síliquis, quas porci manducábant: et nemo illi dabat. In se autem revérsus, dixit: Quanti mercenárii in domo patris mei abúndant pánibus, ego autem hic fame péreo? Surgam, et ibo ad patrem meum, et dicam ei: Pater, peccávi in cœlum et coram te: jam non sum dignus vocári fílius tuus: fac me sicut unum de mercenáriis tuis. Et surgens venit ad patrem suum. Cum autem adhuc longe esset, vidit illum pater ipsíus, et misericórdia motus est, et accúrrens cécidit super collum ejus, et osculátus est eum. Dixítque ei fílius: Pater, peccávi in cœlum et coram te, jam non sum dignus vocári fílius tuus. Dixit autem pater ad servos suos: Cito proférte stolam primam, et indúite illum, et date ánnulum in manum ejus, et calceaménta in pedes ejus: et addúcite vítulum saginátum et occídite, et manducémus et epulémur, quia hic fílius meus mórtuus erat, et revíxit: períerat, et invéntus est. Et cœpérunt epulári. Erat autem fílius ejus sénior in agro: et cum veníret, et appropinquáret dómui, audívit symphóniam et chorum: et vocávit unum de servis, et interrogávit, quid hæc essent. Isque dixit illi: Frater tuus venit, et occídit pater tuus vítulum saginátum, quia salvum illum recépit. Indignátus est autem, et nolébat introíre. Pater ergo illíus egréssus, cœpit rogáre illum. At ille respóndens, dixit patri suo: Ecce, tot annis sérvio tibi, et numquam mandátum tuum præterívi, et numquam dedísti mihi hædum, ut cum amícis meis epulárer: sed postquam fílius tuus hic, qui devorávit substántiam suam cum meretrícibus, venit, occidísti illi vítulum saginátum. At ipse dixit illi: Fili, tu semper mecum es, et ómnia mea tua sunt: epulári autem et gaudére oportébat, quia frater tuus hic mórtuus erat, et revíxit: períerat, et invéntus est.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 12:4-5\nIllúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.",
+            "incipit": "Illúmina óculos meos,",
+            "mp3": "offertoire_illumina-oculos-meos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Secreta",
+            "texte": "His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus absólvi delíctis, non gravémur extérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Communio",
+            "texte": "!Luc 15:32\nOpórtet te, fili, gaudére, quia frater tuus mórtuus fúerat, et revíxit: períerat, et invéntus est.",
+            "incipit": "Opórtet te, fili,",
+            "mp3": "communion_oportet-te-fili.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad2-6.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis infúndat: et sui nos partícipes poténter effíciat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 30:20\nQuam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te!\nV. Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum. Allelúja, allelúja.\n!Ps 8:6-7\nMinuísti eum, Dómine, paulo minus ab Angelis: glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum. Allelúja.",
-        "Francais": "!Ps 30:20.\nQu’elle est grande, Seigneur, l’abondance de votre douceur, que vous avez mise en réserve pour ceux qui vous craignent !\nV. Vous l’exercez envers ceux qui espèrent en vous, à la vue des enfants des hommes. Allelúja, allelúja.\n!Ps 8:6-7.\nVous ne l’avez mis qu’un peu au-dessous des Anges : vous l’avez couronné de gloire et d’honneur : et vous l’avez établi sur les ouvrages de vos mains. Allelúja."
-      },
-      "audios": "Graduale Project/graduel_bonum-est-confiteri.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 10:13-21.\nEn ce temps-là : On présentait à Jésus de petits enfants, afin qu’Il les touchât ; mais les disciples repoussaient durement ceux qui les présentaient. Jésus, les voyant, en fut indigné, et leur dit : Laissez venir à moi les petits enfants, et ne les empêchez pas ; car le royaume de Dieu est à ceux qui leur ressemblent. Je vous le dis, en vérité, qui ne recevra pas comme un petit enfant le royaume de Dieu, n’y entrera point. Puis il les embrassa, et les bénit en leur imposant les mains. Comme il se mettait en route, quelqu’un accourut, et fléchissant le genou devant lui, lui demanda : Bon Maître, que dois-je faire pour entrer en possession de la vie éternelle ? Jésus lui dit : Pourquoi m’appelles-tu bon ? Nul n’est bon que Dieu seul. Tu connais les commandements : Ne tue pas, ne commets pas l’adultère, ne dérobe pas, ne porte pas de faux témoignage, ne fais pas de tort, honore ton père et ta mère. Il lui répondit : Maître, j’ai observé tout cela dès ma jeunesse. Jésus, ayant fixé son regard sur lui, l’aima et lui dit : Il te manque une chose : va, vends tout ce que tu as, donne-le aux pauvres, et tu auras un trésor dans le ciel ; puis viens, et suis-moi."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 115:16-17\nO Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti víncula mea, tibi sacrificábo hóstiam laudis.",
-        "Francais": "!Ps 115:16-17.\nÔ Seigneur, je suis votre serviteur et le fils de votre servante : vous avez rompu mes liens, je vous sacrifierai une hostie de louanges."
-      },
-      "audios": "Graduale Project/offertoire_illumina-oculos-meos.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Apoc. 3:20\nEcce, sto ad óstium et pulso: si quis audiérit vocem meam, et aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et ipse mecum.",
-        "Francais": "!Apoc, 3, 20.\nVoici, je me tiens à la porte, et je frappe : si quelqu’un entend ma voix et m’ouvre la porte, j’entrerai chez lui, et je souperai avec lui, et lui avec moi."
-      },
-      "audios": "Graduale Project/communion_oportet-te-fili.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad2-6.txt",
+        "Latin/Tempora/Quad2-6.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

@@ -1,70 +1,256 @@
 {
   "date": "2028-03-07",
-  "celebration": {
-    "nom": "Saint Thomas d'Aquin",
-    "classe": 3,
-    "note": "(temporal : Mardi de la 1e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/03-07",
-    "Tempora/Quad1-2"
-  ],
-  "cles_jour": [
-    "03-07",
-    "Quad1-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad1",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 89:1; 89:2\nv. Dómine, refúgium factus es nobis a generatióne et progénie: a sǽculo et in sǽculum tu es.\n!Ps 89:2\nPriúsquam montes fíerent, aut formarétur terra et orbis: a sǽculo et usque in sǽculum tu es Deus.\n&Gloria\nv. Dómine, refúgium factus es nobis a generatióne et progénie: a sǽculo et in sǽculum tu es.",
-        "Francais": "!Ps 89:1; 89:2\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.\n!Ps 89:2\nAvant que les montagnes eussent été faites, ou que la terre et le monde eussent été formés, vous êtes Dieu de toute éternité, et dans tous les siècles.\n&Gloria\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes."
+      "occurrence": {
+        "gagnant": "Sancti/03-07",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/03-07.txt",
+        "temporal": "Latin/Tempora/Quad1-2.txt",
+        "sanctoral": "Latin/Sancti/03-07.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14.\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
+            "incipit": "In médio Ecclésiæ",
+            "mp3": "introitus_in-medio-ecclesiae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/03-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit, imitatióne complére.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad1-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nIn diébus illis: Locútus est Isaías Prophéta, dicens: Quǽrite Dóminum, dum inveníri potest: invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revertátur ad Dóminum: et miserébitur ejus, et ad Deum nostrum: quóniam multus est ad ignoscéndum. Non enim cogitationes meæ cogitatiónes vestræ: neque viæ vestræ viæ meæ, dicit Dóminus. Quia sicut exaltántur cœli a terra, sic exaltátæ sunt viæ meæ a viis vestris, et cogitatiónes meæ a cogitatiónibus vestris. Et quómodo descéndit imber et nix de cœlo, et illuc ultra non revértitur, sed inébriat terram, et infúndit eam, et germináre eam facit, et dat semen serénti, et panem comedénti: sic erit verbum meum, quod egrediétur de ore meo: non revertétur ad me vácuum, sed fáciet quæcúmque volui, et prosperábitur in his, ad quæ misi illud: ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Eccli 45:9\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/03-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad1-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Secreta",
+            "texte": "Sancti N. Confessóris tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/03-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Postcommunio",
+            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Conféssor tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Introitus",
+            "texte": "!Ps 89:1; 89:2\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.\n!Ps 89:2\nAvant que les montagnes eussent été faites, ou que la terre et le monde eussent été formés, vous êtes Dieu de toute éternité, et dans tous les siècles.\n&Gloria\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.",
+            "incipit": "Seigneur, vous avez",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/03-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit, imitatióne complére.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nIn diébus illis: Locútus est Isaías Prophéta, dicens: Quǽrite Dóminum, dum inveníri potest: invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revertátur ad Dóminum: et miserébitur ejus, et ad Deum nostrum: quóniam multus est ad ignoscéndum. Non enim cogitationes meæ cogitatiónes vestræ: neque viæ vestræ viæ meæ, dicit Dóminus. Quia sicut exaltántur cœli a terra, sic exaltátæ sunt viæ meæ a viis vestris, et cogitatiónes meæ a cogitatiónibus vestris. Et quómodo descéndit imber et nix de cœlo, et illuc ultra non revértitur, sed inébriat terram, et infúndit eam, et germináre eam facit, et dat semen serénti, et panem comedénti: sic erit verbum meum, quod egrediétur de ore meo: non revertétur ad me vácuum, sed fáciet quæcúmque volui, et prosperábitur in his, ad quæ misi illud: ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 140:2\nQue ma prière, Seigneur, s’élève devant vous comme l’encens.\nV. Que l’élévation de mes mains vous soit comme le sacrifice du soir.",
+            "incipit": "Que ma prière,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/03-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 30:15-16\nJ’ai espéré en vous, Seigneur. J’ai dit : Vous êtes mon Dieu ; ma destinée est entre vos mains.",
+            "incipit": "J’ai espéré en",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C5a.txt",
+            "section": "Secreta",
+            "texte": "Que la fervente prière de saint N., votre confesseur et docteur, ne nous fasse pas défaut, Seigneur, mais vous fasse agréer nos dons et nous obtienne toujours votre pardon.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/03-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad1-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 4:2\nLorsque je vous ai invoqué, ô Dieu de ma justice, vous m’avez exaucé. Vous m’avez mis au large dans la tribulation. Ayez pitié de moi, Seigneur, et exaucez ma prière.",
+            "incipit": "Lorsque je vous",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C5a.txt",
+            "section": "Postcommunio",
+            "texte": "Afin que votre sacrifice nous procure le salut, Seigneur, nous vous demandons que le bienheureux N., votre confesseur et illustre docteur, intercède pour nous.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 140:2\nDirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine,\nV. Elevátio mánuum meárum sacrifícium vespertínum.",
-        "Francais": "!Ps 140:2\nQue ma prière, Seigneur, s’élève devant vous comme l’encens.\nV. Que l’élévation de mes mains vous soit comme le sacrifice du soir."
-      },
-      "audios": "Graduale Project/graduel_dirigatur.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 21:10-17\nEn ce temps- là, Jésus étant entré dans Jérusalem, toute la ville fut en émoi ; on disait : « Qui est celui-ci ? » Et les foules disaient : « C’est le prophète Jésus, de Nazareth en Galilée. » Jésus entra dans le temple et chassa tous ceux qui vendaient et achetaient dans le temple ; il renversa les tables des changeurs et les sièges de ceux qui vendaient les colombes ; et il leur dit : « Il est écrit : Ma maison sera appelée maison de prière ; mais vous, vous en faites une caverne de voleurs. » Des aveugles et des boiteux vinrent à lui dans le temple, et il les guérit. Mais les grands prêtres et les scribes, voyant les miracles qu’il venait de faire et les enfants qui criaient dans le temple et disaient : « Hosanna au fils de David ! » s’indignèrent, et ils lui dirent : « Entendez-vous ce qu’ils disent ? — Oui, leur dit Jésus. N’avez-vous jamais lu : De la bouche des petits enfants et des nourrissons vous avez préparé une louange ? » Et les ayant laissés là, il sortit de la ville pour gagner Béthanie, où il demeura."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 30:15-16\nIn te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.",
-        "Francais": "!Ps 30:15-16\nJ’ai espéré en vous, Seigneur. J’ai dit : Vous êtes mon Dieu ; ma destinée est entre vos mains."
-      },
-      "audios": "Graduale Project/offertoire_in-te-speravi.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 4:2\nCum invocárem te, exaudísti me, Deus justítiæ meæ: in tribulatióne dilatásti me: miserére mihi, Dómine, et exáudi oratiónem meam.",
-        "Francais": "!Ps 4:2\nLorsque je vous ai invoqué, ô Dieu de ma justice, vous m’avez exaucé. Vous m’avez mis au large dans la tribulation. Ayez pitié de moi, Seigneur, et exaucez ma prière."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5a.txt",
+        "../horas/Latin/Commune/C5a.txt",
+        "Francais/Sancti/03-07.txt",
+        "Francais/Tempora/Quad1-2.txt",
+        "Latin/Sancti/03-07.txt",
+        "Latin/Tempora/Quad1-2.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

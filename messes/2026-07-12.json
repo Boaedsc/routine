@@ -1,68 +1,210 @@
 {
   "date": "2026-07-12",
-  "celebration": {
-    "nom": "7e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent07-0"
-  ],
-  "cles_jour": [
-    "Pent07-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent07",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 46:2\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.\n!Ps 46:3\nQuóniam Dóminus excélsus, terríbilis: Rex magnus super omnem terram.\n&Gloria\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.",
-        "Francais": "!Ps 46:2.\nv. Tous les peuples, applaudissez ; jubilez pour Dieu avec des cris de joie.\n!Ps 46:3\nCar le Seigneur est élevé et redoutable, Roi grand sur toute la terre.\n&Gloria\nv. Tous les peuples, applaudissez ; jubilez pour Dieu avec des cris de joie."
+      "occurrence": {
+        "gagnant": "Tempora/Pent07-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent07-0.txt",
+        "temporal": "Latin/Tempora/Pent07-0.txt",
+        "sanctoral": "Latin/Sancti/07-12.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_omnes-gentes-plaudite.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 6:19-23\nFrères, je parle à la manière des hommes, à cause de la faiblesse de votre chair : de même que vous avez livré vos membres comme esclaves à l'impureté et à l'injustice, pour arriver à l'injustice, de même livrez maintenant vos membres comme esclaves à la justice, pour arriver à la sainteté. Car, lorsque vous étiez les esclaves du péché, vous étiez libres à l'égard de la justice. Quel fruit aviez-vous alors des choses dont vous rougissez aujourd'hui ? Car la fin de ces choses, c'est la mort. Mais maintenant, affranchis du péché et devenus les esclaves de Dieu, vous avez pour fruit la sainteté, et pour fin la vie éternelle. Car le salaire du péché, c'est la mort ; mais le don de Dieu c'est la vie éternelle en Jésus-Christ Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 46:2\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.\n!Ps 46:3\nQuóniam Dóminus excélsus, terríbilis: Rex magnus super omnem terram.\n&Gloria\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.",
+            "incipit": "Omnes gentes, pláudite",
+            "mp3": "introitus_omnes-gentes-plaudite.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus providéntia in sui dispositióne non fállitur: te súpplices exorámus; ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 6:19-23\nFratres: Humánum dico, propter infirmitátem carnis vestræ: sicut enim exhibuístis membra vestra servíre immundítiæ et iniquitáti ad iniquitátem, ita nunc exhibéte membra vestra servíre justítiæ in sanctificatiónem. Cum enim servi essétis peccáti, líberi fuístis justítiæ. Quem ergo fructum habuístis tunc in illis, in quibus nunc erubéscitis? Nam finis illórum mors est. Nunc vero liberáti a peccáto, servi autem facti Deo, habétis fructum vestrum in sanctificatiónem, finem vero vitam ætérnam. Stipéndia enim peccáti mors. Grátia autem Dei vita ætérna, in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestræ non confundéntur.\nAllelúja, allelúja.\n!Ps 46:2\nOmnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": "graduel_venite-filii.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 7:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Atténdite a falsis prophétis, qui véniunt ad vos in vestiméntis óvium, intrínsecus autem sunt lupi rapáces: a frúctibus eórum cognoscétis eos. Numquid cólligunt de spinis uvas, aut de tríbulis ficus? Sic omnis arbor bona fructus bonos facit: mala autem arbor malos fructus facit. Non potest arbor bona malos fructus fácere: neque arbor mala bonos fructus fácere. Omnis arbor, quæ non facit fructum bonum, excidétur et in ignem mittétur. Igitur ex frúctibus eórum cognoscétis eos. Non omnis, qui dicit mihi, Dómine, Dómine, intrábit in regnum cœlórum: sed qui facit voluntátem Patris mei, qui in cœlis est, ipse intrábit in regnum cœlórum.~",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Offertorium",
+            "texte": "!Dan 3:40\nv. Sicut in holocáustis aríetum et taurórum, et sicut in mílibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quia non est confúsio confidéntibus in te, Dómine.",
+            "incipit": "Sicut in holocáustis",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui legálium differéntiam hostiárum unius sacrifícii perfectione sanxísti: accipe sacrifícium a devótis tibi fámulis, et pari benedictióne, sicut múnera Abel, sanctífica; ut, quod sínguli obtulérunt ad majestátis tuæ honórem, cunctis profíciat ad salútem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 30:3\nInclína aurem tuam, accélera, ut erípias me.",
+            "incipit": "Inclína aurem tuam,",
+            "mp3": "communion_inclina-aurem-tuam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent07-0.txt",
+            "section": "Postcommunio",
+            "texte": "Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus cleménter expédiat, et ad ea, quæ sunt recta, perdúcat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 46:2\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.\n!Ps 46:3\nQuóniam Dóminus excélsus, terríbilis: Rex magnus super omnem terram.\n&Gloria\nv. Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.",
+            "incipit": "Omnes gentes, pláudite",
+            "mp3": "introitus_omnes-gentes-plaudite.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus providéntia in sui dispositióne non fállitur: te súpplices exorámus; ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 6:19-23\nFratres: Humánum dico, propter infirmitátem carnis vestræ: sicut enim exhibuístis membra vestra servíre immundítiæ et iniquitáti ad iniquitátem, ita nunc exhibéte membra vestra servíre justítiæ in sanctificatiónem. Cum enim servi essétis peccáti, líberi fuístis justítiæ. Quem ergo fructum habuístis tunc in illis, in quibus nunc erubéscitis? Nam finis illórum mors est. Nunc vero liberáti a peccáto, servi autem facti Deo, habétis fructum vestrum in sanctificatiónem, finem vero vitam ætérnam. Stipéndia enim peccáti mors. Grátia autem Dei vita ætérna, in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestræ non confundéntur.\nAllelúja, allelúja.\n!Ps 46:2\nOmnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": "graduel_venite-filii.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 7:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Atténdite a falsis prophétis, qui véniunt ad vos in vestiméntis óvium, intrínsecus autem sunt lupi rapáces: a frúctibus eórum cognoscétis eos. Numquid cólligunt de spinis uvas, aut de tríbulis ficus? Sic omnis arbor bona fructus bonos facit: mala autem arbor malos fructus facit. Non potest arbor bona malos fructus fácere: neque arbor mala bonos fructus fácere. Omnis arbor, quæ non facit fructum bonum, excidétur et in ignem mittétur. Igitur ex frúctibus eórum cognoscétis eos. Non omnis, qui dicit mihi, Dómine, Dómine, intrábit in regnum cœlórum: sed qui facit voluntátem Patris mei, qui in cœlis est, ipse intrábit in regnum cœlórum.~",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Offertorium",
+            "texte": "!Dan 3:40\nv. Sicut in holocáustis aríetum et taurórum, et sicut in mílibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quia non est confúsio confidéntibus in te, Dómine.",
+            "incipit": "Sicut in holocáustis",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Secreta",
+            "texte": "Deus, qui legálium differéntiam hostiárum unius sacrifícii perfectione sanxísti: accipe sacrifícium a devótis tibi fámulis, et pari benedictióne, sicut múnera Abel, sanctífica; ut, quod sínguli obtulérunt ad majestátis tuæ honórem, cunctis profíciat ad salútem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 30:3\nInclína aurem tuam, accélera, ut erípias me.",
+            "incipit": "Inclína aurem tuam,",
+            "mp3": "communion_inclina-aurem-tuam.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent07-0.txt",
+            "section": "Postcommunio",
+            "texte": "Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus cleménter expédiat, et ad ea, quæ sunt recta, perdúcat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestræ non confundéntur. \nAllelúja, allelúja.\n!Ps 46:2\nOmnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.",
-        "Francais": "!Ps 33:12; 33:6\nVenez, fils, écoutez-moi, je vous enseignerai la crainte du Seigneur.\nV. Approchez-vous de lui, afin d'être illuminés, et vos visages ne connaîtront point la honte. Alléluia, alléluia.\n!Ps 46:2\nTous les peuples, applaudissez ; jubilez pour Dieu avec des cris de joie. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_venite-filii.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 7:15-21\nEn ce temps-là, Jésus dit à ses disciples : « Gardez-vous des faux prophètes qui viennent à vous sous des vêtements de brebis, mais au dedans sont des loups rapaces. C'est à leurs fruits que vous les reconnaîtrez : cueille-t-on du raisin sur les épines, ou des figues sur les ronces ? Ainsi tout arbre bon porte de bons fruits, et tout arbre mauvais porte de mauvais fruits. Un arbre bon ne peut porter de mauvais fruits, ni un arbre mauvais porter de bons fruits. Tout arbre qui ne porte pas de bons fruits, on le coupe et on le jette au feu. Donc, c'est à leurs fruits que vous les reconnaîtrez. Ce n'est pas celui qui m'aura dit : « Seigneur, Seigneur !» qui entrera dans le royaume des cieux ; mais celui qui aura fait la volonté de mon Père qui est dans les cieux, c'est celui-là qui entrera dans le royaume des cieux. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Dan 3:40\nv. Sicut in holocáustis aríetum et taurórum, et sicut in mílibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quia non est confúsio confidéntibus in te, Dómine.",
-        "Francais": "!Dan 3:40\nv. Comme des holocaustes de béliers, de taureaux et d'agneaux gras par milliers, qu'ainsi soit notre sacrifice en votre présence aujourd'hui, afin qu'il vous soit agréable ; car il n'y a point de confusion pour ceux qui espèrent en vous, Seigneur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 30:3\nInclína aurem tuam, accélera, ut erípias me.",
-        "Francais": "!Ps 30:3.\nInclinez votre oreille, hâtez-vous de me délivrer."
-      },
-      "audios": "Graduale Project/communion_inclina-aurem-tuam.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent07-0.txt",
+        "Latin/Tempora/Pent07-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

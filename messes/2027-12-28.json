@@ -1,70 +1,224 @@
 {
   "date": "2027-12-28",
-  "celebration": {
-    "nom": "Saints Innocents",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/12-28",
-    "Tempora/Nat28"
-  ],
-  "cles_jour": [
-    "12-28",
-    "Nat28"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat28",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 8:3\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.\n!Ps 8:2\nDómine, Dóminus noster: quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.",
-        "Francais": "!Ps 8:3.\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires.\n!Ps 8:2\nSeigneur, notre Maître, que votre nom est admirable dans toute la terre.\n&Gloria\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires."
+      "occurrence": {
+        "gagnant": "Sancti/12-28",
+        "nom_sanctoral": "Die quarta infra octavam Nativitatis",
+        "classe": 5.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-28.txt",
+        "temporal": "Latin/Tempora/Nat28.txt",
+        "sanctoral": "Latin/Sancti/12-28.txt",
+        "calendrier": "12-28",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 14:1-5\nEn ces jours là : Je vis l’Agneau qui se tenait sur la montagne de Sion, et avec lui cent quarante-quatre mille personnes, qui avaient son nom et le nom de son Pére écrits sur le front. Et j’entendis un son qui venait du ciel, pareil au bruit de grandes eaux et à la vois d’un puissant tonnerre ; et le son que j’entendis ressemblait à un concert de harpistes jouant de leurs instruments. Et ils chantaient comme un cantique nouveau devant le trône, et devant les quatre animaux et les vieillards ; et nul ne pouvait apprendre ce cantique, si ce n’est les cent quarante-quatre mille qui ont été rachetés de la terre. Ce sont ceux qui ne se sont pas souillés avec des femmes, car ils sont vierges. Ce sont eux qui accompagnent l’Agneau partout où il va. Ils ont été rachetés d’entre les hommes, comme des prémices pour Dieu et pour l’Agneau ; et il ne s’est point trouvé de mensonge dans leur bouche, car ils sont irréprochables."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Introitus",
+            "texte": "!Ps 8:3\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.\n!Ps 8:2\nDómine, Dóminus noster: quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.",
+            "incipit": "Ex ore infántium,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:1-5\nIn diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœdórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\nAllelúja, allelúja.\n!Ps 112:1\nLaudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "graduel_anima-nostra.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Tractus",
+            "texte": "!Ps 78:3; 78:10\nEffudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem,\nV. Et non erat, qui sepelíret.\nV.Víndica, Dómine, sánguinem\nSanctórum tuórum, qui effúsus est super terram.",
+            "incipit": "Effudérunt sánguinem Sanctórum,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nIn illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 123:7\nAnima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "offertoire_anima-nostra-sicut.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-18t.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Communio",
+            "texte": "!Matt 2:18\nVox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+            "incipit": "Vox in Rama",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-28.txt",
+            "section": "Postcommunio",
+            "texte": "Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Introitus",
+            "texte": "!Ps 8:3\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.\n!Ps 8:2\nDómine, Dóminus noster: quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Ex ore infántium, Deus, et lacténtium perfecísti laudem propter inimicos tuos.",
+            "incipit": "Ex ore infántium,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:1-5\nIn diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœdórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\nAllelúja, allelúja.\n!Ps 112:1\nLaudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "graduel_anima-nostra.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Tractus",
+            "texte": "!Ps 78:3; 78:10\nEffudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem,\nV. Et non erat, qui sepelíret.\nV.Víndica, Dómine, sánguinem\nSanctórum tuórum, qui effúsus est super terram.",
+            "incipit": "Effudérunt sánguinem Sanctórum,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nIn illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 123:7\nNotre âme s’est échappée comme un passereau du filet des chasseurs : le filet a été brisé et nous avons été délivrés.",
+            "incipit": "Notre âme s’est",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-18t.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Communio",
+            "texte": "!Matt 2:18\nVox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+            "incipit": "Vox in Rama",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-28.txt",
+            "section": "Postcommunio",
+            "texte": "Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram. \nAllelúja, allelúja.\n!Ps 112:1\nLaudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.",
-        "Francais": "!Ps 123:7-8\nNotre âme s’est échappée comme un passereau du filet des chasseurs.\nV. Le filet a été brisé et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 112:1\nLouez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_anima-nostra.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nEn ce temps là : voici qu’un ange du Seigneur apparut en songe à Joseph et lui dit : « Lève toi, prends l’enfant et sa mère, fuis en Egypte et restes-y jusqu’à ce que je t’avertisse ; car Hérode va rechercher l’enfant pour le faire périr.» Et lui se leva, prit l’enfant et sa mère de nuit et se retira en Egypte. Et il y resta jusqu’à la mort d’Hérode, afin que s’accomplît ce qu’avait dit le Seigneur par le prophète : J’ai rappelé mon fils d’Egypte. Alors Hérode, voyant que les mages s’étaient joués de lui, entra dans une grande colère, et il envoya tuer tous les enfants qui étaient à Bethléem et dans tout son territoire, depuis l’âge de deux ans et au-dessous, d’après le temps qu’il connaissait exactement par les mages. Alors fut accompli l’oracle du prophète Jérémie disant : Une voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/06-18t",
-        "Francais": "!Ps 123:7\nNotre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés."
-      },
-      "audios": "Graduale Project/offertoire_anima-nostra-sicut.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 2:18\nVox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
-        "Francais": "!Matt 2:18.\nUne voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/12-28.txt",
+        "Latin/Sancti/12-28.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

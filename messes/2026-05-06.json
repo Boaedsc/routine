@@ -1,70 +1,280 @@
 {
   "date": "2026-05-06",
-  "celebration": {
-    "nom": "Saint Jean devant la Porte Latine",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-06",
-    "Tempora/Pasc4-3"
-  ],
-  "cles_jour": [
-    "05-06",
-    "Pasc4-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc4",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C2p",
-        "Francais": "v. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia.\n!Ps. 63, 2.\nExaucez, ô Dieu, ma prière lorsque je vous implore ; délivrez mon âme de la crainte de l’ennemi.\n&Gloria\nv. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-06",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-06.txt",
+        "temporal": "Latin/Tempora/Pasc4-3.txt",
+        "sanctoral": "Latin/Sancti/05-06.txt",
+        "calendrier": "05-06",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lecture du livre de la Sagesse.\n!Sap. 5, 1-5.\nLes justes se lèveront avec une grande assurance contre ceux qui les auront mis dans l’angoisse, et qui auront ravi le fruit de leurs travaux. A cette vue les méchants seront troublés par une horrible frayeur, et ils seront stupéfaits en voyant tout à coup ceux dont ils n’attendaient pas le salut ; ils diront en eux-mêmes, saisis de remords, et gémissant dans l’angoisse de leur cœur : Voici ceux dont nous avons fait autrefois un objet de risée, et un thème d’outrages. Insensés que nous étions, nous regardions leur vie comme une folie, et leur mort comme une honte ; et voilà qu’ils sont comptés parmi les fils de Dieu, et que leur partage est avec les saints."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Introitus",
+            "texte": "!Ps 63:3\nv. Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.\n!Ps. 63:2\nExáudi, Deus, oratiónem meam cum déprecor: a timóre inimíci éripe ánimam meam.\n&Gloria\nv. Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.",
+            "incipit": "Protexísti me, Deus,",
+            "mp3": "introitus_protexisti-me-deus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2p.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis, quia nos úndique mala nostra pertúrbant: præsta, quǽsumus; ut beáti Joánnis Apóstoli tui et Evangelístæ intercéssio gloriósa nos prótegat.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, poeniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2p.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja\n!Ps 91:13\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja\n!Ps 14:6\nV. Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja Justus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 20:20-23\nIn illo témpore: Accessit ad Jesum mater filiórum Zebedæi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Néscitis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
+            "incipit": "Confitebúntur cœli mirabília",
+            "mp3": "offertoire_confitebuntur.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2p.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto N. Mártyre tuo atque Pontífice, per éadem nos placátus inténde.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Communio",
+            "texte": "!Ps 63:11\nLætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja.",
+            "incipit": "Lætábitur justus in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2p.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-06.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti, Dómine, pane cœlésti: ad vitam, quǽsumus, nutriámur ætérnam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Introitus",
+            "texte": "!Ps 63:3\nv. Vous m’avez protégé, ô Dieu, contre les complots des méchants et contre la multitude de ceux qui font le mal, alléluia, alléluia.\n!Ps. 63:2\nExaucez, ô Dieu, la prière que je vous adresse ; délivrez mon âme de la crainte de l’ennemi.\n&Gloria\nv. Vous m’avez protégé, ô Dieu, contre les complots des méchants et contre la multitude de ceux qui font le mal, alléluia, alléluia.",
+            "incipit": "Vous m’avez protégé,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2p.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis, quia nos úndique mala nostra pertúrbant: præsta, quǽsumus; ut beáti Joánnis Apóstoli tui et Evangelístæ intercéssio gloriósa nos prótegat.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 5:1-5\nLes justes se tiendront en  grande assurance en face de ceux qui les ont persé­cutés et leur ont ravi le fruit de leurs travaux. À cette vue, les mé­chants seront pris d’une horrible épouvante, ils se­ront étonnés de la soudaineté d’un salut inespéré. Ils se diront en eux-mêmes, saisis de remords et gémissant dans l’angoisse de leur cœur : « Voici ceux qui étaient l’objet de nos dérisions, de nos proverbes outrageants. In­sensés, nous regardions leur vie comme une folie et leur ﬁn comme une honte. Les voilà comptés parmi les en­fants de Dieu, et leur part est parmi les saints. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2p.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja\n!Ps 91:13\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja\n!Ps 14:6\nV. Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja Justus",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 20:20-23\nIn illo témpore: Accessit ad Jesum mater filiórum Zebedæi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Néscitis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:6\nLes cieux, Seigneur, publieront vos merveilles et votre vérité dans l’assem­blée des saints, alléluia, alléluia.",
+            "incipit": "Les cieux, Seigneur,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2p.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Secreta",
+            "texte": "Sanctiﬁez, Seigneur, ces dons qui vous sont dédiés : et par l’intercession du bien­heureux N., votre évêque et martyr, regardez-nous à cause d’eux avec bienveillance.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Communio",
+            "texte": "!Ps 63:11.\nLe juste se réjouira dans le Seigneur et il espérera en lui, et tous ceux qui ont le cœur droit seront loués, alléluia, alléluia.",
+            "incipit": "Le juste se",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2p.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-06.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti, Dómine, pane cœlésti: ad vitam, quǽsumus, nutriámur ætérnam.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja\n!Ps 91:13\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja\n!Ps 14:6\nV. Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
-        "Francais": "Alléluia, alléluia\n!Ps 91:13\nLe juste fleurira comme le palmier ; et il se multipliera comme le cèdre du Liban. Alléluia\n!Ps 14:6\nV. Le juste germera comme le lis ; et il fleurira éternellement en présence du Seigneur. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:20-23\nEn ce temps-là : la mère des fils de Zébédée s’approcha de Jésus avec ses fils et se prosterna pour lui faire une demande ; Il lui dit : « Que voulez-vous ?» Elle lui dit : « Ordonnez que mes deux fils, que voici, siègent l’un à votre droite, l’autre à votre gauche, dans votre royaume.» Jésus répondit : « Vous ne savez pas ce que vous demandez. Pouvez-vous boire le calice que, moi, je dois boire ? — Nous le pouvons,» lui dirent-ils. Il leur dit : « Vous boirez, en effet, mon calice ; quant à siéger à ma droite ou à ma gauche, il ne m’appartient pas de l’accorder ; c’est pour ceux pour qui mon Père l’a préparé.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2p",
-        "Francais": "!Ps. 88, 6.\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C2p",
-        "Francais": "!Ps. 63, 11.\nLe juste se réjouira dans le Seigneur, et espérera en lui ; et tous ceux qui ont le cœur droit se réjouiront, alléluia, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/05-06.txt",
+        "Latin/Sancti/05-06.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

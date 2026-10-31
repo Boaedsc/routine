@@ -1,27 +1,212 @@
 {
   "date": "2027-01-29",
-  "celebration": {
-    "nom": "Saint François de Sales",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-29",
-    "Tempora/Quadp1-5"
-  ],
-  "cles_jour": [
-    "01-29",
-    "Quadp1-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quadp1",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Tempora/Quadp1-0:GradualeF",
-        "Francais": "@Tempora/Quadp1-0:GradualeF"
+      "occurrence": {
+        "gagnant": "Sancti/01-29",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-29.txt",
+        "temporal": "Latin/Tempora/Quadp1-5.txt",
+        "sanctoral": "Latin/Sancti/01-29.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
+            "incipit": "In médio Ecclésiæ",
+            "mp3": "introitus_in-medio-ecclesiae.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-29.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad animárum salútem beátum Francíscum Confessórem tuum atque Pontíficem ómnibus ómnia factum esse voluísti: concéde propítius; ut caritátis tuæ dulcédine perfúsi, ejus dirigéntibus mónitis ac suffragántibus méritis, ætérna gáudia consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Eccli 45:9\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-29.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Secreta",
+            "texte": "Sancti N. Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Postcommunio",
+            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Póntifex tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)\n!Ps 91:2\nIl est bon de louer le Seigneur, et de chanter votre nom, ô Très-Haut..\n&Gloria\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)",
+            "incipit": "Au milieu de",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-29.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad animárum salútem beátum Francíscum Confessórem tuum atque Pontíficem ómnibus ómnia factum esse voluísti: concéde propítius; ut caritátis tuæ dulcédine perfúsi, ejus dirigéntibus mónitis ac suffragántibus méritis, ætérna gáudia consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 4:1-8\nMon bien-aimé : je t’adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, par son avènement et son royaume : prêche la parole ; interviens à temps et à contretemps ; reprends, supplie, menace, en toute patience et doctrine. Car un temps viendra où les hommes ne supporteront plus la saine doctrine, mais ils se choisiront une foule de maîtres selon leurs désirs, avides de ce qui flatte l’oreille. Ils détourneront l’oreille de la vérité pour l’ouvrir à des fables. Quant à toi, sois vigilant, travaille constamment, fais œuvre de prédicateur de l’Évangile, remplis jusqu’au bout ton ministère. Sois sobre. Car, en ce qui me concerne, me voici déjà répandu en libation et le moment de mon départ est proche. J’ai combattu le bon combat ; j’ai accompli ma course jusqu’au bout ; j’ai gardé la foi. Elle est prête désormais, la couronne de justice que me donnera le Seigneur, le juste juge, au grand jour ; non seulement à moi, mais aussi à tous ceux qui aiment son avènement.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse, et sa langue annoncera l’équité.\nV. La loi de Dieu est dans son cœur, et ses pas ne chancelleront pas. Alléluia, alléluia.\n!Eccli 45:9\nLe Seigneur l’a aimé et l’a orné : il l’a revêtu d’une robe de gloire. Alléluia.",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse, et sa langue annoncera l’équité.\nV. La loi de Dieu est dans son cœur, et ses pas ne chancelleront pas.\n!Ps 111:1-3\nv. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. ¶ Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nLe juste fleurira comme le palmier et il s’élèvera comme le cèdre du Liban. (Alléluia.)",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Secreta",
+            "texte": "Que la fervente prière de saint N., votre évêque et docteur, ne nous fasse pas défaut, Seigneur, mais vous fasse agréer nos dons et nous obtienne toujours votre pardon.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Postcommunio",
+            "texte": "Afin que votre sacrifice nous procure le salut, Seigneur, nous vous demandons que le bienheureux N., votre évêque et illustre docteur, intercède pour nous.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4a.txt",
+        "../horas/Latin/Commune/C4a.txt",
+        "Francais/Sancti/01-29.txt",
+        "Latin/Sancti/01-29.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

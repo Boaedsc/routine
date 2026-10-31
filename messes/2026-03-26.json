@@ -1,68 +1,224 @@
 {
   "date": "2026-03-26",
-  "celebration": {
-    "nom": "Jeudi de la semaine de la Passion",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad5-4"
-  ],
-  "cles_jour": [
-    "Quad5-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad5",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Dan 3:31\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.",
-        "Francais": "!Dan 3:31\nv. Tout ce que vous nous avez fait, Seigneur, c’est par une justice véritable que vous l’avez fait ; car nous avons péché contre vous et nous n’avons point obéi à vos commandements : mais donnez gloire à votre nom et agissez à notre égard selon la multitude de vos miséricordes.\n!Ps 118:1\nHeureux ceux qui sont immaculés dans la voie, qui marchent dans la loi du Seigneur.\nv. Tout ce que vous nous avez fait, Seigneur, c’est par une justice véritable que vous l’avez fait ; car nous avons péché contre vous et nous n’avons point obéi à vos commandements : mais donnez gloire à votre nom et agissez à notre égard selon la multitude de vos miséricordes."
+      "occurrence": {
+        "gagnant": "Tempora/Quad5-4",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad5-4.txt",
+        "temporal": "Latin/Tempora/Quad5-4.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Daniélis Prophétæ\n!Dan 3:25, 34-45\nEn ces jours-là, Azarias pria le Seigneur et dit : Seigneur notre Dieu, ne nous abandonnez pas à jamais, nous vous en supplions, à cause de votre nom, et ne détruisez pas votre alliance. Et ne retirez pas de nous votre miséricorde, à cause d’Abraham votre bien-aimé, et d’Isaac votre serviteur, et d’Israël votre saint, auxquels vous avez parlé, promettant de multiplier leur race comme les étoiles du ciel, et comme le sable qui est sur le rivage de la mer, car, Seigneur, nous sommes réduits à un plus petit nombre que toutes les nations, et nous sommes aujourd’hui humiliés sur toute la terre à cause de nos péchés. Et il n’y a plus actuellement ni prince, ni chef, ni prophète, ni holocauste, ni sacrifice, ni oblation, ni encens, ni endroit pour vous offrir les prémices, afin que nous puissions trouver votre miséricorde. Mais recevez-nous dans un cœur contrit et dans un esprit humilié, comme un holocauste de béliers et de taureaux, comme des milliers d’agneaux gras, qu’ainsi notre sacrifice paraisse aujourd’hui devant vous et qu’il vous soit agréable, car ceux qui ont confiance en vous ne sont pas confondus. Et maintenant nous vous suivons de tout notre cœur ; nous vous craignons, et nous recherchons votre face. Ne nous confondez pas, mais agissez envers nous selon votre douceur et selon la multitude de vos miséricordes. Délivrez-nous par vos merveilles, et donnez gloire à votre nom. Seigneur. Que tous ceux qui font souffrir vos serviteurs soient confondus ; qu’ils soient confondus par votre toute-puissance, et que leur force soit brisée ; et qu’ils sachent que vous, Seigneur, êtes le Dieu unique et glorieux sur toute la terre, ô Seigneur notre Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Introitus",
+            "texte": "!Dan 3:31\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.",
+            "incipit": "Omnia, quæ fecísti",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut dígnitas condiciónis humánæ, per immoderántiam sauciáta, medicinális parsimóniæ stúdio reformétur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 3:25, 34-45\nIn diébus illis: Orávit Azarías Dóminum, dicens: Dómine, Deus noster: ne, quǽsumus, tradas nos in perpétuum propter nomen tuum, et ne díssipes testaméntum tuum: neque áuferas misericórdiam tuam a nobis propter Abraham diléctum tuum, et Isaac servum tuum, et Israël sanctum tuum: quibus locútus es, póllicens, quod multiplicáres semen eórum sicut stellas cœli, et sicut arénam, quæ est in líttore maris: quia, Dómine, imminúti sumus plus quam omnes gentes, sumúsque húmiles in univérsa terra hódie propter peccáta nostra. Et non est in témpore hoc princeps, et dux, et prophéta, neque holocáustum, neque sacrifícium, neque oblátio, neque incénsum, neque locus primitiárum coram te, ut possímus inveníre misericórdiam tuam: sed in ánimo contríto et spíritu humilitátis suscipiámur. Sicut in holocáusto aríetum et taurórum, et sicut in míllibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quóniam non est confúsio confidéntibus in te. Et nunc séquimur te in toto corde, et timémus te, et quǽrimus fáciem tuam. Ne confúndas nos: sed fac nobíscum juxta mansuetúdinem tuam et secúndum multitúdinem misericórdiæ tuæ. Et érue nos in mirabílibus tuis, et da glóriam nómini tuo, Dómine: et confundántur omnes, qui osténdunt servis tuis mala, confundántur in omni poténtia tua: et robur eórum conterátur: et sciant, quia tu es Dóminus, Deus solus, et gloriósus super orbem terrárum, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Graduale",
+            "texte": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus\n!Ps 28:9\nRevelávit Dóminus condénsa: et in templo ejus omnes dicent glóriam.",
+            "incipit": "Tóllite hóstias, et",
+            "mp3": "graduel_tollite-hostias.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 7:36-50\nIn illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum illo. Et ingréssus domum pharisǽi, discúbuit. Et ecce múlier, quæ erat in civitáte peccátrix, ut cognóvit, quod accubuísset in domo pharisǽi, áttulit alabástrum unguénti: et stans retro secus pedes ejus, lácrimis cœpit rigáre pedes ejus, et capíllis cápitis sui tergébat, et osculabátur pedes ejus, et unguénto ungébat. ¶ Videns autem pharisǽus, qui vocáverat eum, ait intra se, dicens: Hic si esset Prophéta, sciret útique, quæ et qualis est múlier, quæ tangit eum: quia peccátrix est. Et respóndens Jesus, dixit ad illum: Simon, hábeo tibi áliquid dícere. At ille ait: Magíster, dic. Duo debitóres erant cuidam fœneratóri: unus debébat denários quingéntos, et álius quinquagínta. Non habéntibus illis, unde rédderent, donávit utrísque. Quis ergo eum plus díligit? Respóndens Simon, dixit: Æstimo, quia is, cui plus donávit. At ille dixit ei: Recte judicásti. Et convérsus ad mulíerem, dixit Simóni: Vides hanc mulíerem? Intrávi in domum tuam, aquam pédibus meis non dedísti: hæc autem lácrimis rigávit pedes meos et capíllis suis tersit. Osculum mihi non dedísti: hæc autem, ex quo intrávit, non cessávit osculári pedes meos. Oleo caput meum non unxísti: hæc autem unguénto unxit pedes meos. Propter quod dico tibi: Remittúntur ei peccáta multa, quóniam diléxit multum. Cui autem minus dimíttitur, minus díligit. Dixit autem ad illam: Remittúntur tibi peccáta. Et cœpérunt, qui simul accumbébant, dícere intra se: Quis est hic, qui étiam peccáta dimíttit? Dixit autem ad mulíerem: Fides tua te salvam fecit: vade in pace.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-22.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 136:1\nSuper flúmina Babylónis illic sédimus et flévimus: dum recordarémur tui, Sion.",
+            "incipit": "Super flúmina Babylónis",
+            "mp3": "offertoire_super-flumina-babylonis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Secreta",
+            "texte": "Dómine, Deus noster, qui in his pótius creatúris, quas ad fragilitátis nostræ subsídium condidísti, tuo quoque nómini múnera jussísti dicánda constítui: tríbue, quǽsumus; ut et vitæ nobis præséntis auxílium et æternitátis effíciant sacraméntum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Communio",
+            "texte": "!Ps 118:49-50\nMeménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc me consoláta est in humilitáte mea.",
+            "incipit": "Meménto verbi tui",
+            "mp3": "communion_memento-verbi-tui.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad5-4.txt",
+            "section": "Postcommunio",
+            "texte": "Quod ore súmpsimus, Dómine, pura mente capiámus: et de munere temporáli, fiat nobis remédium sempitérnum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Introitus",
+            "texte": "!Dan 3:31\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\nv. Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia peccávimus tibi, et mandátis tuis non obedívimus: sed da glóriam nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.",
+            "incipit": "Omnia, quæ fecísti",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut dígnitas condiciónis humánæ, per immoderántiam sauciáta, medicinális parsimóniæ stúdio reformétur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 3:25, 34-45\nIn diébus illis: Orávit Azarías Dóminum, dicens: Dómine, Deus noster: ne, quǽsumus, tradas nos in perpétuum propter nomen tuum, et ne díssipes testaméntum tuum: neque áuferas misericórdiam tuam a nobis propter Abraham diléctum tuum, et Isaac servum tuum, et Israël sanctum tuum: quibus locútus es, póllicens, quod multiplicáres semen eórum sicut stellas cœli, et sicut arénam, quæ est in líttore maris: quia, Dómine, imminúti sumus plus quam omnes gentes, sumúsque húmiles in univérsa terra hódie propter peccáta nostra. Et non est in témpore hoc princeps, et dux, et prophéta, neque holocáustum, neque sacrifícium, neque oblátio, neque incénsum, neque locus primitiárum coram te, ut possímus inveníre misericórdiam tuam: sed in ánimo contríto et spíritu humilitátis suscipiámur. Sicut in holocáusto aríetum et taurórum, et sicut in míllibus agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi: quóniam non est confúsio confidéntibus in te. Et nunc séquimur te in toto corde, et timémus te, et quǽrimus fáciem tuam. Ne confúndas nos: sed fac nobíscum juxta mansuetúdinem tuam et secúndum multitúdinem misericórdiæ tuæ. Et érue nos in mirabílibus tuis, et da glóriam nómini tuo, Dómine: et confundántur omnes, qui osténdunt servis tuis mala, confundántur in omni poténtia tua: et robur eórum conterátur: et sciant, quia tu es Dóminus, Deus solus, et gloriósus super orbem terrárum, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Graduale",
+            "texte": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus\n!Ps 28:9\nRevelávit Dóminus condénsa: et in templo ejus omnes dicent glóriam.",
+            "incipit": "Tóllite hóstias, et",
+            "mp3": "graduel_tollite-hostias.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:36-50\nEn ce temps-là : Un Pharisien invita Jésus à manger avec lui. Il entra dans la maison du Pharisien et se mit à table. Et voici qu’une femme qui, dans la ville, était pécheresse, ayant appris qu’il était à table dans la maison du Pharisien, apporta un vase d’albâtre plein de parfum ; et se tenant par derrière, près de ses pieds, tout en pleurs, elle se mit à arroser ses pieds de ses larmes, et elle essuyait avec les cheveux de sa tête et embrassait ses pieds, et elle les oignait de parfum. A cette vue, le Pharisien qui l’avait invité se dit en lui-même : « S’il était prophète, il saurait qui et de quelle espèce est la femme qui le touche, que c’est une pécheresse.» Et prenant la parole, Jésus lui dit : « Simon, j’ai quelque chose à te dire.» Et lui : « Maître, parlez.» dit-il. « Un créancier avait deux débiteurs : l’un devait cinq cents deniers et l’autre cinquante. Comme ils n’avaient pas de quoi rendre, il fit remise à tous les deux. Lequel donc d’entre eux l’aimera davantage ?» Simon répondit : « Celui, je pense, auquel il a remis le plus.» Il lui dit : « Tu as bien jugé.» Et, se tournant vers la femme, il dit à Simon : « Vois-tu cette femme ? Je suis entré dans ta maison, et tu n’as pas versé d’eau sur mes pieds ; mais elle, elle a arrosé mes pieds de (ses) larmes et les a essuyés avec ses cheveux. Tu ne m’as point donné de baiser ; mais elle, depuis que je suis entré, elle ne cessait pas d’embrasser mes pieds. Tu n’as pas oint ma tête d’huile ; mais elle, elle a oint mes pieds de parfum. C’est pourquoi, je te le dis, ses nombreux péchés lui sont pardonnés, parce qu’elle a beaucoup aimé ; mais celui à qui l’on pardonne peu, aime peu.» Et à elle, il dit : « Tes péchés sont pardonnés.» Et les convives se mirent à se dire en eux-mêmes : « Qui est celui-ci qui même pardonne les péchés ?» Et il dit à la femme : « Ta foi t’a sauvée, va en paix.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-22.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 136:1\nSuper flúmina Babylónis illic sédimus et flévimus: dum recordarémur tui, Sion.",
+            "incipit": "Super flúmina Babylónis",
+            "mp3": "offertoire_super-flumina-babylonis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Secreta",
+            "texte": "Dómine, Deus noster, qui in his pótius creatúris, quas ad fragilitátis nostræ subsídium condidísti, tuo quoque nómini múnera jussísti dicánda constítui: tríbue, quǽsumus; ut et vitæ nobis præséntis auxílium et æternitátis effíciant sacraméntum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Communio",
+            "texte": "!Ps 118:49-50\nMeménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc me consoláta est in humilitáte mea.",
+            "incipit": "Meménto verbi tui",
+            "mp3": "communion_memento-verbi-tui.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad5-4.txt",
+            "section": "Postcommunio",
+            "texte": "Quod ore súmpsimus, Dómine, pura mente capiámus: et de munere temporáli, fiat nobis remédium sempitérnum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus\n!Ps 28:9\nRevelávit Dóminus condénsa: et in templo ejus omnes dicent glóriam.",
-        "Francais": "!Ps 95:8-9\nPrenez des victimes et entrez dans ses parvis : adorez le Seigneur dans son saint tabernacle.\n!Ps 28:9\nLe Seigneur découvrira les lieux sombres : et dans son temple, tous publieront sa gloire."
-      },
-      "audios": "Graduale Project/graduel_tollite-hostias.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:36-50\nEn ce temps-là, un pharisien pria Jésus de manger avec lui. Et étant entré dans la maison du pharisien, il se mit à table. Et voici qu’une femme, qui était une pécheresse dans la ville, ayant su qu’il était à table dans la maison du pharisien, apporta un vase d’albâtre, rempli de parfum ; et se tenant derrière lui, à ses pieds, elle se mit à arroser ses pieds de ses larmes, et elle les essuyait avec les cheveux de sa tête, et elle baisait ses pieds et les oignait de parfum. Voyant cela, le pharisien qui l’avait invité dit en lui-même : Si cet homme était prophète, il saurait certainement qui et de quelle espèce est la femme qui le touche ; car c’est une pécheresse. Et Jésus, prenant la parole, lui dit : Simon, j’ai quelque chose à te dire. Il répondit : Maître, dites. Un créancier avait deux débiteurs, l’un devait cinq cents deniers, et l’autre cinquante. Comme ils n’avaient pas de quoi les rendre, il leur remit à tous deux leur dette. Lequel donc l’aimera davantage ? Simon répondit : Je pense que c’est celui auquel il a remis davantage. Jésus lui dit : Tu as bien jugé. Et se tournant vers la femme, il dit à Simon : Tu vois là cette femme ? Je suis entré dans ta maison : tu ne m’as pas donné d’eau pour mes pieds ; mais elle a arrosé mes pieds de ses larmes, et elle les a essuyés avec ses cheveux. Tu ne m’as pas donné de baiser ; mais elle, depuis qu’elle est entrée, n’a pas cessé de baiser mes pieds. Tu n’as pas oint ma tête d’huile ; mais elle, elle a oint mes pieds de parfum. C’est pourquoi, je te le dis, beaucoup de péchés lui sont remis, parce qu’elle a beaucoup aimé. Mais celui à qui on remet moins, aime moins. Alors il dit à cette femme : Tes péchés te sont remis. Et ceux qui étaient à table avec lui commencèrent à dire en eux-mêmes : Quel est celui-ci, qui remet les péchés ? Et il dit à la femme : Ta foi t’a sauvée ; va en paix."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 136:1\nSuper flúmina Babylónis illic sédimus et flévimus: dum recordarémur tui, Sion.",
-        "Francais": "!Ps 136:1\nAu bord des fleuves de Babylone nous nous sommes assis et nous avons pleuré en nous souvenant de Sion."
-      },
-      "audios": "Graduale Project/offertoire_super-flumina-babylonis.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 118:49-50\nMeménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc me consoláta est in humilitáte mea.",
-        "Francais": "!Ps 118:49-50\nSouvenez-vous de la parole que vous avez dite à votre serviteur ; par elle vous m’avez donné l’espérance, c’est ce qui m’a consolé dans mon humiliation."
-      },
-      "audios": "Graduale Project/communion_memento-verbi-tui.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad5-4.txt",
+        "Latin/Tempora/Quad5-4.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

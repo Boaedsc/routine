@@ -1,68 +1,212 @@
 {
   "date": "2026-05-31",
-  "celebration": {
-    "nom": "Sainte Trinité",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent01-0"
-  ],
-  "cles_jour": [
-    "Pent01-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent01",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Tempora/Pent01-0r:Introitus",
-        "Francais": "!Tob 12:6.\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde.\n!Ps 8:2\nSeigneur, notre Dieu, que votre Nom est admirable sur toute la terre !\n&Gloria\nv. Bénie soit la Sainte Trinité, l'indivisible Unité ; louons-la, parce qu'elle nous a fait miséricorde."
+      "occurrence": {
+        "gagnant": "Tempora/Pent01-0r",
+        "nom_sanctoral": "",
+        "classe": 6.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent01-0r.txt",
+        "temporal": "Latin/Tempora/Pent01-0r.txt",
+        "sanctoral": "Latin/Sancti/05-31.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pent01-0r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 11:33-36.\nÔ profondeur inépuisable de la sagesse et de la science de Dieu ! Que ses jugements sont insondables et ses voies incompréhensibles ! Car qui a connu la pensée du Seigneur ou qui a été son conseiller ? Ou bien qui lui a donné le premier, pour qu'il ait à recevoir en retour ? De Lui, par Lui et pour Lui sont toutes choses. À lui la gloire dans tous les siècles ! Amen !"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Introitus",
+            "texte": "!Tob 12:6\nv. Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei, quia fecit nobíscum misericórdiam suam.\n!Ps 8:2\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei, quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedícta sit sancta",
+            "mp3": "introitus_benedicta-sit-sancta.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui dedísti fámulis tuis in confessióne veræ fídei, ætérnæ Trinitátis glóriam agnóscere, et in poténtia majestátis adoráre Unitátem: quǽsumus; ut, ejúsdem fídei firmitáte, ab ómnibus semper muniámur advérsis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 11:33-36.\nO altitúdo divitiárum sapiéntiæ et sciéntiæ Dei: quam incomprehensibília sunt judícia ejus, et investigábiles viæ ejus! Quis enim cognovit sensum Dómini? Aut quis consiliárius ejus fuit? Aut quis prior dedit illi, et retribuétur ei? Quóniam ex ipso et per ipsum et in ipso sunt ómnia: ipsi glória in sǽcula. Amen.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Graduale",
+            "texte": "!Dan 3:55-56\nBenedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim,\nV. Benedíctus es, Dómine, in firmaménto cæli, et laudábilis in sǽcula. Allelúja, allelúja.\n!Dan 3:52\nV. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "graduel_benedictus-es.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 28:18-20\nIn illo témpore: Dixit Jesus discípulis suis: Data est mihi omnis potéstas in cœlo et in terra. Eúntes ergo docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti: docéntes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce, ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Tob 12:6.\nBenedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus quoque Spíritus: quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedíctus sit Deus",
+            "mp3": "offertoire_benedictus-sit.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Secreta",
+            "texte": "Sanctífica, quǽsumus, Dómine, Deus noster, per tui sancti nóminis invocatiónem, hujus oblatiónis hóstiam: et per eam nosmetípsos tibi pérfice munus ætérnum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Communio",
+            "texte": "!Tob 12:6\nBenedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei: quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedícimus Deum cœli",
+            "mp3": "communion_benedicimus-deum-caeli.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent01-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Profíciat nobis ad salútem córporis et ánimæ, Dómine, Deus noster, hujus sacraménti suscéptio: et sempitérnæ sanctæ Trinitátis ejusdémque indivíduæ Unitátis conféssio.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Introitus",
+            "texte": "!Tob 12:6\nv. Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei, quia fecit nobíscum misericórdiam suam.\n!Ps 8:2\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei, quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedícta sit sancta",
+            "mp3": "introitus_benedicta-sit-sancta.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui dedísti fámulis tuis in confessióne veræ fídei, ætérnæ Trinitátis glóriam agnóscere, et in poténtia majestátis adoráre Unitátem: quǽsumus; ut, ejúsdem fídei firmitáte, ab ómnibus semper muniámur advérsis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 11:33-36.\nO altitúdo divitiárum sapiéntiæ et sciéntiæ Dei: quam incomprehensibília sunt judícia ejus, et investigábiles viæ ejus! Quis enim cognovit sensum Dómini? Aut quis consiliárius ejus fuit? Aut quis prior dedit illi, et retribuétur ei? Quóniam ex ipso et per ipsum et in ipso sunt ómnia: ipsi glória in sǽcula. Amen.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Graduale",
+            "texte": "!Dan 3:55-56\nBenedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim,\nV. Benedíctus es, Dómine, in firmaménto cæli, et laudábilis in sǽcula. Allelúja, allelúja.\n!Dan 3:52\nV. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "graduel_benedictus-es.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 28:18-20\nIn illo témpore: Dixit Jesus discípulis suis: Data est mihi omnis potéstas in cœlo et in terra. Eúntes ergo docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti: docéntes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce, ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Tob 12:6.\nBenedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus quoque Spíritus: quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedíctus sit Deus",
+            "mp3": "offertoire_benedictus-sit.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Secreta",
+            "texte": "Sanctífica, quǽsumus, Dómine, Deus noster, per tui sancti nóminis invocatiónem, hujus oblatiónis hóstiam: et per eam nosmetípsos tibi pérfice munus ætérnum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Communio",
+            "texte": "!Tob 12:6\nBenedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei: quia fecit nobíscum misericórdiam suam.",
+            "incipit": "Benedícimus Deum cœli",
+            "mp3": "communion_benedicimus-deum-caeli.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent01-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Profíciat nobis ad salútem córporis et ánimæ, Dómine, Deus noster, hujus sacraménti suscéptio: et sempitérnæ sanctæ Trinitátis ejusdémque indivíduæ Unitátis conféssio.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Dan 3:55-56\nBenedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim,\nV. Benedíctus es, Dómine, in firmaménto cæli, et laudábilis in sǽcula. Allelúja, allelúja.\n!Dan 3:52\nV. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.",
-        "Francais": "!Dan 3:55-56.\nVous êtes béni, Seigneur, vous qui contemplez les abîmes, et trônez sur les Chérubins.\nV. Vous êtes béni, Seigneur, dans le firmament du ciel, et digne de louange à jamais. Allelúja, allelúja.\n!Dan 3:52\nV. Vous êtes béni, Seigneur, Dieu de nos pères, et digne de louange à jamais. Allelúja."
-      },
-      "audios": "Graduale Project/graduel_benedictus-es.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 28:18-20\nEn ce temps-là, Jésus dit à ses disciples : « Toute puissance m'a été donnée dans le ciel et sur la terre. Allez donc, enseignez toutes les nations, les baptisant au nom du Père, du Fils et du Saint-Esprit, leur apprenant à observer tout ce que je vous ai commandé. Et moi, je suis avec vous toujours jusqu'à la fin du monde. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Tob 12:6.\nBenedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus quoque Spíritus: quia fecit nobíscum misericórdiam suam.",
-        "Francais": "!Tob 12:6.\nBéni soit Dieu le Père, et le Fils unique de Dieu, et le Saint-Esprit, car Il nous a fait miséricorde."
-      },
-      "audios": "Graduale Project/offertoire_benedictus-sit.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Tob 12:6\nBenedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei: quia fecit nobíscum misericórdiam suam.",
-        "Francais": "!Tob 12:6.\nNous bénissons le Dieu du ciel, et devant tous les vivants nous le louons, car Il nous a fait miséricorde."
-      },
-      "audios": "Graduale Project/communion_benedicimus-deum-caeli.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent01-0r.txt",
+        "Latin/Tempora/Pent01-0r.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

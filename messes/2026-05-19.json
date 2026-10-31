@@ -1,17 +1,284 @@
 {
   "date": "2026-05-19",
-  "celebration": {
-    "nom": "Saint Pierre Célestin",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-19",
-    "Tempora/Pasc6-2"
-  ],
-  "cles_jour": [
-    "05-19",
-    "Pasc6-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc6",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/05-19",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-19.txt",
+        "temporal": "Latin/Tempora/Pasc6-2.txt",
+        "sanctoral": "Latin/Sancti/05-19.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joann 21:15-17\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\n&Gloria\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)",
+            "incipit": "Si díligis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-19.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Petrum Cœlestínum ad summi pontificátus ápicem sublimásti, quique illum humilitáti postpónere docuísti: concéde propítius; ut ejus exémplo cuncta mundi despícere, et ad promíssa humílibus præmia perveníre felíciter mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminum\n!Ps 39:10-11\nAnnuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non prohibébo: Dómine, tu scisti.\nV. Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.\nV. Non abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+            "incipit": "Ecce, dedi verba",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-19.txt",
+            "section": "Secreta",
+            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-19.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joannes 21:15-17\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)",
+            "incipit": "Si tu m’aimes,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-19.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Petrum Cœlestínum ad summi pontificátus ápicem sublimásti, quique illum humilitáti postpónere docuísti: concéde propítius; ut ejus exémplo cuncta mundi despícere, et ad promíssa humílibus præmia perveníre felíciter mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes. Alléluia, alléluia.\n!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes.\n!Ps 39:10-11\nJ’ai annoncé votre justice dans la grande assemblée ; Seigneur, vous le savez, je n’ai pas fermé la bouche.\nV. Je n’ai pas caché votre justice au fond de mon cœur : j’ai proclamé votre vérité et votre salut.\nV. Je n’ai pas caché votre bonté ni votre vérité à la grande assemblée.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-19.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc6-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-5.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nVoici : j’ai mis mes paroles dans ta bouche ; je t’ai établi sur les nations et sur les royaumes, pour que tu arraches et que tu détruises, que tu bâtisses et que tu plantes. (Alléluia.)",
+            "incipit": "Voici : j’ai",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-19.txt",
+            "section": "Secreta",
+            "texte": "Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.\n$Per Dominum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-19.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc6-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 67:33-34\nPsalmodiez pour Seigneur qui monte au-dessus des cieux des cieux vers l'Orient, alléluia.",
+            "incipit": "Psalmodiez pour Seigneur",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-19.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4b.txt",
+        "../horas/Latin/Commune/C4b.txt",
+        "Francais/Sancti/05-19.txt",
+        "Francais/Tempora/Pasc6-2.txt",
+        "Latin/Sancti/05-19.txt",
+        "Latin/Tempora/Pasc6-2.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

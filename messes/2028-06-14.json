@@ -1,70 +1,310 @@
 {
   "date": "2028-06-14",
-  "celebration": {
-    "nom": "Saint Basile le Grand",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-14",
-    "Tempora/Pent01-3"
-  ],
-  "cles_jour": [
-    "06-14",
-    "Pent01-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent01",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C4a",
-        "Francais": "!Eccli 15:5.\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire."
+      "occurrence": {
+        "gagnant": "Sancti/06-14",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-14.txt",
+        "temporal": "Latin/Tempora/Pent01-3.txt",
+        "sanctoral": "Latin/Sancti/06-14.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.\n!2 Tim 4:1-8\nMon bien-aimé, je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
+            "incipit": "In médio Ecclésiæ",
+            "mp3": "introitus_in-medio-ecclesiae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Oratio",
+            "texte": "v. Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti N. Confessóris tui atque Pontíficis solemnitáte deférimus: et, qui tibi digne méruit famulári, ejus intercedéntibus méritis, ab ómnibus nos absólve peccátis.\n$Per Dominum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-81\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Ps 88:21\nInvéni David servum meum, óleo sancto meo unxi eum. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 14:26-35\nIn illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potuerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex itúrus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus. Bonum est sal. Si autem sal evanúerit, in quo condiétur? Neque in terram neque in sterquilínium útile est, sed foras mittétur. Qui habet aures audiéndi, áudiat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Secreta",
+            "texte": "Sancti N. Confessóris tui atque Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ nos reddat accéptos: ut, per hæc piæ placatiónis offícia, et illum beáta retribútio comitétur, et nobis grátiæ tuæ dona concíliet.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-14.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, fidélium remunerátor animárum: præsta; ut, beáti N. Confessóris tui atque Pontíficis, cujus venerándam celebrámus festivitátem, précibus indulgéntiam consequámur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)\n!Ps 91:2\nIl est bon de louer le Seigneur, et de chanter votre nom, ô Très-Haut..\n&Gloria\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)",
+            "incipit": "Au milieu de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Oratio",
+            "texte": "Exaucez nos prières, nous vous le demandons, Seigneur, en la solennité de saint N., votre évêque et confesseur ; il a mérité de vous servir dignement : par l’intercession de ses mérites, absolvez-nous de tous nos péchés.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 4:1-8\nMon bien-aimé : je t’adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, par son avènement et son royaume : prêche la parole ; interviens à temps et à contretemps ; reprends, supplie, menace, en toute patience et doctrine. Car un temps viendra où les hommes ne supporteront plus la saine doctrine, mais ils se choisiront une foule de maîtres selon leurs désirs, avides de ce qui flatte l’oreille. Ils détourneront l’oreille de la vérité pour l’ouvrir à des fables. Quant à toi, sois vigilant, travaille constamment, fais œuvre de prédicateur de l’Évangile, remplis jusqu’au bout ton ministère. Sois sobre. Car, en ce qui me concerne, me voici déjà répandu en libation et le moment de mon départ est proche. J’ai combattu le bon combat ; j’ai accompli ma course jusqu’au bout ; j’ai gardé la foi. Elle est prête désormais, la couronne de justice que me donnera le Seigneur, le juste juge, au grand jour ; non seulement à moi, mais aussi à tous ceux qui aiment son avènement.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-81\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Ps 88:21\nInvéni David servum meum, óleo sancto meo unxi eum. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse, et sa langue annoncera l’équité.\nV. La loi de Dieu est dans son cœur, et ses pas ne chancelleront pas.\n!Ps 111:1-3\nv. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "La bouche du",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 14:26-35\nIn illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potuerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex itúrus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus. Bonum est sal. Si autem sal evanúerit, in quo condiétur? Neque in terram neque in sterquilínium útile est, sed foras mittétur. Qui habet aures audiéndi, áudiat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Secreta",
+            "texte": "Nous vous en supplions, Seigneur : que la solennité annuelle de votre saint évêque et confesseur N. nous rende agréables à votre bonté ; afin que la pieuse offrande de cette victime d’expiation augmente pour lui la récompense céleste et obtienne pour nous les dons de votre grâce.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-14.txt",
+            "section": "Postcommunio",
+            "texte": "Ô Dieu, rémunérateur des âmes fidèles : accordez que, par les prières de votre bienheureux évêque et confesseur N., dont nous célébrons la vénérable fête, nous obtenions le pardon.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 36:30-81\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus. \nAllelúja, allelúja.\n!Ps 88:21\nInvéni David servum meum, óleo sancto meo unxi eum. Allelúja.",
-        "Francais": "!Ps 36:30-81\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia\n!Ps 88:21\nJ’ai trouvé David mon serviteur ; je l’ai oint de mon huile sainte. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:26-35\nEn ce temps-là : Jésus dit à la foule : Si quelqu’un vient à moi, et ne hait pas son père, et sa mère, et sa femme, et ses enfants, et ses frères, et ses sœurs, et même sa propre vie, il ne peut être mon disciple. Et celui qui ne porte pas sa croix, et ne me suit pas, ne peut être mon disciple. Car quel est celui de vous qui, voulant bâtir une tour, ne s’assied d’abord, et ne suppute les dépenses qui sont nécessaires, afin de voir s’il aura de quoi l’achever ; de peur qu’après avoir posé les fondements, il ne puisse l’achever, et que tous ceux qui verront cela ne se mettent à se moquer de lui, en disant : Cet homme a commencé à bâtir, et il n’a pu achever ? Ou quel roi, sur le point de faire la guerre à un autre roi, ne s’assied d’abord, afin d’examiner s’il pourra, avec dix mille hommes, marcher contre celui qui s’avance sur lui avec vingt mille ? Autrement, tandis que l’autre roi est encore loin, il lui envoie une ambassade, et lui fait des propositions de paix. Ainsi donc, quiconque d’entre vous ne renonce pas à tout ce qu’il possède ne peut être mon disciple. Le sel est bon, mais si le sel s’affadit, avec quoi lui donnera-t-on de la saveur ? Inutile pour la terre et pour le fumier, on le jettera dehors. Que celui qui a des oreilles pour entendre, entende."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4a.txt",
+        "../horas/Latin/Commune/C4a.txt",
+        "Francais/Sancti/06-14.txt",
+        "Latin/Sancti/06-14.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

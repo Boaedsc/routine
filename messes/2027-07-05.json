@@ -1,70 +1,210 @@
 {
   "date": "2027-07-05",
-  "celebration": {
-    "nom": "Saint Antoine-Marie Zaccaria",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-05",
-    "Tempora/Pent07-1"
-  ],
-  "cles_jour": [
-    "07-05",
-    "Pent07-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent07",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!1 Cor 2:4\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.\n!Ps 110:1\nConfitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne.\n&Gloria\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.",
-        "Francais": "!1 Cor 2:4.\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance.\n!Ps 110:1\nSeigneur, je vous célèbrerai de tout mon cœur dans la réunion des justes et dans l’assemblée.\n&Gloria\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance."
+      "occurrence": {
+        "gagnant": "Sancti/07-05",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-05.txt",
+        "temporal": "Latin/Tempora/Pent07-1.txt",
+        "sanctoral": "Latin/Sancti/07-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.\n!1. Tim 4:8-16.\nMon très cher : la piété est toujours utile. Elle a les promesses de la vie future. La promesse de Dieu est sûre et mérite notre confiance. Si nous supportons les fatigues et les malédictions, c’est que nous avons mis notre espoir dans le Dieu vivant qui est le Sauveur de tous les hommes et surtout des croyants. Prêche et enseigne ces vérités. Ne donne pas prétexte à mépriser ta jeunesse : mais sois un exemple pour les fidèles dans tes paroles, dans ta manière de vivre, par ta charité, ta foi, ta chasteté. En attendant ma visite, fais soigneusement la lecture de l’Écriture sainte, les exhortations et les instructions. Ne néglige pas la grâce de ton sacerdoce, que tu as reçu sur l’intervention des prophètes avec l’imposition des mains de tous les prêtres réunis. Sois entier à ton ministère. Prends-le à cœur, pour que tout le monde puisse voir tes progrès. Surveille ta conduite et ton enseignement, et sois persévérant. Ce faisant, tu assureras et ton propre salut et le salut de ceux qui t’entendent."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Introitus",
+            "texte": "!1 Cor 2:4\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.\n!Ps 110:1\nConfitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne.\n&Gloria\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.",
+            "incipit": "Sermo meus et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Oratio",
+            "texte": "Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum famílias congregávit.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!1. Tim 4:8-16.\nCaríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Præcipe hæc et doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per prophetíam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum fácies, et eos qui te áudiunt.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Graduale",
+            "texte": "!Philipp 1:8-9\nTestis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.\n!Philip 1:10\nUt probétis potióra, ut sitis sincéri et sine offénsa in diem Christi.\nAllelúja, allelúja.\n!Philip 1:11.\nRepléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.",
+            "incipit": "Testis mihi est",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Tractus",
+            "texte": "!2 Cor 10:17-18\nQui gloriátur, in Dómino gloriétur: non enim, qui seípsum comméndat, ille probátus est: sed quem Deus comméndat.\n!Gal 6:14\nMihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.\n!Philipp 1:21\nMihi vívere Christus est, et mori lucrum.",
+            "incipit": "Qui gloriátur, in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 10:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in illud. Et compléxans párvulos et impónens manus super illos, benedicébat eos. ¶ Et cum egréssus esset in viam, procúrrens quidam, genu flexo ante eum, rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, ne occídas, ne furéris, ne falsum testimónium díxeris, ne fraudem féceris, honora patrem tuum et matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis thesáurum in cælo: et veni, séquere me.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 137:1-2\nIn conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
+            "incipit": "In conspéctu Angelórum",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Secreta",
+            "texte": "Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Communio",
+            "texte": "!Philipp 3:17\nImitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam nostram.",
+            "incipit": "Imitatóres mei estóte,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Postcommunio",
+            "texte": "Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam:\n$Qui vivis.",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Introitus",
+            "texte": "!1 Cor 2:4\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.\n!Ps 110:1\nConfitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne.\n&Gloria\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.",
+            "incipit": "Sermo meus et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Oratio",
+            "texte": "Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum famílias congregávit.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!1. Tim 4:8-16.\nCaríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Præcipe hæc et doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per prophetíam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum fácies, et eos qui te áudiunt.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Graduale",
+            "texte": "!Philipp 1:8-9\nTestis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.\n!Philip 1:10\nUt probétis potióra, ut sitis sincéri et sine offénsa in diem Christi.\nAllelúja, allelúja.\n!Philip 1:11.\nRepléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.",
+            "incipit": "Testis mihi est",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Tractus",
+            "texte": "!2 Cor 10:17-18\nQui gloriátur, in Dómino gloriétur: non enim, qui seípsum comméndat, ille probátus est: sed quem Deus comméndat.\n!Gal 6:14\nMihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.\n!Philipp 1:21\nMihi vívere Christus est, et mori lucrum.",
+            "incipit": "Qui gloriátur, in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 10:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in illud. Et compléxans párvulos et impónens manus super illos, benedicébat eos. ¶ Et cum egréssus esset in viam, procúrrens quidam, genu flexo ante eum, rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, ne occídas, ne furéris, ne falsum testimónium díxeris, ne fraudem féceris, honora patrem tuum et matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis thesáurum in cælo: et veni, séquere me.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 137:1-2\nIn conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
+            "incipit": "In conspéctu Angelórum",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Secreta",
+            "texte": "Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Communio",
+            "texte": "!Philipp 3:17\nImitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam nostram.",
+            "incipit": "Imitatóres mei estóte,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-05.txt",
+            "section": "Postcommunio",
+            "texte": "Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam:\n$Qui vivis.",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Philipp 1:8-9\nTestis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.\n!Philip 1:10\nUt probétis potióra, ut sitis sincéri et sine offénsa in diem Christi. \nAllelúja, allelúja.\n!Philip 1:11.\nRepléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.",
-        "Francais": "!Philipp 1:8-9\nDieu m’est témoin, combien je vous chéris tous dans les entrailles de Jésus-Christ. Et ce que je demande, c’est que votre charité abonde de plus en plus, en connaissance et en toute intelligence.\n!Philip 1:10\nPour que vous appréciez ce qui est meilleur, afin d’être pur et irrépréhensibles pour le jour du Christ. Alléluia, alléluia.\n!Philip 1:11.\nRemplis des fruits de justice, par Jésus-Christ, pour la gloire et la louange de Dieu. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 10:15-21\nEn ce temps-là : Jésus dit à ses disciples : Je vous le dis, en vérité, qui ne recevra pas comme un petit enfant le royaume de Dieu, n’y entrera point. Puis il les embrassa, et les bénit en leur imposant les mains. Comme il se mettait en route, quelqu’un accourut, et fléchissant le genou devant lui, lui demanda : Bon Maître, que dois-je faire pour entrer en possession de la vie éternelle ? Jésus lui dit : Pourquoi m’appelles-tu bon ? Nul n’est bon que Dieu seul. Tu connais les commandements : Ne tue pas, ne commets pas l’adultère, ne dérobe pas, ne porte pas de faux témoignage, ne fais pas de tort, honore ton père et ta mère. Il lui répondit : Maître, j’ai observé tout cela dès ma jeunesse. Jésus, ayant fixé son regard sur lui, l’aima et lui dit : Il te manque une chose : va, vends tout ce que tu as, donne-le aux pauvres, et tu auras un trésor dans le ciel ; puis viens, et suis-moi."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 137:1-2\nIn conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
-        "Francais": "!Ps 137:1-2\nJe vous chanterai des hymnes, en présence des Anges : j’adorerai dans votre saint temple, et je célèbrerai votre nom."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Philipp 3:17\nImitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam nostram.",
-        "Francais": "!Philipp 3:17\nSoyez mes imitateurs, mes Frères, et regardez ceux qui marchent selon le modèle que vous avez en vous."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/07-05.txt",
+        "Latin/Sancti/07-05.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

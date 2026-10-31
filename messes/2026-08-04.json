@@ -1,70 +1,268 @@
 {
   "date": "2026-08-04",
-  "celebration": {
-    "nom": "Saint Dominique",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-04",
-    "Tempora/Pent10-2"
-  ],
-  "cles_jour": [
-    "08-04",
-    "Pent10-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C5b",
-        "Francais": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant : et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur."
+      "occurrence": {
+        "gagnant": "Sancti/08-04",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-04.txt",
+        "temporal": "Latin/Tempora/Pent10-2.txt",
+        "sanctoral": "Latin/Sancti/08-04.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nMon bien-aimé : je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Ecclésiam tuam beáti Domínici Confessóris tui illumináre dignátus es méritis et doctrínis: concéde; ut ejus intercessióne temporalibus non destituátur auxíliis, et spirituálibus semper profíciat increméntis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prædica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímple. Sóbrius esto. Ego enim jam délibor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, dicáta sanctífica: ut, méritis beáti Domínici Confessóris tui, nobis profíciant ad medélam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Postcommunio",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui peccatórum nostrórum póndere prémimur, beáti Domínici Confessóris tui patrocínio sublevémur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Ecclésiam tuam beáti Domínici Confessóris tui illumináre dignátus es méritis et doctrínis: concéde; ut ejus intercessióne temporalibus non destituátur auxíliis, et spirituálibus semper profíciat increméntis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prædica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímple. Sóbrius esto. Ego enim jam délibor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nEn ce temps-là : Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, dicáta sanctífica: ut, méritis beáti Domínici Confessóris tui, nobis profíciant ad medélam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-04.txt",
+            "section": "Postcommunio",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui peccatórum nostrórum póndere prémimur, beáti Domínici Confessóris tui patrocínio sublevémur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
-        "Francais": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Osee 14:6\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nEn ce temps-là : Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui : et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs : pour leur donner au temps fixé, leur mesure de blé."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/08-04.txt",
+        "Latin/Sancti/08-04.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

@@ -1,35 +1,323 @@
 {
   "date": "2028-11-23",
-  "celebration": {
-    "nom": "Saint Clément Ier",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/11-23",
-    "Tempora/Pent23-4"
-  ],
-  "cles_jour": [
-    "11-23",
-    "Pent23-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "PentEpi6",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Is 59:21; 56:7\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.\n\n[Oratio] (nisi communi Summorum Pontificum)\nDeus, qui nos ánnua beáti Cleméntis Mártyris tui atque Pontíficis sollemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, virtútem quoque passiónis imitémur.\n$Per Dominum",
-        "Francais": "!Is 59:21; 56:7\nv. Le Seigneur dit : Mes paroles que j’ai mises en votre bouche, ne cesseront point d’être sur vos lèvres : et les dons que vous offrirez sur mon autel me seront agréables.\n!Ps 111:1\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\n&Gloria\nv. Le Seigneur dit : Mes paroles que j’ai mises en votre bouche, ne cesseront point d’être sur vos lèvres : et les dons que vous offrirez sur mon autel me seront agréables."
+      "occurrence": {
+        "gagnant": "Sancti/11-23",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/11-23.txt",
+        "temporal": "Latin/Tempora/PentEpi6-4.txt",
+        "sanctoral": "Latin/Sancti/11-23.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Phil 3:17-21; 4:1-3\nMes frères, soyez mes imitateurs, et regardez ceux qui marchent selon le modèle que vous avez en nous. Car il y a en a beaucoup, dont je vous ai souvent parlé, et dont je vous parle encore maintenant avec larmes, qui marchent en ennemis de la croix du Christ. Leur fin sera la perdition ; ils ont pour dieu leur ventre, ils mettent leur gloire dans ce qui est leur honte, et leurs pensées sont pour la terre. Quant à nous, notre vie est dans le ciel, d’où nous attendons comme sauveur notre Seigneur Jésus-Christ, qui transformera notre corps d’humiliation, en le rendant semblable à son corps glorieux, par le pouvoir qu’il a de s’assujettir toutes choses. C’est pourquoi, mes frères très aimés et très désirés, qui êtes ma joie et ma couronne, demeurez ainsi fermes dans le Seigneur, mes bien-aimés. Je prie Evodie, et je conjure Syntiché, d’avoir les mêmes sentiments dans le Seigneur. Et toi aussi, mon fidèle collègue, je te prie de les assister, elles qui ont travaillé avec moi pour l’évangile, avec Clément et mes autres collaborateurs, dont les noms sont dans le livre de vie."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Introitus",
+            "texte": "!Is 59:21; 56:7\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.",
+            "incipit": "Dicit Dóminus: Sermónes",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua beáti Cleméntis Mártyris tui atque Pontíficis sollemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, virtútem quoque passiónis imitémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Phil 3:17-21; 4:1-3\nFratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant, sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam vobis - nunc autem et flens dico - inimícos Crucis Christi: quorum finis intéritus: quorum Deus venter est: et glória in confusióne ipsórum, qui terréna sápiunt. Nostra autem conversátio in cœlis est: unde étiam Salvatórem exspectámus, Dóminum nostrum Jesum Christum, qui reformábit corpus humilitátis nostræ, configurátum córpori claritátis suæ, secúndum operatiónem, qua étiam possit subjícere sibi ómnia. Itaque, fratres mei caríssimi et desideratíssimi, gáudium meum et coróna mea: sic state in Dómino, caríssimi. Evódiam rogo et Sýntychen déprecor idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris adjutóribus meis, quorum nómina sunt in libro vitæ.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Graduale",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminum\n!Ps 39:10-11\nAnnuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non prohibébo: Dómine, tu scisti.\nV. Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.\nV. Non abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+            "incipit": "Ecce, dedi verba",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, obláta sanctífica: et, intercedénte beáto Cleménte Mártyre tuo atque Pontífice, per hæc nos a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/11-23.txt",
+            "section": "Postcommunio",
+            "texte": "Córporis sacri et pretiósi Sánguinis repléti libámine, quǽsumus, Dómine, Deus noster: ut, quod pia devotióne gérimus; intercedénte beáto Cleménte Mártyre tuo atque Pontífice, certa redemptióne capiámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Introitus",
+            "texte": "!Is 59:21; 56:7\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.",
+            "incipit": "Dicit Dóminus: Sermónes",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua beáti Cleméntis Mártyris tui atque Pontíficis sollemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, virtútem quoque passiónis imitémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Phil 3:17-21; 4:1-3\nFrères, soyez mes imitateurs, et ayez les yeux sur ceux qui marchent suivant le modèle que vous avez en nous. Car il en est plusieurs qui marchent en ennemis de la croix du Christ : je vous en ai souvent parlé, et j'en parle maintenant encore avec larmes. Leur fin, c'est la perdition, eux qui font leur dieu de leur ventre, et mettent leur gloire dans ce qui fait leur honte, n'ayant de goût que pour les choses de la terre. Pour nous, notre cité est dans les cieux, d'où nous attendons aussi comme Sauveur le Seigneur Jésus-Christ, qui transformera notre corps si misérable, en le rendant semblable à son corps glorieux, par sa vertu puissante qui lui assujettit toutes choses. C'est pourquoi, mes chers et bien-aimés frères, ma joie et ma couronne, tenez ainsi ferme dans le Seigneur, mes bien-aimés. J'exhorte Évodie et j'invite Syntyche à être en bonne intelligence dans le Seigneur. Et toi aussi, mon fidèle compagnon, je te prie de leur venir en aide, elles qui ont combattu pour l'Évangile avec moi, avec Clément, et mes autres collaborateurs dont les noms sont dans le livre de vie.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Graduale",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminum\n!Ps 39:10-11\nAnnuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non prohibébo: Dómine, tu scisti.\nV. Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.\nV. Non abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:13-19\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Offertorium",
+            "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+            "incipit": "Ecce, dedi verba",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera tibi, Dómine, obláta sanctífica: et, intercedénte beáto Cleménte Mártyre tuo atque Pontífice, per hæc nos a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/11-23.txt",
+            "section": "Postcommunio",
+            "texte": "Córporis sacri et pretiósi Sánguinis repléti libámine, quǽsumus, Dómine, Deus noster: ut, quod pia devotióne gérimus; intercedénte beáto Cleménte Mártyre tuo atque Pontífice, certa redemptióne capiámus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Latin/Commune/C2b.txt",
+        "Francais/Sancti/11-23.txt",
+        "Latin/Sancti/11-23.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

@@ -1,15 +1,252 @@
 {
   "date": "2027-07-06",
-  "celebration": {
-    "nom": "Mardi de la 7e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent07-2"
-  ],
-  "cles_jour": [
-    "Pent07-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent07",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/07-06",
+        "nom_sanctoral": "",
+        "classe": 4.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-06.txt",
+        "temporal": "Latin/Tempora/Pent07-2.txt",
+        "sanctoral": "Latin/Sancti/07-06.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
+            "incipit": "Sapiéntiam Sanctórum narrent",
+            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus déxtera beátum Petrum, ambulántem in flúctibus, ne mergerétur, eréxit, et coapóstolum ejus Paulum, tértio naufragántem, de profúndo pélagi liberávit: exáudi nos propítius, et concéde; ut, ambórum méritis, æternitátis glóriam consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:10-15\nHi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-26.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Graduale",
+            "texte": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ.\nV. Visi sunt óculis insipiéntium mori, illi autem sunt in pace.\nAllelúja, allelúja.\n!Luc 22:28-29; 22:30\nVos estis, qui permansístis mecum in tentatiónibus meis: et ego dispóno vobis regnum, ut sedeátis super thronos, judicántes duódecim tribus Israël. Allelúja.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 14:22-33\nIn illo témpore: Cómpulit Jesus discípulos ascéndere in navículam, et præcédere eum trans fretum, donec dimítteret turbas. Et dimíssa turba, ascéndit in montem solus oráre. Véspere autem facto, solus erat ibi. Navícula autem in médio mari jactabátur flúctibus: erat enim contrárius ventus. Quarta autem vigília noctis venit ad eos ámbulans super mare. Et vidéntes eum super mare ambulántem, turbáti sunt, dicéntes: Quia phantásma est. Et præ timóre clamavérunt. Statímque Jesus locútus est eis, dicens: Habete fidúciam: ego sum, nolíte timére. Respóndens autem Petrus, dixit: Dómine, si tu es, jube me ad te veníre super aquas. At ipse ait: Veni. Et descéndens Petrus de navícula, ambulábat super aquam, ut veníret ad Jesum. Videns vero ventum válidum, tímuit: et cum cœpísset mergi, clamávit dicens: Dómine, salvum me fac. Et contínuo Jesus exténdens manum, apprehéndit eum, et ait illi: Módicæ fídei, quare dubitásti? Et cum ascendísset in navículam, cessávit ventus. Qui autem in navícula erant, venérunt et adoravérunt eum, dicéntes: Vere Fílius Dei es.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.\n(sed post Septuagesimam dicitur)\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": "offertoire_exsultabunt-sancti-in.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Secreta",
+            "texte": "Offérimus tibi, Dómine, preces et múnera: quæ ut tuo sint digna conspéctu, Apostolórum tuórum Petri et Pauli précibus adjuvémur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-06.txt",
+            "section": "Postcommunio",
+            "texte": "Prótege, Dómine, pópulum tuum: et Apostolórum tuórum Petri et Pauli patrocínio confidéntem, perpétua defensióne consérva.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.\n!Ps 32:1\nJustes, tressaillez de joie dans le Seigneur ; c’est aux hommes droits que convient la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.",
+            "incipit": "Que les peuples",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, cujus déxtera beátum Petrum, ambulántem in flúctibus, ne mergerétur, eréxit, et coapóstolum ejus Paulum, tértio naufragántem, de profúndo pélagi liberávit: exáudi nos propítius, et concéde; ut, ambórum méritis, æternitátis glóriam consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:10-15\nC’étaient des hommes de miséricorde, dont les œuvres de piété subsistent à jamais. Les biens qu’ils ont laissés demeurent à leur postérité ; leurs descendants sont un saint héritage, et leur race est demeurée fidèle à l’alliance ; à cause d’eux, leurs fils subsistent éternellement, et ni leur race ni leur gloire n’aura de fin. Leurs corps ont été ensevelis en paix, et leur nom vivra de génération en génération. Que les peuples racontent leur sagesse et que l’assemblée publie leurs louanges.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-26.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Graduale",
+            "texte": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ.\nV. Visi sunt óculis insipiéntium mori, illi autem sunt in pace.\nAllelúja, allelúja.\n!Luc 22:28-29; 22:30\nVos estis, qui permansístis mecum in tentatiónibus meis: et ego dispóno vobis regnum, ut sedeátis super thronos, judicántes duódecim tribus Israël. Allelúja.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 14:22-33\nIn illo témpore: Cómpulit Jesus discípulos ascéndere in navículam, et præcédere eum trans fretum, donec dimítteret turbas. Et dimíssa turba, ascéndit in montem solus oráre. Véspere autem facto, solus erat ibi. Navícula autem in médio mari jactabátur flúctibus: erat enim contrárius ventus. Quarta autem vigília noctis venit ad eos ámbulans super mare. Et vidéntes eum super mare ambulántem, turbáti sunt, dicéntes: Quia phantásma est. Et præ timóre clamavérunt. Statímque Jesus locútus est eis, dicens: Habete fidúciam: ego sum, nolíte timére. Respóndens autem Petrus, dixit: Dómine, si tu es, jube me ad te veníre super aquas. At ipse ait: Veni. Et descéndens Petrus de navícula, ambulábat super aquam, ut veníret ad Jesum. Videns vero ventum válidum, tímuit: et cum cœpísset mergi, clamávit dicens: Dómine, salvum me fac. Et contínuo Jesus exténdens manum, apprehéndit eum, et ait illi: Módicæ fídei, quare dubitásti? Et cum ascendísset in navículam, cessávit ventus. Qui autem in navícula erant, venérunt et adoravérunt eum, dicéntes: Vere Fílius Dei es.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "incipit": "Les saints exulteront",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Secreta",
+            "texte": "Offérimus tibi, Dómine, preces et múnera: quæ ut tuo sint digna conspéctu, Apostolórum tuórum Petri et Pauli précibus adjuvémur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-06.txt",
+            "section": "Postcommunio",
+            "texte": "Prótege, Dómine, pópulum tuum: et Apostolórum tuórum Petri et Pauli patrocínio confidéntem, perpétua defensióne consérva.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Sancti/07-06.txt",
+        "Latin/Sancti/07-06.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
+    }
+  ]
 }

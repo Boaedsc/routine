@@ -1,17 +1,296 @@
 {
   "date": "2028-07-24",
-  "celebration": {
-    "nom": "Sainte Christine",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-24",
-    "Tempora/Pent07-1"
-  ],
-  "cles_jour": [
-    "07-24",
-    "Pent07-1"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent07",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/07-24",
+        "nom_sanctoral": "",
+        "classe": 1.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-24.txt",
+        "temporal": "Latin/Tempora/Pent07-1.txt",
+        "sanctoral": "Latin/Sancti/07-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Introitus",
+            "texte": "!Ps 51:10-11\nv. Ego autem, sicut olíva fructífera in domo Dómini, sperávi in misericórdia Dei mei: et exspectábo nomen tuum, quóniam bonum est ante conspéctum sanctórum tuorum.\n!Ps 51:3\nQuid gloriáris in malítia: qui potens es in iniquitáte?\n&Gloria\nv. Ego autem, sicut olíva fructífera in domo Dómini, sperávi in misericórdia Dei mei: et exspectábo nomen tuum, quóniam bonum est ante conspéctum sanctórum tuorum.",
+            "incipit": "Ego autem, sicut",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Oratio",
+            "texte": "(sed commune C4)\n(sed commune C4)\n(sed commune C4)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:25-27; 45:2-4; 45:6-9\nBenedíctio Dómini super caput justi. Ideo dedit illi Dóminus hereditátem, et divísit illi partem in tríbubus duódecim: et invénit grátiam in conspéctu omnis carnis. Et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspéctu regum, et jussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Et dedit illi coram præcépta, et legem vitæ et disciplínæ, et excélsum fecit illum. Statuit ei testaméntum ætérnum, et circumcínxit eum zona justítiæ: et índuit eum Dóminus corónam glóriæ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13-14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/07-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 15:12-16\nIn illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum meum, ut diligátis ínvicem, sicut diléxi vos. Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. Vos amíci mei estis, si fecéritis quæ ego præcípio vobis. Jam non dicam vos servos: quia servus nescit, quid fáciat dóminus ejus. Vos autem dixi amícos: quia ómnia, quæcúmque audívi a Patre meo, nota feci vobis. Non vos me elegístis: sed ego elégi vos, et pósui vos, ut eátis, et fructum afferátis: et fructus vester maneat: ut, quodcúmque petiéritis Patrem in nómine meo, det vobis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honore",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Secreta",
+            "texte": "Apostólici reveréntia cúlminis offeréntes tibi sacra mystéria, Dómine, quae; sumus: ut beáti N. Apóstoli tui suffrágiis, cujus natalícia prævenímus; plebs tua semper et sua vota deprómat, et desideráta percípiat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:6\nMagna est glória ejus in salutári tuo: glóriam et magnum decórem impónes super eum, Dómine.",
+            "incipit": "Magna est glória",
+            "mp3": "communion_magna-est-gloria.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Postcommunio",
+            "texte": "Sancti Apóstoli tui N., quǽsumus. Dómine, supplicatióne placátus: et veniam nobis tríbue, et remédia sempitérna concéde.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Introitus",
+            "texte": "!Ps 51:10; 51:11\nv. Moi, je suis comme un olivier fertile dans la maison de Dieu, j’espère en la miséricorde de Dieu ; et j’attendrai votre nom, car il est secourable en présence de vos fidèles.\n!Ps 51:3\nPourquoi te glorifies-tu dans le mal, toi qui es vaillant, à commettre l’iniquité ?\n&Gloria\nMoi, je suis comme un olivier fertile dans la maison de Dieu, j’espère en la miséricorde de Dieu ; et j’attendrai votre nom, car il est secourable en présence de vos fidèles.",
+            "incipit": "Moi, je suis",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Oratio",
+            "texte": "(sed commune C4)\n(sed commune C4)\n(sed commune C4)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse\n!Eccli 44:25-27; 45:2-4; 45:6-9\nLa bénédiction du Seigneur repose sur la tête du juste. C’est pourquoi il lui donna le pays en héritage ; il le partagea entre les douze tribus. Ce juste trouva grâce auprès de toute chair. Le Seigneur l’a rendu grand et redoutable à ses ennemis ; par ses paroles il a fait cesser les prodiges. Il l’a glorifié devant les rois, il lui a donné ses commandements devant son peuple, il lui a fait voir sa gloire. Il l’a sanctifié dans sa foi et dans sa douceur. Il l’a choisi entre tous les mortels. Il lui a donné ses préceptes face à face, et la loi de la vie et de la science. Il l’a élevé. Il a fait avec lui une alliance éternelle, il l’a ceint d’une ceinture de justice et il l’a couvert de la couronne de la gloire.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13-14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/07-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-24.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Evangile selon Saint Jean.\n!Jean 15:12-16.\nEn ce temps-là, Jésus dit à ses disciples : Ceci est mon commandement : que vous vous aimiez les uns les autres, comme je vous ai aimés. Personne ne peut avoir un plus grand amour que de donner sa vie pour ses amis. Vous êtes mes amis, si vous faites ce que je vous commande. Je ne vous appellerai plus serviteurs, parce que le serviteur ne sait pas ce que fait son maître ; mais je vous ai appelés amis, parce que tout ce que j’ai appris de mon Père, je vous l’ai fait connaître. Ce n’est pas vous qui m’avez choisi, mais c’est moi qui vous ai choisis, et je vous ai établis afin que vous alliez, et que vous portiez du fruit, et que votre fruit demeure ; afin que tout ce que vous demanderez au Père en mon nom, il vous le donne.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C1v.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Secreta",
+            "texte": "En vous offrant, Seigneur, ces saints mystères, pour révérer la dignité apostolique, nous vous demandons que, par les suffrages de votre bienheureux Apôtre N. dont nous préparons la fête, votre peuple puisse toujours vous exposer ses vœux et en obtenir l’accomplissement.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:6\nGrande est sa gloire, grâce à votre salut : vous le couvrirez de gloire et d’un honneur immense.",
+            "incipit": "Grande est sa",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous supplions, Seigneur, qu’apaisé par les supplications de votre saint Apôtre N., vous nous accordiez le pardon et le salut éternel.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C1v.txt",
+        "../horas/Latin/Commune/C1v.txt",
+        "Francais/Sancti/07-24.txt",
+        "Latin/Sancti/07-24.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
+    }
+  ]
 }

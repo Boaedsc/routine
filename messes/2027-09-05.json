@@ -1,68 +1,210 @@
 {
   "date": "2027-09-05",
-  "celebration": {
-    "nom": "16e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent16-0"
-  ],
-  "cles_jour": [
-    "Pent16-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent16",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 85:3; 85:5\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.\n!Ps 85:1\nInclína, Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum ego.\n&Gloria\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.",
-        "Francais": "!Ps 85:3; 85:5\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent.\n!Ps 85:1\nInclinez, Seigneur, votre oreille vers moi et exaucez-moi, car je suis pauvre et indigent.\n&Gloria\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent."
+      "occurrence": {
+        "gagnant": "Tempora/Pent16-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent16-0.txt",
+        "temporal": "Latin/Tempora/Pent16-0.txt",
+        "sanctoral": "Latin/Sancti/09-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFrères, je vous prie de ne pas vous laisser décourager à cause des afflictions que j'endure pour vous : elles sont votre gloire. À cause de cela, je fléchis le genou devant le Père, de qui tire son nom toute paternité dans les cieux et sur la terre, afin qu'il vous donne, selon les trésors de sa gloire, d'être puissamment fortifiés par son Esprit en vue de l'homme intérieur, et que le Christ habite dans vos cœurs par la foi, de sorte que, étant enracinés et fondés dans la charité, vous deveniez capables de comprendre avec tous les saints quelle est la largeur et la longueur, la profondeur et la hauteur, même de connaître l'amour du Christ, qui surpasse toute connaissance, en sorte que vous soyez remplis de toute la plénitude de Dieu. À celui qui peut faire, par la puissance qui agit en nous, infiniment au delà de ce que nous demandons et concevons, à Lui soit la gloire dans l'Église et en Jésus-Christ, dans tous les âges, aux siècles des siècles ! Amen !"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 85:3; 85:5\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.\n!Ps 85:1\nInclína, Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum ego.\n&Gloria\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Oratio",
+            "texte": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur: ac bonis opéribus júgiter præstet esse inténtos.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in cœlis et in terra nominátur, ut det vobis secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in interiórem hóminem, Christum habitáre per fidem in córdibus vestris: in caritáte radicáti et  fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit latitúdo et longitúdo et sublímitas et profúndum: scire étiam supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem plenitúdinem Dei. Ei autem, qui potens est ómnia fácere superabundánter, quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja\n!Ps 97:1\nCantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.",
+            "incipit": "Timébunt gentes nomen",
+            "mp3": "graduel_timebunt-gentes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nIn illo témpore: Cum intráret Jesus in domum cujúsdam príncipis pharisæórum sábbato manducáre panem, et ipsi observábant eum. Et ecce, homo quidam hydrópicus erat ante illum. Et respóndens Jesus dixit ad legisperítos et pharisǽos, dicens: Si licet sábbato curáre? At illi tacuérunt. Ipse vero apprehénsum sanávit eum ac dimísit. Et respóndens ad illos, dixit: Cujus vestrum ásinus aut bos in púteum cadet, et non contínuo éxtrahet illum die sábbati? Et non póterant ad hæc respóndere illi. Dicebat autem et ad invitátos parábolam, inténdens, quómodo primos accúbitus elígerent, dicens ad illos: Cum invitátus fúeris ad núptias, non discúmbas in primo loco, ne forte honorátior te sit invitátus ab illo, et véniens is, qui te et illum vocávit, dicat tibi: Da huic locum: et tunc incípias cum rubóre novíssimum locum tenére. Sed cum vocátus fúeris, vade, recúmbe in novíssimo loco: ut, cum vénerit, qui te invitávit, dicat tibi: Amíce, ascénde supérius. Tunc erit tibi glória coram simul discumbéntibus: quia omnis, qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 39:14; 39:15\nDómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.",
+            "incipit": "Dómine, in auxílium",
+            "mp3": "offertoire_domine-in-auxilium.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Secreta",
+            "texte": "Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et pérfice miserátus in nobis; ut ejus mereámur esse partícipes.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 70:16-17; 70:18\nDómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.",
+            "incipit": "Dómine, memorábor justítiæ",
+            "mp3": "communion_domine-memorabor.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Postcommunio",
+            "texte": "Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova cœléstibus sacraméntis: ut consequénter et córporum præsens páriter et futúrum capiámus auxílium.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 85:3; 85:5\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.\n!Ps 85:1\nInclína, Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum ego.\n&Gloria\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Oratio",
+            "texte": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur: ac bonis opéribus júgiter præstet esse inténtos.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in cœlis et in terra nominátur, ut det vobis secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in interiórem hóminem, Christum habitáre per fidem in córdibus vestris: in caritáte radicáti et  fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit latitúdo et longitúdo et sublímitas et profúndum: scire étiam supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem plenitúdinem Dei. Ei autem, qui potens est ómnia fácere superabundánter, quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja\n!Ps 97:1\nCantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.",
+            "incipit": "Timébunt gentes nomen",
+            "mp3": "graduel_timebunt-gentes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nIn illo témpore: Cum intráret Jesus in domum cujúsdam príncipis pharisæórum sábbato manducáre panem, et ipsi observábant eum. Et ecce, homo quidam hydrópicus erat ante illum. Et respóndens Jesus dixit ad legisperítos et pharisǽos, dicens: Si licet sábbato curáre? At illi tacuérunt. Ipse vero apprehénsum sanávit eum ac dimísit. Et respóndens ad illos, dixit: Cujus vestrum ásinus aut bos in púteum cadet, et non contínuo éxtrahet illum die sábbati? Et non póterant ad hæc respóndere illi. Dicebat autem et ad invitátos parábolam, inténdens, quómodo primos accúbitus elígerent, dicens ad illos: Cum invitátus fúeris ad núptias, non discúmbas in primo loco, ne forte honorátior te sit invitátus ab illo, et véniens is, qui te et illum vocávit, dicat tibi: Da huic locum: et tunc incípias cum rubóre novíssimum locum tenére. Sed cum vocátus fúeris, vade, recúmbe in novíssimo loco: ut, cum vénerit, qui te invitávit, dicat tibi: Amíce, ascénde supérius. Tunc erit tibi glória coram simul discumbéntibus: quia omnis, qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 39:14; 39:15\nDómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.",
+            "incipit": "Dómine, in auxílium",
+            "mp3": "offertoire_domine-in-auxilium.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Secreta",
+            "texte": "Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et pérfice miserátus in nobis; ut ejus mereámur esse partícipes.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 70:16-17; 70:18\nDómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.",
+            "incipit": "Dómine, memorábor justítiæ",
+            "mp3": "communion_domine-memorabor.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent16-0.txt",
+            "section": "Postcommunio",
+            "texte": "Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova cœléstibus sacraméntis: ut consequénter et córporum præsens páriter et futúrum capiámus auxílium.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja\n!Ps 97:1\nCantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.",
-        "Francais": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre votre gloire.\nV. Car le Seigneur construit Sion, et il sera vu dans sa majesté. Alléluia, alléluia.\n!Ps 97:1\nChantez au Seigneur un cantique nouveau, car le Seigneur a fait des merveilles. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_timebunt-gentes.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nEn ce temps-là, comme Jésus était entré un jour de sabbat dans la maison d'un chef des Pharisiens pour y manger, eux le guettaient. Et voici qu'un homme hydropique se trouvait devant lui. Et Jésus, prenant la parole, dit aux docteurs de la Loi et aux Pharisiens : « Est-il permis de guérir le jour du sabbat, ou non ? » Mais ils gardaient le silence. L'ayant pris, il le guérit et le congédia. Puis, il leur dit : « Qui d'entre vous, si son fils ou son bœuf tombe dans un puits, ne l'en retire pas aussitôt, un jour du sabbat ? » Et à cela ils ne purent répliquer. Et il dit une parabole aux invités, ayant remarqué comment ils choisissaient les premières places. Il leur dit : « Quand tu seras invité par quelqu'un à un repas de noces, ne te mets pas à la première place : un homme plus considérable que toi pourrait avoir été invité par lui, et celui qui vous aurait invités l'un et l'autre viendrait te dire : « Cède-lui la place» , et alors tu n'aurais, avec confusion, qu'à occuper la dernière place. Mais, quand tu es invité, va te mettre à la dernière place ; de cette façon, quand viendra celui qui t'a invité, il te dira : « Mon ami, avance plus haut.» Alors ce sera pour toi un honneur devant tous les convives. Car quiconque s'élève sera abaissé, et quiconque s'abaisse sera élevé. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 39:14; 39:15\nDómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.",
-        "Francais": "!Ps 39:14; 39:15\nSeigneur, venez me secourir ; que soient confondus et couverts de honte ceux qui cherchent mon âme pour l'enlever. Seigneur, venez me secourir."
-      },
-      "audios": "Graduale Project/offertoire_domine-in-auxilium.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 70:16-17; 70:18\nDómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.",
-        "Francais": "!Ps 70:16-17; 70:18\nSeigneur, je ferai mémoire de votre seule justice ; ô Dieu, vous m'avez instruit depuis ma jeunesse. Jusqu'à ma vieillesse, ne m'abandonnez pas, ô Dieu."
-      },
-      "audios": "Graduale Project/communion_domine-memorabor.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent16-0.txt",
+        "Latin/Tempora/Pent16-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

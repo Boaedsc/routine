@@ -1,70 +1,224 @@
 {
   "date": "2028-02-24",
-  "celebration": {
-    "nom": "Saint Matthias, apôtre",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/02-24",
-    "Tempora/Quadp2-4"
-  ],
-  "cles_jour": [
-    "02-24",
-    "Quadp2-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quadp2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
-        "Francais": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2.\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie."
+      "occurrence": {
+        "gagnant": "Sancti/02-24",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-24.txt",
+        "temporal": "Latin/Tempora/Quadp2-4.txt",
+        "sanctoral": "Latin/Sancti/02-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_mihi-autem-nimis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Actuum Apostolórum\n!Act 1, 15-26.\nEn ces jours-là, Pierre, se levant au milieu des frères qui étaient rassemblés au nombre d’environ cent vingt, leur dit : Mes frères, il fallait que s’accomplît ce que le Saint-Esprit a prédit dans l’Ecriture, par la bouche de David, au sujet de Judas, qui a été le guide de ceux qui ont arrêté Jésus. Il était compté parmi nous, et il avait reçu sa part de notre ministère. Cet homme, après avoir acquis un champ avec te salaire du crime, se pendit et se brisa par le milieu, et toutes ses entrailles se répandirent. Le fait a été si connu de tous les habitants de Jérusalem que ce champ a été nommé dans leur langue Haceldama, c’est-à-dire Champ du sang. Car il est écrit dans le livre des Psaumes : Que leur demeure devienne déserte et qu’il n’y ait personne qui l’habite, et qu’un autre reçoive son ministère. Il faut donc que, parmi les hommes qui ont été en notre compagnie pendant tout le temps que le Seigneur Jésus a vécu avec nous, à commencer depuis le baptême de Jean, jusqu’au jour où il a été enlevé du milieu de nous, il y en ait un qui devienne avec nous témoin de sa résurrection. Ils en présentèrent deux : Joseph appelé Barsabas, surnommé le Juste, et Mathias. Et se mettant en prières, ils dirent : Seigneur, vous qui connaissez les cœurs de tous, montrez lequel de ces deux vous avez choisi pour occuper la part du ministère et de l’apostolat que Judas a quittée par son crime, pour s’en aller en son lieu. Alors ils tirèrent au sort ; et le sort tomba sur Mathias, qui fut mis au rang des onze apôtres."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Oratio",
+            "texte": "Déus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quǽsumus; ut, eius interventióne, tuæ circa nos pietátis sémper víscera sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Act 1, 15-26.\nIn diébus illis exsúrgens Petrus in médio fratrum, dixit - erat autem turba hóminum simul, fere centum vigínti -: Viri fratres, opórtet impléri Scriptúram, quam prædíxit Spíritus Sanctus per os David de Juda, qui fuit dux eórum, qui comprehendérunt Jesum: qui connumerátus erat in nobis, et sortítus est sortem ministérii hujus. Et hic quidem possédit agrum de mercéde iniquitátis, et suspénsus crépuit médius: et diffúsa sunt ómnia víscera ejus. Et notum factum est ómnibus habitántibus Jerúsalem, ita ut appellarétur ager ille, lingua eórum, Hacéldama, hoc est ager sánguinis. Scriptum est enim in libro Psalmórum: Fiat commorátio eórum desérta, et non sit, qui inhábitet in ea: et episcopátum ejus accípiat alter. Opórtet ergo ex his viris, qui nobíscum sunt congregáti in omni témpore, quo intrávit et exívit inter nos Dóminus Jesus, incípiens a baptísmate Joánnis usque in diem, qua assúmptus est a nobis, testem resurrectiónis ejus nobíscum fíeri unum ex istis. Et statuérunt duos, Joseph qui vocabátur Bársabas, qui cognominátus est Justus, et Matthíam. Et orántes dixérunt: Tu, Dómine, qui corda nosti ómnium, osténde, quem elégeris ex his duóbus unum, accípere locum ministérii hujus et apostolátus, de quo prævaricátus est Judas, ut abíret in locum suum. Et dedérunt sortes eis, et cécidit sors super Matthíam, et annumerátus est cum úndecim Apóstolis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:25-30\nIn illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-15.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "offertoire_constitues-eos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias et deféndi.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Oratio",
+            "texte": "Déus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quǽsumus; ut, eius interventióne, tuæ circa nos pietátis sémper víscera sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Act 1, 15-26.\nIn diébus illis exsúrgens Petrus in médio fratrum, dixit - erat autem turba hóminum simul, fere centum vigínti -: Viri fratres, opórtet impléri Scriptúram, quam prædíxit Spíritus Sanctus per os David de Juda, qui fuit dux eórum, qui comprehendérunt Jesum: qui connumerátus erat in nobis, et sortítus est sortem ministérii hujus. Et hic quidem possédit agrum de mercéde iniquitátis, et suspénsus crépuit médius: et diffúsa sunt ómnia víscera ejus. Et notum factum est ómnibus habitántibus Jerúsalem, ita ut appellarétur ager ille, lingua eórum, Hacéldama, hoc est ager sánguinis. Scriptum est enim in libro Psalmórum: Fiat commorátio eórum desérta, et non sit, qui inhábitet in ea: et episcopátum ejus accípiat alter. Opórtet ergo ex his viris, qui nobíscum sunt congregáti in omni témpore, quo intrávit et exívit inter nos Dóminus Jesus, incípiens a baptísmate Joánnis usque in diem, qua assúmptus est a nobis, testem resurrectiónis ejus nobíscum fíeri unum ex istis. Et statuérunt duos, Joseph qui vocabátur Bársabas, qui cognominátus est Justus, et Matthíam. Et orántes dixérunt: Tu, Dómine, qui corda nosti ómnium, osténde, quem elégeris ex his duóbus unum, accípere locum ministérii hujus et apostolátus, de quo prævaricátus est Judas, ut abíret in locum suum. Et dedérunt sortes eis, et cécidit sors super Matthíam, et annumerátus est cum úndecim Apóstolis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Evangelium",
+            "texte": "Lecture du Saint Évangile selon saint Mathieu.\n!Matt 11:25-30\nEn ce temps-là Jésus prit la parole et dit : Je vous rends grâce, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents, et de ce que vous les avez révélées aux petits. Oui, Père, (je vous rends grâce) parce, qu’il vous a plu ainsi. Toutes choses m’ont été données par mon Père. Et personne ne connaît le Fils, si ce n’est le Père ; personne non plus ne connaît le Père, si ce n’est le Fils, et celui à qui le Fils aura voulu le révéler. Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et Je vous soulagerai. Prenez mon joug sur vous, et recevez mes leçons, parce que je suis doux et humble de cœur, et vous trouverez le repos pour vos âmes. Car mon joug est doux, et mon fardeau léger.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-15.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "offertoire_constitues-eos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias et deféndi.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
-        "Francais": "!Ps 138:17-18.\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.\nV. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@Sancti/01-15:Evangelium"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
-        "Francais": "!Ps 44:17-18.\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération."
-      },
-      "audios": "Graduale Project/offertoire_constitues-eos.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
-        "Francais": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël."
-      },
-      "audios": "Graduale Project/communion_vos-qui-secuti.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/02-24.txt",
+        "Latin/Sancti/02-24.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

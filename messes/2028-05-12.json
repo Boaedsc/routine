@@ -1,70 +1,266 @@
 {
   "date": "2028-05-12",
-  "celebration": {
-    "nom": "Saints Nérée, Achillée et Pancrace",
-    "classe": 4,
-    "note": "(temporal : Vendredi du temps pascal)"
-  },
-  "fichiers": [
-    "Sancti/05-12",
-    "Tempora/Pasc3-5"
-  ],
-  "cles_jour": [
-    "05-12",
-    "Pasc3-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 32:18; 32:19; 32:20\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.",
-        "Francais": "!Ps 32:18; 32:19; 32:20\nv. Les yeux du Seigneur sont sur ceux qui le craignent, sur ceux qui espèrent en sa miséricorde, alléluia : pour délivrer leurs âmes de la mort : car il est notre secours et notre protecteur. Alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur : aux cœurs droits convient sa louange.\n&Gloria\nv. Les yeux du Seigneur sont sur ceux qui le craignent, sur ceux qui espèrent en sa miséricorde, alléluia : pour délivrer leurs âmes de la mort : car il est notre secours et notre protecteur. Alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-12",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-12.txt",
+        "temporal": "Latin/Tempora/Pasc3-5.txt",
+        "sanctoral": "Latin/Sancti/05-12.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_ecce-oculi-domini.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "@Sancti/05-01:Lectio"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Introitus",
+            "texte": "!Ps 32:18; 32:19; 32:20\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.",
+            "incipit": "Ecce, óculi Dómini",
+            "mp3": "introitus_ecce-oculi-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Oratio",
+            "texte": "Semper nos, Dómine, Mártyrum tuórum Nérei, Achíllei, Domitíllæ atque Pancrátii fóveat, quǽsumus, beáta solémnitas: et tuo dignos reddat obséquio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/05-01.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.\nV. Te Mártyrum candidátus laudat exércitus, Dómine. Allelúja.",
+            "incipit": "Allelúja, allelúja. Hæc",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 4:46-53\nIn illo témpore: Erat quidam régulus, cujus fílius infirmabátur Caphárnaum. Hic cum audísset, quia Jesus adveníret a Judǽa in Galilǽam, ábiit ad eum, et rogábat eum, ut descénderet et sanáret fílium ejus: incipiébat enim mori. Dixit ergo Jesus ad eum: Nisi signa et prodígia vidéritis, non créditis. Dicit ad eum régulus: Dómine, descénde, priúsquam moriátur fílius meus. Dicit ei Jesus: Vade, fílius tuus vivit. Crédidit homo sermóni, quem dixit ei Jesus, et ibat. Jam autem eo descendénte, servi occurrérunt ei et nuntiavérunt, dicéntes, quia fílius ejus víveret. Interrogábat ergo horam ab eis, in qua mélius habúerit. Et dixérunt ei: Quia heri hora séptima relíquit eum febris. Cognóvit ergo pater, quia illa hora erat, in qua dixit ei Jesus: Fílius tuus vivit: et crédidit ipse et domus ejus tota.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent20-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2ap.txt",
+                "section": "Offertorium",
+                "resolu": false
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum Martyrum tuórum, quǽsumus. Dómine, Nérei, Achíllei, Domitíllæ atque Pancrátii sit tibi grata conféssio: quæ et múnera nostra comméndet, et tuam nobis indulgéntiam semper implóret.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Communio",
+            "texte": "!Ps 32:1\nGaudéte, justi, in Dómino, allelúja: rectos decet collaudátio, allelúja.",
+            "incipit": "Gaudéte, justi, in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3p.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine: ut beatórum Mártyrum tuórum Nérei, Achíllei, Domitíllæ atque Pancrátii deprecatiónibus, sacraménta sancta, quæ súmpsimus, ad tuæ nobis profíciant placatiónis augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Introitus",
+            "texte": "!Ps 32:18; 32:19; 32:20\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et protéctor noster est, allelúja, allelúja.",
+            "incipit": "Ecce, óculi Dómini",
+            "mp3": "introitus_ecce-oculi-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Oratio",
+            "texte": "Semper nos, Dómine, Mártyrum tuórum Nérei, Achíllei, Domitíllæ atque Pancrátii fóveat, quǽsumus, beáta solémnitas: et tuo dignos reddat obséquio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5.\nLes justes se lèveront avec une grande assurance contre ceux qui les auront mis dans l’angoisse, et qui auront ravi le fruit de leurs travaux. A cette vue les méchants seront troublés par une horrible frayeur, et ils seront stupéfaits en voyant tout à coup ceux dont ils n’attendaient pas le salut ; ils diront en eux-mêmes, saisis de remords, et gémissant dans l’angoisse de leur cœur : Voici ceux dont nous avons fait autrefois un objet de risée, et un thème d’outrages. Insensés que nous étions, nous regardions leur vie comme une folie, et leur mort comme une honte ; et voilà qu’ils sont comptés parmi les fils de Dieu, et que leur partage est avec les saints.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/05-01.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.\nV. Te Mártyrum candidátus laudat exércitus, Dómine. Allelúja.",
+            "incipit": "Allelúja, allelúja. Hæc",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 125:5-6\nCeux qui sèment dans les larmes, récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 4:46-53\nEn ce temps-là, il y avait un officier du roi dont le fils était malade à Capharnaüm. Ayant appris que Jésus arrivait de Judée en Galilée, il alla vers lui, et le pria de descendre, pour guérir son fils qui était à la mort. Jésus lui dit : « Si vous ne voyez des signes et des prodiges, vous ne croyez point. » L'officier du roi lui dit : « Seigneur, venez avant que mon enfant ne meure. - Va, lui répondit Jésus, ton enfant vit. » Cet homme crut à la parole que Jésus lui avait dite et partit. Comme il s'en retournait, ses serviteurs vinrent à sa rencontre, et lui apprirent que son enfant vivait. Il leur demanda à quelle heure il s'était trouvé mieux, et ils lui dirent : « Hier, à la septième heure, la fièvre l'a quitté. » Le père reconnut que c'était l'heure à laquelle Jésus lui avait dit : Ton fils vit. Et il crut, lui et toute sa maison.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent20-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2ap.txt",
+                "section": "Offertorium",
+                "resolu": false
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum Martyrum tuórum, quǽsumus. Dómine, Nérei, Achíllei, Domitíllæ atque Pancrátii sit tibi grata conféssio: quæ et múnera nostra comméndet, et tuam nobis indulgéntiam semper implóret.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-12.txt",
+            "section": "Communio",
+            "texte": "!Ps 32:1\nGaudéte, justi, in Dómino, allelúja: rectos decet collaudátio, allelúja.",
+            "incipit": "Gaudéte, justi, in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3p.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-12.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine: ut beatórum Mártyrum tuórum Nérei, Achíllei, Domitíllæ atque Pancrátii deprecatiónibus, sacraménta sancta, quæ súmpsimus, ad tuæ nobis profíciant placatiónis augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.\nV. Te Mártyrum candidátus laudat exércitus, Dómine. Allelúja.",
-        "Francais": "Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia.\nV. L’éclatante armée des Martyrs chante vos louanges, Seigneur. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 4:46-53\nEn ce temps-là, il y avait un officier du roi, dont le fils était malade à Capharnaüm. Ayant appris que .Jésus venait de Judée en Galilée, il alla auprès de lui, et le pria de descendre, et de guérir son fils, qui était près de mourir. Jésus lui dit : Si vous ne voyez des signes et des prodiges, vous ne croyez point. L’officier lui dit : Seigneur, descendez avant que mon fils meure. Jésus lui dit : Va, ton fils vit. Cet homme crut à la parole que Jésus lui avait dite, et il s’en alla. Comme déjà il descendait, ses serviteurs vinrent au-devant de lui, et lui annoncèrent que son fils vivait. Il leur demanda l’heure à laquelle il s’était trouvé mieux ; et ils lui dirent : Hier, à la septième heure, la fièvre l’a quitté. Le père reconnut que c’était à cette heure-là que Jésus lui avait dit : Ton fils vit ; et il crut, lui, et toute sa maison."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2ap",
-        "Francais": "!Ps 88:6.\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C3p",
-        "Francais": "!Ps 32:1\nJustes, réjouissez-vous dans le Seigneur, alléluia ; c’est aux hommes droits que sied la louange, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3a.txt",
+        "../horas/Latin/Commune/C3a.txt",
+        "Francais/Sancti/05-12.txt",
+        "Latin/Sancti/05-12.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

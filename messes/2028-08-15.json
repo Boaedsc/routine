@@ -1,70 +1,212 @@
 {
   "date": "2028-08-15",
-  "celebration": {
-    "nom": "Assomption de la B.V.M.",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-15",
-    "Tempora/Pent10-2"
-  ],
-  "cles_jour": [
-    "08-15",
-    "Pent10-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ap 12:1\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.\n!Ps 97:1\nCantáte Dómino cánticum novum: quóniam mirabília fecit.\n&Gloria\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.",
-        "Francais": "!Ap 12:1\nv. Il parut dans le ciel un grand signe : une femme revêtue du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête.\n!Ps 97:1\nChantez au Seigneur un cantique nouveau : car il a fait des merveilles.\n&Gloria\nv. Il parut dans le ciel un grand signe : une femme revêtue du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête."
+      "occurrence": {
+        "gagnant": "Sancti/08-15",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-15.txt",
+        "temporal": "Latin/Tempora/Pent10-2.txt",
+        "sanctoral": "Latin/Sancti/08-15.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_signum-magnum.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Judith.\n!Judith 13, 22-25; 15:10\nLe Seigneur t’a bénie dans sa force, car par toi il a réduit à néant tous nos ennemis. Ma fille, tu es bénie par le Seigneur, le Dieu très haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur, créateur du ciel et de la terre, qui a conduit ta main pour trancher la tête au plus grand de nos ennemis ! Il a rendu aujourd’hui ton nom si glorieux, que ta louange ne disparaîtra pas de la bouche des hommes, qui se souviendront éternellement de la puissance du Seigneur ; car, en leur faveur, tu n’as pas épargné ta vie en voyant les souffrances et la détresse de ta race, mais tu nous as sauvés de la ruine en marchant dans la droiture en présence de notre Dieu. Tu es la gloire de Jérusalem ; tu es la joie d’Israël ; tu es l’honneur de notre peuple."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Introitus",
+            "texte": "!Ap 12:1\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.\n!Ps 97:1\nCantáte Dómino cánticum novum: quóniam mirabília fecit.\n&Gloria\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.",
+            "incipit": "Signum magnum appáruit",
+            "mp3": "introitus_signum-magnum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii tui Genetrícem, córpore et ánima ad cœléstem glóriam assumpsísti: concéde, quǽsumus; ut, ad superna semper inténti, ipsíus glóriæ mereámur esse consórtes.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Judith\n!Judith 13, 22-25; 15:10\nBenedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino Deo excelso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram, qui te diréxit in vúlnera cápitis príncipis inimicórum nostrórum; quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri. Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:11-12; 44:14\nAudi, fília, et vide, et inclína aurem tuam, et concupíscet rex pulchritúdinem tuam.\nV. Tota decóra ingréditur fília regis, textúræ áureæ sunt amíctus ejus.\nAllelúja, allelúja.\nV. Assumpta est María in cœlum: gaudet exércitus Angelórum. Allelúja.",
+            "incipit": "Audi, fília, et",
+            "mp3": "graduel_audi-filia-et.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_\n!Tractus\nGaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:41-50\nIn illo témpore: Repléta est Spíritu Sancto Elísabeth et exclamávit voce magna, et dixit: Benedícta tu inter mulíeres, et benedíctus fructus ventris tui. Et unde hoc mihi ut véniat mater Dómini mei ad me? Ecce enim ut facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo. Et beáta, quæ credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et ait María: Magníficat ánima mea Dóminum; et exsultávit spíritus meus in Deo salutári meo; quia respéxit humilitátem ancíllæ suæ, ecce enim ex hoc beátam me dicent omnes generatiónes. Quia fecit mihi magna qui potens est, et sanctum nomen ejus, et misericórdia ejus a progénie in progénies timéntibus eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Offertorium",
+            "texte": "!Gen 3:15\nInimicítias ponam inter te et mulíerem, et semen tuum et semen illíus.",
+            "incipit": "Inimicítias ponam inter",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Secreta",
+            "texte": "Ascéndat ad te, Dómine, nostræ devotiónis oblátio, et, beatíssima Vírgine María in cœlum assumpta intercedénte, corda nostra, caritátis igne succénsa, ad te júgiter ádspirent.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Communio",
+            "texte": "!Luc 1:48-49\nBeátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est.",
+            "incipit": "Beátam me dicent",
+            "mp3": "communion_beatam-me-dicent.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-15.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, salutáribus sacraméntis: da, quǽsumus; ut, méritis et intercessióne beátæ Vírginis Maríæ in cœlum assúmptæ, ad resurrectiónis glóriam perducámur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Introitus",
+            "texte": "!Ap 12:1\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.\n!Ps 97:1\nCantáte Dómino cánticum novum: quóniam mirabília fecit.\n&Gloria\nv. Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.",
+            "incipit": "Signum magnum appáruit",
+            "mp3": "introitus_signum-magnum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii tui Genetrícem, córpore et ánima ad cœléstem glóriam assumpsísti: concéde, quǽsumus; ut, ad superna semper inténti, ipsíus glóriæ mereámur esse consórtes.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Judith\n!Judith 13, 22-25; 15:10\nBenedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino Deo excelso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram, qui te diréxit in vúlnera cápitis príncipis inimicórum nostrórum; quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri. Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:11-12; 44:14\nAudi, fília, et vide, et inclína aurem tuam, et concupíscet rex pulchritúdinem tuam.\nV. Tota decóra ingréditur fília regis, textúræ áureæ sunt amíctus ejus.\nAllelúja, allelúja.\nV. Assumpta est María in cœlum: gaudet exércitus Angelórum. Allelúja.",
+            "incipit": "Audi, fília, et",
+            "mp3": "graduel_audi-filia-et.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.\n!\nRéjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies.\nV. Vous qui avez cru aux paroles de l’Archange Gabriel.\nV. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée.\nV. Mère de Dieu, intercédez pour nous.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:41-50\nIn illo témpore: Repléta est Spíritu Sancto Elísabeth et exclamávit voce magna, et dixit: Benedícta tu inter mulíeres, et benedíctus fructus ventris tui. Et unde hoc mihi ut véniat mater Dómini mei ad me? Ecce enim ut facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo. Et beáta, quæ credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et ait María: Magníficat ánima mea Dóminum; et exsultávit spíritus meus in Deo salutári meo; quia respéxit humilitátem ancíllæ suæ, ecce enim ex hoc beátam me dicent omnes generatiónes. Quia fecit mihi magna qui potens est, et sanctum nomen ejus, et misericórdia ejus a progénie in progénies timéntibus eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Offertorium",
+            "texte": "!Gen 3:15\nInimicítias ponam inter te et mulíerem, et semen tuum et semen illíus.",
+            "incipit": "Inimicítias ponam inter",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Secreta",
+            "texte": "Ascéndat ad te, Dómine, nostræ devotiónis oblátio, et, beatíssima Vírgine María in cœlum assumpta intercedénte, corda nostra, caritátis igne succénsa, ad te júgiter ádspirent.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Communio",
+            "texte": "!Luc 1:48-49\nBeátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est.",
+            "incipit": "Beátam me dicent",
+            "mp3": "communion_beatam-me-dicent.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-15.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, salutáribus sacraméntis: da, quǽsumus; ut, méritis et intercessióne beátæ Vírginis Maríæ in cœlum assúmptæ, ad resurrectiónis glóriam perducámur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 44:11-12; 44:14\nAudi, fília, et vide, et inclína aurem tuam, et concupíscet rex pulchritúdinem tuam.\nV. Tota decóra ingréditur fília regis, textúræ áureæ sunt amíctus ejus. \nAllelúja, allelúja.\nV. Assumpta est María in cœlum: gaudet exércitus Angelórum. Allelúja.",
-        "Francais": "!Ps 44:11-12; 44:14\nÉcoutez, ma Fille, voyez et tendez l’oreille : le Roi désirera votre beauté.\nV. Toute belle s’avance la fille du Roi, son vêtement est fait de tissus d’or. Alléluia, alléluia.\nV. Marie a été élevée dans les Cieux : l’armée des Anges se réjouit. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_audi-filia-et.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:41-50\nEn ce temps-là : Élisabeth fut remplie du Saint-Esprit et elle s’écria à haute voix, disant : « Vous êtes bénie entre les femmes, et le fruit de vos entrailles est béni. Et d’où m’est-il donné que la mère de mon Seigneur vienne à moi ? Car votre voix, lorsque vous m’avez saluée, n’a pas plus tôt frappé mes oreilles, que l’enfant a tressailli de joie dans mon sein. Heureuse vous qui avez cru ! Car elles seront accomplies les choses qui vous ont été dites de la part du Seigneur ! ». Et Marie dit : « Mon âme glorifie le Seigneur, et mon esprit tressaille de joie en Dieu, mon Sauveur, parce qu’il a jeté les yeux sur la bassesse de sa servante. Voici, en effet, que désormais toutes les générations me diront bienheureuse, parce que le Puissant a fait pour moi de grandes choses. Et son nom est saint, et sa miséricorde d’âge en âge pour ceux qui le craignent »."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Gen 3:15\nInimicítias ponam inter te et mulíerem, et semen tuum et semen illíus.",
-        "Francais": "!Gen 3:15\nJe mettrai une hostilité entre toi et la femme, entre ton lignage et le sien."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Luc 1:48-49\nBeátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est.",
-        "Francais": "!Luc 1:48-49\nToutes les générations me diront bienheureuse, parce que le Puissant a fait pour moi de grandes choses."
-      },
-      "audios": "Graduale Project/communion_beatam-me-dicent.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/08-15.txt",
+        "Latin/Sancti/08-15.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

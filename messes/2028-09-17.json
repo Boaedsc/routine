@@ -1,68 +1,238 @@
 {
   "date": "2028-09-17",
-  "celebration": {
-    "nom": "15e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent15-0"
-  ],
-  "cles_jour": [
-    "Pent15-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent15",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 85:1; 85:2-3\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.\n!Ps 85:4\nLætífica ánimam servi tui: quia ad te, Dómine, ánimam meam levávi.\n&Gloria\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.",
-        "Francais": "!Ps 85:1; 85:2-3\nv. Inclinez, Seigneur, votre oreille vers moi, et exaucez-moi ; sauvez votre serviteur, ô mon Dieu, car il espère en vous. Ayez pitié de moi, Seigneur, car je crie vers vous tout le jour.\n!Ps 85:4\nRéjouissez l'âme de votre serviteur, car vers vous, Seigneur, j'élève mon âme.\n&Gloria\nv. Inclinez, Seigneur, votre oreille vers moi, et exaucez-moi ; sauvez votre serviteur, ô mon Dieu, car il espère en vous. Ayez pitié de moi, Seigneur, car je crie vers vous tout le jour."
+      "occurrence": {
+        "gagnant": "Tempora/Pent15-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent15-0.txt",
+        "temporal": "Latin/Tempora/Pent15-0.txt",
+        "sanctoral": "Latin/Sancti/09-17.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_inclina-domine.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 5:25-26; 6:1-10\nFrères, si nous vivons par l'esprit, marchons aussi par l'esprit. Ne cherchons pas une vaine gloire en nous provoquant les uns les autres, en nous portant mutuellement envie. Frères, lors même qu'un homme se serait laissé surprendre à quelque faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur, prenant garde à vous-mêmes, de peur que vous ne tombiez aussi en tentation. Portez les fardeaux les uns des autres, et vous accomplirez ainsi la loi du Christ ; car si quelqu'un croit être quelque chose, alors qu'il n'est rien, il s'abuse lui-même. Que chacun examine ses propres œuvres, et alors il aura sujet de se glorifier pour lui seul, et non en se comparant à autrui ; car chacun aura son propre fardeau à porter. Que celui à qui on enseigne la parole fasse part de tous ses biens à celui qui l'enseigne. Ne vous y trompez pas : on ne se rit pas de Dieu. Ce qu'on aura semé, on le moissonnera. Celui qui sème dans sa chair moissonnera, de la chair, la corruption ; celui qui sème dans l'esprit moissonnera, de l'esprit, la vie éternelle. Ne nous lassons point de faire le bien ; car nous moissonnerons en son temps, si nous ne nous relâchons pas. Ainsi donc, pendant que nous en avons le temps, faisons le bien envers tous, et surtout envers les frères dans la foi."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 85:1; 85:2-3\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.\n!Ps 85:4\nLætífica ánimam servi tui: quia ad te, Dómine, ánimam meam levávi.\n&Gloria\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.",
+            "incipit": "Inclína, Dómine, aurem",
+            "mp3": "introitus_inclina-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Oratio",
+            "texte": "Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et quia sine te non potest salva consístere; tuo semper múnere gubernétur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 5:25-26; 6:1-10\nFratres: Si spíritu vívimus, spíritu et ambulémus. Non efficiámur inanis glóriæ cúpidi, ínvicem provocántes, ínvicem invidéntes. Fratres, et si præoccupátus fúerit homo in áliquo delícto, vos, qui spirituáles estis, hujúsmodi instrúite in spíritu lenitátis, consíderans teípsum, ne et tu tentéris. Alter alteríus ónera portáte, et sic adimplébitis legem Christi. Nam si quis exístimat se áliquid esse, cum nihil sit, ipse se sedúcit. Opus autem suum probet unusquísque, et sic in semetípso tantum glóriam habébit, et non in áltero. Unusquísque enim onus suum portábit. Commúnicet autem is, qui catechizátur verbo, ei, qui se catechízat, in ómnibus bonis. Nolíte erráre: Deus non irridétur. Quæ enim semináverit homo, hæc et metet. Quóniam qui séminat in carne sua, de carne et metet corruptiónem: qui autem séminat in spíritu, de spíritu metet vitam ætérnam. Bonum autem faciéntes, non deficiámus: témpore enim suo metémus, non deficiéntes. Ergo, dum tempus habémus, operémur bonum ad omnes, maxime autem ad domésticos fídei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:2-3\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Ps 94:3\nQuóniam Deus magnus Dóminus, et Rex magnus super omnem terram. Allelúja.",
+            "incipit": "Bonum est confitéri",
+            "mp3": "graduel_bonum-est-confiteri.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 7:11-16\nIn illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant cum eo discípuli ejus et turba copiósa. Cum autem appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius únicus matris suæ: et hæc vídua erat, et turba civitátis multa cum illa. Quam cum vidísset Dóminus, misericórdia motus super eam, dixit illi: Noli flere. Et accéssit et tétigit lóculum. - Hi autem, qui portábant, stetérunt - Et ait: Adoléscens, tibi dico, surge. Et resédit, qui erat mórtuus, et cœpit loqui. Et dedit illum matri suæ. Accépit autem omnes timor: et magnificábant Deum, dicéntes: Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit plebem suam.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad4-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 39:2; 39:3; 39:4\nExspéctans exspectávi Dóminum, et respéxit me: et exaudívit deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo nostro.",
+            "incipit": "Exspéctans exspectávi Dóminum,",
+            "mp3": "offertoire_exspectans-exspectavi.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Secreta",
+            "texte": "Tua nos, Dómine, sacramenta custodiant: et contra diabólicos semper tueántur incúrsus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Communio",
+            "texte": "!Joann 6:52\nPanis, quem ego dédero, caro mea est pro sǽculi vita.",
+            "incipit": "Panis, quem ego",
+            "mp3": "communion_panis-quem-ego.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad1-4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent15-0.txt",
+            "section": "Postcommunio",
+            "texte": "Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni cœléstis operátio: ut non noster sensus in nobis, sed júgiter ejus prævéniat efféctus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 85:1; 85:2-3\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.\n!Ps 85:4\nLætífica ánimam servi tui: quia ad te, Dómine, ánimam meam levávi.\n&Gloria\nv. Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te clamávi tota die.",
+            "incipit": "Inclína, Dómine, aurem",
+            "mp3": "introitus_inclina-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Oratio",
+            "texte": "Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et quia sine te non potest salva consístere; tuo semper múnere gubernétur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 5:25-26; 6:1-10\nFratres: Si spíritu vívimus, spíritu et ambulémus. Non efficiámur inanis glóriæ cúpidi, ínvicem provocántes, ínvicem invidéntes. Fratres, et si præoccupátus fúerit homo in áliquo delícto, vos, qui spirituáles estis, hujúsmodi instrúite in spíritu lenitátis, consíderans teípsum, ne et tu tentéris. Alter alteríus ónera portáte, et sic adimplébitis legem Christi. Nam si quis exístimat se áliquid esse, cum nihil sit, ipse se sedúcit. Opus autem suum probet unusquísque, et sic in semetípso tantum glóriam habébit, et non in áltero. Unusquísque enim onus suum portábit. Commúnicet autem is, qui catechizátur verbo, ei, qui se catechízat, in ómnibus bonis. Nolíte erráre: Deus non irridétur. Quæ enim semináverit homo, hæc et metet. Quóniam qui séminat in carne sua, de carne et metet corruptiónem: qui autem séminat in spíritu, de spíritu metet vitam ætérnam. Bonum autem faciéntes, non deficiámus: témpore enim suo metémus, non deficiéntes. Ergo, dum tempus habémus, operémur bonum ad omnes, maxime autem ad domésticos fídei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:2-3\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Ps 94:3\nQuóniam Deus magnus Dóminus, et Rex magnus super omnem terram. Allelúja.",
+            "incipit": "Bonum est confitéri",
+            "mp3": "graduel_bonum-est-confiteri.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:11-16\nEn ce temps-là, Jésus se rendait dans une ville appelée Naïm ; et ses disciples allaient avec lui, ainsi qu’une foule nombreuse. Et comme il approchait de la porte de la ville, voici qu’on emportait un mort, fils unique de sa mère, et celle-ci était veuve ; et il y avait avec elle beaucoup de personnes de la ville. Lorsque le Seigneur l’eut vue, touché de compassion pour elle, il lui dit : Ne pleure point. Puis il s’approcha, et toucha le cercueil. Ceux qui le portaient s’arrêtèrent. Et il dit : Jeune homme, je te l’ordonne, lève-toi. Et le mort se mit sur son séant, et commença à parler. Et Jésus le rendit à sa mère. Tous furent saisis de crainte, et ils glorifiaient Dieu, en disant : Un grand prophète a surgi parmi nous, et Dieu a visité son peuple.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad4-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 39:2; 39:3; 39:4\nExspéctans exspectávi Dóminum, et respéxit me: et exaudívit deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo nostro.",
+            "incipit": "Exspéctans exspectávi Dóminum,",
+            "mp3": "offertoire_exspectans-exspectavi.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Secreta",
+            "texte": "Tua nos, Dómine, sacramenta custodiant: et contra diabólicos semper tueántur incúrsus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Communio",
+            "texte": "!Joann 6:52\nLe pain que je donnerai, c’est ma chair pour la vie du monde.",
+            "incipit": "Le pain que",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad1-4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent15-0.txt",
+            "section": "Postcommunio",
+            "texte": "Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni cœléstis operátio: ut non noster sensus in nobis, sed júgiter ejus prævéniat efféctus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 91:2-3\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Ps 94:3\nQuóniam Deus magnus Dóminus, et Rex magnus super omnem terram. Allelúja.",
-        "Francais": "!Ps 91:2-3.\nIl est bon de célébrer le Seigneur, et de psalmodier pour votre Nom, ô Très-Haut.\nV. Pour annoncer le matin votre miséricorde, et votre vérité pendant la nuit. Alléluia, alléluia.\n!Ps 94:3\nCar le Seigneur est un Dieu grand, et un Roi grand au-dessus de toute la terre. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_bonum-est-confiteri.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:11-16\nEn ce temps-là, Jésus se rendait dans une ville nommée Naïm, et ses disciples et une foule nombreuse faisaient route avec lui. Comme il approchait de la porte de la ville, voilà qu'on emportait un mort, fils unique de sa mère, laquelle était veuve, et une foule considérable de gens de la ville étaient avec elle. Le Seigneur l'ayant vue, fut touché de compassion pour elle, et il lui dit : « Ne pleurez pas. » Et s'approchant, il toucha le cercueil, et les porteurs s'arrêtèrent ; et il dit : « Jeune homme, je te le dis, lève-toi ! » Et le mort se dressa sur son séant et se mit à parler ; et il le rendit à sa mère. Tous furent saisis de crainte, et ils glorifiaient Dieu en disant : « Un grand prophète s'est levé parmi nous, » et : « Dieu a visité son peuple. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 39:2; 39:3; 39:4\nExspéctans exspectávi Dóminum, et respéxit me: et exaudívit deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo nostro.",
-        "Francais": "!Ps 39:2; 39:3; 39:4\nJ'ai attendu le Seigneur et il m'a regardé ; il a exaucé ma prière, et il a mis dans ma bouche un chant nouveau, une hymne pour notre Dieu."
-      },
-      "audios": "Graduale Project/offertoire_exspectans-exspectavi.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Quad1-4:Communio",
-        "Francais": "!Joann 6:52\nLe pain que je donnerai, c'est ma chair pour la vie du monde."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent15-0.txt",
+        "Latin/Tempora/Pent15-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

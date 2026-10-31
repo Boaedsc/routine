@@ -1,70 +1,212 @@
 {
   "date": "2027-02-24",
-  "celebration": {
-    "nom": "Saint Matthias, apôtre",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/02-24",
-    "Tempora/Quad2-3"
-  ],
-  "cles_jour": [
-    "02-24",
-    "Quad2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
-        "Francais": "!Ps 138:17\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2.\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie."
+      "occurrence": {
+        "gagnant": "Sancti/02-24",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-24.txt",
+        "temporal": "Latin/Tempora/Quad2-3.txt",
+        "sanctoral": "Latin/Sancti/02-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_mihi-autem-nimis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Actuum Apostolórum\n!Act 1, 15-26.\nEn ces jours-là, Pierre, se levant au milieu des frères qui étaient rassemblés au nombre d’environ cent vingt, leur dit : Mes frères, il fallait que s’accomplît ce que le Saint-Esprit a prédit dans l’Ecriture, par la bouche de David, au sujet de Judas, qui a été le guide de ceux qui ont arrêté Jésus. Il était compté parmi nous, et il avait reçu sa part de notre ministère. Cet homme, après avoir acquis un champ avec te salaire du crime, se pendit et se brisa par le milieu, et toutes ses entrailles se répandirent. Le fait a été si connu de tous les habitants de Jérusalem que ce champ a été nommé dans leur langue Haceldama, c’est-à-dire Champ du sang. Car il est écrit dans le livre des Psaumes : Que leur demeure devienne déserte et qu’il n’y ait personne qui l’habite, et qu’un autre reçoive son ministère. Il faut donc que, parmi les hommes qui ont été en notre compagnie pendant tout le temps que le Seigneur Jésus a vécu avec nous, à commencer depuis le baptême de Jean, jusqu’au jour où il a été enlevé du milieu de nous, il y en ait un qui devienne avec nous témoin de sa résurrection. Ils en présentèrent deux : Joseph appelé Barsabas, surnommé le Juste, et Mathias. Et se mettant en prières, ils dirent : Seigneur, vous qui connaissez les cœurs de tous, montrez lequel de ces deux vous avez choisi pour occuper la part du ministère et de l’apostolat que Judas a quittée par son crime, pour s’en aller en son lieu. Alors ils tirèrent au sort ; et le sort tomba sur Mathias, qui fut mis au rang des onze apôtres."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Oratio",
+            "texte": "Déus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quǽsumus; ut, eius interventióne, tuæ circa nos pietátis sémper víscera sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Esther.\n!Esth 13:8-11; 13:15-17\nIn diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine, Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est, qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu fecísti cœlum et terram, et quidquid cœli ámbitu continétur. Dóminus ómnium es, nec est, qui resístat majestáti tuæ. Et nunc, Dómine Rex, Deus Abraham, miserére pópuli tui, quia volunt nos inimíci nostri pérdere, et hereditátem tuam delére. Ne despícias partem tuam, quam redemísti tibi de Ægýpto. Exáudi deprecatiónem meam, et propítius esto sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:17-28\nIn illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim discípulos secréto, et ait illis: Ecce, ascéndimus Jerosólymam, et Fílius hóminis tradétur princípibus sacerdótum, et scribis, et condemnábunt eum morte, et tradent eum Géntibus ad illudéndum, et flagellándum, et crucifigéndum, et tértia die resúrget. Tunc accéssit ad eum mater filiórum Zebedǽi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Nescítis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo. Et audiéntes decem, indignáti sunt de duóbus frátribus. Jesus autem vocávit eos ad se, et ait: Scitis, quia príncipes géntium dominántur eórum: et qui majóres sunt, potestátem exércent in eos. Non ita erit inter vos: sed quicúmque volúerit inter vos major fíeri, sit vester miníster: et qui volúerit inter vos primus esse, erit vester servus. Sicut Fílius hóminis non venit ministrári, sed ministráre, et dare ánimam suam, redemptiónem pro multis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "offertoire_constitues-eos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias et deféndi.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/02-24.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:17\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+            "incipit": "Mihi autem nimis",
+            "mp3": "introitus_mihi-autem-nimis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Oratio",
+            "texte": "Déus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quǽsumus; ut, eius interventióne, tuæ circa nos pietátis sémper víscera sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Esther.\n!Esth 13:8-11; 13:15-17\nIn diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine, Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est, qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu fecísti cœlum et terram, et quidquid cœli ámbitu continétur. Dóminus ómnium es, nec est, qui resístat majestáti tuæ. Et nunc, Dómine Rex, Deus Abraham, miserére pópuli tui, quia volunt nos inimíci nostri pérdere, et hereditátem tuam delére. Ne despícias partem tuam, quam redemísti tibi de Ægýpto. Exáudi deprecatiónem meam, et propítius esto sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Tractus",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:17-28\nIn illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim discípulos secréto, et ait illis: Ecce, ascéndimus Jerosólymam, et Fílius hóminis tradétur princípibus sacerdótum, et scribis, et condemnábunt eum morte, et tradent eum Géntibus ad illudéndum, et flagellándum, et crucifigéndum, et tértia die resúrget. Tunc accéssit ad eum mater filiórum Zebedǽi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Nescítis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo. Et audiéntes decem, indignáti sunt de duóbus frátribus. Jesus autem vocávit eos ad se, et ait: Scitis, quia príncipes géntium dominántur eórum: et qui majóres sunt, potestátem exércent in eos. Non ita erit inter vos: sed quicúmque volúerit inter vos major fíeri, sit vester miníster: et qui volúerit inter vos primus esse, erit vester servus. Sicut Fílius hóminis non venit ministrári, sed ministráre, et dare ánimam suam, redemptiónem pro multis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
+            "incipit": "Constítues eos príncipes",
+            "mp3": "offertoire_constitues-eos.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias et deféndi.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Communio",
+            "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
+            "incipit": "Vos, qui secúti",
+            "mp3": "communion_vos-qui-secuti.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/02-24.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos, et super arénam multiplicabúntur.",
-        "Francais": "!Ps 138:17-18.\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.\nV. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer."
-      },
-      "audios": "Graduale Project/graduel_salvum-fac-populum.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@Sancti/01-15:Evangelium"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
-        "Francais": "!Ps 44:17-18.\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération."
-      },
-      "audios": "Graduale Project/offertoire_constitues-eos.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
-        "Francais": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël."
-      },
-      "audios": "Graduale Project/communion_vos-qui-secuti.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/02-24.txt",
+        "Francais/Tempora/Quad2-3.txt",
+        "Latin/Sancti/02-24.txt",
+        "Latin/Tempora/Quad2-3.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

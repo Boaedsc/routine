@@ -1,70 +1,240 @@
 {
   "date": "2026-11-14",
-  "celebration": {
-    "nom": "Saint Josaphat",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/11-14",
-    "Tempora/Pent22-6"
-  ],
-  "cles_jour": [
-    "11-14",
-    "Pent22-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "PentEpi5",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
-        "Francais": "! \nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle du bienheureuse Josaphat. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 32:1\nJustes, exultez dans le Seigneur : aux coeurs droits convient sa louange. Alléluia.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle du bienheureuse Josaphat. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu."
+      "occurrence": {
+        "gagnant": "Sancti/11-14",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/11-14.txt",
+        "temporal": "Latin/Tempora/PentEpi5-6.txt",
+        "sanctoral": "Latin/Sancti/11-14.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n!Hebr 5:1-6\nMes frères, tout pontife pris d’entre les hommes est établi pour les hommes en ce qui regarde le culte de Dieu, afin qu’il offre des dons et des sacrifices pour les péchés ; il peut compatir à ceux qui sont dans l’ignorance et dans l’erreur, puisqu’il est lui-même environné de faiblesse, et c’est pour cela qu’il doit offrir, pour lui-même aussi bien que pour le peuple, des sacrifices pour les péchés. Et nul ne s’attribue à lui-même cet honneur ; mais on y est appelé de Dieu, comme Aaron. Et ainsi le Christ ne s’est point arrogé à lui-même la dignité de pontife, mais il l’a reçue de celui qui lui a dit : Tu es mon Fils, je t’ai engendré aujourd’hui. Comme il dit aussi dans un autre endroit : Tu es prêtre pour l’éternité, selon l’ordre de Melchisédech."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Oratio",
+            "texte": "Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus beátus Jósaphat Martyr et Póntifex tuus ánimam suam pro óvibus pósuit: ut, eo intercedénte, nos quoque eódem Spíritu moti ac roboráti, ánimam nostram pro frátribus pónere non vereámur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n!Hebr 5:1-6\nFratres: Omnis póntifex ex homínibus assúmptus, pro homínibus constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia pro peccátis: qui condolére possit iis, qui ígnorant et errant: quóniam et ipse circúmdatus est infirmitáte: et proptérea debet, quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a Deo, tamquam Aaron. Sic et Christus non semetípsum clarificávit, ut Póntifex fíeret: sed qui locútus est ad eum: Fílius meus es tu, ego hódie génui te. Quemádmodum et in álio loco dicit: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja.\nV. Hic est sacérdos, quem coronávit Dóminus. Allelúja.",
+            "incipit": "Invéni David servum",
+            "mp3": "graduel_inveni-david.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Invéni David servum",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 10:11-16\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercenárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercenárius autem fugit, quia mercenárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.~",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc2-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Offertorium",
+            "texte": "!Joann 15:13\nMajórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.",
+            "incipit": "Majórem caritátem nemo",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Secreta",
+            "texte": "Clementíssime Deus, múnera hæc tua benedictióne perfunde, et nos in fide confírma: quam sanctus Jósaphat Martyr et Póntifex tuus, effúso sánguine, asséruit.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Communio",
+            "texte": "!Joannes 10:14\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.",
+            "incipit": "Ego sum pastor",
+            "mp3": "communion_ego-sum-pastor.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc2-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/11-14.txt",
+            "section": "Postcommunio",
+            "texte": "Spíritum, Dómine, fortitúdinis hæc nobis tríbuat mensa cœléstis: quæ sancti Jósaphat Mártyris tui atque Pontíficis vitam pro Ecclésiæ honóre júgiter áluit ad victóriam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium Dei.",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Oratio",
+            "texte": "Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus beátus Jósaphat Martyr et Póntifex tuus ánimam suam pro óvibus pósuit: ut, eo intercedénte, nos quoque eódem Spíritu moti ac roboráti, ánimam nostram pro frátribus pónere non vereámur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n!Hebr 5:1-6\nFratres: Omnis póntifex ex homínibus assúmptus, pro homínibus constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia pro peccátis: qui condolére possit iis, qui ígnorant et errant: quóniam et ipse circúmdatus est infirmitáte: et proptérea debet, quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a Deo, tamquam Aaron. Sic et Christus non semetípsum clarificávit, ut Póntifex fíeret: sed qui locútus est ad eum: Fílius meus es tu, ego hódie génui te. Quemádmodum et in álio loco dicit: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja.\nV. Hic est sacérdos, quem coronávit Dóminus. Allelúja.",
+            "incipit": "Invéni David servum",
+            "mp3": "graduel_inveni-david.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n!Ps 20:3-4.\nVous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 10:11-16.\nEn ce temps-là, Jésus dit aux Pharisiens : « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. Mais le mercenaire, qui n'est pas le pasteur, et à qui les brebis n'appartiennent pas, s'il voit venir le loup, laisse là les brebis et prend la fuite ; et le loup les ravit et les disperse. Le mercenaire s'enfuit, parce qu'il est mercenaire et qu'il n'a nul souci des brebis. Je suis le bon pasteur ; je connais mes brebis et mes brebis me connaissent, comme mon Père me connaît, et que je connais mon Père, et je donne ma vie pour mes brebis. J'ai encore d'autres brebis qui ne sont pas de cette bergerie ; il faut aussi que je les amène ; elles entendront ma voix, et il y aura une seule bergerie et un seul pasteur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc2-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Offertorium",
+            "texte": "!Joann 15:13\nMajórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.",
+            "incipit": "Majórem caritátem nemo",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Secreta",
+            "texte": "Clementíssime Deus, múnera hæc tua benedictióne perfunde, et nos in fide confírma: quam sanctus Jósaphat Martyr et Póntifex tuus, effúso sánguine, asséruit.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Communio",
+            "texte": "!Joannes 10:14.\nJe suis le bon Pasteur, alléluia ; je connais mes brebis et mes brebis me connaissent, alléluia, alléluia.",
+            "incipit": "Je suis le",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc2-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/11-14.txt",
+            "section": "Postcommunio",
+            "texte": "Spíritum, Dómine, fortitúdinis hæc nobis tríbuat mensa cœléstis: quæ sancti Jósaphat Mártyris tui atque Pontíficis vitam pro Ecclésiæ honóre júgiter áluit ad victóriam.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja.\nV. Hic est sacérdos, quem coronávit Dóminus. Allelúja.",
-        "Francais": "!Ps 88:21-23\n J’ai trouvé David mon serviteur, je l’ai oint de mon huile sainte ; car ma main l’assistera et mon bras le fortifiera.\nV. L’ennemi n’aura jamais l’avantage sur lui et le fils d’iniquité ne pourra lui nuire. Alléluia, alléluia.\nV. C’est le Prêtre que le Seigneur a couronné. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_inveni-david.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 10:11-16\nEn ce temps-là, Jésus dit aux pharisiens : Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. Mais le mercenaire, et celui qui n’est point pasteur, à qui les brebis n’appartiennent pas, voit venir le loup, et abandonne les brebis, et s’enfuit ; et le loup ravit et disperse les brebis. Le mercenaire s’enfuit, parce qu’il est mercenaire, et qu’il ne se met point en peine des brebis. Je suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent, comme le Père me connaît et que je connais le Père ; et je donne ma vie pour mes brebis. J’ai encore d’autres brebis, qui ne sont pas de cette bergerie ; celles-là aussi, il faut que je les amène, et elles écouteront ma voix, et il n’y aura qu’une seule bergerie et qu’un seul pasteur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Joann 15:13\nMajórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.",
-        "Francais": "!Joann 15:13\nPersonne ne peut avoir un plus grand amour que de donner sa vie pour ses amis."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Pasc2-0",
-        "Francais": "!Joann 10:14\nJe suis le bon pasteur et je connais mes brebis, et mes brebis me connaissent."
-      },
-      "audios": "Graduale Project/communion_ego-sum-pastor.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2.txt",
+        "../horas/Latin/Commune/C2.txt",
+        "Francais/Sancti/11-14.txt",
+        "Latin/Sancti/11-14.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

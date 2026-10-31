@@ -1,70 +1,212 @@
 {
   "date": "2027-06-21",
-  "celebration": {
-    "nom": "Saint Louis de Gonzague",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-21",
-    "Tempora/Pent05-1"
-  ],
-  "cles_jour": [
-    "06-21",
-    "Pent05-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent05",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 8:6\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.\n&Gloria\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.",
-        "Francais": "!Ps 8:6\nv. Vous ne l’avez mis qu’un peu au-dessous des anges : vous l’avez couronné de gloire et d’honneur.\n!Ps 148:2\nLouez le Seigneur, tous, vous ses anges : louez-le, toutes ses puissances.\n&Gloria\nv. Vous ne l’avez mis qu’un peu au-dessous des anges : vous l’avez couronné de gloire et d’honneur."
+      "occurrence": {
+        "gagnant": "Sancti/06-21",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-21.txt",
+        "temporal": "Latin/Tempora/Pent05-1.txt",
+        "sanctoral": "Latin/Sancti/06-21.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 8:6\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.\n&Gloria\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.",
+            "incipit": "Minuísti eum paulo",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Oratio",
+            "texte": "Cœléstium donórum distribútor, Deus, qui in angélico júvene Aloísio miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus méritis et précibus concéde; ut, innocéntem non secúti, pœniténtem imitémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 70:5-6\nDómine, spes mea a juventúte mea: in te confirmátus sum ex útero: de ventre matris meæ tu es protéctor meus.\n!Ps 40:13\nMe autem propter innocéntiam suscepísti: et confirmásti me in conspéctu tuo in ætérnum.\nAllelúja, allelúja.\n!Ps 64:5\nBeátus, quem elegísti et assumpsísti: inhabitábit in átriis tuis. Allelúja.",
+            "incipit": "Dómine, spes mea",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:29-40\nIn illo témpore: Respóndens Jesus, ait sadducæis: Errátis, nesciéntes Scriptúras neque virtútem Dei. In resurrectióne enim neque nubent neque nubéntur: sed erunt sicut Angeli Dei in cœlo. De resurrectióne autem mortuórum non legístis, quod dictum est a Deo dicénte vobis: Ego sum Deus Abraham et Deus Isaac et Deus Jacob? Non est Deus mortuórum, sed vivéntium. Et audiéntes turbæ, mirabántur in doctrína ejus. Pharisæi autem audiéntes, quod siléntium imposuísset sadducæis, convenérunt in unum: et interrogávit eum unus ex eis legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum tuum, ex toto corde tuo, et in tota ánima tua, et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum, sicut teípsum. In his duóbus mandátis univérsa lex pendet et Prophétæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 23:3-4\nQuis ascéndet in montem Dómini, aut quis stabit in loco sancto ejus? Innocens mánibus, et mundo corde.",
+            "incipit": "Quis ascéndet in",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Secreta",
+            "texte": "Cœlésti convívio fac nos, Dómine, nuptiáli veste indútos accúmbere: quam beáti Aloísii pia præparátio et juges lácrimæ inæstimabílibus ornábant margarítis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Communio",
+            "texte": "!Ps 77:24-25\nPanem cœli dedit eis: panem Angelórum manducávit homo.",
+            "incipit": "Panem cœli dedit",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-21.txt",
+            "section": "Postcommunio",
+            "texte": "Angelórum esca nutrítos, angélicis étiam, Dómine, da móribus vívere: et ejus, quem hódie cólimus, exémplo in gratiárum semper actióne manére.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 8:6\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus.\n&Gloria\nv. Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.",
+            "incipit": "Minuísti eum paulo",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Oratio",
+            "texte": "Cœléstium donórum distribútor, Deus, qui in angélico júvene Aloísio miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus méritis et précibus concéde; ut, innocéntem non secúti, pœniténtem imitémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 70:5-6\nDómine, spes mea a juventúte mea: in te confirmátus sum ex útero: de ventre matris meæ tu es protéctor meus.\n!Ps 40:13\nMe autem propter innocéntiam suscepísti: et confirmásti me in conspéctu tuo in ætérnum.\nAllelúja, allelúja.\n!Ps 64:5\nBeátus, quem elegísti et assumpsísti: inhabitábit in átriis tuis. Allelúja.",
+            "incipit": "Dómine, spes mea",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:29-40\nIn illo témpore: Respóndens Jesus, ait sadducæis: Errátis, nesciéntes Scriptúras neque virtútem Dei. In resurrectióne enim neque nubent neque nubéntur: sed erunt sicut Angeli Dei in cœlo. De resurrectióne autem mortuórum non legístis, quod dictum est a Deo dicénte vobis: Ego sum Deus Abraham et Deus Isaac et Deus Jacob? Non est Deus mortuórum, sed vivéntium. Et audiéntes turbæ, mirabántur in doctrína ejus. Pharisæi autem audiéntes, quod siléntium imposuísset sadducæis, convenérunt in unum: et interrogávit eum unus ex eis legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum tuum, ex toto corde tuo, et in tota ánima tua, et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum, sicut teípsum. In his duóbus mandátis univérsa lex pendet et Prophétæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 23:3-4\nQuis ascéndet in montem Dómini, aut quis stabit in loco sancto ejus? Innocens mánibus, et mundo corde.",
+            "incipit": "Quis ascéndet in",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Secreta",
+            "texte": "Cœlésti convívio fac nos, Dómine, nuptiáli veste indútos accúmbere: quam beáti Aloísii pia præparátio et juges lácrimæ inæstimabílibus ornábant margarítis.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Communio",
+            "texte": "!Ps 77:24-25\nPanem cœli dedit eis: panem Angelórum manducávit homo.",
+            "incipit": "Panem cœli dedit",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-21.txt",
+            "section": "Postcommunio",
+            "texte": "Angelórum esca nutrítos, angélicis étiam, Dómine, da móribus vívere: et ejus, quem hódie cólimus, exémplo in gratiárum semper actióne manére.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 70:5-6\nDómine, spes mea a juventúte mea: in te confirmátus sum ex útero: de ventre matris meæ tu es protéctor meus.\n!Ps 40:13\nMe autem propter innocéntiam suscepísti: et confirmásti me in conspéctu tuo in ætérnum. \nAllelúja, allelúja.\n!Ps 64:5\nBeátus, quem elegísti et assumpsísti: inhabitábit in átriis tuis. Allelúja.",
-        "Francais": "!Ps 70:5-6\nSeigneur, vous êtes mon espérance depuis ma jeunesse : sur vous je me suis appuyé dès ma naissance : dès le sein de ma mère vous êtes mon protecteur.\n!Ps 40:13\nVous m’avez accueilli à cause de mon innocence : et vous m’avez affermi pour toujours en votre présence. Alléluia, alléluia\n!Ps 64:5\nHeureux celui que vous avez choisi et pris avec vous : il habitera dans vos parvis. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:29-40\nEn ce temps-là : Jésus répondit aux Sadducéens : Vous êtes dans l’erreur, ne comprenant ni les Écritures, ni la puissance de Dieu. Car, à la résurrection, les hommes ne prendront pas de femmes, ni les femmes de maris ; mais ils seront comme les anges de Dieu dans le ciel. Et pour ce qui est de la résurrection des morts, n’avez-vous pas lu ce que Dieu vous a dit : Je suis le Dieu d’Abraham, le Dieu d’Isaac et le Dieu de Jacob ? Or Dieu n’est pas le Dieu des morts, mais des vivants. Et les foules, entendant cela, étaient dans l’admiration de sa doctrine. Mais les pharisiens, ayant appris qu’il avait réduit les sadducéens au silence, se rassemblèrent ; et l’un d’eux, docteur de la loi, lui fit cette question pour le tenter : Maître, quel est le plus grand commandement de la loi ? Jésus lui dit : Tu aimeras le Seigneur ton Dieu de tout ton cœur, et de toute ton âme, et de tout ton esprit C’est là le plus grand et le premier commandement. Mais le second lui est semblable : Tu aimeras ton prochain comme toi-même. Dans ces deux commandements sont renfermés la loi et les prophètes."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 23:3-4\nQuis ascéndet in montem Dómini, aut quis stabit in loco sancto ejus? Innocens mánibus, et mundo corde.",
-        "Francais": "!Ps 23:3-4\nQui montera sur la montagne du Seigneur, ou qui se tiendra dans son lieu saint ? Celui qui a les mains innocentes et le cœur pur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 77:24-25\nPanem cœli dedit eis: panem Angelórum manducávit homo.",
-        "Francais": "!Ps 77:24-25\nIl leur donna un pain du ciel : l’homme mangea le pain des anges."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/06-21.txt",
+        "Latin/Sancti/06-21.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

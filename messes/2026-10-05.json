@@ -1,17 +1,254 @@
 {
   "date": "2026-10-05",
-  "celebration": {
-    "nom": "Saint Placide",
-    "classe": 4,
-    "note": "(temporal : Lundi de la 19e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/10-05",
-    "Tempora/Pent19-1"
-  ],
-  "cles_jour": [
-    "10-05",
-    "Pent19-1"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent19",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/10-05",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-05.txt",
+        "temporal": "Latin/Tempora/Pent19-1.txt",
+        "sanctoral": "Latin/Sancti/10-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
+            "incipit": "Sapiéntiam Sanctórum narrent",
+            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram. Allelúja, allelúja.\n!Ps 67:4\nJusti epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "graduel_anima-nostra.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.\n(sed post Septuagesimam dicitur)\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": "offertoire_exsultabunt-sancti-in.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Secreta",
+            "texte": "Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non habémus, eórum, qui tibi placuérunt, méritis adjuvémur.\n$Per Dominum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4\nDico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
+            "incipit": "Dico autem vobis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-05.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.\n!Ps 32:1\nJustes, tressaillez de joie dans le Seigneur ; c’est aux hommes droits que convient la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.",
+            "incipit": "Que les peuples",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-05.txt",
+            "section": "Oratio",
+            "texte": "Dieu, qui nous permettez de cé­lébrer la naissance au ciel de vos saints martyrs N. et N., accordez-nous de jouir de leur société dans l’éternité bienheureuse.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse\n!Sap 5:16-20\nMais les justes vivront éternellement, et leur ré­compense est auprès du Sei­gneur, et leur souvenir est auprès du Très-Haut. C’est pourquoi ils re­cevront de la main du Sei­gneur le magnifique royaume et le splendide diadème ; car il les protégera de sa droite et son bras saint les défendra. Son zèle se revêtira de ses armes et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice comme une cuirasse, et il prendra pour casque l’intégrité du jugement. Il se couvrira de l’équité comme d’un bouclier impénétrable.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 67:4\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 125:5-6\nCeux qui sèment dans les larmes, récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-05.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nIn illo témpore: Descéndens Jesus de monte, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judǽa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes. Et ipse, elevátis oculis in discípulos suos, dicébat: Beáti, páuperes: quia vestrum est regnum Dei. Beáti, qui nunc esurítis: quia saturabímini. Beáti, qui nunc fletis: quia ridébitis. Beáti éritis, cum vos óderint hómines, et cum separáverint vos et exprobréverint, et ejécerint nomen vestrum tamquam malum, propter Fílium hóminis. Gaudéte in illa die et exsultáte: ecce enim, merces vestra multa est in cœlo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "incipit": "Les saints exulteront",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-05.txt",
+            "section": "Secreta",
+            "texte": "Soyez favorable, Seigneur, aux supplications que nous vous présentons en commémorant vos saints : afin que, n’ayant pas confiance en notre justice, nous soyons aidés par les mérites de ceux qui vous ont plu.\n$Per Dominum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-05.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4.\nJe vous dis donc à vous qui êtes mes amis : ne craignez pas ceux qui vous persécutent.",
+            "incipit": "Je vous dis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-05.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en prions, Seigneur, par l’intercession de vos saints martyrs N. et N. : accordez-nous de recevoir d’une âme pure ce que nous touchons de notre bouche.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3a.txt",
+        "../horas/Latin/Commune/C3a.txt",
+        "Francais/Sancti/10-05.txt",
+        "Latin/Sancti/10-05.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

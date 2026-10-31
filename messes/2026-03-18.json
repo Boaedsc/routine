@@ -1,68 +1,210 @@
 {
   "date": "2026-03-18",
-  "celebration": {
-    "nom": "Mercredi de la 4e semaine de Carême",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad4-3"
-  ],
-  "cles_jour": [
-    "Quad4-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad4",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ezech 36:23-26\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.",
-        "Francais": "!Ezech 36:23-26\nv. Lorsque j’aurai été sanctifié en vous, je vous rassemblerai de tous les pays ; et je répandrai sur vous une eau pure, et vous serez purifiés de toutes vos souillures ; et je vous donnerai un esprit nouveau.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps ; sa louange sera toujours dans ma bouche.\n&Gloria\nv. Lorsque j’aurai été sanctifié en vous, je vous rassemblerai de tous les pays ; et je répandrai sur vous une eau pure, et vous serez purifiés de toutes vos souillures ; et je vous donnerai un esprit nouveau."
+      "occurrence": {
+        "gagnant": "Tempora/Quad4-3",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad4-3.txt",
+        "temporal": "Latin/Tempora/Quad4-3.txt",
+        "sanctoral": "Latin/Sancti/03-18.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 1:16-19\nVoici ce que dit le Seigneur Dieu : Lavez-vous, purifiez-vous, ôtez de devant mes yeux ta malice de vos pensées, cessez de faire le mal, apprenez à faire le bien, recherchez la justice, assistez l’opprimé, faites droit à l’orphelin, défendez la veuve. Et venez et attaquez-moi, dit le Seigneur ; et si vos péchés sont comme l’écarlate, Ils deviendront blancs comme la neige et s’ils sont rouges comme le vermillon, ils seront blancs comme la laine. Si vous voulez et si vous m’écoutez, vous mangerez les biens de la terre, dit le Seigneur tout-puissant."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Introitus",
+            "texte": "!Ezech 36:23-26\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.",
+            "incipit": "Cum sanctificátus fúero",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui et justis prǽmia meritórum et peccatóribus per jejúnium véniam præbes: miserére supplícibus tuis; ut reátus nostri conféssio indulgéntiam valeat percípere delictórum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 1:16-19\nHæc dicit Dóminus Deus: Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis: quiéscite ágere pervérse, díscite benefácere: quærite judícium, subveníte opprésso, judicáte pupíllo, deféndite víduam. Et veníte et argúite me, dicit Dóminus: si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur: et si fúerint rubra quasi vermículus, velut lana alba erunt. Si voluéritis et audiéritis me, bona terræ comedétis: dicit Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 32:12, 6\nBeáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi.\nV. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris\niniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Beáta gens, cujus",
+            "mp3": "graduel_beata-gens.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris\niniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 9:1-38\nIn illo témpore: Prætériens Jesus vidit hóminem cæcum a nativitáte: et interrogavérunt eum discípuli ejus: Rabbi, quis peccávit, hic aut paréntes ejus, ut cæcus nascerétur? Respóndit Jesus: Neque hic peccávit neque paréntes ejus: sed ut manifesténtur ópera Dei in illo. Me opórtet operári ópera ejus, qui misit me, donec dies est: venit nox, quando nemo potest operári. Quámdiu sum in mundo, lux sum mundi. Hæc cum dixísset, éxspuit in terram, et fecit lutum ex sputo, et linívit lutum super óculos ejus, et dixit ei: Vade, lava in natatória Síloë ((quod interpretátur Missus)). Abiit ergo, et lavit, et venit videns. Itaque vicíni, et qui víderant eum prius, quia mendícus erat, dicébant: Nonne hic est, qui sedébat et mendicábat? Alii dicébant: Quia hic est. Alii autem: Nequáquam, sed símilis est ei. Ille vero dicébat: Quia ego sum. Dicébant ergo ei: Quómodo apérti sunt tibi óculi? Respóndit: Ille homo, qui dícitur Jesus, lutum fecit, et unxit oculos meos, et dixit mihi: Vade ad natatória Síloë, et lava. Et ábii, et lavi, et vídeo. Et dixérunt ei: Ubi est ille? Ait: Néscio. Addúcunt eum ad pharisǽos, qui cæcus fúerat. Erat autem sábbatum, quando lutum fecit Jesus, et apéruit óculos ejus. Iterum ergo interrogábant eum pharisǽi, quómodo vidísset. Ille autem dixit eis: Lutum mihi posuit super oculos, et lavi, et vídeo. Dicébant ergo ex pharisǽis quidam: Non est hic homo a Deo, qui sábbatum non custódit. Alii autem dicébant: Quómodo potest homo peccátor hæc signa fácere ? Et schisma erat inter eos. Dicunt ergo cæco íterum: Tu quid dicis de illo, qui apéruit óculos tuos? Ille autem dixit: Quia Prophéta est. Non credidérunt ergo Judǽi de illo, quia cæcus fuísset, et vidísset, donec vocavérunt paréntes ejus, qui víderat: et interrogavérunt eos, dicéntes: Hic est fílius vester, quem vos dícitis, quia cæcus natus est? Quómodo ergo nunc videt? Respondérunt eis paréntes ejus, et dixérunt: Scimus, quia hic est fílius noster, et quia cæcus natus est: quómodo autem nunc vídeat, nescímus: aut quis ejus apéruit óculos, nos nescímus: ipsum interrogáte, ætátem habet, ipse de se loquátur. Hæc dixérunt paréntes ejus, quóniam timébant Judǽos: jam enim conspiráverant Judǽi, ut, si quis eum confiterétur esse Christum, extra synagógam fíeret. Proptérea paréntes ejus dixérunt: Quia ætátem habet, ipsum interrogáte. Vocavérunt ergo rursum hóminem, qui fúerat cæcus, et dixérunt ei: Da glóriam Deo. Nos scimus, quia hic homo peccátor est. Dixit ergo eis ille: Si peccátor est, néscio: unum scio, quia, cæcus cum essem, modo vídeo. Dixérunt ergo illi: Quid fecit tibi? quómodo apéruit tibi óculos? Respóndit eis: Dixi vobis jam, et audístis: quid íterum vultis audíre? Numquid et vos vultis discípuli ejus fíeri? Maledixérunt ergo ei, et dixérunt: Tu discípulus illíus sis: nos autem Móysi discípuli sumus. Nos scimus, quia Móysi locútus est Deus: hunc autem nescímus, unde sit. Respóndit ille homo et dixit eis: In hoc enim mirábile est, quia vos néscitis, unde sit, et apéruit meos óculos: scimus autem, quia peccatóres Deus non audit: sed, si quis Dei cultor est et voluntátem ejus facit, hunc exáudit. A sǽculo non est audítum, quia quis apéruit óculos cæci nati. Nisi esset hic a Deo, non póterat fácere quidquam. Respondérunt et dixérunt ei: In peccátis natus es totus, et tu doces nos? Et ejecérunt eum foras. Audívit Jesus, quia ejecérunt eum foras, et cum invenísset eum, dixit ei: Tu credis in Fílium Dei? Respóndit ille et dixit: Quis est, Dómine, ut credam in eum? Et dixit ei Jesus: Et vidísti eum, et qui lóquitur tecum, ipse est. At ille ait: Credo, Dómine. (Hic genuflectitur) Et prócidens adorávit eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:8-9, 20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam, et misericórdiam suam a me.",
+            "incipit": "Benedícite, gentes, Dóminum,",
+            "mp3": "offertoire_benedicite-gentes.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Secreta",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut his sacrifíciis peccáta nostra mundéntur; quia tunc veram nobis tríbuis et mentis et córporis sanitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Communio",
+            "texte": "!Joann 9:11\nLutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et lavi, et vidi, et crédidi Deo.",
+            "incipit": "Lutum fecit ex",
+            "mp3": "communion_lutum-fecit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad4-3.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta, quæ súmpsimus, Dómine, Deus noster: et spirituálibus nos répleant aliméntis, et corporálibus tueántur auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Introitus",
+            "texte": "!Ezech 36:23-26\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum.",
+            "incipit": "Cum sanctificátus fúero",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui et justis prǽmia meritórum et peccatóribus per jejúnium véniam præbes: miserére supplícibus tuis; ut reátus nostri conféssio indulgéntiam valeat percípere delictórum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 1:16-19\nHæc dicit Dóminus Deus: Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis: quiéscite ágere pervérse, díscite benefácere: quærite judícium, subveníte opprésso, judicáte pupíllo, deféndite víduam. Et veníte et argúite me, dicit Dóminus: si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur: et si fúerint rubra quasi vermículus, velut lana alba erunt. Si voluéritis et audiéritis me, bona terræ comedétis: dicit Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 32:12, 6\nBeáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi.\nV. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris\niniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Beáta gens, cujus",
+            "mp3": "graduel_beata-gens.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris\niniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 9:1-38\nIn illo témpore: Prætériens Jesus vidit hóminem cæcum a nativitáte: et interrogavérunt eum discípuli ejus: Rabbi, quis peccávit, hic aut paréntes ejus, ut cæcus nascerétur? Respóndit Jesus: Neque hic peccávit neque paréntes ejus: sed ut manifesténtur ópera Dei in illo. Me opórtet operári ópera ejus, qui misit me, donec dies est: venit nox, quando nemo potest operári. Quámdiu sum in mundo, lux sum mundi. Hæc cum dixísset, éxspuit in terram, et fecit lutum ex sputo, et linívit lutum super óculos ejus, et dixit ei: Vade, lava in natatória Síloë ((quod interpretátur Missus)). Abiit ergo, et lavit, et venit videns. Itaque vicíni, et qui víderant eum prius, quia mendícus erat, dicébant: Nonne hic est, qui sedébat et mendicábat? Alii dicébant: Quia hic est. Alii autem: Nequáquam, sed símilis est ei. Ille vero dicébat: Quia ego sum. Dicébant ergo ei: Quómodo apérti sunt tibi óculi? Respóndit: Ille homo, qui dícitur Jesus, lutum fecit, et unxit oculos meos, et dixit mihi: Vade ad natatória Síloë, et lava. Et ábii, et lavi, et vídeo. Et dixérunt ei: Ubi est ille? Ait: Néscio. Addúcunt eum ad pharisǽos, qui cæcus fúerat. Erat autem sábbatum, quando lutum fecit Jesus, et apéruit óculos ejus. Iterum ergo interrogábant eum pharisǽi, quómodo vidísset. Ille autem dixit eis: Lutum mihi posuit super oculos, et lavi, et vídeo. Dicébant ergo ex pharisǽis quidam: Non est hic homo a Deo, qui sábbatum non custódit. Alii autem dicébant: Quómodo potest homo peccátor hæc signa fácere ? Et schisma erat inter eos. Dicunt ergo cæco íterum: Tu quid dicis de illo, qui apéruit óculos tuos? Ille autem dixit: Quia Prophéta est. Non credidérunt ergo Judǽi de illo, quia cæcus fuísset, et vidísset, donec vocavérunt paréntes ejus, qui víderat: et interrogavérunt eos, dicéntes: Hic est fílius vester, quem vos dícitis, quia cæcus natus est? Quómodo ergo nunc videt? Respondérunt eis paréntes ejus, et dixérunt: Scimus, quia hic est fílius noster, et quia cæcus natus est: quómodo autem nunc vídeat, nescímus: aut quis ejus apéruit óculos, nos nescímus: ipsum interrogáte, ætátem habet, ipse de se loquátur. Hæc dixérunt paréntes ejus, quóniam timébant Judǽos: jam enim conspiráverant Judǽi, ut, si quis eum confiterétur esse Christum, extra synagógam fíeret. Proptérea paréntes ejus dixérunt: Quia ætátem habet, ipsum interrogáte. Vocavérunt ergo rursum hóminem, qui fúerat cæcus, et dixérunt ei: Da glóriam Deo. Nos scimus, quia hic homo peccátor est. Dixit ergo eis ille: Si peccátor est, néscio: unum scio, quia, cæcus cum essem, modo vídeo. Dixérunt ergo illi: Quid fecit tibi? quómodo apéruit tibi óculos? Respóndit eis: Dixi vobis jam, et audístis: quid íterum vultis audíre? Numquid et vos vultis discípuli ejus fíeri? Maledixérunt ergo ei, et dixérunt: Tu discípulus illíus sis: nos autem Móysi discípuli sumus. Nos scimus, quia Móysi locútus est Deus: hunc autem nescímus, unde sit. Respóndit ille homo et dixit eis: In hoc enim mirábile est, quia vos néscitis, unde sit, et apéruit meos óculos: scimus autem, quia peccatóres Deus non audit: sed, si quis Dei cultor est et voluntátem ejus facit, hunc exáudit. A sǽculo non est audítum, quia quis apéruit óculos cæci nati. Nisi esset hic a Deo, non póterat fácere quidquam. Respondérunt et dixérunt ei: In peccátis natus es totus, et tu doces nos? Et ejecérunt eum foras. Audívit Jesus, quia ejecérunt eum foras, et cum invenísset eum, dixit ei: Tu credis in Fílium Dei? Respóndit ille et dixit: Quis est, Dómine, ut credam in eum? Et dixit ei Jesus: Et vidísti eum, et qui lóquitur tecum, ipse est. At ille ait: Credo, Dómine. (Hic genuflectitur) Et prócidens adorávit eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 65:8-9, 20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam, et misericórdiam suam a me.",
+            "incipit": "Benedícite, gentes, Dóminum,",
+            "mp3": "offertoire_benedicite-gentes.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Secreta",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut his sacrifíciis peccáta nostra mundéntur; quia tunc veram nobis tríbuis et mentis et córporis sanitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Communio",
+            "texte": "!Joann 9:11\nLutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et lavi, et vidi, et crédidi Deo.",
+            "incipit": "Lutum fecit ex",
+            "mp3": "communion_lutum-fecit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad4-3.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta, quæ súmpsimus, Dómine, Deus noster: et spirituálibus nos répleant aliméntis, et corporálibus tueántur auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 32:12, 6\nBeáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi.\nV. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris\niniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
-        "Francais": "!Ps 32:12, 6\nHeureuse la nation qui a le Seigneur pour son Dieu ; heureux le peuple qu’il a choisi pour son héritage.\nV. Les cieux ont été affermis par la parole du Seigneur, et toute leur armée par le souffle de sa bouche.\n_\n!Tractus\n!Ps 102:10\nSeigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités.\n!Ps 78:8-9. \nSeigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux)\nV. Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom."
-      },
-      "audios": "Graduale Project/graduel_beata-gens.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 9:1-38\nEn ce temps-là, Jésus, en passant, vit un homme aveugle de naissance. Et ses disciples lui demandèrent : Maître, qui a péché, cet homme ou ses parents, pour qu’il soit né aveugle ? Jésus répondit : Ni lui n’a péché, ni ses parents ; mais c’est afin que les œuvres de Dieu soient manifestées en lui. Il faut que j’accomplisse les œuvres de celui qui m’a envoyé, pendant qu’il est jour ; la nuit vient, pendant laquelle personne ne peut travailler. Tant que je suis dans le monde, je suis la lumière du monde. Après avoir dit cela, il cracha à terre, et fit de la boue avec sa salive ; puis il oignit de cette boue les yeux de l’aveugle. Et il lui dit : Va, lave-toi dans la piscine de Siloé (nom qui signifie : Envoyé). Il y alla donc, se lava, et revint voyant. De sorte que ses voisins, et ceux qui l’avaient vu auparavant mendier, disaient : N’est-ce pas là celui qui était assis, et qui mendiait ? Les uns disaient : C’est lui. Et d’autres : Nullement, mais c’est quelqu’un qui lui ressemble. Mais lui, il disait : C’est moi. Ils lui dirent donc : Comment tes yeux ont-ils été ouverts ? Il répondit : Cet homme qu’on appelle Jésus a fait de la boue, et en a oint mes yeux, puis il m’a dit : Va à la piscine de Siloé, et lave-toi. J’y suis allé, et Je me suis lavé, et je vois. Ils lui dirent : Où est-il ? Il répondit : Je ne sais pas. Ils amenèrent aux pharisiens celui qui avait été aveugle. Or c’était un jour de sabbat que Jésus avait fait de la boue et lui avait ouvert les yeux. Les pharisiens lui demandèrent donc aussi comment il avait recouvré la vue. Et il leur dit : Il m’a mis de la boue sur les yeux, et je me suis lavé, et je vois. Là-dessus, quelques-uns des pharisiens disaient : Cet homme ne vient pas de Dieu, puisqu’il n’observe pas le sabbat. Mais d’autres disaient : Comment un homme pécheur pourrait-il faire de tels miracles ? Et il y avait division entre eux. Ils dirent donc de nouveau à l’aveugle : Toi, que dis-tu de celui qui t’a ouvert les yeux ? Il répondit : C’est un prophète. Mais les Juifs ne crurent point qu’il eût été aveugle et qu’il eût recouvré la vue, jusqu’à ce qu’ils eussent fait venir ses parents. Et ils les interrogèrent, en disant : Est-ce là votre fils que vous dites être né aveugle ? Comment donc voit-il maintenant ? Les parents répondirent, en disant : Nous savons que c’est notre fils, et qu’il est né aveugle ; mais comment voit-il maintenant ? nous ne le savons pas ; ou qui lui a ouvert les yeux ? nous l’ignorons. Interrogez-le, il a l’âge ; qu’il parle pour lui-même. Ses parents dirent cela, parce qu’ils craignaient les Juifs ; car les Juifs étaient déjà convenus ensemble que, si quelqu’un reconnaissait Jésus pour le Christ, il serait chassé de la synagogue. C’est pour cela que ses parents dirent : Il a l’âge, interrogez-le lui-même. Ils appelèrent donc une seconde fois l’homme qui avait été aveugle, et ils lui dirent : Rends gloire à Dieu ; nous savons que cet homme est un pécheur. Il leur dit : Si c’est un pécheur, je ne sais ; je sais une chose, c’est que j’étais aveugle, et que maintenant je vois. Ils lui dirent donc : Que t’a-t-il fait ? Comment t’a-t-il ouvert les yeux ? Il leur répondit : Je vous l’a déjà dit, et vous l’avez entendu ; pourquoi voulez-vous l’entendre de nouveau ? Est-ce que vous aussi, vous voulez devenir ses disciples ? Alors ils l’accablèrent d’injures et dirent : Toi sois son disciple ; nous, nous sommes disciples de Moïse. Nous savons que Dieu a parlé à Moïse ; mais celui-ci, nous ne savons d’où il est. Cet homme leur répondit, et dit : C’est ceci qui est étonnant, que vous ne sachiez pas d’où il est, et qu’il m’ait ouvert les yeux. Or nous savons que Dieu n’exauce pas les pécheurs ; mais si quelqu’un honore Dieu et fait sa volonté, c’est celui-là qu’il exauce. Jamais on n’a entendu dire que quelqu’un ait ouvert les yeux d’un aveugle-né. Si cet homme ne venait pas de Dieu, il ne pourrait rien faire. Ils lui répondirent : Tu es né tout entier dans le péché, et tu veux nous enseigner ? Et ils le jetèrent dehors. Jésus apprit qu’ils l’avaient jeté dehors ; et l’ayant rencontré, il lui dit : Crois-tu au Fils de Dieu ? Il lui répondit, et dit : Qui est-Il, Seigneur, afin que je croie en lui ? Et Jésus lui dit : Tu l’as vu, et celui qui te parle, c’est lui. Il répondit ; Je crois, Seigneur. (Ici on fléchit le genou) Et se prosternant, il l’adora."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 65:8-9, 20\nBenedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam, et misericórdiam suam a me.",
-        "Francais": "!Ps 65:8-9, 20\nNations, bénissez, notre Dieu, et faites entendre les accents de sa louange. C’est lui qui a conservé la vie à mon âme, et qui n’a point permis que mes pieds soient ébranlés. Béni soit Dieu, qui n’a pas rejeté ma prière, ni éloigné de moi sa miséricorde."
-      },
-      "audios": "Graduale Project/offertoire_benedicite-gentes.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 9:11\nLutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et lavi, et vidi, et crédidi Deo.",
-        "Francais": "!Joann 9:11\nLe Seigneur a fait de la boue avec sa salive et en a oint mes yeux. Je m’en suis allé, je me suis lavé et j’ai vu et j’ai cru en Dieu."
-      },
-      "audios": "Graduale Project/communion_lutum-fecit.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad4-3.txt",
+        "Latin/Tempora/Quad4-3.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,17 +1,282 @@
 {
   "date": "2027-05-04",
-  "celebration": {
-    "nom": "Sainte Monique",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-04",
-    "Tempora/Pasc5-2"
-  ],
-  "cles_jour": [
-    "05-04",
-    "Pasc5-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc5",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/05-04",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-04.txt",
+        "temporal": "Latin/Tempora/Pasc5-2.txt",
+        "sanctoral": "Latin/Sancti/05-04.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:75; 118:120\nv. Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui. (Allelúja, allelúja.)\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui. (Allelúja, allelúja.)",
+            "incipit": "Cognóvi, Dómine, quia",
+            "mp3": "introitus_cognovi-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-04.txt",
+            "section": "Oratio",
+            "texte": "Deus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti: da nobis utriúsque intervéntu; peccáta nostra deploráre, et grátiæ tuæ indulgéntiam inveníre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-04.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Prov 31:10-31\nMulíerem fortem quis invéniet? Procul et de últimis fínibus prétium ejus. Confídit in ea cor viri sui, et spóliis non indigébit. Reddet ei bonum, et non malum, ómnibus diébus vitæ suæ. Quæsívit lanam et linum, et operáta est consílio mánuum suárum. Facta est quasi navis institóris, de longe portans panem suum. Et de nocte surréxit, dedítque prædam domésticis suis, et cibária ancíllis suis. Considerávit agrum, et emit eum: de fructu mánuum suárum plantávit víneam. Accínxit fortitúdine lumbos suos, et roborávit bráchium suum. Gustávit, et vidit, quia bona est negotiátio ejus: non exstinguétur in nocte lucérna ejus. Manum suam misit ad fórtia, et dígiti ejus apprehendérunt fusum. Manum suam apéruit ínopi, et palmas suas exténdit ad páuperem. Non timébit dómui suæ a frigóribus nivis: omnes enim doméstici ejus vestíti sunt duplícibus. Stragulátam vestem fecit sibi: byssus et púrpura induméntum ejus. Nóbilis in portis vir ejus, quando séderit cum senatóribus terræ. Síndonem fecit et véndidit, et cíngulum trádidit Chananǽo. Fortitúdo et decor induméntum ejus, et ridébit in die novíssimo. Os suum apéruit sapiéntiæ, et lex cleméntiæ in lingua ejus. Considerávit sémitas domus suæ, et panem otiósa non comédit. Surrexérunt fílii ejus, et beatíssimam prædicavérunt: vir ejus, et laudávit eam. Multæ fíliæ congregavérunt divítias: tu supergréssa es univérsas. Fallax grátia, et vana est pulchritúdo: múlier timens Dóminum, ipsa laudábitur. Date ei de fructu mánuum suárum: et laudent eam in portis ópera ejus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3; 44:5\nDiffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua. Allelúja, allelúja.\n!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "graduel_diffusa-est-gratia.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3; 44:5\nDiffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et de ducet te mirabíliter déxtera tua.\n_\n!Tractus\nVeni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit in ætérnum.\n!Ps 44:8; 44:5\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, oleo lætítiæ præ consórtibus tuis.\nV. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-04.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-04.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 7:11-16\nIn illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant cum eo discípuli ejus et turba copiósa. Cum autem appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius únicus matris suæ: et hæc vídua erat, et turba civitátis multa cum illa. Quam cum vidísset Dóminus, misericórdia motus super eam, dixit illi: Noli flere. Et accéssit et tétigit lóculum. - Hi autem, qui portábant, stetérunt - Et ait: Adoléscens, tibi dico, surge. Et resédit, qui erat mórtuus, et cœpit loqui. Et dedit illum matri suæ. Accépit autem omnes timor: et magnificábant Deum, dicéntes: Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit plebem suam.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad4-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi. (Allelúja.)",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "offertoire_diffusa-est-gratia.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Secreta",
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-04.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Communio",
+            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja.)",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Postcommunio",
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C7a.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:75; 118:120\nv. Je reconnais, Seigneur, que vos décrets sont justes, que c’est avec raison que vous m’avez éprouvée. Percez ma chair de votre crainte ; je redoute vos jugements. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\n&Gloria\nv. Je reconnais, Seigneur, que vos décrets sont justes, que c’est avec raison que vous m’avez éprouvée. Percez ma chair de votre crainte ; je redoute vos jugements. (Alléluia, alléluia.)",
+            "incipit": "Je reconnais, Seigneur,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-04.txt",
+            "section": "Oratio",
+            "texte": "Deus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti: da nobis utriúsque intervéntu; peccáta nostra deploráre, et grátiæ tuæ indulgéntiam inveníre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-04.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Prov 31:10-31\nQui peut trouver une femme forte ? Son prix l’emporte de loin sur celui des perles. Le cœur de son mari a confiance en elle, et les profits ne lui feront pas défaut. Elle lui fait du bien, et non du mal, tous les jours de sa vie. Elle recherche de la laine et du lin, et travaille de sa main joyeuse. Elle est comme le vaisseau du marchand, elle apporte son pain de loin. Elle se lève lorsqu’il est encore nuit, et elle donne la nourriture à sa maison, et la tâche à ses servantes. Elle pense à un champ, et elle l’acquiert; du fruit de ses mains, elle plante une vigne. Elle ceint de force ses reins, et elle affermit ses bras. Elle sent que son gain est bon; sa lampe ne s’éteint pas pendant la nuit. Elle met la main à la quenouille, et ses doigts prennent le fuseau. Elle tend la main au malheureux, elle ouvre la main à l’indigent. Elle ne craint pas la neige pour sa maison, car toute sa maison est vêtue de cramoisi. Elle se fait des couvertures, la byssus et la pourpre sont ses vêtements. Son époux est bien connu aux portes de la ville, lorsqu’il siège avec les anciens du pays. Elle fait des chemises et les vend, et elle livre des ceintures au marchand. La force et la grâce sont sa parure, et elle se rit de l’avenir. Elle ouvre la bouche avec sagesse, et les bonnes paroles sont sur sa langue. Elle surveille les sentiers de sa maison, et elle ne mange pas le pain d’oisiveté. Ses fils se lèvent et la proclament heureuse; son époux se lève et lui donne des éloges: « Beaucoup de filles se sont montrées vertueuses; mais toi, tu les surpasses toutes. » Trompeuse est la grâce, et vaine est la beauté; la femme qui craint le Seigneur est celle qui sera louée. Donnez-lui du fruit de ses mains, et que ses œuvres disent sa louange aux portes de la ville.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C7a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3; 44:5\nLa grâce est répandue sur vos lèvres ; aussi Dieu vous a-t-il bénie à jamais.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:5\nDans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.",
+            "incipit": "La grâce est",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C7a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3; 44:5\nLa grâce est répandue sur vos lèvres ; aussi Dieu vous a-t-il bénie à jamais.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat.\n_\n!Tractus\nV. Venez, épouse du Christ, recevez la couronne que le Seigneur vous a préparée à jamais.\n!Ps 44:8; 44:5\nVous avez aimé la justice et haï l’iniquité, c’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie de préférence à vos compagnes.\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.",
+            "incipit": "La grâce est",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-04.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-04.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:11-16\nEn ce temps-là, Jésus se rendait dans une ville appelée Naïm ; et ses disciples allaient avec lui, ainsi qu’une foule nombreuse. Et comme il approchait de la porte de la ville, voici qu’on emportait un mort, fils unique de sa mère, et celle-ci était veuve ; et il y avait avec elle beaucoup de personnes de la ville. Lorsque le Seigneur l’eut vue, touché de compassion pour elle, il lui dit : Ne pleure point. Puis il s’approcha, et toucha le cercueil. Ceux qui le portaient s’arrêtèrent. Et il dit : Jeune homme, je te l’ordonne, lève-toi. Et le mort se mit sur son séant, et commença à parler. Et Jésus le rendit à sa mère. Tous furent saisis de crainte, et ils glorifiaient Dieu, en disant : Un grand prophète a surgi parmi nous, et Dieu a visité son peuple.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Quad4-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi. (Allelúja.)",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "offertoire_diffusa-est-gratia.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Secreta",
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-04.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C7a.txt",
+            "section": "Communio",
+            "texte": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité, c’est pourquoi Dieu, votre Dieu, vous a ointe de la joie au-delà de vos compagnes. (Alléluia.)",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Postcommunio",
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C7a.txt",
+        "../horas/Latin/Commune/C7a.txt",
+        "Francais/Sancti/05-04.txt",
+        "Latin/Sancti/05-04.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

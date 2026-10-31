@@ -1,68 +1,210 @@
 {
   "date": "2026-08-23",
-  "celebration": {
-    "nom": "13e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent13-0"
-  ],
-  "cles_jour": [
-    "Pent13-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent13",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 73:20; 73:19; 73:23\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.\n!Ps 73:1\nUt quid, Deus, reppulísti in finem: irátus est furor tuus super oves páscuæ tuæ?\n&Gloria\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.",
-        "Francais": "!Ps 73:20,; 73:19; 73:23\nv. Regardez, Seigneur, vers votre alliance, et n'abandonnez pas pour toujours les âmes de vos pauvres ; levez-vous, Seigneur, et jugez votre cause, et n'oubliez pas les voix de ceux qui vous cherchent.\n!Ps 73:1\nPourquoi, ô Dieu, nous avez-vous rejetés à jamais ? Pourquoi votre colère s'est-elle enflammée contre les brebis de votre pâturage ?\n&Gloria\nv. Regardez, Seigneur, vers votre alliance, n'abandonnez pas pour toujours les âmes de vos pauvres ; levez-vous, Seigneur, et jugez votre cause, et n'oubliez pas les voix de ceux qui vous cherchent."
+      "occurrence": {
+        "gagnant": "Tempora/Pent13-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent13-0.txt",
+        "temporal": "Latin/Tempora/Pent13-0.txt",
+        "sanctoral": "Latin/Sancti/08-23.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_respice-domine.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 3:16-22\nFrères, les promesses ont été faites à Abraham et à sa descendance. On ne dit pas : « Et à ses descendants» , comme s'il s'agissait de plusieurs ; mais il dit : « À ta descendance» , comme ne parlant que d'un seul, savoir le Christ. Voici ce que je veux dire : Dieu ayant conclu une alliance en bonne forme, la loi qui est venue quatre cent trente ans après ne la rend pas nulle, de manière à rendre vaine la promesse. Car si l'héritage s'obtenait par la Loi, il ne viendrait plus d'une promesse ; or, c'est par une promesse que Dieu a fait à Abraham ce don de sa grâce. Pourquoi donc la Loi ? Elle a été ajoutée à cause des transgressions, jusqu'à ce que vint la descendance à qui la promesse avait été faite ; elle a été promulguée par les anges, par l'entremise d'un médiateur. Or le médiateur n'est pas médiateur d'un seul ; et Dieu est un. La Loi va-t-elle donc contre les promesses de Dieu ? Loin de là ! S'il eût été donné une loi capable de procurer la vie, la justice viendrait réellement de la loi. Mais l'Écriture a tout enfermé sous le péché, afin que, par la foi en Jésus-Christ, ce qui avait été promis fût donné à ceux qui croient."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 73:20; 73:19; 73:23\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.\n!Ps 73:1\nUt quid, Deus, reppulísti in finem: irátus est furor tuus super oves páscuæ tuæ?\n&Gloria\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.",
+            "incipit": "Réspice, Dómine, in",
+            "mp3": "introitus_respice-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre quod prǽcipis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 3:16-22\nFratres: Abrahæ dictæ sunt promissiónes, et sémini ejus. Non dicit: Et semínibus, quasi in multis; sed quasi in uno: Et sémini tuo, qui est Christus. Hoc autem dico: testaméntum confirmátum a Deo, quæ post quadringéntos et trigínta annos facta est lex, non írritum facit ad evacuándam promissiónem. Nam si ex lege heréditas, jam non ex promissióne. Abrahæ autem per repromissiónem donávit Deus. Quid igitur lex? Propter transgressiónes pósita est, donec veníret semen, cui promíserat, ordináta per Angelos in manu mediatóris. Mediátor autem uníus non est: Deus autem unus est. Lex ergo advérsus promíssa Dei? Absit. Si enim data esset lex, quæ posset vivificáre, vere ex lege esset justítia. Sed conclúsit Scriptúra ómnia sub peccáto, ut promíssio ex fide Jesu Christi darétur credéntibus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 73:20; 73:19; 73:22\nRéspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne obliviscáris in finem.\nV. Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum tuórum. Allelúja, allelúja\n!Ps 89:1\nDómine, refúgium factus es nobis a generatióne et progénie. Allelúja.",
+            "incipit": "Réspice, Dómine, in",
+            "mp3": "graduel_respice-domine.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 17:11-19\nIn illo témpore: Dum iret Jesus in Jerúsalem, transíbat per médiam Samaríam et Galilǽam. Et cum ingrederétur quoddam castéllum, occurrérunt ei decem viri leprósi, qui stetérunt a longe; et levavérunt vocem dicéntes: Jesu præcéptor, miserére nostri. Quos ut vidit, dixit: Ite, osténdite vos sacerdótibus. Et factum est, dum irent, mundáti sunt. Unus autem ex illis, ut vidit quia mundátus est, regréssus est, cum magna voce magníficans Deum, et cecidit in fáciem ante pedes ejus, grátias agens: et hic erat Samaritánus. Respóndens autem Jesus, dixit: Nonne decem mundáti sunt? et novem ubi sunt? Non est invéntus, qui redíret et daret glóriam Deo, nisi hic alienígena. Et ait illi: Surge, vade; quia fides tua te salvum fecit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 30:15-16\nIn te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.",
+            "incipit": "In te sperávi,",
+            "mp3": "offertoire_in-te-speravi.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Secreta",
+            "texte": "Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta concedas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Communio",
+            "texte": "!Sap 16:20\nPanem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum et omnem sapórem suavitátis.",
+            "incipit": "Panem de cœlo",
+            "mp3": "communion_panem-de-caelo.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent13-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 73:20; 73:19; 73:23\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.\n!Ps 73:1\nUt quid, Deus, reppulísti in finem: irátus est furor tuus super oves páscuæ tuæ?\n&Gloria\nv. Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne obliviscáris voces quæréntium te.",
+            "incipit": "Réspice, Dómine, in",
+            "mp3": "introitus_respice-domine.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre quod prǽcipis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 3:16-22\nFratres: Abrahæ dictæ sunt promissiónes, et sémini ejus. Non dicit: Et semínibus, quasi in multis; sed quasi in uno: Et sémini tuo, qui est Christus. Hoc autem dico: testaméntum confirmátum a Deo, quæ post quadringéntos et trigínta annos facta est lex, non írritum facit ad evacuándam promissiónem. Nam si ex lege heréditas, jam non ex promissióne. Abrahæ autem per repromissiónem donávit Deus. Quid igitur lex? Propter transgressiónes pósita est, donec veníret semen, cui promíserat, ordináta per Angelos in manu mediatóris. Mediátor autem uníus non est: Deus autem unus est. Lex ergo advérsus promíssa Dei? Absit. Si enim data esset lex, quæ posset vivificáre, vere ex lege esset justítia. Sed conclúsit Scriptúra ómnia sub peccáto, ut promíssio ex fide Jesu Christi darétur credéntibus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 73:20; 73:19; 73:22\nRéspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne obliviscáris in finem.\nV. Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum tuórum. Allelúja, allelúja\n!Ps 89:1\nDómine, refúgium factus es nobis a generatióne et progénie. Allelúja.",
+            "incipit": "Réspice, Dómine, in",
+            "mp3": "graduel_respice-domine.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 17:11-19\nIn illo témpore: Dum iret Jesus in Jerúsalem, transíbat per médiam Samaríam et Galilǽam. Et cum ingrederétur quoddam castéllum, occurrérunt ei decem viri leprósi, qui stetérunt a longe; et levavérunt vocem dicéntes: Jesu præcéptor, miserére nostri. Quos ut vidit, dixit: Ite, osténdite vos sacerdótibus. Et factum est, dum irent, mundáti sunt. Unus autem ex illis, ut vidit quia mundátus est, regréssus est, cum magna voce magníficans Deum, et cecidit in fáciem ante pedes ejus, grátias agens: et hic erat Samaritánus. Respóndens autem Jesus, dixit: Nonne decem mundáti sunt? et novem ubi sunt? Non est invéntus, qui redíret et daret glóriam Deo, nisi hic alienígena. Et ait illi: Surge, vade; quia fides tua te salvum fecit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 30:15-16\nIn te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.",
+            "incipit": "In te sperávi,",
+            "mp3": "offertoire_in-te-speravi.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Secreta",
+            "texte": "Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta concedas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Communio",
+            "texte": "!Sap 16:20\nPanem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum et omnem sapórem suavitátis.",
+            "incipit": "Panem de cœlo",
+            "mp3": "communion_panem-de-caelo.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent13-0.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 73:20; 73:19; 73:22\nRéspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne obliviscáris in finem.\nV. Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum tuórum. Allelúja, allelúja\n!Ps 89:1\nDómine, refúgium factus es nobis a generatióne et progénie. Allelúja.",
-        "Francais": "!Ps 73:20; 73:19; 73:22\nRegardez, Seigneur, vers votre alliance, et n'abandonnez pas pour toujours les âmes de vos pauvres.\nV. Levez-vous, Seigneur, et jugez votre cause ; souvenez-vous de l'opprobre de vos serviteurs. Alléluia, alléluia.\n!Ps 89:1\nSeigneur, vous êtes devenu pour nous un refuge, de génération en génération. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_respice-domine.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 17:11-19\nEn ce temps-là, comme il se rendait à Jérusalem, Jésus passa par les confins de la Samarie et de la Galilée. Et alors qu'il entrait dans un village, vinrent à sa rencontre dix lépreux, qui se tinrent à distance ; et, élevant la voix, ils dirent : « Maître Jésus, ayez pitié de nous ! » Les ayant vus, il leur dit : « Allez vous montrer aux prêtres. » Et, comme ils y allaient, ils furent guéris. L'un d'entre eux, voyant qu'il était guéri, revint en glorifiant Dieu à haute voix, tomba à ses pieds la face contre terre et lui rendit grâces. Et c'était un Samaritain. Prenant la parole, Jésus dit : « Est-ce que les dix n'ont pas été guéris ? Et les neuf, où sont-ils ? Ne s'est-il trouvé parmi eux que cet étranger pour revenir rendre gloire à Dieu ? » Et il lui dit : » Lève-toi, va, car ta foi t'a sauvé. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 30:15-16\nIn te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.",
-        "Francais": "!Ps 30:15-16\nEn vous j'espère, Seigneur ; j'ai dit : Vous êtes mon Dieu, en vos mains sont tous mes jours."
-      },
-      "audios": "Graduale Project/offertoire_in-te-speravi.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Sap 16:20\nPanem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum et omnem sapórem suavitátis.",
-        "Francais": "!Sap 16:20\nVous nous avez donné, Seigneur, un pain venu du ciel, ayant toute douceur et tout goût suave."
-      },
-      "audios": "Graduale Project/communion_panem-de-caelo.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent13-0.txt",
+        "Latin/Tempora/Pent13-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

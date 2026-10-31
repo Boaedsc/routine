@@ -1,69 +1,282 @@
 {
   "date": "2028-08-07",
-  "celebration": {
-    "nom": "Saint Gaétan",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-07",
-    "Tempora/Pent09-1"
-  ],
-  "cles_jour": [
-    "08-07",
-    "Pent09-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent09",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C5b",
-        "Francais": "!Ps 36:30-31.\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur."
+      "occurrence": {
+        "gagnant": "Sancti/08-07",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-07.txt",
+        "temporal": "Latin/Tempora/Pent09-1.txt",
+        "sanctoral": "Latin/Sancti/08-07.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beáto Cajetáno Confessóri tuo apostólicam vivéndi formam imitári tribuísti: da nobis, ejus intercessióne et exémplo, in te semper confídere et sola cæléstia desideráre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 6:24-33\nIn illo témpore: Dixit Jesus discípulis suis: Nemo potest duóbus dóminis servíre: aut enim unum ódio habébit, et álterum díliget: aut unum sustinébit, et álterum contémnet. ¶ Non potéstis Deo servíre et mammónæ. Ideo dico vobis, ne sollíciti sitis ánimæ vestræ, quid manducétis, neque córpori vestro, quid induámini. Nonne ánima plus est quam esca: et corpus plus quam vestiméntum? Respícite volatília cœli, quóniam non serunt neque metunt neque cóngregant in hórrea: et Pater vester cœléstis pascit illa. Nonne vos magis pluris estis illis? Quis autem vestrum cógitans potest adjícere ad statúram suam cúbitum unum? Et de vestiménto quid sollíciti estis? Consideráte lília agri, quómodo crescunt: non labórant neque nent. Dico autem vobis, quóniam nec Sálomon in omni glória sua coopértus est sicut unum ex istis. Si autem fænum agri, quod hódie est et cras in clíbanum míttitur, Deus sic vestit: quanto magis vos módicæ fídei? Nolíte ergo sollíciti esse, dicéntes: Quid manducábimus aut quid bibémus aut quo operiémur? Hæc enim ómnia gentes inquírunt. Scit enim Pater vester, quia his ómnibus indigétis. Quǽrite ergo primum regnum Dei et justítiam ejus: et hæc ómnia adjiciéntur vobis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent14-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-07.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beáto Cajetáno Confessóri tuo apostólicam vivéndi formam imitári tribuísti: da nobis, ejus intercessióne et exémplo, in te semper confídere et sola cæléstia desideráre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui souffre patiemment l’épreuve : car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 6:24-33\nEn ce temps-là, Jésus dit à ses disciples : « Nul ne peut servir deux maîtres : car ou il haïra l'un et aimera l'autre, ou il s'attachera à l'un et méprisera l'autre. Vous ne pouvez servir Dieu et Mammon. C'est pourquoi je vous dis : Ne vous inquiétez pas pour votre âme de ce que vous mangerez ou de ce que vous boirez, ni pour votre corps de quoi vous le vêtirez. L'âme n'est-elle pas plus que la nourriture, et le corps plus que le vêtement ? Regardez les oiseaux du ciel, qui ne sèment ni ne moissonnent et n'amassent rien dans des greniers, et votre Père céleste les nourrit. Ne valez-vous pas beaucoup plus qu'eux ? Qui de vous, à force de soucis, pourrait ajouter une seule coudée à la longueur de sa vie ? Et pourquoi vous inquiétez-vous pour le vêtement ? Observez les lis des champs, comment ils croissent : ils ne peinent ni ne filent. Or je vous dis que Salomon même, dans toute sa gloire, n'était pas vêtu comme l'un d'eux. Si donc Dieu revêt ainsi l'herbe des champs, qui est aujourd'hui et demain sera jetée au four, ne le fera-t-il pas bien plus pour vous, gens de peu de foi ? Ne vous mettez donc point en peine, disant : Que mangerons-nous ou que boirons-nous, ou de quoi nous vêtirons-nous ? — c'est de tout cela en effet que les païens sont en quête, — car votre Père céleste sait que vous avez besoin de tout cela. Cherchez premièrement le royaume de Dieu et sa justice, et tout cela vous sera donné en plus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent14-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Secreta",
+            "texte": "Dieu tout-puissant, accordez-nous, s’il vous plaît, que cette offrande que vous présente notre bassesse en l’honneur de vos Saints vous soit agréable à cause d’eux, et nous purifie en notre corps ainsi qu’en notre âme.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47.\nHeureux le serviteur que son maître, à son arrivée, trouvera veillant : en vérité je vous le dis, il l’établira sur tous ses biens. (Alléluia.)",
+            "incipit": "Heureux le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-07.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en supplions, Dieu tout-puissant : faites qu’ayant reçu un aliment tout céleste et que le bienheureux Gaétan votre Confesseur, intercédant pour nous, nous soyons grâce à ses secours munis contre toutes les adversités.",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui souffre patiemment l’épreuve : car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 6:24-33\nEn ce temps-là : Jésus dit à ses disciples : Nul ne peut servir deux maîtres : car ou il haïra l’un et aimera l’autre, ou il s’attachera à l’un et méprisera l’autre. Vous ne pouvez servir Dieu et la Richesse. C’est pourquoi je vous dis : Ne vous inquiétez pas pour votre âme de ce que vous mangerez ou de ce que vous boirez, ni pour votre corps de quoi vous le vêtirez. L’âme n’est-elle pas plus que la nourriture, et le corps plus que le vêtement ? Regardez les oiseaux du ciel, qui ne sèment ni ne moissonnent et n’amassent rien dans des greniers, et votre Père céleste les nourrit. Ne valez-vous pas beaucoup plus qu’eux ? Qui de vous, à force de soucis, pourrait ajouter une seule coudée à la longueur de sa vie ? Et pourquoi vous inquiétez-vous pour le vêtement ? Observez les lis des champs, comment ils croissent : ils ne peinent ni ne filent. Or je vous dis que Salomon même, dans toute sa gloire, n’était pas vêtu comme l’un d’eux. Si donc Dieu revêt ainsi l’herbe des champs, qui est aujourd’hui et demain sera jetée au four, ne le fera-t-il pas bien plus pour vous, gens de peu de foi ? Ne vous mettez donc point en peine, disant : Que mangerons-nous ou que boirons-nous, ou de quoi nous vêtirons-nous ? C’est de tout cela en effet que les païens sont en quête, car votre Père céleste sait que vous avez besoin de tout cela. Cherchez premièrement le royaume de Dieu et sa justice, et tout cela vous sera donné en plus."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4-1",
-        "Francais": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/08-07.txt",
+        "Latin/Sancti/08-07.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

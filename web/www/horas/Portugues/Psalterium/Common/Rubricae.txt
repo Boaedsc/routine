@@ -1,0 +1,92 @@
+[Pater secreto]
+/:«Pai Nosso» é dito silenciosamente até «E não nos deixeis cair em tentação:»:/
+
+
+[Credo secreto]
+/:«Credo» é dito silenciosamente até «Na ressurreição da carne.»:/
+
+[Pater post_]
+/:Depois disso, apenas «Pai Nosso» é dito silenciosamente, a menos que outra Hora se siga imediatamente.:/
+
+[Pater post V_]
+/:E se assim o Ofício termina, apenas «Pai Nosso» é dito silenciosamente.:/
+
+[Ant Maria post]
+/:Se se houver de sair do Coro: recitado este, acrescenta-se «Que o Senhor nos dê» e diz-se imediatamente uma das Antífonas finais da Bem-aventurada Virgem Maria, com o seu Versículo e Oração. <i>(como nas Laudes)</i>:/
+
+[Secreto_]
+/:silenciosamente:/
+
+[Secreto_C]
+/:No Coro, terminado o Ofício Parvo de Nossa Senhora, diz-se silenciosamente::/
+(sed die Tridui Sacri)
+/:Terminado em particular o Ofício Parvo de Nossa Senhora, no Coro diz-se silenciosamente::/
+
+[Secreto a Laudibus]
+/:Se Matinas e Laudes são separadas, então é dito silenciosamente::/
+(sed rubrica monástica)
+/:Nas festas Simplex e nos dias feriais, e se as Matinas forem separadas das Laudes, começa-se em silêncio::/
+
+[Clara voce_]
+/:Depois disso, com voz audível, o Versículo é dito::/
+
+[Secus absolute]
+/:Caso contrário, a hora é iniciada diretamente da seguinte forma::/
+(sed rubrica ^Trident)
+/:Depois do hino «Te Deum laudamus» ou recitado o último responsório, a hora começa diretamente da seguinte forma::/
+
+[Matutinum]
+!Pule o resto, a menos que ore %Laudes% separadamente.
+(sed rubrica tridentina)
+!Depois do hino Te Deum laudamus ou recitado o nono ou terceiro responsório, inicia-se diretamente com as %Laudes%, com exceção da Noite de Natal: nesta se reza o Oratio e depois a missa de Natal é comemorada conforme declarado no local apropriado.
+
+[Matutinum] (rubrica monastica)
+!Pule o resto, a menos que ore %Laudes% separadamente.
+(sed rubrica tridentina aut rubrica divino)
+!Pule o resto dos Ofícios de 12 lições, a menos que reze %Laudes% separadamente. Nas festas Simplex e nos dias feriais (seja com três ou uma leitura) sempre se rezou o seguinte.
+
+[Deinde secreto]
+/:Depois disso é dito silenciosamente:/
+
+[PAC ad Completorium]
+/:Se logo após as Completas se seguirem as Matinas, então «Pai Nosso, Ave Maria» e «Credo» dizem-se duas vezes: uma pelo fim do Ofício do dia precedente, e outra pelo início do Ofício do dia seguinte.:/
+
+[DefunctV]
+&Dominus_vobiscum
+&Benedicamus_Domino
+! Depois das Vésperas do dia, dizem-se as %Vésperas dos Defuntos%.
+
+[DefunctM]
+&Dominus_vobiscum
+&Benedicamus_Domino
+! Depois das Laudes do dia, dizem-se as %Matinas e Laudes dos Defuntos%.
+
+[Martyrologium] (rubrica monastica)
+/:Então o Martirológio é lido em côro.:/
+
+[Regula] (rubrica monastica)
+/:Mesmo fora do Côro, é louvável ler a Regra Santa; de outro modo, uma Leitura Breve é rezada:/
+
+[Regula ante] (rubrica cisterciensis)
+/:Na Sala do Capítulo lê-se um capítulo, ou parte de um capítulo, da Regra de S. Bento.:/
+
+[examen]
+/:Segue-se um exame de consciência, ou um Pai Nosso em silêncio.:/
+
+[Pater totum secreto]
+/:«Pai Nosso» é dito todo silenciosamente.:/
+
+[Preces flexis genibus]
+/:de joelhos:/
+
+[Antiphona]
+/:entoa-se somente quando o Ofício é cantado:/
+
+[CompletBMV2]
+/:Terminado este, durante todo o ano, excepto na Quinta e na Sexta-feira da Semana Maior, canta-se solenemente:/
+
+[Jube]
+/:Fora do Coro, quando o Ofício é recitado por uma só pessoa, diz-se: «Dignai-Vos, Senhor, dar a bênção»; e acrescenta-se a Bênção correspondente.:/
+
+[NonaAdjuncta]
+/:A nona leitura do Ofício ou se omite ou se junta à oitava leitura.:/

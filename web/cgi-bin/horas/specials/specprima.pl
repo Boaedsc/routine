@@ -1,0 +1,783 @@
+# use warnings;
+# use strict;
+use utf8;
+
+sub lectio_brevis_prima {
+
+  my $lang = shift;
+
+  our ($version, %winner, %winner2, %commune, %commune2, $winner, $commune);
+
+  my %brevis = %{setupstring($lang, 'Psalterium/Special/Prima Special.txt')};
+  my $name = gettempora("Lectio brevis Prima");
+  my $brevis = $brevis{$name};
+  my $comment = $name =~ /per annum/i ? 5 : 1;
+
+  setbuild('Psalterium/Special/Prima Special', $name, 'Lectio brevis ord');
+
+  #look for [Lectio Prima]
+  if ($version !~ /1955|196|cist/i) {
+    my $b;
+
+    if (exists($winner{'Lectio Prima'})) {
+      $b = columnsel($lang) ? $winner{'Lectio Prima'} : $winner2{'Lectio Prima'};
+      setbuild2("Subst Lectio Prima $winner");
+      $comment = 3;
+    } elsif (exists($commune{'Lectio Prima'})) {
+      $b = columnsel($lang) ? $commune{'Lectio Prima'} : $commune2{'Lectio Prima'};
+      setbuild2("Subst Lectio Prima $commune");
+      $comment = 4;
+    }
+
+    $brevis = $b || $brevis;
+  }
+
+  if ($brevis =~ /\(ef\.\.\)/) {
+
+    # GABC: All Lectio Prima are either input in Tonus Capitulum or links to Capitulum Nona
+    # Therefore: Transform Tonus Capitulum (Nona) into Tonus Lectio brevis here
+    map {
+      s/(.*)\(f/$1(h./g;
+      s/er\)/dr\)/g;
+      s/\(ef\.\.\)/(d.)/g;
+    } $brevis;
+
+    # Shorter pause at Flexa in Ant. Monasticum compared to Ant. Romanum
+    $brevis =~ s/†\(\;\)/†(,)/g if $version =~ /monastic/i;
+  }
+
+  $brevis = "\$benedictio Prima\n$brevis" unless $version =~ /^Monastic/;
+  $brevis .= "\n\$Tu autem";
+
+  ($brevis, $comment);
+}
+
+sub capitulum_prima {
+
+  my $lang = shift;
+  my $withresponsory = shift;
+
+  our ($dayofweek, $version, %winner, $commune, $rank, @dayname, $label, %winner2);
+
+  my %brevis = %{setupstring($lang, 'Psalterium/Special/Prima Special.txt')};
+
+  my $key =
+    (    $dayofweek > 0
+      && $version !~ /196[03]/
+      && $winner{Rank} =~ /Feria|Vigilia/i
+      && $winner{Rank} !~ /Vigilia Epi/i
+      && !($winner{Rank} =~ /in.*Oct/i && $version =~ /Cist/i)
+      && (!$commune || $commune !~ /C10/)
+      && ($rank < 3 || $dayname[0] =~ /Quad6/ || $winner =~ /Quadp3-3/)
+      && $dayname[0] !~ /Pasc/i) ? 'Feria' : 'Dominica';
+
+  my $capit = $brevis{$key} . "\n\$Deo gratias\n_\n";
+  setbuild1('Capitulum', "Psalterium $key");
+
+  # Shorter pause at Flexa in Ant. Monasticum compared to Ant. Romanum
+  $capit =~ s/†\(\;\)/†(,)/g if $lang eq 'Latin-gabc' && $version =~ /monastic/i;
+
+  if ($version =~ /1963/) {
+    $capit = "$label\n" . $capit;
+  } else {
+    setcomment($label, 'Source', $key eq 'Feria', $lang);
+  }
+
+  my @resp;
+
+  if ($withresponsory) {
+    @resp = split("\n", $brevis{'Responsory'});
+    my $primaresponsory = get_prima_responsory($lang);
+    my %wpr = columnsel($lang) ? %winner : %winner2;
+    if (exists($wpr{'Versum Prima'})) { $primaresponsory = $wpr{'Versum Prima'}; }
+
+    if ($primaresponsory) {
+      if ($lang =~ /gabc/i) {
+        $resp[0] = $primaresponsory;    # GABC: Take whole Responsorium from [Versum Prima]
+      } else {
+        $resp[2] = "V. $primaresponsory";
+      }
+    }
+    push(@resp, "_");
+  }
+
+  push(@resp, split("\n", $brevis{Versum}));
+
+  postprocess_short_resp(@resp, $lang);
+
+  $capit . join("\n", @resp);
+}
+
+sub get_prima_responsory {
+  my $lang = shift;
+
+  our ($version, $month, $day, %commemoratio, $rule);
+
+  my $key = gettempora('Prima responsory');
+
+  if ( $rule =~ /Doxology=(Nat|Epi|Pasch|Asc|Corp|Heart)/i
+    || $commemoratio{Rule} =~ /Doxology=(Nat|Epi|Pasch|Asc|Corp|Heart)/i)
+  {
+    $key = $1;
+  } elsif ($version !~ /196/ && $month == 8 && $day > 15 && $day < 23) {
+    $key = 'Nat';
+  }
+
+  if ($version =~ /196/ && $month == 12 && $day > 8 && $day < 16 && $version !~ /Newcal/ && $day !~ 12) {
+    $key = 'Adv';
+  }
+
+  if ($version =~ /196/
+    && ($key =~ /Corp|Heart/ || $key =~ /Nat/ && $winner{'Rank'} =~ /Dominica.*Post Pente/i))
+  {
+    $key = '';
+  }
+  return '' unless $key;
+
+  my %t = %{setupstring($lang, 'Psalterium/Special/Prima Special.txt')};
+  return $t{"Responsory $key"};
+}
+
+#*** martyrologium($lang)
+#returns the text of the martyrologium for the day
+sub martyrologium {
+
+  my $lang = shift;
+
+  our ($version, $year, $month, $day, $dayofweek);
+
+  my $mobile = do {
+    my $a = getweek($day, $month, $year, 1) . "-" . (($dayofweek + 1) % 7);
+    $a = '10-DU' if ($version !~ /1570|1617|1888|1910/ && $month == 10 && $dayofweek == 6 && $day > 23 && $day < 31);
+    $a = 'Defuncti' if $winner{Rank} =~ /ex C9/i;
+    $a = 'DefunctiM' if ($month == 11 && $day == 14 && $version =~ /Monastic/);
+    my %a = %{setupstring($lang, "Martyrologium/Mobile.txt")};
+    $a{$a};
+  };
+
+  my ($m, $d) = split('-', nextday($month, $day, $year));
+  my @a = martyrologium_elogia($lang, "$m-$d");
+
+  my $output;
+
+  # a translation whose book announces no title, on a day this version
+  # gives nothing to say but the closing line, still gives the date
+  if (@a || $lang !~ /^Latin/i) {
+
+    # the moon and the date are the calendar's, not the file's: in a leap
+    # year the 24th of February is read from 02-29 and the days after it
+    # from the file before (see get_sday)
+    my ($lm, $ld) = ($m, $d);
+    $ld = $d == 29 ? 24 : $d + 1 if $m == 2 && $d >= 24 && leapyear($year);
+    my $luna = _luna($lm, $ld, $m == 1 && $d == 1 ? $year + 1 : $year, $lang);
+
+    # a heading that names the day of the month names the file's day, which
+    # is not the day announced from the 24th of February of a leap year on.
+    # Only the heading: an elogium may name some other date.
+    if ($ld != $d) {
+      my $nth = $ld . _number_suffix($ld);
+
+      foreach (@a) {
+        last if /^\s*_\s*$/;
+        s/\b$d(?:st|nd|rd|th)( day of February)/$nth$1/;
+      }
+    }
+
+    if ($lang =~ /Latin/i) {
+      $a[0] .= " $luna";
+    } else {
+    FINDDATE:
+      {
+        foreach (@a) {
+          last FINDDATE if s/^(?:Upon|On) the \d+ ?.. day of \S+/$luna /i;                               # English
+          last FINDDATE if s/^\d+\. (?:\(\d+.\) )?\S+/${luna}/;                                          # Bohemice
+          last FINDDATE if s/^\d+ de \S+/${luna}/i;                                                      # Espanol
+          last FINDDATE if s/^(Le(?: même)? \d+ .*?\,)/$1 \l$luna, /i;                                   # French 1
+          last FINDDATE
+            if s/^((?:Le \d+ des|La veille des|Aux) (?:ides|calendes|nones).*?)[ \t]*$/$1, \l$luna/i;    # French 2
+          last FINDDATE if s/^((?:Nas?|Nos?) .*(?:Calendas|Nonas|Idos) de \S+\.)$/$1 $luna/;             # Portugues
+          last if /^\s*\_\s*/;
+        }
+
+        # Put $luna at the start if and only if we didn't find a
+        # suitable substitution in the loop above.
+        unshift(@a, $luna, "_\n");
+      }
+    }
+
+    $output = join("\n", map { length($_) > 4 && !/^\/:/ ? "r. $_" : $_ } @a) . "\n";
+    $output =~ s/^r/v/;
+    $output =~ s/\_/"r. $mobile"/e if $mobile =~ /\S/;
+    $output =~ s/\_\n//g;
+
+    $output = join("\n", @a) . "\n" if $lang eq 'Latin-gabc';
+  }
+
+  $output . prayer('Conclmart', $lang);
+}
+
+#*** martyrologium_elogia($lang, $mmdd)
+# the day's lines: the title, the separator, then the entries named by the
+# [Martyrologium] index in the order it gives them.
+#
+# setupstring does most of the work.  It applies the version conditionals
+# in the file and lays the language over its fallback and over the Latin,
+# so an entry nobody has translated yet still appears, in the language of
+# the nearest layer that has it.
+#
+# The index is resolved here rather than left to setupstring's @ handling
+# so that an entry the Latin has never carried can still be listed: the
+# Latin column simply prints nothing for it.
+sub martyrologium_elogia {
+  my ($lang, $mmdd) = @_;
+  our $version;
+
+  my $s = setupstring($lang, "Martyrologium/$mmdd.txt", 'resolve@' => RESOLVE_NONE)
+    or return ();
+
+  # an index that this version has emptied still leaves the day its title
+  return () unless defined $s->{Martyrologium};
+
+  # the 1570 martyrology is printed without accents throughout
+  my $plain = $lang =~ /^Latin/i && $version =~ /1570/;
+
+  my @index = grep {/\S/} split(/\n/, $s->{Martyrologium});
+  my @lines = _heading($s, $lang, $mmdd, $plain, \@index);
+
+  # blank lines only keep the conditionals in the index apart; a line that
+  # is not a reference is text in its own right, which is how the chant
+  # books carry a day whose elogia cannot be told apart
+  my @entries;
+
+  foreach my $line (@index) {
+    unless (substr($line, 0, 1) eq '@') {
+      push @entries, _elogia_lines($line, $plain);
+      next;
+    }
+    my $text = _elogia_entry($s, $lang, $mmdd, $line);
+
+    # A language whose book says this entry inside another one keeps a
+    # note of where instead of a translation: the words are on the page
+    # already, under that other key, so nothing is put here.  A note
+    # pointing at an entry this version has not got is no note at all,
+    # and is passed over in silence rather than printed.
+    next if defined $text && $text =~ /^\s*\@\S+\s*$/;
+    push @entries, _elogia_lines($text, $plain);
+  }
+  return @lines unless @entries;
+
+  # and it can leave the day without a title: a title that says 'upon the
+  # same day' says it about the feast announced above it, so when the
+  # index no longer keeps that announcement at the head of the day the
+  # title has nothing left to be about.  The date is put back at the top
+  # by the caller, which is where it comes from in any case.
+  return @entries unless @lines;
+
+  # a version can leave a day with nothing but its title, and then there is
+  # nothing for the separator to separate
+  my $sep = exists $s->{Separatio} ? _chomped($s->{Separatio}) : '_';
+  push @lines, $sep if $sep ne '';
+  return (@lines, @entries);
+}
+
+#*** _heading($sections, $lang, $mmdd, $plain, \@index)
+# The day's title, which may call for entries by name.
+#
+# Some books announce the day's feast above the rule and then say 'upon
+# the same day, were born into the better life' below it.
+# Whether it belongs up there is the Latin's to say, and it says it by
+# where it puts the entry: the call is answered only while the index
+# still keeps that entry at the head of the day.  A version that moves it
+# down leaves the title without it, and it falls in among the elogia
+# wherever the index now has it.  A version that has not the entry at all
+# simply has nothing to announce, and keeps the rest of its title.
+# @index is emptied of whatever the title took, so that nothing is said
+# twice.
+sub _heading {
+  my ($s, $lang, $mmdd, $plain, $index) = @_;
+  my @title = split(/\n/, $s->{Titulus} // '');
+  my @out;
+  my $at = 0;    # how far into the index the title has eaten
+
+  foreach my $line (@title) {
+    unless (substr($line, 0, 1) eq '@') {
+      push @out, _elogia_lines($line, $plain);
+      next;
+    }
+
+    # setupstring writes both the title's reference and the index's in the
+    # same full form, so the one is found by the other.
+    (my $want = $line) =~ s/\s+$//;
+    my ($where) = grep { ($index->[$_] =~ s/\s+$//r) eq $want } $at .. $#$index;
+
+    # a version that has not the entry at all has no feast to announce,
+    # and the rest of the title stands without the announcement
+    next unless defined $where;
+
+    my $said = sub {
+      my $l = $index->[shift];
+      return substr($l, 0, 1) eq '@'
+        ? _elogia_lines(_elogia_entry($s, $lang, $mmdd, $l), $plain)
+        : _elogia_lines($l, $plain);
+    };
+
+    # but a version that keeps it and puts it lower down has moved the
+    # feast in among the elogia, and then 'upon the same day' has nothing
+    # left to be about and goes with it.  Entries this column prints
+    # nothing for are stepped over on the way: an entry no language in
+    # the chain has translated comes out as nothing at all, and a title
+    # thrown away on account of it would be thrown away over a line
+    # nobody can see.
+    last if grep { $said->($_) } $at .. $where - 1;
+    push @out, $said->($where);
+    $at = $where + 1;
+  }
+  splice(@$index, 0, $at) if $at;
+  $out[0] = _unsame($out[0], $lang) if @out;
+  return @out;
+}
+
+# What 'the same day' is said back to, by language, when it opens the
+# heading with nothing above it to be the same as: the book announced
+# nothing, or this version has dropped the feast it announced.  Upon the
+# same 3rd day of January' then says the date over again under the date
+# itself, so it is put the way a book with nothing to announce prints it,
+# 'Upon the 3rd day of January', which the date line takes the place of.
+# 'On the same day' in an announcement means the morrow it is announcing.
+my %_UNSAME = (
+  English => [
+    [qr/^(?:Upon|On) the same (?:the )?(\d.*?\b(?:was|were)) also\b/ => sub {"Upon the $1"}],
+    [qr/^(?:Upon|On) the same (?:the )?(?=\d)/ => sub {'Upon the '}],
+    [qr/^(Upon|On) the same day\b/ => sub {"$1 the morrow"}],
+    [qr/^(Upon|On) the morrow also\b/ => sub {"$1 the morrow"}],
+  ],
+  Francais => [[qr/^Le même (?=\d)/ => sub {'Le '}]],
+);
+
+#*** _unsame($line, $lang)
+# The heading's first line, without a 'same' that has nothing to refer to.
+sub _unsame {
+  my ($line, $lang) = @_;
+  (my $base = $lang) =~ s/-.*$//;
+
+  foreach my $rule (@{$_UNSAME{$base} || []}) {
+    my ($re, $to) = @$rule;
+    return $line if $line =~ s/$re/$to->()/e;
+  }
+  return $line;
+}
+
+#*** _elogia_entry($sections, $lang, $mmdd, $line)
+# the text an index line points at: '@:Key' in this day, or
+# '@Martyrologium/MM-DD:Key' in another one
+sub _elogia_entry {
+  my ($s, $lang, $mmdd, $line, $seen) = @_;
+  my ($day, $text);
+
+  if ($line =~ m{^\@(Martyrologium/(\d\d-\d\d)):(.+)$}) {
+    my $other = setupstring($lang, "$1.txt", 'resolve@' => RESOLVE_NONE)
+      or return undef;
+    ($day, $text) = ($2, _elogia_own_first($other, $lang, $2, $3));
+  } elsif ($line =~ /^\@:(.+)$/) {
+    ($day, $text) = ($mmdd, _elogia_own_first($s, $lang, $mmdd, $1));
+  } else {
+    return undef;
+  }
+
+  # A language's note pointing at another day is not a note of where the
+  # entry is said on this one: its book says it here as well, in the words
+  # it has given it there.
+  if (defined $text && $text =~ m{^\s*(\@Martyrologium/(\d\d-\d\d):\S+)\s*$} && $2 ne $day && !$seen) {
+    return _elogia_entry($s, $lang, $mmdd, $1, 1);
+  }
+  return $text;
+}
+
+#*** _elogia_own_first($sections, $lang, $mmdd, $key)
+# The entry's text, from the nearest language that has one of its own.
+#
+# setupstring lays a language over its fallback and both over the Latin,
+# so a gap anywhere is filled from below and in the end always from the
+# Latin.  A column falls back as far as the reader's fallback language
+# and stops.
+#
+# And the fallback fills only what the Latin itself says.  The Latin
+# decides which elogia the day has; an entry it has no words for is there
+# because some book has it, and it is that book's to print, not every
+# column's that falls back on it.
+sub _elogia_own_first {
+  my ($s, $lang, $mmdd, $key) = @_;
+  my $value = $s->{$key};
+
+  # the Latin column prints the Latin
+  return $value if $lang =~ /^Latin/i;
+
+  our $langfb;
+  my @chain = _elogia_chain($lang);
+  push @chain, $langfb
+    if $langfb && !(grep { $_ eq $langfb } @chain) && _elogia_latin_says($mmdd, $key);
+
+  foreach my $layer (@chain) {
+
+    my @all = @{_elogia_own($layer, $mmdd)->{$key} || []};
+    next unless @all;
+
+    # the wordings this version reads.  When there is none:
+    #
+    # A plain section left blank beside wordings qualified for an older
+    # book is a translation not yet brought up to date: the blank marks
+    # the work, and until it is done a later version reads the older
+    # wording.  An earlier one does not read a later book's, nor does
+    # anything read a blank section with nothing beside it; they are
+    # passed over for the fallback, as a blank section always was.
+    #
+    # With no plain section at all, a wording qualified for none but the
+    # older books is theirs alone -- it says what the others no longer
+    # do -- and the fallback is read instead.  One qualified for some
+    # other book (a translation of another recension) is still given.
+    my @mine = grep { defined $_->[1] && vero($_->[0]) } @all;
+    my $lent = !@mine;
+
+    unless (@mine) {
+      my $blank = grep { $_->[0] eq '' } @all;
+      my $this = _elogia_book();
+      @mine = grep {
+        my $book = _elogia_book($_->[0]);
+        defined $_->[1] && ($blank ? !$book || $book < $this : !$book)
+      } @all;
+      next unless @mine;
+    }
+
+    # a version's own wording takes the place of the plain one
+    my @qualified = grep { $_->[0] ne '' } @mine;
+    my @texts = map { $_->[1] } (@qualified ? @qualified : @mine);
+
+    # setupstring settled on one of this layer's own wordings.  compared
+    # chomped: it keeps the blank line before the next section and works
+    # the conditionals inside a line, so the two are rarely byte for byte.
+    my $text = $texts[0];
+
+    if (defined $value) {
+      my $seen = _chomped($value);
+      $text = $value if grep { _chomped($_) eq $seen } @texts;
+    }
+
+    # a rubric goes with the book whose wording it is in: the kneeling and
+    # the Ave its ceremonies call for are not lent along with its words
+    return $lent ? _unrubric($text) : $text;
+  }
+  return undef;
+}
+
+#*** _elogia_chain($lang)
+# The languages that are a column's own: itself, and the parent of a
+# hyphenated name.
+sub _elogia_chain {
+  my $lang = shift;
+  my @out = ($lang);
+  push @out, $lang while $lang =~ s/-[^-]+$//;
+  return @out;
+}
+
+my %_OLDER_BOOK = (
+  1570 => 1,
+  1617 => 1,
+  1888 => 2,
+  1906 => 2,
+);
+
+#*** _elogia_book([$condition])
+# Which of the older books a section's condition is for: 1, Gregory
+# XIII's (rubrica 1570, 1617); 2, Benedict XIV's (rubrica 1888, 1906),
+# or the later of the two when it names both; 0 when it names anything
+# else.  Without a condition, this version's book: 1, 2, or 3 for any
+# version after them.
+sub _elogia_book {
+  unless (@_) {
+    return vero('rubrica 1570 aut rubrica 1617') ? 1 : vero('rubrica 1888 aut rubrica 1906') ? 2 : 3;
+  }
+  my @books = map { $_OLDER_BOOK{$_} } (shift // '') =~ /\brubrica\s+(\S+)/g;
+  return 0 if !@books || grep { !$_ } @books;
+  return (sort { $b <=> $a } @books)[0];
+}
+
+#*** _unrubric($text)
+# The text without its rubrics: a line that is nothing but a rubric goes,
+# and a rubric inside a line goes with the space before it.
+sub _unrubric {
+  my $text = shift;
+  return $text unless defined $text && $text =~ m{/:};
+  my $end = $text =~ /\n\z/ ? "\n" : '';
+  my @lines = grep { !m{^\s*/:.*:/\s*$} } split(/\n/, _chomped($text));
+  s{\s*/:.*?:/}{}g foreach @lines;
+  return join("\n", @lines) . $end;
+}
+
+#*** _elogia_latin_says($mmdd, $key)
+# Whether the Latin column, in this version, prints words for the entry.
+sub _elogia_latin_says {
+  my ($mmdd, $key) = @_;
+  my $latin = setupstring('Latin', "Martyrologium/$mmdd.txt", 'resolve@' => RESOLVE_NONE) or return 0;
+  my $text = $latin->{$key};
+  return defined $text && $text =~ /\S/ && $text !~ /^\s*\@\S+\s*$/;
+}
+
+my %_own_cache;
+
+#*** _elogia_own($lang, $mmdd)
+# {key => [[condition, wording], ...]} for every wording this language's own
+# file gives it, conditional sections included, which setupstring drops
+# before we could see them.  A plain section's condition is ''; a blank
+# section's wording is undef.
+sub _elogia_own {
+  my ($lang, $mmdd) = @_;
+  our $datafolder;
+  my $id = "$lang\0$mmdd";
+  return $_own_cache{$id} if $_own_cache{$id};
+  my %own;
+  my $file = "$datafolder/$lang/Martyrologium/$mmdd.txt";
+
+  if (-e $file) {
+    my ($key, $cond, @buf);
+
+    my $flush = sub {
+      return unless defined $key;
+      pop @buf while @buf && $buf[-1] !~ /\S/;
+      push @{$own{$key}}, [$cond, @buf ? join("\n", @buf) . "\n" : undef];
+    };
+
+    foreach my $line (do_read($file)) {
+      $line =~ s/[\r\n]+$//;
+
+      if ($line =~ /^\s*\[([^\]]+)\]\s*(?:\((.*)\))?/) {
+        $flush->();
+        $key = $1;
+        $cond = $2 // '';
+        @buf = ();
+      } elsif (defined $key) {
+        push @buf, $line;
+      }
+    }
+    $flush->();
+  }
+  return $_own_cache{$id} = \%own;
+}
+
+# a section's lines, without the '=' that escapes a structural one, and
+# without the accents when the version prints none
+sub _elogia_lines {
+  my ($text, $plain) = @_;
+  return () unless defined $text && $text =~ /\S/;
+  $text = _deaccent($text) if $plain;
+  return map { my $l = $_; $l =~ s/^=//; $l } split(/\n/, _chomped($text), -1);
+}
+
+# setupstring ends every section with a newline; the trailing spaces on a
+# line belong to the text and have to survive
+sub _chomped {
+  my $t = shift;
+  return '' unless defined $t;
+  $t =~ s/\n+$//;
+  return $t;
+}
+
+sub _deaccent {
+  my $s = shift;
+  require Unicode::Normalize;
+  $s = Unicode::Normalize::NFKD($s);
+  $s =~ s/\p{Mn}//g;
+  $s =~ s/\x{e6}/ae/g;
+  $s =~ s/\x{c6}/Ae/g;
+  $s =~ s/\x{153}/oe/g;
+  $s =~ s/\x{152}/Oe/g;
+  return $s;
+}
+
+sub _luna_table {
+
+  # return luna day for year day and letter as in tables printed in Martyrolgia
+  # a  b  c  d  e  f  g  h  i  k  l  m  n  p  q  r  s  t  u   A  B  C  D  E  R  F  G  H  M  N  P # R is F black
+  # 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20, 21,22,23,24,25,26,26,27,28,29,30, 1 # Die  1 ianuarii
+  # 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21, 22,23,24,25,26,27,27,28,29,30, 1, 2 # Die  2 ianuarii
+  # ...
+  #12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,  1, 2, 3, 4, 5, 6, 6, 7, 8, 9,10,11 # Die 31 decembris
+
+  my ($yday, $letter) = @_;
+
+  my $all_martyrologium_letters = 'abcdefghiklmnpqrstuABCDERFGHMNP';
+  my $letter_position = index($all_martyrologium_letters, $letter) + 1;
+  my $m = $yday < 36 ? 30 : (($yday - 35) % 59 || 59) < 29 ? 29 : 30;
+  my $i = $yday % 59 < 36 ? $letter_position : $letter_position - 1;
+
+  if ($yday % 59 < 36) {
+    $i -= 1 if $letter_position > 25;
+    $i += 1 if ($letter_position == 25 && $yday % 59 == 35);
+  } else {
+    $i -= 2 if $letter_position > 25;
+  }
+
+  if ($yday > 58) {
+    $i -= 1 if ($letter_position > 25 && $yday % 59 < 5);
+    $i -= 1 if ($letter_position == 26 && $yday % 59 == 5);
+  }
+
+  ($i - 1 + ($yday % 59)) % $m + 1;
+}
+
+# finds luna day
+sub _luna_day {
+  my ($month, $day, $year) = @_;
+
+  # Lit. Mart. for Aur. num.
+  my $letters4aurea = '';
+
+  if ($year < 1582) {
+    main::error('Unreachable');
+  } elsif ($year < 1700) {
+    $letters4aurea = 'amDdqGgtNkBbnEerHhu';
+  } elsif ($year < 1900) {
+    $letters4aurea = 'PlCcpFfsMiAamDdqGgt';
+  } elsif ($year < 2200) {
+    $letters4aurea = 'NkBbnEerHhuPlCcpRfs';
+  }    # R is F black
+  elsif ($year < 2300) {
+    $letters4aurea = 'MiAamDdqGgtNkBbnEer';
+  } else {
+    main::error('Unreachable');
+  }
+
+  my $aur_num = $year % 19 + 1;
+  my $letter_for_aurea = substr($letters4aurea, $aur_num - 1, 1);
+  my $yday = DivinumOfficium::Date::date_to_ydays($day, $month, $year);
+
+  # the table is a common year's: in a leap year the 24th and 25th of
+  # February have the same moon, and every day after the 24th is a day
+  # behind the table
+  $yday -= 1 if (leapyear($year) && ($month > 2 || $month == 2 && $day > 24));
+
+  my $luna = _luna_table($yday, $letter_for_aurea);
+  $luna -= 1
+    if ( $aur_num == 1
+      && $month == 1
+      && $letter_for_aurea ne 'P'
+      && $day + _luna_table(1, $letter_for_aurea) < 32);
+
+  $luna;
+}
+
+sub _number_suffix {
+  my ($n) = @_;
+      ($n > 3 && $n < 21) ? 'th'
+    : (($n % 10) == 1) ? 'st'
+    : (($n % 10) == 2) ? 'nd'
+    : (($n % 10) == 3) ? 'rd'
+    : 'th';
+}
+
+sub _luna {
+  my ($month, $day, $year, $lang) = @_;
+
+  my $lday = _luna_day($month, $day, $year);
+  $day += 0;
+
+  if ($lang =~ /Latin/i) {
+    my @ordinals = (
+      'prima', 'secúnda', 'tértia', 'quarta',
+      'quinta', 'sexta', 'séptima', 'octáva',
+      'nona', 'décima', 'undécima', 'duodécima',
+      'tértia décima', 'quarta décima', 'quinta décima', 'sexta décima',
+      'décima séptima', 'duodevicésima', 'undevicésima', 'vicésima',
+      'vicésima prima', 'vicésima secúnda', 'vicésima tértia', 'vicésima quarta',
+      'vicésima quinta', 'vicésima sexta', 'vicésima séptima', 'vicésima octáva',
+      'vicésima nona', 'tricésima',
+    );
+
+    "Luna $ordinals[$lday-1]. Anno Dómini $year\n";
+  } elsif ($lang =~ /Portugues/) {
+    my @ordinals = (
+      'primeira',
+      'segunda',
+      'terceira',
+      'quarta',
+      'quinta',
+      'sexta',
+      'sétima',
+      'oitava',
+      'nona',
+      'décima',
+      'undécima',
+      'duodécima',
+      'décima terceira',
+      'décima quarta',
+      'décima quinta',
+      'décima sexta',
+      'décima sétima',
+      'décima oitava',
+      'décima nona',
+      'vigésima',
+      'vigésima primeira',
+      'vigésima segunda',
+      'vigésima terceira',
+      'vigésima quarta',
+      'vigésima quinta',
+      'vigésima sexta',
+      'vigésima sétima',
+      'vigésima oitava',
+      'vigésima nona',
+      'trigésima',
+    );
+
+    "Lua $ordinals[$lday-1]. Ano do Senhor de $year";
+  } elsif ($lang =~ /Polski/) {
+    my @months_pl = (
+      '', 'stycznia', 'lutego', 'marca', 'kwietnia', 'maja',
+      'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada',
+      'grudnia',
+    );
+    my @ordinals = (
+      '', 'pierwszego', 'drugiego', 'trzeciego',
+      'czwartego', 'piątego', 'szóstego', 'siódmego',
+      'ósmego', 'dziewiątego', 'dziesiątego', 'jedenastego',
+      'dwunastego', 'trzynastego', 'czternastego', 'piętnastego',
+      'szesnastego', 'siedemnastego', 'osiemnastego', 'dziewiętnastego',
+      'dwudziestego', 'dwudziestego pierwszego', 'dwudziestego drugiego', 'dwudziestego trzeciego',
+      'dwudziestego czwartego', 'dwudziestego piątego', 'dwudziestego szóstego', 'dwudziestego siódmego',
+      'dwudziestego ósmego', 'dwudziestego dziewiątego', 'trzydziestego', 'trzydziestego pierwszego',
+    );
+
+    "Roku Pańskiego $year, dnia $ordinals[$day] $months_pl[$month], $ordinals[$lday] dnia księżyca.\n_\n";
+  } elsif ($lang =~ /Francais/) {
+    "Le $lday" . "e jour de la Lune, l’année du Seigneur $year";
+  } elsif ($lang =~ /Italiano/) {
+    my @months_it = (
+      'Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno',
+      'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre',
+    );
+
+    "Anno del Signore $year, $day $months_it[$month - 1], Luna $lday";
+  } elsif ($lang =~ /Espanol/) {
+    my @months_es = (
+      'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+      'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
+    );
+
+    "Año del Señor $year, $day de $months_es[$month - 1], Luna $lday";
+  } elsif ($lang =~ /Bohemice/) {
+    my @months_cz = (
+      'ledna', 'února', 'března', 'dubna', 'května', 'června',
+      'července', 'srpna', 'září', 'října', 'listopadu', 'prosince',
+    );
+
+    "Léta Páně $year, $day. $months_cz[$month - 1], $lday. dne věku měsíce.";
+  } else {
+    my @months = (
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December',
+    );
+
+    sprintf("$months[$month - 1] $day%s $year, the $lday%s day of the Moon,",
+      _number_suffix($day), _number_suffix($lday),);
+  }
+}
+
+1;

@@ -1,70 +1,254 @@
 {
   "date": "2028-06-02",
-  "celebration": {
-    "nom": "Saints Marcellin et Pierre",
-    "classe": 4,
-    "note": "(temporal : Vendredi du temps pascal)"
-  },
-  "fichiers": [
-    "Sancti/06-02",
-    "Tempora/Pasc6-5"
-  ],
-  "cles_jour": [
-    "06-02",
-    "Pasc6-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc6",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 33:18\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\n!Ps 33:2 Benedícam Dóminum\nin omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.",
-        "Francais": "!Ps 33:18\nv. Les justes ont crié, et le Seigneur les a exaucés : et il les a libérés de toutes leurs tribulations.\n!Ps 33:2 Je bénirai le Seigneur en tout temps ; toujours sa louange sera à ma bouche.\n&Gloria\nv. Les justes ont crié, et le Seigneur les a exaucés : et il les a libérés de toutes leurs tribulations."
+      "occurrence": {
+        "gagnant": "Sancti/06-02",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-02.txt",
+        "temporal": "Latin/Tempora/Pasc6-5.txt",
+        "sanctoral": "Latin/Sancti/06-02.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 8:18-23\nMes frères, j’estime que les souffrances du temps présent n’ont pas de proportion avec la gloire à venir qui sera manifestée en nous. Aussi la créature attend-elle d’une vive attente la manifestation des enfants de Dieu. Car la créature a été assujettie à la vanité, non pas volontairement, mais à cause de celui qui l’a assujettie avec espérance ; en effet, la créature aussi sera elle-même délivrée de cet asservissement à la corruption, pour participer à la glorieuse liberté des enfants de Dieu. Car nous savons que toute créature gémit et est dans le travail de l’enfantement jusqu’à cette heure ; et non seulement elle, mais nous aussi, qui avons les prémices de l’Esprit, nous aussi nous gémissons en nous-mêmes, attendant l’adoption des enfants de Dieu, la rédemption de notre corps : en Jésus-Christ Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:18\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\n!Ps 33:2 Benedícam Dóminum\nin omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua beatórum Mártyrum tuórum Marcellíni, Petri atque Erásmi sollemnitáte lætíficas: præsta, quǽsumus; ut, quorum gaudémus méritis, accendámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:18-23\nFratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est, non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent04-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\n!Joann 15-16\nV. Ego vos elégi de mundo, ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Gloriósus Deus in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 21:9-19\nIn illo témpore: Dixit Jesus discípulis suis: Cum audiéritis prǽlia et seditiónes, nolíte terréri: opórtet primum hæc fíeri, sed nondum statim finis. Tunc dicébat illis: Surget gens contra gentem, et regnum advérsus regnum. Et terræmótus magni erunt per loca, et pestiléntiæ, et fames, terrorésque de coelo, et signa magna erunt. Sed ante hæc ómnia injícient vobis manus suas, et persequéntur tradéntes in synagógas et custódias, trahéntes ad reges et praesides propter nomen meum: contínget autem vobis in testimónium. Pónite ergo in córdibus vestris non præmeditári, quemádmodum respondeátis. Ego enim dabo vobis os et sapiéntiam, cui non potérunt resístere et contradícere omnes adversárii vestri. Tradémini autem a paréntibus, et frátribus, et cognátis, et amícis, et morte affícient ex vobis: et éritis ódio ómnibus propter nomen meum: et capíllus de cápite vestro non períbit. In patiéntia vestra possidébitis ánimas vestras.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde, allelúja, allelúja.",
+            "incipit": "Lætámini in Dómino",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3p.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Secreta",
+            "texte": "Hæc hóstia, quǽsumus, Dómine, quam sanctórum Martyrum tuórum natalítia recenséntes offérimus: et víncula nostræ pravitátis absólvat, et tuæ nobis misericórdiæ dona concíliet.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Postcommunio",
+            "texte": "Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:18\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\n!Ps 33:2 Benedícam Dóminum\nin omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos ánnua beatórum Mártyrum tuórum Marcellíni, Petri atque Erásmi sollemnitáte lætíficas: præsta, quǽsumus; ut, quorum gaudémus méritis, accendámur exémplis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 8:18-23.\nFrères, j'estime que les souffrances du temps présent sont sans proportion avec la gloire à venir qui sera manifestée en nous. Aussi la création attend-elle avec un ardent désir la manifestation des enfants de Dieu. La création, en effet, a été assujettie à la vanité, — non de son gré, mais par la volonté de celui qui l'y a soumise, — avec l'espérance qu'elle aussi sera affranchie de la servitude de la corruption, pour avoir part à la liberté glorieuse des enfants de Dieu. Car nous savons que, jusqu'à ce jour, la création tout entière gémit et souffre les douleurs de l'enfantement. Et ce n'est pas elle seulement ; nous aussi, qui avons les prémices de l'Esprit, nous gémissons en nous-mêmes, attendant l'adoption des enfants de Dieu, la rédemption de notre corps, dans le Christ Jésus, notre Seigneur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent04-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\n!Joann 15-16\nV. Ego vos elégi de mundo, ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Tractus",
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Dieu est glo­rifié",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Evangelium",
+            "texte": "Évangile ++ selon saint Luc.\n!Luc 21:9-19\nEn ce temps-là, Jésus dit à ses disciples : « Quand vous entendrez parler de guerres et de séditions, ne soyez pas effrayés, car il faut que ces choses arrivent d’a­bord, mais ce ne sera pas encore la fin. » Il leur dit alors : « Une nation s’élèvera contre une nation et un royaume contre un royaume. Il y aura de grands tremblements de terre en divers lieux, et des pestes et des famines ; et dans le ciel il y aura des choses effrayantes et de grands signes. Mais, avant tout cela, on mettra la main sur vous et l’on vous persécutera ; on vous livrera aux synagogues et aux prisons, on vous mènera devant les rois et les gouverneurs à cause de mon nom. Cela vous arrivera afin que vous me rendiez témoignage. Mettez-vous donc dans l’esprit de ne pas préméditer comment répondre ; car je vous donnerai une bouche et une sagesse à laquelle tous vos adversaires ne pourront résister ni contredire. Vous serez livrés même par vos parents et par vos frères, par vos proches et par vos amis, et ils feront mourir plusieurs d’entre vous. Vous serez haïs de tous à cause de mon nom. Mais il ne se perdra pas un cheveu de votre tête : par votre patience vous sau­verez vos âmes. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-02.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde, allelúja, allelúja.",
+            "incipit": "Lætámini in Dómino",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3p.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Secreta",
+            "texte": "Hæc hóstia, quǽsumus, Dómine, quam sanctórum Martyrum tuórum natalítia recenséntes offérimus: et víncula nostræ pravitátis absólvat, et tuæ nobis misericórdiæ dona concíliet.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Communio",
+            "texte": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
+            "incipit": "Justórum ánimæ in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-02.txt",
+            "section": "Postcommunio",
+            "texte": "Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\n!Joann 15-16\nV. Ego vos elégi de mundo, ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.",
-        "Francais": "!Ps 33:18-19\nLes justes ont crié, et le Seigneur les a exaucés, et il les a délivrés de toutes leurs tribulations.\nV. Le Seigneur est près de ceux qui ont le cœur affligé, et il sauvera les humbles d’esprit.\nAlléluia, alléluia.\n!Joann 15-16\nV. C’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 21:9-19.\nEn ce temps-là : Jésus dit à ses disciples : Lorsque vous entendrez parler de guerres et de séditions, ne soyez pas effrayés ; car il faut que ces choses arrivent d’abord, mais ce ne sera pas encore aussitôt la fin. Alors il leur dit : Nation se soulèvera contre nation, et royaume contre royaume. Et il y aura de grands tremblements de terre en divers lieux, et des pestes, et des famines, et des choses effrayantes dans le ciel, et de grands signes. Mais, avant tout cela, on mettra les mains sur vous, et on vous persécutera, vous livrant aux synagogues et aux prisons, vous traînant devant les rois et les gouverneurs, à cause de mon nom ; et cela vous arrivera pour que vous rendiez témoignage. Mettez donc dans vos cœurs que vous n’aurez pas a méditer d’avance comment vous répondrez ; car je vous donnerai une bouche et une sagesse auxquelles tous vos adversaires ne pourront résister et contredire. Vous serez livrés par vos parents, et par vos frères, et par vos proches, et par vos amis, et l’on fera mourir plusieurs d’entre vous ; et vous serez haïs de tous à cause de mon nom. Mais pas un cheveu de votre tête ne périra. C’est par votre patience que vous sauverez vos vies."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C3p",
-        "Francais": "!Ps 31:11\nJustes, réjouissez-vous dans le Seigneur, et soyez dans l’allégresse ; et glorifiez-vous en lui vous tous qui avez le cœur droit."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Sap 3:1; 3:2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
-        "Francais": "!Sap 3:1; 3:2; 3:3\nLes âmes des Justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas ; aux yeux des insensés, ils ont paru mourir, cependant ils sont en paix"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3.txt",
+        "../horas/Latin/Commune/C3.txt",
+        "Francais/Sancti/06-02.txt",
+        "Latin/Sancti/06-02.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

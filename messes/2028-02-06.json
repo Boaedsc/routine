@@ -1,68 +1,252 @@
 {
   "date": "2028-02-06",
-  "celebration": {
-    "nom": "5e dimanche après l'Épiphanie",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Epi5-0"
-  ],
-  "cles_jour": [
-    "Epi5-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi5",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Introitus",
-        "Francais": "!Ps 96:7-8.\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses.\n&Gloria\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse."
+      "occurrence": {
+        "gagnant": "Tempora/Epi5-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Epi5-0.txt",
+        "temporal": "Latin/Tempora/Epi5-0.txt",
+        "sanctoral": "Latin/Sancti/02-06.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses\n!Col 3:12-17\nFrères, comme élus de Dieu, saints et bien-aimés, revêtez-vous d'entrailles de miséricorde, de bonté, d'humilité, de douceur, et patience, vous supportant les uns les autres et vous pardonnant réciproquement, si l'un a sujet de se plaindre de l'autre. Comme le Seigneur vous a pardonné, pardonnez-vous aussi. Mais surtout revêtez-vous de la charité, qui est le lien de la perfection. Et que la paix du Christ, à laquelle vous avez été appelés de manière à former un seul corps, règne dans vos cœurs ; soyez reconnaissants. Que la parole du Christ demeure en vous avec abondance, de telle sorte que vous vous instruisiez et vous avertissiez les uns les autres en toute sagesse : sous l'inspiration de la grâce que vos cœurs s'épanchent vers Dieu en chants, par des psaumes, par des hymnes, par des cantiques spirituels. Tout ce que vous faites, en parole ou en œuvre, faites tout au nom du Seigneur Jésus, en rendant par lui des actions de grâces à Dieu le Père."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 96:7-8\nv. Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.\n!Ps 96:1\nDóminus regnávit, exsúltet terra: læténtur ínsulæ multæ.\n&Gloria\nv. Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.",
+            "incipit": "Adoráte Deum, omnes",
+            "mp3": "introitus_adorate-deum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Oratio",
+            "texte": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, tua semper protectióne muniátur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses\n!Col 3:12-17\nFratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam: supportántes ínvicem, et donántes vobismetípsis, si quis advérsus áliquem habet querélam: sicut et Dóminus donávit vobis, ita et vos. Super ómnia autem hæc caritátem habéte, quod est vínculum perfectiónis: et pax Christi exsúltet in córdibus vestris, in qua et vocáti estis in uno córpore: et grati estóte. Verbum Christi hábitet in vobis abundánter, in omni sapiéntia, docéntes et commonéntes vosmetípsos psalmis, hymnis et cánticis spirituálibus, in grátia cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo et Patri per ipsum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi1-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja.\n!Ps 96:1\nV. Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.",
+            "incipit": "Timébunt gentes nomen",
+            "mp3": "graduel_timebunt-gentes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:24-30\nIn illo témpore: Dixit Jesus turbis parábolam hanc: Símile factum est regnum cœlórum hómini, qui seminávit bonum semen in agro suo. Cum autem dormírent hómines, venit inimícus ejus, et superseminávit zizánia in médio trítici, et ábiit. Cum autem crevísset herba et fructum fecísset, tunc apparuérunt et zizánia. Accedéntes autem servi patrisfamílias, dixérunt ei: Dómine, nonne bonum semen seminásti in agro tuo? Unde ergo habet zizánia? Et ait illis: Inimícus homo hoc fecit. Servi autem dixérunt ei: Vis, imus, et collígimus ea? Et ait: Non: ne forte colligéntes zizánia eradicétis simul cum eis et tríticum. Sínite utráque créscere usque ad messem, et in témpore messis dicam messóribus: Collígite primum zizánia, et alligáte ea in fascículos ad comburéndum, tríticum autem congregáte in hórreum meum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Communio",
+            "texte": "!Luc 4:22\nMirabántur omnes de his, quæ procedébant de ore Dei.",
+            "incipit": "Mirabántur omnes de",
+            "mp3": "communion_mirabantur-omnes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Epi5-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 96:7-8\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses.\n&Gloria\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.",
+            "incipit": "Adorez Dieu, tous",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Oratio",
+            "texte": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, tua semper protectióne muniátur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.\n!Col 3:12-17\nMes Frères : comme élus de Dieu, saints et bien-aimés, revêtez-vous d’entrailles de miséricorde, de bonté, d’humilité, de douceur, et patience, vous supportant les uns les autres et vous pardonnant réciproquement, si l’un a sujet de se plaindre de l’autre. Comme le Seigneur vous a pardonné, pardonnez-vous aussi. Mais surtout revêtez-vous de la charité, qui est le lien de la perfection. Et que la paix du Christ, à laquelle vous avez été appelés de manière à former un seul corps, règne dans vos cœurs ; soyez reconnaissants. Que la parole du Christ demeure en vous avec abondance, de telle sorte que vous vous instruisiez et vous avertissiez les uns les autres en toute sagesse : sous l’inspiration de la grâce que vos cœurs s’épanchent vers Dieu en chants, par des psaumes, par des hymnes, par des cantiques spirituels. En quoi que ce soit que vous fassiez, en parole ou en œuvre, faites tout au nom du Seigneur Jésus, en rendant par lui des actions de grâces à Dieu le Père.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi1-0.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja.\n!Ps 96:1\nV. Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.",
+            "incipit": "Timébunt gentes nomen",
+            "mp3": "graduel_timebunt-gentes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:24-30\nIn illo témpore: Dixit Jesus turbis parábolam hanc: Símile factum est regnum cœlórum hómini, qui seminávit bonum semen in agro suo. Cum autem dormírent hómines, venit inimícus ejus, et superseminávit zizánia in médio trítici, et ábiit. Cum autem crevísset herba et fructum fecísset, tunc apparuérunt et zizánia. Accedéntes autem servi patrisfamílias, dixérunt ei: Dómine, nonne bonum semen seminásti in agro tuo? Unde ergo habet zizánia? Et ait illis: Inimícus homo hoc fecit. Servi autem dixérunt ei: Vis, imus, et collígimus ea? Et ait: Non: ne forte colligéntes zizánia eradicétis simul cum eis et tríticum. Sínite utráque créscere usque ad messem, et in témpore messis dicam messóribus: Collígite primum zizánia, et alligáte ea in fascículos ad comburéndum, tríticum autem congregáte in hórreum meum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Communio",
+            "texte": "!Luc 4:22\nTous s'extasiaient des paroles qui sortaient de la bouche de Dieu.",
+            "incipit": "Tous s'extasiaient des",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Epi5-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja.\n!Ps 96:1\nV. Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.",
-        "Francais": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre, votre gloire.\nV. Car le Seigneur a édifié Sion, et il sera vu dans sa majesté. Alléluia, alléluia.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_timebunt-gentes.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 13:24-30\nEn ce temps-là, Jésus dit aux foules cette parabole : « Le royaume des cieux est semblable à un homme qui avait semé du bon grain dans son champ. Or, pendant que les hommes dormaient, son ennemi vint et sema de l'ivraie au milieu du froment par dessus, et il s'en alla. Quand l'herbe eut poussé et donné son fruit, alors apparut aussi l'ivraie. Et les serviteurs du maître de maison vinrent lui dire : « Maître, n'avez-vous pas semé du bon grain dans votre champ ? D'où vient donc qu'il s'y trouve de l'ivraie ? » Il leur dit : « C'est un ennemi qui a fait cela. » Les serviteurs lui disent : « Voulez-vous que nous allions la ramasser ? — Non, dit-il, de peur qu'en ramassant l'ivraie vous n'arrachiez aussi le froment. Laissez croître ensemble l'un et l'autre jusqu'à la moisson, et au temps de la moisson je dirai aux moissonneurs : Ramassez d'abord l'ivraie, et liez-la en bottes pour la brûler ; quant aufroment, amassez-le dans mon grenier. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
-        "Francais": "!Ps 117:16; 117:17\nLa droite du Seigneur a agi avec force, la droite du Seigneur m'a élevé ; je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur."
-      },
-      "audios": "Graduale Project/offertoire_dextera-domini.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Communio",
-        "Francais": "!Luc 4:22\nTous s'extasiaient des paroles qui sortaient de la bouche de Dieu."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Epi5-0.txt",
+        "Latin/Tempora/Epi5-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

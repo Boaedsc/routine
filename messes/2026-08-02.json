@@ -1,68 +1,210 @@
 {
   "date": "2026-08-02",
-  "celebration": {
-    "nom": "10e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent10-0"
-  ],
-  "cles_jour": [
-    "Pent10-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 54:17-20; 54:23\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.\n!Ps 54:2-3\nExáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.\n&Gloria\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.",
-        "Francais": "!Ps 54:17; 54:18; 54:20; 54:23\nv. Tandis que je criais vers le Seigneur, il exauça ma voix contre ceux qui s'approchent de moi ; et il les a humiliés, lui qui est avant les siècles et demeure à jamais. Jette ton souci dans le Seigneur, et lui-même te nourrira.\n!Ps 54:2\nExaucez, Seigneur, ma prière, et ne méprisez point ma supplication ; faites attention à moi et exaucez-moi.\n&Gloria\nv. Tandis que je criais vers le Seigneur, il exauça ma voix contre ceux qui s'approchent de moi ; et il les a humiliés, lui qui est avant les siècles et demeure à jamais. Jette ton souci dans le Seigneur, et lui-même te nourrira."
+      "occurrence": {
+        "gagnant": "Tempora/Pent10-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent10-0.txt",
+        "temporal": "Latin/Tempora/Pent10-0.txt",
+        "sanctoral": "Latin/Sancti/08-02.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_dum-clamarem.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 12:2-11\nFrères, vous savez que, lorsque vous étiez païens, vous vous laissiez entraîner vers les idoles muettes, selon que vous y étiez conduits. Je vous déclare donc que personne, s'il parle par l'Esprit de Dieu, ne dit : Jésus est anathème ; et personne ne peut dire : Jésus est le Seigneur, si ce n'est par l'Esprit-Saint. Il y a pourtant diversité de dons, mais c'est le même Esprit ; diversité de ministères, mais c'est le même Seigneur ; diversité d'opérations, mais c'est le même Dieu qui opère tout en tous. À chacun la manifestation de l'Esprit est donnée pour l'utilité commune. En effet, à l'un est donnée par l'Esprit une parole de sagesse, à l'autre une parole de connaissance, selon le même Esprit ; à un autre, la foi, par le même Esprit ; à un autre, le don des guérisons, par ce seul et même Esprit ; à un autre, la puissance d'opérer des miracles ; à un autre la prophétie ; à un autre, le discernement des esprits ; à un autre la diversité des langues ; à un autre le don de les interpréter. Mais c'est le seul et même Esprit qui produit tous ces dons, les distribuant à chacun en particulier, comme il lui plaît."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 54:17-20; 54:23\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.\n!Ps 54:2-3\nExáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.\n&Gloria\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.",
+            "incipit": "Dum clamárem ad",
+            "mp3": "introitus_dum-clamarem.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas: multíplica super nos misericórdiam tuam; ut, ad tua promíssa curréntes, cœléstium bonórum fácias esse consórtes.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:2-11\nFratres: Scitis, quóniam, cum gentes essétis, ad simulácra muta prout ducebámini eúntes. Ideo notum vobisfacio, quod nemo in Spíritu Dei loquens, dicit anáthema Jesu. Et nemo potest dícere, Dóminus Jesus, nisi in Spíritu Sancto. Divisiónes vero gratiárum sunt, idem autem Spíritus. Et divisiónes ministratiónum sunt, idem autem Dóminus. Et divisiónes operatiónum sunt, idem vero Deus, qui operátur ómnia in ómnibus. Unicuíque autem datur manifestátio Spíritus ad utilitátem. Alii quidem per Spíritum datur sermo sapiéntiæ álii autem sermo sciéntiæ secúndum eúndem Spíritum: álteri fides in eódem Spíritu: álii grátia sanitátum in uno Spíritu: álii operátio virtútum, álii prophetía, álii discrétio spirítuum, álii génera linguárum, álii interpretátio sermónum. Hæc autem ómnia operátur unus atque idem Spíritus, dívidens síngulis, prout vult.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 16:8; 16:2\nCustódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\nV. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.\nAllelúja, allelúja.\n!Ps 64:2\nTe decet hymnus, Deus, in Sion: et tibi reddétur votum in Jerúsalem. Allelúja.",
+            "incipit": "Custódi me, Dómine,",
+            "mp3": "graduel_custodi-me.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 18:9-14\nIn illo témpore: Dixit Jesus ad quosdam, qui in se confidébant tamquam justi et aspernabántur céteros, parábolam istam: Duo hómines ascendérunt in templum, ut orárent: unus pharisǽus, et alter publicánus. Pharisǽus stans, hæc apud se orábat: Deus, grátias ago tibi, quia non sum sicut céteri hóminum: raptóres, injústi, adúlteri: velut étiam hic publicánus. Jejúno bis in sábbato: décimas do ómnium, quæ possídeo. Et publicánus a longe stans nolébat nec óculos ad cœlum leváre: sed percutiébat pectus suum, dicens: Deus, propítius esto mihi peccatóri. Dico vobis: descéndit hic justificátus in domum suam ab illo: quia omnis qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": "Ad te, Dómine,",
+            "mp3": "offertoire_ad-te-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Secreta",
+            "texte": "Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem nóminis tui deferénda tribuísti, ut eadem remédia fíeri nostra præstáres.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 50:21\nAcceptábis sacrifícium justítiæ, oblatiónes et holocáusta, super altáre tuum, Dómine.",
+            "incipit": "Acceptábis sacrifícium justítiæ,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent10-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non désinis sacraméntis, tuis non destítuas benígnus auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 54:17-20; 54:23\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.\n!Ps 54:2-3\nExáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.\n&Gloria\nv. Dum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.",
+            "incipit": "Dum clamárem ad",
+            "mp3": "introitus_dum-clamarem.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas: multíplica super nos misericórdiam tuam; ut, ad tua promíssa curréntes, cœléstium bonórum fácias esse consórtes.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:2-11\nFratres: Scitis, quóniam, cum gentes essétis, ad simulácra muta prout ducebámini eúntes. Ideo notum vobisfacio, quod nemo in Spíritu Dei loquens, dicit anáthema Jesu. Et nemo potest dícere, Dóminus Jesus, nisi in Spíritu Sancto. Divisiónes vero gratiárum sunt, idem autem Spíritus. Et divisiónes ministratiónum sunt, idem autem Dóminus. Et divisiónes operatiónum sunt, idem vero Deus, qui operátur ómnia in ómnibus. Unicuíque autem datur manifestátio Spíritus ad utilitátem. Alii quidem per Spíritum datur sermo sapiéntiæ álii autem sermo sciéntiæ secúndum eúndem Spíritum: álteri fides in eódem Spíritu: álii grátia sanitátum in uno Spíritu: álii operátio virtútum, álii prophetía, álii discrétio spirítuum, álii génera linguárum, álii interpretátio sermónum. Hæc autem ómnia operátur unus atque idem Spíritus, dívidens síngulis, prout vult.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 16:8; 16:2\nCustódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\nV. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.\nAllelúja, allelúja.\n!Ps 64:2\nTe decet hymnus, Deus, in Sion: et tibi reddétur votum in Jerúsalem. Allelúja.",
+            "incipit": "Custódi me, Dómine,",
+            "mp3": "graduel_custodi-me.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 18:9-14\nIn illo témpore: Dixit Jesus ad quosdam, qui in se confidébant tamquam justi et aspernabántur céteros, parábolam istam: Duo hómines ascendérunt in templum, ut orárent: unus pharisǽus, et alter publicánus. Pharisǽus stans, hæc apud se orábat: Deus, grátias ago tibi, quia non sum sicut céteri hóminum: raptóres, injústi, adúlteri: velut étiam hic publicánus. Jejúno bis in sábbato: décimas do ómnium, quæ possídeo. Et publicánus a longe stans nolébat nec óculos ad cœlum leváre: sed percutiébat pectus suum, dicens: Deus, propítius esto mihi peccatóri. Dico vobis: descéndit hic justificátus in domum suam ab illo: quia omnis qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": "Ad te, Dómine,",
+            "mp3": "offertoire_ad-te-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Secreta",
+            "texte": "Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem nóminis tui deferénda tribuísti, ut eadem remédia fíeri nostra præstáres.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 50:21\nAcceptábis sacrifícium justítiæ, oblatiónes et holocáusta, super altáre tuum, Dómine.",
+            "incipit": "Acceptábis sacrifícium justítiæ,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent10-0.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non désinis sacraméntis, tuis non destítuas benígnus auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 16:8; 16:2\nCustódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\nV. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem. \nAllelúja, allelúja.\n!Ps 64:2\nTe decet hymnus, Deus, in Sion: et tibi reddétur votum in Jerúsalem. Allelúja.",
-        "Francais": "!Ps 16:8; 68:2\nGardez-moi, Seigneur, comme la prunelle de l'œil ; à l'ombre de vos ailes protégez-moi.\nV. Que votre jugement en ma faveur jaillisse de votre visage, que vos yeux voient l'équité. Alléluia, alléluia.\n!Ps 64:2\nIl convient de vous chanter des hymnes dans Sion, ô Dieu, et l'on s'acuittera de vœux envers vous dans Jérusalem. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_custodi-me.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 18:9-14.\nEn ce temps-là, Jésus dit cette parabole à l'adresse de certains qui avaient en eux-mêmes la conviction d'être justes et qui méprisaient les autres : « Deux hommes montèrent au temple pour prier, l'un Pharisien et l'autre publicain. Le Pharisien, s'étant arrêté, priait ainsi en lui-même : « Ô Dieu, je vous rends grâces de ce que je ne suis pas comme le reste des hommes, qui sont rapaces, injustes, adultères, ni encore comme ce publicain. Je jeûne deux fois la semaine ; je paie la dîme de tout ce que j'acquiers.» Le publicain, se tenant à distance, n'osait pas même lever les yeux au ciel ; mais il se frappait la poitrine en disant : « Ô Dieu, ayez pitié de moi le pécheur !» Je vous le dis, celui-ci descendit dans sa maison justifié, plutôt que celui-là ; car quiconque s'élève sera abaissé, et qui s'abaisse sera élevé. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
-        "Francais": "!Ps 24:1-3\nVers vous, Seigneur, j'ai élevé mon âme ; ô mon Dieu, en vous je me confie, je ne rougirai pas ; que je ne sois pas la risée de mes ennemis, car tous ceux qui vous attendent ne seront pas confondus."
-      },
-      "audios": "Graduale Project/offertoire_ad-te-domine.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 50:21\nAcceptábis sacrifícium justítiæ, oblatiónes et holocáusta, super altáre tuum, Dómine.",
-        "Francais": "!Ps 50:21.\nVous aurez pour agréable le sacrifice de justice, les oblations et les holocaustes sur votre autel, Seigneur."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent10-0.txt",
+        "Latin/Tempora/Pent10-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

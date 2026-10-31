@@ -1,70 +1,211 @@
 {
   "date": "2026-08-08",
-  "celebration": {
-    "nom": "Saints Cyriaque, Large et Smaragde",
-    "classe": 4,
-    "note": "(temporal : Samedi de la 10e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/08-08",
-    "Tempora/Pent10-6"
-  ],
-  "cles_jour": [
-    "08-08",
-    "Pent10-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 33:10-11\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.",
-        "Francais": "!Ps 33:10-11\nv. Craignez le Seigneur, vous, tous ses Saints, car rien ne manque à ceux qui le craignent : les riches ont été dans le besoin et affamés : mais il ne manquera aucun bien à ceux qui craignent le Seigneur.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps : toujours sa louange sera à ma bouche.\n&Gloria\nv. Craignez le Seigneur, vous, tous ses Saints, car rien ne manque à ceux qui le craignent : les riches ont été dans le besoin et affamés : mais il ne manquera aucun bien à ceux qui craignent le Seigneur."
+      "occurrence": {
+        "gagnant": "Sancti/08-08",
+        "nom_sanctoral": "S. Joannis Vianney Confessoris",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-08.txt",
+        "temporal": "Latin/Tempora/Pent10-6.txt",
+        "sanctoral": "Latin/Sancti/08-08.txt",
+        "calendrier": "08-08",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 2:13-16\nMes Frères : Nous ne cessons de rendre grâces à Dieu, de ce qu’ayant reçu la divine parole que nous avons fait entendre, vous l’avez reçue, non comme parole des hommes, mais, ainsi qu’elle l’est véritablement, comme une parole de Dieu. C’est elle qui déploie sa puissance en vous qui croyez. Car vous, frères, vous êtes devenus les imitateurs des Églises de Dieu qui se réunissent en Jésus-Christ dans la Judée, puisque vous avez souffert vous aussi de la part de vos compatriotes, ce qu’elles ont eu à souffrir de la part des Juifs, de ces Juifs qui ont mis à mort le Seigneur Jésus et les prophètes, nous ont persécutés, ne plaisent point à Dieu et sont ennemis du genre humain, nous empêchant de prêcher aux nations pour leur salut : de sorte qu’ils comblent sans cesse la mesure de leurs péchés. Mais la colère de Dieu est tombée sur eux pour y demeurer jusqu’à la fin."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:10-11\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.",
+            "incipit": "Timéte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 2:13-16\nFratres: Grátias ágimus Deo sine intermissióne: quóniam, cum accepissétis a nobis verbum audítus Dei, accepístis illud, non ut verbum hóminum, sed - sicut est vere - verbum Dei, qui operátur in vobis, qui credidístis. Vos enim imitatóres facti estis, fratres, ecclesiárum Dei, quæ sunt in Judæa in Christo Jesu: quia éadem passi estis et vos a contribúlibus vestris, sicut et ipsi a Judæis: qui et Dóminum occidérunt Jesum et Prophétas: et nos persecúti sunt, et Deo non placent, et ómnibus homínibus adversántur, prohibéntes nos géntibus loqui, ut salvæ fiant, ut ímpleant peccáta sua semper: pervénit enim ira Dei super illos usque in finem.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:10; 33:11\nTiméte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus eum. v. Inquiréntes autem Dóminum, non defícient omni bono.\nAllelúja, allelúja.\n!Sap 3:7\nFulgébunt justi, et tamquam scintíllæ in arundinéto current in ætérnum. Allelúja.",
+            "incipit": "Timéte Dóminum, omnes",
+            "mp3": "graduel_timete-dominum-omnes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Tractus",
+            "texte": "!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Qui séminant in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nIn illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquéntur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.",
+            "incipit": "Lætámini in Dómino",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Secreta",
+            "texte": "Accépta sit in conspéctu tuo, Dómine, nostra devótio: et eórum nobis fiat supplicatióne salutáris, pro quorum sollemnitáte defértur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Communio",
+            "texte": "!Marc 16:17; 16:18\nSigna autem eos, qui in me credunt, hæc sequéntur: dæmónia ejícient: super ægros manus impónent, et bene habébunt.",
+            "incipit": "Signa autem eos,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-08.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedéntibus sanctis Martýribus tuis Cyríaco, Largo et Smarágdo, sentiámus efféctum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:10-11\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non defícient omni bono.",
+            "incipit": "Timéte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Oratio",
+            "texte": "Dieu, vous nous réjouissez par la fête annuelle de vos saints Martyrs Cyriaque, Large et Smaragde : accordez-nous, dans votre miséricorde, qu’honorant leur naissance au ciel, nous imitions aussi le courage qu’ils ont montré dans leur martyre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 2:13-16\nFratres: Grátias ágimus Deo sine intermissióne: quóniam, cum accepissétis a nobis verbum audítus Dei, accepístis illud, non ut verbum hóminum, sed - sicut est vere - verbum Dei, qui operátur in vobis, qui credidístis. Vos enim imitatóres facti estis, fratres, ecclesiárum Dei, quæ sunt in Judæa in Christo Jesu: quia éadem passi estis et vos a contribúlibus vestris, sicut et ipsi a Judæis: qui et Dóminum occidérunt Jesum et Prophétas: et nos persecúti sunt, et Deo non placent, et ómnibus homínibus adversántur, prohibéntes nos géntibus loqui, ut salvæ fiant, ut ímpleant peccáta sua semper: pervénit enim ira Dei super illos usque in finem.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:10; 33:11\nTiméte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus eum. v. Inquiréntes autem Dóminum, non defícient omni bono.\nAllelúja, allelúja.\n!Sap 3:7\nFulgébunt justi, et tamquam scintíllæ in arundinéto current in ætérnum. Allelúja.",
+            "incipit": "Timéte Dóminum, omnes",
+            "mp3": "graduel_timete-dominum-omnes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Tractus",
+            "texte": "!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Qui séminant in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nIn illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquéntur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.",
+            "incipit": "Lætámini in Dómino",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Secreta",
+            "texte": "Accépta sit in conspéctu tuo, Dómine, nostra devótio: et eórum nobis fiat supplicatióne salutáris, pro quorum sollemnitáte defértur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Communio",
+            "texte": "!Marc 16:17; 16:18\nSigna autem eos, qui in me credunt, hæc sequéntur: dæmónia ejícient: super ægros manus impónent, et bene habébunt.",
+            "incipit": "Signa autem eos,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-08.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedéntibus sanctis Martýribus tuis Cyríaco, Largo et Smarágdo, sentiámus efféctum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 33:10; 33:11\nTiméte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus eum. v. Inquiréntes autem Dóminum, non defícient omni bono. \nAllelúja, allelúja.\n!Sap 3:7\nFulgébunt justi, et tamquam scintíllæ in arundinéto current in ætérnum. Allelúja.",
-        "Francais": "!Ps 33:10; 33:11\nCraignez le Seigneur, vous, tous ses Saints : car rien ne manque à ceux qui le craignent.\nv. Il ne manquera aucun bien à ceux qui craignent le Seigneur. Alléluia, alléluia.\n!Sap 3:7.\nLes justes brilleront et étincelleront éternellement comme les feux qui courent à travers les roseaux. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_timete-dominum-omnes.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nEn ce temps-là : Jésus dit à ses disciples : Allez par tout le monde et prêchez l’Évangile à toute créature. Celui qui croira et sera baptisé, sera sauvé ; celui qui ne croira pas, sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru en mon nom : ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s’ils boivent quelque poison, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.",
-        "Francais": "!Ps 31:11\nJustes, réjouissez-vous dans le Seigneur, et soyez dans l’allégresse : et glorifiez-vous en lui vous tous qui avez le cœur droit, alléluia, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Marc 16:17; 16:18\nSigna autem eos, qui in me credunt, hæc sequéntur: dæmónia ejícient: super ægros manus impónent, et bene habébunt.",
-        "Francais": "!Marc 16:17; 16:18\nVoici les miracles qui accompagneront ceux qui auront cru en moi : ils chasseront les démons : ils imposeront les mains aux malades et les malades seront guéris."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Latin/Commune/C3a.txt",
+        "Francais/Sancti/08-08.txt",
+        "Latin/Sancti/08-08.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

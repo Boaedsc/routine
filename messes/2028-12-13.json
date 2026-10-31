@@ -1,52 +1,310 @@
 {
   "date": "2028-12-13",
-  "celebration": {
-    "nom": "Sainte Lucie",
-    "classe": 3,
-    "note": "(temporal : Mercredi de la 2e semaine de l'Avent)"
-  },
-  "fichiers": [
-    "Sancti/12-13",
-    "Tempora/Adv2-3"
-  ],
-  "cles_jour": [
-    "12-13",
-    "Adv2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C6a"
+      "occurrence": {
+        "gagnant": "Sancti/12-13",
+        "nom_sanctoral": "S. Luciae Virginis et Martyris",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-13.txt",
+        "temporal": "Latin/Tempora/Adv2-3.txt",
+        "sanctoral": "Latin/Sancti/12-13.txt",
+        "calendrier": "12-13",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!2 Cor 10:17-18; 11:1-2\nMes frères, que celui qui se glorifie, se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est approuvé, mais celui que Dieu recommande. Ah ! Si vous pouviez supporter de ma part un peu de folie ! Eh bien, supportez-moi. Car je suis jaloux de vous d’une jalousie de Dieu ; en effet, je vous ai fiancés à un unique époux, au Christ, pour vous présenter à lui comme une vierge pure."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:8\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Oratio",
+            "texte": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ N. festivitáte gaudémus; ita piæ devotiónis erudiámur afféctu.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11:1-2\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.\nAllelúja, allelúja.\n!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-22.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.\n_\n!Tractus\nVeni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum: pro cujus amóre sánguinem tuum fudísti.\n!Ps 44:8; 44:5\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis.\nV. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:44-52\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. ¶ Íterum símile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Íterum símile est regnum cœlórum sagénæ missæ in mare et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cœlórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15-16\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia et exsultatióne: adducéntur in templum Regi Dómino. (Allelúja.)",
+            "incipit": "Afferéntur Regi Vírgines",
+            "mp3": "offertoire_afferentur-regi-virgines-proximae.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Secreta",
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Communio",
+            "texte": "!Ps 118:161-162\nPríncipes persecúti sunt me gratis, et a verbis tuis formidávit cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia multa.",
+            "incipit": "Príncipes persecúti sunt",
+            "mp3": "communion_principes-persecuti-sunt.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-13.txt",
+            "section": "Postcommunio",
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Introitus",
+            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Oratio",
+            "texte": "Exaucez-nous, Dieu notre Sauveur, afin que célébrant dans la joie la fête de la bienheureuse N., nous nous laissions gagner aussi par l’ardeur de son amour.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Lectio",
+            "texte": "Lecture du Bienheureux Paul apôtres aux Corinthiens.\n!2 Cor 10:17-18; 11:1-2\nFrère, si quelqu’un se glorifie, qu’il se glorifie dans le Seigneur. Ce n’est pas celui qui se recommande lui-même qui est un homme de valeur éprouvée, c’est celui que le Seigneur recommande. Oh ! si vous pouviez supporter de ma part un peu de folie ! Eh bien ! oui, supportez-moi. J’éprouve à votre égard une jalousie divine ; car je vous ai fiancés à un époux unique : comme une vierge pure, je vous ai présentés au Christ.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia.\n!Ps 44:3\nV. La grâce est répandue sur vos lèvres : c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles. Alléluia.",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-22.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C6.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:8.\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a donné l’onction d’allégresse.\n_\n!Tractus\nVenez, épouse du Christ, recevez la couronne que le Seigneur vous a préparé à jamais. Pour son amour vous avez répandu votre sang.\n!Ps 44:8; 44:5\nVous avez aimé la justice et haï l’iniquité, c’est pourquoi Dieu, votre Dieu, vous a donné l’onction d’allégresse.\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Evangile seon Saint Matthieu.\n!Matt 13:44-52\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le Royaume des cieux est comparable à un trésor caché dans un champ. L'homme qui l'a trouvé le cache de nouveau, puis, dans sa joie, il s'en va vendre tout ce qu'il a et achète ce champ. Le Royaume des cieux est encore comparable à un marchand qui cherche de belles perles. En ayant trouvé une de grand prix, il s'en va vendre tout ce qu'il a et l'achète. Le Royaume des cieux est encore comparable à un grand filet jeté en mer et qui a ramené des poissons de toute espèce. Une fois qu'il a été rempli, les pêcheurs l'ont tiré sur le rivage, puis, s'étant assis, ils ont recueilli les bons dans des corbeilles et rejeté les mauvais. Ainsi en sera-t-il à la fin du monde : les anges se présenteront, sépareront les méchants d'avec les justes, et les jetteront dans la fournaise ardente. Là seront les pleurs et les grincements de dents. Avez-vous compris tout cela ? » Ils lui répondent : « Oui. » Il leur dit alors : « C'est pourquoi tout scribe inité au Royaume des cieux est semblable à un maître de maison qui tire de son trésor du neuf et du vieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15-16\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
+            "incipit": "Des filles de",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Secreta",
+            "texte": "Agréez, Seigneur, l’offrande que vous fait le peuple fidèle pour honorer vos saints, sachant qu’il doit à leur mérites le secours qu’il a reçu dans les épreuves.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Communio",
+            "texte": "!Ps 118:161-162\nPríncipes persecúti sunt me gratis, et a verbis tuis formidávit cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia multa.",
+            "incipit": "Príncipes persecúti sunt",
+            "mp3": "communion_principes-persecuti-sunt.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-13.txt",
+            "section": "Postcommunio",
+            "texte": "Seigneur, qui avez rassasié votre famille de ces dons sacrés, daignez retremper toujours nos forces à la prière de celle que nous fêtons.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Sancti/07-22",
-        "Francais": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia.\n!Ps 44:3\nV. La grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 118:161-162\nPríncipes persecúti sunt me gratis, et a verbis tuis formidávit cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia multa.",
-        "Francais": "!Ps 118:161-162\nLes princes m’ont persécuté sans raison et mon cœur n’a été effrayé que de vos paroles. Je mets ma joie dans vos ordres, comme celui qui a trouvé de riches dépouilles."
-      },
-      "audios": "Graduale Project/communion_principes-persecuti-sunt.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C6.txt",
+        "../horas/Latin/Commune/C6.txt",
+        "Francais/Sancti/12-13.txt",
+        "Latin/Sancti/12-13.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

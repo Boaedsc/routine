@@ -1,15 +1,293 @@
 {
   "date": "2028-12-31",
-  "celebration": {
-    "nom": "Dimanche dans l'octave de Noël",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Nat31"
-  ],
-  "cles_jour": [
-    "Nat31"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat31",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/12-31",
+        "nom_sanctoral": "Die septima infra octavam Nativitatis",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-31.txt",
+        "temporal": "Latin/Tempora/Nat1-0.txt",
+        "sanctoral": "Latin/Sancti/12-31.txt",
+        "calendrier": "12-31",
+        "table_transfert": "1960",
+        "transfert_annuel": [
+          "Tempora/Nat1-0"
+        ],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joann 21:15-17\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\n&Gloria\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)",
+            "incipit": "Si díligis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Oratio",
+            "texte": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Nat1-0.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epístolæ beati Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFratres: Quanto témpore heres párvulus est, nihil differt a servo, cum sit dóminus ómnium: sed sub tutóribus et actóribus est usque ad præfinítum tempus a patre: ita et nos, cum essémus párvuli, sub eleméntis mundi erámus serviéntes. At ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus. Quóniam autem estis fílii, misit Deus Spíritum Fílii sui in corda vestra, clamántem: Abba, Pater. Itaque jam non est servus, sed fílius: quod si fílius, et heres per Deum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 88:21\nV. Invéni David servum meum: óleo sancto meo unxi eum. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminum\n!Ps 39:10-11\nAnnuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non prohibébo: Dómine, tu scisti.\nV. Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.\nV. Non abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Nat1-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 2:33-40\nIn illo témpore: Erat Joseph et María Mater Jesu, mirántes super his quæ dicebántur de illo. Et benedíxit illis Símeon, et dixit ad Maríam Matrem ejus: Ecce, pósitus est hic in ruínam et in resurrectiónem multórum in Israël: et in signum, cui contradicétur: et tuam ipsíus ánimam pertransíbit gládius, ut reveléntur ex multis córdibus cogitatiónes. Et erat Anna prophetíssa, fília Phánuel, de tribu Aser: hæc procésserat in diébus multis, et víxerat cum viro suo annis septem a virginitáte sua. Et hæc vídua usque ad annos octogínta quátuor: quæ non discedébat de templo, jejúniis et obsecratiónibus sérviens nocte ac die. Et hæc, ipsa hora supervéniens, confitebátur Dómino, et loquebátur de illo ómnibus, qui exspectábant redemptiónem Israël. Et ut perfecérunt ómnia secúndum legem Dómini, revérsi sunt in Galilǽam in civitátem suam Názareth. Puer autem crescébat, et confortabátur, plenus sapiéntia: et grátia Dei erat in illo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                    "section": "Offertorium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Secreta",
+            "texte": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4b.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Postcommunio",
+            "texte": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Introitus",
+            "texte": "!Joannes 21:15-17\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)",
+            "incipit": "Si tu m’aimes,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Oratio",
+            "texte": "Pasteur éternel, considérez avec bonté votre troupeau, et gardez-le sous la constante protection du bienheureux N., souverain pontife, que vous avez constitué pasteur de toute l’Église.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4b.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Nat1-0.txt",
+            "section": "Lectio",
+            "texte": "Lectio Epístolæ beati Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFratres: Quanto témpore heres párvulus est, nihil differt a servo, cum sit dóminus ómnium: sed sub tutóribus et actóribus est usque ad præfinítum tempus a patre: ita et nos, cum essémus párvuli, sub eleméntis mundi erámus serviéntes. At ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus. Quóniam autem estis fílii, misit Deus Spíritum Fílii sui in corda vestra, clamántem: Abba, Pater. Itaque jam non est servus, sed fílius: quod si fílius, et heres per Deum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 88:21\nV. Invéni David servum meum: óleo sancto meo unxi eum. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4b.txt",
+            "section": "Tractus",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes.\n!Ps 39:10-11\nJ’ai annoncé votre justice dans la grande assemblée ; Seigneur, vous le savez, je n’ai pas fermé la bouche.\nV. Je n’ai pas caché votre justice au fond de mon cœur : j’ai proclamé votre vérité et votre salut.\nV. Je n’ai pas caché votre bonté ni votre vérité à la grande assemblée.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Nat1-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 2:33-40\nIn illo témpore: Erat Joseph et María Mater Jesu, mirántes super his quæ dicebántur de illo. Et benedíxit illis Símeon, et dixit ad Maríam Matrem ejus: Ecce, pósitus est hic in ruínam et in resurrectiónem multórum in Israël: et in signum, cui contradicétur: et tuam ipsíus ánimam pertransíbit gládius, ut reveléntur ex multis córdibus cogitatiónes. Et erat Anna prophetíssa, fília Phánuel, de tribu Aser: hæc procésserat in diébus multis, et víxerat cum viro suo annis septem a virginitáte sua. Et hæc vídua usque ad annos octogínta quátuor: quæ non discedébat de templo, jejúniis et obsecratiónibus sérviens nocte ac die. Et hæc, ipsa hora supervéniens, confitebátur Dómino, et loquebátur de illo ómnibus, qui exspectábant redemptiónem Israël. Et ut perfecérunt ómnia secúndum legem Dómini, revérsi sunt in Galilǽam in civitátem suam Názareth. Puer autem crescébat, et confortabátur, plenus sapiéntia: et grátia Dei erat in illo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                    "section": "Offertorium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Secreta",
+            "texte": "Après l’offrande de ces dons, Seigneur, veuillez éclairer votre Église dans votre bonté : afin que votre troupeau progresse en tout lieu, et que ses pasteurs, gouvernés par vous, soient agréables à vos yeux.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4b.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Nat1-0.txt",
+            "section": "Communio",
+            "texte": "!Matt 2:20\nPrends avec toi l'Enfant et sa Mère, et pars pour le pays d'Israël ; car ils sont morts, ceux qui en voulaient à la vie de l'Enfant.",
+            "incipit": "Prends avec toi",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-31.txt",
+            "section": "Postcommunio",
+            "texte": "Gouvernez avec bienveillance, Seigneur, votre Église qui s’est nourrie à la table sainte ; afin que, sous votre conduite toute-puissante, elle reçoive un accroissement de liberté et demeure ferme dans l’intégrité de sa foi.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4b.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4b.txt",
+        "../horas/Latin/Commune/C4b.txt",
+        "Francais/Sancti/12-31.txt",
+        "Francais/Tempora/Nat1-0.txt",
+        "Latin/Sancti/12-31.txt",
+        "Latin/Tempora/Nat1-0.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

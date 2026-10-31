@@ -1,68 +1,226 @@
 {
   "date": "2026-04-26",
-  "celebration": {
-    "nom": "4e dimanche après Pâques",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc3-0"
-  ],
-  "cles_jour": [
-    "Pasc3-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc3",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 65:1-2.\nv. Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus, allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.\n!Ps 65:3\nDícite Deo, quam terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ mentiéntur tibi inimíci tui.\n&Gloria\nv. Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus, allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.",
-        "Francais": "!Ps 65:1-2.\nv. Jubilez pour Dieu, toute la terre, alléluia ; psalmodiez pour son Nom, alléluia ; donnez de l'éclat à sa louange, alléluia, alléluia, alléluia.\n!Ps 65:3\nDites à Dieu : Combien redoutables sont vos œuvres, Seigneur ! à cause de la grandeur de votre force, vos ennemis vous rendent leurs hommages.\n&Gloria\nv. Jubilez pour Dieu, toute la terre, alléluia ; psalmodiez pour son Nom, alléluia ; donnez de l'éclat à sa louange, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc3-0r",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc3-0r.txt",
+        "temporal": "Latin/Tempora/Pasc3-0r.txt",
+        "sanctoral": "Latin/Sancti/04-26.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pasc3-0r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_jubilate-deo.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 2:11-19\nBien-aimés, je vous exhorte, comme des étrangers et des voyageurs, à vous garder des convoitises de la chair qui font la guerre à l'âme. Ayez une conduite honnête au milieu des Gentils, afin que, sur le point même où ils vous calomnient comme si vous étiez des malfaiteurs, ils arrivent, en y regardant bien, à glorifier Dieu pour vos bonnes œuvres au jour de sa visite. Soyez donc soumis à toute institution humaine à cause de Dieu, soit au roi, comme souverain, soit aux gouverneurs, comme délégués par lui pour faire justice des malfaiteurs et approuver les gens de bien. Car c'est la volonté de Dieu que, par votre bonne conduite, vous fermiez la bouche aux insensés qui vous méconnaissent. Comportez-vous comme des hommes libres, non pas comme des hommes qui se font de la liberté un manteau pour couvrir leur malice, mais comme des serviteurs de Dieu. Rendez honneur à tous ; aimez tous les frères ; craignez Dieu ; honorez le roi. Vous, serviteurs, soyez soumis à vas maîtres avec toutes sortes de respects, non seulement à ceux qui sont bons et doux, mais encore à ceux qui sont difficiles. Car c'est là plaire à Dieu dans le Christ Jésus, Notre Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 65:1-2.\nv. Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus, allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.\n!Ps 65:3\nDícite Deo, quam terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ mentiéntur tibi inimíci tui.\n&Gloria\nv. Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus, allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.",
+            "incipit": "Jubiláte Deo, omnis",
+            "mp3": "introitus_jubilate-deo.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui errántibus, ut in viam possint redíre justítiæ, veritátis tuæ lumen osténdis: da cunctis, qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini; et ea, quæ sunt apta, sectári.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 2:11-19\nCaríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a carnálibus desidériis, quæ mílitant advérsus ánimam, conversatiónem vestram inter gentes habéntes bonam: ut in eo, quod detréctant de vobis tamquam de malefactóribus, ex bonis opéribus vos considerántes, gloríficent Deum in die visitatiónis. Subjécti ígitur estóte omni humánæ creatúræ propter Deum: sive regi, quasi præcellénti: sive dúcibus, tamquam ab eo missis ad vindíctam malefactórum, laudem vero bonórum: quia sic est volúntas Dei, ut benefaciéntes obmutéscere faciátis imprudéntium hóminum ignorántiam: quasi líberi, et non quasi velámen habéntes malítiæ libertátem, sed sicut servi Dei. Omnes honoráte: fraternitátem dilígite: Deum timéte: regem honorificáte. Servi, súbditi estóte in omni timóre dóminis, non tantum bonis et modéstis, sed étiam dýscolis. Hæc est enim grátia: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 110:9\nRedemptiónem misit Dóminus pópulo suo. Allelúja.\n!Luc 24:46\nOportébat pati Christum, et resúrgere a mórtuis: et ita intráre in glóriam suam. Allelúja.",
+            "incipit": "Allelúja, allelúja. Redemptiónem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 16:16-22\nIn illo témpore: Dixit Jesus discípulis suis: Módicum, et jam non vidébitis me: et íterum módicum, et vidébitis me: quia vado ad Patrem. Dixérunt ergo ex discípulis ejus ad ínvicem: Quid est hoc, quod dicit nobis: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me, et quia vado ad Patrem? Dicébant ergo: Quid est hoc, quod dicit: Módicum? nescímus, quid lóquitur. Cognóvit autem Jesus, quia volébant eum interrogáre, et dixit eis: De hoc quǽritis inter vos, quia dixi: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me. Amen, amen, dico vobis: quia plorábitis et flébitis vos, mundus autem gaudébit: vos autem contristabímini, sed tristítia vestra vertétur in gáudium. Múlier cum parit, tristítiam habet, quia venit hora ejus: cum autem pepérerit púerum, jam non méminit pressúræ propter gáudium, quia natus est homo in mundum. Et vos ígitur nunc quidem tristítiam habétis, íterum autem vidébo vos, et gaudébit cor vestrum: et gáudium vestrum nemo tollet a vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
+            "incipit": "Lauda, ánima mea,",
+            "mp3": "offertoire_lauda-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Secreta",
+            "texte": "His nobis, Dómine, mystériis conferátur, quo, terréna desidéria mitigántes, discámus amáre cœléstia.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Communio",
+            "texte": "!Joannes 16:16\nMódicum, et non vidébitis me, allelúja: íterum módicum, et vidébitis me, quia vado ad Patrem, allelúja, allelúja.",
+            "incipit": "Módicum, et non",
+            "mp3": "communion_modicum.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc3-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta quæ súmpsimus, quǽsumus, Dómine: et spirituálibus nos instáurent aliméntis, et corporálibus tueántur auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 65:1-2.\nv. Jubilez pour Dieu, toute la terre, alléluia ; psalmodiez pour son Nom, alléluia ; donnez de l'éclat à sa louange, alléluia, alléluia, alléluia.\n!Ps 65:3\nDites à Dieu : Combien redoutables sont vos œuvres, Seigneur ! à cause de la grandeur de votre force, vos ennemis vous rendent leurs hommages.\n&Gloria\nv. Jubilez pour Dieu, toute la terre, alléluia ; psalmodiez pour son Nom, alléluia ; donnez de l'éclat à sa louange, alléluia, alléluia, alléluia.",
+            "incipit": "Jubilez pour Dieu,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui errántibus, ut in viam possint redíre justítiæ, veritátis tuæ lumen osténdis: da cunctis, qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini; et ea, quæ sunt apta, sectári.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 2:11-19\nCaríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a carnálibus desidériis, quæ mílitant advérsus ánimam, conversatiónem vestram inter gentes habéntes bonam: ut in eo, quod detréctant de vobis tamquam de malefactóribus, ex bonis opéribus vos considerántes, gloríficent Deum in die visitatiónis. Subjécti ígitur estóte omni humánæ creatúræ propter Deum: sive regi, quasi præcellénti: sive dúcibus, tamquam ab eo missis ad vindíctam malefactórum, laudem vero bonórum: quia sic est volúntas Dei, ut benefaciéntes obmutéscere faciátis imprudéntium hóminum ignorántiam: quasi líberi, et non quasi velámen habéntes malítiæ libertátem, sed sicut servi Dei. Omnes honoráte: fraternitátem dilígite: Deum timéte: regem honorificáte. Servi, súbditi estóte in omni timóre dóminis, non tantum bonis et modéstis, sed étiam dýscolis. Hæc est enim grátia: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 110:9\nRedemptiónem misit Dóminus pópulo suo. Allelúja.\n!Luc 24:46\nOportébat pati Christum, et resúrgere a mórtuis: et ita intráre in glóriam suam. Allelúja.",
+            "incipit": "Allelúja, allelúja. Redemptiónem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 16:16-22\nIn illo témpore: Dixit Jesus discípulis suis: Módicum, et jam non vidébitis me: et íterum módicum, et vidébitis me: quia vado ad Patrem. Dixérunt ergo ex discípulis ejus ad ínvicem: Quid est hoc, quod dicit nobis: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me, et quia vado ad Patrem? Dicébant ergo: Quid est hoc, quod dicit: Módicum? nescímus, quid lóquitur. Cognóvit autem Jesus, quia volébant eum interrogáre, et dixit eis: De hoc quǽritis inter vos, quia dixi: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me. Amen, amen, dico vobis: quia plorábitis et flébitis vos, mundus autem gaudébit: vos autem contristabímini, sed tristítia vestra vertétur in gáudium. Múlier cum parit, tristítiam habet, quia venit hora ejus: cum autem pepérerit púerum, jam non méminit pressúræ propter gáudium, quia natus est homo in mundum. Et vos ígitur nunc quidem tristítiam habétis, íterum autem vidébo vos, et gaudébit cor vestrum: et gáudium vestrum nemo tollet a vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
+            "incipit": "Lauda, ánima mea,",
+            "mp3": "offertoire_lauda-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Secreta",
+            "texte": "His nobis, Dómine, mystériis conferátur, quo, terréna desidéria mitigántes, discámus amáre cœléstia.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Communio",
+            "texte": "!Joannes 16:16\nMódicum, et non vidébitis me, allelúja: íterum módicum, et vidébitis me, quia vado ad Patrem, allelúja, allelúja.",
+            "incipit": "Módicum, et non",
+            "mp3": "communion_modicum.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc3-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta quæ súmpsimus, quǽsumus, Dómine: et spirituálibus nos instáurent aliméntis, et corporálibus tueántur auxíliis.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 110:9\nRedemptiónem misit Dóminus pópulo suo. Allelúja.\n!Luc 24:46\nOportébat pati Christum, et resúrgere a mórtuis: et ita intráre in glóriam suam. Allelúja.",
-        "Francais": "Allelúja, allelúja.\n!Ps 110:9\nLe Seigneur a envoyé la Rédemption à son peuple.\n!Luc 24:46\nIl fallait que le Christ souffrît et ressuscitât d'entre les morts, et qu'ainsi il entrât dans sa gloire.\nAllelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 16:16-22\nEn ce temps-là, Jésus dit à ses disciples : « Encore un peu de temps, et vous ne me verrez plus ; et encore un peu de temps, et vous me verrez, parce que je vais à mon Père. » Sur quoi, quelques-uns de ses disciples se dirent entre eux : « Que signifie ce qu'il nous dit : Encore un peu de temps, et vous ne me verrez plus ; et encore un peu de temps, et vous me verrez, parce que je vais à mon Père ? » Ils disaient donc : « Que signifie cet « encore un peu de temps» ? Nous ne savons ce qu'il veut dire. » Jésus connut qu'ils voulaient l'interroger et leur dit : « Vous vous questionnez entre vous sur ce que j'ai dit : Encore un peu de temps et vous ne me verrez plus ; et encore un peu de temps, et vous me verrez. En vérité, en vérité, je vous le dis, vous pleurerez et vous vous lamenterez, tandis que le monde se réjouira ; vous serez affligés, mais votre affliction se changera en joie. La femme, lorsqu'elle enfante, est dans la souffrance parce que son heure est venue. Mais lorsqu'elle a donné le jour à l'enfant, elle ne se souvient plus de ses douleurs, dans la joie qu'elle a de ce qu'un homme est né dans le monde. Vous donc, aussi, vous êtes maintenant dans l'affliction ; mais je vous reverrai, et votre cœur se réjouira, et nul ne vous ravira votre joie. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 145:2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúja.",
-        "Francais": "!Ps 145:2\nLoue le Seigneur, ô mon âme ; je louerai le Seigneur toute ma vie ; je psalmodierai pour mon Dieu tant que je serai, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_lauda-anima-mea.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 16:16\nMódicum, et non vidébitis me, allelúja: íterum módicum, et vidébitis me, quia vado ad Patrem, allelúja, allelúja.",
-        "Francais": "!Joannes 16:16\nEncore un peu, et vous ne me verrez plus, alléluia ; et encore un peu et vous me verrez, car je vais vers le Père, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_modicum.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc3-0r.txt",
+        "Latin/Tempora/Pasc3-0r.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

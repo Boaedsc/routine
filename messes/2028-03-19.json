@@ -1,68 +1,238 @@
 {
   "date": "2028-03-19",
-  "celebration": {
-    "nom": "3e dimanche de Carême",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad3-0"
-  ],
-  "cles_jour": [
-    "Quad3-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 24:15-16.\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam,\n&Gloria\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.",
-        "Francais": "!Ps 24:15-16.\nv. Mes yeux sont constamment tournés vers le Seigneur ; car c’est lui qui retirera mes pieds du filet : regardez-moi et ayez pitié de moi ; car je suis délaissé et pauvre.\n!Ps 24:1-2\nVers vous, Seigneur, j’ai élevé mon âme : mon Dieu, je mets ma confiance en vous ; que je n’aie pas à rougir.\n&Gloria\nv. Mes yeux sont constamment tournés vers le Seigneur ; car c’est lui qui retirera mes pieds du filet : regardez-moi et ayez pitié de moi ; car je suis délaissé et pauvre."
+      "occurrence": {
+        "gagnant": "Tempora/Quad3-0",
+        "nom_sanctoral": "",
+        "classe": 6.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad3-0.txt",
+        "temporal": "Latin/Tempora/Quad3-0.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_oculi-mei.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 5:1-9\nMes frères : Soyez donc les imitateurs de Dieu comme des enfants bien-aimés, et marchez dans l’amour, comme le Christ, qui nous a aussi aimés, et qui s’est livré lui-même pour nous à Dieu, comme une oblation et un sacrifice d’agréable odeur. Que la fornication, et toute impureté, ou l’avarice ne soient pas même nommés parmi vous, comme il convient à des saints ; non plus que ce qui est déshonnête, les propos insensés, les paroles bouffonnes, toutes choses qui sont malséantes ; qu’on entende plutôt des actions de grâces. Car, sachez-le bien, aucun fornicateur, aucun impudique, aucun avare, ce qui est une idolâtrie, n’a d’héritage dans le royaume du Christ et de Dieu. Que personne ne vous séduise par de vains discours ; car c’est à cause de ces choses que la colère de Dieu vient sur les hommes rebelles. N’ayez donc aucune part avec eux. Car vous étiez autrefois ténèbres ; mais maintenant vous êtes lumière dans le Seigneur. Marchez comme des enfants de lumière ; car le fruit de la lumière consiste en toute sorte de bonté, de justice et de vérité."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:15-16.\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam,\n&Gloria\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.",
+            "incipit": "Oculi mei semper",
+            "mp3": "introitus_oculi-mei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Oratio",
+            "texte": "Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad defensiónem nostram, déxteram tuæ majestátis exténde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 5:1-9\nFratres: Estóte imitatóres Dei, sicut fílii caríssimi: et ambuláte in dilectióne, sicut et Christus diléxit nos, et trádidit semetípsum pro nobis oblatiónem, et hóstiam Deo in odórem suavitátis. Fornicátio autem et omnis immundítia aut avarítia nec nominétur in vobis, sicut decet sanctos: aut turpitúdo aut stultilóquium aut scurrílitas, quæ ad rem non pértinet: sed magis gratiárum áctio. Hoc enim scitóte intelligéntes, quod omnis fornicátor aut immúndus aut ávarus, quod est idolórum sérvitus, non habet hereditátem in regno Christi et Dei. Nemo vos sedúcat inánibus verbis: propter hæc enim venit ira Dei in fílios diffidéntiæ. Nolíte ergo éffici partícipes eórum. Erátis enim aliquándo ténebræ: nunc autem lux in Dómino. Ut fílii lucis ambuláte: fructus enim lucis est in omni bonitáte et justítia et veritáte.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 9:20; 9:4\nExsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu tuo.\nV. In converténdo inimícum meum retrórsum, infirmabúntur, et períbunt a facie tua.\n_\n!Tractus\n!Ps 122:1-3\nAd te levávi óculos meos, qui hábitas in cœlis.\nV. Ecce, sicut óculi servórum in mánibus dominórum suórum.\nV. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri,\nV. Miserére nobis, Dómine, miserére nobis.",
+            "incipit": "Exsúrge, Dómine, non",
+            "mp3": "graduel_exsurge-domine-non.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 122:1-3\nAd te levávi óculos meos, qui hábitas in cœlis.\nV. Ecce, sicut óculi servórum in mánibus dominórum suórum.\nV. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri,\nV. Miserére nobis, Dómine, miserére nobis.",
+            "incipit": "Ad te levávi",
+            "mp3": "trait_ad-te-levavi.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 11:14-28\nIn illo témpore: Erat Jesus ejíciens dæmónium, et illud erat mutum. Et cum ejecísset dæmónium, locútus est mutus, et admirátæ sunt turbæ. Quidam autem ex eis dixérunt: In Beélzebub, príncipe dæmoniórum, éjicit dæmónia. Et álii tentántes, signum de cœlo quærébant ab eo. Ipse autem ut vidit cogitatiónes eórum, dixit eis: Omne regnum in seípsum divísum desolábitur, et domus supra domum cadet. Si autem et sátanas in seípsum divísus est, quómodo stabit regnum ejus? quia dícitis, in Beélzebub me ejícere dæmónia. Si autem ego in Beélzebub ejício dæmónia: fílii vestri in quo ejíciunt? Ideo ipsi júdices vestri erunt. Porro si in dígito Dei ejício dæmónia: profécto pervénit in vos regnum Dei. Cum fortis armátus custódit átrium suum, in pace sunt ea, quæ póssidet. Si autem fórtior eo supervéniens vícerit eum, univérsa arma ejus áuferet, in quibus confidébat, et spólia ejus distríbuet. Qui non est mecum, contra me est: et qui non cólligit mecum, dispérgit. Cum immúndus spíritus exíerit de hómine, ámbulat per loca inaquósa, quærens réquiem: et non invéniens, dicit: Revértar in domum meam, unde exívi. Et cum vénerit, invénit eam scopis mundátam, et ornátam. Tunc vadit, et assúmit septem álios spíritus secum nequióres se, et ingréssi hábitant ibi. Et fiunt novíssima hóminis illíus pejóra prióribus. Factum est autem, cum hæc díceret: extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:9, 10, 11, 12\nJustítiæ Dómini rectæ, lætificántes corda, et judícia ejus dulcióra super mel et favum: nam et servus tuus custódit ea.",
+            "incipit": "Justítiæ Dómini rectæ,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent09-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Secreta",
+            "texte": "Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 83:4-5\nPasser invénit sibi domum, et turtur nidum, ubi repónat pullos suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti, qui hábitant in domo tua, in sǽculum sǽculi laudábunt te.",
+            "incipit": "Passer invénit sibi",
+            "mp3": "communion_passer-invenit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad3-0.txt",
+            "section": "Postcommunio",
+            "texte": "A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus absólve: quos tanti mystérii tríbuis esse partícipes.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:15-16.\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam,\n&Gloria\nv. Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos: réspice in me, et miserére mei, quóniam únicus et pauper sum ego.",
+            "incipit": "Oculi mei semper",
+            "mp3": "introitus_oculi-mei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Oratio",
+            "texte": "Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad defensiónem nostram, déxteram tuæ majestátis exténde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 5:1-9\nFratres: Estóte imitatóres Dei, sicut fílii caríssimi: et ambuláte in dilectióne, sicut et Christus diléxit nos, et trádidit semetípsum pro nobis oblatiónem, et hóstiam Deo in odórem suavitátis. Fornicátio autem et omnis immundítia aut avarítia nec nominétur in vobis, sicut decet sanctos: aut turpitúdo aut stultilóquium aut scurrílitas, quæ ad rem non pértinet: sed magis gratiárum áctio. Hoc enim scitóte intelligéntes, quod omnis fornicátor aut immúndus aut ávarus, quod est idolórum sérvitus, non habet hereditátem in regno Christi et Dei. Nemo vos sedúcat inánibus verbis: propter hæc enim venit ira Dei in fílios diffidéntiæ. Nolíte ergo éffici partícipes eórum. Erátis enim aliquándo ténebræ: nunc autem lux in Dómino. Ut fílii lucis ambuláte: fructus enim lucis est in omni bonitáte et justítia et veritáte.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 9:20; 9:4\nExsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu tuo.\nV. In converténdo inimícum meum retrórsum, infirmabúntur, et períbunt a facie tua.\n_\n!Tractus\n!Ps 122:1-3\nAd te levávi óculos meos, qui hábitas in cœlis.\nV. Ecce, sicut óculi servórum in mánibus dominórum suórum.\nV. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri,\nV. Miserére nobis, Dómine, miserére nobis.",
+            "incipit": "Exsúrge, Dómine, non",
+            "mp3": "graduel_exsurge-domine-non.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 122:1-3\nAd te levávi óculos meos, qui hábitas in cœlis.\nV. Ecce, sicut óculi servórum in mánibus dominórum suórum.\nV. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri,\nV. Miserére nobis, Dómine, miserére nobis.",
+            "incipit": "Ad te levávi",
+            "mp3": "trait_ad-te-levavi.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 11:14-28\nIn illo témpore: Erat Jesus ejíciens dæmónium, et illud erat mutum. Et cum ejecísset dæmónium, locútus est mutus, et admirátæ sunt turbæ. Quidam autem ex eis dixérunt: In Beélzebub, príncipe dæmoniórum, éjicit dæmónia. Et álii tentántes, signum de cœlo quærébant ab eo. Ipse autem ut vidit cogitatiónes eórum, dixit eis: Omne regnum in seípsum divísum desolábitur, et domus supra domum cadet. Si autem et sátanas in seípsum divísus est, quómodo stabit regnum ejus? quia dícitis, in Beélzebub me ejícere dæmónia. Si autem ego in Beélzebub ejício dæmónia: fílii vestri in quo ejíciunt? Ideo ipsi júdices vestri erunt. Porro si in dígito Dei ejício dæmónia: profécto pervénit in vos regnum Dei. Cum fortis armátus custódit átrium suum, in pace sunt ea, quæ póssidet. Si autem fórtior eo supervéniens vícerit eum, univérsa arma ejus áuferet, in quibus confidébat, et spólia ejus distríbuet. Qui non est mecum, contra me est: et qui non cólligit mecum, dispérgit. Cum immúndus spíritus exíerit de hómine, ámbulat per loca inaquósa, quærens réquiem: et non invéniens, dicit: Revértar in domum meam, unde exívi. Et cum vénerit, invénit eam scopis mundátam, et ornátam. Tunc vadit, et assúmit septem álios spíritus secum nequióres se, et ingréssi hábitant ibi. Et fiunt novíssima hóminis illíus pejóra prióribus. Factum est autem, cum hæc díceret: extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 18:9; 18:10; 18:11; 18:12\nLes jugements du Seigneur sont droits, ils réjouissent le cœur ; ses préceptes sont plus doux que le miel et le rayon de miel ; votre serviteur les garde.",
+            "incipit": "Les jugements du",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent09-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Secreta",
+            "texte": "Que cette offrande, Seigneur, nous purifie de nos péchés, et pour une digne célébration de ce sacrifice, qu'elle sanctifie le corps et l'âme de vos fidèles.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Communio",
+            "texte": "!Ps 83:4-5\nPasser invénit sibi domum, et turtur nidum, ubi repónat pullos suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti, qui hábitant in domo tua, in sǽculum sǽculi laudábunt te.",
+            "incipit": "Passer invénit sibi",
+            "mp3": "communion_passer-invenit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad3-0.txt",
+            "section": "Postcommunio",
+            "texte": "A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus absólve: quos tanti mystérii tríbuis esse partícipes.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 9:20; 9:4\nExsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu tuo.\nV. In converténdo inimícum meum retrórsum, infirmabúntur, et períbunt a facie tua.\n_\n!Tractus\n!Ps 122:1-3\nAd te levávi óculos meos, qui hábitas in cœlis.\nV. Ecce, sicut óculi servórum in mánibus dominórum suórum.\nV. Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri,\nV. Miserére nobis, Dómine, miserére nobis.",
-        "Francais": "!Ps 9:20; 9:4\nLevez-vous, Seigneur ; que l’homme ne triomphe pas ; que les nations soient jugées devant votre face.\nV. Parce que vous avez fait retourner mon ennemi en arrière, ils vont être épuisés, et ils périront devant votre face.\n_\n!Tractus\n!Ps 122:1-3\nJ’ai levé les yeux vers vous, qui habitez dans les cieux.\nV. Comme les yeux des serviteurs sont fixés sur les mains de leurs maîtres.\nV. Et comme les yeux de la servante sont fixés sur les mains de sa maîtresse, ainsi nos yeux sont tournés vers le Seigneur, notre Dieu, jusqu’à ce qu’il ait pitié de nous.\nV. Ayez pitié de nous, Seigneur, ayez pitié de nous."
-      },
-      "audios": "Graduale Project/graduel_exsurge-domine-non.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 11:14-28\nEn ce temps-là, Jésus chassait un démon, et ce démon était muet. Et lorsqu’il eut chassé le démon, le muet parla, et les foules furent dans l’admiration. Mais quelques-uns d’entre eux dirent : C’est par Béelzébub, prince des démons, qu’il chasse les démons. Et d’autres, pour le tenter, lui demandaient un signe qui vînt du ciel. Mais lui, ayant vu leurs pensées, leur dit : Tout royaume divisé contre lui-même sera dévasté, et la maison tombera sur la maison. Si donc Satan est aussi divisé contre lui-même, comment son règne subsistera-t-il ? Car vous dites que c’est par Béelzébub que je chasse les démons. Or si c’est par Béelzébub que je chasse les démons, par qui vos fils les chassent-ils ? C’est pourquoi ils seront eux-mêmes vos juges. Mais si c’est par le doigt de Dieu que je chasse les démons, assurément le royaume de Dieu est arrivé jusqu’à vous. Lorsque l’homme fort, armé, garde sa maison, ce qu’il possède est en paix. Mais si un plus fort que lui survient et triomphe de lui, il emportera toutes ses armes, dans lesquelles il se confiait, et il distribuera ses dépouilles. Celui qui n’est point avec moi est contre moi, et celui qui ne recueille pas avec moi dissipe. Lorsque l’esprit impur est sorti d’un homme, il va par des lieux arides, cherchant du repos ; et n’en trouvant pas, il dit : Je retournerai dans ma maison, d’où je suis sorti. Et quand il arrive, il la trouve balayée et ornée. Alors il s’en va, et prend avec lui sept autres esprits, plus méchants que lui, et entrant dans cette maison, ils y habitent. Et le dernier état de cet homme devient pire que le premier. Or il arriva, tandis qu’il disait ces choses, qu’une femme, élevant la voix du milieu de la foule, lui dit : Heureux le sein qui vous a porté et les mamelles qui vous ont allaité. Mais il dit : Heureux plutôt ceux qui écoutent la parole de Dieu et qui la gardent."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Tempora/Pent09-0",
-        "Francais": "!Ps 18:9, 10, 11, 12\n Les justices du Seigneur sont droites, elles réjouissent les cœurs et ses jugements sont plus doux que le miel, et qu’un rayon plein de miel ; aussi votre serviteur les observe."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 83:4-5\nPasser invénit sibi domum, et turtur nidum, ubi repónat pullos suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti, qui hábitant in domo tua, in sǽculum sǽculi laudábunt te.",
-        "Francais": "!Ps 83:4-5\nLe passereau se trouve une maison, et la tourterelle un nid pour y placer ses petits ; que je trouve vos autels, Seigneur des armées, mon roi et mon Dieu. Heureux ceux qui habitent dans votre maison ; ils vous loueront dans les siècles des siècles."
-      },
-      "audios": "Graduale Project/communion_passer-invenit.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad3-0.txt",
+        "Latin/Tempora/Quad3-0.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

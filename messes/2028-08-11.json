@@ -1,26 +1,226 @@
 {
   "date": "2028-08-11",
-  "celebration": {
-    "nom": "Saints Tiburce et Suzanne",
-    "classe": 4,
-    "note": "(temporal : Vendredi de la 9e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/08-11",
-    "Tempora/Pent09-5"
-  ],
-  "cles_jour": [
-    "08-11",
-    "Pent09-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent09",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 11:33-39\nMes Frères : les Saints, par la foi, ont conquis des royaumes, exercé la justice, obtenu l’effet des promesses, fermé la gueule des lions, éteint la violence du feu, échappé au tranchant de l’épée, triomphé de la maladie, déployé leur vaillance à la guerre, mis en fuite des armées ennemis ; par eux des femmes ont recouvré leurs morts ressuscités. Les uns ont péri dans les tortures, refusant la délivrance afin d’obtenir une meilleure résurrection ; d’autres ont souffert les moqueries et les verges ; de plus, les chaînes et les cachots ; ils ont été lapidés, sciés, éprouvés ; ils sont morts par le tranchant de l’épée ; ils ont erré çà et là, couverts de peaux de brebis et de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n’était pas digne ; Ils ont été errants dans les déserts et les montagnes, dans les cavernes et dans les antres de la terre. Et tous ceux-là ont obtenu un bon témoignage à cause de leur foi en Jésus-Christ."
+      "occurrence": {
+        "gagnant": "Sancti/08-11",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-11.txt",
+        "temporal": "Latin/Tempora/Pent09-5.txt",
+        "sanctoral": "Latin/Sancti/08-11.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
+            "incipit": "Sapiéntiam Sanctórum narrent",
+            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Oratio",
+            "texte": "Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant continuáta præsídia: quia non désinis propítius intuéri; quos tálibus auxíliis concésseris adjuvári.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos\n!Hebr 11:33-39\nFratres: Sancti per fidem vicérunt regna, operáti sunt justítiam, adépti sunt repromissiónes, obturavérunt ora leónum, exstinxérunt ímpetum ignis, effugérunt áciem gládii, convaluérunt de infirmitáte, fortes facti sunt in bello, castra vertérunt exterórum: accepérunt mulíeres de resurrectióne mórtuos suos: álii autem disténti sunt, non suscipiéntes redemptiónem, ut meliórem invenírent resurrectiónem: alii vero ludíbria et vérbera expérti, ínsuper et víncula et cárceres: lapidáti sunt, secti sunt, tentáti sunt, in occisióne gládii mórtui sunt: circuiérunt in melótis, in péllibus caprínis, egéntes, angustiáti, afflicti: quibus dignus non erat mundus: in solitudínibus errantes, in móntibus et spelúncis et in cavérnis terræ. Et hi omnes testimónio fídei probáti, invénti sunt in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-20.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram. Allelúja, allelúja.\n!Ps 67:4\nJusti epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": "graduel_anima-nostra.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.\n(sed post Septuagesimam dicitur)\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": "offertoire_exsultabunt-sancti-in.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Secreta",
+            "texte": "Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne Sanctórum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4\nDico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
+            "incipit": "Dico autem vobis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-11.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis, quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis auxílium páriter et futúræ.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.\n!Ps 32:1\nJustes, tressaillez de joie dans le Seigneur ; c’est aux hommes droits que convient la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.",
+            "incipit": "Que les peuples",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Oratio",
+            "texte": "Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant continuáta præsídia: quia non désinis propítius intuéri; quos tálibus auxíliis concésseris adjuvári.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 11:33-39\nMes Frères : les Saints, par la foi, ont conquis des royaumes, exercé la justice, obtenu l’effet des promesses, fermé la gueule des lions, éteint la violence du feu, échappé au tranchant de l’épée, triomphé de la maladie, déployé leur vaillance à la guerre, mis en fuite des armées ennemis ; par eux des femmes ont recouvré leurs morts ressuscités. Les uns ont péri dans les tortures, refusant la délivrance afin d’obtenir une meilleure résurrection ; d’autres ont souffert les moqueries et les verges ; de plus, les chaînes et les cachots ; ils ont été lapidés, sciés, éprouvés ; ils sont morts par le tranchant de l’épée ; ils ont erré çà et là, couverts de peaux de brebis et de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n’était pas digne ; Ils ont été errants dans les déserts et les montagnes, dans les cavernes et dans les antres de la terre. Et tous ceux-là ont obtenu un bon témoignage à cause de leur foi en Jésus-Christ, Notre-Seigneur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-20.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 67:4\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 125:5-6\nCeux qui sèment dans les larmes, récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nIn illo témpore: Descéndens Jesus de monte, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judǽa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes. Et ipse, elevátis oculis in discípulos suos, dicébat: Beáti, páuperes: quia vestrum est regnum Dei. Beáti, qui nunc esurítis: quia saturabímini. Beáti, qui nunc fletis: quia ridébitis. Beáti éritis, cum vos óderint hómines, et cum separáverint vos et exprobréverint, et ejécerint nomen vestrum tamquam malum, propter Fílium hóminis. Gaudéte in illa die et exsultáte: ecce enim, merces vestra multa est in cœlo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "incipit": "Les saints exulteront",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Secreta",
+            "texte": "Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne Sanctórum.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:4.\nJe vous dis donc à vous qui êtes mes amis : ne craignez pas ceux qui vous persécutent.",
+            "incipit": "Je vous dis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-11.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis, quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis auxílium páriter et futúræ.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3a.txt",
+        "../horas/Latin/Commune/C3a.txt",
+        "Francais/Sancti/08-11.txt",
+        "Latin/Sancti/08-11.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

@@ -1,34 +1,37 @@
-const CACHE = 'routine-v6';
-const FILES = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json'];
+// Cache versionné : incrémenter CACHE à chaque mise à jour des fichiers statiques.
+var CACHE = 'routine-v7';
+var STATIC = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json'];
 
-self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
+self.addEventListener('install', function (e) {
+  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(STATIC); }));
   self.skipWaiting();
 });
 
-self.addEventListener('activate', e => {
+self.addEventListener('activate', function (e) {
   e.waitUntil(
-    caches.keys().then(clés =>
-      Promise.all(clés.filter(c => c !== CACHE).map(c => caches.delete(c)))
-    )
+    caches.keys().then(function (cles) {
+      return Promise.all(cles.filter(function (c) { return c !== CACHE; })
+                             .map(function (c) { return caches.delete(c); }));
+    })
   );
   self.clients.claim();
 });
 
-self.addEventListener('fetch', e => {
+self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET') return;
-  const url = new URL(e.request.url);
-  if (url.origin !== location.origin) return;   // laisse passer polices, Cloudflare...
+  var url = new URL(e.request.url);
+  if (url.origin !== location.origin) return; // polices, Cloudflare… non gérés ici
 
   e.respondWith(
     fetch(e.request)
-      .then(rep => {
+      .then(function (rep) {
+        // On met en cache les statiques, les JSON de messe et les mp3 (réponses OK uniquement)
         if (rep.ok) {
-          const copie = rep.clone();
-          caches.open(CACHE).then(c => c.put(e.request, copie));
+          var copie = rep.clone();
+          caches.open(CACHE).then(function (c) { c.put(e.request, copie); });
         }
         return rep;
       })
-      .catch(() => caches.match(e.request))
+      .catch(function () { return caches.match(e.request); })
   );
 });

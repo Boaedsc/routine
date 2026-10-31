@@ -1,53 +1,308 @@
 {
   "date": "2028-01-21",
-  "celebration": {
-    "nom": "Sainte Agnès",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-21",
-    "Tempora/Epi3-5"
-  ],
-  "cles_jour": [
-    "01-21",
-    "Epi3-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C6-1",
-        "Francais": "!Ps 118:95-96\nv. Les pécheurs m’ont attendu pour me perdre, mais j’ai compris vos enseignements, Seigneur. J’ai vu la fin de toute perfection ; votre loi a une étendue infinie.\n!Ps 118:1\nHeureux ceux qui sont immaculés dans la voie, qui marchent dans la loi du Seigneur.\n&Gloria\nv. Les pécheurs m’ont attendu pour me perdre, mais j’ai compris vos enseignements, Seigneur. J’ai vu la fin de toute perfection ; votre loi a une étendue infinie."
+      "occurrence": {
+        "gagnant": "Sancti/01-21",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-21.txt",
+        "temporal": "Latin/Tempora/Epi2-5.txt",
+        "sanctoral": "Latin/Sancti/01-21.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\n!Ps 44:5\nPropter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua. \nAllelúja, allelúja.\n!Matt 25:4 25:6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.",
-        "Francais": "!Ps 44:3\nLa grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles.\n!Ps 44:5\nPour la vérité, la douceur et la justice ; et votre droite vous conduira merveilleusement. Allelúja, allelúja.\n!Matt 25:4 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur. Allelúja."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:95-96\nv. Me exspectavérunt peccatóres, ut pérderent me: testimónia tua, Dómine, intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis. (Allelúja, allelúja.)\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. Me exspectavérunt peccatóres, ut pérderent me: testimónia tua, Dómine, intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis. (Allelúja, allelúja.)",
+            "incipit": "Me exspectavérunt peccatóres,",
+            "mp3": "introitus_me-exspectaverunt-peccatores.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui infírma mundi éligis, ut fórtia quæque confúndas: concéde propítius; ut, qui beátæ Agnétis Vírginis et Mártyris tuæ sollémnia cólimus, ejus apud te patrocínia sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 51:1-8; 51:12\nConfitébor tibi, Dómine, Rex, et collaudábo te Deum, Salvatórem meum. Confitébor nómini tuo: quóniam adjútor et protéctor factus es mihi, et liberásti corpus meum a perditióne, a láqueo línguæ iníquæ et a lábiis operántium mendácium, et in conspéctu astántium factus es mihi adjutor. Et liberasti me secúndum multitúdinem misericórdiæ nóminis tui a rugiéntibus, præparátis ad escam, de mánibus quæréntium ánimam meam, et de portis tribulatiónum, quæ circumdedérunt me: a pressúra flammæ, quæ circúmdedit me, et in médio ignis non sum æstuáta: de altitúdine ventris ínferi, et a lingua coinquináta, et a verbo mendácii, a rege iníquo, et a lingua injústa: laudábit usque ad mortem ánima mea Dóminum: quóniam éruis sustinéntes te, et líberas eos de mánibus géntium, Dómine, Deus noster.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\n!Ps 44:5\nPropter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n!Matt 25:4 25:6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "graduel_diffusa-est-gratia.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3; 44:5\nDiffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et de ducet te mirabíliter déxtera tua.\n_\n!Tractus\nVeni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit in ætérnum.\n!Ps 44:8; 44:5\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, oleo lætítiæ præ consórtibus tuis.\nV. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 25:1-13\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile erit regnum coelórum decem virgínibus: quæ, accipiéntes lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex eis erant fátuæ, et quinque prudéntes: ¶ sed quinque fátuæ, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce, sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines íllæ, et ornavérunt lámpades suas. Fátuæ autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostræ exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quæ parátæ erant, intravérunt cum eo ad núptias, et clausa est jánua. Novíssime vero véniunt et réliquæ vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem neque horam.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15-16\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia et exsultatióne: adducéntur in templum Regi Dómino. (Allelúja.)",
+            "incipit": "Afferéntur Regi Vírgines",
+            "mp3": "offertoire_afferentur-regi-virgines-proximae.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, Dómine, quas tibi offérimus, propítius súscipe: et, intercedénte beáta Agnéte Vírgine et Mártyre tua, víncula peccatórum nostrórum absólve.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Communio",
+            "texte": "!Matt 25:4-6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)",
+            "incipit": "Quinque prudéntes vírgines",
+            "mp3": "communion_quinque-prudentes-virgines.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-21.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:95-96\nLes méchants me guettent pour me perdre, mais j'ai l'intelligence de vos préceptes, Seigneur. De toute perfection j'ai vu la limite ; votre commandement est vaste à l'infini. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont sans tache dans le chemin, qui marchent dans la loi du Seigneur.\n&Gloria\nLes méchants me guettent pour me perdre, mais j'ai l'intelligence de vos préceptes, Seigneur. De toute perfection j'ai vu la limite ; votre commandement est vaste à l'infini. (Alléluia, alléluia.)",
+            "incipit": "Les méchants me",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui infírma mundi éligis, ut fórtia quæque confúndas: concéde propítius; ut, qui beátæ Agnétis Vírginis et Mártyris tuæ sollémnia cólimus, ejus apud te patrocínia sentiámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Eccli 51:1-8; 51:12\nJe veux vous célébrer, Seigneur Roi, je veux vous louer, Dieu Sauveur. Je célèbre votre nom, car vous avez été pour moi un soutien, un secours. Vous avez sauvé mon corps de la perdition, des pièges de la langue perfide, des lèvres qui pratiquent le mensonge, et en face de mes adversaires vous vous êtes fait mon défenseur. Dans l’immensité de vos miséricordes, vous m’avez délivrée de ceux qui grinçaient des dents, prêts à me dévorer, des mains de ceux qui en voulaient à ma vie, de l’assaut des tribulations dont j’étais assiégée. Vous m’avez délivrée de la violence des flammes qui m’environnaient, et au milieu du feu je n’ai point ressenti de brûlure ; vous m’avez tirée de l’abîme profond du séjour des morts, de la langue impure et des paroles mensongères, de la calomnie d’une langue injuste auprès du roi. Mon âme louera le Seigneur jusqu’à la mort, parce que vous sauvez du péril ceux qui mettent en vous leur espoir, et vous les délivrez des mains des nations, ô Seigneur notre Dieu.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\n!Ps 44:5\nPropter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n!Matt 25:4 25:6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "graduel_diffusa-est-gratia.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:3; 44:5\nLa grâce est répandue sur vos lèvres ; aussi Dieu vous a-t-il bénie à jamais.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat.\n_\n!Tractus\nV. Venez, épouse du Christ, recevez la couronne que le Seigneur vous a préparée à jamais.\n!Ps 44:8; 44:5\nVous avez aimé la justice et haï l’iniquité, c’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie de préférence à vos compagnes.\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.",
+            "incipit": "La grâce est",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Evangile selon Matthieu.\n!Matt 25:1-13\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Il en sera du Royaume des cieux comme de dix vierges qui prirent leurs lampes et sortirent à la rencontre de l’époux et de l’épouse. Cinq d’entre elles étaient étourdies et cinq étaient sages. Les étourdies, en prenant leurs lampes, n’avaient pas pris d’huile avec elles, mais les sages avaient, avec leurs lampes, pris de l’huile dans des vases. L’époux tardant à venir, elles s’assoupirent toutes et s’endormirent. Au milieu de la nuit, un cri retentit : « Voici l’époux qui vient ! Sortez à sa rencontre !» Alors toutes ces vierges s’éveillèrent et apprêtèrent leurs lampes. Les étourdies dirent aux sages : « Donnez-nous de votre huile, car nos lampes s’éteignent.» Les sages leur répondirent : « Jamais il n’y en aurait assez pour nous et pour vous ; allez plutôt chez les marchands et achetez-vous-en.» Pendant qu’elles allaient en acheter, l’époux arriva ; celles qui étaient prêtes entrèrent avec lui dans la salle des noces, et on ferma la porte. Finalement arrivent aussi les autres vierges, qui disent : « Seigneur, Seigneur, ouvrez-nous !» Mais il répondit : « En vérité, je vous le dis : je ne vous connais pas.» Veillez donc, car vous ne savez ni le jour ni l’heure. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:15-16\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
+            "incipit": "Des filles de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, Dómine, quas tibi offérimus, propítius súscipe: et, intercedénte beáta Agnéte Vírgine et Mártyre tua, víncula peccatórum nostrórum absólve.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Communio",
+            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)",
+            "incipit": "Les cinq vierges",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-21.txt",
+            "section": "Postcommunio",
+            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": "Graduale Project/graduel_diffusa-est-gratia.mp3"
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C6"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C6a",
-        "Francais": "!Matt 25:4; 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/01-21.txt",
+        "Latin/Sancti/01-21.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

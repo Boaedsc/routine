@@ -1,68 +1,212 @@
 {
   "date": "2028-04-07",
-  "celebration": {
-    "nom": "Vendredi de la semaine de la Passion",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad5-5"
-  ],
-  "cles_jour": [
-    "Quad5-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad5",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Joann 19:25\nv. Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne.\n!Joann 19:26-27.\nMúlier, ecce fílius tuus: dixit Jesus; ad discípulum autem: Ecce Mater tua.\n&Gloria\nv. Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne.",
-        "Francais": "!Joann 19:25\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine.\n!Joann 19:26-27.\nFemme, voilà votre fils : dit Jésus. Puis iau disciple : Voilà ta mère.\n&Gloria\nv. Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine."
+      "occurrence": {
+        "gagnant": "Tempora/Quad5-5Feria",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad5-5Feria.txt",
+        "temporal": "Latin/Tempora/Quad5-5Feria.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Quad5-5Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Judith.\n!Judith 13:22, 23-25\nLe Seigneur vous a bénie de sa force, et il a anéanti par vous nos ennemis. Vous êtes bénie, ma fille, par le Seigneur, le Très Haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur qui a créé le ciel et la terre, car il a rendu aujourd’hui votre nom si célèbre, que les hommes, se souvenant à jamais de la puissance du Seigneur, ne cesseront jamais de vous louer, parce que vous n’avez pas épargné votre vie pour eux, en voyant les angoisses et les tribulations de votre peuple ; mais vous avez empêché sa ruine en présence de notre Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Introitus",
+            "texte": "!Ps 30:10, 16, 18\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.\n!Ps 30:2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me.\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Oratio",
+            "texte": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius macerémur, quam supplíciis deputémur ætérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 17:13-18\nIn diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur: recedéntes a te in terra scribéntur: quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die afflictiónis. Confundántur, qui me persequúntur, et non confúndar ego: páveant illi, et non páveam ego. Induc super eos diem afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 34:20, 22\nPacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.\nV. Vidísti, Dómine, ne síleas: ne discédas a me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Pacífice loquebántur mihi",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 11:47-54\nIn illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si dimíttimus eum sic, omnes credent in eum: et vénient Románi, et tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec cogitátis, quia éxpedit vobis, ut unus moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur cum discípulis suis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:12, 121, 42\nBenedíctus es, Dómine, doce me justificatiónes tuas: et non tradas calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "offertoire_benedictus-es-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Secreta",
+            "texte": "Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus mereámur; et eórum perpétua participatióne salvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:12\nNe tradíderis me, Dómine, in ánimas persequéntium me: quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.",
+            "incipit": "Ne tradíderis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Introitus",
+            "texte": "!Ps 30:10, 16, 18\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.\n!Ps 30:2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me.\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Oratio",
+            "texte": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius macerémur, quam supplíciis deputémur ætérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 17:13-18\nIn diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur: recedéntes a te in terra scribéntur: quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die afflictiónis. Confundántur, qui me persequúntur, et non confúndar ego: páveant illi, et non páveam ego. Induc super eos diem afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 34:20, 22\nPacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.\nV. Vidísti, Dómine, ne síleas: ne discédas a me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Pacífice loquebántur mihi",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 11:47-54\nIn illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si dimíttimus eum sic, omnes credent in eum: et vénient Románi, et tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec cogitátis, quia éxpedit vobis, ut unus moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur cum discípulis suis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:12, 121, 42\nBenedíctus es, Dómine, doce me justificatiónes tuas: et non tradas calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "offertoire_benedictus-es-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Secreta",
+            "texte": "Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus mereámur; et eórum perpétua participatióne salvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:12\nNe tradíderis me, Dómine, in ánimas persequéntium me: quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.",
+            "incipit": "Ne tradíderis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini Jesu, Fílii tui, Redemptóris.\nV. Virgo Dei Génetrix, quem totus non capit orbis, hoc crucis fert supplícium, auctor vitæ factus homo.\n_\n!Tractus\nStabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu Christi dolorósa.\n!Thren 1:12\nO vos omnes, qui tránsitis per viam, atténdite et vidéte, si est dolor sicut dolor meus.",
-        "Francais": "Douloureuse et en larmes, Vierge Marie, vous vous tenez au pied de la Croix du Seigneur Jésus, votre Fils, le Rédempteur.\nV. Vierge Mère de Dieu, celui que le monde ne peut contenir, l’auteur de la vie fait homme, subit ce supplice de la Croix.\n_\nTractus. Sainte Marie, la Reine du ciel et Maîtresse du Monde, se tenait pleine de douleurs au pied de la Croix de Notre-Seigneur Jésus-Crist.\n!Thren 1:12\nÔ vous tous qui passez par le chemin, regardez et voyez s’il est une douleur comme ma douleur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem. P\n!Joann 19:25-27\nEn ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/07-16",
-        "Francais": "!Jer 18:20.\nSouvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation."
-      },
-      "audios": "Graduale Project/offertoire_recordare-virgo-mater.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "Felices sensus beátæ Maríæ Vírginis, qui sine morte meruérunt martýrii palmam sub Cruce Dómini.",
-        "Francais": "! \nHeureux le cœur de la bienheureuse Vierge Marie, qui sans mourir obtint la palme du martyre au pied de la Croix du Seigneur."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad5-5Feria.txt",
+        "Latin/Tempora/Quad5-5Feria.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

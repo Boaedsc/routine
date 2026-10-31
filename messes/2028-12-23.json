@@ -1,68 +1,210 @@
 {
   "date": "2028-12-23",
-  "celebration": {
-    "nom": "Samedi avant Noël (23 déc.)",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Adv3-6"
-  ],
-  "cles_jour": [
-    "Adv3-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 79:4; 79:2\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.\n!Ps 79:2\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\n&Gloria\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.",
-        "Francais": "!Ps 79:4; 79:2\nv. Venez, et montrez-nous votre face, Seigneur, vous qui siégez sur les Chérubins, et nous serons sauvés.\n!Ps 79:2\nVous qui guidez Israël, soyez attentif ; vous qui conduisez Joseph comme une brebis.\n&Gloria\nv. Venez, et montrez-nous votre face, Seigneur, vous qui siégez sur les Chérubins, et nous serons sauvés."
+      "occurrence": {
+        "gagnant": "Tempora/Adv3-6",
+        "nom_sanctoral": "",
+        "classe": 2.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Adv3-6.txt",
+        "temporal": "Latin/Tempora/Adv3-6.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_veni-et-ostende.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.\n!2 Thess 2:1-8\nFrères, nous vous prions, par l'avènement de Notre Seigneur Jésus-Christ et de notre réunion avec Lui, de ne pas vous laisser ébranler facilement dans vos sentiments, ni alarmer, soit par quelque esprit, soit par quelque parole ou lettre supposées venir de nous, comme si le jour du Seigneur était imminent. Que personne ne vous égare d'aucune manière ; car auparavant viendra l'apostasie, et se manifestera l'homme de péché, le fils de la perdition, l'adversaire qui s'élève contre tout ce qui est appelé Dieu ou honoré d'un culte, jusqu'à s'asseoir dans le sanctuaire de Dieu, et à se présenter comme s'il était Dieu. Ne vous souvenez-vous pas que je vous disais ces choses, lorsque j'étais encore chez vous ? Et maintenant vous savez ce qui le retient, pour qu'il se manifeste en son temps. Car le mystère d'iniquité s'opère déjà, mais seulement jusqu'à ce que celui qui le retient encore paraisse au grand jour. Et alors se découvrira l'impie, que le Seigneur Jésus exterminera par le souffle de sa bouche, et anéantira par l'éclat de son avènement."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Introitus",
+            "texte": "!Ps 79:4; 79:2\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.\n!Ps 79:2\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\n&Gloria\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.",
+            "incipit": "Veni, et osténde",
+            "mp3": "introitus_veni-et-ostende.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis, quia ex nostra pravitáte afflígimur: concéde propítius; ut ex tua visitatióne consolémur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!2 Thess 2:1-8\nFratres: Rogámus vos per advéntum Dómini nostri Jesu Christi, et nostræ congregatiónis in ipsum: ut non cito moveámini a vestro sensu, neque terreámini, neque per spíritum, neque per sermónem, neque per epístolam tamquam per nos missam, quasi instet dies Dómini. Ne quis vos sedúcat ullo modo: quóniam nisi vénerit discéssio primum, et revelátus fuerit homo peccáti, fílius perditiónis, qui adversátur, et extóllitur supra omne, quod dícitur Deus aut quod cólitur, ita ut in templo Dei sédeat osténdens se, tamquam sit Deus. Non retinétis, quod, cum adhuc essem apud vos, hæc dicébam vobis? Et nunc quid detíneat, scitis, ut revelétur in suo témpore. Nam mystérium jam operátur iniquitátis: tantum ut, qui tenet nunc, téneat, donec de médio fiat. Et tunc revelábitur ille iníquus, quem Dóminus Jesus interfíciet spíritu oris sui, et déstruet illustratióne advéntus sui.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps:79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\nV. Qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.\nV. Excita, Dómine, poténtiam tuam, et veni: ut salvos fácias nos.",
+            "incipit": "Qui regis Israël,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 3:1-6\nAnno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto Judǽam, tetrárcha autem Galilǽæ Heróde, Philíppo autem fratre ejus tetrárcha Iturǽæ et Trachonítidis regionis, et Lysánia Abilínæ tetrárcha, sub princípibus sacerdotum Anna et Cáipha: factum est verbum Domini super Joannem, Zacharíæ filium, in deserto. Et venit in omnem regiónem Jordánis, prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum, sicut scriptum est in libro sermónum Isaíæ Prophétæ: Vox clamántis in desérto: Paráte viam Dómini: rectas fácite sémitas ejus: omnis vallis implébitur: et omnis mons et collis humiliábitur: et erunt prava in dirécta, et áspera in vias planas: et vidébit omnis caro salutáre Dei.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Offertorium",
+            "texte": "!Zach 9:9\nExsúlta satis, fília Sion, prǽdica, fília Jerúsalem: ecce, Rex tuus venit tibi sanctus et Salvátor.",
+            "incipit": "Exsúlta satis, fília",
+            "mp3": "offertoire_exsulta-satis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, placátus inténde: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Communio",
+            "texte": "!Ps 18:6-7\nExsultávit ut gigas ad curréndam viam: a summo cœlo egréssio ejus, et occúrsus ejus usque ad summum ejus.",
+            "incipit": "Exsultávit ut gigas",
+            "mp3": "communion_exsultavit-ut-gigas.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Adv3-6.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Introitus",
+            "texte": "!Ps 79:4; 79:2\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.\n!Ps 79:2\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\n&Gloria\nv. Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim: et salvi érimus.",
+            "incipit": "Veni, et osténde",
+            "mp3": "introitus_veni-et-ostende.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui cónspicis, quia ex nostra pravitáte afflígimur: concéde propítius; ut ex tua visitatióne consolémur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!2 Thess 2:1-8\nFratres: Rogámus vos per advéntum Dómini nostri Jesu Christi, et nostræ congregatiónis in ipsum: ut non cito moveámini a vestro sensu, neque terreámini, neque per spíritum, neque per sermónem, neque per epístolam tamquam per nos missam, quasi instet dies Dómini. Ne quis vos sedúcat ullo modo: quóniam nisi vénerit discéssio primum, et revelátus fuerit homo peccáti, fílius perditiónis, qui adversátur, et extóllitur supra omne, quod dícitur Deus aut quod cólitur, ita ut in templo Dei sédeat osténdens se, tamquam sit Deus. Non retinétis, quod, cum adhuc essem apud vos, hæc dicébam vobis? Et nunc quid detíneat, scitis, ut revelétur in suo témpore. Nam mystérium jam operátur iniquitátis: tantum ut, qui tenet nunc, téneat, donec de médio fiat. Et tunc revelábitur ille iníquus, quem Dóminus Jesus interfíciet spíritu oris sui, et déstruet illustratióne advéntus sui.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps:79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\nV. Qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.\nV. Excita, Dómine, poténtiam tuam, et veni: ut salvos fácias nos.",
+            "incipit": "Qui regis Israël,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 3:1-6\nAnno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto Judǽam, tetrárcha autem Galilǽæ Heróde, Philíppo autem fratre ejus tetrárcha Iturǽæ et Trachonítidis regionis, et Lysánia Abilínæ tetrárcha, sub princípibus sacerdotum Anna et Cáipha: factum est verbum Domini super Joannem, Zacharíæ filium, in deserto. Et venit in omnem regiónem Jordánis, prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum, sicut scriptum est in libro sermónum Isaíæ Prophétæ: Vox clamántis in desérto: Paráte viam Dómini: rectas fácite sémitas ejus: omnis vallis implébitur: et omnis mons et collis humiliábitur: et erunt prava in dirécta, et áspera in vias planas: et vidébit omnis caro salutáre Dei.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Offertorium",
+            "texte": "!Zach 9:9\nExsúlta satis, fília Sion, prǽdica, fília Jerúsalem: ecce, Rex tuus venit tibi sanctus et Salvátor.",
+            "incipit": "Exsúlta satis, fília",
+            "mp3": "offertoire_exsulta-satis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, placátus inténde: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Communio",
+            "texte": "!Ps 18:6-7\nExsultávit ut gigas ad curréndam viam: a summo cœlo egréssio ejus, et occúrsus ejus usque ad summum ejus.",
+            "incipit": "Exsultávit ut gigas",
+            "mp3": "communion_exsultavit-ut-gigas.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Adv3-6.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps:79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\nV. Qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.\nV. Excita, Dómine, poténtiam tuam, et veni: ut salvos fácias nos.",
-        "Francais": "!Ps:79:2-3\nVous qui guidez Israël, soyez attentif ; vous qui conduisez Joseph comme une brebis.\nV. Vous qui siégez sur les Chérubins, apparaissez devant Éphraïm, Benjamin et Manassé.\nV. Réveillez, Seigneur, votre puissance, et venez, afin de nous sauver."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 3:1-6\nLa quinzième année du règne de Tibère César, Ponce Pilate étant gouverneur de la Judée ; Hérode, tétrarque de la Galilée ; Philippe, son frère, tétrarque de l'Iturée et du pays de la Trachonitide, et Lysanias, tétrarque de l'Abilène ; au temps des grands prêtres Anne et Caïphe, la parole de Dieu fut sur Jean, fils de Zacharie, dans le désert. Et il vint dans toute la région du Jourdain, prêchant un baptême de repentir pour la rémission des péchés, ainsi qu'il est écrit au livre des oracles du prophète Isaïe : Voix de celui qui crie dans le désert : Préparez le chemin du Seigneur, aplanissez ses sentiers. Toute vallée sera comblée, toute montagne et colline seront abaissées; les chemins tortueux deviendront droits, et les raboteux unis. Et toute chair verra le salut de Dieu."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Zach 9:9\nExsúlta satis, fília Sion, prǽdica, fília Jerúsalem: ecce, Rex tuus venit tibi sanctus et Salvátor.",
-        "Francais": "!Zach 9:9\nTressaille d'allégresse, fille de Sion ; pousse des cris de joie, fille de Jérusalem : voici que ton Roi vient à toi, Saint et Sauveur."
-      },
-      "audios": "Graduale Project/offertoire_exsulta-satis.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 18:6-7\nExsultávit ut gigas ad curréndam viam: a summo cœlo egréssio ejus, et occúrsus ejus usque ad summum ejus.",
-        "Francais": "!Ps 18:6-7\nIl se fait une joie, tel un géant, de courir sa carrière ; il part d'une extrémité des cieux, et sa course le mène à l'autre extrémité."
-      },
-      "audios": "Graduale Project/communion_exsultavit-ut-gigas.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Adv3-6.txt",
+        "Latin/Tempora/Adv3-6.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

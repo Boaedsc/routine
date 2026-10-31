@@ -1,62 +1,437 @@
 {
   "date": "2027-01-18",
-  "celebration": {
-    "nom": "Chaire de saint Pierre à Rome",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-18",
-    "Tempora/Epi2-1"
-  ],
-  "cles_jour": [
-    "01-18",
-    "Epi2-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C2a",
-        "Francais": "!Eccli 45:30.\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours."
+      "occurrence": {
+        "gagnant": "Sancti/01-18",
+        "nom_sanctoral": "S Priscae Virginis",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-18.txt",
+        "temporal": "Latin/Tempora/Epi2-1.txt",
+        "sanctoral": "Latin/Sancti/01-18.txt",
+        "calendrier": "01-18",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli.\n!1. Pet 1:1-7\nPierre, Apôtre de Jésus-Christ, aux élus étrangers et dispersés dans le Pont, la Galatie, la Cappadoce, l’Asie et la Bithynie, élus selon la prescience de Dieu le Père pour la sanctification de l’Esprit, pour obéir à la foi et avoir part à l’aspersion du sang de Jésus-Christ, que la grâce et la paix vous soient multipliées ! Béni soit le Dieu et le Père de Notre-Seigneur Jésus-Christ, qui, selon sa grande miséricorde, nous a régénérés pour une espérance vivante par la résurrection de Jésus-Christ d’entre les morts, pour un héritage qui ne peut ni se corrompre, ni se souiller, ni se flétrir, qui est réservé dans les cieux pour vous, qui êtes gardés par la puissance de Dieu, par la foi, pour le salut qui est prêt à être manifesté dans le dernier temps. Vous devez en être transportés de joie, supposé même qu’il faille que, pour un peu de temps, vous soyez attristés par diverses épreuves, afin que votre foi ainsi éprouvée, plus précieuse que l’or (qu’on éprouve par le feu) tourne à votre louange, votre gloire et votre honneur, lorsque paraîtra Jésus-Christ Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Introitus",
+            "texte": "!Ps 20:2-3\nv. In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.\n!Ps 20:4\nQuóniam prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso.\n&Gloria\nv. In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.",
+            "incipit": "In virtúte tua,",
+            "mp3": "introitus_in-virtute-tua-laetabitur-iustus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Oratio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet 1:1-7\nPetrus, Apóstolus Jesu Christi, eléctis ádvenis dispersiónis Ponti, Galátiæ, Cappadóciæ, Asiæ et Bithýniæ secúndum præsciéntiam Dei Patris, in sanctificatiónem Spíritus, in obœdiéntiam, et aspersiónem sánguinis Jesu Christi: grátia vobis et pax multiplicétur. Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum misericórdiam suam magnam regenerávit nos in spem vivam, per resurrectiónem Jesu Christi ex mórtuis, in hereditátem incorruptíbilem et incontaminátam et immarcescíbilem, conservátam in cœlis in vobis, qui in virtúte Dei custodímini per fidem in salútem, parátam revelári in témpore novíssimo. In quo exsultábitis, módicum nunc si opórtet contristári in váriis tentatiónibus: ut probátio vestræ fídei multo pretiósior auro [quod per ignem probatur] inveniátur in laudem et glóriam et honórem, in revelatióne Jesu Christi, Dómini nostri.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": "Exáltent eum in",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Graduale",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Tractus",
+            "texte": "!Matt 16:18-19\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam.\nV. Et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.\nV. Quodcúmque ligáveris super terram, erit ligátum et in cœlis.\nV. Et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+            "incipit": "Tu es Petrus,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:13-19\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Offertorium",
+            "texte": "!Matt 16:18-19\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam: et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Secreta",
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Postcommunio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Introitus",
+            "texte": "!Ps 20:2-3.\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.\n!Ps 20:4\nParce que vous l’avez prévenu de bénédic­tions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\n&Gloria\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.",
+            "incipit": "Le juste se",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Oratio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli.\n!1. Pet 1:1-7\nPierre apôtre de Jésus-Christ, aux élus, étrangers et dispersés dans le Pont, la Galatie, la Cappadoce, l'Asie et la Bithynie, choisis selon la prescience de Dieu le Père, par la sanctification de l'Esprit, pour obéir à la foi et pour avoir part à l'aspersion du sang de Jésus-Christ : à vous grâce et paix de plus en plus. Béni soit Dieu, le Père de Notre Seigneur Jésus-Christ, qui selon sa grande miséricorde nous a régénérés par la résurrection de Jésus-Christ d'entre les morts pour une vivante espérance; pour un héritage incorruptible, sans souillure et inflétrissable, qui vous est réservé dans les cieux, à vous que la puissance de Dieu garde par la foi pour le salut, qui est prêt à se manifester au dernier moment. Dans cette pensée, vous tressaillez de joie, bien qu'il vous faille encore pour un peu de temps être affligés par diverses épreuves, afin que l'épreuve de votre foi beaucoup plus précieuse que l'or périssable que l'on ne laisse pourtant pas d'éprouver par le feu, vous soit un sujet de louange, de gloire et d'honneur lorsque se manifestera Jésus-Christ.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Commune/Coronatio.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Graduale",
+            "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes. Alléluia, alléluia.\n!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+            "incipit": "Qu’ils l’exaltent dans",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4b.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Tractus",
+            "texte": "!Matt 16:18-19\nTu es Pierre, et sur cette pierre je bâtirai mon Église.\nV. Et les portes de l'enfer ne prévaudront point contre elle. Je te donnerai les clés du Royaume des cieux.\nV. Tout ce que tu lieras sur la terre sera lié dans les cieux.\nV. Et tout ce que tu délieras sur la terre sera délié dans les cieux.",
+            "incipit": "Tu es Pierre,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Commune/Coronatio.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 16:13-19\nJésus, étant venu dans la région de Césarée de Philippe, interrogeait ainsi ses disciples : « Qui dit-on qu'est le Fils de l'homme? » Ils dirent : « Les uns Jean le Baptiste, d'autres Elie, d'autres Jérémie ou l'un des prophètes. » Il leur dit : « Et vous, qui dites-vous que je suis? » Simon Pierre, prenant la parole, dit : « Vous êtes le Christ, le Fils du Dieu vivant. » Jésus lui répondit : « Tu es heureux, Simon Bar-Jona, car ce n'est pas la chair et le sang qui te l'ont révélé, mais mon Père qui est dans les cieux. Et moi, je te dis que tu es Pierre, et sur cette pierre je bâtirai mon Eglise, et les portes de l'enfer ne prévaudront point contre elle. Et je te donnerai les clefs du royaume des cieux : tout ce que tu lieras sur la terre sera lié dans les cieux, et tout ce que tu délieras sur la terre sera délié dans les cieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Commune/Coronatio.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Offertorium",
+            "texte": "!Matt 16,18-19\nTu es Pierre, et sur cette pierre je bâtirai mon Église, et les portes de l'enfer ne prévaudront point contre elle. Je te donnerai les clés du Royaume des cieux. (Alléluia.)",
+            "incipit": "Tu es Pierre,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Commune/Coronatio.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Secreta",
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-18.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+            "incipit": "Tu es Petrus,",
+            "mp3": "communion_tu-es-petrus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-18.txt",
+            "section": "Postcommunio",
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-22.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Commune/C4b",
-        "Francais": "!Ps 106:32; 106:31\nAcclamez-le dans l’Église assemblée, car il siège dans la chaire des anciens pontifes !\nV. Remerciez le Seigneur de sa bonté et des merveilles qu’il accomplit pour les enfants des hommes.\nAllelúja, allelúja\n!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/Coronatio",
-        "Francais": "!Matt 16:18-19\nTu es Pierre et sur cette pierre je bâtirai mon église, et les portes de l’enfer ne prévaudront point contre elle ; et je te donnerai les clefs du royaume des cieux."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4b",
-        "Francais": "!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/01-18.txt",
+        "Latin/Sancti/01-18.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

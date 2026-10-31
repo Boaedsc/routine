@@ -1,70 +1,210 @@
 {
   "date": "2028-03-27",
-  "celebration": {
-    "nom": "Saint Jean Damascène",
-    "classe": 3,
-    "note": "(temporal : Lundi de la 4e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/03-27",
-    "Tempora/Quad4-1"
-  ],
-  "cles_jour": [
-    "03-27",
-    "Quad4-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad4",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 72:24\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.\n!Ps 72:1.\nQuam bonus Israël Deus his, qui recto sunt corde!\n&Gloria\nv. Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et cum glória suscepísti me.",
-        "Francais": "!Ps 72:24\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire.\n!Ps 72:1.\nQue Dieu est bon pour Israël, pour ceux qui ont le cœur droit !\n&Gloria\nv. Vous avez tenu ma main droite : et vous m’avez conduit selon votre volonté, et vous m’avez reçu avec gloire."
+      "occurrence": {
+        "gagnant": "Tempora/Quad4-1",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad4-1.txt",
+        "temporal": "Latin/Tempora/Quad4-1.txt",
+        "sanctoral": "Latin/Sancti/03-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "@Commune/C2a:Lectio"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 53:3-4\nv. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me: Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.\n!Ps 53:5\nQuóniam aliéni insurrexérunt in me: et fortes quæsiérunt ánimam meam.\n&Gloria\nv. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me: Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.",
+            "incipit": "Deus, in nómine",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus et mente.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum\n!3 Reg 3:16-28.\nIn diébus illis: Venérunt duæ mulíeres meretríces ad regem Salomónem, steterúntque coram eo, quarum una ait: Obsecro, mi dómine: ego et múlier hæc habitabámus in domo una, et péperi apud eam in cubículo. Tértia autem die postquam ego péperi, péperit et hæc: et erámus simul, nullúsque álius nobíscum in domo, excéptis nobis duábus. Mórtuus est autem fílius mulíeris hujus nocte: dórmiens quippe oppréssit eum. Et consúrgens intempéstæ noctis siléntio, tulit fílium meum de látere meo ancíllæ tuæ dormiéntis, et collocávit in sinu suo: suum autem fílium, qui erat mórtuus, pósuit in sinu meo. Cumque surrexíssem mane, ut darem lac fílio meo, appáruit mórtuus: quem diligéntius íntuens clara luce, deprehéndi non esse meum, quem genúeram. Respondítque áltera múlier: Non est ita, ut dicis, sed fílius tuus mórtuus est, meus autem vivit. E contrário illa dicébat: Mentiris: fílius quippe meus vivit, et fílius tuus mórtuus est. Atque in hunc modum contendébant coram rege. Tunc rex ait: Hæc dicit Fílius meus vivit, et fílius tuus mórtuus est. Et ista respóndit: Non, sed fílius tuus mórtuus est, meus autem vivit. Dixit ergo rex: Afférte mihi gládium. Cumque attulíssent gládium coram rege: Divídite, inquit, infántem vivum in duas partes, et dat dimídiam partem uni, et dimídiam partem álteri. Dixit autem múlier, cujus fílius erat vivus, ad regem - commóta sunt quippe víscera ejus super fílio suo: - Obsecro, dómine, date illi infántem vivum, et nolíte interfícere eum. E contrário illa dicébat: Nec mihi nec tibi sit, sed dividátur. Respóndit rex et ait: Date huic infántem vivum, et non occidátur: hæc est enim mater ejus. Audívit ítaque omnis Israël judícium, quod judicásset rex, et timuérunt regem, vidéntes sapiéntiam Dei esse in eo ad faciéndum judícium.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 30:3\nEsto mihi in Deum protectórem et in locum refúgii, ut salvum me fácias.\n!Ps 70:1.\nV. Deus, in te sperávi: Dómine, non confúndar in ætérnum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Esto mihi in",
+            "mp3": "graduel_esto-mihi.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 2:13-25\nIn illo témpore: Prope erat Pascha Judæórum, et ascéndit Jesus Jerosólymam: et invénit in templo vendéntes boves et oves et colúmbas, et nummulários sedéntes. Et cum fecísset quasi flagéllum de funículis, omnes ejécit de templo, oves quoque et boves, et nummulariórum effúdit æs et mensas subvértit. Et his, qui colúmbas vendébant, dixit: Auférte ista hinc, et nolíte fácere domum Patris mei domum negotiatiónis. Recordáti sunt vero discípuli ejus, quia scriptum est: Zelus domus tuæ comédit me. Respondérunt ergo Judǽi, et dixérunt ei: Quod signum osténdis nobis, quia hæc facis? Respóndit Jesus et dixit eis: Sólvite templum hoc, et in tribus diébus excitábo illud. Dixérunt ergo Judǽi: Quadragínta et sex annis ædificátum est templum hoc, et tu in tribus diébus excitábis illud? Ille autem dicébat de templo córporis sui. Cum ergo resurrexísset a mórtuis, recordáti sunt discípuli ejus, quia hoc dicébat, et credidérunt Scriptúræ, et sermóni, quem dixit Jesus. Cum autem esset Jerosólymis in Pascha in die festo, multi credidérunt in nómine ejus, vidéntes signa ejus, quæ faciébat. Ipse autem Jesus non credébat semetípsum eis, eo quod ipse nosset omnes, et quia opus ei non erat, ut quis testimónium perhibéret de hómine: ipse enim sciébat, quid esset in hómine.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 99:1-2\nJubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.",
+            "incipit": "Jubiláte Deo, omnis",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Secreta",
+            "texte": "Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 18:13, 14\nAb occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.",
+            "incipit": "Ab occúltis meis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad4-1.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, salutáribus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Introitus",
+            "texte": "!Ps 53:3-4\nv. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me: Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.\n!Ps 53:5\nQuóniam aliéni insurrexérunt in me: et fortes quæsiérunt ánimam meam.\n&Gloria\nv. Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me: Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.",
+            "incipit": "Deus, in nómine",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus et mente.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum\n!3 Reg 3:16-28.\nIn diébus illis: Venérunt duæ mulíeres meretríces ad regem Salomónem, steterúntque coram eo, quarum una ait: Obsecro, mi dómine: ego et múlier hæc habitabámus in domo una, et péperi apud eam in cubículo. Tértia autem die postquam ego péperi, péperit et hæc: et erámus simul, nullúsque álius nobíscum in domo, excéptis nobis duábus. Mórtuus est autem fílius mulíeris hujus nocte: dórmiens quippe oppréssit eum. Et consúrgens intempéstæ noctis siléntio, tulit fílium meum de látere meo ancíllæ tuæ dormiéntis, et collocávit in sinu suo: suum autem fílium, qui erat mórtuus, pósuit in sinu meo. Cumque surrexíssem mane, ut darem lac fílio meo, appáruit mórtuus: quem diligéntius íntuens clara luce, deprehéndi non esse meum, quem genúeram. Respondítque áltera múlier: Non est ita, ut dicis, sed fílius tuus mórtuus est, meus autem vivit. E contrário illa dicébat: Mentiris: fílius quippe meus vivit, et fílius tuus mórtuus est. Atque in hunc modum contendébant coram rege. Tunc rex ait: Hæc dicit Fílius meus vivit, et fílius tuus mórtuus est. Et ista respóndit: Non, sed fílius tuus mórtuus est, meus autem vivit. Dixit ergo rex: Afférte mihi gládium. Cumque attulíssent gládium coram rege: Divídite, inquit, infántem vivum in duas partes, et dat dimídiam partem uni, et dimídiam partem álteri. Dixit autem múlier, cujus fílius erat vivus, ad regem - commóta sunt quippe víscera ejus super fílio suo: - Obsecro, dómine, date illi infántem vivum, et nolíte interfícere eum. E contrário illa dicébat: Nec mihi nec tibi sit, sed dividátur. Respóndit rex et ait: Date huic infántem vivum, et non occidátur: hæc est enim mater ejus. Audívit ítaque omnis Israël judícium, quod judicásset rex, et timuérunt regem, vidéntes sapiéntiam Dei esse in eo ad faciéndum judícium.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 30:3\nEsto mihi in Deum protectórem et in locum refúgii, ut salvum me fácias.\n!Ps 70:1.\nV. Deus, in te sperávi: Dómine, non confúndar in ætérnum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Esto mihi in",
+            "mp3": "graduel_esto-mihi.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 2:13-25\nIn illo témpore: Prope erat Pascha Judæórum, et ascéndit Jesus Jerosólymam: et invénit in templo vendéntes boves et oves et colúmbas, et nummulários sedéntes. Et cum fecísset quasi flagéllum de funículis, omnes ejécit de templo, oves quoque et boves, et nummulariórum effúdit æs et mensas subvértit. Et his, qui colúmbas vendébant, dixit: Auférte ista hinc, et nolíte fácere domum Patris mei domum negotiatiónis. Recordáti sunt vero discípuli ejus, quia scriptum est: Zelus domus tuæ comédit me. Respondérunt ergo Judǽi, et dixérunt ei: Quod signum osténdis nobis, quia hæc facis? Respóndit Jesus et dixit eis: Sólvite templum hoc, et in tribus diébus excitábo illud. Dixérunt ergo Judǽi: Quadragínta et sex annis ædificátum est templum hoc, et tu in tribus diébus excitábis illud? Ille autem dicébat de templo córporis sui. Cum ergo resurrexísset a mórtuis, recordáti sunt discípuli ejus, quia hoc dicébat, et credidérunt Scriptúræ, et sermóni, quem dixit Jesus. Cum autem esset Jerosólymis in Pascha in die festo, multi credidérunt in nómine ejus, vidéntes signa ejus, quæ faciébat. Ipse autem Jesus non credébat semetípsum eis, eo quod ipse nosset omnes, et quia opus ei non erat, ut quis testimónium perhibéret de hómine: ipse enim sciébat, quid esset in hómine.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 99:1-2\nJubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.",
+            "incipit": "Jubiláte Deo, omnis",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Secreta",
+            "texte": "Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Communio",
+            "texte": "!Ps 18:13, 14\nAb occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.",
+            "incipit": "Ab occúltis meis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad4-1.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, salutáribus sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Deus, qui præcínxit me virtúte: et pósuit immaculátam viam meam.\nV. Qui docet manus meas ad prœ́lium: et posuísti, ut arcum æreum, bráchia mea.\nAllelúja, allelúja.\nV. Dedísti mihi protectiónem salútis tuæ: et déxtera tua suscépit me. Allelúja.",
-        "Francais": "Le Dieu qui m’a ceint de force, et qui a rendu ma voie immaculée.\nV. Lui qui enseigne à mes mains le combat : c’est vous qui avez fait de mes bras comme un arc d’airain.\nv. Alléluia, alléluia.\nV. Vous m’avez donné votre protection pour me sauver, et votre droite m’a soutenu. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_esto-mihi.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nEn ce temps-là : Il arriva, un autre jour de sabbat, qu’Il entra dans la synagogue et qu’Il enseignait ; et il y avait là un homme dont la main droite était desséchée. Or les scribes et les pharisiens L’observaient, pour voir s’Il ferait une guérison le jour du sabbat, afin de trouver de quoi L’accuser. Mais Lui, Il connaissait leurs pensées, et Il dit à l’homme qui avait la main desséchée : Lève-toi, et tiens-toi là au milieu. Et se levant, il se tint debout. Alors Jésus leur dit : Je vous demande s’il est permis, les jours de sabbat, de faire du bien ou de faire du mal, de sauver la vie ou de l’ôter ? Et ayant promené Ses regards sur eux tous, Il dit à l’homme : Étends ta main. Il l’étendit, et sa main fut guérie. Mais eux, remplis de démence, s’entretenaient ensemble de ce qu’ils feraient à Jésus."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Job 14:7\nLignum habet spem: si præcísum fúerit, rursum viréscit, et rami ejus púllulant.",
-        "Francais": "!Job 14:7\nUn arbre n’est pas sans espérance : si on le coupe, il reverdit encore, et ses branches se multiplient."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 36:17\nBráchia peccatórum conteréntur, confírmat autem justos Dóminus.",
-        "Francais": "!Ps 36:17\nLes bras des pécheurs seront brisés, mais le Seigneur affermit les justes."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad4-1.txt",
+        "Latin/Tempora/Quad4-1.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

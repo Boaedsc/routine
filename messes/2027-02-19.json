@@ -1,68 +1,224 @@
 {
   "date": "2027-02-19",
-  "celebration": {
-    "nom": "Vendredi de la 1e semaine de Carême",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad1-5"
-  ],
-  "cles_jour": [
-    "Quad1-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad1",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 24:17; 24:18\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.",
-        "Francais": "!Ps 24:17; 24:18\nv. Seigneur, délivrez-moi de mes angoisses ; voyez mon humiliation et ma peine et remettez-moi tous mes péchés.\n!Ps 24:1-2\nVers vous, Seigneur, j’ai élevé mon âme ; mon Dieu, je mets ma confiance en vous, que je n’aie pas à rougir.\n&Gloria\nv. Seigneur, délivrez-moi de mes angoisses ; voyez mon humiliation et ma peine et remettez-moi tous mes péchés."
+      "occurrence": {
+        "gagnant": "Tempora/Quad1-5",
+        "nom_sanctoral": "",
+        "classe": 2.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad1-5.txt",
+        "temporal": "Latin/Tempora/Quad1-5.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Ezechiélis Prophétæ.\n!Ezech 18:20-28\nVoici ce que dit le Seigneur Dieu : L’âme qui pèche c’est celle qui mourra ; le fils ne portera pas l’iniquité du père, et le père ne portera pas l’iniquité du fils ; la justice du juste sera sur lui, et la méchanceté du méchant sera sur lui. Quant au méchant, s’il se détourne de tous ses péchés qu’il commis, s’il observe tous mes préceptes et agit selon le droit et la justice, il vivra, il ne mourra pas. De toutes les transgressions qu’il a commises, on ne se souviendra plus à cause de la justice qu’il a pratiquée, il vivra. Prendrai-je plaisir à la mort du méchant, dit le Seigneur Dieu ? N’est-ce pas plutôt à ce qu’il se détourne de ses voies et qu’il vive ? Et si le juste se détourne de sa justice et qu’il commette l’iniquité, selon toutes les abominations que le méchant commet, il les ferait et il vivrait !... de toutes ses œuvres de justice qu’il a pratiquées, on ne se souviendra plus ; à cause de la transgression dont il s’est rendu coupable et de son péché qu’il a commis, à cause de cela il mourra. Vous dites : « La voie du Seigneur n’est pas droite ?» Ecoutez donc, maison d’Israël : Est-ce ma voie qui n’est pas droite ? Ne sont-ce pas vos voies qui ne sont pas droites ? Quand le juste se détourne de sa justice et commet l’iniquité, et que là-dessus il meurt, c’est à cause de l’iniquité qu’il à commise qu’il meurt. Et si le méchant se détourne de sa méchanceté qu’il a pratiquée et qu’il agisse suivant le droit et la justice, il fera vivre son âme. S’il ouvre les yeux et se détourne de toutes ses transgressions qu’il a commises, il vivra certainement, et il ne mourra point, dit le Seigneur tout-puissant."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:17; 24:18\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.",
+            "incipit": "De necessitátibus meis",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Oratio",
+            "texte": "Esto, Dómine, propítius plebi tuæ: et, quam tibi facis esse devótam, benígno réfove miserátus auxílio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:20-28\nHæc dicit Dóminus Deus: Anima, quæ peccáverit, ipsa moriétur: fílius non portábit iniquitátem patris, et pater non portábit iniquitátem fílii: justítia justi super eum erit, et impíetas ímpii erit super eum. Si autem ímpius égerit pæniténtiam ab ómnibus peccátis suis, quæ operátus est, et custodíerit ómnia præcépta mea, et fécerit judícium et justítiam: vita vivet, et non moriétur. Omnium iniquitátum ejus, quas operátus est, non recordábor: in justítia sua, quam operátus est, vivet. Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis, et vivat? Si autem avérterit se justus a justítia sua, et fécerit iniquitátem secúndum omnes abominatiónes, quas operári solet ímpius, numquid vivet? omnes justítiæ ejus, quas fécerat, non recordabúntur: in prævaricatióne, qua prævaricátus est, et in peccáto suo, quod peccávit, in ipsis moriétur. Et dixístis: Non est æqua via Dómini. Audíte ergo, domus Israël: Numquid via mea non est æqua, et non magis viæ vestræ pravæ sunt? Cum enim avérterit se justus a justítia sua, et fécerit iniquitátem, moriétur in eis: in injustítia, quam operátus est, moriétur. Et cum avérterit se ímpius ab impietáte sua, quam operátus est, et fécerit judícium et justítiam: ipse ánimam suam vivificábit. Consíderans enim, et avértens se ab ómnibus iniquitátibus suis, quas operátus est, vita vivet, et non moriétur, ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 85:2; 85:6\nSalvum fac servum tuum. Deus meus, sperántem in te.\nV. Auribus pércipe, Dómine, oratiónem meam.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Salvum fac servum",
+            "mp3": "graduel_salvum-fac-servum.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-15\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsáida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiébat, a quacúmque detinebátur infirmitáte. Erat autem quidam homo ibi, trigínta et octo annos habens in infirmitáte sua. Hunc cum vidísset Jesus jacéntem, et cognovísset, quia jam multum tempus habéret, dicit ei: Vis sanus fíeri? Respóndit ei lánguidus: Dómine, hóminem non hábeo, ut, cum turbáta fúerit aqua, mittat me in piscínam: dum vénio enim ego, álius ante me descéndit. Dicit ei Jesus: Surge, tolle grabátum tuum, et ámbula. Et statim sanus factus est homo ille: et sústulit grabátum suum, et ambulábat. Erat autem sábbatum in die illo. Dicébant ergo Judǽi illi, qui sanátus fúerat: Sábbatum est, non licet tibi tóllere grabátum tuum. Respóndit eis: Qui me sanum fecit, ille mihi dixit: Tolle grabátum tuum, et ámbula. Interrogavérunt ergo eum: Quis est ille homo, qui dixit tibi: Tolle grabátum tuum et ámbula? Is autem, qui sanus fúerat efféctus, nesciébat, quis esset. Jesus enim declinávit a turba constitúta in loco. Póstea invénit eum Jesus in templo, et dixit illi: Ecce, sanus factus es: jam noli peccáre, ne detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit Judǽis, quia Jesus esset, qui fecit eum sanum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 102:2; 102:5\nBénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus: et renovábitur, sicut áquilæ, juvéntus tua.",
+            "incipit": "Bénedic, ánima mea,",
+            "mp3": "offertoire_benedic-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, quǽsumus, Dómine, múnera nostris obláta servítiis: et tua propítius dona sanctífica.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Communio",
+            "texte": "!Ps 6:11\nErubéscant et conturbéntur omnes inimíci mei: avertántur retrórsum, et erubéscant valde velóciter.",
+            "incipit": "Erubéscant et conturbéntur",
+            "mp3": "communion_erubescant-et-conturbentur.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad1-5.txt",
+            "section": "Postcommunio",
+            "texte": "Per hujus, Dómine, operatiónem mystérii, et vítia nostra purgéntur, et justa desidéria compleántur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-05.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 24:17; 24:18\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.\n!Ps 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. De necessitátibus meis éripe me, Dómine: vide humilitátem meam et labórem meum, et dimítte ómnia peccáta mea.",
+            "incipit": "De necessitátibus meis",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Oratio",
+            "texte": "Esto, Dómine, propítius plebi tuæ: et, quam tibi facis esse devótam, benígno réfove miserátus auxílio.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:20-28\nHæc dicit Dóminus Deus: Anima, quæ peccáverit, ipsa moriétur: fílius non portábit iniquitátem patris, et pater non portábit iniquitátem fílii: justítia justi super eum erit, et impíetas ímpii erit super eum. Si autem ímpius égerit pæniténtiam ab ómnibus peccátis suis, quæ operátus est, et custodíerit ómnia præcépta mea, et fécerit judícium et justítiam: vita vivet, et non moriétur. Omnium iniquitátum ejus, quas operátus est, non recordábor: in justítia sua, quam operátus est, vivet. Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis, et vivat? Si autem avérterit se justus a justítia sua, et fécerit iniquitátem secúndum omnes abominatiónes, quas operári solet ímpius, numquid vivet? omnes justítiæ ejus, quas fécerat, non recordabúntur: in prævaricatióne, qua prævaricátus est, et in peccáto suo, quod peccávit, in ipsis moriétur. Et dixístis: Non est æqua via Dómini. Audíte ergo, domus Israël: Numquid via mea non est æqua, et non magis viæ vestræ pravæ sunt? Cum enim avérterit se justus a justítia sua, et fécerit iniquitátem, moriétur in eis: in injustítia, quam operátus est, moriétur. Et cum avérterit se ímpius ab impietáte sua, quam operátus est, et fécerit judícium et justítiam: ipse ánimam suam vivificábit. Consíderans enim, et avértens se ab ómnibus iniquitátibus suis, quas operátus est, vita vivet, et non moriétur, ait Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 85:2; 85:6\nSalvum fac servum tuum. Deus meus, sperántem in te.\nV. Auribus pércipe, Dómine, oratiónem meam.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Salvum fac servum",
+            "mp3": "graduel_salvum-fac-servum.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:1-15\nIn illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsáida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiébat, a quacúmque detinebátur infirmitáte. Erat autem quidam homo ibi, trigínta et octo annos habens in infirmitáte sua. Hunc cum vidísset Jesus jacéntem, et cognovísset, quia jam multum tempus habéret, dicit ei: Vis sanus fíeri? Respóndit ei lánguidus: Dómine, hóminem non hábeo, ut, cum turbáta fúerit aqua, mittat me in piscínam: dum vénio enim ego, álius ante me descéndit. Dicit ei Jesus: Surge, tolle grabátum tuum, et ámbula. Et statim sanus factus est homo ille: et sústulit grabátum suum, et ambulábat. Erat autem sábbatum in die illo. Dicébant ergo Judǽi illi, qui sanátus fúerat: Sábbatum est, non licet tibi tóllere grabátum tuum. Respóndit eis: Qui me sanum fecit, ille mihi dixit: Tolle grabátum tuum, et ámbula. Interrogavérunt ergo eum: Quis est ille homo, qui dixit tibi: Tolle grabátum tuum et ámbula? Is autem, qui sanus fúerat efféctus, nesciébat, quis esset. Jesus enim declinávit a turba constitúta in loco. Póstea invénit eum Jesus in templo, et dixit illi: Ecce, sanus factus es: jam noli peccáre, ne detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit Judǽis, quia Jesus esset, qui fecit eum sanum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 102:2; 102:5\nBénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus: et renovábitur, sicut áquilæ, juvéntus tua.",
+            "incipit": "Bénedic, ánima mea,",
+            "mp3": "offertoire_benedic-anima-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, quǽsumus, Dómine, múnera nostris obláta servítiis: et tua propítius dona sanctífica.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Communio",
+            "texte": "!Ps 6:11\nErubéscant et conturbéntur omnes inimíci mei: avertántur retrórsum, et erubéscant valde velóciter.",
+            "incipit": "Erubéscant et conturbéntur",
+            "mp3": "communion_erubescant-et-conturbentur.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad1-5.txt",
+            "section": "Postcommunio",
+            "texte": "Par l'action de ce sacrement, Seigneur, que nos mauvais penchants soient extirpés, nos bons désirs comblés.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-05.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 85:2; 85:6\nSalvum fac servum tuum. Deus meus, sperántem in te.\nV. Auribus pércipe, Dómine, oratiónem meam.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
-        "Francais": "!Ps 85:2; 85:6\nSauvez, mon Dieu, votre serviteur qui espère en vous.\nV. Prêtez l’oreille, Seigneur, à ma prière.\n_\n!Tractus\n!Ps 102:10\nSeigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités.\n!Ps 78:8-9\nSeigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux)\nV. Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom."
-      },
-      "audios": "Graduale Project/graduel_salvum-fac-servum.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 5:1-15\nEn ce temps-là, il y eut une fête des Juifs, et Jésus monta à Jérusalem. Or, à Jérusalem, près de la porte des Brebis, il y a une piscine qui s’appelle en hébreu Béthesda, et qui a cinq portiques. Sous ces portiques étaient couchés un grand nombre de malades, d’aveugles, de boiteux et de paralytiques. Ils attendaient le bouillonnement de l’eau. Car un ange du Seigneur descendait à certains temps dans la piscine, et agitait l’eau. Et celui qui y descendait le premier après l’agitation de l’eau, était guéri de son infirmité quelle qu’elle fut. Là se trouvait un homme malade depuis trente huit ans. Jésus l’ayant vu gisant et sachant qu’il était malade depuis longtemps, lui dit : « Veux-tu être guéri ? » Le malade lui répondit : « Seigneur, je n’ai personne pour me jeter dans la piscine dès que l’eau est agitée, et pendant que j’y vais, un autre descend avant moi. » Jésus lui dit : « Lève-toi, prends ton grabat et marche. » Et à l’instant cet homme fut guéri ; il prit son grabat et se mit à marcher. C’était un our de sabbat. Les Juifs dirent donc à celui qui avait été guéri : « C’est le sabbat, il ne t’est pas permis d’emporter ton grabat. » Il leur répondit : « Celui qui m’a guéri m’a dit : Prends ton grabat et marche. » Ils lui demandèrent : « Qui est l’homme qui t’a dit : Prends ton grabat et marche ? » Mais celui qui avait été guéri ne savait pas qui c’était ; car Jésus s’était esquivé, grâce à la foule qui était en cet endroit. Plus tard, Jésus le trouva dans le temple et lui dit : « Te voilà guéri ; ne pèche plus, de peur qu’il ne t’arrive quelque chose de pire. » Cet homme s’en alla, et annonça aux Juifs que c’était Jésus qui l’avait guéri."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 102:2; 102:5\nBénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes ejus: et renovábitur, sicut áquilæ, juvéntus tua.",
-        "Francais": "!Ps 102:2; 102:5\nMon âme, bénis le Seigneur, et n’oublie jamais tous ses bienfaits ; et ta jeunesse sera renouvelée comme celle de l’aigle."
-      },
-      "audios": "Graduale Project/offertoire_benedic-anima-mea.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 6:11\nErubéscant et conturbéntur omnes inimíci mei: avertántur retrórsum, et erubéscant valde velóciter.",
-        "Francais": "!Ps 6:11\nQue tous mes ennemis rougissent et soient saisis de crainte ; qu’ils reculent promptement et qu’ils soient bientôt confondus."
-      },
-      "audios": "Graduale Project/communion_erubescant-et-conturbentur.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad1-5.txt",
+        "Latin/Tempora/Quad1-5.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

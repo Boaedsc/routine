@@ -1,68 +1,228 @@
 {
   "date": "2028-07-02",
-  "celebration": {
-    "nom": "4e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent04-0"
-  ],
-  "cles_jour": [
-    "Pent04-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent04",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 26:1; 26:2\nv. Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi infirmáti sunt, et cecidérunt.\n!Ps 26:3\nSi consístant advérsum me castra: non timébit cor meum.\n&Gloria\nv. Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi infirmáti sunt, et cecidérunt.",
-        "Francais": "!Ps 26:1; 26:2\nv. Le Seigneur est ma lumière et mon salut, qui craindrais-je ? Le Seigneur est le défenseur de ma vie, devant qui tremblerais-je ? Ceux qui troublent mon âme se sont affaiblis et ils sont tombés.\n!Ps 26:3\nSi une armée se lève contre moi, mon cœur reste sans crainte.\n&Gloria\nv. Le Seigneur est ma lumière et mon salut, qui craindrais-je ? Le Seigneur est le défenseur de ma vie, devant qui tremblerais-je ? Ceux qui troublent mon âme se sont affaiblis et ils sont tombés."
+      "occurrence": {
+        "gagnant": "Sancti/07-02",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-02.txt",
+        "temporal": "Latin/Tempora/Pent04-0.txt",
+        "sanctoral": "Latin/Sancti/07-02.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_dominus-illuminatio-mea.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 8:18-23.\nFrères, j'estime que les souffrances du temps présent sont sans proportion avec la gloire à venir qui sera manifestée en nous. Aussi la création attend-elle avec un ardent désir la manifestation des enfants de Dieu. La création, en effet, a été assujettie à la vanité, — non de son gré, mais par la volonté de celui qui l'y a soumise, — avec l'espérance qu'elle aussi sera affranchie de la servitude de la corruption, pour avoir part à la liberté glorieuse des enfants de Dieu. Car nous savons que, jusqu'à ce jour, la création tout entière gémit et souffre les douleurs de l'enfantement. Et ce n'est pas elle seulement ; nous aussi, qui avons les prémices de l'Esprit, nous gémissons en nous-mêmes, attendant l'adoption des enfants de Dieu, la rédemption de notre corps, dans le Christ Jésus, notre Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Introitus",
+            "texte": "!Sedulius\nv. Salve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Salve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum.",
+            "incipit": "Salve, sancta parens,",
+            "mp3": "introitus_salve-sancta-parens.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Oratio",
+            "texte": "Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre: ut, quibus beátæ Vírginis partus éxstitit salútis exórdium; Visitatiónis ejus votíva sollémnitas, pacis tríbuat increméntum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent04-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:18-23\nFratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est, non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja.\nV. Felix es, sacra Virgo María, et omni laude digníssima: quia ex te ortus est sol justítiæ, Christus, Deus noster. Allelúja.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_\n!Tractus\nGaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent04-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 5:1-11\nIn illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum Dei, et ipse stabat secus stagnum Genésareth. Et vidit duas naves stantes secus stagnum: piscatóres autem descénderant et lavábant rétia. Ascéndens autem in unam navim, quæ erat Simónis, rogávit eum a terra redúcere pusíllum. Et sedens docébat de navícula turbas. Ut cessávit autem loqui, dixit ad Simónem: Duc in altum, et laxáte rétia vestra in captúram. Et respóndens Simon, dixit illi: Præcéptor, per totam noctem laborántes, nihil cépimus: in verbo autem tuo laxábo rete. Et cum hoc fecíssent, conclusérunt píscium multitúdinem copiósam: rumpebátur autem rete eórum. Et annuérunt sóciis, qui erant in ália navi, ut venírent et adjuvárent eos. Et venérunt, et implevérunt ambas navículas, ita ut pæne mergeréntur. Quod cum vidéret Simon Petrus, prócidit ad génua Jesu, dicens: Exi a me, quia homo peccátor sum, Dómine. Stupor enim circumdéderat eum et omnes, qui cum illo erant, in captúra píscium, quam céperant: simíliter autem Jacóbum et Joánnem, fílios Zebedǽi, qui erant sócii Simónis. Et ait ad Simónem Jesus: Noli timére: ex hoc jam hómines eris cápiens. Et subdúctis ad terram návibus, relictis ómnibus, secuti sunt eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Offertorium",
+            "texte": "Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui te fecit, et in ætérnum pérmanes Virgo. (Allelúja.)",
+            "incipit": "Beáta es, Virgo",
+            "mp3": "offertoire_beata-es-virgo.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10Pasc.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Secreta",
+            "texte": "Unigéniti tui, Dómine, nobis succúrrat humánitas: ut, qui, natus de Vírgine, Matris integritátem non mínuit, sed sacrávit; in Visitatiónis ejus sollémniis, nostris nos piáculis éxuens, oblatiónem nostram tibi fáciat accéptam Jesus Christus, Dóminus noster:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Communio",
+            "texte": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)",
+            "incipit": "Beáta víscera Maríæ",
+            "mp3": "communion_beata-viscera-mariae.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-02.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, celebritátis ánnuæ votíva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Introitus",
+            "texte": "!Sedulius.\nv. Salut, ô Mère sainte ; mère qui avez enfanté le Roi qui régit le ciel et la terre dans les siècles des siècles.\n!Ps 44:2\nDe mon cœur a jailli une parole excellente, c’est que je consacre mes œuvres à mon Roi.\n&Gloria\nv. Salut, ô Mère sainte ; mère qui avez enfanté le Roi qui régit le ciel et la terre dans les siècles des siècles.",
+            "incipit": "Salut, ô Mère",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Oratio",
+            "texte": "Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre: ut, quibus beátæ Vírginis partus éxstitit salútis exórdium; Visitatiónis ejus votíva sollémnitas, pacis tríbuat increméntum.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent04-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:18-23\nFratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est, non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Graduale",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja.\nV. Felix es, sacra Virgo María, et omni laude digníssima: quia ex te ortus est sol justítiæ, Christus, Deus noster. Allelúja.",
+            "incipit": "Benedícta et venerábilis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Tractus",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.\n!\nRéjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies.\nV. Vous qui avez cru aux paroles de l’Archange Gabriel.\nV. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée.\nV. Mère de Dieu, intercédez pour nous.",
+            "incipit": "Vous êtes digne",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent04-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 5:1-11\nIn illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum Dei, et ipse stabat secus stagnum Genésareth. Et vidit duas naves stantes secus stagnum: piscatóres autem descénderant et lavábant rétia. Ascéndens autem in unam navim, quæ erat Simónis, rogávit eum a terra redúcere pusíllum. Et sedens docébat de navícula turbas. Ut cessávit autem loqui, dixit ad Simónem: Duc in altum, et laxáte rétia vestra in captúram. Et respóndens Simon, dixit illi: Præcéptor, per totam noctem laborántes, nihil cépimus: in verbo autem tuo laxábo rete. Et cum hoc fecíssent, conclusérunt píscium multitúdinem copiósam: rumpebátur autem rete eórum. Et annuérunt sóciis, qui erant in ália navi, ut venírent et adjuvárent eos. Et venérunt, et implevérunt ambas navículas, ita ut pæne mergeréntur. Quod cum vidéret Simon Petrus, prócidit ad génua Jesu, dicens: Exi a me, quia homo peccátor sum, Dómine. Stupor enim circumdéderat eum et omnes, qui cum illo erant, in captúra píscium, quam céperant: simíliter autem Jacóbum et Joánnem, fílios Zebedǽi, qui erant sócii Simónis. Et ait ad Simónem Jesus: Noli timére: ex hoc jam hómines eris cápiens. Et subdúctis ad terram návibus, relictis ómnibus, secuti sunt eum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Offertorium",
+            "texte": "Heureuse êtes vous, ô Vierge Marie, vous qui avez porté le Créateur de toute chose. Vous avez engendré Celui qui vous a faite, et à jamais vous demeurez vierge. (Alléluia.)",
+            "incipit": "Heureuse êtes vous,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10Pasc.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Secreta",
+            "texte": "Unigéniti tui, Dómine, nobis succúrrat humánitas: ut, qui, natus de Vírgine, Matris integritátem non mínuit, sed sacrávit; in Visitatiónis ejus sollémniis, nostris nos piáculis éxuens, oblatiónem nostram tibi fáciat accéptam Jesus Christus, Dóminus noster:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Communio",
+            "texte": "Bienheureux le sein de la Vierge Marie, qui a porté le Fils du Père éternel.",
+            "incipit": "Bienheureux le sein",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-02.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, celebritátis ánnuæ votíva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 78:9; 78:10\nPropítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum?\nV. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos. \nAllelúja, allelúja.\n!Ps 9:5; 9:10\nDeus, qui sedes super thronum, et júdicas æquitátem: esto refúgium páuperum in tribulatióne. Allelúja.",
-        "Francais": "!Ps 78:9; 78:10\nPardonnez nos péchés, Seigneur, de peur que les peuples ne disent : Où est leur Dieu ?\nV. Aidez-nous, ô Dieu, notre salut, et pour l'honneur de votre Nom, Seigneur, libérez-nous. Alléluia, alléluia.\n!Ps 9:5; 9:10\nÔ Dieu qui siégez sur un trône et jugez avec équité, soyez le refuge des pauvres dans la tribulation. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_propitius-esto.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 5:1-11\nEn ce temps-là, comme la foule se pressait vers Jésus pour entendre la parole de Dieu, et que lui se tenait sur le bord du lac de Génésareth, il vit deux barques qui stationnaient sur le bord ; les pêcheurs étaient descendus et lavaient les filets. Il monta dans une des barques, qui était à Simon, et le pria de s'éloigner un peu du rivage ; et s'étant assis, de la barque il enseignait les foules. Lorsqu'il eut cessé de parler, il dit à Simon : « Avance au large, et jetez vos filets pour la pêche. » Simon répondit : « Maître, toute la nuit nous avons peiné sans rien prendre ; mais, sur ta parole, je jetterai les filets. » Et l'ayant fait, ils prirent une grande quantité de poissons ; et leurs filets se rompaient. Et ils firent signe aux compagnons, qui étaient dans l'autre barque, de venir à leur aide. Ils vinrent, et on remplit les deux barques, au point qu'elles enfonçaient. Ce que voyant, Simon Pierre tomba aux genoux de Jésus en disant : « Éloigne-toi de moi, parce que je suis un pécheur, Seigneur ! » Car la stupeur l'avait envahi, lui et tous ceux qui étaient avec lui, à cause de la pêche des poissons qu'ils avaient faite ; et de même Jacques et Jean, fils de Zébédée, qui étaient associés à Simon. Et Jésus dit à Simon : « Ne crains point ; désormais ce sont des hommes que tu prendras. » Ils ramenèrent les barques à terre et, laissant tout, ils le suivirent."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 12:4-5\nIllúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.",
-        "Francais": "!Ps 12:4-5\nIlluminez mes yeux, de peur que je ne m'endorme dans la mort ; de peur que mon ennemi ne dise : Je l'ai emporté sur lui."
-      },
-      "audios": "Graduale Project/offertoire_illumina-oculos-meos.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 17:3\nDóminus firmaméntum meum, et refúgium meum, et liberátor meus: Deus meus, adjútor meus.",
-        "Francais": "!Ps 17:3\nLe Seigneur est mon soutien, mon refuge et mon libérateur ; ô Dieu, vous êtes mon secours."
-      },
-      "audios": "Graduale Project/communion_dominus-firmamentum-meum.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C11.txt",
+        "../horas/Latin/Commune/C11.txt",
+        "Francais/Sancti/07-02.txt",
+        "Francais/Tempora/Pent04-0.txt",
+        "Latin/Sancti/07-02.txt",
+        "Latin/Tempora/Pent04-0.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

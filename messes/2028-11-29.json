@@ -1,53 +1,248 @@
 {
   "date": "2028-11-29",
-  "celebration": {
-    "nom": "Saint Saturnin",
-    "classe": 4,
-    "note": "(temporal : Mercredi de la 25e semaine après la Pentecôte)"
-  },
-  "fichiers": [
-    "Sancti/11-29",
-    "Tempora/Pent24-3"
-  ],
-  "cles_jour": [
-    "11-29",
-    "Pent24-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent24",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Matt 4:18; 4:19\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.\n!Ps 18:2.\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.",
-        "Francais": "!Matt 4:18; 4:19\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes.\n!Ps 18:2.\nLes cieux racontent la gloire de Dieu, et le firmament publie les œuvres de ses mains.\n&Gloria\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes."
+      "occurrence": {
+        "gagnant": "Sancti/11-29",
+        "nom_sanctoral": "",
+        "classe": 1.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/11-29.txt",
+        "temporal": "Latin/Tempora/Pent24-3.txt",
+        "sanctoral": "Latin/Sancti/11-29.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_dominus-secus-mare.mp3"
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos: et super arénam multiplicabúntur.",
-        "Francais": "!Ps 138:17-18\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.\nV. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Introitus",
+            "texte": "!Matt 4:18; 4:19\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.\n!Ps 18:2.\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.",
+            "incipit": "Dóminus secus mare",
+            "mp3": "introitus_dominus-secus-mare.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Oratio",
+            "texte": "(sed commune C4)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:25-27; 45:2-4; 45:6-9\nBenedíctio Dómini super caput justi. Ideo dedit illi Dóminus hereditátem, et divísit illi partem in tríbubus duódecim: et invénit grátiam in conspéctu omnis carnis. Et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspéctu regum, et jussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Et dedit illi coram præcépta, et legem vitæ et disciplínæ, et excélsum fecit illum. Statuit ei testaméntum ætérnum, et circumcínxit eum zona justítiæ: et índuit eum Dóminus corónam glóriæ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos: et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nIn illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt eum duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem Jesus, et videns eos sequéntes se, dicit eis: Quid quæritis? Qui dixérunt ei: Rabbi - quod dícitur interpretátum Magíster -, ubi hábitas? Dicit eis: Veníte et vidéte. Venérunt et vidérunt, ubi manéret, et apud eum mansérunt die illo: hora autem erat quasi décima. Erat autem Andréas, frater Simónis Petri, unus ex duóbus, qui audíerant a Joánne et secúti fúerant eum. Invénit hic primum fratrem suum Simónem, et dicit ei: Invénimus Messíam - quod est interpretátum Christus -. Et addúxit eum ad Jesum. Intúitus autem eum Jesus, dixit: Tu es Simon, fílius Jona: tu vocáberis Cephas, quod interpretátur Petrus. In crastínum vóluit exíre in Galilæam, et invénit Philíppum. Et dicit ei Jesus: Séquere me. Erat autem Philíppus a Bethsáida, civitáte Andréæ et Petri. Invénit Philíppus Nathánaël, et dicit ei: Quem scripsit Moyses in lege, et Prophétæ, invénimus Jesum, fílium Joseph, a Názareth. Et dixit ei Nathánaël: A Názareth potest áliquid boni esse? Dicit ei Philíppus: Veni et vide. Vidit Jesus Nathánaël veniéntem ad se, et dicit de eo: Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël: Unde me nosti? Respóndit Jesus et dixit ei: Priúsquam te Philíppus vocáret, cum esses sub ficu, vidi te. Respóndit ei Nathánaël et ait: Rabbi, tu es Fílius Dei, tu es Rex Israël. Respóndit Jesus et dixit ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis. Et dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et Angelos Dei ascendéntes et descendéntes supra Fílium hóminis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honore",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Secreta",
+            "texte": "Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli sollémnia recoléntes, purificatiónem quoque nostris méntibus implorámus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Communio",
+            "texte": "!Joann 1:41; 1:42\nDicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur Christus: et addúxit eum ad Jesum.",
+            "incipit": "Dicit Andréas Simóni",
+            "mp3": "communion_dicit-andreas.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Postcommunio",
+            "texte": "Percéptis, Dómine, sacraméntis supplíciter exorámus: ut, intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda gérimus passióne, nobis profíciant ad medélam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Introitus",
+            "texte": "!Matt 4:18; 4:19\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.\n!Ps 18:2.\nCœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.\n&Gloria\nv. Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.",
+            "incipit": "Dóminus secus mare",
+            "mp3": "introitus_dominus-secus-mare.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/11-29.txt",
+            "section": "Oratio",
+            "texte": "(sed commune C4)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse\n!Eccli 44:25-27; 45:2-4; 45:6-9\nLa bénédiction du Seigneur repose sur la tête du juste. C’est pourquoi il lui donna le pays en héritage ; il le partagea entre les douze tribus. Ce juste trouva grâce auprès de toute chair. Le Seigneur l’a rendu grand et redoutable à ses ennemis ; par ses paroles il a fait cesser les prodiges. Il l’a glorifié devant les rois, il lui a donné ses commandements devant son peuple, il lui a fait voir sa gloire. Il l’a sanctifié dans sa foi et dans sa douceur. Il l’a choisi entre tous les mortels. Il lui a donné ses préceptes face à face, et la loi de la vie et de la science. Il l’a élevé. Il a fait avec lui une alliance éternelle, il l’a ceint d’une ceinture de justice et il l’a couvert de la couronne de la gloire.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Graduale",
+            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos: et super arénam multiplicabúntur.",
+            "incipit": "Nimis honoráti sunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nIn illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt eum duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem Jesus, et videns eos sequéntes se, dicit eis: Quid quæritis? Qui dixérunt ei: Rabbi - quod dícitur interpretátum Magíster -, ubi hábitas? Dicit eis: Veníte et vidéte. Venérunt et vidérunt, ubi manéret, et apud eum mansérunt die illo: hora autem erat quasi décima. Erat autem Andréas, frater Simónis Petri, unus ex duóbus, qui audíerant a Joánne et secúti fúerant eum. Invénit hic primum fratrem suum Simónem, et dicit ei: Invénimus Messíam - quod est interpretátum Christus -. Et addúxit eum ad Jesum. Intúitus autem eum Jesus, dixit: Tu es Simon, fílius Jona: tu vocáberis Cephas, quod interpretátur Petrus. In crastínum vóluit exíre in Galilæam, et invénit Philíppum. Et dicit ei Jesus: Séquere me. Erat autem Philíppus a Bethsáida, civitáte Andréæ et Petri. Invénit Philíppus Nathánaël, et dicit ei: Quem scripsit Moyses in lege, et Prophétæ, invénimus Jesum, fílium Joseph, a Názareth. Et dixit ei Nathánaël: A Názareth potest áliquid boni esse? Dicit ei Philíppus: Veni et vide. Vidit Jesus Nathánaël veniéntem ad se, et dicit de eo: Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël: Unde me nosti? Respóndit Jesus et dixit ei: Priúsquam te Philíppus vocáret, cum esses sub ficu, vidi te. Respóndit ei Nathánaël et ait: Rabbi, tu es Fílius Dei, tu es Rex Israël. Respóndit Jesus et dixit ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis. Et dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et Angelos Dei ascendéntes et descendéntes supra Fílium hóminis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Secreta",
+            "texte": "Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli sollémnia recoléntes, purificatiónem quoque nostris méntibus implorámus.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Communio",
+            "texte": "!Joann 1:41; 1:42\nDicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur Christus: et addúxit eum ad Jesum.",
+            "incipit": "Dicit Andréas Simóni",
+            "mp3": "communion_dicit-andreas.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/11-29.txt",
+            "section": "Postcommunio",
+            "texte": "Percéptis, Dómine, sacraméntis supplíciter exorámus: ut, intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda gérimus passióne, nobis profíciant ad medélam.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nEn ce temps-là : Jean se trouvait avec deux de ses disciples. Et regardant Jésus qui passait, il dit : Voici l’Agneau de Dieu. Les deux disciples l’entendirent parler ainsi, et ils suivirent Jésus. Jésus, s’étant retourné, et voyant qu’ils le suivaient, leur dit : Que cherchez-vous ? Ils lui dirent : Rabbi (ce qui signifie Maître), où demeurez-vous ? Il leur dit : Venez et voyez. Ils vinrent et virent où il demeurait, et ils restèrent chez lui ce jour-là. Il était environ la dixième heure. Or André, frère de Simon-Pierre, était l’un des deux qui avaient entendu les paroles de Jean, et qui avaient suivi Jésus. Il trouva le premier son frère Simon, et lui dit : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus. Jésus, l’ayant regardé, dit : Tu es Simon, fils de Jona ; tu seras appelé Céphas (ce qui signifie Pierre). Le lendemain, Jésus voulut aller en Galilée, et il rencontra Philippe. Et il lui dit : Suis-moi. Or Philippe était de Bethsaïde, la ville d’André et de Pierre. Philippe rencontra Nathanaël, et lui dit : Celui de qui Moïse a écrit dans la loi, et qu’ont annoncé les prophètes, nous l’avons trouvé ; c’est Jésus de Nazareth, fils de Joseph. Et Nathanaël lui dit : De Nazareth peut-il venir quelque chose de bon ? Philippe lui dit : Viens et vois. Jésus vit Nathanaël qui venait à Lui, et il dit de lui : Voici un véritable Israélite, en qui il n’y a pas de fraude. Nathanaël Lui dit : D’où me connaissez-vous ? Jésus lui répondit : Avant que Philippe t’appelât, lorsque tu étais sous le figuier, je t’ai vu. Nathanaël Lui répondit : Rabbi, Vous êtes le Fils de Dieu, vous êtes le roi d’Israël. Jésus lui répondit : Parce que je t’ai dit : Je t’ai vu sous le figuier, tu crois ; tu verras des choses plus grandes que celles-là. Et il lui dit : En vérité, en vérité, je vous le dis, vous verrez le Ciel ouvert, et les Anges de Dieu monter et descendre sur le Fils de l’homme."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 1:41; 1:42\nDicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur Christus: et addúxit eum ad Jesum.",
-        "Francais": "!Joann 1:41; 1:42\nAndré dit à son frère Simon : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus."
-      },
-      "audios": "Graduale Project/communion_dicit-andreas.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C1v.txt",
+        "../horas/Latin/Commune/C1v.txt",
+        "Francais/Sancti/11-29.txt",
+        "Latin/Sancti/11-29.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

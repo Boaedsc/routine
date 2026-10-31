@@ -1,70 +1,225 @@
 {
   "date": "2028-08-16",
-  "celebration": {
-    "nom": "Saint Joachim",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-16",
-    "Tempora/Pent10-3"
-  ],
-  "cles_jour": [
-    "08-16",
-    "Pent10-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 111:9\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.",
-        "Francais": "!Ps 111:9.\nv. Il répand ses largesses, il donne aux pauvres : sa justice demeure d’âge en âge : sa puissance sera élevée dans la gloire.\n!Ps 111:1\nHeureux l’homme qui craint le Seigneur : qui se complaît dans ses commandements.\n&Gloria\nv. Il répand ses largesses, il donne aux pauvres : sa justice demeure d’âge en âge : sa puissance sera élevée dans la gloire."
+      "occurrence": {
+        "gagnant": "Sancti/08-16",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-16.txt",
+        "temporal": "Latin/Tempora/Pent10-3.txt",
+        "sanctoral": "Latin/Sancti/08-16.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_dispersit-dedit-pauperibus.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Introitus",
+            "texte": "!Ps 111:9\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.",
+            "incipit": "Dispérsit, dedit paupéribus:",
+            "mp3": "introitus_dispersit-dedit-pauperibus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui præ ómnibus Sanctis tuis beátum Jóachim Genetrícis Fílii tui patrem esse voluísti: concéde, quǽsumus; ut, cujus festa venerámur, ejus quoque perpétuo patrocínia sentiámus.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Graduale",
+            "texte": "!Ps 111:9; 111:2\nDispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur. Allelúja, allelúja.\nV. O Jóachim, sanctæ conjux Annæ, pater almæ Vírginis, hic fámulis ferto salútis opem. Allelúja.",
+            "incipit": "Dispérsit, dedit paupéribus:",
+            "mp3": "graduel_dispersit.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Desidérium ánimæ ejus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Evangelium",
+            "texte": "Initium ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:1-16\nLiber generatiónis Jesu Christi, fílii David, fílii Abraham. Abraham génuit Isaac. Isaac autem génuit Jacob. Jacob autem génuit Judam et fratres ejus. Judas autem génuit Phares et Zaram de Thamar. Phares autem génuit Esron. Esron autem génuit Aram. Aram autem génuit Amínadab. Amínadab autem génuit Naásson. Naásson autem génuit Salmon. Salmon autem génuit Booz de Rahab. Booz autem génuit Obed ex Ruth. Obed autem génuit Jesse. Jesse autem génuit David regem. David autem rex génuit Salomónem ex ea, quæ fuit Uriæ. Sálomon autem génuit Róboam. Róboam autem génuit Abíam. Abías autem génuit Asa. Asa autem génuit Jósaphat. Jósaphat autem génuit Joram. Joram autem génuit Ozíam. Ozías autem génuit Jóatham. Jóatham autem génuit Achaz. Achaz autem génuit Ezechíam. Ezechías autem génuit Manássen. Manásses autem génuit Amon. Amon autem génuit Josíam. Josías autem génuit Jechoníam et fratres ejus in transmigratióne Babylónis. Et post transmigratiónem Babylónis: Jechonías génuit Saláthiel. Saláthiel autem génuit Zoróbabel. Zoróbabel autem génuit Abiud. Abiud autem génuit Elíacim. Elíacim autem génuit Azor. Azor autem génuit Sadoc. Sadoc autem génuit Achim. Achim autem génuit Eliud. Eliud autem génuit Eleázar. Eleázar autem génuit Mathan. Mathan autem génuit Jacob. Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honóre",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, clementíssime Deus, sacrifícium in honórem sancti Patriarchæ Jóachim, patris Maríæ Vírginis, majestáti tuæ oblátum: ut, ipso cum cónjuge sua et beatíssima prole intercedénte, perféctam cónsequi mereámur remissiónem peccatórum et glóriam sempitérnam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-16.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut per hæc sacraménta, quæ súmpsimus, intercedéntibus méritis et précibus beáti Jóachim patris Genetrícis dilécti Fílii tui, Dómini nostri Jesu Christi, tuæ grátiæ in præsénti et ætérnæ glóriæ in futúro partícipes esse mereámur.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Introitus",
+            "texte": "!Ps 111:9\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n&Gloria\nv. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.",
+            "incipit": "Dispérsit, dedit paupéribus:",
+            "mp3": "introitus_dispersit-dedit-pauperibus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui præ ómnibus Sanctis tuis beátum Jóachim Genetrícis Fílii tui patrem esse voluísti: concéde, quǽsumus; ut, cujus festa venerámur, ejus quoque perpétuo patrocínia sentiámus.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Graduale",
+            "texte": "!Ps 111:9; 111:2\nDispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur. Allelúja, allelúja.\nV. O Jóachim, sanctæ conjux Annæ, pater almæ Vírginis, hic fámulis ferto salútis opem. Allelúja.",
+            "incipit": "Dispérsit, dedit paupéribus:",
+            "mp3": "graduel_dispersit.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Tractus",
+            "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Desidérium ánimæ ejus",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Evangelium",
+            "texte": "Initium ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:1-16\nLiber generatiónis Jesu Christi, fílii David, fílii Abraham. Abraham génuit Isaac. Isaac autem génuit Jacob. Jacob autem génuit Judam et fratres ejus. Judas autem génuit Phares et Zaram de Thamar. Phares autem génuit Esron. Esron autem génuit Aram. Aram autem génuit Amínadab. Amínadab autem génuit Naásson. Naásson autem génuit Salmon. Salmon autem génuit Booz de Rahab. Booz autem génuit Obed ex Ruth. Obed autem génuit Jesse. Jesse autem génuit David regem. David autem rex génuit Salomónem ex ea, quæ fuit Uriæ. Sálomon autem génuit Róboam. Róboam autem génuit Abíam. Abías autem génuit Asa. Asa autem génuit Jósaphat. Jósaphat autem génuit Joram. Joram autem génuit Ozíam. Ozías autem génuit Jóatham. Jóatham autem génuit Achaz. Achaz autem génuit Ezechíam. Ezechías autem génuit Manássen. Manásses autem génuit Amon. Amon autem génuit Josíam. Josías autem génuit Jechoníam et fratres ejus in transmigratióne Babylónis. Et post transmigratiónem Babylónis: Jechonías génuit Saláthiel. Saláthiel autem génuit Zoróbabel. Zoróbabel autem génuit Abiud. Abiud autem génuit Elíacim. Elíacim autem génuit Azor. Azor autem génuit Sadoc. Sadoc autem génuit Achim. Achim autem génuit Eliud. Eliud autem génuit Eleázar. Eleázar autem génuit Mathan. Mathan autem génuit Jacob. Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honóre",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, clementíssime Deus, sacrifícium in honórem sancti Patriarchæ Jóachim, patris Maríæ Vírginis, majestáti tuæ oblátum: ut, ipso cum cónjuge sua et beatíssima prole intercedénte, perféctam cónsequi mereámur remissiónem peccatórum et glóriam sempitérnam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-16.txt",
+            "section": "Postcommunio",
+            "texte": "Quǽsumus, omnípotens Deus: ut per hæc sacraménta, quæ súmpsimus, intercedéntibus méritis et précibus beáti Jóachim patris Genetrícis dilécti Fílii tui, Dómini nostri Jesu Christi, tuæ grátiæ in præsénti et ætérnæ glóriæ in futúro partícipes esse mereámur.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 111:9; 111:2\nDispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur. Allelúja, allelúja.\nV. O Jóachim, sanctæ conjux Annæ, pater almæ Vírginis, hic fámulis ferto salútis opem. Allelúja.",
-        "Francais": "!Ps 111:9; 111:2\nIl répand ses largesses, il donne aux pauvres : sa justice demeure d’âge en âge.\nV. Sa race sera puissante sur la terre : la descendance des juste sera bénie. Alléluia, alléluia.\nV. Ô Joachim, saint époux d’Anne, père de la Vierge nourricière, aidez ici-bas au salut de vos serviteurs ! Alléluia."
-      },
-      "audios": "Graduale Project/graduel_dispersit.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Initium sancti Evangélii secúndum Matthǽum.\n!Matt 1:1-16\nGénéalogie de Jésus-Christ, fils de David, fils d’Abraham. Abraham engendra Isaac ; Isaac engendra Jacob ; Jacob engendra Juda et ses frères ; Juda, de Thamar, engendra Pharès et Zara ; Phares engendra Esrom ; Esrom engendra Aram ; Aram engendra Aminadab ; Aminadab engendra Naasson ; Naasson engendra Salmon ; Salmon, de Rahab, engendra Booz ; Booz, de Ruth, engendra Obed ; Obed engendra Jessé ; Jessé engendra le roi David. David engendra Salomon de la femme d’Urie ; Salomon engendra Roboam ; Roboam engendra Abia ; Abia engendra Asa ; Asa engendra Josaphat ; Josaphat engendra Joram ; Joram engendra Ozias ; Ozias engendra Joatham ; Joatham engendra Achaz ; Achaz engendra Ezéchias ; Ezéchias engendra Manassé ; Manassé engendra Amon ; Amon engendra Josias ; Josias engendra Jéchonias et ses frères, au temps de la déportation à Babylone. Après la déportation à Babylone, Jéchonias engendra Salathiel ; Salatheil engendra Zorobabel ; Zorobabel engendra Abioud ; Abioud engendra Eliacim ; Eliacim engendra Azor ; Azor engendra Sadoc ; Sadoc engendra Achim ; Achim engendra Elioud ; Elioud engendra Eléazar ; Eléazar engendra Matthan ; Matthan engendra Jacob ; Jacob engendra Joseph l’époux de Marie, de laquelle est né Jésus, qu’on appelle Christ."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 8:6-7\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
-        "Francais": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains."
-      },
-      "audios": "Graduale Project/offertoire_gloria-et-honore.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/08-16.txt",
+        "Latin/Sancti/08-16.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

@@ -1,50 +1,310 @@
 {
   "date": "2026-07-21",
-  "celebration": {
-    "nom": "Saint Laurent de Brindisi",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-21",
-    "Tempora/Pent08-2"
-  ],
-  "cles_jour": [
-    "07-21",
-    "Pent08-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent08",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C6"
+      "occurrence": {
+        "gagnant": "Sancti/07-21",
+        "nom_sanctoral": "S. Laurentii de Brundusio Confessoris et Ecclesiae Doctoris",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-21.txt",
+        "temporal": "Latin/Tempora/Pent08-2.txt",
+        "sanctoral": "Latin/Sancti/07-21.txt",
+        "calendrier": "07-21",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Commune/C7"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:46-47\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (Allelúja, allelúja.)\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (Allelúja, allelúja.)",
+            "incipit": "Loquébar de testimóniis",
+            "mp3": "introitus_loquebar-de-testimoniis.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Oratio",
+            "texte": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ N. festivitáte gaudémus; ita piæ devotiónis erudiámur afféctu.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 7:25-34\nFratres: De virgínibus præcéptum Dómini non hábeo: consílium autem do, tamquam misericórdiam consecútus a Dómino, ut sim fidélis. Exístimo ergo hoc bonum esse propter instántem necessitátem, quóniam bo; num est hómini sic esse. Alligátus es uxóri? noli quǽrere solutiónem. Solútus es ab uxóre? noli quǽrere uxórem. Si autem accéperis uxórem, non peccásti. Et si núpserit virgo, non peccávit: tribulatiónem tamen carnis habébunt hujúsmodi. Ego autem vobis parce. Hoc ítaque dico, fratres: Tempus breve est: réliquum est, ut, et qui habent uxóres, tamquam non habéntes sint; et qui flent, tamquam non flentes; et qui gaudent, tamquam non gaudéntes; et qui emunt, tamquam non possidéntes; et qui utúntur hoc mundo, tamquam non utántur; prǽterit enim figúra hujus mundi. Volo autem vos sine sollicitúdine esse. Qui sine uxóre est, sollícitus est, quæ Dómini sunt, quómodo pláceat Deo. Qui autem cum uxóre est, sollícitus est, quæ sunt mundi, quómodo pláceat uxóri, et divísus est. Et múlier innúpta et virgo cógitat, quæ Dómini sunt, ut sit sancta córpore et spíritu: in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.\nAllelúja, allelúja.\n!Ps 44:5\nV. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.",
+            "incipit": "Dilexísti justítiam, et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13; 44:10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nV. Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Afferéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
+            "incipit": "Spécie tua et",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 13:44-52\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. ¶ Íterum símile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Íterum símile est regnum cœlórum sagénæ missæ in mare et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cœlórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi. (Allelúja.)",
+            "incipit": "Diffúsa est grátia",
+            "mp3": "offertoire_diffusa-est-gratia.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Secreta",
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-21.txt",
+            "section": "Communio",
+            "texte": "!Matt 13:45-46\nSímile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas: invénta autem una pretiósa margaríta, dedit ómnia sua, et comparávit eam.",
+            "incipit": "Símile est regnum",
+            "mp3": "communion_simile-est-regnum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Postcommunio",
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:46-47\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)",
+            "incipit": "Je parlerai de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C6a.txt",
+            "section": "Oratio",
+            "texte": "Exaucez-nous, Dieu notre Sauveur, afin que célébrant dans la joie la fête de la bienheureuse N., nous nous laissions gagner aussi par l’ardeur de son amour.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 7:25-34\nMes frères : Pour ce qui est des vierges, je n’ai pas de commandement du Seigneur ; mais je donne un conseil, comme ayant obtenu la miséricorde du Seigneur, afin d’être fidèle. J’estime donc qu’il est bon, à cause de la nécessité du temps présent, qu’il est bon, dis-je, pour l’homme d’être ainsi. Es-tu lié à une femme ? Ne cherche pas à te délier. N’es-tu point lié à une femme ? Ne cherche pas de femme. Si pourtant tu prends une femme, tu ne pèches pas ; et si une vierge se marie, elle ne pèche pas. Mais ces personnes éprouveront les tribulations de la chair ; et je voudrais vous les épargner. Voici donc, frères, ce que je dis : Le temps est court ; ce qui reste a faire, c’est que ceux qui ont des femmes soient comme n’en ayant pas ; et ceux qui pleurent, comme ne pleurant pas ; et ceux qui se réjouissent, comme ne se réjouissant pas ; et ceux qui achètent, comme ne possédant pas ; et ceux qui usent de ce monde, comme n’en usant pas ; car la figure de ce monde passe. Or Je voudrais que vous fussiez sans inquiétude. Celui qui n’est pas marié s’inquiète des choses du Seigneur, des moyens de plaire à Dieu. Mais celui qui est marié s’inquiète des choses du monde, des moyens de plaire à sa femme ; et il se trouve partagé. De même la femme qui n’est pas mariée et la vierge pensent aux choses du Seigneur, afin d’être saintes de corps et d’esprit, en Jésus-Christ Notre-Seigneur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia.\n!Ps 44:5\nV. Avec votre gloire et votre majesté, avancez, marchez victorieusement et régnez. Alléluia.",
+            "incipit": "Vous avez aimé",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C6a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\ndéxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nV. Écoutez, ma fille, voyez, prêtez l’oreille, car le Roi est épris de votre beauté.\n!Ps 44:13; 44:10\nV. Les plus riches du peuple réclameront votre faveur, des filles de rois viendront à votre rencontre.\n!Ps 44:15-16\nV. Elle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Elles font leur entrée dans le palais du Roi.",
+            "incipit": "Dans votre grâce,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Evangelium",
+            "texte": "Suite du ++ saint Evangile seon Saint Matthieu.\n!Matt 13:44-52\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le Royaume des cieux est comparable à un trésor caché dans un champ. L'homme qui l'a trouvé le cache de nouveau, puis, dans sa joie, il s'en va vendre tout ce qu'il a et achète ce champ. Le Royaume des cieux est encore comparable à un marchand qui cherche de belles perles. En ayant trouvé une de grand prix, il s'en va vendre tout ce qu'il a et l'achète. Le Royaume des cieux est encore comparable à un grand filet jeté en mer et qui a ramené des poissons de toute espèce. Une fois qu'il a été rempli, les pêcheurs l'ont tiré sur le rivage, puis, s'étant assis, ils ont recueilli les bons dans des corbeilles et rejeté les mauvais. Ainsi en sera-t-il à la fin du monde : les anges se présenteront, sépareront les méchants d'avec les justes, et les jetteront dans la fournaise ardente. Là seront les pleurs et les grincements de dents. Avez-vous compris tout cela ? » Ils lui répondent : « Oui. » Il leur dit alors : « C'est pourquoi tout scribe inité au Royaume des cieux est semblable à un maître de maison qui tire de son trésor du neuf et du vieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 44:3\nLa grâce est répandue sur vos lèvres, aussi Dieu vous a-t-il béni pour toujours, et pour les siècles des siècles. (Alléluia.)",
+            "incipit": "La grâce est",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C6a.txt",
+            "section": "Secreta",
+            "texte": "Agréez, Seigneur, l’offrande que vous fait le peuple fidèle pour honorer vos saints, sachant qu’il doit à leur mérites le secours qu’il a reçu dans les épreuves.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-21.txt",
+            "section": "Communio",
+            "texte": "!Matt 13:45-46\nLe royaume des deux est semblable à un marchand qui cherche de bonnes perles ; ayant trouvé une perle de grand prix, il a vendu tout ce qu’il avait, et l’a achetée. (Alléluia.)",
+            "incipit": "Le royaume des",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6a-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C6a.txt",
+            "section": "Postcommunio",
+            "texte": "Seigneur, qui avez rassasié votre famille de ces dons sacrés, daignez retremper toujours nos forces à la prière de celle que nous fêtons.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C6-1"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C6a-1"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C6a.txt",
+        "../horas/Latin/Commune/C6a.txt",
+        "Francais/Sancti/07-21.txt",
+        "Latin/Sancti/07-21.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

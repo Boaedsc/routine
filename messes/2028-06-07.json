@@ -1,68 +1,210 @@
 {
   "date": "2028-06-07",
-  "celebration": {
-    "nom": "Mercredi dans l'octave de Pentecôte",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc7-3"
-  ],
-  "cles_jour": [
-    "Pasc7-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc7",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 67:8 67:9\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.\n!Ps. 67:2.\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.",
-        "Francais": "!Ps 67:8 67:9\nv. Ô Dieu, quand vous marchiez à la tête de votre peuple, leur montrant le chemin et habitant parmi eux, alléluia, la terre a tremblé et l'eau a coulé du ciel, alléluia, alléluia.\n!Ps. 67:2.\nQue Dieu se lève, et que ses ennemis soient dispersés ; qu'ils fuient devant sa face, ceux qui le haïssent.\n&Gloria\nv. Ô Dieu, quand vous marchiez à la tête de votre peuple, leur montrant le chemin et habitant parmi eux, alléluia, la terre a tremblé et l'eau a coulé du ciel, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc7-3",
+        "nom_sanctoral": "",
+        "classe": 6.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc7-3.txt",
+        "temporal": "Latin/Tempora/Pasc7-3.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_deus-dum-egredereris.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Actuum Apostolórum\n!Acts 5:12-16\nEn ces jours-là, beaucoup de miracles et de prodiges se faisaient parmi le peuple par les mains des apôtres. Et ils étaient tous ensemble sous le portique de Salomon, et aucun des autres n'osait se joindre à eux ; mais le peuple les louait hautement. De plus en plus s'adjoignaient des croyants au Seigneur, hommes et femmes en masse, à tel point qu'on apportait les malades dans les rues et qu'on les plaçait sur des lits et des grabats, afin que, lorsque Pierre passerait, son ombre au moins couvrît quelqu'un d'eux. On venait même en foule des villes voisines de Jérusalem, amenant des malades et des gens tourmentés par des esprits impurs, qui tous étaient guéris."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 67:8 67:9\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.\n!Ps. 67:2.\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.",
+            "incipit": "Deus, dum egrederéris",
+            "mp3": "introitus_deus-dum-egredereris.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Oratio",
+            "texte": "Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit, illúminet: et indúcat in omnem, sicut tuus promísit Fílius, veritátem:\n$Qui tecum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 5:12-16\nIn diébus illis: Per manus autem Apostolórum fiébant signa et prodígia multa in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum autem nemo audébat se conjúngere illis: sed magnificábat eos pópulus. Magis autem augebátur credéntium in Dómino multitúdo virórum ac mulíerum, ita ut in pláteas ejícerent infírmos, et pónerent in léctulis ac grabátis, ut, veniénte Petro, saltem umbra illíus obumbráret quemquam illórum, et liberaréntur ab infirmitátibus suis. Concurrébat autem et multitúdo vicinárum civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus immúndis: qui curabántur omnes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. (Hic genuflectitur) Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. (Hic",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 6:44-52\nIn illo témpore: Dixit Jesus turbis Judæórum: Nemo potest veníre ad me, nisi Pater, qui misit me, tráxerit eum: et ego resuscitábo eum in novíssimo die. Est scriptum in Prophétis: Et erunt omnes docíbiles Dei. Omnis, qui audívit a Patre et dídicit, venit ad me. Non quia Patrem vidit quisquam, nisi is, qui est a Deo, hic vidit Patrem. Amen, amen, dico vobis: qui credit in me, habet vitam ætérnam. Ego sum panis vitæ. Patres vestri manducavérunt manna in desérto, et mórtui sunt. Hic est panis de cœlo descéndens: ut, si quis ex ipso manducáverit, non moriátur. Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:47-48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi, allelúja.",
+            "incipit": "Meditábor in mandátis",
+            "mp3": "offertoire_meditabor.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut, quod mystériis ágimus, piis efféctibus celebrámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:27\nPacem relínquo vobis, allelúja: pacem meam do vobis, allelúja, allelúja.",
+            "incipit": "Pacem relínquo vobis,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc7-3.txt",
+            "section": "Postcommunio",
+            "texte": "Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam: ut quod temporáliter gérimus ætérnis gáudiis consequámur\n$Per Dominum.",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 67:8 67:9\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.\n!Ps. 67:2.\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in illis, allelúja: terra mota est, cœli distillavérunt, allelúja, allelúja.",
+            "incipit": "Deus, dum egrederéris",
+            "mp3": "introitus_deus-dum-egredereris.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Oratio",
+            "texte": "Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit, illúminet: et indúcat in omnem, sicut tuus promísit Fílius, veritátem:\n$Qui tecum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostolórum\n!Acts 5:12-16\nIn diébus illis: Per manus autem Apostolórum fiébant signa et prodígia multa in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum autem nemo audébat se conjúngere illis: sed magnificábat eos pópulus. Magis autem augebátur credéntium in Dómino multitúdo virórum ac mulíerum, ita ut in pláteas ejícerent infírmos, et pónerent in léctulis ac grabátis, ut, veniénte Petro, saltem umbra illíus obumbráret quemquam illórum, et liberaréntur ab infirmitátibus suis. Concurrébat autem et multitúdo vicinárum civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus immúndis: qui curabántur omnes.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. (Hic genuflectitur) Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": "Allelúja, allelúja. (Hic",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 6:44-52\nIn illo témpore: Dixit Jesus turbis Judæórum: Nemo potest veníre ad me, nisi Pater, qui misit me, tráxerit eum: et ego resuscitábo eum in novíssimo die. Est scriptum in Prophétis: Et erunt omnes docíbiles Dei. Omnis, qui audívit a Patre et dídicit, venit ad me. Non quia Patrem vidit quisquam, nisi is, qui est a Deo, hic vidit Patrem. Amen, amen, dico vobis: qui credit in me, habet vitam ætérnam. Ego sum panis vitæ. Patres vestri manducavérunt manna in desérto, et mórtui sunt. Hic est panis de cœlo descéndens: ut, si quis ex ipso manducáverit, non moriátur. Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:47-48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi, allelúja.",
+            "incipit": "Meditábor in mandátis",
+            "mp3": "offertoire_meditabor.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut, quod mystériis ágimus, piis efféctibus celebrámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Communio",
+            "texte": "!Joannes 14:27\nPacem relínquo vobis, allelúja: pacem meam do vobis, allelúja, allelúja.",
+            "incipit": "Pacem relínquo vobis,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc7-3.txt",
+            "section": "Postcommunio",
+            "texte": "Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam: ut quod temporáliter gérimus ætérnis gáudiis consequámur\n$Per Dominum.",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja. \nV. (Hic genuflectitur) Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
-        "Francais": "Allelúja, allelúja. \nV. (Hic genuflectitur) Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 6:44-52\nEn ce temps-là, Jésus dit aux foules des Juifs : « Nul ne peut venir à moi si le Père qui m'a envoyé ne l'attire ; et moi je le ressusciterai au dernier jour. Il est écrit dans les Prophètes : Ils seront tous enseignés par Dieu. Quiconque a entendu le Père et a reçu son enseignement, vient à moi. Ce n'est pas que personne ait vu le Père, sinon celui qui est de Dieu ; celui-là a vu le Père. En vérité, en vérité, je vous le dis, celui qui croit en moi a la vie éternelle. Je suis le pain de vie. Vos pères ont mangé la manne dans le désert, et ils sont morts. Voici le pain descendu du ciel, afin qu'on en mange et qu'on ne meure point. Je suis le pain vivant qui est descendu du ciel. Si quelqu'un mange de ce pain, il vivra éternellement ; et le pain que je donnerai, c'est ma chair, pour le salut du monde. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 118:47-48\nMeditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad mandáta tua, quæ diléxi, allelúja.",
-        "Francais": "!Ps 118:47-48\nJe méditerai sur vos commandements, car je les aime passionément ; et j'élèverai mes mains vers vos commandements que j'aime, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_meditabor.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 14:27\nPacem relínquo vobis, allelúja: pacem meam do vobis, allelúja, allelúja.",
-        "Francais": "!Joannes 14:27\nJe vous laisse la paix, alléluia, je vous donne ma paix, alléluia, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc7-3.txt",
+        "Latin/Tempora/Pasc7-3.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

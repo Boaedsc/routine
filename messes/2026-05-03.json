@@ -1,68 +1,212 @@
 {
   "date": "2026-05-03",
-  "celebration": {
-    "nom": "5e dimanche après Pâques",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc4-0"
-  ],
-  "cles_jour": [
-    "Pasc4-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc4",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 97:1; 97:2\nv. Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit Dóminus, allelúja: ante conspéctum géntium revelávit justítiam suam, allelúja, allelúja, allelúja.\n!Ps 97:1\nSalvávit sibi déxtera ejus: et bráchium sanctum ejus.\n&Gloria\nv. Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit Dóminus, allelúja: ante conspéctum géntium revelávit justítiam suam, allelúja, allelúja, allelúja.",
-        "Francais": "!Ps 97:1; 97:2\nv. Chantez au Seigneur un cantique nouveau, alléluia ; car le Seigneur a fait des merveilles, alléluia ; devant la face des peuples il a révélé sa justice, alléluia, alléluia, alléluia.\n!Ps 97:1\nSa droite lui a donné la victoire, ainsi que la sainteté de son bras.\n&Gloria\nv. Chantez au Seigneur un cantique nouveau, alléluia ; car le Seigneur a fait des merveilles, alléluia ; devant la face des peuples il a révélé sa justice, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-03",
+        "nom_sanctoral": "Ss. Alexandri et sociorum Martyrum",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-03.txt",
+        "temporal": "Latin/Tempora/Pasc4-0.txt",
+        "sanctoral": "Latin/Sancti/05-03.txt",
+        "calendrier": "05-03",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_cantate-domino-canticum.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Jacóbi Apóstoli.\n!Jas 1:17-21.\nBien-aimés, tout don excellent, toute grâce parfaite, descend d'en haut, du Père des lumières, en qui n'existe aucune vicissitude, ni ombre de changement. De sa propre volonté, il nous a engendrés par la parole de la vérité, afin que nous soyons comme les prémices de ses créatures. Mes frères bien-aimés, vous le savez, que l'homme soit prompt à écouter, lent à parler, lent à se mettre en colère. Car la colère de l'homme n'opère point la justice de Dieu. C'est pourquoi, rejetant toute souillure et toute excroissance de méchanceté, recevez avec douceur la parole qui a été entée en vous, et qui peut sauver vos âmes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.\n!Ps 66:2.\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\n&Gloria\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.",
+            "incipit": "Nos autem gloriári",
+            "mp3": "introitus_nos-autem-gloriari.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ suffrágia consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Jacóbi Apóstoli\n!Jas 1:17-21\nCaríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium áliquod creatúræ ejus. Scitis, fratres mei dilectíssimi. Sit autem omnis homo velox ad audiéndum: tardus autem ad loquéndum et tardus ad iram. Ira enim viri justítiam Dei non operátur. Propter quod abjiciéntes omnem immundítiam et abundántiam malítiæ, in mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 95:10\nDícite in géntibus, quia Dóminus regnávit a ligno. Allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Dícite",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 16:5-14\nIn illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui misit me: et nemo ex vobis intérrogat me: Quo vadis? Sed quia hæc locútus sum vobis, tristítia implévit cor vestrum. Sed ego veritátem dico vobis: expédit vobis, ut ego vadam: si enim non abíero, Paráclitus non véniet ad vos: si autem abíero, mittam eum ad vos. Et cum vénerit ille, árguet mundum de peccáto et de justítia et de judício. De peccáto quidem, quia non credidérunt in me: de justítia vero, quia ad Patrem vado, et jam non vidébitis me: de judício autem, quia princeps hujus mundi jam judicátus est. Adhuc multa hábeo vobis dícere: sed non potéstis portáre modo. Cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem. Non enim loquétur a semetípso: sed quæcúmque áudiet, loquétur, et quæ ventúra sunt, annuntiábit vobis. Ille me clarificábit: quia de meo accípiet et annuntiábit vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam et narrábo ópera Dómini, allelúja.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsæ insídias, nos in tuæ protectiónis securitáte constítuat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Communio",
+            "texte": "!\nPer signum Crucis de inimícis nostris líbera nos, Deus noster, allelúja.",
+            "incipit": "Per signum Crucis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti alimónia cœlésti et spiritáli póculo recreáti, quǽsumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.\n!Ps 66:2.\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\n&Gloria\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.",
+            "incipit": "Nos autem gloriári",
+            "mp3": "introitus_nos-autem-gloriari.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ suffrágia consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Jacóbi Apóstoli\n!Jas 1:17-21\nCaríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium áliquod creatúræ ejus. Scitis, fratres mei dilectíssimi. Sit autem omnis homo velox ad audiéndum: tardus autem ad loquéndum et tardus ad iram. Ira enim viri justítiam Dei non operátur. Propter quod abjiciéntes omnem immundítiam et abundántiam malítiæ, in mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas vestras.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 95:10\nDícite in géntibus, quia Dóminus regnávit a ligno. Allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Dícite",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 16:5-14\nIn illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui misit me: et nemo ex vobis intérrogat me: Quo vadis? Sed quia hæc locútus sum vobis, tristítia implévit cor vestrum. Sed ego veritátem dico vobis: expédit vobis, ut ego vadam: si enim non abíero, Paráclitus non véniet ad vos: si autem abíero, mittam eum ad vos. Et cum vénerit ille, árguet mundum de peccáto et de justítia et de judício. De peccáto quidem, quia non credidérunt in me: de justítia vero, quia ad Patrem vado, et jam non vidébitis me: de judício autem, quia princeps hujus mundi jam judicátus est. Adhuc multa hábeo vobis dícere: sed non potéstis portáre modo. Cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem. Non enim loquétur a semetípso: sed quæcúmque áudiet, loquétur, et quæ ventúra sunt, annuntiábit vobis. Ille me clarificábit: quia de meo accípiet et annuntiábit vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam et narrábo ópera Dómini, allelúja.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsæ insídias, nos in tuæ protectiónis securitáte constítuat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Communio",
+            "texte": "!\nPer signum Crucis de inimícis nostris líbera nos, Deus noster, allelúja.",
+            "incipit": "Per signum Crucis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti alimónia cœlésti et spiritáli póculo recreáti, quǽsumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 117:16.\nDéxtera Dómini fecit virtútem: déxtera Dómini exaltávit me. Allelúja.\n!Rom 6:9\nChristus resúrgens ex mórtuis jam non móritur: mors illi ultra non dominábitur. Allelúja.",
-        "Francais": "Allelúja, allelúja\n!Ps 117:16.\nLa droite du Seigneur a agi avec force ; la droite du Seigneur m'a élevé. Alléluia.\n!Rom 6:9\nLe Christ ressuscité d'entre les morts, ne meurt plus désormais ; la mort n'a plus sur lui aucun pouvoir.\nAllelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 16:5-14\nEn ce temps-là, Jésus dit à ses disciples : « Je m'en vais à celui qui m'a envoyé, et aucun de vous ne me demande “ Où vas-tu ? ” Mais parce que je vous ai dit ces choses, la tristesse a rempli votre cœur. Cependant je vous dis la vérité : il vous est bon que je m'en aille ; car, si je ne m'en vais pas, le Consolateur ne viendra pas vers vous ; mais si je m'en vais, je vous l'enverrai. Et quand il sera venu, il convaincra le monde au sujet du péché, de la justice et du jugement : au sujet du péché, parce qu'ils n'ont pas cru en moi ; au sujet de la justice, parce que je vais au Père, et que vous ne me verrez plus ; au sujet du jugement, parce que le Prince de ce monde est déjà jugé. J'ai encore beaucoup de choses à vous dire ; mais vous ne pouvez les porter à présent. Quand le Consolateur, l'Esprit de vérité, sera venu, il vous enseignera toute la vérité. Car il ne parlera pas de lui-même, mais il dira tout ce qu'il aura entendu, et il vous annoncera les choses à venir. Il me glorifiera, parce qu'il recevra de ce qui est à moi, et il vous l'annoncera. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 65:1-2; 65:16\nJubiláte Deo, univérsa terra, psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.",
-        "Francais": "!Ps 65:1-2; 85:16\nJubilez pour Dieu, toute la terre ; psalmodiez pour son Nom. Venez et écoutez : je vous raconterai, à vous tous qui craignez Dieu, tout ce que le Seigneur a fait pour mon âme, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 16:8\nCum vénerit Paráclitus Spíritus veritátis, ille árguet mundum de peccáto et de justítia et de judício, allelúja, allelúja.",
-        "Francais": "!Joann 16:8\nQuand viendra le Paraclet, l'Esprit de vérité, il confondra le monde au sujet du péché, de la justice et du jugement, alléluia, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/05-03.txt",
+        "Francais/Tempora/Pasc4-0.txt",
+        "Latin/Sancti/05-03.txt",
+        "Latin/Tempora/Pasc4-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

@@ -1,70 +1,226 @@
 {
   "date": "2028-06-24",
-  "celebration": {
-    "nom": "Nativité de saint Jean-Baptiste",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-24",
-    "Tempora/Pent02-6"
-  ],
-  "cles_jour": [
-    "06-24",
-    "Pent02-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent02",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Isa 49:1; 49:2\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.",
-        "Francais": "!Isa 49:1; 49:2\nv. Des le sein de ma mère, le Seigneur m’a appelé par mon nom : Il a rendu ma bouche semblable à un glaive acéré, il m’a protégé à l’ombre de sa main, il a fait de moi comme une flèche choisie.\n!Ps 91:2\nIl est bon de louer le Seigneur : et de célébrer votre nom, ô très-haut.\n&Gloria\nv. Des le sein de ma mère, le Seigneur m’a appelé par mon nom : Il a rendu ma bouche semblable à un glaive acéré, il m’a protégé à l’ombre de sa main, il a fait de moi comme une flèche choisie."
+      "occurrence": {
+        "gagnant": "Sancti/06-24",
+        "nom_sanctoral": "",
+        "classe": 6.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-24.txt",
+        "temporal": "Latin/Tempora/Pent02-6Feria.txt",
+        "sanctoral": "Latin/Sancti/06-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pent02-6Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_de-ventre-matris.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Isa 49:1-3; 49:5-7\nÎles, écoutez, et vous, peuples lointains, soyez attentifs. Le Seigneur m’a appelé dès le sein de ma mère ; lorsque j’étais encore dans ses entrailles, il s’est souvenu de mon nom. Il a rendu ma bouche semblable à un glaive acéré, il m’a protégé à l’ombre de sa main ; il a fait de moi comme une flèche choisie, il m’a caché dans son carquois. Et il m’a dit : Tu es mon serviteur, Israël, et je me glorifierai en toi. Et maintenant le Seigneur dit, lui qui m’a formé dès le sein de ma mère pour être son serviteur : voici que je t’ai établi pour être la lumière des nations, et mon salut jusqu’à l’extrémité de la terre. Les rois verront et les princes se lèveront, et ils adoreront, à cause du Seigneur qui a été fidèle, et du Saint d’Israël qui t’a choisi."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Introitus",
+            "texte": "!Isa 49:1; 49:2\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.",
+            "incipit": "De ventre matris",
+            "mp3": "introitus_de-ventre-matris.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dirige in viam salútis ætérnæ.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Isa 49:1-3; 49:5-7\nAudíte, ínsulæ, et atténdite, pópuli, de longe: Dóminus ab útero vocavit me, de ventre matris meæ recordátus est nóminis mei. Et pósuit os meum quasi gládium acútum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam: in pháretra sua abscóndit me. Et dixit mihi: Servus meus es tu, Israël, quia in te gloriábor. Et nunc dicit Dóminus, formans me ex útero servum sibi: Ecce, dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ. Reges vidébunt, et consúrgent príncipes, et adorábunt propter Dominum et sanctum Israël, qui elégit te.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Graduale",
+            "texte": "!Jer 1:5; 1:9\nPriusquam te formárem in útero, novi te: et ántequam exíres de ventre, santificávi te.\nV. Misit Dóminus manum suam, et tétigit os meum, et dixit mihi.\nAllelúja, allelúja.\n!Luc 1:76\nTu, puer, Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias ejus. Allelúja.",
+            "incipit": "Priusquam te formárem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:57-68\nElísabeth implétum est tempus pariéndi, et péperit fílium. Et audiérunt vicíni et cognáti ejus, quia magnificávit Dóminus misericórdiam suam cum illa, et congratulabántur ei. Et factum est in die octávo, venérunt circumcídere púerum, et vocábant eum nómine patris sui Zacharíam. Et respóndens mater ejus, dixit: Nequáquam, sed vocábitur Joánnes. Et dixérunt ad illam: Quia nemo est in cognatióne tua, qui vocétur hoc nómine. Innuébant autem patri ejus, quem vellet vocári eum. Et póstulans pugillárem, scripsit, dicens: Joánnes est nomen ejus. Et miráti sunt univérsi. Apértum est autem illico os ejus et lingua ejus, et loquebátur benedícens Deum. Et factus est timor super omnes vicínos eórum: et super ómnia montána Judææ divulgabántur ómnia verba hæc: et posuérunt omnes, qui audíerant in corde suo, dicéntes: Quis, putas, puer iste erit? Etenim manus Dómini erat cum illo. Et Zacharías, pater ejus, repletus est Spíritu Sancto, et prophetávit, dicens: Benedíctus Dóminus, Deus Israël, quia visitávit et fecit redemptiónem plebis suæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Secreta",
+            "texte": "Tua, Dómine, munéribus altária cumulámus: illíus nativitátem honóre débito celebrántes, qui Salvatórem mundi et cécinit ad futúrum et adésse monstravit, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Communio",
+            "texte": "!Luc 1:76\nTu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem Dómini paráre vias ejus.",
+            "incipit": "Tu, puer, Propheta",
+            "mp3": "communion_tu-puer-propheta.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-24.txt",
+            "section": "Postcommunio",
+            "texte": "Sumat Ecclésia tua, Deus, beáti Joánnis Baptístæ generatióne lætítiam: per quem suæ regeneratiónis cognóvit auctórem, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Introitus",
+            "texte": "!Isa 49:1; 49:2\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit me quasi sagíttam eléctam.",
+            "incipit": "De ventre matris",
+            "mp3": "introitus_de-ventre-matris.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dirige in viam salútis ætérnæ.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Lectio",
+            "texte": "Léctio Isaíæ Prophétæ\n!Isa 49:1-3; 49:5-7\nAudíte, ínsulæ, et atténdite, pópuli, de longe: Dóminus ab útero vocavit me, de ventre matris meæ recordátus est nóminis mei. Et pósuit os meum quasi gládium acútum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam: in pháretra sua abscóndit me. Et dixit mihi: Servus meus es tu, Israël, quia in te gloriábor. Et nunc dicit Dóminus, formans me ex útero servum sibi: Ecce, dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ. Reges vidébunt, et consúrgent príncipes, et adorábunt propter Dominum et sanctum Israël, qui elégit te.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Graduale",
+            "texte": "!Jer 1:5; 1:9\nPriusquam te formárem in útero, novi te: et ántequam exíres de ventre, santificávi te.\nV. Misit Dóminus manum suam, et tétigit os meum, et dixit mihi.\nAllelúja, allelúja.\n!Luc 1:76\nTu, puer, Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias ejus. Allelúja.",
+            "incipit": "Priusquam te formárem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:57-68\nElísabeth implétum est tempus pariéndi, et péperit fílium. Et audiérunt vicíni et cognáti ejus, quia magnificávit Dóminus misericórdiam suam cum illa, et congratulabántur ei. Et factum est in die octávo, venérunt circumcídere púerum, et vocábant eum nómine patris sui Zacharíam. Et respóndens mater ejus, dixit: Nequáquam, sed vocábitur Joánnes. Et dixérunt ad illam: Quia nemo est in cognatióne tua, qui vocétur hoc nómine. Innuébant autem patri ejus, quem vellet vocári eum. Et póstulans pugillárem, scripsit, dicens: Joánnes est nomen ejus. Et miráti sunt univérsi. Apértum est autem illico os ejus et lingua ejus, et loquebátur benedícens Deum. Et factus est timor super omnes vicínos eórum: et super ómnia montána Judææ divulgabántur ómnia verba hæc: et posuérunt omnes, qui audíerant in corde suo, dicéntes: Quis, putas, puer iste erit? Etenim manus Dómini erat cum illo. Et Zacharías, pater ejus, repletus est Spíritu Sancto, et prophetávit, dicens: Benedíctus Dóminus, Deus Israël, quia visitávit et fecit redemptiónem plebis suæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 91:13\nLe juste fleurira comme le palmier et il s’élèvera comme le cèdre du Liban. (Alléluia.)",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Secreta",
+            "texte": "Tua, Dómine, munéribus altária cumulámus: illíus nativitátem honóre débito celebrántes, qui Salvatórem mundi et cécinit ad futúrum et adésse monstravit, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Communio",
+            "texte": "!Luc 1:76\nTu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem Dómini paráre vias ejus.",
+            "incipit": "Tu, puer, Propheta",
+            "mp3": "communion_tu-puer-propheta.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-24.txt",
+            "section": "Postcommunio",
+            "texte": "Sumat Ecclésia tua, Deus, beáti Joánnis Baptístæ generatióne lætítiam: per quem suæ regeneratiónis cognóvit auctórem, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Jer 1:5; 1:9\nPriusquam te formárem in útero, novi te: et ántequam exíres de ventre, santificávi te.\nV. Misit Dóminus manum suam, et tétigit os meum, et dixit mihi. \nAllelúja, allelúja.\n!Luc 1:76\nTu, puer, Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias ejus. Allelúja.",
-        "Francais": "!Jer 1:5; 1:9\nAvant que je t’eusse formé dans les entrailles de ta mère, je t’ai connu : avant que tu fusses sorti de son sein, je t’ai sanctifié.\nV. Alors le Seigneur étendit sa main et toucha ma bouche et me dit. Alléluia, alléluia.\n!Luc 1:76\nToi, petit enfant, tu seras appelé le prophète du Très-Haut, car tu marcheras devant la face du Seigneur pour préparer ses voies. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:57-68\nLe temps où Élisabeth devait enfanter s’accomplit, et elle mit au monde un fils. Ses voisins et ses parents apprirent que le Seigneur avait signalé envers elle sa miséricorde, et ils l’en félicitaient. Et il arriva qu’au huitième jour ils vinrent pour circoncire l’enfant, et ils l’appelaient Zacharie, du nom de son père. Mais sa mère, prenant la parole, dit : Non, mais il sera appelé Jean. Ils lui dirent : II n’y a personne dans ta famille qui soit appelé de ce nom. Et ils faisaient des signes à son père, pour savoir comment il voulait qu’on l’appelât. Et, demandant des tablettes, il écrivit : Jean est son nom. Et tous furent dans l’étonnement. Au même instant, sa bouche s’ouvrit, et sa langue se délia, et il parlait en bénissant Dieu. Et la crainte s’empara de tous leurs voisins, et, dans toutes les montagnes de la Judée, toutes ces choses étaient divulguées. Et tous ceux qui les entendirent les conservèrent dans leur cœur, en disant : Que pensez-vous que sera cet enfant ? Car la main du Seigneur était avec lui. Et Zacharie, son père, fut rempli du Saint-Esprit, et il prophétisa, en disant : Béni soit le Seigneur, le Dieu d’Israël, de ce qu’il a visité et racheté son peuple."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C4a",
-        "Francais": "!Ps 91:13\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Luc 1:76\nTu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem Dómini paráre vias ejus.",
-        "Francais": "!Luc 1:76\nToi, petit enfant, tu seras appelé le prophète du Très-Haut : car tu marcheras devant la face du Seigneur pour préparer ses voies."
-      },
-      "audios": "Graduale Project/communion_tu-puer-propheta.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/06-24.txt",
+        "Latin/Sancti/06-24.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

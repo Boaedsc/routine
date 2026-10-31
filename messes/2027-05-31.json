@@ -1,15 +1,224 @@
 {
   "date": "2027-05-31",
-  "celebration": {
-    "nom": "Lundi de la 2e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent02-1"
-  ],
-  "cles_jour": [
-    "Pent02-1"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent02",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/05-31",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-31.txt",
+        "temporal": "Latin/Tempora/Pent02-1.txt",
+        "sanctoral": "Latin/Sancti/05-31.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis Regínæ: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. (Alleluia, alleluia.)\n!Ps 44:2\nEffúndit cor meum verbum bonum: dico ego carmen meum Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis Regínæ: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. (Alleluia, alleluia.)",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Oratio",
+            "texte": "Concéde nobis, quǽsumus, Dómine: ut, qui solemnitátem beátæ Maríæ Vírginis Regínæ nostræ celebrámus; eius muníti præsídio, pacem in præsénti et glóriam in futúro cónsequi mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapientiæ\n!Eccli 24:5, 7, 9-11, 30-31\nEgo ex ore Altíssimi prodívi, primogénita ante omnem creatúram; ego in altíssimis habitávi, et thronus meus in colúmna nubis. In omni terra steti; et in omni pópulo, et in omni gente primátum hábui, et ómnium excelléntium et humílium corda virtúte calcávi. Qui audit me, non confundétur, et qui operántur in me, non peccábunt; qui elúcidant me, vitam ætérnam habébunt.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Graduale",
+            "texte": "!Apo 19:16\nIpse habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium.\n!Ps 44:10\nRegína adstat ad déxteram eius, ornáta auro ex Ophir. Allelúia, allelúia.\nV. Salve, Regína misericórdiæ, tu nos ab hoste prótege, et mortis hora súscipe. Allelúia.",
+            "incipit": "Ipse habet in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Tractus",
+            "texte": "Gaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Gaude, María Virgo,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequentia sancti Evangelii secundum Lucam.\n!Luc 1:26-33\nIn illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Ioseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena: Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne eius: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce concípies in útero, et páries fílium, et vocábis nomen eius Iesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David patris eius: et regnábit in domo Iacob in ætérnum, et regni eius non erit finis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Offertorium",
+            "texte": "Regáli ex progénie María exórta refúlget; cuius præscibus nos adiuvári, mente et spíritu devotíssime póscimus. (Allelúia.)",
+            "incipit": "Regáli ex progénie",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, múnera lætántis Ecclésiæ, et, beátæ Vírginis Maríæ Regínæ suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Communio",
+            "texte": "Regína mundi digníssima, María Virgo perpétua, intercéde pro nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem ómnium.",
+            "incipit": "Regína mundi digníssima,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-16.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-31.txt",
+            "section": "Postcommunio",
+            "texte": "Celebrátis solémniis, Dómine, quæ pro sanctæ Maríæ Regínæ nostræ festivitáte (memória) perégimus: eius, quǽsumus, nobis intercessióne fiant salutária; in cuius honóre sunt exsultánter impléta.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Introitus",
+            "texte": "v. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis Regínæ: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. (Alleluia, alleluia.)\n!Ps 44:2\nEffúndit cor meum verbum bonum: dico ego carmen meum Regi.\n&Gloria\nv. Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ Maríæ Vírginis Regínæ: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. (Alleluia, alleluia.)",
+            "incipit": "Gaudeámus omnes in",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Oratio",
+            "texte": "Concéde nobis, quǽsumus, Dómine: ut, qui solemnitátem beátæ Maríæ Vírginis Regínæ nostræ celebrámus; eius muníti præsídio, pacem in præsénti et glóriam in futúro cónsequi mereámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapientiæ\n!Eccli 24:5, 7, 9-11, 30-31\nEgo ex ore Altíssimi prodívi, primogénita ante omnem creatúram; ego in altíssimis habitávi, et thronus meus in colúmna nubis. In omni terra steti; et in omni pópulo, et in omni gente primátum hábui, et ómnium excelléntium et humílium corda virtúte calcávi. Qui audit me, non confundétur, et qui operántur in me, non peccábunt; qui elúcidant me, vitam ætérnam habébunt.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Graduale",
+            "texte": "!Apo 19:16\nIpse habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium.\n!Ps 44:10\nRegína adstat ad déxteram eius, ornáta auro ex Ophir. Allelúia, allelúia.\nV. Salve, Regína misericórdiæ, tu nos ab hoste prótege, et mortis hora súscipe. Allelúia.",
+            "incipit": "Ipse habet in",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Tractus",
+            "texte": "Gaude, María Virgo, cunctas hǽreses sola interemísti.\nV. Quæ Gabriélis Archángeli dictis credidísti.\nV. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti.\nV. Dei Génetrix, intercéde pro nobis.",
+            "incipit": "Gaude, María Virgo,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequentia sancti Evangelii secundum Lucam.\n!Luc 1:26-33\nIn illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Ioseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena: Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne eius: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce concípies in útero, et páries fílium, et vocábis nomen eius Iesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David patris eius: et regnábit in domo Iacob in ætérnum, et regni eius non erit finis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Offertorium",
+            "texte": "Regáli ex progénie María exórta refúlget; cuius præscibus nos adiuvári, mente et spíritu devotíssime póscimus. (Allelúia.)",
+            "incipit": "Regáli ex progénie",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, múnera lætántis Ecclésiæ, et, beátæ Vírginis Maríæ Regínæ suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Communio",
+            "texte": "!\nÔ Marie, très digne Reine du monde, et toujours Vierge, obtenez-nous la paix et le salut, vous qui avez mis au monde le Christ, Seigneur et Sauveur de tous.",
+            "incipit": "Ô Marie, très",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-16.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-31.txt",
+            "section": "Postcommunio",
+            "texte": "Celebrátis solémniis, Dómine, quæ pro sanctæ Maríæ Regínæ nostræ festivitáte (memória) perégimus: eius, quǽsumus, nobis intercessióne fiant salutária; in cuius honóre sunt exsultánter impléta.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Sancti/05-31.txt",
+        "Latin/Sancti/05-31.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
+    }
+  ]
 }

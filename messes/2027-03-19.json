@@ -1,70 +1,212 @@
 {
   "date": "2027-03-19",
-  "celebration": {
-    "nom": "Saint Joseph, Époux de la B.V.M.",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/03-19",
-    "Tempora/Quad5-5"
-  ],
-  "cles_jour": [
-    "03-19",
-    "Quad5-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad5",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C5-1",
-        "Francais": "!Ps 91:13-14\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu. (Alléluia, alléluia.)\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu. (Alléluia, alléluia.)"
+      "occurrence": {
+        "gagnant": "Tempora/Quad5-5Feria",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad5-5Feria.txt",
+        "temporal": "Latin/Tempora/Quad5-5Feria.txt",
+        "sanctoral": "Latin/Sancti/03-19.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Quad5-5Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Judith.\n!Judith 13:22, 23-25\nLe Seigneur vous a bénie de sa force, et il a anéanti par vous nos ennemis. Vous êtes bénie, ma fille, par le Seigneur, le Très Haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur qui a créé le ciel et la terre, car il a rendu aujourd’hui votre nom si célèbre, que les hommes, se souvenant à jamais de la puissance du Seigneur, ne cesseront jamais de vous louer, parce que vous n’avez pas épargné votre vie pour eux, en voyant les angoisses et les tribulations de votre peuple ; mais vous avez empêché sa ruine en présence de notre Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Introitus",
+            "texte": "!Ps 30:10, 16, 18\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.\n!Ps 30:2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me.\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Oratio",
+            "texte": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius macerémur, quam supplíciis deputémur ætérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 17:13-18\nIn diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur: recedéntes a te in terra scribéntur: quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die afflictiónis. Confundántur, qui me persequúntur, et non confúndar ego: páveant illi, et non páveam ego. Induc super eos diem afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 34:20, 22\nPacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.\nV. Vidísti, Dómine, ne síleas: ne discédas a me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Pacífice loquebántur mihi",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 11:47-54\nIn illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si dimíttimus eum sic, omnes credent in eum: et vénient Románi, et tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec cogitátis, quia éxpedit vobis, ut unus moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur cum discípulis suis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:12, 121, 42\nBenedíctus es, Dómine, doce me justificatiónes tuas: et non tradas calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "offertoire_benedictus-es-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Secreta",
+            "texte": "Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus mereámur; et eórum perpétua participatióne salvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:12\nNe tradíderis me, Dómine, in ánimas persequéntium me: quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.",
+            "incipit": "Ne tradíderis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad5-5Feria.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Introitus",
+            "texte": "!Ps 30:10, 16, 18\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.\n!Ps 30:2\nIn te, Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me.\nv. Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de mánibus inimicórum meórum et a persequéntibus me: Dómine, non confúndar, quóniam invocávi te.",
+            "incipit": "Miserére mihi, Dómine,",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Oratio",
+            "texte": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter pótius macerémur, quam supplíciis deputémur ætérnis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 17:13-18\nIn diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur: recedéntes a te in terra scribéntur: quóniam dereliquérunt venam aquárum vivéntium Dóminum. Sana me. Dómine, et sanábor: salvum me fac, et salvus ero: quóniam laus mea tu es. Ecce, ipsi dicunt ad me: Ubi est verbum Dómini? Véniat. Et ego non sum turbátus, te pastórem sequens: et diem hóminis non desiderávi, tu scis. Quod egréssum est de lábiis meis, rectum in conspéctu tuo fuit. Non sis tu mihi formídini, spes mea tu in die afflictiónis. Confundántur, qui me persequúntur, et non confúndar ego: páveant illi, et non páveam ego. Induc super eos diem afflictiónis, et dúplici contritióne cóntere eos, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 34:20, 22\nPacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.\nV. Vidísti, Dómine, ne síleas: ne discédas a me.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Pacífice loquebántur mihi",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n!Ps 78:8-9\nV. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 11:47-54\nIn illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus Jesum, et dicébant: Quid fácimus, quia hic homo multa signa facit? Si dimíttimus eum sic, omnes credent in eum: et vénient Románi, et tollent nostrum locum et gentem. Unus autem ex ipsis, Cáiphas nómine, cum esset póntifex anni illíus, dixit eis: Vos nescítis quidquam, nec cogitátis, quia éxpedit vobis, ut unus moriátur homo pro pópulo, et non tota gens péreat. Hoc autem a semetípso non dixit: sed cum esset póntifex anni illíus, prophetávit, quod Jesus moritúrus erat pro gente, et non tantum pro gente, sed ut fílios Dei, qui erant dispérsi, congregáret in unum. Ab illo ergo die cogitavérunt, ut interfícerent eum. Jesus ergo jam non in palam ambulábat apud Judǽos: sed ábiit in regiónem juxta desértum, in civitátem, quæ dícitur Ephrem, et ibi morabátur cum discípulis suis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:12, 121, 42\nBenedíctus es, Dómine, doce me justificatiónes tuas: et non tradas calumniántibus me supérbis: et respondébo exprobrántibus mihi verbum.",
+            "incipit": "Benedíctus es, Dómine,",
+            "mp3": "offertoire_benedictus-es-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Secreta",
+            "texte": "Præsta nobis, miséricors Deus: ut digne tuis servíre semper altáribus mereámur; et eórum perpétua participatióne salvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Communio",
+            "texte": "!Ps 26:12\nNe tradíderis me, Dómine, in ánimas persequéntium me: quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.",
+            "incipit": "Ne tradíderis me,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad5-5Feria.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 20:4-5\nDómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. \nV. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi.\n_\n!Tractus\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
-        "Francais": "!Ps 20:4-5\nSeigneur, vous l’avez prévenu des plus douces bénédictions ; vous avez mis sur sa tête une couronne de pierres précieuses. \nV. Il vous a demandé la vie, et vous lui avez accordé des jours qui dureront dans les siècles des siècles.\n!Ps 111:1-3\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa race sera puissante sur la terre ; la postérité des justes sera bénie.\nV. La gloire et les richesses sont dans sa maison, et sa justice demeure dans tous les siècles."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:18-21\nMarie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance. (Alléluia.)"
-      },
-      "audios": "Graduale Project/offertoire_recordare-virgo-mater.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 1:20\nJoseph, fili David, noli timére accípere Maríam cónjugem tuam: quod enim in ea natum est, de Spíritu Sancto est. (Allelúja.)",
-        "Francais": "!Matt 1:20\nJoseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. (T.P. Allelúia.)"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad5-5Feria.txt",
+        "Latin/Tempora/Quad5-5Feria.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

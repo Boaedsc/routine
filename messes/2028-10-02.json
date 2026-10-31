@@ -1,70 +1,238 @@
 {
   "date": "2028-10-02",
-  "celebration": {
-    "nom": "Saints Anges Gardiens",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/10-02",
-    "Tempora/Pent17-1"
-  ],
-  "cles_jour": [
-    "10-02",
-    "Pent17-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent17",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Sancti/09-29",
-        "Francais": "!Ps 102:20.\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres.\n!Ps 102:1\nMon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.\n&Gloria\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres."
+      "occurrence": {
+        "gagnant": "Sancti/10-02",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-02.txt",
+        "temporal": "Latin/Tempora/Pent17-1.txt",
+        "sanctoral": "Latin/Sancti/10-02.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_benedicite-dominum.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Exodi.\n!Exod 23:20-23\nVoici ce que dit le Seigneur Dieu : Voici que j’enverrai mon Ange, afin qu’il marche devant vous, qu’il vous garde pendant le chemin et qu’il vous fasse entrer dans la terre que je vous ai préparée. Respectez-le, écoutez sa voix et gardez-vous bien de le mépriser, parce qu’il ne vous pardonnera point lorsque vous pécherez, et parce que mon nom est en Lui. Si vous écoutez sa voix et si vous faites tout ce que je vous dis, je serai l’ennemi de vos ennemis et j’affligerai ceux qui vous affligent. Mon Ange marchera devant vous."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Introitus",
+            "texte": "!Ps 102:20\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.\n!Ps 102:1\nBenedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": "introitus_benedicite-dominum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/09-29.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram custódiam míttere dignáris: largíre supplícibus tuis; et eórum semper protectióne deféndi, et ætérna societáte gaudére.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Exodi\n!Exod 23:20-23\nHæc dicit Dóminus Deus: Ecce, ego mittam Angelum meum, qui præcédat te, et custódiat in via, et intróducat in locum, quem parávi. Obsérva eum, et audi vocem ejus, nec contemnéndum putes: quia non dimíttet, cum peccáveris, et est nomen meum in illo. Quod si audiéris vocem ejus et féceris ómnia, quæ loquor, inimícus ero inimícis tuis et affligam affligéntes te: præcedétque te Angelus meus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Graduale",
+            "texte": "!Ps 90:11-12\nAngelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis.\nV. In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum.\nAllelúja, allelúja.\n!Ps 102:21.\nBenedícite Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus. Allelúja.",
+            "incipit": "Angelis suis Deus",
+            "mp3": "graduel_angelis-suis.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Tractus",
+            "texte": "!Ps 102:20\nBenedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus.\n!Ps 102:21-22\nBenedícite Dómino, omnes virtútes ejus: ministri ejus, qui fácitis voluntátem ejus.\nV. Benedícite Dómino, ómnia ópera ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-10\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. ¶ Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit. Qui autem scandalizáverit unum de pusíllis istis, qui in me credunt, expédit ei, ut suspendátur mola asinária in collo ejus, et demergátur in profúndum maris. Væ mundo a scándalis! Necésse est enim, ut véniant scándala: verúmtamen væ hómini illi, per quem scándalum venit! Si autem manus tua vel pes tuus scandalízat te, abscíde eum et projíce abs te: bonum tibi est ad vitam ingrédi débilem vel claudum, quam duas manus vel duos pedes habéntem niitti in ignem ætérnum. Et si óculus tuus scandalízat te, érue eum et projice abs te: bonum tibi est cum uno óculo in vitam intráre, quam duos óculos habéntem mitti in gehénnam ignis. Vidéte, ne contemnátis unum ex his pusíllis: dico enim vobis, quia Angeli eórum in cœlis semper vident fáciem Patris mei, qui in cœlis est.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/05-08.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 102:20-21\nBenedícite Dóminum, omnes Angeli ejus: minístri ejus, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ pro sanctórum Angelórum tuórum veneratióne deférimus: et concéde propítius; ut, perpétuis eórum præsídiis, a præséntibus perículis liberémur et ad vitam perveniámus ætérnam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Communio",
+            "texte": "!Dan 3:58\nBenedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula.",
+            "incipit": "Benedícite, omnes Angeli",
+            "mp3": "communion_benedicite-omnes-angeli.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-02.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, divína mystéria, sanctórum Angelórum tuórum festivitáte lætántes: quǽsumus; ut eórum protectióne ab hóstium júgiter liberémur insídiis, et contra ómnia advérsa muniámur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Introitus",
+            "texte": "!Ps 102:20.\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres.\n!Ps 102:1\nMon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.\n&Gloria\nv. Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres.",
+            "incipit": "Bénissez le Seigneur,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/09-29.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram custódiam míttere dignáris: largíre supplícibus tuis; et eórum semper protectióne deféndi, et ætérna societáte gaudére.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Exodi\n!Exod 23:20-23\nHæc dicit Dóminus Deus: Ecce, ego mittam Angelum meum, qui præcédat te, et custódiat in via, et intróducat in locum, quem parávi. Obsérva eum, et audi vocem ejus, nec contemnéndum putes: quia non dimíttet, cum peccáveris, et est nomen meum in illo. Quod si audiéris vocem ejus et féceris ómnia, quæ loquor, inimícus ero inimícis tuis et affligam affligéntes te: præcedétque te Angelus meus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Graduale",
+            "texte": "!Ps 90:11-12\nAngelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis.\nV. In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum.\nAllelúja, allelúja.\n!Ps 102:21.\nBenedícite Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus. Allelúja.",
+            "incipit": "Angelis suis Deus",
+            "mp3": "graduel_angelis-suis.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Tractus",
+            "texte": "!Ps 102:20\nBenedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus.\n!Ps 102:21-22\nBenedícite Dómino, omnes virtútes ejus: ministri ejus, qui fácitis voluntátem ejus.\nV. Benedícite Dómino, ómnia ópera ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-10\nEn ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. Mais si quelqu’un scandalise un de ces petits qui croient en moi, il vaudrait mieux pour lui qu’on suspendit à son cou une de ces meules qu’un âne tourne, et qu’on le plongeât au fond de la mer. Malheur au monde à cause des scandales ! Car il est nécessaire qu’il arrive des scandales ; mais malheur à l’homme par qui le scandale arrive ! Si ta main ou ton pied te scandalise, coupe-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie manchot ou boiteux, que d’avoir deux mains ou deux pieds, et d’être jeté dans le feu éternel. Et si ton œil te scandalise, arrache-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie n’ayant qu’un œil, que d’avoir deux yeux et d’être jeté dans la géhenne de feu. Gardez-vous de mépriser aucun de ces petits ; car je vous dis que leurs Anges dans le ciel voient sans cesse la face de mon Père qui est dans les cieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/05-08.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 102:20-21\nBenedícite Dóminum, omnes Angeli ejus: minístri ejus, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
+            "incipit": "Benedícite Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, Dómine, múnera, quæ pro sanctórum Angelórum tuórum veneratióne deférimus: et concéde propítius; ut, perpétuis eórum præsídiis, a præséntibus perículis liberémur et ad vitam perveniámus ætérnam.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Communio",
+            "texte": "!Dan 3:58\nBenedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula.",
+            "incipit": "Benedícite, omnes Angeli",
+            "mp3": "communion_benedicite-omnes-angeli.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-02.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, divína mystéria, sanctórum Angelórum tuórum festivitáte lætántes: quǽsumus; ut eórum protectióne ab hóstium júgiter liberémur insídiis, et contra ómnia advérsa muniámur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 90:11-12\nAngelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis.\nV. In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum. \nAllelúja, allelúja.\n!Ps 102:21.\nBenedícite Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus. Allelúja.",
-        "Francais": "!Ps 90:11-12\nDieu a commandé pour toi à ses anges de te garder dans toutes tes voies.\nV. Ils te porteront dans leurs mains, de peur que tu ne heurtes ton pied contre la pierre. Alléluia, alléluia.\n!Ps 102:21.\nBénissez le Seigneur, vous toutes, ses armées ; vous, ses ministres, qui faites sa volonté. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_angelis-suis.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-10\nEn ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. Mais si quelqu’un scandalise un de ces petits qui croient en moi, il vaudrait mieux pour lui qu’on suspendit à son cou une de ces meules qu’un âne tourne, et qu’on le plongeât au fond de la mer. Malheur au monde à cause des scandales ! Car il est nécessaire qu’il arrive des scandales ; mais malheur à l’homme par qui le scandale arrive ! Si ta main ou ton pied te scandalise, coupe-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie manchot ou boiteux, que d’avoir deux mains ou deux pieds, et d’être jeté dans le feu éternel. Et si ton oeil te scandalise, arrache-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie n’ayant qu’un oeil, que d’avoir deux yeux et d’être jeté dans la géhenne de feu. Gardez-vous de mépriser aucun de ces petits ; car je vous dis que leurs Anges dans le ciel voient sans cesse la face de mon Père qui est dans les cieux. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 102:20-21\nBenedícite Dóminum, omnes Angeli ejus: minístri ejus, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus.",
-        "Francais": "!Ps 102:20-21\nBénissez le Seigneur, vous tous, ses Anges : vous, ses ministres, qui faites sa volonté, pour obéir à la voix de ses ordres."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Dan 3:58\nBenedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula.",
-        "Francais": "!Dan 3:58\nTous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles."
-      },
-      "audios": "Graduale Project/communion_benedicite-omnes-angeli.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/10-02.txt",
+        "Latin/Sancti/10-02.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

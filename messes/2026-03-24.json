@@ -1,68 +1,210 @@
 {
   "date": "2026-03-24",
-  "celebration": {
-    "nom": "Mardi de la semaine de la Passion",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Quad5-2"
-  ],
-  "cles_jour": [
-    "Quad5-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad5",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 26:14\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.\n!Ps 26:1\nDóminus illuminátio mea et salus mea: quem timebo?\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.",
-        "Francais": "!Ps 26:14.\nv. Attends le Seigneur, agis avec courage ; que ton cœur soit ferme, et espère au Seigneur.\n!Ps 26:1\nLe Seigneur est ma lumière et mon salut ; qui craindrai-je ?\nv. Attends le Seigneur, agis avec courage ; que ton cœur soit ferme, et espère au Seigneur."
+      "occurrence": {
+        "gagnant": "Tempora/Quad5-2",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad5-2.txt",
+        "temporal": "Latin/Tempora/Quad5-2.txt",
+        "sanctoral": "Latin/Sancti/03-24.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Daniélis Prophétæ.\n!Dan 14:27, 28-42\n En ces jours-là, les Babyloniens se réunirent auprès du roi et lui dirent : Livre-nous Daniel, qui a brisé Bel et tué le dragon ; autrement nous te ferons périr avec toute ta maison. Le roi vit donc qu’ils le pressaient avec violence, et, contraint par la nécessité, il leur livra Daniel. Ils le jettent dans la fosse aux lions, et il demeura six jours. Or il y avait dans la fosse sept lions et on leur donnait chaque jour deux corps et deux brebis ; mais on ne leur en donna point alors, afin qu’ils dévorassent Daniel. Cependant le prophète Habacuc était en Judée ; il avait fait cuire des aliments, et il avait broyé du pain dans un vase, et il allait aux champs les porter aux moissonneurs. Et l’ange du Seigneur dit à Habacuc : Porte à Babylone le repas que tu as, pour Daniel, qui est dans la fosse aux lions. Habacuc dit : Seigneur, je n’ai pas vu Babylone, et je ne connais pas la fosse. Alors l’ange du Seigneur le prit par le haut de la tête et le porta par les cheveux et il le déposa à Babylone, au-dessus de la fosse, avec l’impétuosité de son esprit. Et Habacuc cria en disant : Daniel, serviteur de Dieu, prends le repas que Dieu t’a envoyé. Et Daniel dit : Vous vous êtes souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment. Et, se levant, Daniel mangea. Mais l’ange du Seigneur remit aussitôt Habacuc au lieu où il l’avait pris. Le roi vint, le septième jour, pour pleurer Daniel ; il s’approcha de la fosse et regarda dedans, et voici que Daniel était assis au milieu des lions. Et le roi poussa un grand cri et dit : Vous êtes grand, Seigneur, Dieu de Daniel. Et il le fit tirer de la fosse aux lions. Puis il fit jeter dans la fosse ceux qui avaient voulu perdre Daniel, et ils furent dévorés devant lui en un moment. Alors le roi dit : Que tous les habitants de toute la terre tremblent devant le Dieu de Daniel, car c’est lui qui est le Sauveur, qui fait des prodiges et des merveilles sur la terre, et qui a délivré Daniel de la fusse aux lions."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Introitus",
+            "texte": "!Ps 26:14\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.\n!Ps 26:1\nDóminus illuminátio mea et salus mea: quem timebo?\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.",
+            "incipit": "Exspécta Dóminum, viríliter",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Oratio",
+            "texte": "Nostra tibi, Dómine, quǽsumus, sint accépta jejúnia: quæ nos et expiándo grátia tua dignos effíciant; et ad remédia perdúcant ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 14:27, 28-42\nIn diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt ei: Trade nobis Daniélem, qui Bel destrúxit et dracónem interfécit, alióquin interficiémus te, et domum tuam. Vidit ergo rex, quod irrúerent in eum veheménter: et necessitáte compúlsus trádidit eis Daniélem. Qui misérunt eum in lacum leónum, et erat ibi diébus sex. Porro in lacu erant leónes septem, et dabántur eis duo córpora cotídie et duæ oves: et tunc non data sunt eis, ut devorárent Daniélem. Erat autem Hábacuc prophéta in Judǽa, et ipse cóxerat pulméntum, et intríverat panes in alvéolo: et ibat in campum, ut ferret messóribus. Dixítque Angelus Dómini ad Hábacuc: Fer prándium, quod habes, in Babylónem Daniéli, qui est in lacu leónum. Et dixit Hábacuc: Dómine, Babylónem non vidi, et lacum néscio. Et apprehéndit eum Angelus Dómini in vértice ejus, et portávit eum capíllo cápitis sui, posuítque eum in Babylóne supra lacum in ímpetu spíritus sui. Et clamávit Hábacuc, dicens: Dániel, serve Dei, tolle prándium, quod misit tibi Deus. Et ait Dániel: Recordátus es mei, Deus, et non dereliquísti diligéntes te. Surgénsque Daniel comédit. Porro Angelus Dómini restítuit Hábacuc conféstim in loco suo. Venit ergo rex die séptimo, ut lugéret Daniélem: et venit ad lacum et introspéxit, et ecce Dániel sedens in médio leónum. Et exclamávit voce magna rex, dicens: Magnus es, Dómine, Deus Daniélis. Et extráxit eum de lacu leónum. Porro illos, qui perditiónis ejus causa fúerant, intromísit in lacum, et devoráti sunt in moménto coram eo. Tunc rex ait: Páveant omnes habitántes in univérsa terra Deum Daniélis: quia ipse est salvátor, fáciens signa et mirabília in terra: qui liberávit Daniélem de lacu leónum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 42:1, 3\nDiscérne causam meam, Dómine: ab hómine iníquo et dolóso éripe me.\nV. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.",
+            "incipit": "Discérne causam meam,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 7:1-13\nIn illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem in próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum fratres ejus: Transi hinc, et vade in Judǽam, ut et discípuli tui vídeant ópera tua, quæ facis. Nemo quippe in occúlto quid facit, et quærit ipse in palam esse: si hæc facis, manifésta teipsum mundo. Neque enim fratres ejus credébant in eum. Dixit ergo eis Jesus: Tempus meum nondum advénit: tempus autem vestrum semper est parátum. Non potest mundus odísse vos: me autem odit: quia ego testimónium perhíbeo de illo, quod ópera ejus mala sunt. Vos ascéndite ad diem festum hunc, ego autem non ascéndo ad diem festum istum: quia meum tempus nondum implétum est. Hæc cum dixísset, ipse mansit in Galilǽa. Ut autem ascendérunt fratres ejus, tunc et ipse ascéndit ad diem festum non maniféste, sed quasi in occúlto. Judǽi ergo quærébant eum in die festo, et dicébant: Ubi est ille? Et murmur multum erat in turba de eo. Quidam enim dicébant: Quia bonus est. Alii autem dicébant: Non, sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter metum Judæórum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 9:11-12, 13\nSperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónes páuperum.",
+            "incipit": "Sperent in te",
+            "mp3": "offertoire_sperent-in-te.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem consolatiónem signíficent; ut promíssa non desperémus ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 24:22\nRédime me, Deus Israël, ex ómnibus angústiis meis.",
+            "incipit": "Rédime me, Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad5-2.txt",
+            "section": "Postcommunio",
+            "texte": "Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, júgiter exsequéntes, donis mereámur cœléstibus propinquáre.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Introitus",
+            "texte": "!Ps 26:14\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.\n!Ps 26:1\nDóminus illuminátio mea et salus mea: quem timebo?\nv. Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine Dóminum.",
+            "incipit": "Exspécta Dóminum, viríliter",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Oratio",
+            "texte": "Nostra tibi, Dómine, quǽsumus, sint accépta jejúnia: quæ nos et expiándo grátia tua dignos effíciant; et ad remédia perdúcant ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Daniélis Prophétæ\n!Dan 14:27, 28-42\nIn diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt ei: Trade nobis Daniélem, qui Bel destrúxit et dracónem interfécit, alióquin interficiémus te, et domum tuam. Vidit ergo rex, quod irrúerent in eum veheménter: et necessitáte compúlsus trádidit eis Daniélem. Qui misérunt eum in lacum leónum, et erat ibi diébus sex. Porro in lacu erant leónes septem, et dabántur eis duo córpora cotídie et duæ oves: et tunc non data sunt eis, ut devorárent Daniélem. Erat autem Hábacuc prophéta in Judǽa, et ipse cóxerat pulméntum, et intríverat panes in alvéolo: et ibat in campum, ut ferret messóribus. Dixítque Angelus Dómini ad Hábacuc: Fer prándium, quod habes, in Babylónem Daniéli, qui est in lacu leónum. Et dixit Hábacuc: Dómine, Babylónem non vidi, et lacum néscio. Et apprehéndit eum Angelus Dómini in vértice ejus, et portávit eum capíllo cápitis sui, posuítque eum in Babylóne supra lacum in ímpetu spíritus sui. Et clamávit Hábacuc, dicens: Dániel, serve Dei, tolle prándium, quod misit tibi Deus. Et ait Dániel: Recordátus es mei, Deus, et non dereliquísti diligéntes te. Surgénsque Daniel comédit. Porro Angelus Dómini restítuit Hábacuc conféstim in loco suo. Venit ergo rex die séptimo, ut lugéret Daniélem: et venit ad lacum et introspéxit, et ecce Dániel sedens in médio leónum. Et exclamávit voce magna rex, dicens: Magnus es, Dómine, Deus Daniélis. Et extráxit eum de lacu leónum. Porro illos, qui perditiónis ejus causa fúerant, intromísit in lacum, et devoráti sunt in moménto coram eo. Tunc rex ait: Páveant omnes habitántes in univérsa terra Deum Daniélis: quia ipse est salvátor, fáciens signa et mirabília in terra: qui liberávit Daniélem de lacu leónum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 42:1, 3\nDiscérne causam meam, Dómine: ab hómine iníquo et dolóso éripe me.\nV. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.",
+            "incipit": "Discérne causam meam,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 7:1-13\nIn illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem in próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum fratres ejus: Transi hinc, et vade in Judǽam, ut et discípuli tui vídeant ópera tua, quæ facis. Nemo quippe in occúlto quid facit, et quærit ipse in palam esse: si hæc facis, manifésta teipsum mundo. Neque enim fratres ejus credébant in eum. Dixit ergo eis Jesus: Tempus meum nondum advénit: tempus autem vestrum semper est parátum. Non potest mundus odísse vos: me autem odit: quia ego testimónium perhíbeo de illo, quod ópera ejus mala sunt. Vos ascéndite ad diem festum hunc, ego autem non ascéndo ad diem festum istum: quia meum tempus nondum implétum est. Hæc cum dixísset, ipse mansit in Galilǽa. Ut autem ascendérunt fratres ejus, tunc et ipse ascéndit ad diem festum non maniféste, sed quasi in occúlto. Judǽi ergo quærébant eum in die festo, et dicébant: Ubi est ille? Et murmur multum erat in turba de eo. Quidam enim dicébant: Quia bonus est. Alii autem dicébant: Non, sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter metum Judæórum.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 9:11-12, 13\nSperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónes páuperum.",
+            "incipit": "Sperent in te",
+            "mp3": "offertoire_sperent-in-te.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem consolatiónem signíficent; ut promíssa non desperémus ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 24:22\nRédime me, Deus Israël, ex ómnibus angústiis meis.",
+            "incipit": "Rédime me, Deus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad5-2.txt",
+            "section": "Postcommunio",
+            "texte": "Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, júgiter exsequéntes, donis mereámur cœléstibus propinquáre.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 42:1, 3\nDiscérne causam meam, Dómine: ab hómine iníquo et dolóso éripe me.\nV. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.",
-        "Francais": "!Ps 42:1, 3\nÔ Seigneur, séparez ma cause ; délivrez-moi de l’homme méchant et trompeur.\nV. Envoyez votre lumière et votre vérité : elles me conduiront et m’amèneront à votre montagne sainte."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 7:1-13\n En ce temps-là, Jésus parcourait la Galilée ; car il ne voulait pas aller en Judée parce que les Juifs cherchaient à le faire mourir. Or la fête des Juifs, dite des Tabernacles, était proche. Et ses frères lui dirent : Pars d’ici, et va en Judée, afin que tes disciples voient aussi les œuvres que tu fais. Car personne n’agit en secret, lorsqu’il cherche à paraître ; si tu fais ces choses, manifeste-toi au monde. Car ses frères non plus ne croyaient pas en lui. Jésus leur dit donc : Mon temps n’est pas encore venu ; mais votre temps à vous est toujours prêt. Le monde ne peut vous haïr ; mais moi, il me hait parce que je rends de lui le témoignage que ses œuvres sont mauvaises. Vous montez à cette fête ; pour moi, je ne monte pas à cette fête, parce que mon temps n’est pas encore accompli. Après avoir dit cela, il demeura en Galilée. Mais, lorsque ses frères furent partis, il monta, lui aussi, à la fête, non pas publiquement, mais comme en secret. Les Juifs le cherchaient donc pendant la fête, et disaient : Où est-il ? Et il y avait une grande rumeur dans la foule à son sujet. Car les uns disaient : C’est un homme de bien ; les autres disaient : Non, mais il séduit les foules. Cependant, personne ne parlait de lui publiquement, par crainte des Juifs ?"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 9:11-12, 13\nSperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónes páuperum.",
-        "Francais": "!Ps 9:11-12, 13\n Tous ceux qui connaissent votre nom, espèrent en vous, Seigneur, car vous n’abandonnez pas ceux qui vous cherchent. Chantez au Seigneur qui habite dans Sion, car il n’a pas oublié les prières des pauvres."
-      },
-      "audios": "Graduale Project/offertoire_sperent-in-te.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 24:22\nRédime me, Deus Israël, ex ómnibus angústiis meis.",
-        "Francais": "!Ps 24:22\nSauvez-moi, Dieu d’Israël, de toutes me angoisses."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad5-2.txt",
+        "Latin/Tempora/Quad5-2.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

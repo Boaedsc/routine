@@ -1,68 +1,212 @@
 {
   "date": "2028-06-18",
-  "celebration": {
-    "nom": "2e dimanche après la Pentecôte",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent02-0"
-  ],
-  "cles_jour": [
-    "Pent02-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent02",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 17:19-20\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.\n!Ps 17:2-3\nDíligam te. Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.\n&Gloria\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.",
-        "Francais": "!Ps 17:19-20.\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé.\n!Ps 17:2-3\nJe vous aime, Seigneur, ma force ; le Seigneur est mon soutien, mon refuge et mon libérateur.\n&Gloria\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé."
+      "occurrence": {
+        "gagnant": "Tempora/Pent02-0r",
+        "nom_sanctoral": "",
+        "classe": 5.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent02-0r.txt",
+        "temporal": "Latin/Tempora/Pent02-0r.txt",
+        "sanctoral": "Latin/Sancti/06-18.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pent02-0r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_factus-est-dominus.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 John 3:13-18\nBien-aimés, ne vous étonnez pas si le monde vous hait. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui. qui n'aime pas demeure dans la mort. Quiconque hait son frère est un meurtrier, et vous savez qu'aucun meurtrier n'a la vie éternelle demeurant en lui. À ceci nous avons connu l'amour de Dieu, c'est que Lui a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères. Si quelqu'un possède les biens de ce monde et que, voyant son frère dans la nécessité, il lui ferme ses entrailles, comment l'amour de Dieu demeure-t-il en lui ? Mes petits enfants, n'aimons pas avec de parole et de langue, mais par des œuvres et en vérité."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 17:19-20\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.\n!Ps 17:2-3\nDíligam te. Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.\n&Gloria\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.",
+            "incipit": "Factus est Dóminus",
+            "mp3": "introitus_factus-est-dominus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Oratio",
+            "texte": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum: quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 John 3:13-18\nCaríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 119:1-2\nAd Dóminum, cum tribulárer, clamávi, et exaudívit me.\nV. Dómine, libera ánimam meam a lábiis iníquis, et a lingua dolósa. Allelúja, allelúja.\n!Ps 7:2\nDómine, Deus meus, in te sperávi: salvum me fac ex ómnibus persequéntibus me et líbera me. Allelúja.",
+            "incipit": "Ad Dóminum, cum",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 14:16-24\nIn illo témpore: Dixit Jesus pharisǽis parábolam hanc: Homo quidam fecit cœnam magnam, et vocávit multos. Et misit servum suum hora cœnæ dícere invitátis, ut venírent, quia jam paráta sunt ómnia. Et cœpérunt simul omnes excusáre. Primus dixit ei: Villam emi, et necésse hábeo exíre et vidére illam: rogo te, habe me excusátum. Et alter dixit: Juga boum emi quinque et eo probáre illa: rogo te, habe me excusátum. Et álius dixit: Uxórem duxi, et ídeo non possum veníre. Et revérsus servus nuntiávit hæc dómino suo. Tunc irátus paterfamílias, dixit servo suo: Exi cito in pláteas et vicos civitátis: et páuperes ac débiles et cæcos et claudos íntroduc huc. Et ait servus: Dómine, factum est, ut imperásti, et adhuc locus est. Et ait dóminus servo: Exi in vias et sepes: et compélle intrare, ut impleátur domus mea. Dico autem vobis, quod nemo virórum illórum, qui vocáti sunt, gustábit cœnam meam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
+            "incipit": "Dómine, convértere, et",
+            "mp3": "offertoire_domine-convertere.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Secreta",
+            "texte": "Oblátio nos, Dómine, tuo nómini dicánda puríficet: et de die in diem ad cœléstis vitæ tránsferat actiónem.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Communio",
+            "texte": "!Ps 12:6\nCantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.",
+            "incipit": "Cantábo Dómino, qui",
+            "mp3": "communion_cantabo-domino.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent02-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis munéribus sacris, quǽsumus, Dómine: ut cum frequentatióne mystérii, crescat nostræ salútis efféctus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Introitus",
+            "texte": "!Ps 17:19-20.\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé.\n!Ps 17:2-3\nJe vous aime, Seigneur, ma force ; le Seigneur est mon soutien, mon refuge et mon libérateur.\n&Gloria\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé.",
+            "incipit": "Le Seigneur s'est",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Oratio",
+            "texte": "De votre saint Nom, Seigneur, faites-nous éprouver sans cesse la crainte et l'amour, car vous ne privez jamais de votre assistance ceux que vous établissez dans la solidité de votre amour.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 John 3:13-18\nBien-aimés, ne vous étonnez pas si le monde vous hait. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui. qui n'aime pas demeure dans la mort. Quiconque hait son frère est un meurtrier, et vous savez qu'aucun meurtrier n'a la vie éternelle demeurant en lui. À ceci nous avons connu l'amour de Dieu, c'est que Lui a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères. Si quelqu'un possède les biens de ce monde et que, voyant son frère dans la nécessité, il lui ferme ses entrailles, comment l'amour de Dieu demeure-t-il en lui ? Mes petits enfants, n'aimons pas avec de parole et de langue, mais par des œuvres et en vérité.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Graduale",
+            "texte": "!Ps 119:1-2\nVers le Seigneur, dans ma tribulation, j'ai crié, et il m'a exaucé.\nV. Seigneur, libérez mon âme des lèvres iniques et de la langue trompeuse. Alléluia.\n!Ps 7:2\nSeigneur mon Dieu, en vous j'espère ; sauvez-moi de tous ceux qui me persécutent, et libérez-moi. Alléluia.",
+            "incipit": "Vers le Seigneur,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:16-24\nEn ce temps-là, Jésus dit aux Pharisiens cette parabole : « Un homme faisait un grand dîner, auquel il avait invité beaucoup de gens. Et à l'heure du dîner, il envoya son serviteur dire aux invités : « Venez, car tout est déjà prêt.» Et tous, unanimement, se mirent à s'excuser. Le premier lui dit : « J'ai acheté un champ, et il faut nécessairement que j'aille le voir; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai acheté cinq paires de bœufs, et je vais les essayer ; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai pris femme, et c'est pourquoi je ne puis venir.» Le serviteur s'en revint et rapporta cela à son maître. Alors le maître de maison, irrité, dit à son serviteur : « Va-t'en vite sur les places et par les rues de la ville, et amène ici les pauvres, les estropiés, les aveugles et les boiteux.» Et le serviteur dit : « Maître, ce que vous avez commandé a été fait, et il y a encore de la place.» Et le maître dit au serviteur : « Va-t'en par les chemins et aux clôtures, et contrains les gens à entrer, afin que ma maison soit remplie. Car, je vous le dis, aucun de ces hommes qui avaient été invités ne goûtera à mon dîner.» »",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 6:5\nSeigneur, tournez-vous vers moi, et sauvez-mon âme ; sauvez-moi à cause de votre miséricorde.",
+            "incipit": "Seigneur, tournez-vous vers",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Secreta",
+            "texte": "Que cette offrande qui va vous être consacrée, Seigneur, nous purifie, et que de jour en jour elle nous fasse passer à une vie toute céleste.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Communio",
+            "texte": "!Ps 12:6\nJe veux chanter pour le Seigneur qui m'a comblé de biens, et je psalmodierai pour le Nom du Seigneur, le Très-Haut.",
+            "incipit": "Je veux chanter",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent02-0r.txt",
+            "section": "Postcommunio",
+            "texte": "Nourris de vos dons sacrés, puissions-nous, Seigneur, par la fréquentation de votre sacrement, voir se développer en nous votre œuvre de salut.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 119:1-2\nAd Dóminum, cum tribulárer, clamávi, et exaudívit me.\nV. Dómine, libera ánimam meam a lábiis iníquis, et a lingua dolósa. Allelúja, allelúja.\n!Ps 7:2\nDómine, Deus meus, in te sperávi: salvum me fac ex ómnibus persequéntibus me et líbera me. Allelúja.",
-        "Francais": "!Ps 119:1-2\nVers le Seigneur, dans ma tribulation, j'ai crié, et il m'a exaucé.\nV. Seigneur, libérez mon âme des lèvres iniques et de la langue trompeuse. Alléluia.\n!Ps 7:2\nSeigneur mon Dieu, en vous j'espère ; sauvez-moi de tous ceux qui me persécutent, et libérez-moi. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:16-24\nEn ce temps-là, Jésus dit aux Pharisiens cette parabole : « Un homme faisait un grand dîner, auquel il avait invité beaucoup de gens. Et à l'heure du dîner, il envoya son serviteur dire aux invités : « Venez, car tout est déjà prêt.» Et tous, unanimement, se mirent à s'excuser. Le premier lui dit : « J'ai acheté un champ, et il faut nécessairement que j'aille le voir; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai acheté cinq paires de bœufs, et je vais les essayer ; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai pris femme, et c'est pourquoi je ne puis venir.» Le serviteur s'en revint et rapporta cela à son maître. Alors le maître de maison, irrité, dit à son serviteur : « Va-t'en vite sur les places et par les rues de la ville, et amène ici les pauvres, les estropiés, les aveugles et les boiteux.» Et le serviteur dit : « Maître, ce que vous avez commandé a été fait, et il y a encore de la place.» Et le maître dit au serviteur : « Va-t'en par les chemins et aux clôtures, et contrains les gens à entrer, afin que ma maison soit remplie. Car, je vous le dis, aucun de ces hommes qui avaient été invités ne goûtera à mon dîner.» »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
-        "Francais": "!Ps 6:5\nSeigneur, tournez-vous vers moi, et sauvez-mon âme ; sauvez-moi à cause de votre miséricorde."
-      },
-      "audios": "Graduale Project/offertoire_domine-convertere.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 12:6\nCantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.",
-        "Francais": "!Ps 12:6\nJe veux chanter pour le Seigneur qui m'a comblé de biens, et je psalmodierai pour le Nom du Seigneur, le Très-Haut."
-      },
-      "audios": "Graduale Project/communion_cantabo-domino.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent02-0r.txt",
+        "Latin/Tempora/Pent02-0r.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

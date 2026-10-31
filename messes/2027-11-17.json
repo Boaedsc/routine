@@ -1,26 +1,240 @@
 {
   "date": "2027-11-17",
-  "celebration": {
-    "nom": "Saint Grégoire Thaumaturge",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/11-17",
-    "Tempora/Pent23-3"
-  ],
-  "cles_jour": [
-    "11-17",
-    "Pent23-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "PentEpi6",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 11:22-24\nEn ce temps-là, Jésus répondit à ses disciples : Ayez foi en Dieu. En vérité, je vous le dis, quiconque dira à cette montagne : Ôte-toi de là, et jette-toi dans la mer, s’il n’hésite pas dans son cœur, mais s’il croit que tout ce qu’il aura dit arrivera, il le verra arriver. C’est pourquoi je vous dis : Quoi que ce soit que vous demandiez en priant, croyez que vous le recevrez, et cela vous arrivera."
+      "occurrence": {
+        "gagnant": "Sancti/11-17",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/11-17.txt",
+        "temporal": "Latin/Tempora/PentEpi6-3.txt",
+        "sanctoral": "Latin/Sancti/11-17.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
+            "incipit": "Státuit ei Dóminus",
+            "mp3": "introitus_statuit-ei-dominus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Oratio",
+            "texte": "v. Da, quǽsumus, omnípotens Deus: ut beáti N. Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.\n$Per Dominum.",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:16-27; 45, 3-20\nEcce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invénit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 109:4\nTu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Tractus",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/11-17.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/11-17.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 11:22-24\nIn illo témpore: Respóndens Jesus discípulis suis, ait illis: Habéte fidem Dei. Amen, dico vobis, quia, quicúmque díxerit huic monti: Tóllere et míttere in mare, et non hæsitáverit in corde suo, sed credíderit, quia, quodcúmque díxerit, fiat, fiet ei. ¶ Proptérea dico vobis: Omnia quæcúmque orántes pétitis, crédite quia accipiétis, et evénient vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Secreta",
+            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/11-17.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
+            "incipit": "Státuit ei Dóminus",
+            "mp3": "introitus_statuit-ei-dominus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Oratio",
+            "texte": "Faites, nous vous en prions, Dieu tout-puissant, que la vénérable solennité de saint N., votre évêque et confesseur, accroisse en nous la dévotion et le salut.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de l’Ecclésiastique.\n!Eccli 44:16-27; 45, 3-20.\nVoici le grand pontife qui, pendant sa vie, a plu à Dieu et a été trouvé juste, et au temps de la colère il est devenu la réconciliation. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. C’est pourquoi le Seigneur a juré de le faire croître dans son peuple. Il a béni en lui toutes les nations, et a confirmé en lui son alliance. Il l’a reconnu par ses bénédictions, il lui a continué sa miséricorde ; et lui-même a trouvé grâce aux yeux du Seigneur. Il l’a glorifié devant les rois et lui a donné une couronne de gloire. Il a établi avec lui une alliance éternelle et lui a donné le sacerdoce suprême. Il l’a rendu heureux dans la gloire pour exercer le sacerdoce, louer son nom et lui offrir un digne encens en agréable odeur.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "incipit": "Voici un grand",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Tractus",
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut.\n!Ps 111:1-3\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Voici un grand",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/11-17.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/11-17.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 11:22-24\nIn illo témpore: Respóndens Jesus discípulis suis, ait illis: Habéte fidem Dei. Amen, dico vobis, quia, quicúmque díxerit huic monti: Tóllere et míttere in mare, et non hæsitáverit in corde suo, sed credíderit, quia, quodcúmque díxerit, fiat, fiet ei. ¶ Proptérea dico vobis: Omnia quæcúmque orántes pétitis, crédite quia accipiétis, et evénient vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Secreta",
+            "texte": "Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/11-17.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4.txt",
+        "../horas/Latin/Commune/C4.txt",
+        "Francais/Sancti/11-17.txt",
+        "Latin/Sancti/11-17.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

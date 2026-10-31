@@ -1,15 +1,278 @@
 {
   "date": "2028-10-27",
-  "celebration": {
-    "nom": "Vendredi de la 20e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent20-5"
-  ],
-  "cles_jour": [
-    "Pent20-5"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent20",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/10-27",
+        "nom_sanctoral": "",
+        "classe": 1.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/10-27.txt",
+        "temporal": "Latin/Tempora/Pent20-5.txt",
+        "sanctoral": "Latin/Sancti/10-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Introitus",
+            "texte": "!Ps 78:11-12; 78:10\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.\n!Ps 78:1\nDeus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Jerúsalem in pomórum custódiam.\n&Gloria\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
+            "incipit": "Intret in conspéctu",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Oratio",
+            "texte": "Concede, quǽsumus, omnípotens Deus: ut, sicut Apostolórum tuórum Simónis et Judæ gloriósa natalícia prævenímus; sic ad tua benefícia promerenda, majestátem tuam pro nobis ipsi præveniant.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 4:9-14\nFratres: Spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cǽdimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndant vos, hæc scribo, sed ut fílios meos caríssimos móneo: in Christo Jesu, Dómino nostro.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 78:10; 78:2\nVindíca, Dómine, sánguinem Sanctórum tuórum, qui effúsus est.\nV. Posuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli: carnes Sanctórum tuórum béstiis terræ.",
+            "incipit": "Vindíca, Dómine, sánguinem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2ap.txt",
+                "section": "Evangelium",
+                "resolu": false
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.\n(sed post Septuagesimam dicitur)\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum.",
+            "incipit": "Exsultábunt Sancti in",
+            "mp3": "offertoire_exsultabunt-sancti-in.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Secreta",
+            "texte": "Munéribus nostris, Dómine, sanctórum Apostolórum tuórum Simónis et Judæ festa præcédimus: te supplíciter deprecántes; ut, quæ consciéntiæ nostræ præpediúntur obstáculis, illórum méritis grata reddántur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Communio",
+            "texte": "!Ps 78:2; 78:11\nPosuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli, carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii tui pósside fílios morte punitórum.",
+            "incipit": "Posuérunt mortália servórum",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-12o.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpto, Dómine, sacraménto, supplíciter deprecámur: ut, intercedéntibus beátis Apóstolis tuis Simóne et Juda, quod temporáliter gérimus, ad vitam capiámus ætérnam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Introitus",
+            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.",
+            "incipit": "Que les gémissements",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Oratio",
+            "texte": "Concede, quǽsumus, omnípotens Deus: ut, sicut Apostolórum tuórum Simónis et Judæ gloriósa natalícia prævenímus; sic ad tua benefícia promerenda, majestátem tuam pro nobis ipsi præveniant.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul aux Corinthiens.\n!1 Cor 4:9-14\nMes frères, nous voici livrés en spectacle au monde, aux anges et aux hommes. Nous sommes fous à cause du Christ tandis que vous êtes sages dans le Christ. Nous sommes faibles tandis que vous êtes forts ; vous êtes à l’honneur, nous dans le mépris. Jusqu’à cette heure, nous souffrons la faim, la soif, la nudité. Nous sommes maltraités et errants, nous nous épuisons à travailler de nos mains. Nous sommes maudits et nous bénissons ; nous souffrons persécution et nous supportons. Nous sommes diffamés et nous réconfortons. Jusqu’à maintenant nous sommes devenus comme les ordures du monde, le rebut de tous. J’écris cela non pour votre confusion, mais pour vous instruire comme mes enfants bien-aimés dans le Christ Jésus, notre Seigneur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 78:10; 78:2\nVindíca, Dómine, sánguinem Sanctórum tuórum, qui effúsus est.\nV. Posuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli: carnes Sanctórum tuórum béstiis terræ.",
+            "incipit": "Vindíca, Dómine, sánguinem",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/10-27.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2ap.txt",
+                "section": "Evangelium",
+                "resolu": false
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "incipit": "Les saints exulteront",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Secreta",
+            "texte": "Munéribus nostris, Dómine, sanctórum Apostolórum tuórum Simónis et Judæ festa præcédimus: te supplíciter deprecántes; ut, quæ consciéntiæ nostræ præpediúntur obstáculis, illórum méritis grata reddántur.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Communio",
+            "texte": "!Ps 78:2; 78:11\nIls ont livré les cadavres de vos serviteurs en pâture aux oiseaux du ciel, et la chair de vos fidèles aux bêtes de la terre : selon la grandeur de votre bras, gardez les fils de ceux qu’on a fait mourir.",
+            "incipit": "Ils ont livré",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-12o.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/10-27.txt",
+            "section": "Postcommunio",
+            "texte": "Sumpto, Dómine, sacraménto, supplíciter deprecámur: ut, intercedéntibus beátis Apóstolis tuis Simóne et Juda, quod temporáliter gérimus, ad vitam capiámus ætérnam.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Sancti/10-27.txt",
+        "Latin/Sancti/10-27.txt"
+      ],
+      "sections_vides": 8,
+      "numero": 1
+    }
+  ]
 }

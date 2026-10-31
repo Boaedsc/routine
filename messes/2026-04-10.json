@@ -1,68 +1,210 @@
 {
   "date": "2026-04-10",
-  "celebration": {
-    "nom": "Vendredi dans l'octave de Pâques",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc0-5"
-  ],
-  "cles_jour": [
-    "Pasc0-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc0",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 77:53\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.",
-        "Francais": "!Ps 77:53\nv. Le Seigneur les a faits sortir dans l'espérance, alléluia, et la mer a recouvert leurs ennemis, alléluia, alléluia, alléluia.\n!Ps 77:1\nÔ mon peuple, prêtez attention à ma loi, inclinez votre oreille vers les paroles de ma bouche.\n&Gloria\nv. Le Seigneur les a faits sortir dans l'espérance, alléluia, et la mer a recouvert leurs ennemis, alléluia, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc0-5",
+        "nom_sanctoral": "",
+        "classe": 6.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc0-5.txt",
+        "temporal": "Latin/Tempora/Pasc0-5.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_eduxit-eos-dominus.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Petri 3:18-22\nBien-aimés, le Christ a souffert une fois la mort pour nos péchés, lui juste pour des injustes, afin de nous ramener à Dieu, ayant été mis à mort selon la chair, mais rendu à la vie selon l'esprit. C'est aussi dans cet esprit qu'Il est allé prêcher aux esprits en prison, rebelles autrefois, lorsqu'aux jours de Noé la longanimité de Dieu temporisait, pendant que se construisait l'arche, dans laquelle un petit nombre, savoir huit personnes, furent sauvées à travers l'eau. C'est elle qui aujourd'hui vous sauve, vous aussi, par son antitype le baptême, non pas cette ablution qui ôte les souillures du corps, mais celle qui est la demande faite à Dieu d'une bonne conscience, par la résurrection de Jésus-Christ, qui est à la droite de Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 77:53\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.",
+            "incipit": "Edúxit eos Dóminus",
+            "mp3": "introitus_eduxit-eos-dominus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui paschále sacraméntum in reconciliatiónis humánæ fœ́dere contulísti: da méntibus nostris; ut, quod professióne celebrámus, imitémur efféctu.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 3:18-22\nCaríssimi: Christus semel pro peccátis nostris mórtuus est, justus pro injústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem spíritu. In quo et his, qui in cárcere erant, spirítibus véniens prædicávit: qui incréduli fúerant aliquándo, quando exspectábant Dei patiéntiam in diébus Noë, cum fabricarétur arca, in qua pauci, id est octo ánimæ salvæ factæ sunt per aquam. Quod et vos nunc símilis formæ salvos facit baptísma: non carnis deposítio sórdium, sed consciéntiæ bonæ interrogátio in Deum per resurrectiónem Jesu Christi, Dómini nostri, qui est in dextera Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 117:24; 117:26-27\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit nobis.\nAllelúja, allelúja.\n!Ps 95:10\nDícite in géntibus: quia Dóminus regnávit a ligno.",
+            "incipit": "Hæc dies, quam",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 28:16-20\nIn illo témpore: Undecim discípuli abiérunt in Galilǽam, in montem, ubi constitúerat illis Jesus. Et vidéntes eum adoravérunt: quidam autem dubitavérunt. Et accédens Jesus locútus est eis, dicens: Data est mihi omnis potéstas in cœlo, et in terra. Eúntes ergo, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti: docéntes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce, ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Offertorium",
+            "texte": "!Exod 12:14\nErit vobis hæc dies memoriális, allelúja: et diem festum celebrábitis solémnem Dómino in progénies vestras: legítimum sempitérnum diem, allelúja, allelúja, allelúja.",
+            "incipit": "Erit vobis hæc",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, quǽsumus, Dómine, placátus assúme: quas et pro renatórum expiatióne peccáti deférimus, et pro acceleratióne cœléstis auxílii.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Communio",
+            "texte": "!Matt 28:18-19\nData est mihi omnis potéstas in cœlo et in terra, allelúja: eúntes, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti, allelúja, allelúja.",
+            "incipit": "Data est mihi",
+            "mp3": "communion_data-est-mihi.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc0-5.txt",
+            "section": "Postcommunio",
+            "texte": "Réspice, quǽsumus, Dómine, pópulum tuum: et, quem ætérnis dignátus es renováre mystériis, a temporálibus culpis dignánter absólve.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Introitus",
+            "texte": "!Ps 77:53\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.\n!Ps 77:1\nAtténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n&Gloria\nv. Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare, allelúja, allelúja, allelúja.",
+            "incipit": "Edúxit eos Dóminus",
+            "mp3": "introitus_eduxit-eos-dominus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Oratio",
+            "texte": "Omnípotens sempitérne Deus, qui paschále sacraméntum in reconciliatiónis humánæ fœ́dere contulísti: da méntibus nostris; ut, quod professióne celebrámus, imitémur efféctu.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 3:18-22\nCaríssimi: Christus semel pro peccátis nostris mórtuus est, justus pro injústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem spíritu. In quo et his, qui in cárcere erant, spirítibus véniens prædicávit: qui incréduli fúerant aliquándo, quando exspectábant Dei patiéntiam in diébus Noë, cum fabricarétur arca, in qua pauci, id est octo ánimæ salvæ factæ sunt per aquam. Quod et vos nunc símilis formæ salvos facit baptísma: non carnis deposítio sórdium, sed consciéntiæ bonæ interrogátio in Deum per resurrectiónem Jesu Christi, Dómini nostri, qui est in dextera Dei.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 117:24; 117:26-27\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit nobis.\nAllelúja, allelúja.\n!Ps 95:10\nDícite in géntibus: quia Dóminus regnávit a ligno.",
+            "incipit": "Hæc dies, quam",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 28:16-20\nIn illo témpore: Undecim discípuli abiérunt in Galilǽam, in montem, ubi constitúerat illis Jesus. Et vidéntes eum adoravérunt: quidam autem dubitavérunt. Et accédens Jesus locútus est eis, dicens: Data est mihi omnis potéstas in cœlo, et in terra. Eúntes ergo, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti: docéntes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce, ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Offertorium",
+            "texte": "!Exod 12:14\nErit vobis hæc dies memoriális, allelúja: et diem festum celebrábitis solémnem Dómino in progénies vestras: legítimum sempitérnum diem, allelúja, allelúja, allelúja.",
+            "incipit": "Erit vobis hæc",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, quǽsumus, Dómine, placátus assúme: quas et pro renatórum expiatióne peccáti deférimus, et pro acceleratióne cœléstis auxílii.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Communio",
+            "texte": "!Matt 28:18-19\nData est mihi omnis potéstas in cœlo et in terra, allelúja: eúntes, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti, allelúja, allelúja.",
+            "incipit": "Data est mihi",
+            "mp3": "communion_data-est-mihi.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc0-5.txt",
+            "section": "Postcommunio",
+            "texte": "Réspice, quǽsumus, Dómine, pópulum tuum: et, quem ætérnis dignátus es renováre mystériis, a temporálibus culpis dignánter absólve.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 117:24; 117:26-27\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit nobis.\nAllelúja, allelúja.\n!Ps 95:10\nDícite in géntibus: quia Dóminus regnávit a ligno.",
-        "Francais": "Allelúja, allelúja.\n!Ps 117:24; 117:26-27\nVoici le jour que fit le Seigneur : exultons et réjouissons-nous.\nV. Béni soit celui qui vient au nom du Seigneur ; Dieu est Seigneur, et il nous a illuminés. Alléluia, alléluia.\n!Ps 95:10\nDites parmi les peuples que le Seigneur a régné par le bois."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 28:16-20\nEn ce temps-là, les onze disciples s'en allèrent en Galilée, sur la montagne que Jésus leur avait désignée. En le voyant, ils se prosternèrent ; mais il y en eut qui doutèrent. Et Jésus s'approchant leur parla ainsi : « Toute puissance m'a été donnée dans le ciel et sur la terre. Allez donc, enseignez toutes les nations, les baptisant au nom du Père, du Fils et du Saint-Esprit, leur apprenant à observer tout ce que je vous ai commandé. Et moi, je suis avec vous toujours jusqu'à la fin du monde. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Exod 12:14\nErit vobis hæc dies memoriális, allelúja: et diem festum celebrábitis solémnem Dómino in progénies vestras: legítimum sempitérnum diem, allelúja, allelúja, allelúja.",
-        "Francais": "!Exod 12:14\nCe jour sera pour vous un mémorial, alléluia ; et vous célébrerez d'âge en âge un jour de fête solennel pour le Seigneur, prescription perpétuelle, alléluia, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 28:18-19\nData est mihi omnis potéstas in cœlo et in terra, allelúja: eúntes, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti, allelúja, allelúja.",
-        "Francais": "!Matt 28:18-19\nTout pouvoir m'a été donné au ciel et sur la terre, alléluia. Allez enseigner toutes les nations, les baptisant au Nom du Père, et du Fils, et du Saint-Esprit, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_data-est-mihi.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc0-5.txt",
+        "Latin/Tempora/Pasc0-5.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

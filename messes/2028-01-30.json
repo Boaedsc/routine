@@ -1,68 +1,266 @@
 {
   "date": "2028-01-30",
-  "celebration": {
-    "nom": "4e dimanche après l'Épiphanie",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Epi4-0"
-  ],
-  "cles_jour": [
-    "Epi4-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi4",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Introitus",
-        "Francais": "!Ps 96:7-8\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses.\n&Gloria\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse."
+      "occurrence": {
+        "gagnant": "Tempora/Epi4-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Epi4-0.txt",
+        "temporal": "Latin/Tempora/Epi4-0.txt",
+        "sanctoral": "Latin/Sancti/01-30.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 13:8-10\nFrères, ne soyez en dette avec personne, si ce n'est de l'amour mutuel ; car celui qui aime son prochain a accompli la loi. En effet, ces commandements: « Tu ne commettras point d'adultère ; tu ne tueras point ; tu ne déroberas point ; tu ne diras point de faux témoignage ; tu ne convoiteras point », et ceux qu'on pourrait citer encore, se résument dans cette parole : « Tu aimeras ton prochain comme toi-même. » L'amour ne fait point de mal au prochain ; l'amour est donc la plénitude de la loi."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 96:7-8\nv. Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.\n!Ps 96:1\nDóminus regnávit, exsúltet terra: læténtur ínsulæ multæ.\n&Gloria\nv. Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ Judæ.",
+            "incipit": "Adoráte Deum, omnes",
+            "mp3": "introitus_adorate-deum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 13:8-10\nFratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja.\n!Ps 96:1\nDóminus regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.",
+            "incipit": "Timébunt gentes nomen",
+            "mp3": "graduel_timebunt-gentes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 8:23-27\nIn illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce, motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens, imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et mare obœ́diunt ei?",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Secreta",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Communio",
+            "texte": "!Luc 4:22\nMirabántur omnes de his, quæ procedébant de ore Dei.",
+            "incipit": "Mirabántur omnes de",
+            "mp3": "communion_mirabantur-omnes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi3-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Epi4-0.txt",
+            "section": "Postcommunio",
+            "texte": "Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 96:7-8\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses.\n&Gloria\nv. Adorez Dieu, tous ses anges ; Sion l'apprend et se réjouit, et les filles de Juda sont dans l'allégresse.",
+            "incipit": "Adorez Dieu, tous",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 13:8-10\nFratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre, votre gloire.\nV. Car le Seigneur a édifié Sion, et il sera vu dans sa majesté. Alléluia, alléluia.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses. Alléluia.",
+            "incipit": "Les peuples craindront",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 8:23-27\nIn illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce, motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens, imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et mare obœ́diunt ei?",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nLa droite du Seigneur a agi avec force, la droite du Seigneur m'a élevé ; je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur.",
+            "incipit": "La droite du",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Secreta",
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Communio",
+            "texte": "!Luc 4:22\nTous s'extasiaient des paroles qui sortaient de la bouche de Dieu.",
+            "incipit": "Tous s'extasiaient des",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Epi3-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Epi4-0.txt",
+            "section": "Postcommunio",
+            "texte": "Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Graduale",
-        "Francais": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre, votre gloire.\nV. Car le Seigneur a édifié Sion, et il sera vu dans sa majesté. Alléluia, alléluia.\n!Ps 96:1\nLe Seigneur règne, exulte la terre ; que se réjouissent les îles nombreuses. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 8:23-27\nEn ce temps-là, Jésus étant monté dans une barque, ses disciples le suivirent. Et voici que la mer devint très agitée, au point que la barque était couverte par les vagues : lui cependant dormait. Ses disciples s'approchèrent, le réveillèrent et lui dirent : « Seigneur, sauvez-nous, nous périssons ! » Il leur dit : « Pourquoi êtes-vous peureux, hommes de peu de foi ? » Alors il se dressa et commanda avec force aux vents et à la mer, et il se fit un grand calme. Et les hommes, saisis d'admiration, disaient : « Qui est-il donc, que même les vents et la mer lui obéissent ? »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Offertorium",
-        "Francais": "!Ps 117:16; 117:17\nLa droite du Seigneur a agi avec force, la droite du Seigneur m'a élevé ; je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Epi3-0:Communio",
-        "Francais": "!Luc 4:22\nTous s'extasiaient des paroles qui sortaient de la bouche de Dieu."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Epi4-0.txt",
+        "Latin/Tempora/Epi4-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

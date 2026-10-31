@@ -1,17 +1,226 @@
 {
   "date": "2027-04-23",
-  "celebration": {
-    "nom": "Saint Georges",
-    "classe": 4,
-    "note": "(temporal : Vendredi du temps pascal)"
-  },
-  "fichiers": [
-    "Sancti/04-23",
-    "Tempora/Pasc3-5"
-  ],
-  "cles_jour": [
-    "04-23",
-    "Pasc3-5"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc3",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/04-23",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/04-23.txt",
+        "temporal": "Latin/Tempora/Pasc3-5.txt",
+        "sanctoral": "Latin/Sancti/04-23.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Introitus",
+            "texte": "!Ps 20:2-3\nv. In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.\n!Ps 20:4\nQuóniam prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso.\n&Gloria\nv. In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.",
+            "incipit": "In virtúte tua,",
+            "mp3": "introitus_in-virtute-tua-laetabitur-iustus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos beáti Geórgii Mártyris tui méritis et intercessióne lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 2:8-10; 3:10-12.\nCaríssime: Memor esto, Dóminum Jesum Christum resurrexísse a mórtuis ex sémine David, secúndum Evangélium meum, in quo labóro usque ad víncula, quasi male óperans: sed verbum Dei non est alligátum. Ideo ómnia sustíneo propter eléctos, ut et ipsi salútem consequántur, quæ est in Christo Jesu, cum glória coelésti. Tu autem assecútus es meam doctrínam, institutiónem, propósitum, fidem, longanimitátem, dilectiónem, patiéntiam, persecutiónes, passiónes: quália mihi facta sunt Antiochíæ, Icónii et Lystris: quales persecutiónes sustínui, et ex ómnibus erípuit me Dóminus. Et omnes, qui pie volunt vívere in Christo Jesu, persecutiónem patiéntur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 111:1-2\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nAllelúja, allelúja.\n!Ps 20:4\nPosuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.",
+            "incipit": "Beátus vir, qui",
+            "mp3": "graduel_beatus-vir-qui.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-2.\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Beátus vir, qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honóre",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio Mártyre tuo, nos per hæc a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Communio",
+            "texte": "!Matt 16:24\nQui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et sequátur me.",
+            "incipit": "Qui vult veníre",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/04-23.txt",
+            "section": "Postcommunio",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, intercedénte beáto Geórgio Mártyre tuo, tibi étiam plácitis móribus dignánter tríbuas deservíre.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Introitus",
+            "texte": "!Ps 20:2-3.\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.\n!Ps 20:4\nParce que vous l’avez prévenu de bénédic­tions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\n&Gloria\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.",
+            "incipit": "Le juste se",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui nos beáti Geórgii Mártyris tui méritis et intercessióne lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 2:8-10; 3:10-12.\nMon bien-aimé : souviens-toi que le Seigneur Jésus-Christ, né de la race de David, est ressuscité des morts, selon mon Évangile pour lequel je souffre jusqu’à porter des chaînes comme un malfai­teur ; mais la parole de Dieu n’est pas enchaînée. C’est pourquoi j’endure tout à cause des élus, pour qu’ils obtiennent eux aussi le salut qui est dans le Christ Jésus avec la gloire céleste. Mais toi, tu t’es attaché à ma doctrine, à mes institutions, à mes desseins, à ma foi, à ma longanimité, à ma cha­rité, à ma patience, à mes persécutions, à mes souf­frances, telles qu’il m’en est survenu à Antioche, à Iconium, à Lystres : à ces per­sécutions que j’ai endurées et dont le Seigneur m’a tou­jours délivré. Et tous ceux qui veulent vivre pieusement dans le Christ Jésus seront persécutés.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 111:1-2.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commande­ments.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. Allelúja, allelúja\n!Ps 20:4\nVous avez posé sur sa tête, Seigneur, une couronne de pierres précieuses. Alléluia.",
+            "incipit": "Heureux l’homme qui",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-2.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\n!Ps 20:3-4\nVous lui avez accordé ce que son cœur désirait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "Heureux l’homme qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:34-42\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári, quia pacem vénerim míttere in terram: non veni pacem míttere, sed gládium. Veni enim separáre hóminem advérsus patrem suum, et fíliam advérsus matrem suam, et nurum advérsus socrum suam: et inimíci hóminis doméstici ejus. Qui amat patrem aut matrem plus quam me, non est me dignus: et qui amat fílium aut fíliam super me, non est me dignus. Et qui non áccipit crucem suam, et séquitur me, non est me dignus. Qui invénit ánimam suam, perdet illam: et qui perdíderit ánimam suam propter me, invéniet eam. Qui récipit vos, me récipit: et qui me récipit, récipit eum, qui me misit. Qui récipit prophétam in nómine prophétæ, mercédem prophétæ accípiet: et qui récipit justum in nómine justi, mercédem justi accípiet. Et quicúmque potum déderit uni ex mínimis istis cálicem aquæ frígidæ tantum in nómine discípuli: amen, dico vobis, non perdet mercédem suam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur, et vous l’avez établi sur les œuvres de vos mains, Seigneur.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio Mártyre tuo, nos per hæc a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Communio",
+            "texte": "!Matt 6: 24.\nSi quelqu’un veut venir après moi, qu’il renonce à lui-même, qu’il porte sa croix et qu’il me suive.",
+            "incipit": "Si quelqu’un veut",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/04-23.txt",
+            "section": "Postcommunio",
+            "texte": "Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, intercedénte beáto Geórgio Mártyre tuo, tibi étiam plácitis móribus dignánter tríbuas deservíre.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2a.txt",
+        "../horas/Latin/Commune/C2a.txt",
+        "Francais/Sancti/04-23.txt",
+        "Latin/Sancti/04-23.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
+    }
+  ]
 }

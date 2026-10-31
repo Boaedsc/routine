@@ -1,69 +1,254 @@
 {
   "date": "2027-07-31",
-  "celebration": {
-    "nom": "Saint Ignace de Loyola",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/07-31",
-    "Tempora/Pent10-6"
-  ],
-  "cles_jour": [
-    "07-31",
-    "Pent10-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Philipp 2:10-11\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.\n!Ps 5:12-13\nGloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo.\n&Gloria\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
-        "Francais": "!Philipp 2:10-11\nv. Qu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père.\n!Ps 5:12-13\nQu’en vous se glorifient tous ceux qui aiment votre nom : parce que vous bénirez le juste.\n&Gloria\nv. Qu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père."
+      "occurrence": {
+        "gagnant": "Sancti/07-31",
+        "nom_sanctoral": "",
+        "classe": 4.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/07-31.txt",
+        "temporal": "Latin/Tempora/Pent10-6.txt",
+        "sanctoral": "Latin/Sancti/07-31.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 2:8-10; 3:10-12\nMon bien-aimé : Souviens-toi que le Seigneur Jésus-Christ, de la race de David, est ressuscité d’entre les morts, selon mon évangile, pour lequel je souffre, jusqu’à porter les chaînes comme un malfaiteur ; mais la parole de Dieu n’est pas enchaînée. C’est pourquoi je supporte tout pour les élus, afin qu’ils obtiennent aussi eux-mêmes le salut qui est dans le Christ Jésus, avec la gloire du Ciel. Mais toi, tu as suivi mon enseignement, ma conduite, ma résolution, ma foi, ma douceur, ma charité, ma patience, mes persécutions, mes souffrances : celles qui me sont arrivées à Antioche, à Iconium et à Lystres ; tu sais quelles persécutions j’ai endurées, et le Seigneur m’a délivré de toutes. Aussi tous ceux qui veulent vivre pieusement dans le Christ Jésus subiront la persécution."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Introitus",
+            "texte": "!Philipp 2:10-11\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.\n!Ps 5:12-13\nGloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo.\n&Gloria\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "incipit": "In nómine Jesu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut, ejus auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cœlis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 2:8-10; 3:10-12.\nCaríssime: Memor esto, Dóminum Jesum Christum resurrexísse a mórtuis ex sémine David, secúndum Evangélium meum, in quo labóro usque ad víncula, quasi male óperans: sed verbum Dei non est alligátum. Ideo ómnia sustíneo propter eléctos, ut et ipsi salútem consequántur, quæ est in Christo Jesu, cum glória coelésti. Tu autem assecútus es meam doctrínam, institutiónem, propósitum, fidem, longanimitátem, dilectiónem, patiéntiam, persecutiónes, passiónes: quália mihi facta sunt Antiochíæ, Icónii et Lystris: quales persecutiónes sustínui, et ex ómnibus erípuit me Dóminus. Et omnes, qui pie volunt vívere in Christo Jesu, persecutiónem patiéntur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Secreta",
+            "texte": "Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis fontem constituísti, nos quoque in veritáte sanctíficet.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:49\nIgnem veni míttere in terram: et quid volo, nisi ut accendátur?",
+            "incipit": "Ignem veni míttere",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/07-31.txt",
+            "section": "Postcommunio",
+            "texte": "Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus intercessióne, pérducat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Introitus",
+            "texte": "!Philipp 2:10-11\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.\n!Ps 5:12-13\nGloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo.\n&Gloria\nv. In nómine Jesu omne genu flectátur, cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "incipit": "In nómine Jesu",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut, ejus auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cœlis.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 2:8-10; 3:10-12.\nMon bien-aimé : souviens-toi que le Seigneur Jésus-Christ, né de la race de David, est ressuscité des morts, selon mon Évangile pour lequel je souffre jusqu’à porter des chaînes comme un malfai­teur ; mais la parole de Dieu n’est pas enchaînée. C’est pourquoi j’endure tout à cause des élus, pour qu’ils obtiennent eux aussi le salut qui est dans le Christ Jésus avec la gloire céleste. Mais toi, tu t’es attaché à ma doctrine, à mes institutions, à mes desseins, à ma foi, à ma longanimité, à ma cha­rité, à ma patience, à mes persécutions, à mes souf­frances, telles qu’il m’en est survenu à Antioche, à Iconium, à Lystres : à ces per­sécutions que j’ai endurées et dont le Seigneur m’a tou­jours délivré. Et tous ceux qui veulent vivre pieusement dans le Christ Jésus seront persécutés.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Secreta",
+            "texte": "Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis fontem constituísti, nos quoque in veritáte sanctíficet.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:49\nIgnem veni míttere in terram: et quid volo, nisi ut accendátur?",
+            "incipit": "Ignem veni míttere",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/07-31.txt",
+            "section": "Postcommunio",
+            "texte": "Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus intercessióne, pérducat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Luc 12:49\nIgnem veni míttere in terram: et quid volo, nisi ut accendátur?",
-        "Francais": "!Luc 12:49\nJe suis venu mettre le feu sur la terre, et que désiré-je, sinon qu’il s’allume ?"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/07-31.txt",
+        "Latin/Sancti/07-31.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

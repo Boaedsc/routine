@@ -1,70 +1,226 @@
 {
   "date": "2026-08-27",
-  "celebration": {
-    "nom": "Saint Joseph Calasanz",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-27",
-    "Tempora/Pent13-4"
-  ],
-  "cles_jour": [
-    "08-27",
-    "Pent13-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent13",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 33:12\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.",
-        "Francais": "!Ps 33:12\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps : toujours sa louange sera à ma bouche.\n&Gloria\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur."
+      "occurrence": {
+        "gagnant": "Sancti/08-27",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-27.txt",
+        "temporal": "Latin/Tempora/Pent13-4.txt",
+        "sanctoral": "Latin/Sancti/08-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "@Commune/C2a:Lectio"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:12\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui per sanctum Joséphum Confessórem tuum, ad erudiéndam spíritu intellegéntiæ ac pietátis juventútem, novum Ecclésiæ tuæ subsídium providére dignátus es: præsta, quǽsumus; nos, ejus exémplo et intercessióne, ita fácere et docére, ut præmia consequámur ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Jac 1:12.\nV. Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlorum? Et ádvocans Jesus parvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrabitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlorum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 9:17\nDesidérium páuperum exaudívit Dóminus: præparatiónem cordis eórum audívit auris tua.",
+            "incipit": "Desidérium páuperum exaudívit",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Secreta",
+            "texte": "Altáre tuum, Dómine, munéribus cumulamus oblatis: ut ejus nobis fiant supplicatione propitia, cujus nos donasti patrocínio adjuvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Communio",
+            "texte": "!Marc 10:14\nSínite párvulos veníre ad me, et ne prohibuéritis eos: tálium est enim regnum Dei.",
+            "incipit": "Sínite párvulos veníre",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut, intercedénte sancto Josépho Confessóre tuo, ad majus semper proficiámus pietátis increméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Introitus",
+            "texte": "!Ps 33:12\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui per sanctum Joséphum Confessórem tuum, ad erudiéndam spíritu intellegéntiæ ac pietátis juventútem, novum Ecclésiæ tuæ subsídium providére dignátus es: præsta, quǽsumus; nos, ejus exémplo et intercessióne, ita fácere et docére, ut præmia consequámur ætérna.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Jac 1:12.\nV. Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlorum? Et ádvocans Jesus parvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrabitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlorum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 9:17\nDesidérium páuperum exaudívit Dóminus: præparatiónem cordis eórum audívit auris tua.",
+            "incipit": "Desidérium páuperum exaudívit",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Secreta",
+            "texte": "Altáre tuum, Dómine, munéribus cumulamus oblatis: ut ejus nobis fiant supplicatione propitia, cujus nos donasti patrocínio adjuvári.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Communio",
+            "texte": "!Marc 10:14\nSínite párvulos veníre ad me, et ne prohibuéritis eos: tálium est enim regnum Dei.",
+            "incipit": "Sínite párvulos veníre",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-27.txt",
+            "section": "Postcommunio",
+            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut, intercedénte sancto Josépho Confessóre tuo, ad majus semper proficiámus pietátis increméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus. \nAllelúja, allelúja.\n!Jac 1:12.\nV. Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
-        "Francais": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia.\n!Jac 1:12.\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nEn ce temps-là : les disciples vinrent un jour poser à Jésus cette question : « Selon Vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 9:17\nDesidérium páuperum exaudívit Dóminus: præparatiónem cordis eórum audívit auris tua.",
-        "Francais": "!Ps 9:17\nLe Seigneur a entendu le désir des pauvres : à son oreille est parvenue la voix de leur cœur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Marc 10:14\nSínite párvulos veníre ad me, et ne prohibuéritis eos: tálium est enim regnum Dei.",
-        "Francais": "!Marc 10:14\nLaissez les petits enfants venir à moi et ne les en empêchez pas, car c’est à eux qu’appartient le royaume des cieux."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/08-27.txt",
+        "Latin/Sancti/08-27.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

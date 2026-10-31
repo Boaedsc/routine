@@ -1,68 +1,210 @@
 {
   "date": "2028-06-10",
-  "celebration": {
-    "nom": "Samedi dans l'octave de Pentecôte",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc7-6"
-  ],
-  "cles_jour": [
-    "Pasc7-6"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc7",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Rom 5:5.\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.\n!Ps 102:1\nBenedic, anima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.",
-        "Francais": "!Rom 5:5.\nv. L'amour de Dieu a été répandu dans nos cœurs, alléluia, par son Esprit qui habite en nous, alléluia, alléluia.\n!Ps 102:1\nBénis le Seigneur, ô mon âme, et que tout ce qui est en moi bénisse son saint Nom.\n&Gloria\nv. L'amour de Dieu a été répandu dans nos cœurs, alléluia, par son Esprit qui habite en nous, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc7-6",
+        "nom_sanctoral": "",
+        "classe": 6.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc7-6.txt",
+        "temporal": "Latin/Tempora/Pasc7-6.txt",
+        "sanctoral": "Latin/Sancti/06-10.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_caritas-dei.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 5:1-5.\nFrères, justifiés par la foi, soyons en paix avec Dieu par Notre-Seigneur Jésus-Christ, à qui nous devons d'avoir accès par la foi à cette grâce dans laquelle nous demeurons fermes, et de nous glorifier dans l'espérance de la gloire de Dieu. Bien plus, nous nous glorifions même dans les tribulations, sachant que la tribulation produit la constance, la constance une vertu éprouvée, et la vertu éprouvée l'espérance. Or, l'espérance ne trompe point, parce que l'amour de Dieu est répandu dans nos cœurs par l'Esprit-Saint qui nous a été donné."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Introitus",
+            "texte": "!Rom 5:5.\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.\n!Ps 102:1\nBenedic, anima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.",
+            "incipit": "Cáritas Dei diffúsa",
+            "mp3": "introitus_caritas-dei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Oratio",
+            "texte": "Méntibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde: cujus et sapiéntia cónditi sumus, et providéntia gubernámur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 5:1-5.\nFratres: Justificáti ex fide, pacem habeámus ad Deum per Dóminum nostrum Jesum Christum: per quem et habémus accéssum per fidem in grátiam istam, in qua stamus, et gloriámur in spe glóriæ filiórum Dei. Non solum autem, sed et gloriámur in tribulatiónibus: scientes, quod tribulátio patiéntiam operátur, patiéntia autem probatiónem, probátio vero spem, spes autem non confúndit: quia cáritas Dei diffúsa est in córdibus nostris per Spíritum Sanctum, qui datus est nobis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps 116:1-2\n Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.\nV. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.",
+            "incipit": "Laudáte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 4:38-44\nIn illo témpore: Surgens Jesus de synagóga, introívit in domum Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt illum pro ea. Et stans super illam, imperávit febri: et dimísit illam. Et contínuo surgens, ministrábat illis. Cum autem sol occidísset, omnes qui habébant infírmos váriis languóribus, ducébant illos ad eum. At ille síngulis manus impónens, curábat eos. Exíbant autem dæmónia a multis clamántia et dicéntia: Quia tu es Fílius Dei: et íncrepans non sinébat ea loqui, quia sciébant ipsum esse Christum. Facta autem die egréssus ibat in desértum locum, et turbæ requirébant eum, et venérunt usque ad ipsum: et detinébant illum, ne discéderet ab eis. Quibus ille ait: Quia et áliis civitátibus opórtet me evangelizáre regnum Dei: quia ídeo missus sum. Et erat prǽdicans in synagógis Galilǽæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 87:2-3.\nDómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine, allelúja.",
+            "incipit": "Dómine, Deus salútis",
+            "mp3": "offertoire_domine-deus-salutis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Secreta",
+            "texte": "Ut accépta tibi sint, Dómine, nostra jejúnia: præsta nobis, quǽsumus; hujus múnere sacraménti purificátum tibi pectus offérre.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Communio",
+            "texte": "!Joannes 3:8\nSpíritus, ubi vult, spirat: et vocem ejus audis, allelúja, allelúja: sed nescis, unde véniat aut quo vadat, allelúja, allelúja, allelúja.",
+            "incipit": "Spíritus, ubi vult,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc7-6.txt",
+            "section": "Postcommunio",
+            "texte": "Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu.\n$Per Dominum.",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Introitus",
+            "texte": "!Rom 5:5.\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.\n!Ps 102:1\nBenedic, anima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris, allelúja: per inhabitántem Spíritum ejus in nobis, allelúja, allelúja.",
+            "incipit": "Cáritas Dei diffúsa",
+            "mp3": "introitus_caritas-dei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Oratio",
+            "texte": "Méntibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde: cujus et sapiéntia cónditi sumus, et providéntia gubernámur.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 5:1-5.\nFratres: Justificáti ex fide, pacem habeámus ad Deum per Dóminum nostrum Jesum Christum: per quem et habémus accéssum per fidem in grátiam istam, in qua stamus, et gloriámur in spe glóriæ filiórum Dei. Non solum autem, sed et gloriámur in tribulatiónibus: scientes, quod tribulátio patiéntiam operátur, patiéntia autem probatiónem, probátio vero spem, spes autem non confúndit: quia cáritas Dei diffúsa est in córdibus nostris per Spíritum Sanctum, qui datus est nobis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Graduale",
+            "texte": "!Ps 116:1-2\n Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.\nV. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.",
+            "incipit": "Laudáte Dóminum, omnes",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 4:38-44\nIn illo témpore: Surgens Jesus de synagóga, introívit in domum Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt illum pro ea. Et stans super illam, imperávit febri: et dimísit illam. Et contínuo surgens, ministrábat illis. Cum autem sol occidísset, omnes qui habébant infírmos váriis languóribus, ducébant illos ad eum. At ille síngulis manus impónens, curábat eos. Exíbant autem dæmónia a multis clamántia et dicéntia: Quia tu es Fílius Dei: et íncrepans non sinébat ea loqui, quia sciébant ipsum esse Christum. Facta autem die egréssus ibat in desértum locum, et turbæ requirébant eum, et venérunt usque ad ipsum: et detinébant illum, ne discéderet ab eis. Quibus ille ait: Quia et áliis civitátibus opórtet me evangelizáre regnum Dei: quia ídeo missus sum. Et erat prǽdicans in synagógis Galilǽæ.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 87:2-3.\nDómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine, allelúja.",
+            "incipit": "Dómine, Deus salútis",
+            "mp3": "offertoire_domine-deus-salutis.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Secreta",
+            "texte": "Ut accépta tibi sint, Dómine, nostra jejúnia: præsta nobis, quǽsumus; hujus múnere sacraménti purificátum tibi pectus offérre.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Communio",
+            "texte": "!Joannes 3:8\nSpíritus, ubi vult, spirat: et vocem ejus audis, allelúja, allelúja: sed nescis, unde véniat aut quo vadat, allelúja, allelúja, allelúja.",
+            "incipit": "Spíritus, ubi vult,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc7-6.txt",
+            "section": "Postcommunio",
+            "texte": "Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu.\n$Per Dominum.",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 116:1-2\n Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.\nV. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.",
-        "Francais": "!Ps 116:1-2\nLouez le Seigneur, tous les peuples, et louez-le ensemble, toutes les nations.\nV. Car sa miséricorde s'est affermie sur nous, et la fidélité du Seigneur demeure à jamais."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 4:38-44\nEn ce temps-là, ayant quitté la synagogue, Jésus entra dans la maison de Simon. Or, la belle-mère de Simon était atteinte d'une grande fièvre, et ils le prièrent pour elle. Venant auprès d'elle, il commanda avec force à la fièvre qui la quitta ; et s'étant levée aussitôt, elle se mit à les servir. Lorsque le soleil fut couché, tous ceux qui avaient chez eux des malades souffrant de maladies diverses, les lui amenèrent ; et lui, imposant les mains à chacun d'eux, les guérissait. Des démons aussi sortaient de beaucoup, criant et disant : « Tu es le Fils de Dieu ! » Et, commandant avec force, il ne les laissait pas parler, parce qu'ils savaient qu'il était le Christ. Quand il fit jour, il sortit et alla dans un lieu désert. Les foules se mirent à sa recherche et vinrent jusqu'à lui ; et elles voulaient le retenir, pour qu'il ne les quittât point. Mais il leur dit : « Il faut que j'annonce aussi aux autres villes la bonne nouvelle du royaume de Dieu, car j'ai été envoyé pour cela. » Et il prêchait dans les synagogues de la Galilée."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 87:2-3.\nDómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine, allelúja.",
-        "Francais": "!Ps 87:2-3.\nSeigneur, Dieu de mon salut, jour et nuit je crie vers vous. Que ma prière entre en votre présence, Seigneur, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_domine-deus-salutis.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 3:8\nSpíritus, ubi vult, spirat: et vocem ejus audis, allelúja, allelúja: sed nescis, unde véniat aut quo vadat, allelúja, allelúja, allelúja.",
-        "Francais": "!Joannes 3:8\nL'Esprit souffle où il veut, et tu entends sa voix, alléluia, alléluia ; mais tu ne sais d'où il vient ni où il va, alléluia, alléluia, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc7-6.txt",
+        "Latin/Tempora/Pasc7-6.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

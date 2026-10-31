@@ -1,69 +1,268 @@
 {
   "date": "2027-12-03",
-  "celebration": {
-    "nom": "Saint François-Xavier",
-    "classe": 3,
-    "note": "(temporal : Vendredi de la 1e semaine de l'Avent)"
-  },
-  "fichiers": [
-    "Sancti/12-03",
-    "Tempora/Adv1-5"
-  ],
-  "cles_jour": [
-    "12-03",
-    "Adv1-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Adv1",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 118:46-47\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.\n!Ps 116:1-2\nLaudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos misericórdia ejus, et véritas Dómini manet in ætérnum.\n&Gloria\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.",
-        "Francais": "!Ps 118:46-47\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion. Et je méditais sur vos commandements, car je les aime.\n!Ps 110:1-2\nLouez le Seigneur, toutes les nations, louez-le, tous les peuples : car sa miséricorde s’est étendue sur nous, et la vérité du Seigneur demeure éternellement.\n&Gloria\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion. Et je méditais sur vos commandements, car je les aime."
+      "occurrence": {
+        "gagnant": "Sancti/12-03",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/12-03.txt",
+        "temporal": "Latin/Tempora/Adv1-5.txt",
+        "sanctoral": "Latin/Sancti/12-03.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_loquebar-de-testimoniis.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "@Sancti/11-30:Lectio"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:46-47\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.\n!Ps 116:1-2\nLaudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos misericórdia ejus, et véritas Dómini manet in ætérnum.\n&Gloria\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.",
+            "incipit": "Loquébar de testimóniis",
+            "mp3": "introitus_loquebar-de-testimoniis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 10:10-18\nFratres: Corde enim créditur ad justítiam: ore autem conféssio fit ad salútem. Dicit enim Scriptúra: Omnis, qui credit in illum, non confundétur. Non enim est distínctio Judǽi et Græci: nam idem Dóminus ómnium, dives in omnes, qui ínvocant illum. Omnis enim, quicúmque invocáverit nomen Dómini, salvus erit. Quómodo ergo invocábunt, in quem non credidérunt? Aut quómodo credent ei, quem non audiérunt? Quómodo autem áudient sine prædicánte? Quómodo vero prædicábunt, nisi mittántur? sicut scriptum est: Quam speciósi pedes evangelizántium pacem, evangelizándum bona! Sed non omnes obédiunt Evangélio. Isaías enim dicit: Dómine, quis crédidit audítui nostro? Ergo fides ex audítu, audítus autem per verbum Christi. Sed dico: Numquid non audiérunt? Et quidem in omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/11-30.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nIn illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquéntur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/08-08.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Secreta",
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/12-03.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Introitus",
+            "texte": "!Ps 118:46-47\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.\n!Ps 116:1-2\nLaudáte Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos misericórdia ejus, et véritas Dómini manet in ætérnum.\n&Gloria\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.",
+            "incipit": "Loquébar de testimóniis",
+            "mp3": "introitus_loquebar-de-testimoniis.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 10:10-18\nMes Frères : C’est en croyant du cœur que l’on est justifié, et c’est en confessant de la bouche qu’on est sauvé. En effet, l’Écriture dit : Quiconque croit en lui ne sera pas confondu. Car il n’y a pas de distinction entre le Juif et le Grec, puisqu’ils ont tous un même Seigneur, riche pour tous ceux qui l’invoquent. Car quiconque invoquera le nom du Seigneur sera sauvé. Mais comment invoqueront-ils celui auquel ils n’ont pas cru ? Ou comment croiront-ils en celui dont ils n’ont pas entendu parler ? Et comment en entendront-ils parler, s’il n’y a pas de prédicateur ? Et comment les prédicateurs prêcheront-ils, s’ils ne sont pas envoyés ? Ainsi qu’il est écrit : Qu’ils sont beaux, les pieds de ceux qui annoncent la paix, de ceux qui annoncent la bonne nouvelle ! Mais tous n’obéissent pas à la bonne nouvelle. Aussi Isaïe dit-il : Seigneur, qui a cru à notre prédication ? La foi donc vient de ce qu’on a entendu, et l’on entend grâce à la parole du Christ. Mais je dis : Est-ce qu’ils n’ont pas entendu ? Certes, leur voix est allée par toute la terre, et leurs paroles jusqu’aux extrémités du monde.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/11-30.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Ja 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nEn ce temps-là : Jésus dit à ses disciples : Allez par tout le monde et prêchez l’Évangile à toute créature. Celui qui croira et sera baptisé, sera sauvé ; celui qui ne croira pas, sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru en mon nom : ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s’ils boivent quelque poison, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/08-08.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Secreta",
+            "texte": "Dieu tout-puissant, accordez-nous, s’il vous plaît, que cette offrande que vous présente notre bassesse en l’honneur de vos Saints vous soit agréable à cause d’eux, et nous purifie en notre corps ainsi qu’en notre âme.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47.\nHeureux le serviteur que son maître, à son arrivée, trouvera veillant : en vérité je vous le dis, il l’établira sur tous ses biens. (Alléluia.)",
+            "incipit": "Heureux le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/12-03.txt",
+            "section": "Postcommunio",
+            "texte": "Nous vous en supplions, ô Dieu tout-puissant, faites qu’ayant reçu un aliment tout céleste et que le bienheureux François votre Confesseur, intercédant pour nous, nous soyons grâce à ses secours munis contre toutes les adversités.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 91:13; 91:14\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Ja 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 16:15-18\nEn ce temps-là : Jésus dit à ses disciples : Allez par tout le monde et prêchez l’Evangile à toute la création. Celui qui croira et sera baptisé, sera sauvé ; celui qui ne croira pas, sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru en mon nom : ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s’ils boivent quelque poison, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4-1",
-        "Francais": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/12-03.txt",
+        "Latin/Sancti/12-03.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

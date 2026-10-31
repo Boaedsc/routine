@@ -1,68 +1,210 @@
 {
   "date": "2028-04-30",
-  "celebration": {
-    "nom": "3e dimanche après Pâques",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc2-0"
-  ],
-  "cles_jour": [
-    "Pasc2-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 32:5-6\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.",
-        "Francais": "!Ps 32:5-6.\nv. La miséricorde du Seigneur remplit la terre, alléluia ; par la Parole du Seigneur les cieux ont été affermis, alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur ; la louange convient aux hommes droits.\n&Gloria\nv. La miséricorde du Seigneur remplit la terre, alléluia ; par la Parole du Seigneur les cieux ont été affermis, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc2-0",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc2-0.txt",
+        "temporal": "Latin/Tempora/Pasc2-0.txt",
+        "sanctoral": "Latin/Sancti/04-30.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_misericordia-domini.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Petri 2:21-25\nBien-aimés, le Christ a souffert pour nous, vous laissant un modèle, afin que vous suiviez ses traces : lui qui n'a point commis de péché, et dans la bouche duquel il ne s'est point trouvé de fausseté ; lui qui, outragé, ne rendait point l'outrage ; qui, maltraité, ne faisait point de menaces, mais se livrait à celui qui le jugeait injustement ; qui a lui-même porté nos péchés en son corps sur le bois, afin que, morts au péché, nous vivions pour la justice ; c'est par ses meurtrissures que vous avez été guéris. Car vous étiez comme des brebis errantes, mais maintenant vous êtes revenus à celui qui est le pasteur et l'évêque de vos âmes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 32:5-6\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.",
+            "incipit": "Misericórdia Dómini plena",
+            "mp3": "introitus_misericordia-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in Fílii tui humilitáte jacéntem mundum erexísti: fidélibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ mortis eripuísti cásibus, gáudiis fácias pérfrui sempitérnis.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 2:21-25\nCaríssimi: Christus passus est pro nobis, vobis relínquens exémplum, ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est dolus in ore ejus: qui cum maledicerétur, non maledicébat: cum paterétur, non comminabátur: tradébat autem judicánti se injúste: qui peccáta nostra ipse pértulit in córpore suo super lignum: ut, peccátis mórtui, justítiæ vivámus: cujus livóre sanáti estis. Erátis enim sicut oves errántes, sed convérsi estis nunc ad pastórem et epíscopum animárum vestrárum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Luc 24:35\nCognovérunt discípuli Dóminum Jesum in fractióne panis. Allelúja\n!Joannes 10:14\nEgo sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.",
+            "incipit": "Allelúja, allelúja. Cognovérunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 10:11-16\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercenárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercenárius autem fugit, quia mercenárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.~",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 62:2; 62:5\nDeus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja.",
+            "incipit": "Deus, Deus meus,",
+            "mp3": "offertoire_deus-deus-meus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Secreta",
+            "texte": "Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio: ut, quod agit mystério, virtúte perfíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Communio",
+            "texte": "!Joannes 10:14\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.",
+            "incipit": "Ego sum pastor",
+            "mp3": "communion_ego-sum-pastor.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ grátiam consequéntes, in tuo semper múnere gloriémur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 32:5-6\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.",
+            "incipit": "Misericórdia Dómini plena",
+            "mp3": "introitus_misericordia-domini.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in Fílii tui humilitáte jacéntem mundum erexísti: fidélibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ mortis eripuísti cásibus, gáudiis fácias pérfrui sempitérnis.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 2:21-25\nCaríssimi: Christus passus est pro nobis, vobis relínquens exémplum, ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est dolus in ore ejus: qui cum maledicerétur, non maledicébat: cum paterétur, non comminabátur: tradébat autem judicánti se injúste: qui peccáta nostra ipse pértulit in córpore suo super lignum: ut, peccátis mórtui, justítiæ vivámus: cujus livóre sanáti estis. Erátis enim sicut oves errántes, sed convérsi estis nunc ad pastórem et epíscopum animárum vestrárum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Luc 24:35\nCognovérunt discípuli Dóminum Jesum in fractióne panis. Allelúja\n!Joannes 10:14\nEgo sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.",
+            "incipit": "Allelúja, allelúja. Cognovérunt",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 10:11-16\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercenárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercenárius autem fugit, quia mercenárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.~",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 62:2; 62:5\nDeus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja.",
+            "incipit": "Deus, Deus meus,",
+            "mp3": "offertoire_deus-deus-meus.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Secreta",
+            "texte": "Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio: ut, quod agit mystério, virtúte perfíciat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Communio",
+            "texte": "!Joannes 10:14\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.",
+            "incipit": "Ego sum pastor",
+            "mp3": "communion_ego-sum-pastor.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc2-0.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ grátiam consequéntes, in tuo semper múnere gloriémur.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Luc 24:35\nCognovérunt discípuli Dóminum Jesum in fractióne panis. Allelúja\n!Joannes 10:14\nEgo sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.",
-        "Francais": "Allelúja, allelúja\n!Luc 24:35.\nLes disciples reconnurent le Seigneur Jésus à la fraction du pain, alléluia.\n!Joannes 10:14.\nJe suis le bon Pasteur ; je connais mes brebis et mes brebis me connaissent, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 10:11-16.\nEn ce temps-là, Jésus dit aux Pharisiens : « Je suis le bon pasteur. Le bon pasteur donne sa vie pour ses brebis. Mais le mercenaire, qui n'est pas le pasteur, et à qui les brebis n'appartiennent pas, s'il voit venir le loup, laisse là les brebis et prend la fuite ; et le loup les ravit et les disperse. Le mercenaire s'enfuit, parce qu'il est mercenaire et qu'il n'a nul souci des brebis. Je suis le bon pasteur ; je connais mes brebis et mes brebis me connaissent, comme mon Père me connaît, et que je connais mon Père, et je donne ma vie pour mes brebis. J'ai encore d'autres brebis qui ne sont pas de cette bergerie ; il faut aussi que je les amène ; elles entendront ma voix, et il y aura une seule bergerie et un seul pasteur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 62:2; 62:5\nDeus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja.",
-        "Francais": "!Ps 62:2; 62:5\nÔ Dieu, mon Dieu, dès le matin vers toi je veille, et en ton nom j'élève mes mains, allelúja."
-      },
-      "audios": "Graduale Project/offertoire_deus-deus-meus.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joannes 10:14\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.",
-        "Francais": "!Joannes 10:14.\nJe suis le bon Pasteur, alléluia ; je connais mes brebis et mes brebis me connaissent, alléluia, alléluia."
-      },
-      "audios": "Graduale Project/communion_ego-sum-pastor.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc2-0.txt",
+        "Latin/Tempora/Pasc2-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

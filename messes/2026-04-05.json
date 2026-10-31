@@ -1,68 +1,210 @@
 {
   "date": "2026-04-05",
-  "celebration": {
-    "nom": "Dimanche de Pâques",
-    "classe": 1,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pasc0-0"
-  ],
-  "cles_jour": [
-    "Pasc0-0"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc0",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 138:18; 138:5-6.\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.",
-        "Francais": "!Ps 138:18; 138:5-6.\nv. Je suis ressuscité, et je suis de nouveau avec vous, alléluia ; vous avez placé sur moi votre main, alléluia ; votre science est admirable, alléluia, alléluia.\n!Ps 138:1-2.\nSeigneur, vous m'avez éprouvé et vous m'avez connu ; vous savez quand je m'asseois et quand je me lève.\n&Gloria\nv. Je suis ressuscité, et je suis de nouveau avec vous, alléluia ; vous avez placé sur moi votre main, alléluia ; votre science est admirable, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Tempora/Pasc0-0",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc0-0.txt",
+        "temporal": "Latin/Tempora/Pasc0-0.txt",
+        "sanctoral": "Latin/Sancti/04-05.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!1 Cor 5:7-8\nFrères, débarrassez-vous du vieux levain, afin d'être une nouvelle pâte, puisque vous êtes des azymes. En effet, le Christ, notre Pâque, a été immolé. Festoyons donc, non avec l'ancien levain, ni avec le levain de la méchanceté et du mal, mais avec les azymes de la sincérité et de la vérité."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:18; 138:5-6.\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.",
+            "incipit": "Resurréxi, et adhuc",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum, devícta morte, reserásti: vota nostra, quæ præveniéndo aspíras, étiam adjuvándo proséquere.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!1 Cor 5:7-8\nFratres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque epulémur: non in ferménto véteri, neque in ferménto malítiæ et nequítiæ: sed in ázymis sinceritátis et veritátis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps. 117:24; 117:1\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. Allelúja, allelúja.\n!1 Cor 5:7\nV. Pascha nostrum immolátus est Christus.",
+            "incipit": "Hæc dies, quam",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:1-7.\nIn illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt arómata, ut veniéntes úngerent Jesum. Et valde mane una sabbatórum, véniunt ad monuméntum, orto jam sole. Et dicébant ad ínvicem: Quis revólvet nobis lápidem ab óstio monuménti? Et respiciéntes vidérunt revolútum lápidem. Erat quippe magnus valde. Et introëúntes in monuméntum vidérunt júvenem sedéntem in dextris, coopértum stola cándida, et obstupuérunt. Qui dicit illis: Nolíte expavéscere: Jesum quǽritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus, ubi posuérunt eum. Sed ite, dícite discípulis ejus et Petro, quia præcédit vos in Galilǽam: ibi eum vidébitis, sicut dixit vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps. 75:9-10.\nTerra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.",
+            "incipit": "Terra trémuit, et",
+            "mp3": "offertoire_terra-tremuit.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus hostiárum: ut, Paschálibus initiáta mystériis, ad æternitátis nobis medélam, te operánte, profíciant.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Communio",
+            "texte": "!1 Cor 5:7-8\nPascha nostrum immolátus est Christus, allelúja: itaque epulémur in ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.",
+            "incipit": "Pascha nostrum immolátus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc0-0.txt",
+            "section": "Postcommunio",
+            "texte": "Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concordes.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Introitus",
+            "texte": "!Ps 138:18; 138:5-6.\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.\n!Ps 138:1-2.\nDómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam, allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.",
+            "incipit": "Resurréxi, et adhuc",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum, devícta morte, reserásti: vota nostra, quæ præveniéndo aspíras, étiam adjuvándo proséquere.\n$Per eumdem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!1 Cor 5:7-8\nFratres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque epulémur: non in ferménto véteri, neque in ferménto malítiæ et nequítiæ: sed in ázymis sinceritátis et veritátis.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Graduale",
+            "texte": "!Ps. 117:24; 117:1\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. Allelúja, allelúja.\n!1 Cor 5:7\nV. Pascha nostrum immolátus est Christus.",
+            "incipit": "Hæc dies, quam",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:1-7.\nIn illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt arómata, ut veniéntes úngerent Jesum. Et valde mane una sabbatórum, véniunt ad monuméntum, orto jam sole. Et dicébant ad ínvicem: Quis revólvet nobis lápidem ab óstio monuménti? Et respiciéntes vidérunt revolútum lápidem. Erat quippe magnus valde. Et introëúntes in monuméntum vidérunt júvenem sedéntem in dextris, coopértum stola cándida, et obstupuérunt. Qui dicit illis: Nolíte expavéscere: Jesum quǽritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus, ubi posuérunt eum. Sed ite, dícite discípulis ejus et Petro, quia præcédit vos in Galilǽam: ibi eum vidébitis, sicut dixit vobis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Offertorium",
+            "texte": "!Ps. 75:9-10.\nTerra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.",
+            "incipit": "Terra trémuit, et",
+            "mp3": "offertoire_terra-tremuit.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Secreta",
+            "texte": "Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus hostiárum: ut, Paschálibus initiáta mystériis, ad æternitátis nobis medélam, te operánte, profíciant.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Communio",
+            "texte": "!1 Cor 5:7-8\nPascha nostrum immolátus est Christus, allelúja: itaque epulémur in ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.",
+            "incipit": "Pascha nostrum immolátus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc0-0.txt",
+            "section": "Postcommunio",
+            "texte": "Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concordes.\n$Per Dominum eiusdem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps. 117:24; 117:1\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. Allelúja, allelúja.\n!1 Cor 5:7\nV. Pascha nostrum immolátus est Christus.",
-        "Francais": "Allelúja, allelúja.\n!Ps. 117:24; 117:1\nVoici le jour que fit le Seigneur : exultons et réjouissons-nous.\nV. Célébrez le Seigneur car il est bon, car sa miséricorde est à jamais. Alléluia, alléluia.\n!1 Cor 5:7\nV. Le Christ, notre Pâque, a été immolé."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:1-7.\nEn ce temps-là, Marie-Madeleine, Marie, mère de Jacques, et Salomé achetèrent des aromates afin d'aller embaumer Jésus. Et de grand matin, le premier jour de la semaine, elles vinrent au sépulcre, le soleil venant de se lever. Elles se disaient entre elles : « Qui nous roulera la pierre de l'entrée du sépulcre ? » Elles regardèrent et observèrent que la pierre avait été roulée de côté ; or elle était fort grande. Entrant dans le sépulcre, elles virent un jeune homme assis à droite, vêtu d'une robe blanche, et elles furent saisies de frayeur. Mais il leur dit : « N'ayez pas de frayeur ! Vous cherchez Jésus de Nazareth, le crucifié : il est ressuscité, il n'est pont ici. Voici la place où on l'avait déposé. Mais allez dire à ses disciples et à Pierre qu'il vous précède en Galilée ; c'est là que vous le verrez, comme il vous l'a dit. »"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps. 75:9-10.\nTerra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.",
-        "Francais": "!Ps. 75:9-10.\nLa terre a tremblé et s'est apaisée, quand le Seigneur s'est levé pour le jugement, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_terra-tremuit.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!1 Cor 5:7-8\nPascha nostrum immolátus est Christus, allelúja: itaque epulémur in ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.",
-        "Francais": "!1 Cor 5:7-8\nLe Christ, notre Pâque, a été immolé, alléluia. Festoyons donc avec les azymes de sincérité et de vérité, alléluia, alléluia, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc0-0.txt",
+        "Latin/Tempora/Pasc0-0.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

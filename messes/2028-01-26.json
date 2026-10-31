@@ -1,70 +1,309 @@
 {
   "date": "2028-01-26",
-  "celebration": {
-    "nom": "Saint Polycarpe",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/01-26",
-    "Tempora/Epi3-3"
-  ],
-  "cles_jour": [
-    "01-26",
-    "Epi3-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Epi3",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C2-1",
-        "Francais": "!Dan 3:84; 3:87\nv. Prêtres du Seigneur, bénissez le Seigneur ; saints et humbles de cœur, louez Dieu.\n!Dan 3:57\nŒuvres du Seigneur, louez toutes le Seigneur, louez-le, et exaltez-le à jamais.\n&Gloria\nv. Prêtres du Seigneur, bénissez le Seigneur ; saints et humbles de cœur, louez Dieu."
+      "occurrence": {
+        "gagnant": "Sancti/01-26",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-26.txt",
+        "temporal": "Latin/Tempora/Epi3-3.txt",
+        "sanctoral": "Latin/Sancti/01-26.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 Joann 3:10-16\nMes bien-aimés : Quiconque n’est pas juste, n’est pas de Dieu, non plus que celui qui n’aime pas son frère. Car voici le message que vous avez entendu dès le commencement : c’est que vous vous aimiez les uns les autres ; loin de faire comme Caïn, qui était enfant du malin, et qui tua son frère. Et pourquoi le tua-t-il ? Parce que ses œuvres étaient mauvaises, et celles de son frère justes. Ne vous étonnez pas, frères, si le monde vous haît. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui qui n’aime pas demeure dans la mort. Quiconque hait son frère est un homicide ; et vous savez qu’aucun homicide n’a la vie éternelle demeurant en lui. A ceci nous avons connu l’amour de Dieu : c’est qu’Il a donné Sa vie pour nous ; et nous devons aussi donner notre vie pour nos frères."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Introitus",
+            "texte": "!Dan 3:84; 3:87\nv. Sacerdótes Dei, benedícite Dóminum: sancti et húmiles corde, laudáte Deum.\n!Dan 3:57\nBenedícite, ómnia ópera Dómini, Dómino: laudáte et superexaltáte eum in sǽcula.\n&Gloria\nv. Sacerdótes Dei, benedícite Dóminum: sancti et húmiles corde, laudáte Deum.",
+            "incipit": "Sacerdótes Dei, benedícite",
+            "mp3": "introitus_sacerdotes-dei-benedicite.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Oratio",
+            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 Joann 3:10-16\nCaríssimi: Omnis qui non est justus, non est ex Deo, et qui non díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis ab inítio, ut diligátis altérutrum. Non sicut Cain, qui ex malígno erat, et occídit fratrem suum. Et propter quid occídit eum? Quóniam ópera ejus malígna erant: fratris autem ejus justa. Nolíte mirári fratres, si odit vos mundus. Nos scimus quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Graduale",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum.\nV. Et constituísti eum super ópera mánuum tuárum, Dómine. Allelúja, allelúja.\nV. Hic est Sacérdos, quem coronávit Dóminus. Allelúja.",
+            "incipit": "Glória et honóre",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Tractus",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum.\nV. Et constituísti eum super ópera mánuum tuárum, Dómine.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Glória et honóre",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 10:26-32\nIn illo témpore: Dixit Jesus discípulis suis: Nihil est opértum, quod non revelábitur; et occúltum, quod non sciétur. ¶ Quod dico vobis in ténebris, dícite in lúmine: et quod in aure audítis, prædicáte super tecta. Et nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere; sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam. Nonne duo pásseres asse véneunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem capílli cápitis omnes numeráti sunt. Nolíte ergo timére: multis passéribus melióres estis vos. Omnis ergo, qui confitébitur me coram homínibus, confitébor et ego eum coram Patre meo, qui in coelis est.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:4\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso. (Allelúja.)",
+            "incipit": "Posuísti, Dómine, in",
+            "mp3": "communion_posuisti.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-26.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Introitus",
+            "texte": "!Dan 3:84; 3:87\nv. Prêtres de Dieu, bénissez le Seigneur ; saints et hum­bles de cœur, louez Dieu.\n!Dan 3:57\nBénissez le Seigneur, toutes les œu­vres du Seigneur ; louez-le et exaltez-le à jamais.\n&Gloria\nv. Prêtres de Dieu, bénissez le Seigneur ; saints et hum­bles de cœur, louez Dieu.",
+            "incipit": "Prêtres de Dieu,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Oratio",
+            "texte": "O Dieu, qui nous donnez chaque année un nouveau sujet de joie par la solennité de votre Martyr et Pontife, le bienheureux Polycarpe, accordez-nous, dans votre miséricorde, de pouvoir ressentir les effets de la protection de celui dont nous célébrons la naissance.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 Joann 3:10-16\nCaríssimi: Omnis qui non est justus, non est ex Deo, et qui non díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis ab inítio, ut diligátis altérutrum. Non sicut Cain, qui ex malígno erat, et occídit fratrem suum. Et propter quid occídit eum? Quóniam ópera ejus malígna erant: fratris autem ejus justa. Nolíte mirári fratres, si odit vos mundus. Nos scimus quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Graduale",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’hon­neur.\nV. Et l’avez établi sur les œuvres de vos mains, Seigneur. Alléluia, alléluia.\nV. Voici le prêtre que le Seigneur a couronné. Alléluia.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Tractus",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’hon­neur.\nV. Et l’avez établi sur les œuvres de vos mains, Seigneur.\nV. Voici le prêtre que le Seigneur a couronné.\n!Ps 111:1-3\nHeureux l’hom­me qui craint le Seigneur et qui met ses délices dans ses commande­ments.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Tractus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Evangelium",
+            "texte": "Évangile ++ selon saint Matthieu.\n!Matt 10:26-32\nEn ce temps-là, Jésus dit à ses disciples : « Il n’y a rien de caché qui ne doive être découvert, ni de secret qui ne doive être connu. Ce que je vous dis dans les té­nèbres, dites-le au grand jour ; et ce qu’on vous dit à l’oreille, prêchez-le sur les toits. Ne craignez pas ceux qui tuent le corps et qui ne peuvent tuer l’âme ; craignez plutôt celui qui peut faire périr et l’âme et le corps dans la géhenne. Ne vend-on pas deux passereaux pour un as ? Cependant, il n’en tombe pas un à terre sans la permission de votre Père. Même les cheveux de votre tête sont comptés. Ne craignez donc point : vous valez plus que beaucoup de passereaux. C’est pourquoi, quiconque témoignera pour moi devant les hommes, moi aussi je témoignerai pour lui devant mon Père qui est dans les cieux. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. (Alléluia.)",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Secreta",
+            "texte": "Sanctifiez, Seigneur, ces dons qui vous sont consacrés, grâce à eux et le bienheureux Polycarpe, votre Martyr et Pontife, jetez sur nous un regard de paix et de bonté.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:4\nVous avez posé sur sa tête, Seigneur, une couronne de pierres précieuses.",
+            "incipit": "Vous avez posé",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-26.txt",
+            "section": "Postcommunio",
+            "texte": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Commune/C2-1",
-        "Francais": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur.\nV. Et vous l’avez établi sur les ouvrages de vos mains, Seigneur. Allelúja, allelúja.\nV. C’est le Prêtre que le Seigneur a couronné. Allelúja."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "@Commune/C2a-1:Evangelium"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2-1",
-        "Francais": "!Ps 88:21-22\nJ’ai trouvé David mon serviteur ; je l’ai oint de mon huile sainte ; car ma main l’assistera et mon bras le fortifiera."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C2-1",
-        "Francais": "!Ps 20:4\nVous avez mis sur sa tête, Seigneur, une couronne de pierres précieuses."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Latin/Commune/C2.txt",
+        "Francais/Sancti/01-26.txt",
+        "Latin/Sancti/01-26.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

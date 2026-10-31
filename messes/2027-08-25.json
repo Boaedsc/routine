@@ -1,69 +1,282 @@
 {
   "date": "2027-08-25",
-  "celebration": {
-    "nom": "Saint Louis, roi de France",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-25",
-    "Tempora/Pent14-3"
-  ],
-  "cles_jour": [
-    "08-25",
-    "Pent14-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent14",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C5b",
-        "Francais": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur."
+      "occurrence": {
+        "gagnant": "Sancti/08-25",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-25.txt",
+        "temporal": "Latin/Tempora/Pent14-3.txt",
+        "sanctoral": "Latin/Sancti/08-25.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "@Commune/C2a:Lectio"
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse consórtes:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. ¶ Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Secreta",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo placére stúduit; ita ejus orátio nos tibi reddat accéptos.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+            "incipit": "Beátus servus, quem,",
+            "mp3": "communion_beatus-servus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue defensórem.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-25.txt",
+            "section": "Introitus",
+            "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
+            "incipit": "Os justi meditábitur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                    "section": "Introitus",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse consórtes:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Lectio",
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Graduale",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jac 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. ¶ Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Secreta",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo placére stúduit; ita ejus orátio nos tibi reddat accéptos.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Communio",
+            "texte": "!Matt 24:46-47.\nHeureux le serviteur que son maître, à son arrivée, trouvera veillant : en vérité je vous le dis, il l’établira sur tous ses biens. (Alléluia.)",
+            "incipit": "Heureux le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-25.txt",
+            "section": "Postcommunio",
+            "texte": "Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue defensórem.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Francais": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Jac 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 19:12-26\nEn ce temps-là : Jésus dit cette parabole à ses disciples : Un homme de haute naissance s’en alla dans un pays lointain, pour prendre possession d’un royaume, et revenir ensuite. Ayant appelé dix de ses serviteurs, il leur donna dix mines, et leur dit : Faites-les valoir jusqu’à ce que je revienne. Mais ses concitoyens le haïssaient, et ils envoyèrent après lui une ambassade, pour dire : Nous ne voulons pas que cet homme règne sur nous. Et il arriva qu’à son retour, après avoir pris possession du royaume, il ordonna qu’on appelât les serviteurs auxquels il avait donné de l’argent, pour savoir comment chacun l’avait fait valoir. Le premier vint, et dit : Seigneur, ta mine a produit dix mines. Et il lui dit : C’est bien, bon serviteur ; parce que tu as été fidèle en peu de chose, tu auras puissance sur dix villes. Le second vint, et dit : Seigneur, ta mine a produit cinq mines. Et il lui dit : Et toi, sois établi sur cinq villes. Un autre vint, et dit : Seigneur, voici ta mine, que j’ai tenue enveloppée dans un mouchoir ; car je t’ai craint, parce que tu es un homme sévère : tu enlèves ce que tu n’as pas déposé, et tu moissonnes ce que tu n’as pas semé. Il lui dit : Je te juge par ta propre bouche, méchant serviteur. Tu savais que je suis un homme sévère, enlevant ce que je n’ai pas déposé, et moissonnant ce que je n’ai pas semé ; pourquoi donc n’as-tu pas mis mon argent à la banque, afin qu’à mon retour je le retirasse avec les intérêts ? Puis il dit à ceux que étaient présents : Ôtez-lui la mine, et donnez-la à celui qui en a dix. Et ils lui dirent : Seigneur, il a dix mines. Je vous le dis, on donnera à celui qui a déjà, et il sera dans l’abondance ; mais à celui qui n’a pas, on ôtera même ce qu’il a."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2",
-        "Francais": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4-1",
-        "Francais": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/08-25.txt",
+        "Latin/Sancti/08-25.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

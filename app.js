@@ -1,24 +1,17 @@
-// app.js — affiche la messe d'une date donnée à partir d'un JSON
-// produit par messe.py. Vanilla JS, aucune dépendance.
-//
-// Format JSON attendu (voir la description de la tâche) :
-// {
-//   "date": "YYYY-MM-DD",
-//   "celebration": { "nom": "...", "classe": N, "note": "..." },
-//   "fichiers": [...],
-//   "cles_jour": [...],
-//   "sections": [
-//     { "cle": "...", "titre": "...",
-//       "textes":  { "Francais": "...", "Latin": "..." },   // Latin optionnel
-//       "audios":  "chemin/relatif.mp3" | null }
-//   ]
-// }
-
+// app.js — affiche la ou les messes d'une date à partir du JSON produit par messe.py.
+// Vanilla JS, aucune dépendance.
 (function () {
   'use strict';
 
-  // Dossier où messe.py dépose les JSON. À adapter si besoin.
   var BASE_JSON = 'messes';
+  // Ordre d'affichage des sections de la messe (aligné sur PARTS de messe.py)
+  var ORDRE = ['Introitus', 'Oratio', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
+               'Evangelium', 'Offertorium', 'Secreta', 'Prefatio', 'Communio', 'Postcommunio'];
+  var TITRES = {
+    Introitus: 'Introït', Oratio: 'Collecte', Lectio: 'Épître', Graduale: 'Graduel',
+    Tractus: 'Trait', Alleluia: 'Alléluia', Evangelium: 'Évangile', Offertorium: 'Offertoire',
+    Secreta: 'Secrète', Prefatio: 'Préface', Communio: 'Communion', Postcommunio: 'Postcommunion'
+  };
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -29,172 +22,170 @@
   }
 
   function isoDate(d) {
-    var y = d.getFullYear();
     var m = String(d.getMonth() + 1).padStart(2, '0');
     var j = String(d.getDate()).padStart(2, '0');
-    return y + '-' + m + '-' + j;
-  }
-
-  function setText(el, text) {
-    if (el) el.textContent = (text == null) ? '' : String(text);
-  }
-
-  function clearZone() {
-    var zone = $('messe');
-    if (zone) zone.textContent = '';
+    return d.getFullYear() + '-' + m + '-' + j;
   }
 
   function showError(message) {
-    clearZone();
     var zone = $('messe');
-    if (!zone) return;
+    zone.textContent = '';
     var err = document.createElement('div');
     err.className = 'erreur';
     err.setAttribute('role', 'alert');
-    // textContent → pas besoin d'échappement HTML manuel
     err.textContent = message;
     zone.appendChild(err);
   }
 
-  function renderSection(container, sec) {
-    var textes = (sec && sec.textes) || {};
-    var hasLatin = !!textes.Latin;
-    var hasFrancais = !!textes.Francais;
-    if (!hasLatin && !hasFrancais) return; // section vide : on n'affiche rien
+  // Un texte est "utile" s'il est non vide après trim
+  function texteOk(t) {
+    return typeof t === 'string' && t.trim().length > 0;
+  }
 
-    // Mode courant : français en priorité, sinon latin
-    var mode = hasFrancais ? 'Francais' : 'Latin';
+  // Construit un bloc de section : titre, incipit, mp3, puis texte(s)
+  function renderSection(cle, fr, la) {
+    var frTexte = fr && texteOk(fr.texte) ? fr.texte : '';
+    var laTexte = la && texteOk(la.texte) ? la.texte : '';
+    if (!frTexte && !laTexte) return null; // rien à afficher
 
     var block = document.createElement('section');
     block.className = 'section';
-    block.setAttribute('data-cle', sec.cle || '');
+    block.setAttribute('data-cle', cle);
 
     var h = document.createElement('h3');
-    h.textContent = sec.titre || sec.cle || '';
+    h.textContent = TITRES[cle] || cle;
     block.appendChild(h);
 
-    var textesEl = document.createElement('div');
-    textesEl.className = 'textes';
-    block.appendChild(textesEl);
-
-    function paint() {
-      textesEl.textContent = '';
-      var contenu = textes[mode];
-      if (contenu) {
-        var p = document.createElement('p');
-        p.className = 'texte';
-        // textContent : échapper HTML n'est pas nécessaire, c'est fait par le DOM
-        p.textContent = contenu;
-        textesEl.appendChild(p);
-      }
+    // Incipit : juste après le titre, dans la section
+    var inc = (fr && fr.incipit) || (la && la.incipit);
+    if (texteOk(inc)) {
+      var pInc = document.createElement('p');
+      pInc.className = 'incipit';
+      pInc.textContent = inc;
+      block.appendChild(pInc);
     }
 
-    // Bouton d'alternance uniquement quand les deux langues existent
-    if (hasLatin && hasFrancais) {
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'toggle-langue';
-      btn.textContent = 'Voir en latin';
-      btn.addEventListener('click', function () {
-        mode = (mode === 'Francais') ? 'Latin' : 'Francais';
-        btn.textContent = (mode === 'Latin') ? 'Voir en français' : 'Voir en latin';
-        paint();
-      });
-      block.appendChild(btn);
-    }
-
-    paint();
-
-    // Audio : string → lecteur, null → rien
-    var audios = sec.audios;
-    if (typeof audios === 'string' && audios.length > 0) {
-      var audioWrap = document.createElement('div');
-      audioWrap.className = 'audio';
+    // Audio : juste après l'incipit
+    var mp3 = (fr && fr.mp3) || (la && la.mp3);
+    if (texteOk(mp3)) {
+      var wrap = document.createElement('div');
+      wrap.className = 'audio';
       var audio = document.createElement('audio');
       audio.controls = true;
       audio.preload = 'none';
-      // src est assigné via propriété : le navigateur encode les espaces / caractères spéciaux
-      audio.src = audios;
-      audioWrap.appendChild(audio);
-      block.appendChild(audioWrap);
+      audio.src = mp3;
+      wrap.appendChild(audio);
+      block.appendChild(wrap);
     }
-    // audios === null (ou manquant) → pas de lecteur
 
-    container.appendChild(block);
+    // Textes : français puis latin (si différent), en paragraphes distincts
+    if (frTexte) {
+      var pFr = document.createElement('p');
+      pFr.className = 'texte texte-fr';
+      pFr.textContent = frTexte;
+      block.appendChild(pFr);
+    }
+    if (laTexte && laTexte !== frTexte) {
+      var pLa = document.createElement('p');
+      pLa.className = 'texte texte-la';
+      pLa.textContent = laTexte;
+      block.appendChild(pLa);
+    }
+
+    return block;
   }
 
-  function render(data) {
-    var titreEl = $('titre');
-    var noteEl = $('note');
+  function renderMesse(messe) {
     var zone = $('messe');
-    if (!zone) return;
+    zone.textContent = '';
 
-    clearZone();
+    var occ = messe.occurrence || {};
+    var titre = $('titre');
+    titre.textContent = occ.nom_sanctoral || occ.gagnant || '';
 
-    var celeb = (data && data.celebration) || {};
-    var nom = celeb.nom || '';
-    setText(titreEl, nom);
-
-    if (celeb.classe != null && titreEl) {
-      var classeEl = document.createElement('span');
-      classeEl.className = 'classe';
-      classeEl.textContent = ' (classe ' + celeb.classe + ')';
-      titreEl.appendChild(classeEl);
+    var meta = [];
+    if (occ.classe != null) meta.push('classe ' + occ.classe);
+    if (occ.commemorations && occ.commemorations.length) {
+      meta.push('commémoration' + (occ.commemorations.length > 1 ? 's' : '') + ' : '
+                + occ.commemorations.join(', '));
     }
-    setText(noteEl, celeb.note || '');
+    $('meta').textContent = meta.join(' — ');
 
-    var sections = (data && Array.isArray(data.sections)) ? data.sections : [];
-    if (sections.length === 0) {
-      showError('Aucune section disponible pour cette date.');
+    var sec = messe.sections || {};
+    var fr = sec.Francais || {};
+    var la = sec.Latin || {};
+
+    var rendu = 0;
+    ORDRE.forEach(function (cle) {
+      var bloc = renderSection(cle, fr[cle], la[cle]);
+      if (bloc) { zone.appendChild(bloc); rendu++; }
+    });
+
+    if (rendu === 0) showError('Aucun texte disponible pour cette messe.');
+  }
+
+  // Remplit le sélecteur et affiche la messe n° choisie
+  function renderJour(data) {
+    var messes = Array.isArray(data.messes) ? data.messes : [];
+    var wrap = $('choix-messe-wrap');
+    var select = $('choix-messe');
+
+    if (messes.length === 0) {
+      showError('Aucune messe pour cette date.');
+      wrap.hidden = true;
       return;
     }
-    sections.forEach(function (sec) { renderSection(zone, sec); });
+
+    select.textContent = '';
+    messes.forEach(function (m, i) {
+      var opt = document.createElement('option');
+      opt.value = String(i);
+      var nom = (m.occurrence && (m.occurrence.nom_sanctoral || m.occurrence.gagnant)) || ('Messe ' + (i + 1));
+      opt.textContent = 'Messe ' + (m.numero || i + 1) + ' — ' + nom;
+      select.appendChild(opt);
+    });
+
+    wrap.hidden = messes.length < 2;
+    select.onchange = function () { renderMesse(messes[Number(select.value)]); };
+    renderMesse(messes[0]);
   }
 
   function loadDate(dateStr) {
-    setText($('titre'), 'Chargement…');
-    setText($('note'), '');
-    clearZone();
+    $('titre').textContent = 'Chargement…';
+    $('meta').textContent = '';
+    $('messe').textContent = '';
+    $('choix-messe-wrap').hidden = true;
 
     var url = BASE_JSON + '/' + dateStr + '.json';
-
     fetch(url, { cache: 'no-cache' })
       .then(function (res) {
-        if (!res.ok) {
-          throw new Error('HTTP ' + res.status + ' sur ' + url);
-        }
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.json();
       })
       .then(function (data) {
-        render(data);
+        renderJour(data);
       })
       .catch(function (err) {
-        setText($('titre'), '');
-        showError("Impossible de charger la messe du " + dateStr
-                  + " (" + (err && err.message ? err.message : 'erreur inconnue') + ").");
+        $('titre').textContent = '';
+        showError('Impossible de charger la messe du ' + dateStr
+                  + ' (' + (err && err.message ? err.message : 'erreur inconnue') + ').');
       });
   }
 
   function init() {
-    // Bandeau date du jour
-    var dateEl = $('date');
-    if (dateEl) dateEl.textContent = formatDateFR(new Date());
+    $('date').textContent = formatDateFR(new Date());
 
-    // Sélecteur de date
     var picker = $('date-picker');
     var today = isoDate(new Date());
-    if (picker) {
-      picker.value = today;
-      picker.addEventListener('change', function () {
-        if (picker.value) loadDate(picker.value);
-      });
-    }
+    picker.value = today;
+    picker.addEventListener('change', function () {
+      if (picker.value) loadDate(picker.value);
+    });
 
     loadDate(today);
 
-    // Service worker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(function () { /* ignore */ });
+      navigator.serviceWorker.register('sw.js').catch(function () {});
     }
   }
 

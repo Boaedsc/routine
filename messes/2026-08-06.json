@@ -1,70 +1,210 @@
 {
   "date": "2026-08-06",
-  "celebration": {
-    "nom": "Transfiguration de N.S.J.C.",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-06",
-    "Tempora/Pent10-4"
-  ],
-  "cles_jour": [
-    "08-06",
-    "Pent10-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent10",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 76:19\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.\n!Ps 83:2-3\nQuam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.\n&Gloria\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.",
-        "Francais": "!Ps 76:19\nv. Vos éclairs ont illuminé le monde : la terre a tremblé et fut bouleversée.\n!Ps 83:2-3\nQue vos tabernacles sont aimables, Seigneur des armées ! Mon âme soupire et languit après les parvis du Seigneur.\n&Gloria\nv. Vos éclairs ont illuminé le monde : la terre a tremblé et fut bouleversée."
+      "occurrence": {
+        "gagnant": "Sancti/08-06",
+        "nom_sanctoral": "",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-06.txt",
+        "temporal": "Latin/Tempora/Pent10-4.txt",
+        "sanctoral": "Latin/Sancti/08-06.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Petri Apóstoli\n!2 Petri 1:16-19\nMes bien-aimés : Ce n’est pas, en effet, sur la foi de fables ingénieusement imaginées que nous vous avons fait connaître la puissance et l’avènement de Notre Seigneur Jésus-Christ, mais en témoins oculaires de sa majesté. En effet, il reçut honneur et gloire de Dieu le Père, lorsque de la gloire magnifique une voix se fit entendre qui disait : « Celui-ci est mon Fils bien-aimé en qui j’ai mis toutes mes complaisances, écoutez-le» . Et nous, nous entendîmes cette voix venue du ciel, lorsque nous étions avec lui sur la montagne sainte. Et ainsi a été confirmée pour nous l’Écriture prophétique, à laquelle vous faites bien de prêter attention, comme à une lampe qui brille dans un lieu obscur, jusqu’à ce que le jour vienne à poindre et que l’étoile du matin se lève dans vos cœurs."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Introitus",
+            "texte": "!Ps 76:19\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.\n!Ps 83:2-3\nQuam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.\n&Gloria\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.",
+            "incipit": "Illuxérunt coruscatiónes tuæ",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!2 Petri 1:16-19\nCaríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini nostri Jesu Christi virtútem et præséntiam: sed speculatores facti illíus magnitudinis. Accipiens enim a Deo Patre honórem et glóriam, voce delapsa ad eum hujuscemodi a magnifica glória: Hic est Fílius meus diléctus, in quo mihi complacui, ipsum audíte. Et hanc vocem nos audivimus de cœlo allatam, cum essemus cum ipso in monte sancto. Et habémus firmiórem propheticum sermónem: cui bene facitis attendentes, quasi lucérnæ lucénti in caliginóso loco, donec dies elucescat et lucifer oriátur in córdibus vestris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3; 44:2\nSpeciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.\nV. Eructávit cor meum verbum bonum: dico ego ópera mea Regi.\nAllelúja, allelúja.\n!Eccli 7:26\nCandor est lucis ætérnæ, spéculum sine mácula, et imágo bonitátis illíus. Allelúja.",
+            "incipit": "Speciósus forma præ",
+            "mp3": "graduel_speciosus-forma.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem ejus, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Moyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Surgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 111:3\nGlória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi, allelúja.",
+            "incipit": "Glória et divítiæ",
+            "mp3": "offertoire_gloria-et-divitiae.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Secreta",
+            "texte": "Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui Transfiguratióne sanctífica: nosque a peccatórum máculis, splendóribus ipsíus illustratiónis emúnda.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Communio",
+            "texte": "!Matt 17:9\nVisiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis.",
+            "incipit": "Visiónem, quam vidístis,",
+            "mp3": "communion_visionem-quam-vidistis.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-06.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui Transfiguratiónis mystéria, quæ sollemni celebrámus offício, purificáta mentis intellegéntia consequámur.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Introitus",
+            "texte": "!Ps 76:19\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.\n!Ps 83:2-3\nQuam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.\n&Gloria\nv. Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit terra.",
+            "incipit": "Illuxérunt coruscatiónes tuæ",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes.\n$Per eundem",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!2 Petri 1:16-19\nCaríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini nostri Jesu Christi virtútem et præséntiam: sed speculatores facti illíus magnitudinis. Accipiens enim a Deo Patre honórem et glóriam, voce delapsa ad eum hujuscemodi a magnifica glória: Hic est Fílius meus diléctus, in quo mihi complacui, ipsum audíte. Et hanc vocem nos audivimus de cœlo allatam, cum essemus cum ipso in monte sancto. Et habémus firmiórem propheticum sermónem: cui bene facitis attendentes, quasi lucérnæ lucénti in caliginóso loco, donec dies elucescat et lucifer oriátur in córdibus vestris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:3; 44:2\nSpeciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.\nV. Eructávit cor meum verbum bonum: dico ego ópera mea Regi.\nAllelúja, allelúja.\n!Eccli 7:26\nCandor est lucis ætérnæ, spéculum sine mácula, et imágo bonitátis illíus. Allelúja.",
+            "incipit": "Speciósus forma præ",
+            "mp3": "graduel_speciosus-forma.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem ejus, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Moyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Surgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 111:3\nGlória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi, allelúja.",
+            "incipit": "Glória et divítiæ",
+            "mp3": "offertoire_gloria-et-divitiae.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Secreta",
+            "texte": "Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui Transfiguratióne sanctífica: nosque a peccatórum máculis, splendóribus ipsíus illustratiónis emúnda.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Communio",
+            "texte": "!Matt 17:9\nVisiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis.",
+            "incipit": "Visiónem, quam vidístis,",
+            "mp3": "communion_visionem-quam-vidistis.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-06.txt",
+            "section": "Postcommunio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui Transfiguratiónis mystéria, quæ sollemni celebrámus offício, purificáta mentis intellegéntia consequámur.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 44:3; 44:2\nSpeciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.\nV. Eructávit cor meum verbum bonum: dico ego ópera mea Regi. \nAllelúja, allelúja.\n!Eccli 7:26\nCandor est lucis ætérnæ, spéculum sine mácula, et imágo bonitátis illíus. Allelúja.",
-        "Francais": "!Ps 44:3; 44:2\nVous surpassez en beauté les enfants des hommes : la grâce est répandue sur vos lèvres.\nV. De mon cœur a jailli une excellente parole : c’est que j’adresse mes œuvres à un roi : ma langue est comme le stylet d’un scribe qui écrit rapidement. Alléluia, alléluia\n!Ps 7:26\nSplendeur de la lumière éternelle, miroir sans tache, image de la bonté de Dieu. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_speciosus-forma.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nEn ce temps-là : Jésus prit avec lui Pierre, Jacques, et Jean son frère, et les conduisit à l’écart sur une haute montagne. Et il fut transfiguré devant eux : son visage resplendit comme le soleil, et ses vêtements devinrent blancs comme la neige. Et voici que Moïse et Élie leur apparurent, s’entretenant avec lui. Alors Pierre prenant la parole, dit à Jésus : Seigneur, il nous est bon d’être ici ; si vous le voulez, faisons-y trois tentes, une pour vous, une pour Moïse, et une pour Élie. Comme il parlait encore, voici qu’une nuée lumineuse les couvrit ; et voici qu’une voix sortit de la nuée, disant : Celui-ci est mon Fils bien-aimé, en qui j’ai mis toutes mes complaisances ; écoutez-le. Les disciples, l’entendant, tombèrent le visage contre terre, et furent saisis d’une grande crainte. Mais Jésus, s’approchant, les toucha, et leur dit : Levez-vous, et ne craignez point. Alors, levant les yeux, ils ne virent plus que Jésus seul. Lorsqu’ils descendaient de la montagne, Jésus leur donna cet ordre : Ne parlez à personne de ce que vous avez vu, jusqu’à ce que le Fils de l’homme soit ressuscité d’entre les morts."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 111:3\nGlória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi, allelúja.",
-        "Francais": "!Ps 111:3\nGloire et richesse dans sa demeure : et sa justice demeure d’âge en âge, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_gloria-et-divitiae.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 17:9\nVisiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis.",
-        "Francais": "!Matt 17:9\nNe parlez à personne de ce que vous avez vu, jusqu’à ce que le Fils de l’homme soit ressuscité d’entre les morts."
-      },
-      "audios": "Graduale Project/communion_visionem-quam-vidistis.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/08-06.txt",
+        "Latin/Sancti/08-06.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

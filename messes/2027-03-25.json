@@ -1,70 +1,212 @@
 {
   "date": "2027-03-25",
-  "celebration": {
-    "nom": "Annonciation de la B.V.M.",
-    "classe": 1,
-    "note": "(temporal : Jeudi saint)"
-  },
-  "fichiers": [
-    "Sancti/03-25",
-    "Tempora/Quad6-4"
-  ],
-  "cles_jour": [
-    "03-25",
-    "Quad6-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad6",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C10b",
-        "Francais": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)"
+      "occurrence": {
+        "gagnant": "Tempora/Quad6-4r",
+        "nom_sanctoral": "",
+        "classe": 7.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad6-4r.txt",
+        "temporal": "Latin/Tempora/Quad6-4r.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Quad6-4r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_nos-autem-gloriari.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus.\n!Ps 66:2\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus.",
+            "incipit": "Nos autem gloriári",
+            "mp3": "introitus_nos-autem-gloriari.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Oratio",
+            "texte": "Deus, a quo et Judas reátus sui pœnam, et confessiónis suæ latro prǽmium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut, sicut in passióne sua Jesus Christus, Dóminus noster, divérsa utrísque íntulit stipéndia meritórum; ita nobis, abláto vetustátis erróre, resurrectiónis suæ grátiam largiátur:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 11:20-32.\nFratres: Conveniéntibus vobis in unum, jam non est Domínicam cœnam manducáre. Unusquísque enim suam cœnam præsúmit ad manducándum. Et alius quidem ésurit: álius autem ébrius est. Numquid domos non habétis ad manducándum et bibéndum? aut ecclésiam Dei contémnitis, et confúnditis eos, qui non habent? Quid dicam vobis? Laudo vos? In hoc non laudo. Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam cœnávit, dicens: Hic calix novum Testaméntum est in meo sánguine: hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis: mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de cálice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini. Ideo inter vos multi infírmi et imbecílles, et dórmiunt multi. Quod si nosmetípsos dijudicarémus, non útique judicarémur. Dum judicámur autem, a Dómino corrípimur, ut non cum hoc mundo damnémur.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Graduale",
+            "texte": "!Phil 2:8-9\nChristus factus est pro nobis obédiens usque ad mortem, mortem autem crucis.\nV. Propter quod et Deus exaltávit illum: et dedit illi nomen, quod est super omne nomen.",
+            "incipit": "Christus factus est",
+            "mp3": "graduel_christus-factus-est.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 13:1-15\nAnte diem festum Paschæ, sciens Jesus, quia venit hora ejus, ut tránseat ex hoc mundo ad Patrem: cum dilexísset suos, qui erant in mundo, in finem diléxit eos. Et cœna facta, cum diábolus jam misísset in cor, ut tráderet eum Judas Simónis Iscariótæ: sciens, quia ómnia dedit ei Pater in manus, et quia a Deo exívit, et ad Deum vadit: surgit a cœna et ponit vestiménta sua: et cum accepísset línteum, præcínxit se. Deínde mittit aquam in pelvim, et cœpit laváre pedes discipulórum, et extérgere línteo, quo erat præcínctus. Venit ergo ad Simónem Petrum. Et dicit ei Petrus: Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Quod ego fácio, tu nescis modo, scies autem póstea. Dicit ei Petrus: Non lavábis mihi pedes in ætérnum. Respóndit ei Jesus: Si non lávero te, non habébis partem mecum. Dicit ei Simon Petrus: Dómine, non tantum pedes meos, sed et manus et caput. Dicit ei Jesus: Qui lotus est, non índiget nisi ut pedes lavet, sed est mundus totus. Et vos mundi estis, sed non omnes. Sciébat enim, quisnam esset, qui tráderet eum: proptérea dixit: Non estis mundi omnes. Postquam ergo lavit pedes eórum et accépit vestiménta sua: cum recubuísset íterum, dixit eis: Scitis, quid fécerim vobis? Vos vocátis me Magíster et Dómine: et bene dícitis: sum étenim. Si ergo ego lavi pedes vestros, Dóminus et Magíster: et vos debétis alter altérius laváre pedes. Exémplum enim dedi vobis, ut, quemádmodum ego feci vobis, ita et vos faciátis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16 et 17.\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Secreta",
+            "texte": "Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus, sacrifícium nostrum reddat accéptum, qui discípulis suis in sui commemoratiónem hoc fíeri hodiérna traditióne monstrávit, Jesus Christus, Fílius tuus, Dóminus noster:\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Communio",
+            "texte": "!Joann 13:12, 13 et 15.\nDóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et Magíster? Exemplum dedi vobis, ut et vos ita faciátis.",
+            "incipit": "Dóminus Jesus, postquam",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad6-4r.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod témpore nostræ mortalitátis exséquimur, immortalitátis tuæ múnere consequámur.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Il faut que nous nous glorifions dans la croix de Notre-Seigneur Jésus-Christ ; en qui est notre salut, notre vie et notre résurrection, et par qui nous avons été sauvés et délivrés.\n!Ps 66:2\nQue Dieu ait pitié de nous, et nous bénisse; qu'Il fasse briller Son visage sur nous, et qu'Il ait pitié de nous.\nv. Il faut que nous nous glorifions dans la croix de Notre-Seigneur Jésus-Christ ; en qui est notre salut, notre vie et notre résurrection, et par qui nous avons été sauvés et délivrés.",
+            "incipit": "Il faut que",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Oratio",
+            "texte": "Ô Dieu, qui avez puni la perfidie de Judas et récompensé la confession du larron, faites-nous ressentir l’effet de votre miséricorde, afin que Notre Seigneur Jésus-Christ, qui, dans sa Passion, les a traités tous deux selon leur mérite, détruise en nous les traces du vieil homme et nous accorde la grâce de sa résurrection.\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 11:20-32.\nMes frères, lorsque vous vous assemblez comme vous faites, ce n’est plus manger le souper du Seigneur. Car chacun se hâte de prendre son repas à part. Et ainsi l’un n’a rien à manger tandis que l’autre fait des excès. N’avez-vous donc pas vos maisons pour y boire et pour y manger ? ou méprisez-vous l’Église de Dieu et voulez-vous faire honte à ceux qui n’ont rien ? Que vous dirai-je à ce sujet ? Faut-il vous louer ? Non, je ne vous en loue point. C’est du Seigneur même que j’ai appris ce que je vous ai enseigné à mon tour : à savoir, que le Seigneur Jésus, dans la nuit même où il fut livré, prit du pain et, ayant rendu grâces, le rompit et dit : Prenez et mangez, ceci est mon corps, qui sera livré pour vous ; faites ceci en mémoire de moi. Il prit de même le calice, après avoir soupe, et il dit : Ce calice est la nouvelle alliance en mon sang ; faites ceci en mémoire de moi, toutes les fois que vous le boirez. En effet, toutes les fois que vous mangerez de ce pain et que vous boirez de ce calice, vous annoncerez la mort du Seigneur jusqu’à ce qu’il vienne. Or, quiconque mangera de ce pain ou boira le calice du Seigneur indignement sera coupable du corps et du sang du Seigneur. Que l’homme donc s’éprouve soi-même et qu’ainsi il mange de ce pain et boive de ce calice. Car celui qui le mange et le boit indignement, mange et boit sa propre condamnation, ne faisant pas le discernement qu’il doit du corps du Seigneur. C’est pour cela que parmi vous beaucoup sont débiles et languissants et que plusieurs sont morts. Si nous nous examinions nous-mêmes, nous ne serions pas jugés de Dieu. Mais le Seigneur nous juge et nous châtie, afin que nous ne soyons pas condamnés avec ce monde.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Graduale",
+            "texte": "!Phil 2:8-9\nLe Christ, pour nous, s’est fait obéissant jusqu’à la mort, même jusqu’à la mort de la croix.\nV. C’est pourquoi Dieu l’a exalté et lui a donné un nom qui est au-dessus de tout nom.",
+            "incipit": "Le Christ, pour",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 13:1-15\nAvant la fête de Pâque, Jésus sachant que son heure était venue de passer de ce monde à son Père, comme il avait aimé les siens qui étaient dans le monde, il les aima jusqu’à l’excès. Et après le souper, le démon ayant déjà mis dans le cœur de Judas Iscariote, fils de Simon, le dessein de le trahir, Jésus, qui savait que son Père lui avait donné tout pouvoir, qu’il était sorti de Dieu et qu’il retournait à Dieu, se leva de table, ôta son manteau et, ayant pris un linge, il s’en ceignit. Puis il versa de l’eau dans un bassin, il se mit à laver les pieds de ses disciples et à les essuyer avec le linge qu’il avait attaché autour de lui. Il vint donc à Simon-Pierre. Mais Pierre lui dit : « Quoi, Seigneur, vous me laveriez les pieds ! » Jésus lui répondit : « Vous ne comprenez pas maintenant ce que je fais, mais vous le saurez bientôt. » Pierre lui dit : « Jamais vous ne me laverez les pieds. » Jésus lui répondit : « Si je ne te lave, tu n’auras point de part avec moi. » Simon Pierre lui dit : « Seigneur, non seulement les pieds, mais aussi les mains et la tête. » Jésus lui dit : « Celui que le bain a déjà purifié n’a besoin que de se laver les pieds ; il est pur dans tout son corps ; pour vous, vous êtes purs, mais non pas tous. » Il connaissait celui qui le devait trahir, c’est pourquoi il dit : Vous n’êtes pas tous purs. Après donc qu’il leur eut lavé les pieds et qu’il eut repris son manteau, il se remit à table et leur dit : « Savez-vous ce que je viens de faire ? Vous m’appelez Maître et Seigneur, et vous dites bien, car je le suis. Si donc je vous ai lavé les pieds, moi, le Seigneur et le Maître, vous devez, vous aussi vous laver les pieds les uns aux autres. Car je vous ai donné l’exemple, afin que, comme je vous ai fait, vous fassiez aussi.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16 et 17.\nLa droite du Seigneur a fait éclater Sa puissance, la droite du Seigneur m'a exalté; Je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur.",
+            "incipit": "La droite du",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Secreta",
+            "texte": "Seigneur saint, Père tout-puissant, Dieu éternel, nous vous demandons que notre sacrifice vous soit rendu agréable par Jésus-Christ, votre Fils, Notre Seigneur, qui l’instituant aujourd’hui, a commandé à ses disciples de le célébrer en mémoire de Lui.\n$Qui tecum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Communio",
+            "texte": "!Joann 13:12, 13 et 15.\nLe Seigneur Jésus, après la cène avec ses disciples, leur lava les pieds et leur dit : Savez-vous ce que je viens de faire, moi qui suis votre Seigneur et votre Maître ? Je vous ai donné l’exemple, afin que vous fassiez de même.",
+            "incipit": "Le Seigneur Jésus,",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad6-4r.txt",
+            "section": "Postcommunio",
+            "texte": "Rassasiés, Seigneur, de cette nourriture de vie, faites, ô notre Dieu, que nous obtenions par votre grâce, dans l’immortalité, ce que nous célébrons pendant le cours de notre vie ici-bas.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Phil 2:8-9\nChristus factus est pro nobis obédiens usque ad mortem, mortem autem crucis.\nV. Propter quod et Deus exaltávit illum: et dedit illi nomen, quod est super omne nomen.",
-        "Francais": "!Phil 2:8-9\nLe Christ, pour nous, s’est fait obéissant jusqu’à la mort, même jusqu’à la mort de la croix.\nV. C’est pourquoi Dieu l’a exalté et lui a donné un nom qui est au-dessus de tout nom."
-      },
-      "audios": "Graduale Project/graduel_christus-factus-est.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C10",
-        "Francais": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)"
-      },
-      "audios": "Graduale Project/offertoire_dextera-domini.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C10a",
-        "Francais": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad6-4r.txt",
+        "Latin/Tempora/Quad6-4r.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

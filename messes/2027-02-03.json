@@ -1,27 +1,212 @@
 {
   "date": "2027-02-03",
-  "celebration": {
-    "nom": "Saint Blaise",
-    "classe": 4,
-    "note": "(temporal : Mercredi après la Septuagésime)"
-  },
-  "fichiers": [
-    "Sancti/02-03",
-    "Tempora/Quadp2-3"
-  ],
-  "cles_jour": [
-    "02-03",
-    "Quadp2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quadp2",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Tempora/Quadp2-0:GradualeF",
-        "Francais": "@Tempora/Quadp2-0:GradualeF"
+      "occurrence": {
+        "gagnant": "Sancti/02-03",
+        "nom_sanctoral": "",
+        "classe": 1.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/02-03.txt",
+        "temporal": "Latin/Tempora/Quadp2-3.txt",
+        "sanctoral": "Latin/Sancti/02-03.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
+            "incipit": "Státuit ei Dóminus",
+            "mp3": "introitus_statuit-ei-dominus.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Oratio",
+            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Jacóbi Apóstoli\n!Jac 1:12-18.\nCaríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se. Nemo, cum tentátur, dicat, quóniam a Deo tentátur: Deus enim intentátor malórum est: ipse autem néminem tentat. Unusquísque vero tentátur a concupiscéntia sua abstráctus et illéctus. Deinde Concupiscéntia cum concéperit, parit peccátum: peccátum vero cum consummátum fúerit, génerat mortem. Nolíte itaque erráre, fratres mei dilectíssimi. Omne datum óptimum et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium aliquod creatúræ ejus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja\n!Ps 109:4\nJurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": "Invéni David servum",
+            "mp3": "graduel_inveni-david.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Invéni David servum",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/02-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/02-03.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+            "incipit": "Véritas mea et",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/02-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Communio",
+            "texte": "!Ps 88:36; 88:37-38\nSemel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in coelo fidélis. (Allelúja.)",
+            "incipit": "Semel jurávi in",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Postcommunio",
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 45:30.\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)\n!Ps 131:1.\nSouvenez-vous, ô Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)",
+            "incipit": "Le Seigneur a",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Oratio",
+            "texte": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos propres péchés nous accable, que la glorieuse intercession du bienheureux N., votre évêque et martyr, nous protège.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Lectio",
+            "texte": "Épître de saint Jacques.\n!Jac 1:12-18.\nMes bien-aimés, heureux l’homme qui supporte l’épreuve ; car, après avoir été éprouvé, il recevra la couronne de vie que Dieu a promise à ceux qui l’aiment. Que personne, lorsqu’il est tenté, ne dise : c’est Dieu qui me tente. Car Dieu ne tente point pour le mal, et lui-même ne tente personne. Mais chacun est tenté par sa propre convoitise, qui le sol­licite et l’entraîne. Ensuite la convoitise, lorsqu’elle a conçu, enfante le péché ; et le péché, lorsqu’il est con­sommé, produit la mort. Ne vous y trompez pas, mes frères bien-aimés. Toute grâce excellente et tout don parfait descend d’en haut, du Père des lumières, en qui n’existe aucune vicissitude ni ombre de changement. Volontairement, il nous a engendrés par la parole de vérité, aﬁn que nous soyons comme les prémices de ses créatures.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n\n!Ps 109:4.\nV. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Tractus",
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n!Ps 20:3-4.\nVous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/02-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 14:26-33\nIn illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex itúrus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+            "incipit": "Ma vérité et",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Secreta",
+            "texte": "Dans votre bienveillance, Seigneur, acceptez les hosties qui vous sont dédiées par les mérites du bienheureux N., votre évêque et martyr, et faites qu’elles nous viennent continuellement en aide.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/02-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Communio",
+            "texte": "!Ps 88:36-38.\nJe l’ai juré une fois pour toutes par ma sainteté : sa postérité sub­sistera éternellement et son trône sera devant moi comme le soleil, comme la pleine lune il durera toujours ; et le témoin qui est au ciel est ﬁdèle.",
+            "incipit": "Je l’ai juré",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "../horas/Francais/Commune/C2.txt",
+            "section": "Postcommunio",
+            "texte": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.\n$Per Dominum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2.txt",
+        "../horas/Latin/Commune/C2.txt",
+        "Francais/Sancti/02-03.txt",
+        "Latin/Sancti/02-03.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

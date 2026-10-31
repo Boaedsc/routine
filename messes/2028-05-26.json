@@ -1,70 +1,228 @@
 {
   "date": "2028-05-26",
-  "celebration": {
-    "nom": "Saint Philippe Néri",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-26",
-    "Tempora/Pasc5-5"
-  ],
-  "cles_jour": [
-    "05-26",
-    "Pasc5-5"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc5",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Rom 5:5\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)\n!Ps. 102:1\nBenedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)",
-        "Francais": "!Rom 5:5.\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)\n!Ps. 102:1\nMon âme, bénis le Seigneur : et que tout ce qui est au dedans de moi bénisse son saint nom.\n&Gloria\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)"
+      "occurrence": {
+        "gagnant": "Sancti/05-26",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-26.txt",
+        "temporal": "Latin/Tempora/Pasc5-5.txt",
+        "sanctoral": "Latin/Sancti/05-26.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_caritas-dei.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Introitus",
+            "texte": "!Rom 5:5\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)\n!Ps. 102:1\nBenedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)",
+            "incipit": "Cáritas Dei diffúsa",
+            "mp3": "introitus_caritas-dei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cujus sollemnitáte lætámur, ejus virtútum proficiámus exémplo.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc5-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja.\n!Lam 1:18\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": "graduel_venite-filii.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Justus ut palma",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc5-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc5-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:32\nViam mandatórum tuórum cucúrri, cum dilatásti cor meum. (Allelúja.)",
+            "incipit": "Viam mandatórum tuórum",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placatus: et præsta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Phílippi cor mirabíliter penetrávit.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Communio",
+            "texte": "!Ps 83:3\nCor meum et caro mea exsultavérunt in Deum vivum. (Allelúja.)",
+            "incipit": "Cor meum et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Postcommunio",
+            "texte": "Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut beáti Philippi Confessóris tui méritis et imitatióne, semper eadem, per quæ veráciter vívimus, appetámus.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Introitus",
+            "texte": "!Rom 5:5\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)\n!Ps. 102:1\nBenedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)",
+            "incipit": "Cáritas Dei diffúsa",
+            "mp3": "introitus_caritas-dei.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cujus sollemnitáte lætámur, ejus virtútum proficiámus exémplo.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc5-5.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja.\n!Lam 1:18\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
+            "incipit": "Veníte, fílii, audíte",
+            "mp3": "graduel_venite-filii.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C5.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Le juste fleurira",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc5-5.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nEn ce temps-là, Jésus se montra aux Onze eux-mêmes, pendant qu'ils étaient à table ; et il leur reprocha leur incrédulité et leur dureté de cœur, pour n'avoir pas cru ceux qui l'avaient vu ressuscité des morts. Puis il leur dit : « Allez dans le monde entier et prêchez l'Évangile à toute créature. Celui qui croira et sera baptisé sera sauvé ; celui qui ne croira pas sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru : en mon nom ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris. » Après leur avoir ainsi parlé, le Seigneur Jésus fut enlevé au ciel et s'assit à la droite de Dieu. Et eux s'en allèrent prêcher partout, le Seigneur travaillant avec eux et confirmant leur parole par les miracles qui l'accompagnaient.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pasc5-4.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 118:32\nViam mandatórum tuórum cucúrri, cum dilatásti cor meum. (Allelúja.)",
+            "incipit": "Viam mandatórum tuórum",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Secreta",
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placatus: et præsta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Phílippi cor mirabíliter penetrávit.\n$Per Dominum eiusdem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Communio",
+            "texte": "!Ps 83:3\nCor meum et caro mea exsultavérunt in Deum vivum. (Allelúja.)",
+            "incipit": "Cor meum et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-26.txt",
+            "section": "Postcommunio",
+            "texte": "Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut beáti Philippi Confessóris tui méritis et imitatióne, semper eadem, per quæ veráciter vívimus, appetámus.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja.\n!Lam 1:18\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
-        "Francais": "!Ps 33:12; 33:6\nVenez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\nV. Approchez-vous de lui, et vous serez éclairés : et vos visages ne seront pas couverts de confusion. Alléluia, alléluia.\n!Lam 1:18\nD’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia."
-      },
-      "audios": "Graduale Project/graduel_venite-filii.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:35-40\nEn ce temps-là, Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 118:32\nViam mandatórum tuórum cucúrri, cum dilatásti cor meum. (Allelúja.)",
-        "Francais": "!Ps 118:32\nJ’ai couru dans la voie de vos commandements, lorsque vous avez dilaté mon cœur. (Alléluia.)"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 83:3\nCor meum et caro mea exsultavérunt in Deum vivum. (Allelúja.)",
-        "Francais": "!Ps 83:3\nMon cœur et ma chair tressaillent d’amour pour le Dieu vivant. (Alléluia.)"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C5.txt",
+        "../horas/Latin/Commune/C5.txt",
+        "Francais/Sancti/05-26.txt",
+        "Francais/Tempora/Pasc5-5.txt",
+        "Latin/Sancti/05-26.txt",
+        "Latin/Tempora/Pasc5-5.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

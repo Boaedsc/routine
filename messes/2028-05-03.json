@@ -1,70 +1,212 @@
 {
   "date": "2028-05-03",
-  "celebration": {
-    "nom": "Invention de la Sainte Croix",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-03",
-    "Tempora/Pasc2-3"
-  ],
-  "cles_jour": [
-    "05-03",
-    "Pasc2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc2",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.\n!Ps 66:2.\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\n&Gloria\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.",
-        "Francais": "!Gal 6:14.\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés, alléluia, alléluia.\n!Ps 66:2. Que Dieu ait pitié de nous, et nous bénisse, qu’il fasse briller son visage sur nous et qu’il ait pitié de nous.\n&Gloria\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/05-03",
+        "nom_sanctoral": "Ss. Alexandri et sociorum Martyrum",
+        "classe": 5.1,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-03.txt",
+        "temporal": "Latin/Tempora/Pasc2-3Feria.txt",
+        "sanctoral": "Latin/Sancti/05-03.txt",
+        "calendrier": "05-03",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pasc2-3Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_nos-autem-gloriari.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses.\n!Phil 2:5-11\nMes frères : Ayez en vous les mêmes sentiments dont était animé le Christ Jésus : bien qu’il fût Dieu par nature, il n’a pas retenu avidement son égalité avec Dieu, mais il s’est anéanti lui-même en prenant la condition d’esclave, en devenant semblable aux hommes, à l’extérieur absolument comme un homme. Il s’est abaissé lui-même, se faisant obéissant jusqu’à la mort, et la mort sur la croix. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom (ici on fléchit le genou), afin qu’au nom de Jésus tout genou fléchisse, au ciel, sur la terre et dans les enfers, et que toute langue proclame, à la gloire de Dieu le Père, que Jésus-Christ est Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.\n!Ps 66:2.\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\n&Gloria\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.",
+            "incipit": "Nos autem gloriári",
+            "mp3": "introitus_nos-autem-gloriari.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ suffrágia consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 95:10\nDícite in géntibus, quia Dóminus regnávit a ligno. Allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Dícite",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 3:1-15\nIn illo témpore: Erat homo ex pharisǽis, Nicodémus nómine, princeps Judæórum. Hic venit ad Jesum nocte et dixit ei: Rabbi, scimus, quia a Deo venísti magíster; nemo enim potest hæc signa fácere, quæ tu facis, nisi fúerit Deus cum eo. Respóndit Jesus et dixit ei: Amen, amen, dico tibi, nisi quis renátus fúerit dénuo, non potest vidére regnum Dei. Dicit ad eum Nicodémus: Quómodo potest homo nasci, cum sit senex? Numquid potest in ventrem matris suæ iteráto introíre et renásci? Respóndit Jesus: Amen, amen, dico tibi, nisi quis renátus fúerit ex aqua et Spíritu Sancto, non potest introíre in regnum Dei. Quod natum est ex carne, caro est: et quod natum est ex spíritu, spíritus est. Non miréris, quia dixi tibi: opórtet vos nasci dénuo. Spíritus, ubi vult, spirat, et vocem ejus audis, sed nescis, unde véniat aut quo vadat: sic est omnis, qui natus est ex spíritu. Respóndit Nicodémus et dixit ei: Quómodo possunt hæc fíeri? Respóndit Jesus et dixit ei: Tu es magíster in Israël, et hæc ignóras? Amen, amen, dico tibi, quia, quod scimus, lóquimur, et quod vídimus, testámur, et testimónium nostrum non accípitis. Si terréna dixi vobis et non créditis: quómodo, si díxero vobis cœléstia, credétis? Et nemo ascéndit in cœlum, nisi qui descéndit de cœlo, Fílius hóminis, qui est in cœlo. Et sicut Móyses exaltávit serpéntem in desérto: ita exaltári opórtet Fílium hóminis, ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam et narrábo ópera Dómini, allelúja.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsæ insídias, nos in tuæ protectiónis securitáte constítuat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Communio",
+            "texte": "!\nPer signum Crucis de inimícis nostris líbera nos, Deus noster, allelúja.",
+            "incipit": "Per signum Crucis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-03.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti alimónia cœlésti et spiritáli póculo recreáti, quǽsumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.\n$Per eundem",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Introitus",
+            "texte": "!Gal 6:14.\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.\n!Ps 66:2.\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\n&Gloria\nv. Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus, allelúja, allelúja.",
+            "incipit": "Nos autem gloriári",
+            "mp3": "introitus_nos-autem-gloriari.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ suffrágia consequámur:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 95:10\nDícite in géntibus, quia Dóminus regnávit a ligno. Allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
+            "incipit": "Allelúja, allelúja. Dícite",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 3:1-15\nIn illo témpore: Erat homo ex pharisǽis, Nicodémus nómine, princeps Judæórum. Hic venit ad Jesum nocte et dixit ei: Rabbi, scimus, quia a Deo venísti magíster; nemo enim potest hæc signa fácere, quæ tu facis, nisi fúerit Deus cum eo. Respóndit Jesus et dixit ei: Amen, amen, dico tibi, nisi quis renátus fúerit dénuo, non potest vidére regnum Dei. Dicit ad eum Nicodémus: Quómodo potest homo nasci, cum sit senex? Numquid potest in ventrem matris suæ iteráto introíre et renásci? Respóndit Jesus: Amen, amen, dico tibi, nisi quis renátus fúerit ex aqua et Spíritu Sancto, non potest introíre in regnum Dei. Quod natum est ex carne, caro est: et quod natum est ex spíritu, spíritus est. Non miréris, quia dixi tibi: opórtet vos nasci dénuo. Spíritus, ubi vult, spirat, et vocem ejus audis, sed nescis, unde véniat aut quo vadat: sic est omnis, qui natus est ex spíritu. Respóndit Nicodémus et dixit ei: Quómodo possunt hæc fíeri? Respóndit Jesus et dixit ei: Tu es magíster in Israël, et hæc ignóras? Amen, amen, dico tibi, quia, quod scimus, lóquimur, et quod vídimus, testámur, et testimónium nostrum non accípitis. Si terréna dixi vobis et non créditis: quómodo, si díxero vobis cœléstia, credétis? Et nemo ascéndit in cœlum, nisi qui descéndit de cœlo, Fílius hóminis, qui est in cœlo. Et sicut Móyses exaltávit serpéntem in desérto: ita exaltári opórtet Fílium hóminis, ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam et narrábo ópera Dómini, allelúja.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Secreta",
+            "texte": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsæ insídias, nos in tuæ protectiónis securitáte constítuat.\n$Per eundem",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Communio",
+            "texte": "!\nPer signum Crucis de inimícis nostris líbera nos, Deus noster, allelúja.",
+            "incipit": "Per signum Crucis",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-03.txt",
+            "section": "Postcommunio",
+            "texte": "Repléti alimónia cœlésti et spiritáli póculo recreáti, quǽsumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.\n$Per eundem",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!Ps 95:10\nDícite in géntibus, quia Dóminus regnávit a ligno. Allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
-        "Francais": "Alléluia, alléluia\n!Ps 95:10\nDites aux Nations : Dieu a régné par le bois. Alléluia.\nV. Ô doux bois, ô doux clous, vous portez un fardeau encore plus doux : ô Croix, toi seule as été digne de soutenir le Seigneur et Roi des Cieux. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joannes 3:1-15\nEn ce temps-là : Il y avait parmi les pharisiens un homme appelé Nicodème, un des premiers des Juifs. Il vint la nuit auprès de Jésus, et Lui dit : Maître, nous savons que Vous êtes venu de la part de Dieu comme docteur ; car personne ne peut faire les miracles que Vous faites, si Dieu n’est avec lui. Jésus lui répondit : En vérité, en vérité, Je te le dis, aucun homme, s’il ne naît de nouveau, ne peut voir le royaume de Dieu. Nicodème Lui dit : Comment un homme peut-il naître, lorsqu’il est vieux ? Peut-il rentrer dans le sein de sa mère, et naître de nouveau ? Jésus répondit : En vérité, en vérité, Je te le dis, aucun homme, s’il ne renaît de l’eau et de l’Esprit-Saint, ne peut entrer dans le royaume de Dieu. Ce qui est né de la chair est chair, et ce qui est né de l’Esprit est esprit. Ne t’étonne pas de ce que Je t’ai dit : Il faut que vous naissiez de nouveau. Le vent souffle où il veut ; et tu entends sa voix, mais tu ne sais ni d’où il vient, ni où il va : il en est ainsi de tout homme qui est né de l’Esprit. Nicodème Lui répondit : Comment cela peut-il se faire ? Jésus lui dit : Tu es maître en Israël, et tu ignores ces choses ? En vérité, en vérité, Je te le dis, ce que Nous savons, Nous le disons, et ce que Nous avons vu, Nous l’attestons ; et vous ne recevez pas Notre témoignage. Si Je vous ai parlé des choses de la terre sans que vous ayez cru, comment croirez-vous quand Je vous parlerai des choses du Ciel ? Personne n’est monté au Ciel, sinon Celui qui est descendu du Ciel, le Fils de l’homme, qui est dans le Ciel. Et comme Moïse a élevé le serpent dans le désert, de même il faut que le Fils de l’homme soit élevé, afin que quiconque croit en Lui ne périsse point, mais qu’il ait la vie éternelle."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 117:16; 117:17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam et narrábo ópera Dómini, allelúja.",
-        "Francais": "!Ps 117:16; 117:17\nLa droite du Seigneur a fait éclater sa puissance, la droite du Seigneur m’a exalté : je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur, alléluia."
-      },
-      "audios": "Graduale Project/offertoire_dextera-domini.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!\nPer signum Crucis de inimícis nostris líbera nos, Deus noster, allelúja.",
-        "Francais": "! \nPar le signe de la Croix, libérez-nous de nos ennemis, ô notre Dieu, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/05-03.txt",
+        "Latin/Sancti/05-03.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

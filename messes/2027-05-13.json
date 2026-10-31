@@ -1,53 +1,216 @@
 {
   "date": "2027-05-13",
-  "celebration": {
-    "nom": "Saint Robert Bellarmin",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/05-13",
-    "Tempora/Pasc6-4"
-  ],
-  "cles_jour": [
-    "05-13",
-    "Pasc6-4"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc6",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ\n!Sap 7:7-14\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu."
+      "occurrence": {
+        "gagnant": "Sancti/05-13",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/05-13.txt",
+        "temporal": "Latin/Tempora/Pasc6-4r.txt",
+        "sanctoral": "Latin/Sancti/05-13.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pasc6-4r"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\nV. Qui ad justítiam erúdiunt multos quasi stellæ in perpétuas æternitátes. Allelúja.",
-        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\nV. Ceux qui auront été savants brilleront comme la splendeur du firmament. Alléluia."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C4a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
+            "incipit": "In médio Ecclésiæ",
+            "mp3": "introitus_in-medio-ecclesiae.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad errórum insídias repelléndas et apostólicæ Sedis jura propugnánda, beátum Robértum Pontíficem tuum atque Doctórem mira eruditióne et virtúte decorásti: ejus méritis et intercessióne concéde; ut nos in veritátis amóre crescámus et errántium corda ad Ecclésiæ tuæ rédeant unitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc6-4r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\nV. Qui ad justítiam erúdiunt multos quasi stellæ in perpétuas æternitátes. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:2; 91:3; 91:5\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\nV. Quia delectásti me, Dómine, in factúra tua, et in opéribus mánuum tuárum exsultábo.",
+            "incipit": "Bonum est confitéri",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc6-4r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 72:28\nMihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam: ut annúntiem omnes prædicatiónes tuas in portis fíliæ Sion, allelúja.",
+            "incipit": "Mihi autem adhærére",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, in odórem suavitátis offérimus: et præsta; ut, beáti Robérti mónitis et exémplis edócti, per sémitam mandatórum tuórum dilatáto corde currámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Communio",
+            "texte": "!Matt 5:14; 5:16\nVos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum qui in cœlis est, allelúja.",
+            "incipit": "Vos estis lux",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/05-13.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta, quæ súmpsimus, Dómine Deus noster, in nobis fóveant caritátis ardórem: quo beátus Robértus veheménter accénsus, pro Ecclésia tua se júgiter impendébat.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "../horas/Francais/Commune/C4a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 15:5\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)\n!Ps 91:2\nIl est bon de louer le Seigneur, et de chanter votre nom, ô Très-Haut..\n&Gloria\nv. Au milieu de l’assemblée, le Seigneur lui a ouvert la bouche et l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire. (Alléluia, alléluia.)",
+            "incipit": "Au milieu de",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ad errórum insídias repelléndas et apostólicæ Sedis jura propugnánda, beátum Robértum Pontíficem tuum atque Doctórem mira eruditióne et virtúte decorásti: ejus méritis et intercessióne concéde; ut nos in veritátis amóre crescámus et errántium corda ad Ecclésiæ tuæ rédeant unitátem.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc6-4r.txt",
+            "section": "Lectio",
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\nV. Qui ad justítiam erúdiunt multos quasi stellæ in perpétuas æternitátes. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Tractus",
+            "texte": "!Ps 91:2; 91:3; 91:5\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nV. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\nV. Quia delectásti me, Dómine, in factúra tua, et in opéribus mánuum tuárum exsultábo.",
+            "incipit": "Bonum est confitéri",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc6-4r.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nEn ce temps-là, Jésus se montra aux Onze eux-mêmes, pendant qu'ils étaient à table ; et il leur reprocha leur incrédulité et leur dureté de cœur, pour n'avoir pas cru ceux qui l'avaient vu ressuscité des morts. Puis il leur dit : « Allez dans le monde entier et prêchez l'Évangile à toute créature. Celui qui croira et sera baptisé sera sauvé ; celui qui ne croira pas sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru : en mon nom ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris. » Après leur avoir ainsi parlé, le Seigneur Jésus fut enlevé au ciel et s'assit à la droite de Dieu. Et eux s'en allèrent prêcher partout, le Seigneur travaillant avec eux et confirmant leur parole par les miracles qui l'accompagnaient.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 72:28\nMihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam: ut annúntiem omnes prædicatiónes tuas in portis fíliæ Sion, allelúja.",
+            "incipit": "Mihi autem adhærére",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Secreta",
+            "texte": "Hóstias tibi, Dómine, in odórem suavitátis offérimus: et præsta; ut, beáti Robérti mónitis et exémplis edócti, per sémitam mandatórum tuórum dilatáto corde currámus.\n$Per Dominum.",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Communio",
+            "texte": "!Matt 5:14; 5:16\nVos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum qui in cœlis est, allelúja.",
+            "incipit": "Vos estis lux",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/05-13.txt",
+            "section": "Postcommunio",
+            "texte": "Sacraménta, quæ súmpsimus, Dómine Deus noster, in nobis fóveant caritátis ardórem: quo beátus Robértus veheménter accénsus, pro Ecclésia tua se júgiter impendébat.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": "Graduale Project/graduel_ecce-sacerdos-magnus.mp3"
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 72:28\nMihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam: ut annúntiem omnes prædicatiónes tuas in portis fíliæ Sion, allelúja.",
-        "Francais": "!Ps 72:28\nPour moi, c’est mon bonheur de m’attacher à Dieu, de mettre mon espérance dans le Seigneur Dieu ; afin de publier toutes vos louanges aux portes de la fille de Sion, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 5:14; 5:16\nVos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum qui in cœlis est, allelúja.",
-        "Francais": "!Matt 5:14; 5:16\nVous êtes la lumière du monde : que votre lumière luise ainsi devant les hommes, afin qu’ils voient vos bonnes œuvres, et qu’ils glorifient votre Père qui est dans les cieux, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4a.txt",
+        "../horas/Latin/Commune/C4a.txt",
+        "Francais/Sancti/05-13.txt",
+        "Francais/Tempora/Pasc6-4r.txt",
+        "Latin/Sancti/05-13.txt",
+        "Latin/Tempora/Pasc6-4r.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

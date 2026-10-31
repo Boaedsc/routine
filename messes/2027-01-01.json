@@ -1,70 +1,294 @@
 {
   "date": "2027-01-01",
-  "celebration": {
-    "nom": "Circoncision du Seigneur",
-    "classe": 2,
-    "note": "(temporal : Octave de Noël / Circoncision)"
-  },
-  "fichiers": [
-    "Sancti/01-01",
-    "Sancti/01-01"
-  ],
-  "cles_jour": [
-    "01-01",
-    "01-01"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Nat01",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Tempora/Nat30",
-        "Francais": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule et on l’appellera le Messager d’en haut."
+      "occurrence": {
+        "gagnant": "Sancti/01-01",
+        "nom_sanctoral": "",
+        "classe": 5.09,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/01-01.txt",
+        "temporal": null,
+        "sanctoral": "Latin/Sancti/01-01.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_puer-natus-est.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Lecture de l’Épître de Saint Paul à Tite.\n!Tit 2:11-15\nTrès cher ami : elle s’est manifestée la grâce de Dieu, source de salut pour tous les hommes ; elle nous enseigne à renoncer à l’impiété et aux convoitises mondaines, et à vivre dans le siècle présent avec tempérance, justice et piété, en attendant la bienheureuse espérance et l’apparition glorieuse de notre grand Dieu et Sauveur Jésus-Christ, qui s’est donné lui-même pour nous, afin de nous racheter de toute iniquité et de se faire, en nous purifiant, un peuple qui lui appartienne, et qui soit zélé pour les bonnes œuvres. Voilà ce que tu dois prêcher, recommander et revendiquer avec une pleine autorité dans le Christ Notre Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Introitus",
+            "texte": "!Isa 9:6\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.\n!Ps 97:1\nCantáte Dómino cánticum novum, quia mirabília fecit.\n&Gloria\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
+            "incipit": "Puer natus est",
+            "mp3": "introitus_puer-natus-est.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat30.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno generi præmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beati Pauli Apóstoli ad Titum\n!Tit 2:11-15\nCaríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Graduale",
+            "texte": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam.\nAllelúja, allelúja.\n!Heb 1:1-2\nMultifárie olim Deus loquens pátribus in Prophétis, novíssime diébus istis locútus est nobis in Fílio. Allelúja.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "graduel_viderunt-omnes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nIn illo témpore: Postquam consummáti sunt dies octo, ut circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est ab Angelo, priúsquam in útero conciperétur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat2-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:12; 88:15\nTui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu fundásti: justítia et judícium præparátio sedis tuæ.",
+            "incipit": "Tui sunt cœli",
+            "mp3": "offertoire_tui-sunt-caeli.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat30.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Secreta",
+            "texte": "Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Communio",
+            "texte": "!Ps 97:3\nVidérunt omnes fines terræ salutáre Dei nostri.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "communion_viderunt-omnes.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat30.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/01-01.txt",
+            "section": "Postcommunio",
+            "texte": "Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta Vírgine Dei Genetríce María, cœléstis remédii fáciat esse consórtes.\n$Per eundem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Introitus",
+            "texte": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.",
+            "incipit": "Un enfant nous",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Nat30.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno generi præmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beati Pauli Apóstoli ad Titum\n!Tit 2:11-15\nCaríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Graduale",
+            "texte": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam.\nAllelúja, allelúja.\n!Heb 1:1-2\nMultifárie olim Deus loquens pátribus in Prophétis, novíssime diébus istis locútus est nobis in Fílio. Allelúja.",
+            "incipit": "Vidérunt omnes fines",
+            "mp3": "graduel_viderunt-omnes.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nEn ce temps là, le huitième jour, auquel l’enfant devait être circoncis, étant arrivé, on lui donna le nom de Jésus, que l’ange avait indiqué avant qu’il fût conçu dans le sein de sa mère.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Nat2-0.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:12; 88:15\nÀ vous sont les cieux, à vous la terre : c’est vous qui avez posé les fondations de l’univers, et créé ce qu’il renferme : votre trône repose sur le droit et la justice.",
+            "incipit": "À vous sont",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Nat30.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Secreta",
+            "texte": "Nous vous en prions, Seigneur : après avoir reçu nos dons et nos prières, purifiez-nous par ces mys­tères célestes, et exaucez-nous dans votre clémence.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Communio",
+            "texte": "!Ps 97:3\nLes extrémités de la terre ont vu le Sauveur envoyé par notre Dieu.",
+            "incipit": "Les extrémités de",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Nat30.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/01-01.txt",
+            "section": "Postcommunio",
+            "texte": "Que cette communion, Seigneur, nous purifie de tout péché, et par l'intercession de la bienheureuse Vierge Marie, la Mère de Dieu, qu'elle nous rende participants des célestes remèdes.\n$Per eundem",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10b.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. \nAllelúja, allelúja.\n!Heb 1:1-2\nMultifárie olim Deus loquens pátribus in Prophétis, novíssime diébus istis locútus est nobis in Fílio. Allelúja.",
-        "Francais": "!Ps 97:3; 97:2\nLes extrêmités de la terre ont vu le Sauveur envoyé par notre Dieu, Terre entière, chante à Dieu ta joie.\nV. Le Seigneur a fait connaître son œuvre de salut : devant tous les peuples il a montré sa justice.\n!Heb 1:1-2\nAprès avoir, à plusieurs reprises et en diverses manières, parlé autrefois à nos pères par les Prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils. Alléluia"
-      },
-      "audios": "Graduale Project/graduel_viderunt-omnes.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Lecture du Saint Évangile selon saint Luc.\n!Luc 2:21\nEn ce temps là, le huitième jour, auquel l’enfant devait être circoncis, étant arrivé, on lui donna le nom de Jésus, que l’ange avait indiqué avant qu’il fût conçu dans le sein de sa mère."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Tempora/Nat30",
-        "Francais": "!Ps 88:12; 88:15\nÀ toi sont les cieux, à toi la terre. C’est toi qui as posé les fondations de l’univers, et créé ce qu’il renferme. Ton trône repose sur le droit et la justice."
-      },
-      "audios": "Graduale Project/offertoire_tui-sunt-caeli.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Tempora/Nat30",
-        "Francais": "!Ps 97:3\nLes extrêmités de la terre ont vu le Sauveur envoyé par notre Dieu."
-      },
-      "audios": "Graduale Project/communion_viderunt-omnes.mp3"
+      "fichiers_utilises": [
+        "Francais/Sancti/01-01.txt",
+        "Latin/Sancti/01-01.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

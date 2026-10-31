@@ -1,15 +1,212 @@
 {
   "date": "2026-06-17",
-  "celebration": {
-    "nom": "Mercredi de la 3e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent03-3"
-  ],
-  "cles_jour": [
-    "Pent03-3"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent03",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Tempora/Pent03-3Feria",
+        "nom_sanctoral": "S. Gregorii Barbadici Ep. Conf",
+        "classe": 1.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent03-3Feria.txt",
+        "temporal": "Latin/Tempora/Pent03-3Feria.txt",
+        "sanctoral": null,
+        "calendrier": "06-17",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [
+          "Tempora/Pent03-3Feria"
+        ],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent03-3Feria.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent03-3Feria.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent03-3Feria.txt",
+        "Latin/Tempora/Pent03-3Feria.txt"
+      ],
+      "sections_vides": 24,
+      "numero": 1
+    }
+  ]
 }

@@ -1,70 +1,282 @@
 {
   "date": "2027-06-22",
-  "celebration": {
-    "nom": "Saint Paulin de Nole",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/06-22",
-    "Tempora/Pent05-2"
-  ],
-  "cles_jour": [
-    "06-22",
-    "Pent05-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent05",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C4-1",
-        "Francais": "!Ps 131:9-10\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ."
+      "occurrence": {
+        "gagnant": "Sancti/06-22",
+        "nom_sanctoral": "",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-22.txt",
+        "temporal": "Latin/Tempora/Pent05-2.txt",
+        "sanctoral": "Latin/Sancti/06-22.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!2 Cor 8:9-15\nMes frères : vous connaissez la bonté de Notre Seigneur Jésus-Christ, qui, étant riche, s’est fait pauvre pour vous, afin que vous fussiez riches par sa pauvreté. C’est un conseil que je donne sur ce point ; car cela vous convient, à vous qui n’avez pas seulement commencé à agir, mais qui en avez eu la volonté dès l’an passé. Maintenant donc, achevez votre œuvre, afin que, telle qu’a été la promptitude de la volonté, tel soit aussi l’accomplissement, selon vos moyens. Car lorsque la volonté est prompte, elle est agréée selon ce qu’elle a, et non selon ce qu’elle n’a pas. Car il n’est pas question de soulager les autres, et de vous surcharger vous-mêmes ; mais qu’il y ait égalité. Que, pour le moment présent, votre abondance supplée à leur indigence, afin que leur abondance supplée aussi à votre indigence, et qu’ainsi il y ait égalité, selon ce qu’il est écrit : Celui qui recueillait beaucoup n’avait pas plus ; et celui qui recueillait peu n’avait pas moins."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Introitus",
+            "texte": "!Ps 131,9-10.\nv. Sacerdótes tui, Dómine, índuant justítiam, et sancti tui exsúltent: propter David servum tuum, non avértas fáciem Christi tui. (Allelúja, allelúja.)\n!Ps 131:1\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Sacerdótes tui, Dómine, índuant justítiam, et sancti tui exsúltent: propter David servum tuum, non avértas fáciem Christi tui. (Allelúja, allelúja.)",
+            "incipit": "Sacerdótes tui, Dómine,",
+            "mp3": "introitus_sacerdotes-tui.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ómnia pro te in hoc sǽculo relinquéntibus, céntuplum in futúro et vitam ætérnam promisísti: concéde propítius; ut, sancti Pontíficis Paulíni vestígiis inhæréntes, valeámus terréna despícere et sola cœléstia desideráre:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 8:9-15\nFratres: Scitis grátiam Dómini nostri Jesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Et consílium in hoc do: hoc enim vobis útile est, qui non solum fácere, sed et velle cœpístis ab anno prióre: nunc vero et facto perfícite: ut, quemádmodum promptus est ánimus voluntátis, ita sit et perficiéndi ex eo quod habétis. Si enim volúntas prompta est, secúndum id quod habet, accépta est, non secúndum id quod non habet. Non enim ut áliis sit remíssio, vobis autem tribulátio, sed ex æqualitáte. In præsénti témpore vestra abundántia illórum inópiam súppleat: ut et illórum abundántia vestræ inópiæ sit suppleméntum, ut fiat æquálitas, sicut scriptum est: Qui multum, non abundávit: et qui módicum, non minorávit.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 109:4\nTu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": "graduel_ecce-sacerdos-magnus.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Tractus",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": "Ecce sacérdos magnus,",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:32-34\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. ¶ Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
+            "incipit": "Invéni David servum",
+            "mp3": "offertoire_inveni-david-servum.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Secreta",
+            "texte": "Da nobis, Dómine, perféctæ caritátis sacrifícium, exémplo sancti Pontíficis Paulíni, cum altáris oblatióne conjúngere: et beneficéntiæ stúdio sempitérnam misericórdiam promeréri.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
+            "incipit": "Fidélis servus et",
+            "mp3": "communion_fidelis-servus-et.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-22.txt",
+            "section": "Postcommunio",
+            "texte": "Tríbue nobis per hæc sancta, Dómine, illum pietátis et humilitátis afféctum, quem ex hoc divíno fonte hausit sanctus Póntifex tuus Paulínus: et, ipsíus intercessióne, in omnes, qui te deprecántur, grátiæ tuæ divítias benígnus effúnde.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Introitus",
+            "texte": "!Ps 131,9-10.\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints exultent de joie ; à cause de David votre serviteur, ne repoussez pas la face de votre oint.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints exultent de joie ; à cause de David votre serviteur, ne repoussez pas la face de votre oint.",
+            "incipit": "Que vos prêtres,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Oratio",
+            "texte": "Deus, qui ómnia pro te in hoc sǽculo relinquéntibus, céntuplum in futúro et vitam ætérnam promisísti: concéde propítius; ut, sancti Pontíficis Paulíni vestígiis inhæréntes, valeámus terréna despícere et sola cœléstia desideráre:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 8:9-15\nFratres: Scitis grátiam Dómini nostri Jesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis. Et consílium in hoc do: hoc enim vobis útile est, qui non solum fácere, sed et velle cœpístis ab anno prióre: nunc vero et facto perfícite: ut, quemádmodum promptus est ánimus voluntátis, ita sit et perficiéndi ex eo quod habétis. Si enim volúntas prompta est, secúndum id quod habet, accépta est, non secúndum id quod non habet. Non enim ut áliis sit remíssio, vobis autem tribulátio, sed ex æqualitáte. In præsénti témpore vestra abundántia illórum inópiam súppleat: ut et illórum abundántia vestræ inópiæ sit suppleméntum, ut fiat æquálitas, sicut scriptum est: Qui multum, non abundávit: et qui módicum, non minorávit.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Graduale",
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "incipit": "Voici un grand",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Graduale",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Tractus",
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut.\n!Ps 111:1-3\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "incipit": "Voici un grand",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Evangelium",
+            "texte": "Évangile ++ selon saint Luc.\n!Luc 12:32-34\nEn ce temps-là, Jésus dit à ses disciples : « Ne craignez pas, petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumône. Faites-vous des bourses qui ne s’usent pas, un trésor inépuisable dans les cieux, où les voleurs n’approchent pas et où la teigne ne détruit pas. Car là où est votre trésor, là aussi sera votre cœur. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 88:21-22\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. (Alléluia.)",
+            "incipit": "J’ai trouvé David,",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Secreta",
+            "texte": "Da nobis, Dómine, perféctæ caritátis sacrifícium, exémplo sancti Pontíficis Paulíni, cum altáris oblatióne conjúngere: et beneficéntiæ stúdio sempitérnam misericórdiam promeréri.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Communio",
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "incipit": "Voici le serviteur",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-22.txt",
+            "section": "Postcommunio",
+            "texte": "Tríbue nobis per hæc sancta, Dómine, illum pietátis et humilitátis afféctum, quem ex hoc divíno fonte hausit sanctus Póntifex tuus Paulínus: et, ipsíus intercessióne, in omnes, qui te deprecántur, grátiæ tuæ divítias benígnus effúnde.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nVous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:32-34\nEn ce temps-là : Jésus dit à ses disciples : Ne craignez point petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumônes ; faites-vous des bourses qui ne s’usent point, un trésor inépuisable dans les deux, dont le voleur n’approche pas et que le ver ne détruit pas. Car où est votre trésor, là sera aussi votre cœur."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C2-1",
-        "Francais": "!Ps 88:21-22\nJ’ai trouvé David mon serviteur ; je l’ai oint de mon huile sainte ; car ma main l’assistera et mon bras le fortifiera."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C4",
-        "Francais": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C4.txt",
+        "../horas/Latin/Commune/C4.txt",
+        "Francais/Sancti/06-22.txt",
+        "Latin/Sancti/06-22.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

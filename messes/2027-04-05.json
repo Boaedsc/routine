@@ -1,61 +1,212 @@
 {
   "date": "2027-04-05",
-  "celebration": {
-    "nom": "Annonciation de la B.V.M.",
-    "classe": 1,
-    "note": "transférée du 25/03"
-  },
-  "fichiers": [
-    "Sancti/03-25",
-    "Tempora/Pasc1-1"
-  ],
-  "cles_jour": [
-    "03-25",
-    "Pasc1-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc1",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "@Commune/C10b",
-        "Francais": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)"
+      "occurrence": {
+        "gagnant": "Tempora/Pasc1-1",
+        "nom_sanctoral": "",
+        "classe": 1.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pasc1-1.txt",
+        "temporal": "Latin/Tempora/Pasc1-1.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": "1960",
+        "transfert_annuel": [
+          "03-25~04-05"
+        ],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pasc1-1.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pasc1-1.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Commune/C10",
-        "Francais": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Commune/C10a",
-        "Francais": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)"
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Pasc1-1.txt",
+        "Latin/Tempora/Pasc1-1.txt"
+      ],
+      "sections_vides": 24,
+      "numero": 1
     }
   ]
 }

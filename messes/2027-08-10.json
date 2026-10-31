@@ -1,70 +1,226 @@
 {
   "date": "2027-08-10",
-  "celebration": {
-    "nom": "Saint Laurent",
-    "classe": 2,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/08-10",
-    "Tempora/Pent12-2"
-  ],
-  "cles_jour": [
-    "08-10",
-    "Pent12-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent12",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 95:6\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.\n!Ps 95:1\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n&Gloria\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.",
-        "Francais": "!Ps 95:6\nv. La louange et la beauté sont en sa présence : la sainteté et la magnificence dans le lieu de sa sanctification.\n!Ps 95:1\nChantez au Seigneur un cantique nouveau : chantez au Seigneur, toute la terre.\n&Gloria\nv. La louange et la beauté sont en sa présence : la sainteté et la magnificence dans le lieu de sa sanctification."
+      "occurrence": {
+        "gagnant": "Sancti/08-10",
+        "nom_sanctoral": "",
+        "classe": 5.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/08-10.txt",
+        "temporal": "Latin/Tempora/Pent12-2.txt",
+        "sanctoral": "Latin/Sancti/08-10.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 9:6-10.\nMes Frères : celui qui sème peu moissonnera peu, et celui qui sème abondamment moissonnera abondamment. Que chacun donne, comme il l’a résolu en son cœur, non avec regret ni par contrainte ; car « Dieu aime celui qui donne avec joie ». Il est puissant pour vous combler de toutes sortes de grâces, afin que, ayant toujours en toutes choses de quoi satisfaire à tous vos besoins, il vous en reste encore abondamment pour toute espèce de bonnes œuvres, selon qu’il est écrit : « Avec largesse, il a donné aux pauvres ; sa justice subsiste à jamais ». Celui qui fournit la semence au semeur et du pain pour sa nourriture, vous fournira la semence à vous aussi, et la multipliera, et il fera croître les fruits de votre justice."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Introitus",
+            "texte": "!Ps 95:6\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.\n!Ps 95:1\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n&Gloria\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.",
+            "incipit": "Conféssio et pulchritúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Oratio",
+            "texte": "Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia superáre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 9:6-10.\nFratres: Qui parce séminat, parce et metet: et qui séminat in benedictiónibus, de benedictiónibus et metet. Unusquísque prout destinávit in corde suo, non ex tristítia aut ex necessitáte: hilárem enim datórem díligit Deus. Potens est autem Deus omnem grátiam abundáre fácere in vobis, ut, in ómnibus semper omnem sufficiéntiam habéntes, abundétis in omne opus bonum, sicut scriptum est: Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Qui autem admínistrat semen seminánti: et panem ad manducándum præstábit, et multiplicábit semen vestrum, et augébit increménta frugum justítiæ vestræ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Graduale",
+            "texte": "!Ps 16:3.\nProbásti, Dómine, cor meum, et visitásti nocte.\nV. Igne me examinásti, et non est invénta in me iníquitas.\nAllelúja, allelúja.\nV. Levíta Lauréntius bonum opus operátus est: qui per signum crucis cœcos illuminávit. Allelúja.",
+            "incipit": "Probásti, Dómine, cor",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C2a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-2.\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\n_\n!Tractus\n!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quóniam prævenísti eum in benedictiónibus dulcédinis.\nV. Posuísti in cápite ejus corónam de lápide pretióso.",
+            "incipit": "Beátus vir, qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:24-26\nIn illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis, nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam. Si quis mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster meus erit. Si quis mihi ministráverit, honorificábit eum Pater meus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-01.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 95:6\nConféssio et pulchritúdo in conspéctu ejus: sánctitas, et magnificéntia in sanctificatióne ejus.",
+            "incipit": "Conféssio et pulchritúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, múnera dignánter obláta: et, beáti Lauréntii suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Communio",
+            "texte": "!Joann 12:26\nQui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster meus erit.",
+            "incipit": "Qui mihi mínistrat,",
+            "mp3": "communion_qui-mihi-ministrat.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/08-10.txt",
+            "section": "Postcommunio",
+            "texte": "Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio Mártyre tuo, salvatiónis tuæ sentiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Introitus",
+            "texte": "!Ps 95:6\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.\n!Ps 95:1\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n&Gloria\nv. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne ejus.",
+            "incipit": "Conféssio et pulchritúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Oratio",
+            "texte": "Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia superáre.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 9:6-10.\nFratres: Qui parce séminat, parce et metet: et qui séminat in benedictiónibus, de benedictiónibus et metet. Unusquísque prout destinávit in corde suo, non ex tristítia aut ex necessitáte: hilárem enim datórem díligit Deus. Potens est autem Deus omnem grátiam abundáre fácere in vobis, ut, in ómnibus semper omnem sufficiéntiam habéntes, abundétis in omne opus bonum, sicut scriptum est: Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Qui autem admínistrat semen seminánti: et panem ad manducándum præstábit, et multiplicábit semen vestrum, et augébit increménta frugum justítiæ vestræ.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Graduale",
+            "texte": "!Ps 16:3.\nProbásti, Dómine, cor meum, et visitásti nocte.\nV. Igne me examinásti, et non est invénta in me iníquitas.\nAllelúja, allelúja.\nV. Levíta Lauréntius bonum opus operátus est: qui per signum crucis cœcos illuminávit. Allelúja.",
+            "incipit": "Probásti, Dómine, cor",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C2a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 111:1-2.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\n!Ps 20:3-4\nVous lui avez accordé ce que son cœur désirait ; vous ne lui avez point refusé ce que demandaient ses lèvres.\nV. Car vous l’avez prévenu de bénédictions de choix.\nV. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "incipit": "Heureux l’homme qui",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Evangelium",
+            "texte": "Sequentia sancti Evangelii secundum Joánnem\n!Joann 12:24-26.\nEn ce temps-là : Jésus dit à ses disciples : En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul. Mais s’il meurt, il porte beaucoup de fruit. Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle. Si quelqu’un veut être mon serviteur, qu’il me suive, et là où je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-01.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 95:6\nConféssio et pulchritúdo in conspéctu ejus: sánctitas, et magnificéntia in sanctificatióne ejus.",
+            "incipit": "Conféssio et pulchritúdo",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Secreta",
+            "texte": "Accipe, quǽsumus, Dómine, múnera dignánter obláta: et, beáti Lauréntii suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Communio",
+            "texte": "!Joann 12:26\nQui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster meus erit.",
+            "incipit": "Qui mihi mínistrat,",
+            "mp3": "communion_qui-mihi-ministrat.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/08-10.txt",
+            "section": "Postcommunio",
+            "texte": "Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio Mártyre tuo, salvatiónis tuæ sentiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 16:3.\nProbásti, Dómine, cor meum, et visitásti nocte.\nV. Igne me examinásti, et non est invénta in me iníquitas. \nAllelúja, allelúja.\nV. Levíta Lauréntius bonum opus operátus est: qui per signum crucis cœcos illuminávit. Allelúja.",
-        "Francais": "!Ps 16:3.\nVous avez éprouvé mon cœur, Seigneur, et vous m’avez visité la nuit.\nV. Vous m’avez fait passé par le feu, et on n’a pas trouvé le mal en moi. Alléluia, alléluia.\nV. Le diacre Laurent a fait une bonne œuvre, lui qui par le signe de la Croix, a rendu la vue aux aveugles. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:24-26\nEn ce temps-là : Jésus dit à ses disciples : En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul. Mais s’il meurt, il porte beaucoup de fruit. Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle. Si quelqu’un veut être mon serviteur, qu’il me suive, et là où je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 95:6\nConféssio et pulchritúdo in conspéctu ejus: sánctitas, et magnificéntia in sanctificatióne ejus.",
-        "Francais": "!Ps 95:6\nLa louange et la beauté sont en sa présence : la sainteté et la magnificence dans le lieu de sa sanctification."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Joann 12:26\nQui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster meus erit.",
-        "Francais": "!Joann 12:26.\nSi quelqu’un me sert, qu’il me suive : et là où je suis, là sera aussi mon serviteur."
-      },
-      "audios": "Graduale Project/communion_qui-mihi-ministrat.mp3"
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C2a.txt",
+        "../horas/Latin/Commune/C2a.txt",
+        "Francais/Sancti/08-10.txt",
+        "Latin/Sancti/08-10.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

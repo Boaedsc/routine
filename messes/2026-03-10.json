@@ -1,70 +1,210 @@
 {
   "date": "2026-03-10",
-  "celebration": {
-    "nom": "Les quarante martyrs de Sébaste",
-    "classe": 3,
-    "note": "(temporal : Mardi de la 3e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/03-10",
-    "Tempora/Quad3-2"
-  ],
-  "cles_jour": [
-    "03-10",
-    "Quad3-2"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad3",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 33:18\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.",
-        "Francais": "!Ps 33:18.\nv. Les justes ont crié, et le Seigneur les a exaucés : et il les a libérés de toutes leurs tribulations.\n!Ps 33:2.\nJe bénirai le Seigneur en tout temps ; toujours sa louange sera à ma bouche.\n&Gloria\nv. Les justes ont crié, et le Seigneur les a exaucés : et il les a libérés de toutes leurs tribulations."
+      "occurrence": {
+        "gagnant": "Tempora/Quad3-2",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad3-2.txt",
+        "temporal": "Latin/Tempora/Quad3-2.txt",
+        "sanctoral": "Latin/Sancti/03-10.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_ego-clamavi.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n!Hebr 11:33-39.\nMes Frères : les Saints, par la foi, ont conquis des royaumes, exercé la justice, obtenu l’effet des promesses, fermé la gueule des lions, éteint la violence du feu, échappé au tranchant de l’épée, triomphé de la maladie, déployé leur vaillance à la guerre, mis en fuite des armées ennemis ; par eux des femmes ont recouvré leurs morts ressuscités. Les uns ont péri dans les tortures, refusant la délivrance afin d’obtenir une meilleure résurrection ; d’autres ont souffert les moqueries et les verges ; de plus, les chaînes et les cachots ; ils ont été lapidés, sciés, éprouvés ; ils sont morts par le tranchant de l’épée ; ils ont erré çà et là, couverts de peaux de brebis et de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n’était pas digne ; Ils ont été errants dans les déserts et les montagnes, dans les cavernes et dans les antres de la terre. Et tous ceux-là ont obtenu un bon témoignage à cause de leur foi en Jésus-Christ, Notre-Seigneur."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Introitus",
+            "texte": "!Ps 16:6, 8\nv. Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\n!Ps 16:1\nExáudi, Dómine, justítiam meam: inténde deprecatiónem meam.\n&Gloria\nv. Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.",
+            "incipit": "Ego clamávi, quóniam",
+            "mp3": "introitus_ego-clamavi.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Oratio",
+            "texte": "Exáudi nos, omnípotens et miséricors Deus: et continéntiæ salutáris propítius nobis dona concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum.\n!4 Reg 4:1-7\nIn diébus illis: Múlier quædam clamábat ad Eliséum Prophétam, dicens: Servus tuus vir meus mórtuus est, et tu nosti, quia servus tuus fuit timens Dóminum: et ecce, créditor venit, ut tollat duos fílios meos ad serviéndum sibi. Cui dixit Eliséus: Quid vis, ut fáciam tibi? Dic mihi, quid habes in domo tua? At illa respóndit: Non hábeo ancílla tua quidquam in domo mea, nisi parum ólei, quo ungar. Cui ait: Vade, pete mútuo ab ómnibus vicínis tuis vasa vácua non pauca. Et ingrédere, et claude óstium tuum, cum intrínsecus fúeris tu et fílii tui: et mitte inde in ómnia vasa hæc: et cum plena fúerint, tolles. Ivit ítaque múlier, et clausit óstium super se et super fílios suos: illi offerébant vasa, et illa infundébat. Cumque plena fuíssent vasa, dixit ad fílium suum: Affer mihi adhuc vas. Et ille respóndit: Non hábeo. Stetítque óleum. Venit autem illa, et indicávit hómini Dei. Et ille: Vade, inquit, vende oleum, et redde creditóri tuo: tu autem et fílii tui vívite de réliquo.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 18:13-14\nAb occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.\nV. Si mei non fúerint domináti, tunc immaculátus ero: et emundábor a delícto máximo.",
+            "incipit": "Ab occúltis meis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:15-22\nIn illo témpore: Dixit Jesus discípulis suis: Si peccáverit in te frater tuus, vade, et córripe eum inter te et ipsum solum. Si te audíerit, lucrátus eris fratrem tuum. Si autem te non audíerit, ádhibe tecum adhuc unum vel duos, ut in ore duórum vel trium téstium stet omne verbum. Quod si non audíerit eos: dic ecclésiæ. Si autem ecclésiam non audíerit: sit tibi sicut éthnicus et publicánus. Amen, dico vobis, quæcúmque alligavéritis super terram, erunt ligáta et in cœlo: et quæcúmque solvéritis super terram, erunt solúta et in cœlo. Iterum dico vobis, quia si duo ex vobis consénserint super terram, de omni re quamcúmque petíerint, fiet illis a Patre meo, qui in cœlis est. Ubi enim sunt duo vel tres congregáti in nómine meo, ibi sum in médio eórum. Tunc accédens Petrus ad eum, dixit: Dómine, quóties peccábit in me frater meus, et dimíttam ei? usque sépties? Dicit illi Jesus: Non dico tibi usque sépties, sed usque septuágies sépties.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16, 17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Secreta",
+            "texte": "Per hæc véniat, quǽsumus, Dómine, sacraménta nostræ redemptiónis efféctus: qui nos et ab humánis rétrahat semper excéssibus, et ad salutária dona perdúcat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 14:1-2\nDómine, quis habitábit in tabernáculo tuo? aut quis requiéscet in monte sancto tuo? Qui ingréditur sine mácula, et operátur justítiam.",
+            "incipit": "Dómine, quis habitábit",
+            "mp3": "communion_domine-quis-habitabit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad3-2.txt",
+            "section": "Postcommunio",
+            "texte": "Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus, consequámur et grátiam.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Introitus",
+            "texte": "!Ps 16:6, 8\nv. Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\n!Ps 16:1\nExáudi, Dómine, justítiam meam: inténde deprecatiónem meam.\n&Gloria\nv. Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.",
+            "incipit": "Ego clamávi, quóniam",
+            "mp3": "introitus_ego-clamavi.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Oratio",
+            "texte": "Exáudi nos, omnípotens et miséricors Deus: et continéntiæ salutáris propítius nobis dona concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Regum.\n!4 Reg 4:1-7\nIn diébus illis: Múlier quædam clamábat ad Eliséum Prophétam, dicens: Servus tuus vir meus mórtuus est, et tu nosti, quia servus tuus fuit timens Dóminum: et ecce, créditor venit, ut tollat duos fílios meos ad serviéndum sibi. Cui dixit Eliséus: Quid vis, ut fáciam tibi? Dic mihi, quid habes in domo tua? At illa respóndit: Non hábeo ancílla tua quidquam in domo mea, nisi parum ólei, quo ungar. Cui ait: Vade, pete mútuo ab ómnibus vicínis tuis vasa vácua non pauca. Et ingrédere, et claude óstium tuum, cum intrínsecus fúeris tu et fílii tui: et mitte inde in ómnia vasa hæc: et cum plena fúerint, tolles. Ivit ítaque múlier, et clausit óstium super se et super fílios suos: illi offerébant vasa, et illa infundébat. Cumque plena fuíssent vasa, dixit ad fílium suum: Affer mihi adhuc vas. Et ille respóndit: Non hábeo. Stetítque óleum. Venit autem illa, et indicávit hómini Dei. Et ille: Vade, inquit, vende oleum, et redde creditóri tuo: tu autem et fílii tui vívite de réliquo.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Graduale",
+            "texte": "!Ps 18:13-14\nAb occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.\nV. Si mei non fúerint domináti, tunc immaculátus ero: et emundábor a delícto máximo.",
+            "incipit": "Ab occúltis meis",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:15-22\nIn illo témpore: Dixit Jesus discípulis suis: Si peccáverit in te frater tuus, vade, et córripe eum inter te et ipsum solum. Si te audíerit, lucrátus eris fratrem tuum. Si autem te non audíerit, ádhibe tecum adhuc unum vel duos, ut in ore duórum vel trium téstium stet omne verbum. Quod si non audíerit eos: dic ecclésiæ. Si autem ecclésiam non audíerit: sit tibi sicut éthnicus et publicánus. Amen, dico vobis, quæcúmque alligavéritis super terram, erunt ligáta et in cœlo: et quæcúmque solvéritis super terram, erunt solúta et in cœlo. Iterum dico vobis, quia si duo ex vobis consénserint super terram, de omni re quamcúmque petíerint, fiet illis a Patre meo, qui in cœlis est. Ubi enim sunt duo vel tres congregáti in nómine meo, ibi sum in médio eórum. Tunc accédens Petrus ad eum, dixit: Dómine, quóties peccábit in me frater meus, et dimíttam ei? usque sépties? Dicit illi Jesus: Non dico tibi usque sépties, sed usque septuágies sépties.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 117:16, 17\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+            "incipit": "Déxtera Dómini fecit",
+            "mp3": "offertoire_dextera-domini.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Secreta",
+            "texte": "Per hæc véniat, quǽsumus, Dómine, sacraménta nostræ redemptiónis efféctus: qui nos et ab humánis rétrahat semper excéssibus, et ad salutária dona perdúcat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Communio",
+            "texte": "!Ps 14:1-2\nDómine, quis habitábit in tabernáculo tuo? aut quis requiéscet in monte sancto tuo? Qui ingréditur sine mácula, et operátur justítiam.",
+            "incipit": "Dómine, quis habitábit",
+            "mp3": "communion_domine-quis-habitabit.mp3",
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad3-2.txt",
+            "section": "Postcommunio",
+            "texte": "Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus, consequámur et grátiam.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 132:1-2\nEcce, quam bonum et quam jucúndum, habitáre fratres in unum!\nV. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.\n_\n!Tractus\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent. \nV. Eúntes ibant et fiébant, mitténtes sémina sua. \nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
-        "Francais": "!Ps 132:1-2.\nVoyez comme il est bon et agréable pour des frères d’habiter ensemble !\nV. C’est comme le parfum répandu sur la tête, qui descend sur la barbe, la barbe d’Aaron.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes moissonneront dans l’allégresse.\nV. Ils allaient et venaient en pleurant, tandis qu’ils jetaient leurs semences.\nV. Mais ils reviendront avec allégresse chargés de leurs gerbes."
-      },
-      "audios": "Graduale Project/graduel_ecce-quam-bonum.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:17-23.\nEn ce temps-là, Jésus descendant de la montagne s’arrêta dans la plaine avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous. Et lui, levant les yeux sur ses disciples, disait : Bienheureux, vous qui êtes pauvres, parce que le royaume de Dieu est à vous. Bienheureux, vous qui avez faim maintenant, parce que vous serez rassasiés. Bienheureux, vous qui pleurez maintenant, parce que vous rirez. Bienheureux serez-vous lorsque les hommes vous haïront, et vous repousseront, et vous outrageront, et lorsqu’ils rejetteront votre nom comme infâme, à cause du Fils de l’homme. Réjouissez-vous en ce jour-là et soyez dans l’allégresse, parce que votre récompense est grande dans le ciel."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.",
-        "Francais": "!Ps 31:11.\nJustes, réjouissez-vous dans le Seigneur, et soyez dans l’allégresse ; et glorifiez-vous en lui vous tous qui avez le cœur droit."
-      },
-      "audios": "Graduale Project/offertoire_dextera-domini.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Matt 12:50\nQuicúmque fécerit voluntátem Patris mei, qui in cœlis est: ipse meus frater et soror et mater est, dicit Dóminus.",
-        "Francais": "!Matt 12:50.\nQuiconque aura fait la volonté de mon Père qui est dans les cieux, celui-là est pour moi frère, sœur et mère, dit le Seigneur."
-      },
-      "audios": "Graduale Project/communion_quicumque-fecerit.mp3"
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad3-2.txt",
+        "Latin/Tempora/Quad3-2.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
     }
   ]
 }

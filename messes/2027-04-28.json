@@ -1,70 +1,224 @@
 {
   "date": "2027-04-28",
-  "celebration": {
-    "nom": "Saint Paul de la Croix",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/04-28",
-    "Tempora/Pasc4-3"
-  ],
-  "cles_jour": [
-    "04-28",
-    "Pasc4-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pasc4",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Gal 2:19-20\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Fílii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.\n!Ps 40:2.\nBeátus, qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.\n&Gloria\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.",
-        "Francais": "!Gal 2:19-20\nv. Avec le Christ j’ai été cloué à la croix : et c’est le Christ qui vit en moi : je vis dans la foi au Fils de Dieu, qui m’a aimé, et qui s’est livré lui-même pour moi, alléluia, alléluia.\n!Ps 40:2. \nHeureux celui qui a l’intelligence de l’indigent et du pauvre : le Seigneur le délivrera au jour mauvais.\n&Gloria\nv. Avec le Christ j’ai été cloué à la croix : et c’est le Christ qui vit en moi : je vis dans la foi au Fils de Dieu, qui m’a aimé, et qui s’est livré lui-même pour moi, alléluia, alléluia."
+      "occurrence": {
+        "gagnant": "Sancti/04-28",
+        "nom_sanctoral": "S. Pauli a Cruce Confessoris",
+        "classe": 3.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/04-28.txt",
+        "temporal": "Latin/Tempora/Pasc4-3.txt",
+        "sanctoral": "Latin/Sancti/04-28.txt",
+        "calendrier": "04-28",
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:17-25.\nMes Frères : Le Christ ne m’a pas envoyé pour baptiser, mais pour prêcher l’Évangile : non point avec la sagesse de la parole, afin que la Croix du Christ ne soit pas rendue vaine. La parole de la Croix est une folie pour ceux qui périssent ; mais pour ceux qui sont sauvés, c’est-à-dire pour nous, elle est la puissance de Dieu. Aussi est-il écrit : Je détruirai la sagesse des sages, et Je réprouverai la prudence des prudents. Où est le sage ? Où est le scribe ? Où est le disputeur de ce siècle ? Dieu n’a-t-Il pas frappé de folie la sagesse de ce monde ? Car parce que le monde, avec sa sagesse, n’a pas connu Dieu dans la sagesse de Dieu, il a plu à Dieu de sauver les croyants par la folie de la prédication. En effet, les Juifs demandent des miracles, et les Grecs cherchent la sagesse ; mais nous, nous prêchons le Christ crucifié, scandale pour les Juifs, et folie pour les païens, mais pour ceux qui sont appelés, soit Juifs, soit Grecs, le Christ puissance de Dieu et sagesse de Dieu. Car ce qui est folie en Dieu est plus sage que les hommes, et ce qui est faiblesse en Dieu est plus fort que les hommes."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Introitus",
+            "texte": "!Gal 2:19-20\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Fílii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.\n!Ps 40:2.\nBeátus, qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.\n&Gloria\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.",
+            "incipit": "Christo confíxus sum",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Oratio",
+            "texte": "Dómine Jesu Christe, qui, ad mystérium Crucis prædicándum, sanctum Paulum singulári caritáte donásti, et per eum novam in Ecclésia famíliam floréscere voluísti: ipsíus nobis intercessióne concéde; ut, passiónem tuam júgiter recoléntes in terris, ejúsdem fructum cónsequi mereámur in cœlis:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:17-25.\nFratres: Non misit me Christus baptizáre, sed evangelizáre: non in sapiéntia verbi, ut non evacuétur Crux Christi. Verbum enim Crucis pereúntibus quidem stultítia est: iis autem, qui salvi fiunt, id est nobis, Dei virtus est. Scriptum est enim: Perdam sapiéntiam sapiéntium et prudéntiam prudéntium reprobábo. Ubi sápiens? ubi scriba? ubi conquisítor hujus sǽculi? Nonne stultam fecit Deus sapiéntiam hujus mundi? Nam quia in Dei sapiéntia non cognóvit mundus per sapiéntiam Deum: plácuit Deo per stultítiam prædicatiónis salvos fácere credéntes. Quóniam et Judǽi signa petunt et Græci sapiéntiam quærunt: nos autem prædicámus Christum crucifíxum: Judǽis quidem scándalum, géntibus autem stultítiam, ipsis autem vocátis Judǽis atque Græcis Christum Dei virtútem et Dei sapiéntiam: quia, quod stultum est Dei, sapiéntius est homínibus: et, quod infírmum est Dei, fórtius est homínibus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!2 Cor 5:15\nPro ómnibus mórtuus est Christus: ut, et qui vivunt, jam non sibi vivant, sed ei, qui pro ipsis mórtuus est, et resurréxit. Allelúja.\n!Rom 8:17\nSi fílii, et herédes: herédes quidem Dei, coherédes autem Christi: si tamen compátimur, ut et conglorificémur. Allelúja.",
+            "incipit": "Allelúja, allelúja. Pro",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Tractus",
+            "texte": "!1 Pet 4:1\nChristo ígitur passo in carne, et vos eádem cogitatióne armámini: quia, qui passus est in carne, désiit a peccátis.\n!2 Cor 4:10\nSemper mortificatiónem Jesu in córpore nostro circumferéntes, ut et vita Jesu manifestétur in corpóribus nostris.\n!Heb 12:2\nAspiciéntes in auctórem fídei et consummatórem Jesum, qui propósito sibi gáudio sustínuit Crucem, confusióne contémpta, atque in déxtera sedis Dei sedet.",
+            "incipit": "Christo ígitur passo",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Offertorium",
+            "texte": "!Ephes 5:2\nAmbuláte in dilectióne, sicut et Christus diléxit nos, et trádidit semetípsum pro nobis oblatiónem et hóstiam Deo in odórem suavitátis, allelúja.",
+            "incipit": "Ambuláte in dilectióne,",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Secreta",
+            "texte": "Cœléstem nobis, Dómine, prǽbeant mystéria hæc passiónis et mortis tuæ fervórem: quo sanctus Paulus, ea offeréndo, corpus suum hóstiam vivéntem, sanctam tibíque placéntem exhíbuit:\n$Qui vivis",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Communio",
+            "texte": "!1 Pet 4:13\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes. Allelúja.",
+            "incipit": "Communicántes Christi passiónibus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/04-28.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, divínum sacraméntum, imménsæ caritátis tuæ memoriále perpétuum: tríbue, quǽsumus; ut, sancti Pauli méritis et imitatióne, aquam de fóntibus tuis hauriámus in vitam ætérnam saliéntem, et tuam sacratíssimam passiónem córdibus nostris impréssam móribus et vita teneámus:\n$Qui vivis",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Introitus",
+            "texte": "!Gal 2:19-20\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Fílii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.\n!Ps 40:2.\nBeátus, qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.\n&Gloria\nv. Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit semetípsum pro me, allelúja, alleluja.",
+            "incipit": "Christo confíxus sum",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Oratio",
+            "texte": "Dómine Jesu Christe, qui, ad mystérium Crucis prædicándum, sanctum Paulum singulári caritáte donásti, et per eum novam in Ecclésia famíliam floréscere voluísti: ipsíus nobis intercessióne concéde; ut, passiónem tuam júgiter recoléntes in terris, ejúsdem fructum cónsequi mereámur in cœlis:\n$Qui vivis",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Lectio",
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:17-25.\nFratres: Non misit me Christus baptizáre, sed evangelizáre: non in sapiéntia verbi, ut non evacuétur Crux Christi. Verbum enim Crucis pereúntibus quidem stultítia est: iis autem, qui salvi fiunt, id est nobis, Dei virtus est. Scriptum est enim: Perdam sapiéntiam sapiéntium et prudéntiam prudéntium reprobábo. Ubi sápiens? ubi scriba? ubi conquisítor hujus sǽculi? Nonne stultam fecit Deus sapiéntiam hujus mundi? Nam quia in Dei sapiéntia non cognóvit mundus per sapiéntiam Deum: plácuit Deo per stultítiam prædicatiónis salvos fácere credéntes. Quóniam et Judǽi signa petunt et Græci sapiéntiam quærunt: nos autem prædicámus Christum crucifíxum: Judǽis quidem scándalum, géntibus autem stultítiam, ipsis autem vocátis Judǽis atque Græcis Christum Dei virtútem et Dei sapiéntiam: quia, quod stultum est Dei, sapiéntius est homínibus: et, quod infírmum est Dei, fórtius est homínibus.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!2 Cor 5:15\nPro ómnibus mórtuus est Christus: ut, et qui vivunt, jam non sibi vivant, sed ei, qui pro ipsis mórtuus est, et resurréxit. Allelúja.\n!Rom 8:17\nSi fílii, et herédes: herédes quidem Dei, coherédes autem Christi: si tamen compátimur, ut et conglorificémur. Allelúja.",
+            "incipit": "Allelúja, allelúja. Pro",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Tractus",
+            "texte": "!1 Pet 4:1\nChristo ígitur passo in carne, et vos eádem cogitatióne armámini: quia, qui passus est in carne, désiit a peccátis.\n!2 Cor 4:10\nSemper mortificatiónem Jesu in córpore nostro circumferéntes, ut et vita Jesu manifestétur in corpóribus nostris.\n!Heb 12:2\nAspiciéntes in auctórem fídei et consummatórem Jesum, qui propósito sibi gáudio sustínuit Crucem, confusióne contémpta, atque in déxtera sedis Dei sedet.",
+            "incipit": "Christo ígitur passo",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Offertorium",
+            "texte": "!Ephes 5:2\nAmbuláte in dilectióne, sicut et Christus diléxit nos, et trádidit semetípsum pro nobis oblatiónem et hóstiam Deo in odórem suavitátis, allelúja.",
+            "incipit": "Ambuláte in dilectióne,",
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Secreta",
+            "texte": "Cœléstem nobis, Dómine, prǽbeant mystéria hæc passiónis et mortis tuæ fervórem: quo sanctus Paulus, ea offeréndo, corpus suum hóstiam vivéntem, sanctam tibíque placéntem exhíbuit:\n$Qui vivis",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Communio",
+            "texte": "!1 Pet 4:13\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes. Allelúja.",
+            "incipit": "Communicántes Christi passiónibus",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/04-28.txt",
+            "section": "Postcommunio",
+            "texte": "Súmpsimus, Dómine, divínum sacraméntum, imménsæ caritátis tuæ memoriále perpétuum: tríbue, quǽsumus; ut, sancti Pauli méritis et imitatióne, aquam de fóntibus tuis hauriámus in vitam ætérnam saliéntem, et tuam sacratíssimam passiónem córdibus nostris impréssam móribus et vita teneámus:\n$Qui vivis",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "Allelúja, allelúja.\n!2 Cor 5:15\nPro ómnibus mórtuus est Christus: ut, et qui vivunt, jam non sibi vivant, sed ei, qui pro ipsis mórtuus est, et resurréxit. Allelúja.\n!Rom 8:17\nSi fílii, et herédes: herédes quidem Dei, coherédes autem Christi: si tamen compátimur, ut et conglorificémur. Allelúja.",
-        "Francais": "Allelúja, allelúja\n!2 Cor 5:15\nLe Christ est mort pour tous, afin que ceux qui vivent ne vivent plus pour eux-mêmes, mais pour celui qui est mort et ressuscité pour eux. Alléluia.\n!Rom 8:17\nSi nous sommes enfants, nous sommes aussi héritiers : héritiers de Dieu, et cohéritiers du Christ, pourvu toutefois que nous souffrions avec Lui, afin d’être glorifiés avec Lui."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ephes 5:2\nAmbuláte in dilectióne, sicut et Christus diléxit nos, et trádidit semetípsum pro nobis oblatiónem et hóstiam Deo in odórem suavitátis, allelúja.",
-        "Francais": "!Ephes 5:2\nMarchez dans l’amour, comme le Christ, qui nous a aussi aimés, et qui s’est livré lui-même pour nous à Dieu, comme une oblation et un sacrifice d’agréable odeur, alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!1 Pet 4:13\nCommunicántes Christi passiónibus gaudéte, ut in revelatióne glóriæ ejus gaudeátis exsultántes. Allelúja.",
-        "Francais": "!1 Pet 4:13\nParce que vous participez aux souffrances du Christ, réjouissez-vous, afin que, lorsque Sa gloire sera manifestée, vous soyez aussi dans la joie et l’allégresse, alléluia."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Sancti/04-28.txt",
+        "Latin/Sancti/04-28.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

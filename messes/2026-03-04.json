@@ -1,70 +1,210 @@
 {
   "date": "2026-03-04",
-  "celebration": {
-    "nom": "Saint Casimir",
-    "classe": 3,
-    "note": "(temporal : Mercredi de la 2e semaine de Carême)"
-  },
-  "fichiers": [
-    "Sancti/03-04",
-    "Tempora/Quad2-3"
-  ],
-  "cles_jour": [
-    "03-04",
-    "Quad2-3"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Quad2",
+  "paques": "2026-04-05",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Latin": "!Ps 37:22-23.\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.\n!Ps 37:2\nDómine, ne in furóre tuo árguas me: neque in ira tua corrípias me.\n&Gloria\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.",
-        "Francais": "!Ps 37:22-23.\nv. Ne m’abandonnez pas, Seigneur mon Dieu ; ne vous éloignez pas de moi. Hâtez-vous de me secourir, Seigneur, Dieu de mon salut.\n!Ps 37:2\nSeigneur, ne me reprenez pas dans votre fureur, et ne me punissez pas dans votre colère.\n&Gloria\nv. Ne m’abandonnez pas, Seigneur mon Dieu ; ne vous éloignez pas de moi. Hâtez-vous de me secourir, Seigneur, Dieu de mon salut."
+      "occurrence": {
+        "gagnant": "Tempora/Quad2-3",
+        "nom_sanctoral": "",
+        "classe": 4.9,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Quad2-3.txt",
+        "temporal": "Latin/Tempora/Quad2-3.txt",
+        "sanctoral": "Latin/Sancti/03-04.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": "Graduale Project/introitus_ne-derelinquas-me.mp3"
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Esther.\n!Esth 13:8-11; 13:15-17\nEn ces jours-là, Mardochée pria le Seigneur, se souvenant de toutes ses œuvres, et il dit : Seigneur, Seigneur, roi tout-puissant, toutes choses sont soumises à votre pouvoir, et nul ne peut résister à votre volonté, si vous avez résolu de sauver Israël. Vous avez fait le ciel et la terre, et tout ce qui est contenu dans l’enceinte du ciel. Vous êtes le Seigneur de, toutes choses, et nul ne peut résister a votre majesté. Maintenant donc, Seigneur, roi, Dieu d’Abraham, ayez pitié de votre peuple parce que nos ennemis veulent nous perdre et détruire votre héritage. Ne méprisez pas ce peuple qui est votre partage, que vous avez racheté de l’Egypte pour vous. Exaucez ma prière, et soyez propice à une nation qui est votre part et votre héritage, et changez, Seigneur, notre deuil en joie, afin que pendant notre vie nous glorifiions votre nom, et ne fermez pas la bouche de ceux qui vous louent, ô Seigneur notre Dieu."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 37:22-23.\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.\n!Ps 37:2\nDómine, ne in furóre tuo árguas me: neque in ira tua corrípias me.\n&Gloria\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.",
+            "incipit": "Ne derelínquas me,",
+            "mp3": "introitus_ne-derelinquas-me.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Oratio",
+            "texte": "Pópulum tuum, quǽsumus, Dómine, propítius réspice: et, quos ab escis carnálibus prǽcipis abstinére, a nóxiis quoque vítiis cessáre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Esther.\n!Esth 13:8-11; 13:15-17\nIn diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine, Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est, qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu fecísti cœlum et terram, et quidquid cœli ámbitu continétur. Dóminus ómnium es, nec est, qui resístat majestáti tuæ. Et nunc, Dómine Rex, Deus Abraham, miserére pópuli tui, quia volunt nos inimíci nostri pérdere, et hereditátem tuam delére. Ne despícias partem tuam, quam redemísti tibi de Ægýpto. Exáudi deprecatiónem meam, et propítius esto sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 27:9; 27:1\nSalvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.\nV. Ad te, Dómine, clamávi: Deus meus, ne síleas a me, et ero símilis descendéntibus in lacum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Salvum fac pópulum",
+            "mp3": "graduel_salvum-fac-populum.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:17-28\nIn illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim discípulos secréto, et ait illis: Ecce, ascéndimus Jerosólymam, et Fílius hóminis tradétur princípibus sacerdótum, et scribis, et condemnábunt eum morte, et tradent eum Géntibus ad illudéndum, et flagellándum, et crucifigéndum, et tértia die resúrget. Tunc accéssit ad eum mater filiórum Zebedǽi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Nescítis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo. Et audiéntes decem, indignáti sunt de duóbus frátribus. Jesus autem vocávit eos ad se, et ait: Scitis, quia príncipes géntium dominántur eórum: et qui majóres sunt, potestátem exércent in eos. Non ita erit inter vos: sed quicúmque volúerit inter vos major fíeri, sit vester miníster: et qui volúerit inter vos primus esse, erit vester servus. Sicut Fílius hóminis non venit ministrári, sed ministráre, et dare ánimam suam, redemptiónem pro multis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": "Ad te, Dómine,",
+            "mp3": "offertoire_ad-te-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, Dómine, quas tibi offérimus, propítius réspice: et, per hæc sancta commércia, víncula peccatórum nostrórum absólve.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Communio",
+            "texte": "!Ps 10:8\nJustus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.",
+            "incipit": "Justus Dóminus, et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Quad2-3.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Introitus",
+            "texte": "!Ps 37:22-23.\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.\n!Ps 37:2\nDómine, ne in furóre tuo árguas me: neque in ira tua corrípias me.\n&Gloria\nv. Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in adjutórium meum, Dómine, virtus salútis meæ.",
+            "incipit": "Ne derelínquas me,",
+            "mp3": "introitus_ne-derelinquas-me.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Oratio",
+            "texte": "Pópulum tuum, quǽsumus, Dómine, propítius réspice: et, quos ab escis carnálibus prǽcipis abstinére, a nóxiis quoque vítiis cessáre concéde.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Esther.\n!Esth 13:8-11; 13:15-17\nIn diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine, Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est, qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu fecísti cœlum et terram, et quidquid cœli ámbitu continétur. Dóminus ómnium es, nec est, qui resístat majestáti tuæ. Et nunc, Dómine Rex, Deus Abraham, miserére pópuli tui, quia volunt nos inimíci nostri pérdere, et hereditátem tuam delére. Ne despícias partem tuam, quam redemísti tibi de Ægýpto. Exáudi deprecatiónem meam, et propítius esto sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium, Dómine, Deus noster.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 27:9; 27:1\nSalvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.\nV. Ad te, Dómine, clamávi: Deus meus, ne síleas a me, et ero símilis descendéntibus in lacum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Salvum fac pópulum",
+            "mp3": "graduel_salvum-fac-populum.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Graduale",
+            "texte": "!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
+            "incipit": "Dómine, non secúndum",
+            "mp3": "trait_domine-non-secundum.mp3",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:17-28\nIn illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim discípulos secréto, et ait illis: Ecce, ascéndimus Jerosólymam, et Fílius hóminis tradétur princípibus sacerdótum, et scribis, et condemnábunt eum morte, et tradent eum Géntibus ad illudéndum, et flagellándum, et crucifigéndum, et tértia die resúrget. Tunc accéssit ad eum mater filiórum Zebedǽi cum fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus ad sinístram in regno tuo. Respóndens autem Jesus, dixit: Nescítis, quid petátis. Potéstis bíbere cálicem, quem ego bibitúrus sum? Dicunt ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sedére autem ad déxteram meam vel sinístram, non est meum dare vobis, sed quibus parátum est a Patre meo. Et audiéntes decem, indignáti sunt de duóbus frátribus. Jesus autem vocávit eos ad se, et ait: Scitis, quia príncipes géntium dominántur eórum: et qui majóres sunt, potestátem exércent in eos. Non ita erit inter vos: sed quicúmque volúerit inter vos major fíeri, sit vester miníster: et qui volúerit inter vos primus esse, erit vester servus. Sicut Fílius hóminis non venit ministrári, sed ministráre, et dare ánimam suam, redemptiónem pro multis.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": "Ad te, Dómine,",
+            "mp3": "offertoire_ad-te-domine.mp3",
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Secreta",
+            "texte": "Hóstias, Dómine, quas tibi offérimus, propítius réspice: et, per hæc sancta commércia, víncula peccatórum nostrórum absólve.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Communio",
+            "texte": "!Ps 10:8\nJustus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.",
+            "incipit": "Justus Dóminus, et",
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Quad2-3.txt",
+            "section": "Postcommunio",
+            "texte": "Sumptis, Dómine, sacraméntis: ad redemptiónis ætérnæ, quǽsumus, proficiámus augméntum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 27:9; 27:1\nSalvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.\nV. Ad te, Dómine, clamávi: Deus meus, ne síleas a me, et ero símilis descendéntibus in lacum.\n_\n!Tractus\n!Ps 102:10\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis\n!Ps 78:8-9\nDómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum.",
-        "Francais": "!Ps 27:9; 27:1\nSauvez votre peuple, Seigneur, et bénissez votre héritage.\nV. J'ai crié vers vous, Seigneur ; ne gardez pas le silence à mon égard, de peur que je ne sois semblable à ceux qui descendent dans la fosse.\n_\n!Tractus\n!Ps 102:10\nSeigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités.\n!Ps 78:8-9. \nSeigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux)\nV. Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom."
-      },
-      "audios": "Graduale Project/graduel_salvum-fac-populum.mp3"
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 20:17-28\nEn ce temps-là, Jésus, montant à Jérusalem, prit à part les douze disciples, et leur dit : Voici que nous montons à Jérusalem, et le Fils de l’homme sera livré aux princes des prêtres et aux scribes, et ils le condamneront à mort ; et ils le livreront aux gentils, pour qu’ils se moquent de lui, le flagellent et le crucifient ; et il ressuscitera le troisième jour. Alors la mère des fils de Zébédée s’approcha de lui avec ses deux fils, et se prosterna en lui demandant quelque chose. Il lui dit : Que veux-tu ? Ordonnez, lui dit-elle, que mes deux fils, que voici, soient assis l’un à votre droite, et l’autre à votre gauche, dans votre royauté. Mais Jésus répondit : Vous ne savez pas ce que vous demandez. Pouvez-vous boire le calice que je dois boire ? Ils lui dirent : Nous le pouvons. Il leur dit : Oui, vous boirez mon calice ; quant à être assis à ma droite ou à ma gauche, il ne m’appartient pas de vous le donner ; ce sera pour ceux auxquels mon Père l’a préparé. Les dix, ayant entendu cela, s’indignèrent contre les deux frères. Mais Jésus les appela à lui, et leur dit : Vous savez que les princes des nations les dominent, et que les grands exercent la puissance sur elles. Il n’en sera pas ainsi parmi vous ; mais gué celui qui voudra devenir le plus grand parmi vous soit votre serviteur, et que celui qui voudra être le premier parmi vous soit votre esclave ; de même que le Fils de l’homme n’est pas venu pour être servi, mais pour servir, et pour donner sa vie comme la rançon d’un grand nombre."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "!Ps 24:1-3\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
-        "Francais": "!Ps 24:1-3\nVers vous, Seigneur, j’ai élevé mon âme ; mon Dieu, je mets ma confiance en vous ; que je n’aie pas à rougir. Et que mes ennemis ne se moquent point de moi ; car tous ceux qui espèrent en vous ne seront pas confondus."
-      },
-      "audios": "Graduale Project/offertoire_ad-te-domine.mp3"
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "!Ps 10:8\nJustus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.",
-        "Francais": "!Ps 10:8\nLe Seigneur est juste, et il aime la justice ; son visage contemple l’équité."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "Francais/Tempora/Quad2-3.txt",
+        "Latin/Tempora/Quad2-3.txt"
+      ],
+      "sections_vides": 4,
+      "numero": 1
     }
   ]
 }

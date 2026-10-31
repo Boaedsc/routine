@@ -1,69 +1,240 @@
 {
   "date": "2027-09-27",
-  "celebration": {
-    "nom": "Saints Côme et Damien",
-    "classe": 3,
-    "note": ""
-  },
-  "fichiers": [
-    "Sancti/09-27",
-    "Tempora/Pent19-1"
-  ],
-  "cles_jour": [
-    "09-27",
-    "Pent19-1"
-  ],
-  "sections": [
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent19",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
     {
-      "cle": "Introitus",
-      "titre": "Introït",
-      "textes": {
-        "Francais": "!Eccli 44:15 et 14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.\n!Ps 32:1\nJustes, réjouissez-vous dans le Seigneur, c’est aux hommes droits que sied la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération."
+      "occurrence": {
+        "gagnant": "Sancti/09-27",
+        "nom_sanctoral": "",
+        "classe": 2.2,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/09-27.txt",
+        "temporal": "Latin/Tempora/Pent19-1.txt",
+        "sanctoral": "Latin/Sancti/09-27.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
-      "audios": null
-    },
-    {
-      "cle": "Lectio",
-      "titre": "Lecture",
-      "textes": {
-        "Francais": "Léctio libri Sapiéntiæ\n!Sap 5:16-20\nLes justes vivront éternellement,et le Seigneur leur réserve leur récompense, et le Très-Haut pense à eux. C’est pourquoi ils recevront de la main du Seigneur un royaume de gloire et un diadème éclatant ; car il les protégera de sa droite, et les défendra de son saint bras. Son zèle se munira d’une armure, et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice pour cuirasse, et il prendra pour casque l’intégrité de son jugement ; il se couvrira de l’équité comme d’un bouclier impénétrable."
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
+            "incipit": "Sapiéntiam Sanctórum narrent",
+            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum Cosmæ et Damiáni natalítia cólimus, a cunctis malis imminéntibus, eórum intercessiónibus, liberémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Lectio",
+            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita tenens regna cœléstia. Allelúja.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "incipit": "Anima nostra, sicut",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 5:12-13\nGloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu, Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.",
+            "incipit": "Gloriabúntur in te",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-26.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Communio",
+            "texte": "!Ps 78:2 & 11\nPosuérunt mortália servórum tuórum, Dómine, escas volatílibus cœli, carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii tui pósside fílios morte punitórum.",
+            "incipit": "Posuérunt mortália servórum",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-30.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/09-27.txt",
+            "section": "Postcommunio",
+            "texte": "Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis indúlta convívii, et deprecátio colláta Sanctórum.\n$Per Dominum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Introitus",
+            "texte": "!Eccli 44:15 et 14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.\n!Ps 32:1\nJustes, réjouissez-vous dans le Seigneur, c’est aux hommes droits que sied la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.",
+            "incipit": "Que les peuples",
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum Cosmæ et Damiáni natalítia cólimus, a cunctis malis imminéntibus, eórum intercessiónibus, liberémur.\n$Per Dominum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Lectio",
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:16-20\nLes justes vivront éternellement,et le Seigneur leur réserve leur récompense, et le Très-Haut pense à eux. C’est pourquoi ils recevront de la main du Seigneur un royaume de gloire et un diadème éclatant ; car il les protégera de sa droite, et les défendra de son saint bras. Son zèle se munira d’une armure, et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice pour cuirasse, et il prendra pour casque l’intégrité de son jugement ; il se couvrira de l’équité comme d’un bouclier impénétrable.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Graduale",
+            "texte": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita tenens regna cœléstia. Allelúja.",
+            "incipit": "Clamavérunt justi, et",
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Tractus",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 125:5-6\nCeux qui sèment dans les larmes, récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
+            "incipit": "Notre âme, comme",
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Evangelium",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nEn ce temps-là, Jésus descendant de la montagne s’arrêta dans la plaine avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous. Et lui, levant les yeux sur ses disciples, disait : Bienheureux, vous qui êtes pauvres, parce que le royaume de Dieu est à vous. Bienheureux, vous qui avez faim maintenant, parce que vous serez rassasiés. Bienheureux, vous qui pleurez maintenant, parce que vous rirez. Bienheureux serez-vous lorsque les hommes vous haïront, et vous repousseront, et vous outrageront, et lorsqu’ils rejetteront votre nom comme infâme, à cause du Fils de l’homme. Réjouissez-vous en ce jour-là et soyez dans l’allégresse, parce que votre récompense est grande dans le ciel.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 5:12-13\nTous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste : Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier.",
+            "incipit": "Tous ceux qui",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-26.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Secreta",
+            "texte": "Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Communio",
+            "texte": "!Ps 78:2; &8:11\nIls ont livré les cadavres de vos serviteurs en pâture aux oiseaux du ciel, et la chair de vos fidèles aux bêtes de la terre : selon la grandeur de votre bras, gardez les fils de ceux qu’on a fait mourir.",
+            "incipit": "Ils ont livré",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-30.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/09-27.txt",
+            "section": "Postcommunio",
+            "texte": "Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis indúlta convívii, et deprecátio colláta Sanctórum.\n$Per Dominum",
+            "references": null
+          }
+        }
       },
-      "audios": null
-    },
-    {
-      "cle": "Graduale",
-      "titre": "Graduel",
-      "textes": {
-        "Latin": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita tenens regna cœléstia. Allelúja.",
-        "Francais": "!Ps 33:18-19\nLes justes ont crié, et le Seigneur les a exaucés, et il les a délivrés de toutes leurs tribulations.\nV. Le Seigneur est près de ceux qui ont le cœur affligé, et il sauvera les humbles d’esprit. Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Evangelium",
-      "titre": "Évangile",
-      "textes": {
-        "Francais": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nEn ce temps-là, Jésus descendant de la montagne s’arrêta dans la plaine avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous. Et lui, levant les yeux sur ses disciples, disait : Bienheureux, vous qui êtes pauvres, parce que le royaume de Dieu est à vous. Bienheureux, vous qui avez faim maintenant, parce que vous serez rassasiés. Bienheureux, vous qui pleurez maintenant, parce que vous rirez. Bienheureux serez-vous lorsque les hommes vous haïront, et vous repousseront, et vous outrageront, et lorsqu’ils rejetteront votre nom comme infâme, à cause du Fils de l’homme. Réjouissez-vous en ce jour-là et soyez dans l’allégresse, parce que votre récompense est grande dans le ciel."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Offertorium",
-      "titre": "Offertoire",
-      "textes": {
-        "Latin": "@Sancti/06-26",
-        "Francais": "!Ps 5:12-13\ntous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste. Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier."
-      },
-      "audios": null
-    },
-    {
-      "cle": "Communio",
-      "titre": "Communion",
-      "textes": {
-        "Latin": "@Sancti/07-30",
-        "Francais": "!Ps 78:2; 78:11\nIls ont livré les cadavres de vos serviteurs en pâture aux oiseaux du ciel, et la chair de vos fidèles aux bêtes de la terre : selon la grandeur de votre bras, gardez les fils de ceux qu’on a fait mourir."
-      },
-      "audios": null
+      "fichiers_utilises": [
+        "../horas/Francais/Commune/C3a.txt",
+        "../horas/Latin/Commune/C3a.txt",
+        "Francais/Sancti/09-27.txt",
+        "Latin/Sancti/09-27.txt"
+      ],
+      "sections_vides": 5,
+      "numero": 1
     }
   ]
 }

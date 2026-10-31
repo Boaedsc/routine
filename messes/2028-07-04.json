@@ -1,15 +1,210 @@
 {
   "date": "2028-07-04",
-  "celebration": {
-    "nom": "Mardi de la 4e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent04-2"
-  ],
-  "cles_jour": [
-    "Pent04-2"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent04",
+  "paques": "2028-04-16",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Tempora/Pent04-2",
+        "nom_sanctoral": "",
+        "classe": 1.0,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Tempora/Pent04-2.txt",
+        "temporal": "Latin/Tempora/Pent04-2.txt",
+        "sanctoral": null,
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Tempora/Pent04-2.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Introitus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Oratio",
+            "texte": "",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Lectio",
+            "texte": "",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Graduale",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Evangelium",
+            "texte": "",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Offertorium",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Secreta": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Secreta",
+            "texte": "",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Communio",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Tempora/Pent04-2.txt",
+            "section": "Postcommunio",
+            "texte": "",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Tempora/Pent04-2.txt",
+        "Latin/Tempora/Pent04-2.txt"
+      ],
+      "sections_vides": 24,
+      "numero": 1
+    }
+  ]
 }

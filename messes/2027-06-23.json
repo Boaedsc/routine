@@ -1,15 +1,238 @@
 {
   "date": "2027-06-23",
-  "celebration": {
-    "nom": "Mercredi de la 5e semaine après la Pentecôte",
-    "classe": 4,
-    "note": ""
-  },
-  "fichiers": [
-    "Tempora/Pent05-3"
-  ],
-  "cles_jour": [
-    "Pent05-3"
-  ],
-  "sections": []
+  "rubriques": "Rubrics 1960 - 1960",
+  "semaine": "Pent05",
+  "paques": "2027-03-28",
+  "nombre_messes": 1,
+  "messes": [
+    {
+      "occurrence": {
+        "gagnant": "Sancti/06-23",
+        "nom_sanctoral": "",
+        "classe": 1.5,
+        "commemorations": [],
+        "fichier_gagnant": "Latin/Sancti/06-23.txt",
+        "temporal": "Latin/Tempora/Pent05-3.txt",
+        "sanctoral": "Latin/Sancti/06-23.txt",
+        "calendrier": null,
+        "table_transfert": null,
+        "transfert_annuel": [],
+        "transfert_permanent": [],
+        "table_transfert_permanent": "1960",
+        "transfert_saisonnier": [],
+        "table_transfert_saisonnier": "1960",
+        "transfert_scriptura_annuel": [],
+        "table_transfert_scriptura": null,
+        "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+      },
+      "sections": {
+        "Latin": {
+          "Introitus": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Introitus",
+            "texte": "!Luc 1:13; 1:15; 1:14\nv. Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multi in nativitáte ejus gaudébunt.\n!Ps 20:2\nDómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter.\n&Gloria\nv. Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multi in nativitáte ejus gaudébunt.",
+            "incipit": "Ne tímeas, Zacharía,",
+            "mp3": "introitus_ne-timeas-zacharia.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut família tua per viam salútis incédat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum, quem prædíxit, secúra pervéniat, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 1:4-10\nIn diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te formárem in útero, novi te: et ántequam exíres de vulva, sanctificári te, et prophétam in géntibus dedi te. Et dixi: A a a, Dómine Deus: ecce, néscio loqui, quia puer ego sum. Et dixit Dóminus ad me: Noli dícere: Puer sum; quóniam ad ómnia, quæ mittam te, ibis: et univérsa, quæcúmque mandávero tibi, lóqueris. Ne tímeas a fácie eórum: quia tecum ego sum, ut éruam te, dicit Dóminus. Et misit Dóminus manum suam, et tétigit os meum: et dixit Dóminus ad me: Ecce, dedi verba mea in ore tuo; ecce, constítui te hódie super gentes et super regna, ut evéllas, et déstruas et dispérdas et díssipes et ædífices et plantes: dicit Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Graduale",
+            "texte": "!Joann 1:6-7\nFuit homo missus a Deo, cui nomen erat Joánnes.\nV. Hic venit, ut testimónium perhibéret de lúmine, paráre Dómino plebem perféctam.",
+            "incipit": "Fuit homo missus",
+            "mp3": "graduel_fuit-homo.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Evangelium",
+            "texte": "Initium ++ sancti Evangélii secúndum Lucam\n!Luc 1:5-17\nFuit in diébus Heródis, regis Judææ, sacérdos quidam nómine Zacharías, de vice Abía, et uxor illíus de filiábus Aaron, et nomen ejus Elísabeth. Erant autem justi ambo ante Deum, incedéntes in ómnibus mandátis et justificatiónibus Dómini sine queréla, et non erat illis fílius, eo quod esset Elísabeth stérilis, et ambo processíssent in diébus suis. Factum est autem, cum sacerdótio fungerétur in órdine vicis suæ ante Deum, secúndum consuetúdinem sacerdótii, sorte éxiit, ut incénsum póneret, ingréssus in templum Dómini: et omnis multitúdo pópuli erat orans foris hora incénsi. Appáruit autem illi Angelus Dómini, stans a dextris altáris incénsi. Et Zacharias turbátus est, videns, et timor írruit super eum. Ait autem ad illum Angelus: Ne tímeas, Zacharía, quóniam exaudíta est deprecátio tua: et uxor tua Elísabeth páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit gáudium tibi et exsultátio, et multi in nativitáte ejus gaudébunt: erit enim magnus coram Dómino: et vinum, et síceram non bibet, et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multos filiórum Israël convértet ad Dóminum, Deum ipsórum: et ipse præcédet ante illum in spíritu et virtúte Elíæ: ut convértat corda patrum in fílios, et incrédulos ad prudéntiam justórum, paráre Dómino plebem perféctam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nGlória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "incipit": "Glória et honore",
+            "mp3": "offertoire_gloria-et-honore.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne Baptista, nos per hæc a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:6\nMagna est glória ejus in salutári tuo: glóriam et magnum decórem impónes super eum, Dómine.",
+            "incipit": "Magna est glória",
+            "mp3": "communion_magna-est-gloria.mp3",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Latin/Sancti/06-23.txt",
+            "section": "Postcommunio",
+            "texte": "Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et, quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          }
+        },
+        "Francais": {
+          "Introitus": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Introitus",
+            "texte": "!Luc 1:13; 1:15; 1:14\nv. Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multi in nativitáte ejus gaudébunt.\n!Ps 20:2\nDómine, in virtúte tua lætábitur rex: et super salutáre tuum exsultábit veheménter.\n&Gloria\nv. Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multi in nativitáte ejus gaudébunt.",
+            "incipit": "Ne tímeas, Zacharía,",
+            "mp3": "introitus_ne-timeas-zacharia.mp3",
+            "references": null
+          },
+          "Oratio": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Oratio",
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut família tua per viam salútis incédat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum, quem prædíxit, secúra pervéniat, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          },
+          "Lectio": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Lectio",
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 1:4-10\nIn diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te formárem in útero, novi te: et ántequam exíres de vulva, sanctificári te, et prophétam in géntibus dedi te. Et dixi: A a a, Dómine Deus: ecce, néscio loqui, quia puer ego sum. Et dixit Dóminus ad me: Noli dícere: Puer sum; quóniam ad ómnia, quæ mittam te, ibis: et univérsa, quæcúmque mandávero tibi, lóqueris. Ne tímeas a fácie eórum: quia tecum ego sum, ut éruam te, dicit Dóminus. Et misit Dóminus manum suam, et tétigit os meum: et dixit Dóminus ad me: Ecce, dedi verba mea in ore tuo; ecce, constítui te hódie super gentes et super regna, ut evéllas, et déstruas et dispérdas et díssipes et ædífices et plantes: dicit Dóminus omnípotens.",
+            "references": null
+          },
+          "Graduale": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Graduale",
+            "texte": "!Joann 1:6-7\nFuit homo missus a Deo, cui nomen erat Joánnes.\nV. Hic venit, ut testimónium perhibéret de lúmine, paráre Dómino plebem perféctam.",
+            "incipit": "Fuit homo missus",
+            "mp3": "graduel_fuit-homo.mp3",
+            "references": null
+          },
+          "Tractus": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Tractus",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "incipit": null,
+            "mp3": null,
+            "references": null
+          },
+          "Evangelium": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Evangelium",
+            "texte": "Initium ++ sancti Evangélii secúndum Lucam\n!Luc 1:5-17\nFuit in diébus Heródis, regis Judææ, sacérdos quidam nómine Zacharías, de vice Abía, et uxor illíus de filiábus Aaron, et nomen ejus Elísabeth. Erant autem justi ambo ante Deum, incedéntes in ómnibus mandátis et justificatiónibus Dómini sine queréla, et non erat illis fílius, eo quod esset Elísabeth stérilis, et ambo processíssent in diébus suis. Factum est autem, cum sacerdótio fungerétur in órdine vicis suæ ante Deum, secúndum consuetúdinem sacerdótii, sorte éxiit, ut incénsum póneret, ingréssus in templum Dómini: et omnis multitúdo pópuli erat orans foris hora incénsi. Appáruit autem illi Angelus Dómini, stans a dextris altáris incénsi. Et Zacharias turbátus est, videns, et timor írruit super eum. Ait autem ad illum Angelus: Ne tímeas, Zacharía, quóniam exaudíta est deprecátio tua: et uxor tua Elísabeth páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit gáudium tibi et exsultátio, et multi in nativitáte ejus gaudébunt: erit enim magnus coram Dómino: et vinum, et síceram non bibet, et Spíritu Sancto replébitur adhuc ex útero matris suæ: et multos filiórum Israël convértet ad Dóminum, Deum ipsórum: et ipse præcédet ante illum in spíritu et virtúte Elíæ: ut convértat corda patrum in fílios, et incrédulos ad prudéntiam justórum, paráre Dómino plebem perféctam.",
+            "references": null
+          },
+          "Offertorium": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Offertorium",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
+            "incipit": "Vous l’avez couronné",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C1v.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Secreta": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Secreta",
+            "texte": "Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne Baptista, nos per hæc a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
+            "references": null
+          },
+          "Prefatio": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Prefatio",
+            "texte": "",
+            "references": null
+          },
+          "Communio": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Communio",
+            "texte": "!Ps 20:6\nGrande est sa gloire, grâce à votre salut : vous le couvrirez de gloire et d’un honneur immense.",
+            "incipit": "Grande est sa",
+            "mp3": null,
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C1v.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
+          },
+          "Postcommunio": {
+            "fichier": "Francais/Sancti/06-23.txt",
+            "section": "Postcommunio",
+            "texte": "Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et, quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
+          }
+        }
+      },
+      "fichiers_utilises": [
+        "Francais/Sancti/06-23.txt",
+        "Latin/Sancti/06-23.txt"
+      ],
+      "sections_vides": 6,
+      "numero": 1
+    }
+  ]
 }
