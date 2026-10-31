@@ -166,9 +166,47 @@ main > h1::before {
   -webkit-hyphens: auto;
 }
 
-/* Lettrine : uniquement sur une lettre (pas sur "!", "℣", "℟", etc.) */
-#messe .section > p:not(.ref):not(.gloria):first-of-type::first-letter,
-#messe .texte::first-letter {
+/* ---------- Superposition FR / LA : une seule langue visible à la fois ---------- */
+#messe .pile { position: relative; }
+#messe .pile .texte { display: none; }
+#messe .pile.langue-fr .texte-fr,
+#messe .pile.langue-la .texte-la { display: block; }
+
+/* Bouton de bascule FR / LA */
+#messe .bascule {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  background: none;
+  border: 1px solid var(--or);
+  color: var(--or);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  margin: 0.4rem 0;
+  cursor: pointer;
+}
+
+/* Origine de l'extrait : doré, gras, taille moyenne */
+#messe .origine {
+  color: var(--or);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 0.6rem;
+  text-align: left;
+}
+
+/* Lettrine dorée : uniquement sur le corps du psaume (classe .corps) */
+#messe .corps::first-letter {
+  font-family: 'Cinzel', serif;
+  color: var(--or);
+  float: left;
+  font-size: 3.1rem;
+  line-height: 0.85;
+  padding: 0.25rem 0.5rem 0 0;
+}
+
+/* Lettrine générique : sections sans .corps (hors psaume) */
+#messe .section > p:not(.ref):not(.gloria):not(.origine):not(.corps):first-of-type::first-letter {
   font-family: 'Cinzel', serif;
   color: var(--or);
   float: left;
