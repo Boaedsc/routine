@@ -29,17 +29,16 @@
     return typeof t === 'string' && t.trim().length > 0;
   }
 
-  // Nettoie les marqueurs de rubrique du texte source :
-  // "!Ps 97:1" -> "Ps 97:1", "&Gloria" -> "Gloria Patri", "℣"/"v." gardés
+  // Nettoie les marqueurs de rubrique du texte source
   function nettoyer(t) {
     if (!texteOk(t)) return '';
     return t
       .split('\n')
       .map(function (ligne) {
         return ligne
-          .replace(/^\s*!\s*/, '')          // marque de rubrique en début de ligne
+          .replace(/^\s*!\s*/, '')
           .replace(/^\s*&Gloria\s*$/, 'Gloria Patri')
-          .replace(/^\s*\$/, '');           // marqueur $ (ex. "$Qui tecum")
+          .replace(/^\s*\$/, '');
       })
       .join('\n')
       .trim();
@@ -68,7 +67,6 @@
     h.textContent = TITRES[cle] || cle;
     block.appendChild(h);
 
-    // Incipit juste après le titre
     var inc = nettoyer((fr && fr.incipit) || (la && la.incipit));
     if (inc) {
       var pInc = document.createElement('p');
@@ -77,7 +75,6 @@
       block.appendChild(pInc);
     }
 
-    // Textes
     if (frTexte) {
       var pFr = document.createElement('p');
       pFr.className = 'texte texte-fr';
@@ -91,7 +88,6 @@
       block.appendChild(pLa);
     }
 
-    // Audio en dernier, sous le texte, sans titre
     var mp3 = (fr && fr.mp3) || (la && la.mp3);
     if (texteOk(mp3)) {
       var wrap = document.createElement('div');
@@ -179,6 +175,7 @@
       .then(renderJour)
       .catch(function (err) {
         $('titre').textContent = '';
+        $('meta').textContent = '';
         showError('Impossible de charger la messe du ' + dateStr
                   + ' (' + (err && err.message ? err.message : 'erreur inconnue') + ').');
       });
