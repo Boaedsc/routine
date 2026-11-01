@@ -3,13 +3,18 @@
   'use strict';
 
   var BASE_JSON = 'messes';
-  var ORDRE = ['Introitus', 'Oratio', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
-               'Evangelium', 'Offertorium', 'Secreta', 'Prefatio', 'Communio', 'Postcommunio'];
+  var ORDRE = ['Introitus', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
+               'Evangelium', 'Offertorium', 'Communio'];
   var TITRES = {
-    Introitus: 'Introït', Oratio: 'Collecte', Lectio: 'Épître', Graduale: 'Graduel',
-    Tractus: 'Trait', Alleluia: 'Alléluia', Evangelium: 'Évangile', Offertorium: 'Offertoire',
-    Secreta: 'Secrète', Prefatio: 'Préface', Communio: 'Communion', Postcommunio: 'Postcommunion'
+    Introitus: 'Introït', Lectio: 'Épître', Graduale: 'Graduel',
+    Tractus: 'Trait', Alleluia: 'Alléluia', Evangelium: 'Évangile',
+    Offertorium: 'Offertoire', Communio: 'Communion'
   };
+  // Sections toujours en français uniquement
+  var FR_SEULEMENT = ['Lectio', 'Evangelium'];
+  // Sections où l'incipit n'est pas affiché
+  var SANS_INCIPIT = ['Introitus', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
+                      'Evangelium', 'Offertorium', 'Communio'];
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -36,12 +41,21 @@
       .split('\n')
       .map(function (ligne) {
         return ligne
-          .replace(/^\s*!\s*/, '')
           .replace(/^\s*&Gloria\s*$/, 'Gloria Patri')
           .replace(/^\s*\$/, '');
       })
       .join('\n')
       .trim();
+  }
+
+  // Sépare l'origine (ligne commençant par "!") du corps du texte
+  function decouper(t) {
+    var lignes = t.split('\n');
+    var origine = '';
+    if (lignes.length && /^\s*!/.test(lignes[0])) {
+      origine = lignes.shift().replace(/^\s*!\s*/, '').trim();
+    }
+    return { origine: origine, corps: lignes.join('\n').trim() };
   }
 
   function showError(message) {
@@ -54,10 +68,34 @@
     zone.appendChild(err);
   }
 
+  // Construit le bloc texte (origine + corps), utilisé pour FR et LA
+  function construireTexte(brut, classeLangue) {
+    var d = decouper(brut);
+    var conteneur = document.createElement('div');
+    conteneur.className = 'texte ' + classeLangue;
+
+    if (d.origine) {
+      var o = document.createElement('p');
+      o.className = 'origine';
+      o.textContent = d.origine;
+      conteneur.appendChild(o);
+    }
+
+    if (d.corps) {
+      var c = document.createElement('p');
+      c.className = 'corps';
+      c.textContent = d.corps;
+      conteneur.appendChild(c);
+    }
+    return conteneur;
+  }
+
   function renderSection(cle, fr, la) {
     var frTexte = nettoyer(fr && fr.texte);
     var laTexte = nettoyer(la && la.texte);
     if (!frTexte && !laTexte) return null;
+
+    var bilingue = FR_SEULEMENT.indexOf(cle) === -1 && laTexte && frTexte;
 
     var block = document.createElement('section');
     block.className = 'section';
@@ -67,38 +105,56 @@
     h.textContent = TITRES[cle] || cle;
     block.appendChild(h);
 
-    var inc = nettoyer((fr && fr.incipit) || (la && la.incipit));
-    if (inc) {
-      var pInc = document.createElement('p');
-      pInc.className = 'incipit';
-      pInc.textContent = inc;
-      block.appendChild(pInc);
+    // Incipit : seulement si la section ne fait pas partie de SANS_INCIPIT
+    if (SANS_INCIPIT.indexOf(cle) === -1) {
+      var inc = nettoyer((fr && fr.incipit) || (la && la.incipit));
+      if (inc) {
+        var pInc = document.createElement('p');
+        pInc.className = 'incipit';
+        pInc.textContent = inc;
+        block.appendChild(pInc);
+      }
     }
 
-    if (frTexte) {
-      var pFr = document.createElement('p');
-      pFr.className = 'texte texte-fr';
-      pFr.textContent = frTexte;
-      block.appendChild(pFr);
-    }
-    if (laTexte && laTexte !== frTexte) {
-      var pLa = document.createElement('p');
-      pLa.className = 'texte texte-la';
-      pLa.textContent = laTexte;
-      block.appendChild(pLa);
+    if (bilingue) {
+      // Superposition FR / LA, bascule par bouton
+      var pile = document.createElement('div');
+      pile.className = 'pile langue-fr';
+      pile.appendChild(construireTexte(frTexte, 'texte-fr'));
+      pile.appendChild(construireTexte(laTexte, 'texte-la'));
+      block.appendChild(pile);
+
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'bascule';
+      btn.textContent = 'LA';
+      btn.setAttribute('aria-label', 'Basculer entre français et latin');
+      btn.addEventListener('click', function () {
+        var estFr = pile.classList.toggle('langue-fr');
+        pile.classList.toggle('langue-la', !estFr);
+        btn.textContent = estFr ? 'LA' : 'FR';
+      });
+      block.appendChild(btn);
+    } else {
+      // Français seul (Lectio, Evangelium) ou latin seul en secours
+      block.appendChild(construireTexte(frTexte || laTexte, frTexte ? 'texte-fr' : 'texte-la'));
     }
 
+    // Audio en dernier
     var mp3 = (fr && fr.mp3) || (la && la.mp3);
     if (texteOk(mp3)) {
+      var dossierAudio = 'Graduale Project/';
+      var chemin = dossierAudio + mp3.replace(/^\/+/, '');
+      var src = encodeURI(chemin);
       var wrap = document.createElement('div');
       wrap.className = 'audio';
       var audio = document.createElement('audio');
       audio.controls = true;
-      audio.preload = 'none';
-      audio.src = encodeURI(mp3);
+      audio.preload = 'metadata';
+      audio.src = src;
       audio.addEventListener('error', function () {
         wrap.classList.add('audio-indispo');
-        wrap.setAttribute('title', 'Fichier audio introuvable : ' + mp3);
+        wrap.setAttribute('title', 'Fichier audio introuvable : ' + chemin);
       });
       wrap.appendChild(audio);
       block.appendChild(wrap);
@@ -115,7 +171,6 @@
     $('titre').textContent = occ.nom_sanctoral || occ.gagnant || '';
 
     var meta = [];
-    if (occ.classe != null) meta.push('classe ' + occ.classe);
     if (occ.commemorations && occ.commemorations.length) {
       meta.push('commémoration' + (occ.commemorations.length > 1 ? 's' : '') + ' : '
                 + occ.commemorations.join(', '));
