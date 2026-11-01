@@ -32,7 +32,7 @@
             "section": "Introitus",
             "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
             "incipit": "Sapiéntiam Sanctórum narrent",
-            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "mp3": null,
             "references": null
           },
           "Oratio": {
@@ -42,9 +42,9 @@
             "references": null
           },
           "Lectio": {
-            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "fichier": "Latin/Sancti/09-27.txt",
             "section": "Lectio",
-            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem.",
+            "texte": "",
             "references": null
           },
           "Graduale": {
@@ -56,10 +56,10 @@
             "references": null
           },
           "Tractus": {
-            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "fichier": "Latin/Sancti/09-27.txt",
             "section": "Tractus",
-            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flebant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
-            "incipit": "Anima nostra, sicut",
+            "texte": "",
+            "incipit": null,
             "mp3": null,
             "references": null
           },
@@ -138,7 +138,7 @@
           "Oratio": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Oratio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum Cosmæ et Damiáni natalítia cólimus, a cunctis malis imminéntibus, eórum intercessiónibus, liberémur.\n$Per Dominum",
+            "texte": "Accordez-nous, s’il vous plaît, ô Dieu tout-puissant, que, célébrant la naissance au ciel de vos bienheureux Martyrs Côme et Damien, nous soyons délivrés, grâce à leur intercession, de tous les maux qui nous menacent.\n$Per Dominum",
             "references": null
           },
           "Lectio": {
@@ -150,16 +150,16 @@
           "Graduale": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Graduale",
-            "texte": "!Ps 33:18-19\nClamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos.\nV. Juxta est Dóminus his, qui tribuláto sunt corde: et húmiles spíritu salvabit. Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita tenens regna cœléstia. Allelúja.",
-            "incipit": "Clamavérunt justi, et",
+            "texte": "!Ps 33:18-19\nLes justes ont crié, et le Seigneur les a exaucés, et il les a délivrés de toutes leurs tribulations.\nV. Le Seigneur est près de ceux qui ont le cœur affligé, et il sauvera les humbles d’esprit. Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia.",
+            "incipit": "Les justes ont",
             "mp3": null,
             "references": null
           },
           "Tractus": {
-            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "fichier": "Francais/Sancti/09-27.txt",
             "section": "Tractus",
-            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 125:5-6\nCeux qui sèment dans les larmes, récolteront dans la joie.\nV. Ils marchaient, pleurant, jetant leur semence.\nV. Mais ils reviendront avec joie, portant leurs gerbes.",
-            "incipit": "Notre âme, comme",
+            "texte": "",
+            "incipit": null,
             "mp3": null,
             "references": null
           },
@@ -180,22 +180,15 @@
           "Offertorium": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Offertorium",
-            "texte": "!Ps 5:12-13\nTous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste : Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier.",
-            "incipit": "Tous ceux qui",
+            "texte": "!Ps 5:12-13\ntous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste. Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier.",
+            "incipit": "tous ceux qui",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-26.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Secreta",
-            "texte": "Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "texte": "Que la pieuse intercession de vos Saints ne nous fasse point défaut, Seigneur, qu’elle vous rende nos dons agréables et nous obtienne toujours votre indulgence.\n$Per Dominum",
             "references": null
           },
           "Prefatio": {
@@ -207,33 +200,25 @@
           "Communio": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Communio",
-            "texte": "!Ps 78:2; &8:11\nIls ont livré les cadavres de vos serviteurs en pâture aux oiseaux du ciel, et la chair de vos fidèles aux bêtes de la terre : selon la grandeur de votre bras, gardez les fils de ceux qu’on a fait mourir.",
+            "texte": "!Ps 78:2; 78:11\nIls ont livré les cadavres de vos serviteurs en pâture aux oiseaux du ciel, et la chair de vos fidèles aux bêtes de la terre : selon la grandeur de votre bras, gardez les fils de ceux qu’on a fait mourir.",
             "incipit": "Ils ont livré",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/07-30.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-27.txt",
             "section": "Postcommunio",
-            "texte": "Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis indúlta convívii, et deprecátio colláta Sanctórum.\n$Per Dominum",
+            "texte": "Nous vous en prions, Seigneur, que soient une source de protection pour votre peuple et la participation au céleste banquet qui lui est accordée et la prière des Saints qui lui est assurée.\n$Per Dominum",
             "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "../horas/Francais/Commune/C3a.txt",
         "../horas/Latin/Commune/C3a.txt",
         "Francais/Sancti/09-27.txt",
         "Latin/Sancti/09-27.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 8,
       "numero": 1
     }
   ]

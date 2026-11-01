@@ -32,7 +32,7 @@
             "section": "Introitus",
             "texte": "!Ps 44:13; 44:15-16\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)",
             "incipit": "Vultum tuum deprecabúntur",
-            "mp3": "introitus_vultum-tuum.mp3",
+            "mp3": null,
             "references": [
               {
                 "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
@@ -49,10 +49,24 @@
             "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Quad5-3.txt",
+            "fichier": "Latin/Sancti/03-25.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Levítici.\n!Lev 19:1-2, 11-19, 25\nIn diébus illis: Locútus est Dóminus ad Móysen, dicens: Lóquere ad omnem cœtum filiórum Israël, et dices ad eos: Ego Dóminus, Deus vester. Non faciétis furtum. Non mentiémini, nec decípiet unusquísque próximum suum. Non perjurábis in nómine meo, nec póllues nomen Dei tui. Ego Dóminus. Non fácies calúmniam próximo tuo: nec vi ópprimes eum. Non morábitur opus mercenárii tui apud te usque mane. Non maledíces surdo, nec coram cæco pones offendículum: sed timébis Dóminum, Deum tuum, quia ego sum Dóminus. Non fácies quod iníquum est, nec injúste judicábis. Non consíderes persónam páuperis, nec honóres vultum poténtis. Juste júdica próximo tuo. Non eris criminátor, nec susúrro in pópulo. Non stabis contra sánguinem próximi tui. Ego Dóminus. Non óderis fratrem tuum in corde tuo, sed públice árgue eum, ne hábeas super illo peccátum. Non quæras ultiónem, nec memor eris injúriæ cívium tuórum. Díliges amícum tuum sicut teípsum. Ego Dóminus. Leges meas custodíte. Ego enim sum Dóminus, Deus vester.",
-            "references": null
+            "texte": "Lectio Isaíæ Prophétæ\n!Is 7:10-15\nIn diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit: Audíte ergo, domus David: Numquid parum vobis est, moléstos esse homínibus, quia molesti estis et Deo meo? Propter hoc dabit Dóminus ipse vobis signum. Ecce, Virgo concípiet et páriet fílium, et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat reprobare malum et elígere bonum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
+                    "section": "Lectio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Graduale": {
             "fichier": "../horas/Latin/Commune/C11.txt",
@@ -79,17 +93,31 @@
             "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Quad5-3.txt",
+            "fichier": "Latin/Sancti/03-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 10:22-38\nIn illo témpore: Facta sunt encǽnia in Jerosólymis: et hiems erat. Et ambulábat Jesus in templo, in pórticu Salomónis. Circumdedérunt ergo eum Judǽi, et dicébant ei: Quoúsque ánimam nostram tollis? Si tu es Christus, dic nobis palam. Respóndit eis Jesus: Loquor vobis, et non créditis: Opera, quæ ego fácio in nómine Patris mei, hæc testimónium pérhibent de me: sed vos non créditis, quia non estis ex óvibus meis. Oves meæ vocem meam áudiunt: et ego cognósco eas, et sequúntur me: et ego vitam ætérnam do eis: et non períbunt in ætérnum, et non rápiet eas quisquam de manu mea. Pater meus quod dedit mihi, majus ómnibus est: et nemo potest rápere de manu Patris mei. Ego et Pater unum sumus. Sustulérunt ergo lápides Judǽi, ut lapidárent eum.  Respóndit eis Jesus: Multa bona ópera osténdi vobis ex Patre meo, propter quod eórum opus me lapidátis? Respondérunt ei Judǽi: De bono ópere non lapidámus te, sed de blasphémia: et quia tu, homo cum sis, facis teípsum Deum. Respóndit eis Jesus: Nonne scriptum est in lege vestra: quia ego dixi, dii estis? Si illos dixit deos, ad quos sermo Dei factus est, et non potest solvi Scriptúra: quem Pater sanctificávit, et misit in mundum, vos dícitis: Quia blasphémas: quia dixi, Fílius Dei sum? Si non fácio ópera Patris mei, nolíte crédere mihi. Si autem fácio, et si mihi non vultis crédere, opéribus crédite, ut cognoscátis et credátis, quia Pater in me est et ego in Patre.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Offertorium": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Offertorium",
             "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
             "incipit": "Ave, María, grátia",
-            "mp3": "offertoire_ave-maria.mp3",
+            "mp3": "offertoire_ave-maria-et.mp3",
             "references": [
               {
                 "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
@@ -151,28 +179,21 @@
           "Introitus": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:13; 44:15-16\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème. Je dis mes œuvres au Roi.\n&Gloria\nv. Tous les riches du peuple recherchent votre visage. Après elle des vierges seront conduites au Roi. Ses proches te seront amenées dans la joie et l'allégresse. (Alléluja, alléluja.)",
+            "texte": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)",
             "incipit": "Tous les riches",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10b.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Oratio",
-            "texte": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur.\n$Per eundem",
+            "texte": "Ô Dieu, qui avez voulu que votre Verbe prît un corps humain à la parole de l’Ange dans le sein de la bienheureuse Vierge Marie ; accordez à ceux qui vous en supplient que, nous qui la croyons véritablement Mère de Dieu, nous soyons secourus auprès de vous grâce à son intercession.\n$Per eundem",
             "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Quad5-3.txt",
+            "fichier": "Francais/Sancti/03-25.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Levítici.\n!Lev 19:1-2, 11-19, 25\nIn diébus illis: Locútus est Dóminus ad Móysen, dicens: Lóquere ad omnem cœtum filiórum Israël, et dices ad eos: Ego Dóminus, Deus vester. Non faciétis furtum. Non mentiémini, nec decípiet unusquísque próximum suum. Non perjurábis in nómine meo, nec póllues nomen Dei tui. Ego Dóminus. Non fácies calúmniam próximo tuo: nec vi ópprimes eum. Non morábitur opus mercenárii tui apud te usque mane. Non maledíces surdo, nec coram cæco pones offendículum: sed timébis Dóminum, Deum tuum, quia ego sum Dóminus. Non fácies quod iníquum est, nec injúste judicábis. Non consíderes persónam páuperis, nec honóres vultum poténtis. Juste júdica próximo tuo. Non eris criminátor, nec susúrro in pópulo. Non stabis contra sánguinem próximi tui. Ego Dóminus. Non óderis fratrem tuum in corde tuo, sed públice árgue eum, ne hábeas super illo peccátum. Non quæras ultiónem, nec memor eris injúriæ cívium tuórum. Díliges amícum tuum sicut teípsum. Ego Dóminus. Leges meas custodíte. Ego enim sum Dóminus, Deus vester.",
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien.",
             "references": null
           },
           "Graduale": {
@@ -186,8 +207,8 @@
           "Tractus": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Tractus",
-            "texte": "!Ps 44:3 et 5\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11 et 12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13 et 10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Adducéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
-            "incipit": "Diffúsa est grátia",
+            "texte": "!Ps 44:3 et 5.\nLa grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles.\nV. Pour la vérité, la douceur et la justice ; et votre droite voua conduira merveilleusement.\n!Ps 44:11 et 12.\nÉcoutez, ma fille, et prêtez l’oreille, car le roi s’est épris de votre beauté.\n!Ps 44:13 et 10.\nTous les riches d’entre le peuple vous offriront leurs humbles prières.\n!Ps 44:15-16.\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au roi.\nV. Elles seront présentées au milieu de la joie et de l’allégresse ; elles seront conduites au temple du roi.",
+            "incipit": "La grâce est",
             "mp3": null,
             "references": null
           },
@@ -200,45 +221,24 @@
             "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Quad5-3.txt",
+            "fichier": "Francais/Sancti/03-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 10:22-38\nIn illo témpore: Facta sunt encǽnia in Jerosólymis: et hiems erat. Et ambulábat Jesus in templo, in pórticu Salomónis. Circumdedérunt ergo eum Judǽi, et dicébant ei: Quoúsque ánimam nostram tollis? Si tu es Christus, dic nobis palam. Respóndit eis Jesus: Loquor vobis, et non créditis: Opera, quæ ego fácio in nómine Patris mei, hæc testimónium pérhibent de me: sed vos non créditis, quia non estis ex óvibus meis. Oves meæ vocem meam áudiunt: et ego cognósco eas, et sequúntur me: et ego vitam ætérnam do eis: et non períbunt in ætérnum, et non rápiet eas quisquam de manu mea. Pater meus quod dedit mihi, majus ómnibus est: et nemo potest rápere de manu Patris mei. Ego et Pater unum sumus. Sustulérunt ergo lápides Judǽi, ut lapidárent eum.  Respóndit eis Jesus: Multa bona ópera osténdi vobis ex Patre meo, propter quod eórum opus me lapidátis? Respondérunt ei Judǽi: De bono ópere non lapidámus te, sed de blasphémia: et quia tu, homo cum sis, facis teípsum Deum. Respóndit eis Jesus: Nonne scriptum est in lege vestra: quia ego dixi, dii estis? Si illos dixit deos, ad quos sermo Dei factus est, et non potest solvi Scriptúra: quem Pater sanctificávit, et misit in mundum, vos dícitis: Quia blasphémas: quia dixi, Fílius Dei sum? Si non fácio ópera Patris mei, nolíte crédere mihi. Si autem fácio, et si mihi non vultis crédere, opéribus crédite, ut cognoscátis et credátis, quia Pater in me est et ego in Patre.",
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole.",
             "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/03-25.txt",
+            "fichier": "Francais/Sancti/03-25.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
-            "incipit": "Ave, María, grátia",
-            "mp3": "offertoire_ave-maria.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
-                    "section": "Offertorium",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "texte": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)",
+            "incipit": "Je vous salue,",
+            "mp3": null,
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Secreta",
-            "texte": "Affermissez en nous, Seigneur, les sacrements de la vraie foi, afin que, par la puissance de la résurrection du Christ qui nous sauve, lui que nous confessons vrai Dieu et vrai homme, nous méritions de parvenir à la joie éternelle.\n$Per eumdem",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10a.txt",
-                "section": "Secreta",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Affermissez en nos âmes, Seigneur, la foi à la vérité de vos mystères, afin que nous qui reconnaissons qu’un Homme-Dieu véritable a été conçu d’une Vierge, nous méritions, par la vertu de sa résurrection salutaire, de parvenir à l’éternelle félicité.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/03-25.txt",
@@ -249,22 +249,15 @@
           "Communio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Communio",
-            "texte": "!Is 7:14\nVoici que la Vierge concevra et elle enfantera un fils, et on l'appellera Emmanuel.",
-            "incipit": "Voici que la",
+            "texte": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)",
+            "incipit": "Une vierge concevra",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C10a.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Postcommunio",
-            "texte": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.\n$Per eundem",
+            "texte": "Répandez, s’il vous plaît, Seigneur, votre grâce dans nos âmes, afin que nous, qui avons connu l’incarnation du Christ, votre Fils, qui s’est accomplie à la suite d’un message angélique, nous arrivions, par sa passion et sa croix, à la gloire de la résurrection.\n$Per eundem",
             "references": null
           }
         }
@@ -273,9 +266,7 @@
         "../horas/Francais/Commune/C11.txt",
         "../horas/Latin/Commune/C11.txt",
         "Francais/Sancti/03-25.txt",
-        "Francais/Tempora/Quad5-3.txt",
-        "Latin/Sancti/03-25.txt",
-        "Latin/Tempora/Quad5-3.txt"
+        "Latin/Sancti/03-25.txt"
       ],
       "sections_vides": 4,
       "numero": 1

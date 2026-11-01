@@ -5,6 +5,7 @@ import argparse, datetime as dt, json, os, re
 from pathlib import Path
 
 PARTS = ['Introitus','Oratio','Lectio','Graduale','Tractus','Alleluia','Evangelium','Offertorium','Secreta','Prefatio','Communio','Postcommunio']
+SCRIPTURE_PARTS = ('Lectio','Evangelium')
 VERSION='Rubrics 1960 - 1960'
 
 def easter(y:int)->dt.date:
@@ -240,6 +241,19 @@ def inherited_document(path:Path|None,data:Path,lang='Latin')->dict[str,str]:
             if val:doc[key]=val
     return doc
 
+def _extraire_partie(doc:dict[str,str],part:str)->tuple[str,str]:
+    """Retourne (texte, section) pour une partie ; Tractus/Alleluia sont
+    parfois logés dans Graduale après un marqueur !Tractus / !Alleluia."""
+    if part in ('Tractus','Alleluia'):
+        raw=doc.get('Graduale','')
+        marker='!'+part
+        if marker in raw:
+            t=re.split(r'(?m)^!'+part+r'\s*$',raw,maxsplit=1)[-1]
+            t=re.split(r'(?m)^!(?:Alleluia|Tractus)\s*$',t)[0].strip()
+            return t,'Graduale'
+        return doc.get(part,'').strip(),part
+    return doc.get(part,'').strip(),part
+
 def _permanent_map(tab:Path,date:dt.date,version=VERSION)->tuple[dict[str,str],str|None]:
     """Lecture fixe Directorium::load_tempora(Generale) et inheritance via base."""
     current=version; seen=set(); merged={}; firsttag=None
@@ -333,7 +347,7 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
     commem=[]
     for val in entries:
         f=val.split('=');commem.extend([x for x in f[4:] if x and not x.isdigit()])
-    # Le sanctoral est désormais fourni par l'appelant (main_mass), qui énumère les variantes mN.
+    # Le sanctoral est fourni par l'appelant (main_mass), qui énumère les variantes mN.
     if saint and _is_transferred_away(tab,date,saint):saint=None
     sp=find_file(data,'Latin',saint) if saint else None
     ts=inherited_document(tp,data) if tp else {}; ss=inherited_document(sp,data) if sp else {}
@@ -348,12 +362,23 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
     winner=saint if twinner else temporal
     wp=sp if twinner else tp; win=ss if twinner else ts
     if not win and ss:winner=saint;wp=sp;win=ss;twinner=True
-    scripture_path=tp if tp and (twinner and ts.get('Lectio')) else wp
+
+    # Lectio/Evangelium : le gagnant fournit ses propres lectures, le temporal en repli.
+    if twinner:
+        scripture_primary=sp if (ss.get('Lectio') or ss.get('Evangelium')) else tp
+        scripture_fallback=tp if scripture_primary is sp else sp
+    else:
+        scripture_primary=tp or wp
+        scripture_fallback=sp
+
+    # Table Stransfer : ne redirige que si le temporal gagne (ne touche pas une fête d'ordre 1).
     scripture_transfer,scripture_table=annual_transfer(tab,date,kind='Stransfer')
-    if scripture_transfer:
+    if scripture_transfer and not twinner:
         st=scripture_transfer[0]
         rel=st if '/' in st else f'Tempora/{st}'
-        scripture_path=find_file(data,'Latin',rel) or find_file(data,'Latin',f'Tempora/{st}') or scripture_path
+        redirected=find_file(data,'Latin',rel) or find_file(data,'Latin',f'Tempora/{st}')
+        if redirected: scripture_primary=redirected
+
     commref=''
     _,_,rankcommon=rank_info(win)
     m=re.search(r'(?:ex|vide)\s*(C\d+[a-z]*)',rankcommon,re.I)
@@ -361,58 +386,56 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
     rule=win.get('Rule','')
     m2=re.search(r'(?:^|\n)\s*(?:ex|vide)\s*(C\d+[a-z]*)',rule,re.I)
     if m2 and not commref:commref='Commune/'+m2.group(1)
+
     results={}
     for lang in ('Latin','Francais'):
         results[lang]={}
         for part in PARTS:
-            source=scripture_path if part in ('Lectio','Evangelium') else wp
-            base=inherited_document(source,data,lang) if source else {}
-            key=part
-            if part in ('Tractus','Alleluia'):
-                raw=base.get('Graduale','')
-                marker='!'+part
-                if marker in raw:
-                    chunks=re.split(r'(?m)^!'+part+r'\s*$',raw,maxsplit=1)
-                    txt=chunks[-1].strip()
-                    if part=='Tractus':txt=re.split(r'(?m)^!(?:Alleluia)\s*$',txt)[0].strip()
-                    else:txt=re.split(r'(?m)^!(?:Tractus)\s*$',txt)[0].strip()
-                    key='Graduale'
-                    direct=txt
-                else:
-                    direct=base.get(part,''); key=part
-            else:direct=base.get(key,'')
-            chosen=source
-            chosenlangfile=find_file(data,lang,chosen.relative_to(data/'Latin').as_posix()) if chosen and chosen.is_relative_to(data/'Latin') else None
-            candidates=[(chosenlangfile,key,direct)]
-            if commref and part in ('Introitus','Oratio','Lectio','Graduale','Tractus','Alleluia','Offertorium','Secreta','Communio','Postcommunio'):
-                cp=find_file(data,lang,commref); candidates.append((cp,part,''))
-            alt=tp if chosen!=tp else None
-            if alt:candidates.append((find_file(data,lang,alt.relative_to(data/'Latin').as_posix()),part,''))
-            selected=None;txt='';refs=[]
-            for p,k,val in candidates:
-                if val and p and p.is_file(): selected=p;txt=val;key=k;break
-                if p:
-                    v=inherited_section(p,k,data,lang)
-                    if v:selected=p;txt=v;key=k;break
-            if selected:
+            # Lectures : le gagnant puis le repli (temporal/sanctoral) sont autorisés.
+            # Propres (Introit, Graduel, Trait, Alleluia, Offertoire, Communion…) :
+            # uniquement le gagnant. Un repli d'un autre fichier serait faux.
+            if part in SCRIPTURE_PARTS:
+                sources=[s for s in (scripture_primary,scripture_fallback) if s]
+            else:
+                sources=[wp] if wp else []
+
+            selected=None; txt=''; key=part; refs=[]
+            for source in sources:
+                base=inherited_document(source,data,lang)
+                txt,key=_extraire_partie(base,part)
+                rel=source.relative_to(data/'Latin').as_posix() if source.is_relative_to(data/'Latin') else None
+                langfile=find_file(data,lang,rel) if rel else None
+                if lang=='Latin' and source.is_relative_to(data/'Latin'):langfile=source
+                if langfile and langfile.is_file():
+                    doc_lang=inherited_document(langfile,data,lang)
+                    t,key=_extraire_partie(doc_lang,part)
+                    if t: txt=t; selected=langfile; break
+                    selected=langfile
+                if txt: break
+
+            # Commune : uniquement pour les propres, jamais pour Trait/Alleluia
+            # si le gagnant est un sanctoral qui n'en a pas (ex. Toussaint).
+            if commref and part not in SCRIPTURE_PARTS and not txt and part not in ('Tractus','Alleluia'):
+                cp=find_file(data,lang,commref)
+                if cp:
+                    v=inherited_section(cp,part,data,lang)
+                    if v: txt=v; selected=cp
+
+            if selected is None and txt=='' and lang=='Latin' and sources:
+                selected=sources[0]
+            if txt and selected:
                 txt,refs=expand(txt,data,lang,selected,key)
-            if not txt and lang=='Francais':
-                p=find_file(data,'Latin',chosen.relative_to(data/'Latin').as_posix()) if chosen and chosen.is_relative_to(data/'Latin') else None
-                val=inherited_section(p,key,data,'Latin') if p else ''
-                if not val and commref:
-                    p=find_file(data,'Latin',commref);val=inherited_section(p,part,data,'Latin') if p else ''
-                if val and p:txt,refs=expand(val,data,'Latin',p,key);selected=p
+
             if selected and selected.is_relative_to(data):
                 rel=selected.relative_to(data).as_posix()
             elif selected and selected.is_relative_to(data.parent/'horas'):
                 rel='../horas/'+selected.relative_to(data.parent/'horas').as_posix()
-            elif chosenlangfile:
-                rel=chosenlangfile.relative_to(data).as_posix()
-            elif source:
-                rel=source.relative_to(data).as_posix()
+            elif sources:
+                rel=sources[0].relative_to(data).as_posix()
             else:
                 rel=None
             results[lang][part]={'fichier':rel,'section':key,'texte':txt,'references':refs or None}
+
     used=sorted({x['fichier'] for ll in results.values() for x in ll.values() if x['fichier']})
     out={'occurrence':{
             'gagnant':winner,

@@ -42,9 +42,9 @@
             "references": null
           },
           "Lectio": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
+            "fichier": "Latin/Sancti/01-28.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 31:8-11\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+            "texte": "",
             "references": null
           },
           "Graduale": {
@@ -56,10 +56,10 @@
             "references": null
           },
           "Tractus": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
+            "fichier": "Latin/Sancti/01-28.txt",
             "section": "Tractus",
-            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n!Ps 111:1-3\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nV. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
-            "incipit": "Justus ut palma",
+            "texte": "",
+            "incipit": null,
             "mp3": null,
             "references": null
           },
@@ -82,7 +82,7 @@
             "section": "Offertorium",
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
             "incipit": "Véritas mea et",
-            "mp3": "offerorium_veritas-mea.mp3",
+            "mp3": null,
             "references": [
               {
                 "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
@@ -109,7 +109,7 @@
             "section": "Communio",
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
             "incipit": "Beátus servus, quem,",
-            "mp3": "communion_beatus-servus.mp3",
+            "mp3": null,
             "references": [
               {
                 "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
@@ -145,7 +145,7 @@
           "Oratio": {
             "fichier": "Francais/Sancti/01-28.txt",
             "section": "Oratio",
-            "texte": "Deus, qui in tuæ caritátis exémplum ad fidélium redemptiónem sanctum Petrum Ecclésiam tuam nova prole fœcundáre divínitus docuísti: ipsíus nobis intercessióne concéde; a peccáti servitúte solútis, in cœlésti pátria perpétua libertáte gaudére:\n$Qui vivis",
+            "texte": "Ô Dieu, qui, pour donner un exemple de votre charité, avez divinement inspiré à saint Pierre de rendre votre Église mère d’une nouvelle famille pour la rédemption des fidèles captifs, acordez-nous, par son intercession, d’être délivrés de la servitude du péché, et de jouir de la liberté sans fin dans la céleste patrie.\n$Qui vivis",
             "references": null
           },
           "Lectio": {
@@ -163,10 +163,10 @@
             "references": null
           },
           "Tractus": {
-            "fichier": "../horas/Francais/Commune/C5.txt",
+            "fichier": "Francais/Sancti/01-28.txt",
             "section": "Tractus",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.\n!Ps 111:1-3.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.\nV. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
-            "incipit": "Le juste fleurira",
+            "texte": "",
+            "incipit": null,
             "mp3": null,
             "references": null
           },
@@ -195,7 +195,7 @@
           "Secreta": {
             "fichier": "Francais/Sancti/01-28.txt",
             "section": "Secreta",
-            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
+            "texte": "Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.\n$Per Dominum",
             "references": null
           },
           "Prefatio": {
@@ -228,12 +228,11 @@
         }
       },
       "fichiers_utilises": [
-        "../horas/Francais/Commune/C5.txt",
         "../horas/Latin/Commune/C5.txt",
         "Francais/Sancti/01-28.txt",
         "Latin/Sancti/01-28.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 8,
       "numero": 1
     }
   ]

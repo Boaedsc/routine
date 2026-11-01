@@ -77,9 +77,9 @@
             ]
           },
           "Lectio": {
-            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "fichier": "Latin/Tempora/Pent08-5.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:25-27; 45:2-4; 45:6-9\nBenedíctio Dómini super caput justi. Ideo dedit illi Dóminus hereditátem, et divísit illi partem in tríbubus duódecim: et invénit grátiam in conspéctu omnis carnis. Et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspéctu regum, et jussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Et dedit illi coram præcépta, et legem vitæ et disciplínæ, et excélsum fecit illum. Statuit ei testaméntum ætérnum, et circumcínxit eum zona justítiæ: et índuit eum Dóminus corónam glóriæ.",
+            "texte": "",
             "references": null
           },
           "Graduale": {
@@ -164,50 +164,15 @@
             "references": null
           },
           "Oratio": {
-            "fichier": "../horas/Latin/Commune/C1v.txt",
+            "fichier": "Francais/Sancti/07-24.txt",
             "section": "Oratio",
-            "texte": "(sed commune C4)\n(sed commune C4)\n(sed commune C4)",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
-                "section": "Oratio",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": null,
-                    "section": "Oratio",
-                    "resolu": false
-                  },
-                  {
-                    "fichier": null,
-                    "section": "Oratio",
-                    "resolu": false
-                  }
-                ]
-              },
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
-                "section": "Oratio",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": null,
-                    "section": "Oratio",
-                    "resolu": false
-                  },
-                  {
-                    "fichier": null,
-                    "section": "Oratio",
-                    "resolu": false
-                  }
-                ]
-              }
-            ]
+            "texte": "",
+            "references": null
           },
           "Lectio": {
-            "fichier": "../horas/Francais/Commune/C1v.txt",
+            "fichier": "Francais/Tempora/Pent08-5.txt",
             "section": "Lectio",
-            "texte": "Lecture du livre de la Sagesse\n!Eccli 44:25-27; 45:2-4; 45:6-9\nLa bénédiction du Seigneur repose sur la tête du juste. C’est pourquoi il lui donna le pays en héritage ; il le partagea entre les douze tribus. Ce juste trouva grâce auprès de toute chair. Le Seigneur l’a rendu grand et redoutable à ses ennemis ; par ses paroles il a fait cesser les prodiges. Il l’a glorifié devant les rois, il lui a donné ses commandements devant son peuple, il lui a fait voir sa gloire. Il l’a sanctifié dans sa foi et dans sa douceur. Il l’a choisi entre tous les mortels. Il lui a donné ses préceptes face à face, et la loi de la vie et de la science. Il l’a élevé. Il a fait avec lui une alliance éternelle, il l’a ceint d’une ceinture de justice et il l’a couvert de la couronne de la gloire.",
+            "texte": "",
             "references": null
           },
           "Graduale": {
@@ -287,9 +252,11 @@
         "../horas/Francais/Commune/C1v.txt",
         "../horas/Latin/Commune/C1v.txt",
         "Francais/Sancti/07-24.txt",
-        "Latin/Sancti/07-24.txt"
+        "Francais/Tempora/Pent08-5.txt",
+        "Latin/Sancti/07-24.txt",
+        "Latin/Tempora/Pent08-5.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 9,
       "numero": 1
     }
   ]
