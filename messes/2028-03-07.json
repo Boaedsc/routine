@@ -28,202 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C5a.txt",
-            "section": "Introitus",
             "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
-            "incipit": "In médio Ecclésiæ",
+            "incipit": {
+              "incipit": "In medio Ecclesiae",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(df~) mé(fff)di(f)o(f) *() Ec(f)clé(gfg)si(f)ae(fff) (,) a(cd)pé(fff)ru(f)it(f) os(g_[oh:h]f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus :(f.) (:) et(f) im(f)plé(ixf!gwh'!iv)vit(h) e(hjjh)um(h.) Dó(gh)mi(gf)nus(f.) (,) spí(fh)ri(g)tu(f) sa(fgf)pi(ef'g)én(gh~)ti(f)ae,(fgf.) (,) et(f) in(ef'g)tel(hghf)lé(f)ctus :(fffc..) (:) sto(fdf)lam(f) gló(ghf)ri(f_d)ae(d_c) (,) ín(ff)du(f)it(ff) e(f_[oh:h]g_[oh:h]f_[oh:h])um.(f.) (::) <i>T. P.</i> Al(d)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> Bo(fg)num(gf) est(gh) con(h)fi(g)té(ixi)ri(h) Dó(g)mi(f)no :(f.) *(:) et(h) psál(hj)le(g)re(f) nó(f)mi(f)ni(f') tu(g)o,(fd) Al(f')tís(g)si(f)me.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_in-medio-ecclesiae.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/03-07.txt",
             "section": "Oratio",
-            "texte": "Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit, imitatióne complére.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ dócuit, intelléctu conspícere, et quæ egit, imitatióne complére.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/03-07.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 7:7-14\nOptávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam lutum æstimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiæ Dei, propter disciplínæ dona commendáti.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 7:7-14\nOptávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam lutum æstimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiæ Dei, propter disciplínæ dona commendáti."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C5a.txt",
-            "section": "Graduale",
-            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Eccli 45:9\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
-            "incipit": "Os justi meditábitur",
+            "texte": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "incipit": {
+              "incipit": "Os justi (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_[oh:h]eg)jus(gvF'EDfvED) (,) (fge'/fgd'/e[ll:1]ddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_[oh:h]e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/e[ll:1]ddc.) <clear>*(;) gres(ff)sus(fg) e(g_[oh:h]f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/03-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Amávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "incipit": {
+              "incipit": "Amavit eum Dominus (All.)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) <i>ij.</i>(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) <sp>V/</sp>. A(c)má(dfd/ef)vit(f.) e(ffe)um(e[ll:1]d~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
+            "mp3": "alleluia_amavit-eum-dominus.mp3",
             "fichier": "Latin/Sancti/03-07.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C5a.txt",
-            "section": "Offertorium",
             "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
-            "incipit": "Justus ut palma",
+            "incipit": {
+              "incipit": "Justus ut palma (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) JU(e.f!gwhgfffdgvFE)stus(fff) <clear>*(,) ut(dge) pal(gh)ma(g!jjjvH'GF.//ixfff!gwhg/hih.) (,) flo(ghf)ré(dgF'E)bit :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) sic(dg)ut(gh) ce(h!iwj!kvJH//gih)drus,(hjHG'hffe.) (,) quae(ghf) in(fe~) Lí(ghF'E//fh)ba(h_g!jjjvH'G)no(g_[oh:h]f//hvGFgvFE) est,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (;) mul(ff)ti(dgf)pli(f)cá(ixff/hihhghvGFg_[oh:h]e//hggf/ghg')bi(e)tur.(egf/gffe.) (::) <i>T. P.</i> Al(ce/gf)le(ffff_c//fff_e/hg/hffe)lú(egF~'E~){ia}.(e.) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C5a.txt",
             "section": "Secreta",
-            "texte": "Sancti N. Confessóris tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
-            "references": null
+            "texte": "Sancti N. Confessóris tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/03-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C5a.txt",
-            "section": "Communio",
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
-            "incipit": "Fidélis servus et",
-            "mp3": "communion_fidelis-servus-et.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Fidelis servus (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C5a.txt",
             "section": "Postcommunio",
-            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Conféssor tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum",
-            "references": null
+            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Conféssor tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Introitus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Oratio": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Oratio",
-            "texte": "O Dieu qui illustrez votre Église par l'admirable science du bienheureux Thomas votre Confesseur et la fécondez par sa sainte opération, donnez-nous, nous vous en prions, de contempler par l'intelligence ce qu’il a enseigné et d’accomplir, en l’imitant, ce qu’il a fait.\n$Per Dominum",
-            "references": null
+            "texte": "O Dieu qui illustrez votre Église par l'admirable science du bienheureux Thomas votre Confesseur et la fécondez par sa sainte opération, donnez-nous, nous vous en prions, de contempler par l'intelligence ce qu’il a enseigné et d’accomplir, en l’imitant, ce qu’il a fait.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14.\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14.\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Graduale",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 21:10-17\nEn ce temps- là, Jésus étant entré dans Jérusalem, toute la ville fut en émoi ; on disait : « Qui est celui-ci ? » Et les foules disaient : « C’est le prophète Jésus, de Nazareth en Galilée. » Jésus entra dans le temple et chassa tous ceux qui vendaient et achetaient dans le temple ; il renversa les tables des changeurs et les sièges de ceux qui vendaient les colombes ; et il leur dit : « Il est écrit : Ma maison sera appelée maison de prière ; mais vous, vous en faites une caverne de voleurs. » Des aveugles et des boiteux vinrent à lui dans le temple, et il les guérit. Mais les grands prêtres et les scribes, voyant les miracles qu’il venait de faire et les enfants qui criaient dans le temple et disaient : « Hosanna au fils de David ! » s’indignèrent, et ils lui dirent : « Entendez-vous ce qu’ils disent ? — Oui, leur dit Jésus. N’avez-vous jamais lu : De la bouche des petits enfants et des nourrissons vous avez préparé une louange ? » Et les ayant laissés là, il sortit de la ville pour gagner Béthanie, où il demeura.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 21:10-17\nEn ce temps- là, Jésus étant entré dans Jérusalem, toute la ville fut en émoi ; on disait : « Qui est celui-ci ? » Et les foules disaient : « C’est le prophète Jésus, de Nazareth en Galilée. » Jésus entra dans le temple et chassa tous ceux qui vendaient et achetaient dans le temple ; il renversa les tables des changeurs et les sièges de ceux qui vendaient les colombes ; et il leur dit : « Il est écrit : Ma maison sera appelée maison de prière ; mais vous, vous en faites une caverne de voleurs. » Des aveugles et des boiteux vinrent à lui dans le temple, et il les guérit. Mais les grands prêtres et les scribes, voyant les miracles qu’il venait de faire et les enfants qui criaient dans le temple et disaient : « Hosanna au fils de David ! » s’indignèrent, et ils lui dirent : « Entendez-vous ce qu’ils disent ? — Oui, leur dit Jésus. N’avez-vous jamais lu : De la bouche des petits enfants et des nourrissons vous avez préparé une louange ? » Et les ayant laissés là, il sortit de la ville pour gagner Béthanie, où il demeura."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Offertorium",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C5a.txt",
             "section": "Secreta",
-            "texte": "Que la fervente prière de saint N., votre confesseur et docteur, ne nous fasse pas défaut, Seigneur, mais vous fasse agréer nos dons et nous obtienne toujours votre pardon.\n$Per Dominum",
-            "references": null
+            "texte": "Que la fervente prière de saint N., votre confesseur et docteur, ne nous fasse pas défaut, Seigneur, mais vous fasse agréer nos dons et nous obtienne toujours votre pardon.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/03-07.txt",
             "section": "Communio",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C5a.txt",
             "section": "Postcommunio",
-            "texte": "Afin que votre sacrifice nous procure le salut, Seigneur, nous vous demandons que le bienheureux N., votre confesseur et illustre docteur, intercède pour nous.\n$Per Dominum",
-            "references": null
+            "texte": "Afin que votre sacrifice nous procure le salut, Seigneur, nous vous demandons que le bienheureux N., votre confesseur et illustre docteur, intercède pour nous.\n$Per Dominum"
           }
         }
       },

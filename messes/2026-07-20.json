@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/07-20.txt",
-            "section": "Introitus",
             "texte": "!Thren 2:11\nv. Effúsum est in terra jecur meum super contritióne fíliæ pópuli mei, cum defíceret párvulus et lactens in platéis óppidi.\n!Ps 112:1\nLaudáte, pueri, Dóminum: laudáte nomen Dómini.\n&Gloria\nv. Effúsum est in terra jecur meum super contritióne fíliæ pópuli mei, cum defíceret párvulus et lactens in platéis óppidi.",
-            "incipit": "Effúsum est in",
+            "incipit": {
+              "incipit": "Effusum est",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) EF(cd)fú(ixdh'!iv)sum(h) est(ixhg/hih) () * in(g) ter(ghg)ra(d!ew!fvEC.) (,) je(fffd)cur(fg'h) me(d!ewf_d)um(d.) (;) su(d)per(f) con(g)tri(gh)ti(g)ó(g_[oh:h]d)ne(d.) (,) fí(f)li(e)ae(f) pó(gh)pu(g)li(g) me(gh/ji)i,(ih..) (:) cum(jjj) de(hg)<nlba>fí(ixihi)ce(g)ret</nlba>(hg/hih.) (;) pár(fh)vu(g)lus(g) et(h) la(gvFE'fwgfg)ctens(gf..) (;) in(f) pla(f)té(gffvE'Cd!ewf/g_[uh:l]hF'E)is(f) óp(d)pi(d_[oh:h]e_[oh:h]d_[oh:h])di.(d.) (::) <i>Ps.</i> Lau(f)dá(gh)te(h) pú(hj)e(h)ri(h) Dó(h)mi(hg)num :(gh..) *(:) lau(gf~)dá(gh)te(h) no(hjh)men(g') Dó(f)mi(fff)ni.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(dc/df..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-20.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Oratio",
-            "texte": "Deus, misericordiárum pater, per mérita et intercessiónem beáti Hieronymi, quem órphanis adjutorem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, misericordiárum pater, per mérita et intercessiónem beáti Hieronymi, quem órphanis adjutorem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ\n!Is 58:7-11.\nHæc dicit Dóminus: Frange esuriénti panem tuum, et egénos vagósque induc in domum tuam: cum víderis nudum, operi eum, et carnem tuam ne despéxeris. Tunc erúmpet quasi mane lumen tuum, et sánitas tua citius oriétur, et anteíbit fáciem tuam justítia tua, et glória Dómini cólliget te. Tunc invocábis, et Dóminus exáudiet: clamabis, et dicet: Ecce, adsum; si abstúleris de médio tui caténam, et desíeris exténdere dígitum, et loqui quod non prodest. Cum effúderis esuriénti ánimam tuam, et ánimam afflíctam repléveris. Oriétur in tenebris lux tua, et ténebræ tuæ erunt sicut merídies. Et réquiem tibi dabit Dóminus semper, et implébit splendóribus ánimam tuam, et ossa tua liberábit, et eris quasi hortus irríguus, et sicut fons aquárum, cujus non defícient aquæ.",
-            "references": null
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 58:7-11.\nHæc dicit Dóminus: Frange esuriénti panem tuum, et egénos vagósque induc in domum tuam: cum víderis nudum, operi eum, et carnem tuam ne despéxeris. Tunc erúmpet quasi mane lumen tuum, et sánitas tua citius oriétur, et anteíbit fáciem tuam justítia tua, et glória Dómini cólliget te. Tunc invocábis, et Dóminus exáudiet: clamabis, et dicet: Ecce, adsum; si abstúleris de médio tui caténam, et desíeris exténdere dígitum, et loqui quod non prodest. Cum effúderis esuriénti ánimam tuam, et ánimam afflíctam repléveris. Oriétur in tenebris lux tua, et ténebræ tuæ erunt sicut merídies. Et réquiem tibi dabit Dóminus semper, et implébit splendóribus ánimam tuam, et ossa tua liberábit, et eris quasi hortus irríguus, et sicut fons aquárum, cujus non defícient aquæ."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/07-20.txt",
-            "section": "Graduale",
-            "texte": "!Prov 5:16\nDerivéntur fontes tui foras, et in platéis aquas tuas divide.\n!Ps 111:5-6\nJucúndus homo, qui miserétur et cómmodat: dispónet sermónes suos in judício, quia in ætérnum non commovébitur. Allelúja, allelúja.\n!Ps 111:9\nV. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.",
-            "incipit": "Derivéntur fontes tui",
+            "texte": "!Prov 5:16\nDerivéntur fontes tui foras, et in platéis aquas tuas divide.\n!Ps 111:5-6\nJucúndus homo, qui miserétur et cómmodat: dispónet sermónes suos in judício, quia in ætérnum non commovébitur.",
+            "incipit": {
+              "incipit": "Deriventur",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) DE(d)ri(ef)vén(fd)tur(ef) *(,) fon(hf/hi'j)tes(hvGF) tu(f)i(gxfegvFE.) (,) fo(e[ll:1]d/fef)ras,(fd/ef!hvvF'E/f!gwh/!ih/!h/fgf.) (:) et(hh) in(h) pla(h)té(hji)is(ihhf.) (,) a(f)quas(fi) tu(i_[oh:h]f/ij)as(h_fhv.ghF'Ef.) (;) dí(de'fhvGFgef)vi(hf/h_i)de.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) \r\n<sp>V/</sp>. Ju(f)cún(hi~)dus(i) ho(ih/ij!kvJH'//ijij)mo,(j_0kvJH'//jh/j_i//kvJIkvJI.) (:) qui(i!jw!kvJI'jw!kvJI) mi(i)se(i)ré(i)tur,(i.) (,) et(ij~) cóm(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)mo(f!gwh_f)dat :(f.) (:) dis(hh)pó(hji)net(ihhf.) (,) ser(f)mó(f)nes(fi) su(i_[oh:h]f/ij)os(h_fhv.ghF'E) (,) in(f) ju(fef)dí(hfh)ci(hhh)o,(h.f!gwh!iv.hi/jhh/iih.0) (:) qui(hh)a(h) in(h) ae(h)tér(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)num(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) non(de'fhvGF'g) com(e)mo(f)vé(hf)bi(hi)tur.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-20.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/07-20.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Ps 111:9\nV. Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.",
+            "incipit": {
+              "incipit": "Dispersit",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(g)le(g_h_g_gfg)lú(f!h'j){ia}.(i_[oh:h]h) *(,) <i>ij.</i>(jkJ'HG.hjggfg.) (,) (ghg/hh/ef'g//hjh/ig/hhg.) (::) <sp>V/</sp>. Dis(g)pér(g_h_g_gfg//fh!jv.h/jkJ'IHG.hjh/ig/h_g)sit,(g.) (;) de(g_[oh:h]dgv)dit(g.) pau(gh~)pé(hiH'G//h!iw!jvH'Gh)ri(fg)bus :(g.) (:) ju(f)stí(hj)ti(j)a(jjj) e(h!iwj/kjjvIH'G)jus(g.) (;) ma(fg)net(g) in(g) saé(gh)cu(g)lum(gfg) *(,) saé(f!h'j)cu(ih)li.(jkJ'HG.hjggfg.) (,) (ghg/hh/ef'g//hjh/ig/hhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-20.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 19:13-21\nIn illo témpore: Obláti sunt Jesu párvuli, ut manus eis impóneret et oráret. ¶ Discípuli autem increpábant eos. Jesus vero ait eis: Sínite párvulos, et nolíte eos prohibére ad me veníre: tálium est enim regnum cœlórum. Et cum imposuísset eis manus, ábiit inde. Et ecce, unus accedens, ait illi: Magíster bone, quid boni fáciam, ut hábeam vitam ætérnam? Qui dixit ei: Quid me intérrogas de bono? Unus est bonus, Deus. Si autem vis ad vitam íngredi, serva mandáta. Dicit illi: Quæ? Jesus autem dixit: Non homicídium fácies: Non adulterábis: Non fácies furtum: Non falsum testimónium dices: Hónora patrem tuum et matrem tuam, et díliges próximum tuum sicut te ipsum. Dicit illi adoléscens: Omnia hæc custodívi a juventúte mea: quid adhuc mihi deest? Ait illi Jesus: Si vis perféctus esse, vade, vende, quæ habes, et da paupéribus, et habébis thesáurum in cœlo: et veni, séquere me.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 19:13-21\nIn illo témpore: Obláti sunt Jesu párvuli, ut manus eis impóneret et oráret. ¶ Discípuli autem increpábant eos. Jesus vero ait eis: Sínite párvulos, et nolíte eos prohibére ad me veníre: tálium est enim regnum cœlórum. Et cum imposuísset eis manus, ábiit inde. Et ecce, unus accedens, ait illi: Magíster bone, quid boni fáciam, ut hábeam vitam ætérnam? Qui dixit ei: Quid me intérrogas de bono? Unus est bonus, Deus. Si autem vis ad vitam íngredi, serva mandáta. Dicit illi: Quæ? Jesus autem dixit: Non homicídium fácies: Non adulterábis: Non fácies furtum: Non falsum testimónium dices: Hónora patrem tuum et matrem tuam, et díliges próximum tuum sicut te ipsum. Dicit illi adoléscens: Omnia hæc custodívi a juventúte mea: quid adhuc mihi deest? Ait illi Jesus: Si vis perféctus esse, vade, vende, quæ habes, et da paupéribus, et habébis thesáurum in cœlo: et veni, séquere me."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/07-20.txt",
-            "section": "Offertorium",
             "texte": "!Tob 12:12\nQuando orábas cum lácrimis, et sepeliébas mórtuos, et derelinquébas prándium tuum, et mórtuos abscondébas per diem in domo tua, et nocte sepeliébas eos: ego óbtuli oratiónem tuam Dómino.",
-            "incipit": "Quando orábas cum",
+            "incipit": {
+              "incipit": "Quando orabas",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) QUan(fc~)do(ef) o(fg)rá(ef)bas(f!gwhhvGF'geec) (,) * cum(ef~) lá(f!hhh)cri(fe)mis,(e!gw!hvGEgf..) (;) et(f) se(ef)pe(f!gw!hvGF)li(fe)é(f)bas(h) mór(hihh)tu(fe)os,(e!fwgffe.) (;) et(e) de(ef)re(fi)lin(ih~)qué(hih)bas(hhh) (,) prán(f!hhh)di(f)um(eh) tu(ghG'F)um,(gf..) (;) et(fc~) mór(ef'g)tu(f)os(f) abs(f)con(fe~)dé(f!hhh)bas(g_[oh:h]f) per(fi) di(hiH'F)em(ffe.) (,) in(ef~) do(fg)mo(fe) tu(e!hhh/i_[oh:h]h)a,(h.) (;) et(h) no(ihhg/hji/jhhg)cte(g.) (,) se(g)pe(e)li(g)é(i_[oh:h]h)bas(hh) e(hh/ifg)os :(fe..) (:) e(fh)go(hhh) ób(ghijij)tu(hi)li(i_[oh:h]f) (,) o(f)ra(hg)ti(hi)ó(iv.giH'GEf.)(,)(c!ef//hhfgvE'C//efef)nem(f.) tu(f!gwh/ih)am(hiH'GF) (,) Dó(f)mi(f)no.(f!gwhhvGFggf.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-20.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Secreta",
-            "texte": "Clementíssime Deus, qui, véteri homine consúmpto, novum secúndum te in beáto Hierónymo creáre dignátus es: da, per mérita ipsíus; ut nos, páriter renováti, hanc placatiónis hóstiam in odórem tibi suavíssimum offerámus.\n$Per Dominum",
-            "references": null
+            "texte": "Clementíssime Deus, qui, véteri homine consúmpto, novum secúndum te in beáto Hierónymo creáre dignátus es: da, per mérita ipsíus; ut nos, páriter renováti, hanc placatiónis hóstiam in odórem tibi suavíssimum offerámus.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/07-20.txt",
-            "section": "Communio",
             "texte": "!Jac 1:27\nRelígio munda et immaculáta apud Deum et Patrem hæc est: Visitáre pupíllos et víduas in tribulatióne eórum, et immaculátum se custodíre ab hoc sǽculo.",
-            "incipit": "Relígio munda et",
+            "incipit": {
+              "incipit": "Religio munda",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) RE(e)lí(eg)gi(f)o(f) mun(hg~)da(f.) *(,) et(e) im(h)ma(h_f)cu(g)lá(fe)ta(e.) (,) a(e)pud(f) De(g)um(f) et(ef) Pa(hg/hih)trem,(fe) haec(def) est :(fe..) (:) vi(ei'!jv)si(i)tá(ihi)re(i) pu(i)píl(i)los(i) et(h) ví(i)du(h)as(h.) (,) in(h) tri(h)bu(h)la(h)ti(h)ó(he)ne(f) e(h)ó(gihh)rum,(hg..) (:) et(f) im(f)ma(h)cu(h)lá(hhg)tum(f_e) se(e) cu(f)sto(e[ll:1]d)dí(e_[uh:l]f)re(e.) (,) ab(e[ll:1]d) hoc(bd) saé(c)cu(cedd)lo.(dc..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-20.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-20.txt",
             "section": "Postcommunio",
-            "texte": "Angelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui ánnuam beáti Hierónymi Confessóris tui memóriam celebráre gaudémus; ejúsdem étiam et exémplum imitémur, et amplíssimum in regno tuo præmium obtinére valeámus.\n$Per Dominum",
-            "references": null
+            "texte": "Angelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui ánnuam beáti Hierónymi Confessóris tui memóriam celebráre gaudémus; ejúsdem étiam et exémplum imitémur, et amplíssimum in regno tuo præmium obtinére valeámus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Introitus",
-            "texte": "!Thren 2:11\nv. Mon foie se répand comme l’eau sur la terre, à cause de la blessure de la fille de mon peuple, A la vue des enfants et des nourrissons qui tombent en défaillance sur les places de la ville.\n!Ps 112:1\nLouez, Serviteurs du Seigneur : louez le nom du Seigneur.\n&Gloria\nv. Mon foie se répand comme l’eau sur la terre, à cause de la blessure de la fille de mon peuple, A la vue des enfants et des nourrissons qui tombent en défaillance sur les places de la ville.",
-            "incipit": "Mon foie se",
-            "mp3": null,
-            "references": null
+            "texte": "!Thren 2:11\nv. Mon foie se répand comme l’eau sur la terre, à cause de la blessure de la fille de mon peuple, A la vue des enfants et des nourrissons qui tombent en défaillance sur les places de la ville.\n!Ps 112:1\nLouez, Serviteurs du Seigneur : louez le nom du Seigneur.\n&Gloria\nv. Mon foie se répand comme l’eau sur la terre, à cause de la blessure de la fille de mon peuple, A la vue des enfants et des nourrissons qui tombent en défaillance sur les places de la ville."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Oratio",
-            "texte": "Dieu, Père des miséricordes, par les mérites et l’intercession du bienheureux Jérôme, que vous avez donné pour soutien et pour père aux orphelins : faites-nous la grâce de conserver fidèlement cet esprit d’adoption en vertu duquel nous sommes appelés vos fils et le devenons réellement.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, Père des miséricordes, par les mérites et l’intercession du bienheureux Jérôme, que vous avez donné pour soutien et pour père aux orphelins : faites-nous la grâce de conserver fidèlement cet esprit d’adoption en vertu duquel nous sommes appelés vos fils et le devenons réellement.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ.\n!Is 58:7-11.\nAinsi parle le Seigneur : Donne ton pain à celui qui a faim, recueille chez toi les malheureux sans asile ; si tu vois un homme nu, couvre-le, ne te détourne de ta propre chair. Alors ta lumière poindra comme l’aurore, et ta guérison germera promptement ; ta justice marchera devant toi ; la gloire du Seigneur sera ton arrière garde. Alors tu appelleras, et le Seigneur répondra tu crieras, et il dira : « Me voici !» Si tu bannis du milieu de toi le joug, le geste menaçant, les discours injurieux ; si tu donnes la nourriture à l’affamé, et si tu rassasies l’âme affligée ; Ta lumière se lèvera au sein de l’obscurité, et tes ténèbres brilleront comme le midi. Et le Seigneur te guidera perpétuellement, il rassasiera ton âme dans les lieux arides. Il donnera de la vigueur à tes os ; tu seras comme un jardin bien arrosé, comme une source d’eau vive, qui ne tarit jamais.",
-            "references": null
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 58:7-11.\nAinsi parle le Seigneur : Donne ton pain à celui qui a faim, recueille chez toi les malheureux sans asile ; si tu vois un homme nu, couvre-le, ne te détourne de ta propre chair. Alors ta lumière poindra comme l’aurore, et ta guérison germera promptement ; ta justice marchera devant toi ; la gloire du Seigneur sera ton arrière garde. Alors tu appelleras, et le Seigneur répondra tu crieras, et il dira : « Me voici !» Si tu bannis du milieu de toi le joug, le geste menaçant, les discours injurieux ; si tu donnes la nourriture à l’affamé, et si tu rassasies l’âme affligée ; Ta lumière se lèvera au sein de l’obscurité, et tes ténèbres brilleront comme le midi. Et le Seigneur te guidera perpétuellement, il rassasiera ton âme dans les lieux arides. Il donnera de la vigueur à tes os ; tu seras comme un jardin bien arrosé, comme une source d’eau vive, qui ne tarit jamais."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Graduale",
-            "texte": "!Prov 5:16\nQue tes sources se répandent au dehors, que tes ruisseaux coulent sur les places publiques !\n!Ps 111:5-6\nHeureux l’homme qui exerce la miséricorde et qui prête : en justice il fait prévaloir sa cause. Car il ne sera jamais ébranlé. Alléluia, alléluia.\n!Ps 111:9\nV. Il sème l’aumône, il donne à l’indigent ; sa justice subsiste à jamais. Alléluia.",
-            "incipit": "Que tes sources",
-            "mp3": null,
-            "references": null
+            "texte": "!Prov 5:16\nQue tes sources se répandent au dehors, que tes ruisseaux coulent sur les places publiques !\n!Ps 111:5-6\nHeureux l’homme qui exerce la miséricorde et qui prête : en justice il fait prévaloir sa cause. Car il ne sera jamais ébranlé."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-20.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 111:9\nV. Il sème l’aumône, il donne à l’indigent ; sa justice subsiste à jamais. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 19:13-21\nEn ce temps-là : On amena de petits enfants à Jésus pour qu’il leur imposât les mains et priât. Or les disciples les gourmandèrent. Mais Jésus leur dit : « Laissez les petits enfants, et ne les empêchez pas de venir à moi, car le royaume des cieux est à ceux qui leur ressemblent.» Et, leur ayant imposé les mains, il partit de là. Et voici que quelqu’un, l’abordant, dit : « Maître, que dois-je faire de bon pour avoir la vie éternelle ?» Il lui dit : « Pourquoi m’interroges-tu sur (ce qui est) bon ? Un seul est le bon, c’est Dieu. Si tu veux entrer dans la vie, observe les commandements.» Il lui dit : « Lesquels ?» Jésus dit : « Tu ne tueras point ; tu ne commettras point l’adultère ; tu ne déroberas point ; tu ne porteras point de faux témoignage ; honore ton père et ta mère, et : tu aimeras ton proche comme toi-même.» Le jeune homme lui dit : « J’ai observé tous cela ; que me manque-t-il encore ?» Jésus lui dit : « Si tu veux être parfait, va, vends ce que tu possèdes, donne-le aux pauvres, et tu auras un trésor dans les cieux ; puis, viens et suis-moi.»",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 19:13-21\nEn ce temps-là : On amena de petits enfants à Jésus pour qu’il leur imposât les mains et priât. Or les disciples les gourmandèrent. Mais Jésus leur dit : « Laissez les petits enfants, et ne les empêchez pas de venir à moi, car le royaume des cieux est à ceux qui leur ressemblent.» Et, leur ayant imposé les mains, il partit de là. Et voici que quelqu’un, l’abordant, dit : « Maître, que dois-je faire de bon pour avoir la vie éternelle ?» Il lui dit : « Pourquoi m’interroges-tu sur (ce qui est) bon ? Un seul est le bon, c’est Dieu. Si tu veux entrer dans la vie, observe les commandements.» Il lui dit : « Lesquels ?» Jésus dit : « Tu ne tueras point ; tu ne commettras point l’adultère ; tu ne déroberas point ; tu ne porteras point de faux témoignage ; honore ton père et ta mère, et : tu aimeras ton proche comme toi-même.» Le jeune homme lui dit : « J’ai observé tous cela ; que me manque-t-il encore ?» Jésus lui dit : « Si tu veux être parfait, va, vends ce que tu possèdes, donne-le aux pauvres, et tu auras un trésor dans les cieux ; puis, viens et suis-moi.»"
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Offertorium",
-            "texte": "!Tob 12:12\nLorsque tu priais avec larmes et que tu donnais la sépulture aux morts ; lorsque, quittant ton repas, tu cachais les morts dans ta maison pendant le jour, et que tu les mettais en terre pendant la nuit, je présentais ta prière au Seigneur.",
-            "incipit": "Lorsque tu priais",
-            "mp3": null,
-            "references": null
+            "texte": "!Tob 12:12\nLorsque tu priais avec larmes et que tu donnais la sépulture aux morts ; lorsque, quittant ton repas, tu cachais les morts dans ta maison pendant le jour, et que tu les mettais en terre pendant la nuit, je présentais ta prière au Seigneur."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Secreta",
-            "texte": "Dieu très clément, qui, après avoir détruit le vieil homme dans le bienheureux Jérôme, avez daigné en créer en lui un nouveau selon votre cœur : donnez-nous, par ses mérites, qu’étant de même tout renouvelés, nous vous offrions cette hostie de propitiation comme un parfum de suave odeur.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu très clément, qui, après avoir détruit le vieil homme dans le bienheureux Jérôme, avez daigné en créer en lui un nouveau selon votre cœur : donnez-nous, par ses mérites, qu’étant de même tout renouvelés, nous vous offrions cette hostie de propitiation comme un parfum de suave odeur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Communio",
-            "texte": "!Jac 1:27\nLa religion pure et sans tache devant notre Dieu et Père, n’est pas autre qu’avoir soin des orphelins et des veuves dans leur détresse, et se préserver pur des souillures de ce monde.",
-            "incipit": "La religion pure",
-            "mp3": null,
-            "references": null
+            "texte": "!Jac 1:27\nLa religion pure et sans tache devant notre Dieu et Père, n’est pas autre qu’avoir soin des orphelins et des veuves dans leur détresse, et se préserver pur des souillures de ce monde."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-20.txt",
             "section": "Postcommunio",
-            "texte": "Nourris du pain des Anges, nous vous prions humblement, Seigneur, de nous accorder que, nous qui nous réjouissons de célébrer la fête annuelle du bienheureux Jérôme, votre Confesseur, nous imitions son exemple et que nous puissions obtenir dans votre royaume la récompense surabondante.\n$Per Dominum",
-            "references": null
+            "texte": "Nourris du pain des Anges, nous vous prions humblement, Seigneur, de nous accorder que, nous qui nous réjouissons de célébrer la fête annuelle du bienheureux Jérôme, votre Confesseur, nous imitions son exemple et que nous puissions obtenir dans votre royaume la récompense surabondante.\n$Per Dominum"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Sancti/07-20.txt",
         "Latin/Sancti/07-20.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

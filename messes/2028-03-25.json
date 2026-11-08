@@ -28,237 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/03-25.txt",
-            "section": "Introitus",
             "texte": "!Ps 44:13; 44:15-16\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et exsultatióne. (Allelúja, allelúja.)",
-            "incipit": "Vultum tuum deprecabúntur",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Vultum tuum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(f3) VUl(f)tum(efE'C) tu(efe)um(f.) *() de(ge)pre(f)ca(hh)bún(h)tur(f.) (;) o(f!hhh)mnes(f) dí(hh)vi(hih)tes(egf) ple(f_[oh:h]g_[oh:h]f_[oh:h])bis :(f.) (:) ad(f)du(hh)cén(ih~)tur(h) re(hi)gi(ihhf) vír(f)gi(f!gwh_f)nes(f') post(f) e(hg)am :(f.) (:) pró(hhh)xi(f)mae(e!gef) e(f_[oh:h]g_[oh:h]f_[oh:h])jus(f.) (,) ad(f)du(hh)cén(h_)tur(eg~) ti(fe)bi(e.) (;) in(f) lae(hh)tí(i)ti(h)a(hjIH'Ghf..) (,) et(f) ex(f)sul(gh~)ta(f)ti(e!gef)ó(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::) <i>Ps.</i> E(e)ru(fe)ctá(eh)vit(h) cor(h) me(h)um(hg) ver(hi)bum(i) bo(hi)num :(h.) *(:) di(hf)co(fh) e(h)go(h) ó(h)pe(h)ra(i) me(hf)a(h) re(ge)gi.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+            "mp3": "introitus_vultum-tuum.mp3",
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Oratio",
-            "texte": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur.\n$Per eundem",
-            "references": null
+            "texte": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Lectio",
-            "texte": "Lectio Isaíæ Prophétæ\n!Is 7:10-15\nIn diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit: Audíte ergo, domus David: Numquid parum vobis est, moléstos esse homínibus, quia molesti estis et Deo meo? Propter hoc dabit Dóminus ipse vobis signum. Ecce, Virgo concípiet et páriet fílium, et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat reprobare malum et elígere bonum.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
-                    "section": "Lectio",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "texte": "Lectio Isaíæ Prophétæ\n!Is 7:10-15\nIn diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit: Audíte ergo, domus David: Numquid parum vobis est, moléstos esse homínibus, quia molesti estis et Deo meo? Propter hoc dabit Dóminus ipse vobis signum. Ecce, Virgo concípiet et páriet fílium, et vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat reprobare malum et elígere bonum."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C11.txt",
-            "section": "Graduale",
-            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja.\n!Luc 1:28\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
-            "incipit": "Benedícta et venerábilis",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
+            "incipit": {
+              "incipit": "Benedicta et venerabilis",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) BE(fe)ne(fg)dí(g)cta(gv.ff/ded.) (,) * et(f) ve(dfe)ne(fg)rá(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(e[ll:1]d~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a :(g.) (:) quae(df) si(feg)ne(gefd) ta(cd)ctu(d.) pu(f)dó(gh)ris(ixh.0/[-0.5]ivHG'h/ef'g) (;) in(gh~)vén(hfhhvGE'fd)ta(cd) es(d.) (,) ma(dc/[1]{/[-3]ix}fg'h)ter(h.0/[-0.5]ivHG'ef'g) Sal(g)va(df)tó(efED.)(,)(ixf.0/[-0.5]hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(e[ll:1]d) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) in(f) tu(f)a(ghgh) se(h) clau(hgh'1f)sit(e[ll:1]d) (,) ví(f_g//ef!hvGE'fd)sce(cd)ra(d.) (;) * fa(cd!ff)ctus(fg) ho(g_[oh:h]f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/03-25.txt",
-            "section": "Tractus",
             "texte": "!Ps 44:3 et 5\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11 et 12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13 et 10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Adducéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
-            "incipit": "Diffúsa est grátia",
+            "incipit": {
+              "incipit": "Adjuva nos",
+              "version": "Solesmes",
+              "distance": 27,
+              "similarite": 0.325,
+              "source": "Tractus"
+            },
+            "gabc": "(f3) AD(f)ju(f)va(efE'C) nos,(ef//ef/hghvvGFggf.0) (;) * De(hhi)us(f) sa(f)lu(fe)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(h) ho(hg)nó(h)rem(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(hg/hiih.0) (;) pro(i)pter(e) no(f)men(hg~) tu(hvGF)um.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Ne(h)quán(i)do(hiH'F) di(hi)cant(i_[oh:h]gi) gen(hvG~F~)tes :(fe/ggf/gh/iffe.) (;) U(gh)bi(f) est(f) De(fg)us(f) e(f)ó(f_e/f!gwh'!iv)rum?(hg/hiih.0) (:) et(i) in(i)no(e)té(fh)scat(h) in(h) na(h)ti(h)ó(gh!ijh)ni(f)bus(f!gwh_g) (;) co(hvGF)ram(fef) ó(eh)cu(h)lis(gh/ihi) no(f)stris.(f/ggf.0) (::) \r\n<sp>V/</sp>. Vín(kxh!iwj'!kv)di(j)ca(j) sán(j)gui(ji)nem(ij..) (,) ser(h)vó(hf)rum(h) tu(hi'j)ó(jvIH'GhvGF'g)rum,(gf..) (;) qui(f') ef(i)fú(jiif/hhfjvIH'hvGF)sus(fg) est :(fe/ggf/gh/iffe.) (:) in(gh)tret(f) in(f) con(f)spé(fg)ctu(f) tu(f_e/f!gwh'!iv)o(kxhgi.jkiih.0) (;) gé(hi)mi(h)tus(hihhg) ()* com(fe~)pe(fgf)di(g)tó(i_[oh:h]hivHFg.)(,)(h!jijH'GF)rum.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
+            "texte": "Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
+            "incipit": {
+              "incipit": "Ave Maria (Alleluia)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_[oh:h]e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_[oh:h]h)mi(i_[oh:h]hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_[oh:h]c) tu(efhvGF.) (;) * in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
+            "mp3": "alleluia_ave-maria.mp3",
             "fichier": "Latin/Sancti/03-25.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
-                    "section": "Evangelium",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/03-25.txt",
-            "section": "Offertorium",
             "texte": "!Luc 1:28 1:42\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui. (Allelúja.)",
-            "incipit": "Ave, María, grátia",
-            "mp3": "offertoire_ave-maria-et.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
-                    "section": "Offertorium",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "incipit": {
+              "incipit": "Ave Maria (Offertorium)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) A(gxdef!hvvFE'//gvFE)ve(e_[uh:l]f) *(,) Ma(fdf)rí(h_g//ijIH'hg/hf)a,(fe..) (;) grá(hhf!gwhefvED'C[ull:0]B.)(,)(ef/h.f!gwh)ti(h)a(g.) ple(hiHF.g/hiH//E.)(,)(fhFEf./ih/ijh)na :(hiih.0) (:) Dó(fvEDevDC'db.0/cd!effe)mi(de)nus(e.) (`) te(fe/hhe//ffdev.)(,)(de/f_de./df!hvGFE'f)cum :(fe..) (:) be(hi)ne(ih)dí(h'/jij)cta(h.f!gwh/ih) tu(he..) (,) in(ef) mu(fh)li(fe)é(e_[oh:h][ll:1]d/efD'C[ull:0]B.)(,)(cd/e_[oh:h][ll:1]d/f_e)ri(de)bus,(effe.) (;) al(fe~)le(fdf)lú(h_g/ijIH'hg/hf){ia}.(fe/fgffe.) (::)",
+            "mp3": "offertoire_ave-maria.mp3",
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Secreta",
-            "texte": "In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta confírma: ut, qui concéptum de Vírgine Deum verum et hóminem confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad ætérnam mereámur perveníre lætítiam.\n$Per eundem",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
-                "section": "Secreta",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta confírma: ut, qui concéptum de Vírgine Deum verum et hóminem confitémur; per ejus salutíferæ resurrectiónis poténtiam, ad ætérnam mereámur perveníre lætítiam.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/03-25.txt",
-            "section": "Communio",
             "texte": "!Is 7:14\nEcce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus Emmánuel.",
-            "incipit": "Ecce, Virgo concípiet",
+            "incipit": {
+              "incipit": "Ecce virgo",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) EC(d)ce(dfe) vir(fg)go(d.) (,) * con(ce)cí(gh)pi(g_[oh:h]f)et,(fv.efd.1) (;) et(de) pá(gh!jj/kh)ri(gh)et(h) fí(h)li(h!iwjh)um :(h.) (:) et(h_g) vo(jj)cá(h_g)bi(ixihi)tur(gh/i_[oh:h]h) (,) no(fe)men(f) e(ixg!hw!ivH~G~)jus(hg..) (,) <nlba>Em(f_[oh:h]g_[oh:h]e_[oh:h]e[ll:1]d)má(d!ewf!g'h)nu(fvED)el.</nlba>(d.) (::) <i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
             "mp3": "communion_ecce-virgo-concipiet.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/03-25.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/03-25.txt",
             "section": "Postcommunio",
-            "texte": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.\n$Per eundem",
-            "references": null
+            "texte": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur.\n$Per eundem"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)",
-            "incipit": "Tous les riches",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:13, 15 et 16.\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)\n!Ps 44:2.\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui avez voulu que votre Verbe prît un corps humain à la parole de l’Ange dans le sein de la bienheureuse Vierge Marie ; accordez à ceux qui vous en supplient que, nous qui la croyons véritablement Mère de Dieu, nous soyons secourus auprès de vous grâce à son intercession.\n$Per eundem",
-            "references": null
+            "texte": "Ô Dieu, qui avez voulu que votre Verbe prît un corps humain à la parole de l’Ange dans le sein de la bienheureuse Vierge Marie ; accordez à ceux qui vous en supplient que, nous qui la croyons véritablement Mère de Dieu, nous soyons secourus auprès de vous grâce à son intercession.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien.",
-            "references": null
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 7:10-15.\nEn ces jours-là : Le Seigneur parla à Achaz et lui dit : Demande pour toi un signe au Seigneur ton Dieu, soit au fond de la terre, soit au plus haut du ciel. Et Achaz lui répondit : Je ne demanderai rien, et je ne tenterai pas le Seigneur. Et Isaïe dit : Écoutez donc, maison de David. Ne vous suffit-il pas de lasser la patience des hommes, que vous lassiez encore celle de mon Dieu ? C’est pourquoi le Seigneur lui-même vous donnera un signe : Une vierge concevra,et elle enfantera un fils, auquel on donnera le nom d’Emmanuel. Il mangera du beurre et du miel, en sorte qu’il sache rejeter le mal et choisir le bien."
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C11.txt",
             "section": "Graduale",
-            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Alléluia, alléluia.\n!Luc 1:28\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia.",
-            "incipit": "Vous êtes digne",
-            "mp3": null,
-            "references": null
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Alléluia, alléluia.\n!Luc 1:28\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Tractus",
-            "texte": "!Ps 44:3 et 5.\nLa grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles.\nV. Pour la vérité, la douceur et la justice ; et votre droite voua conduira merveilleusement.\n!Ps 44:11 et 12.\nÉcoutez, ma fille, et prêtez l’oreille, car le roi s’est épris de votre beauté.\n!Ps 44:13 et 10.\nTous les riches d’entre le peuple vous offriront leurs humbles prières.\n!Ps 44:15-16.\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au roi.\nV. Elles seront présentées au milieu de la joie et de l’allégresse ; elles seront conduites au temple du roi.",
-            "incipit": "La grâce est",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:3 et 5.\nLa grâce est répandue sur vos lèvres ; c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles.\nV. Pour la vérité, la douceur et la justice ; et votre droite voua conduira merveilleusement.\n!Ps 44:11 et 12.\nÉcoutez, ma fille, et prêtez l’oreille, car le roi s’est épris de votre beauté.\n!Ps 44:13 et 10.\nTous les riches d’entre le peuple vous offriront leurs humbles prières.\n!Ps 44:15-16.\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au roi.\nV. Elles seront présentées au milieu de la joie et de l’allégresse ; elles seront conduites au temple du roi."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38.\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)",
-            "incipit": "Je vous salue,",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 1:28 et 42.\nJe vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Secreta",
-            "texte": "Affermissez en nos âmes, Seigneur, la foi à la vérité de vos mystères, afin que nous qui reconnaissons qu’un Homme-Dieu véritable a été conçu d’une Vierge, nous méritions, par la vertu de sa résurrection salutaire, de parvenir à l’éternelle félicité.\n$Per eundem",
-            "references": null
+            "texte": "Affermissez en nos âmes, Seigneur, la foi à la vérité de vos mystères, afin que nous qui reconnaissons qu’un Homme-Dieu véritable a été conçu d’une Vierge, nous méritions, par la vertu de sa résurrection salutaire, de parvenir à l’éternelle félicité.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Communio",
-            "texte": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)",
-            "incipit": "Une vierge concevra",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 7:14.\nUne vierge concevra et elle enfantera un fils auquel on donnera le nom d’Emmanuel. (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/03-25.txt",
             "section": "Postcommunio",
-            "texte": "Répandez, s’il vous plaît, Seigneur, votre grâce dans nos âmes, afin que nous, qui avons connu l’incarnation du Christ, votre Fils, qui s’est accomplie à la suite d’un message angélique, nous arrivions, par sa passion et sa croix, à la gloire de la résurrection.\n$Per eundem",
-            "references": null
+            "texte": "Répandez, s’il vous plaît, Seigneur, votre grâce dans nos âmes, afin que nous, qui avons connu l’incarnation du Christ, votre Fils, qui s’est accomplie à la suite d’un message angélique, nous arrivions, par sa passion et sa croix, à la gloire de la résurrection.\n$Per eundem"
           }
         }
       },

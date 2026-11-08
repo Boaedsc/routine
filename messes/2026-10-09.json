@@ -28,181 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Introitus",
             "texte": "!Eccli 42:15-16.\nv. In sermónibus Dómini ópera ejus: sol illúminans per ómnia respéxit, et glória Dómini plenum est opus ejus.\n!Ps 95:1\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n&Gloria\nv. In sermónibus Dómini ópera ejus: sol illúminans per ómnia respéxit, et glória Dómini plenum est opus ejus.",
-            "incipit": "In sermónibus Dómini",
+            "incipit": {
+              "incipit": "In sermonibus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(d) ser(bxdbc)mó(dc/fffg)ni(f)bus(f.) *() Dó(hgh)mi(gf)ni(fgFD.1) (,) ó(ff)pe(f)ra(gvF'Ef) e(d_[oh:h]e_[oh:h]d_[oh:h])jus :(d.) (:) sol(fd) il(fg)lú(ixgih)mi(gf)nans(f.) (,) per(f) ó(fgf)mni(d)a(dcd) re(c)spé(ffg)xit,(f.) (:) et(hg~) gló(h!iwj)ri(gf)a(f) Dó(fff)mi(dc)ni(c.) (;) ple(fhg)num(fg) est(g) (,) o(gjjh)pus(h.) e(fgh!jvvH'GF'fh'GFgf)jus.(f.) (::) \r\n<i>T. P.</i> Al(d)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG'~F~){ia}.(f.) (::) <i>Ps.</i> Can(fg)tá(gf)te(gh) Dó(h)mi(h)no(g) cán(ixi)ti(h)cum(h) no(g)vum :(f.) (:) * can(h)tá(hj)te(g) Dó(f)mi(f)no(g) o(fd~)mnis(f') ter(g)ra.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus propagándam mirabíliter excitáre dignátus es, ac per eum in erudiéndis fidélibus novam in Ecclésia tua famíliam congregásti: da nobis fámulis tuis; ita ejus institútis profícere, ut prǽmia consequámur ætérna.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus propagándam mirabíliter excitáre dignátus es, ac per eum in erudiéndis fidélibus novam in Ecclésia tua famíliam congregásti: da nobis fámulis tuis; ita ejus institútis profícere, ut prǽmia consequámur ætérna.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!2 Cor 4:1-6, 15-18\nFratres: Habéntes administratiónem juxta quod misericórdiam consecúti sumus, non defícimus, sed abdicámus occúlta dedécoris, non ambulántes in astútia, neque adulterántes verbum Dei, sed in manifestatióne veritátis commendántes nosmetípsos ad omnem consciéntiam hóminum coram Deo. Quod si étiam opértum est Evangélium nostrum: in iis, qui péreunt, est opértum: in quibus Deus hujus sǽculi excæcávit mentes infidélium, ut non fúlgeat illis illuminátio Evangélii glóriæ Christi, qui est imágo Dei. Non enim nosmetípsos prædicámus, sed Jesum Christum Dóminum nostrum: nos autem servos vestros per Jesum: quóniam Deus, qui dixit de ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad illuminatiónem sciéntiæ claritátis Dei, in fácie Christi Jesu. Omnia enim propter vos: ut grátia abúndans, per multos in gratiárum actione, abúndet in glóriam Dei. Propter quod non deficimus: sed licet is, qui foris est, noster homo corrumpátur: tamen is, qui intus est, renovatur de die in diem. Id enim, quod in præsenti est momentáneum et leve tribulatiónis nostræ, supra modum in sublimitáte ætérnum glóriæ pondus operátur in nobis, non contemplántibus nobis quæ vidéntur, sed quæ non vidéntur. Quæ enim vidéntur, temporália sunt: quæ autem non vidéntur, ætérna sunt.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!2 Cor 4:1-6, 15-18\nFratres: Habéntes administratiónem juxta quod misericórdiam consecúti sumus, non defícimus, sed abdicámus occúlta dedécoris, non ambulántes in astútia, neque adulterántes verbum Dei, sed in manifestatióne veritátis commendántes nosmetípsos ad omnem consciéntiam hóminum coram Deo. Quod si étiam opértum est Evangélium nostrum: in iis, qui péreunt, est opértum: in quibus Deus hujus sǽculi excæcávit mentes infidélium, ut non fúlgeat illis illuminátio Evangélii glóriæ Christi, qui est imágo Dei. Non enim nosmetípsos prædicámus, sed Jesum Christum Dóminum nostrum: nos autem servos vestros per Jesum: quóniam Deus, qui dixit de ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad illuminatiónem sciéntiæ claritátis Dei, in fácie Christi Jesu. Omnia enim propter vos: ut grátia abúndans, per multos in gratiárum actione, abúndet in glóriam Dei. Propter quod non deficimus: sed licet is, qui foris est, noster homo corrumpátur: tamen is, qui intus est, renovatur de die in diem. Id enim, quod in præsenti est momentáneum et leve tribulatiónis nostræ, supra modum in sublimitáte ætérnum glóriæ pondus operátur in nobis, non contemplántibus nobis quæ vidéntur, sed quæ non vidéntur. Quæ enim vidéntur, temporália sunt: quæ autem non vidéntur, ætérna sunt."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Graduale",
-            "texte": "!Ps 72:21; 68:10\nInflammátum est cor meum, et renes mei commutáti sunt: zelus domus tuæ comédit me.\n!Isa 49:2\nPósuit os meum quasi gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam. Allelúja, allelúja.\n!Ps 70:7\nTamquam prodígium factus sum multis: et tu adjútor fortis, Allelúja.",
-            "incipit": "Inflammátum est cor",
+            "texte": "!Ps 72:21; 68:10\nInflammátum est cor meum, et renes mei commutáti sunt: zelus domus tuæ comédit me.\n!Isa 49:2\nPósuit os meum quasi gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut sagíttam eléctam.",
+            "incipit": {
+              "incipit": "Inflammatum est",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) IN(c)flam(d)má(ff)tum(f_g) est(ghgg) (,) * cor(fgd~) me(dfe/f.d!ew!fvE'DC'd)um,(dc..) (;) et(d) re(fddc)nes(fg) me(ixfhg/hi)i(h.) (,) com(hjhhg)mu(hggf)tá(fh!jvH'G)ti(h) sunt :(ixhv.f.g!hwihhggf.0) (:) ze(dh)lus(h) do(h_g/jij)mus(h_f/hg) (`) tu(g_[oh:h]eg)ae(gvF'EDfvED) (,) (fge'/fgd'/e[ll:1]ddc.) (;) com(fgh!jvIH'G)é(gf)dit(fgFD) me.(dc/d!ff/ghG'Efgff/ded.) (::) <sp>V/</sp>. Pó(dh)su(h)it(h) os(hg) me(gh/jh/jggf)um(f.) (;) qua(hj)si(j_i) glá(j)di(hgh)um(h) a(fh)cú(j_0kvJH'jvGF'//hghhghv.)(,)(k_[uh:l]lJ'IH)tum :(ixhihih'ivHG'gfg.) (:) in(fh) um(h!jj/k_[hl:1]j/k_[hl:1]jkvJ~H~)bra(h.) (,) ma(hgh)nus(gfg) su(hhg/hhg/jjvIH)ae(h_[oh:h]i_[oh:h]h._[oh:h]) (;) pro(hg)té(h!iwj)xit(g) me,(fh/jh/jjjh..) (:) et(fhg~) pó(h_f/ghGF.)(,)(hg/hfg./d!ewf//e!gwhg/h!jj)su(h)it(fg) me(ghgff/ded.) (;) sic(d/fffd)ut(ef) sa(gf)gít(ixfhghv.fh!ivGF'E//ixf!gwh!iv)tam(hg__) <clear>*(,) e(gh)lé(ixjhiGF'h!jjvH'G)ctam.(hghFEfg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Tractus",
             "texte": "!Ps 54:3-4; 64:17\nContristátus sum in exercitatióne mea: et conturbátus sum a voce inimíci, et a tribulatióne peccatóris.\nV. Quóniam declinavérunt in me iniquitátes: et in ira molésti erant mihi.\nV. Ego autem ad Deum clamávi: et Dóminus salvábit me.",
-            "incipit": "Contristátus sum in",
+            "incipit": {
+              "incipit": "Contristatus sum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Tractus"
+            },
+            "gabc": "(f3) COn(f)tri(efE'C)stá(efe)tus(ef/hgh) sum(ghG'Fe!fwgf//ghghvGFgf..) <clear>*(;) in(f) ex(e)er(fe~)ci(e)ta(fh)ti(hg)ó(h)ne(f) me(f!hh//hhh)a,(fe/ggf/gh/iffe.) (:) et(e) con(e)tur(e)bá(gh)tus(f) sum(f.) (,) a(f) vo(fg)ce(f) in(f)i(f)mí(f_e/f!gwh'!iv)ci,(hg/hiih.0) (;) et(fhg) a(h) tri(i)bu(h)la(i)ti(h)ó(hhe)ne(fgf) (,) pec(hg)ca(hi)tó(ih/ijffe/hhhvGF')ris.(f/ggf.0) (::) \r\n<sp>V/</sp>. Quó(f)ni(e)am(f) de(h)cli(g)na(hi)vé(i_[oh:h]gi)runt(hg~) in(hvG~F~) me(fe/ggf/gh/iffe.) (;) in(e)i(gh)qui(f)tá(f_e/f!gwh'!iv)tes :(hg/hiih.0) (:) et(i_[oh:h]) in(e) i(f!hh//hhh)ra(gf..) (,) mo(fe)lé(h)sti(h) e(h)rant(gh/ihi) mi(f)hi.(f/ggf.0) (::) \r\n<sp>V/</sp>. E(e)go(f) au(h/ihhf/hh/ijhhg/ihhggf!gwhgh)tem(gf..) (;) ad(h) De(hg)um(i) cla(hg)má(fg)vi :(fe/ggf/gh/iffe.) (:) et(f) Dó(f_e/f!gwh'!iv)mi(hi)nus(kxhgi.jkiih.0) (;) * sal(hi)vá(hv.gh/ihi)bit(f) me.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Ps 70:7\nTamquam prodígium factus sum multis: et tu adjútor fortis, Allelúja.",
+            "incipit": {
+              "incipit": "Tamquam prodigium",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(gh)le(g)lú(gi!kvvJ'IH'jiih//ijhhg~){ia}.(g.) *(;) <i>ij.</i>(hvvGF'ED'feevDC'de.) (;) (ce!gvvF'ED'ef!gv.//hgjvvIHG.) (::) <sp>V/</sp>. Tam(g)quam(gh) pro(gf)dí(fh!jvIHkj)gi(hg)um(g.) (,) fa(gh)ctus(gf) sum(fgee[ll:1]d/fe) mul(dc/de)tis :(e.) (:) et(ec) tu(eg) ad(gf~)jú(fhg)tor(g.) *(,) for(gi!kvvJ'IH'jiih//ijhhg~)tis.(g.) (;) (hvvGF'ED'feevDC'de.) (;) (ce!gvvF'ED'ef!gv.//hgjvvIHG.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Offertorium",
             "texte": "!Col 1:25\nChristi factus sum ego miníster secúndum dispensatiónem Dei, quæ data est mihi, ut ímpleam verbum Dómini.",
-            "incipit": "Christi factus sum",
+            "incipit": {
+              "incipit": "Christi factus sum",
+              "version": "Solesmes",
+              "distance": 9,
+              "similarite": 0.775,
+              "source": "Offertorium"
+            },
+            "gabc": "\"(c4) CHri(d_cd)sti(d!ewf) *() fa(fg)ctus(g) sum(ixgiggf) e(iyhjH'Gih)go(h.) (,) mi(h)n\\u00ed(h!iwj/ki'jvHG'hwihi)ster(ih..) (;) se(dh/ih)c\\u00fan(h'jhhg)dum(ghgh) (,) dis(gfg)pen(gh)sa(gf)ti(gh)\\u00f3(h!iwj/ki'/jhhg)nem(g) De(g.h!iw!jvIH'hg)i,(gf/gff/ded.) (;) quae(d!fffd) da(ff)ta(fg) est(gf) mi(hjH'Gih)hi,(h.) (:) ut(h) \\u00edm(jjk)ple(hg)am(ghffd.) (,) ver(fgF'E)bum(fg!hvhg.) D\\u00f3(giHG'g//fhGF'fdfv.//fff/gf/gff)mi(d)ni.(fff_[oh:h]g_[oh:h]d.1_[oh:h]) (::) <i>T. P.</i> Al(fff_d/f/[1]{ix}f//hiH'GF'fe~)le(ghGF'ge/f_d)(,)(fge/fhGF'fd//gf'/gff)l\\u00fa(dc~){ia}.(d/fff_d/fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)\"",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Secreta",
-            "texte": "Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta; ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium júgiter offerátur.\n$Per Dominum",
-            "references": null
+            "texte": "Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta; ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium júgiter offerátur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/10-09.txt",
-            "section": "Communio",
             "texte": "!Phil 3:7\nQuæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum detriménta.",
-            "incipit": "Quæ mihi fuérunt",
+            "incipit": {
+              "incipit": "Quae mihi fuerunt",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) QUae(d!ewfe) mi(fgf)hi(fe) *(,) fu(gh)é(g)runt(fg) lu(fvED)cra,(d!ewf.) (;) haec(f_[oh:h]g_[oh:h]d_[oh:h]fv.) ar(c)bi(d)trá(fe)tus(g) sum(fg!hvhg.) (;) pro(ixhi)pter(hg) Chri(ghghvGF)stum(gvFDCd.) (,) de(fe/ggh)tri(fe)mén(de!fvED'e)ta.(e[ll:1]d..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/10-09.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/10-09.txt",
             "section": "Postcommunio",
-            "texte": "Pretiósi córporis, et sánguinis tui sacris refécti mystériis, Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo, studeámus confitéri quod crédidit, et ópere exercére quod dócuit:\n$Qui vivis",
-            "references": null
+            "texte": "Pretiósi córporis, et sánguinis tui sacris refécti mystériis, Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo, studeámus confitéri quod crédidit, et ópere exercére quod dócuit:\n$Qui vivis"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Introitus",
-            "texte": "!Eccli 42:15-16.\nv. Des paroles du Seigneur émanent ses œuvres : le soleil les éclaire et les contemple toutes, et l’oeuvre du Seigneur est remplie de sa gloire.\n!Ps 95:1\nChantez au Seigneur un chant nouveau, chantez au Seigneur terre entière.\n&Gloria\nv. Des paroles du Seigneur émanent ses œuvres : le soleil les éclaire et les contemple toutes, et l’oeuvre du Seigneur est remplie de sa gloire.",
-            "incipit": "Des paroles du",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 42:15-16.\nv. Des paroles du Seigneur émanent ses œuvres : le soleil les éclaire et les contemple toutes, et l’oeuvre du Seigneur est remplie de sa gloire.\n!Ps 95:1\nChantez au Seigneur un chant nouveau, chantez au Seigneur terre entière.\n&Gloria\nv. Des paroles du Seigneur émanent ses œuvres : le soleil les éclaire et les contemple toutes, et l’oeuvre du Seigneur est remplie de sa gloire."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, afin de répandre la foi parmi les païens, vous avez suscité d’une merveilleuse façon le bienheureux Jean votre Confesseur, et vous lui avez fait fonder dans votre Église une nouvelle famille pour instruire les fidèles : donnez-nous, à nous vos serviteurs, de profiter si bien de ses enseignements que nous obtenions la vie éternelle.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, afin de répandre la foi parmi les païens, vous avez suscité d’une merveilleuse façon le bienheureux Jean votre Confesseur, et vous lui avez fait fonder dans votre Église une nouvelle famille pour instruire les fidèles : donnez-nous, à nous vos serviteurs, de profiter si bien de ses enseignements que nous obtenions la vie éternelle.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!2 Cor 4:1-6, 15-18\nMes Frères, ayant le ministère selon la miséricorde qui nous a été faite, nous ne faiblissons pas ; mais nous rejetons les choses honteuses que l’on cache, ne nous conduisant point avec artifice, et n’altérant point la parole de Dieu, mais nous recommandant nous-mêmes à la conscience de tous les hommes, devant Dieu, par la manifestation de la vérité. Si notre Evangile est encore voilé, c’est pour ceux qui périssent qu’il est voilé, pour les infidèles dont le Dieu de ce siècle a aveuglé les esprits, afin que ne brille pas pour eux la lumière du glorieux Evangile du Christ, qui est l’image de Dieu. Car nous ne nous prêchons pas nous-mêmes, mais Jésus-Christ notre Seigneur, et nous, nous sommes vos serviteurs en Jésus ; parce que le Dieu qui a dit à la lumière de resplendir du sein des ténèbres, a fait luire aussi sa clarté dans nos coeurs, pour que nous fassions briller la connaissance de la gloire de Dieu en la personne du Christ Jésus. Car toutes choses sont pour vous, afin que la grâce, en se multipliant, fasse abander les actions de grâces d’un grand nombre, pour la gloire de Dieu. C’est pourquoi nous ne perdons pas courage ; mais bien qu’en nous l’homme extérieur se détruise, cependant l’homme intérieur se renouvelle de jour en jour. Car notre légère tribulation du moment présent produit pour nous le poids éternel d’une sublime et incomparable gloire ; pour nous qui ne considérons point les choses visibles, mais les choses invisibles, car les choses visibles sont temporelles, mais les invisibles sont éternelles.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!2 Cor 4:1-6, 15-18\nMes Frères, ayant le ministère selon la miséricorde qui nous a été faite, nous ne faiblissons pas ; mais nous rejetons les choses honteuses que l’on cache, ne nous conduisant point avec artifice, et n’altérant point la parole de Dieu, mais nous recommandant nous-mêmes à la conscience de tous les hommes, devant Dieu, par la manifestation de la vérité. Si notre Evangile est encore voilé, c’est pour ceux qui périssent qu’il est voilé, pour les infidèles dont le Dieu de ce siècle a aveuglé les esprits, afin que ne brille pas pour eux la lumière du glorieux Evangile du Christ, qui est l’image de Dieu. Car nous ne nous prêchons pas nous-mêmes, mais Jésus-Christ notre Seigneur, et nous, nous sommes vos serviteurs en Jésus ; parce que le Dieu qui a dit à la lumière de resplendir du sein des ténèbres, a fait luire aussi sa clarté dans nos coeurs, pour que nous fassions briller la connaissance de la gloire de Dieu en la personne du Christ Jésus. Car toutes choses sont pour vous, afin que la grâce, en se multipliant, fasse abander les actions de grâces d’un grand nombre, pour la gloire de Dieu. C’est pourquoi nous ne perdons pas courage ; mais bien qu’en nous l’homme extérieur se détruise, cependant l’homme intérieur se renouvelle de jour en jour. Car notre légère tribulation du moment présent produit pour nous le poids éternel d’une sublime et incomparable gloire ; pour nous qui ne considérons point les choses visibles, mais les choses invisibles, car les choses visibles sont temporelles, mais les invisibles sont éternelles."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Graduale",
-            "texte": "!Ps 72:21; 68:10\nMon coeur s’est enflammé, et mes reins ont été altérés : le zèle de votre maison m’a dévoré.\n!Isa 49:2\nIl a rendu ma bouche semblable à un glaive acéré, il m’a protégé à l’ombre de sa main ; il a fait de moi comme une flèche choisie. Alléluia, alléluia.\n!Ps 70:7\nJe suis devenu pour beaucoup comme un prodige ; et vous, vous êtes un puissant secours. Alléluia.",
-            "incipit": "Mon coeur s’est",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 72:21; 68:10\nMon coeur s’est enflammé, et mes reins ont été altérés : le zèle de votre maison m’a dévoré.\n!Isa 49:2\nIl a rendu ma bouche semblable à un glaive acéré, il m’a protégé à l’ombre de sa main ; il a fait de moi comme une flèche choisie."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Tractus",
-            "texte": "!Ps 54:3-4; 64:17\nJ’ai été rempli de tristesse dans mon épreuve, et le trouble m’a saisi à la voix de l’ennemi, et devant l’oppression du pécheur.\nV. Car ils m’ont accusé de crimes, et dans leur colère ils m’ont affligé.\nV. Mais moi j’ai crié vers Dieu, et le Seigneur me sauvera.",
-            "incipit": "J’ai été rempli",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 54:3-4; 64:17\nJ’ai été rempli de tristesse dans mon épreuve, et le trouble m’a saisi à la voix de l’ennemi, et devant l’oppression du pécheur.\nV. Car ils m’ont accusé de crimes, et dans leur colère ils m’ont affligé.\nV. Mais moi j’ai crié vers Dieu, et le Seigneur me sauvera."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/10-09.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 70:7\nJe suis devenu pour beaucoup comme un prodige ; et vous, vous êtes un puissant secours. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Offertorium",
-            "texte": "!Col 1:25\nJe suis devenu le ministre du Christ, selon la charge que Dieu m’a donnée, pour que j’annonce pleinement la parole de Dieu",
-            "incipit": "Je suis devenu",
-            "mp3": null,
-            "references": null
+            "texte": "!Col 1:25\nJe suis devenu le ministre du Christ, selon la charge que Dieu m’a donnée, pour que j’annonce pleinement la parole de Dieu"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Secreta",
-            "texte": "Recevez, Seigneur, l’offrande pure de l’hostie du salut, et faites qu’à la prière du bienheureux Jean votre Confesseur, elle soit offerte sans interruption parmi tous les peuples.\n$Per Dominum",
-            "references": null
+            "texte": "Recevez, Seigneur, l’offrande pure de l’hostie du salut, et faites qu’à la prière du bienheureux Jean votre Confesseur, elle soit offerte sans interruption parmi tous les peuples.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Communio",
-            "texte": "!Phil 3:7\nLes choses qui avaient été pour moi des gains, je les ai regardées comme une perte à cause du Christ.",
-            "incipit": "Les choses qui",
-            "mp3": null,
-            "references": null
+            "texte": "!Phil 3:7\nLes choses qui avaient été pour moi des gains, je les ai regardées comme une perte à cause du Christ."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/10-09.txt",
             "section": "Postcommunio",
-            "texte": "Restaurés par les saints mystères de vos Corps et Sang précieux, Seigneur, nous vous prions : que l’exemple du bienheureux Jean votre Confesseur, nous entraîne à affirmer avec foi ce qu’il a cru et à mettre en pratique ce qu’il a prêché.\n$Qui vivis",
-            "references": null
+            "texte": "Restaurés par les saints mystères de vos Corps et Sang précieux, Seigneur, nous vous prions : que l’exemple du bienheureux Jean votre Confesseur, nous entraîne à affirmer avec foi ce qu’il a cru et à mettre en pratique ce qu’il a prêché.\n$Qui vivis"
           }
         }
       },
@@ -210,7 +209,7 @@
         "Francais/Sancti/10-09.txt",
         "Latin/Sancti/10-09.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

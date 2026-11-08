@@ -28,188 +28,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pasc7-4.txt",
-            "section": "Introitus",
             "texte": "!Sap 1:7\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.\n!Ps 67:2.\nExsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.\n&Gloria\nv. Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.",
-            "incipit": "Spíritus Dómini replévit",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Spiritus Domini cum Alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) SPí(d)ri(fhg)tus(gh~) Dó(h)mi(ghGF'g)ni(gf..) <clear>*(,) re(fh)plé(jjk)vit(j) or(kl~)bem(j) ter(jjj)rá(g)rum,(jj) (,) al(h)le(hv.fhg)lú(ghg___){ia} :(g.) (:) et(fg) hoc(gjj) quod(g) cón(g!jij)ti(hiHG'h)net(h_g) ó(gh'j~)mni(j)a,(j.) (;) sci(i)én(jk~)ti(k_[hl:1]j)am(jjj/h_[oh:h]i_[oh:h]h._[oh:h]) ha(kl)bet(j) vo(jjj)cis,(h.) (;) al(hg~)le(fg'h)lú(hghv_G~F~){ia},(f.) (,) al(f!h'j~)le(j)lú(jijV!hj~){ia},(ijHG.) (,) al(gh~)le(hv.fhg)lú(ghg___){ia}.(g.) (::) <i>Ps.</i> Ex(g)súr(hg)gat(gj) De(j)us,(j.) (,) et(j) dis(j)si(j)pén(j)tur(j) in(j)i(ji)mí(jk)ci(k) e(jk)jus :(j.) *(:) et(jh~) fú(hj)gi(j)ant,(j) qui(j) o(j)dé(j)runt(j) e(j)um,(j.) (,) a(j) fá(jji)ci(gh)e(ji) e(h)jus.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(ghd___/ffg.) (::)",
+            "mp3": "introitus_spiritus-domini.mp3",
+            "fichier": "Latin/Tempora/Pasc7-4.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Oratio",
-            "texte": "Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.\n$Per Dominum eiusdem",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc7-0.txt",
-                "section": "Oratio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.\n$Per Dominum eiusdem"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum\n!Acts 8:5-8\nIn diébus illis: Philíppus descéndens in civitátem Samaríæ, prædicábat illis Christum. Intendébant autem turbæ his, quæ a Philíppo dicebántur, unanímiter audiéntes et vidéntes signa, quæ faciébat. Multi enim eórum, qui habébant spíritus immúndos, clamántes voce magna, exíbant. Multi autem paralýtici et claudi curáti sunt. Factum est ergo gáudium magnum in illa civitáte.",
-            "references": null
+            "texte": "Léctio Actuum Apostolórum\n!Acts 8:5-8\nIn diébus illis: Philíppus descéndens in civitátem Samaríæ, prædicábat illis Christum. Intendébant autem turbæ his, quæ a Philíppo dicebántur, unanímiter audiéntes et vidéntes signa, quæ faciébat. Multi enim eórum, qui habébant spíritus immúndos, clamántes voce magna, exíbant. Multi autem paralýtici et claudi curáti sunt. Factum est ergo gáudium magnum in illa civitáte."
           },
           "Graduale": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Graduale",
-            "texte": "Allelúja, allelúja.\n!Ps 103:30\nV. Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
-            "incipit": "Allelúja, allelúja. Emítte",
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Ps 103:30\nV. Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja. (Hic genuflectitur)\nV. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.",
+            "incipit": {
+              "incipit": "Emitte Spiritum",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) <clear>*(,) <i>ij.</i>(ixhiHG'ge./ghGF'Ef_gffe.) (::) <sp>V/</sp>. E(h)mít(h)te(ixg'//ivHG'hffe.) (,) Spí(fh)ri(ghg'/hf)tum(e[ll:1]d~) tu(egF'D)um,(d.) (:) et(dc~) cre(f)a(ghg)bún(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/!g_[oh:h]e/!fv.df!gvef~)tur :(e.) (:) et(f) re(f)no(f)vá(ef)bis(f) fá(ef'g)ci(gdgvFE)em(e.) (,) * ter(fd/ef!g'h)rae.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
+            "mp3": "alleluia_emitte-spiritum-tuum.mp3",
             "fichier": "Latin/Tempora/Pasc7-4.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 9:1-6\nIn illo témpore: Convocátis Jesus duódecim Apóstolis, dedit illis virtútem et potestátem super ómnia dæmónia, et ut languóres curárent. Et misit illos prædicáre regnum Dei et sanáre infírmos. Et ait ad illos: Nihil tuléritis in via, neque virgam, neque peram, neque panem, neque pecúniam, neque duas túnicas habeátis. Et in quamcúmque domum intravéritis, ibi manéte et inde ne exeátis. Et quicúmque non recéperint vos: exeúntes de civitáte illa, étiam púlverem pedum vestrórum excútite in testimónium supra illos. Egréssi autem circuíbant per castélla, evangelizántes et curántes ubíque.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 9:1-6\nIn illo témpore: Convocátis Jesus duódecim Apóstolis, dedit illis virtútem et potestátem super ómnia dæmónia, et ut languóres curárent. Et misit illos prædicáre regnum Dei et sanáre infírmos. Et ait ad illos: Nihil tuléritis in via, neque virgam, neque peram, neque panem, neque pecúniam, neque duas túnicas habeátis. Et in quamcúmque domum intravéritis, ibi manéte et inde ne exeátis. Et quicúmque non recéperint vos: exeúntes de civitáte illa, étiam púlverem pedum vestrórum excútite in testimónium supra illos. Egréssi autem circuíbant per castélla, evangelizántes et curántes ubíque."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pasc7-4.txt",
-            "section": "Offertorium",
             "texte": "!Ps 67:29-30\nConfírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod est in Jerúsalem, tibi ófferent reges múnera, allelúja.",
-            "incipit": "Confírma hoc, Deus,",
-            "mp3": "offertoire_confirma-hoc-deus.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Confirma hoc sine Alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) COn(d!ewf)fír(f)ma(e'fg) *() hoc(ixghf___/ih/igh) De(e)us,(egf/gffe.) (;) quod(f) o(fgff)pe(df)rá(fff/ghg)tus(gef) es(e_[oh:h][ll:1]d) (,) in(gh) no(g/jjj)bis :(hjhhg.) (:)\r\na(g) tem(gh)plo(h_g) tu(ixgih'ivGF')o,(gffe.) (;) quod(f_e/f_g) est(ixhig'hvF'E) (,) in(gh) Je(gjh)rú(ghf/ghg)sa(fd)lem,(ev.f!gfgd.) (:)\r\nti(df/gef)bi(f.) óf(ixf_e/hih'/ih)fe(hhgh)rent(g.) re(df/gef)ges(f.) (,) mú(f_[oh:h]g_[oh:h]e_[oh:h])ne(f/ghf)ra.(ff//egf/gffe.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Tempora/Pasc7-4.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Secreta",
-            "texte": "Múnera, quǽsumus, Dómine, oblata sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda.\n$Per Dominum eiusdem",
-            "references": null
+            "texte": "Múnera, quǽsumus, Dómine, oblata sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda.\n$Per Dominum eiusdem"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pasc7-4.txt",
-            "section": "Communio",
             "texte": "!Acts 2:2 2:4\nFactus est repénte de cœlo sonus tamquam adveniéntis spíritus veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes Spíritu Sancto, loquéntes magnália Dei, allelúja, allelúja.",
-            "incipit": "Factus est repénte",
+            "incipit": {
+              "incipit": "Factus est repente... alleluia",
+              "version": "Vatican",
+              "distance": 10,
+              "similarite": 0.75,
+              "source": "Communio"
+            },
+            "gabc": "\"(c3) F<sc>a</sc>(e)<sc>ctus</sc>(ei) est(i) * re(i)p\\u00e9n(i)te(e) de(i) coe(i)lo(h) so(kjki)nus(i) (,) ad(i)ve(i)ni(ij)\\u00e9n(ji~)tis(ji) sp\\u00ed(hj)ri(i)tus(h) ve(h)he(f!gwh)m\\u00e9n(hi~)tis,(h) (;) u(hg)bi(h) e(iji)rant(hih) se(hg)d\\u00e9n(fhG~E~)tes,(fe) (,) al(eg~)le(gv//fhg)l\\u00fa(efe){ia} :(e) (:) et(e) re(f)pl\\u00e9(hij)ti(i) sunt(i) o(ij~)mnes(i) Sp\\u00ed(j)ri(i)tu(h) San(ij~)cto,(j) (;) lo(i)qu\\u00e9n(hg/hih~)tes(f) ma(eg~)gn\\u00e1(ghg//efg)li(fd)a(f) De(efe)i,(e) (;) al(eg~)le(g)l\\u00fa(hih){ia},(f) (,) al(eg~)le(gv//fhg)l\\u00fa(efe){ia}.(e) (::)\"",
             "mp3": "communion_factus-est-repente.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pasc7-4.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pasc7-4.txt",
             "section": "Postcommunio",
-            "texte": "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet.\n$Per Dominum eiusdem",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pasc7-0.txt",
-                "section": "Postcommunio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet.\n$Per Dominum eiusdem"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Introitus",
-            "texte": "!Sap 1:7\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia.\n!Ps 67:2\nQue Dieu se lève, et que ses ennemis se dispersent ; qu'ils fuient, ceux qui le haïssent, devant sa face.\n&Gloria\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia.",
-            "incipit": "L'Esprit du Seigneur",
-            "mp3": null,
-            "references": null
+            "texte": "!Sap 1:7\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia.\n!Ps 67:2\nQue Dieu se lève, et que ses ennemis se dispersent ; qu'ils fuient, ceux qui le haïssent, devant sa face.\n&Gloria\nv. L'Esprit du Seigneur remplit la terre, alléluia ; et lui qui tient unies toutes choses perce le secret de chaque parole, alléluia, alléluia, alléluia."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu qui, aujourd'hui, avez instruit les cœurs de vos fidèles par la lumière du Saint-Esprit, donnez-nous par ce même Esprit de trouver en Lui le goût de la vérité et de jouir toujours de sa consolation.\n$Per Dominum eiusdem",
-            "references": null
+            "texte": "Ô Dieu qui, aujourd'hui, avez instruit les cœurs de vos fidèles par la lumière du Saint-Esprit, donnez-nous par ce même Esprit de trouver en Lui le goût de la vérité et de jouir toujours de sa consolation.\n$Per Dominum eiusdem"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum.\n!Acts 8:5-8\nEn ces jours-là, Philippe, étant descendu dans la ville de Samarie, leur prêchait le Christ. Les foules étaient attentives à ce que disait Philippe, écoutant d'un seul cœur et voyant les miracles qu'il faisait. Les esprits impurs, en effet, dont beaucoup étaient possédés, sortaient en poussant de grands cris ; beaucoup de paralytiques et de boiteux furent guéris. Il y eut donc une grande joie dans cette ville.",
-            "references": null
+            "texte": "Léctio Actuum Apostolórum.\n!Acts 8:5-8\nEn ces jours-là, Philippe, étant descendu dans la ville de Samarie, leur prêchait le Christ. Les foules étaient attentives à ce que disait Philippe, écoutant d'un seul cœur et voyant les miracles qu'il faisait. Les esprits impurs, en effet, dont beaucoup étaient possédés, sortaient en poussant de grands cris ; beaucoup de paralytiques et de boiteux furent guéris. Il y eut donc une grande joie dans cette ville."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Graduale",
-            "texte": "Allelúja, allelúja\n!Ps 103:30\nEnvoyez votre Esprit et tout renaîtra, et vous renouvellerez la face de la terre. Alléluia. (Hic genuflectitur)\nV. Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour.",
-            "incipit": "Allelúja, allelúja Envoyez",
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja\n!Ps 103:30\nEnvoyez votre Esprit et tout renaîtra, et vous renouvellerez la face de la terre. Alléluia. (Hic genuflectitur)\nV. Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 9:1-6\nEn ce temps-là, Jésus ayant convoqué les douze Apôtres, il leur donna puissance et autorité sur tous les démons, et pour guérir les maladies. Et il les envoya prêcher le royaume de Dieu et guérir les malades, et il leur dit : « Ne prenez rien pour la route, ni bâton, ni besace, ni pain, ni argent, et n'ayez pas deux tuniques. En quelque maison que vous entriez, demeurez-y et repartez de là. La ville dont les gens ne vous recevraient pas, sortez-en et secouez sur eux, en témoignage, la poussière de vos pieds. » Étant partis, ils allèrent de village en village, annonçant la bonne nouvelle et opérant partout des guérisons.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 9:1-6\nEn ce temps-là, Jésus ayant convoqué les douze Apôtres, il leur donna puissance et autorité sur tous les démons, et pour guérir les maladies. Et il les envoya prêcher le royaume de Dieu et guérir les malades, et il leur dit : « Ne prenez rien pour la route, ni bâton, ni besace, ni pain, ni argent, et n'ayez pas deux tuniques. En quelque maison que vous entriez, demeurez-y et repartez de là. La ville dont les gens ne vous recevraient pas, sortez-en et secouez sur eux, en témoignage, la poussière de vos pieds. » Étant partis, ils allèrent de village en village, annonçant la bonne nouvelle et opérant partout des guérisons."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:29-30.\nAffermissez, Seigneur, ce que vous avez opéré en nous ; du milieu de votre temple, qui est à Jérusalem, des rois vous offriront des présents, alléluia.",
-            "incipit": "Affermissez, Seigneur, ce",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 67:29-30.\nAffermissez, Seigneur, ce que vous avez opéré en nous ; du milieu de votre temple, qui est à Jérusalem, des rois vous offriront des présents, alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Secreta",
-            "texte": "Sanctifiez, Seigneur, les dons qui vous sont offerts, et rendez nos cœurs purs en les illuminant des clartés du Saint-Esprit.\n$Per Dominum eiusdem",
-            "references": null
+            "texte": "Sanctifiez, Seigneur, les dons qui vous sont offerts, et rendez nos cœurs purs en les illuminant des clartés du Saint-Esprit.\n$Per Dominum eiusdem"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Communio",
-            "texte": "!Acts 2:2 2:4\nIl y eut soudain un bruit venant du ciel, comme d'un violent coup de vent, là où ils étaient assis, alléluia ; et ils furent tous remplis de l'Esprit Saint, racontant les merveilles de Dieu, alléluia, alléluia.",
-            "incipit": "Il y eut",
-            "mp3": null,
-            "references": null
+            "texte": "!Acts 2:2 2:4\nIl y eut soudain un bruit venant du ciel, comme d'un violent coup de vent, là où ils étaient assis, alléluia ; et ils furent tous remplis de l'Esprit Saint, racontant les merveilles de Dieu, alléluia, alléluia."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pasc7-4.txt",
             "section": "Postcommunio",
-            "texte": "Que l'Esprit Saint, répandu en nos cœurs, les purifie, Seigneur, et les féconde par l'intime infusion de sa rosée.\n$Per Dominum eiusdem",
-            "references": null
+            "texte": "Que l'Esprit Saint, répandu en nos cœurs, les purifie, Seigneur, et les féconde par l'intime infusion de sa rosée.\n$Per Dominum eiusdem"
           }
         }
       },

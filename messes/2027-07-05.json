@@ -28,174 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Introitus",
             "texte": "!1 Cor 2:4\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.\n!Ps 110:1\nConfitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne.\n&Gloria\nv. Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.",
-            "incipit": "Sermo meus et",
+            "incipit": {
+              "incipit": "Sermo meus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) SEr(eef)mo(dg) me(gj)us,(j.) *(,) et(j) prae(j)di(j)cá(hj)ti(j)o(jjjh) me(h_g)a(ghgg/efe.) (;) non(ff) in(d) per(dge)su(e)a(eg)si(g)bí(gh)li(h)bus(h.) (,) hu(h)má(hkJI'j)nae(j.) sa(j)pi(j)én(j_i/j_i/jlk)ti(ki)ae(i) ver(ikj)bis,(iki/jhhg.) (:) sed(g.h!iwj) in(ikjjg) os(g)ten(gh)si(g)ó(e!fwg'!hv)ne(g.) (,) spí(fffd)ri(dg)tus(g.) et(fhg___) vir(g_[oh:h]e)tú(egff)tis.(fe..) (::) <i>Ps.</i> Con(g)fi(hj)té(j)bor(j) ti(j)bi,(j) Dó(j)mi(j)ne,(j) (,) in(j) to(j)to(j) cor(k)de(j) me(ih)o,(jjj) *(:) in(ig~) con(hj)sí(j)li(j)o(j) ju(j)stó(j)rum(j) et(j) con(j)gre(jji)ga(hg)ti(h')ó(i)ne.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Oratio",
-            "texte": "Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum famílias congregávit.\n$Per eundem",
-            "references": null
+            "texte": "Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum et vírginum famílias congregávit.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!1. Tim 4:8-16.\nCaríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Præcipe hæc et doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per prophetíam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum fácies, et eos qui te áudiunt.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!1. Tim 4:8-16.\nCaríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Præcipe hæc et doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per prophetíam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens, et teípsum salvum fácies, et eos qui te áudiunt."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Graduale",
-            "texte": "!Philipp 1:8-9\nTestis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.\n!Philip 1:10\nUt probétis potióra, ut sitis sincéri et sine offénsa in diem Christi.\nAllelúja, allelúja.\n!Philip 1:11.\nRepléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.",
-            "incipit": "Testis mihi est",
+            "texte": "!Philipp 1:8-9\nTestis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.\n!Philip 1:10\nUt probétis potióra, ut sitis sincéri et sine offénsa in diem Christi.",
+            "incipit": {
+              "incipit": "Testis mihi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) TE(e)stis(e[ll:1]d) mi(ef)hi(e) est(e.f!gw!hvGF'g) De(ef/hfg)us,(fe..) (;) * quo(eh) mo(hhi)do(h) cú(h)pi(h)am(hf) o(g)mnes(fgFE'f) vos(fe..) (;) in(hhi~) vi(i)scé(hg/hiih/ij)ri(i)bus(i.) (,) Je(ikki)su(ij) Chri(i.h!iwj)sti.(ji/ji/jhivHGhg..) (:) Et(fhg) hoc(hi) o(ihi)ro,(i.) (,) ut(i) cá(ig)ri(hi)tas(i) ve(ighvGFgh)stra(h.) (,) ma(h)gis(g) ac(i) ma(i)gis(g) a(h)bún(ih~)det(i.) (;) in(i) sci(i)én(i.h!iwj)ti(ihi)a,(ig'hvF'Effe/ff) (,) (ef!hhhfhvvGF'hefvEDe[ll:1]d..) (;) et(d) in(f) o(ggh)mni(fi!jv) sen(hg)su.(g./e!hfh./ghF'Ef_gffe.) (::) <sp>V/</sp>. Ut(e) pro(hh)bé(hi)tis(hh/ig'/hiffe.) (,) po(e)ti(eh)ó(hi)ra,(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) ut(hh) si(hi)tis(hh/ig'/hiffe.) sin(hh)cé(hv.gh/ih/ij)ri,(i.) (;) et(i) si(ij)ne(i) of(i)fén(ihi)sa(iig//hih/iffe.) (;) in(ef) di(e)em(ef'h) *() Chri(hv.gh/ihi)sti.(ie..) (;) (igijki./jkJ'Ijh/iig./hig'hvFEfde.) (,) (hhvF'EfvD[ull:0]B.1//ehf/gffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Tractus",
             "texte": "!2 Cor 10:17-18\nQui gloriátur, in Dómino gloriétur: non enim, qui seípsum comméndat, ille probátus est: sed quem Deus comméndat.\n!Gal 6:14\nMihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.\n!Philipp 1:21\nMihi vívere Christus est, et mori lucrum.",
-            "incipit": "Qui gloriátur, in",
+            "incipit": {
+              "incipit": "Qui gloriatur",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) QUI(g) glo(g)ri(g)á(g/hih)tur,(g/hhg.) <clear>*(;) in(fg) Dó(gjjk)mi(h)no(gf/ghhg.) (,) glo(ij)ri(hji')é(j)tur :(jjjkhhg/hg/jjh/jggf.0) (:) non(f) e(hj)nim(igh) qui(gf/gh) se(g)í(gh)psum(g) com(g)mén(gh)dat,(g.) (,) <nlba>il(gh)le</nlba>(g) pro(g)bá(gh/jij)tus(j.h!iwj) est :(jjjvIHivHGhg..) (:) sed(ixfh/ih/ig~) quem(j) De(j)us(j) com(j)mén(jv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)dat.(g/hhg.) (::) \r\n<sp>V/</sp>. Mi(ggd)hi(g) au(gh)tem(g) ab(gh/jij)sit(j.) (,) glo(j)ri(j)á(j_kJ'//Gh_g/h!iw!jvIHijh)ri,(hg..) (:) ni(g)si(gj) in(j) cru(ik/ljjh)ce(jhhg/hg/jjh/jggf.0) (;) Dó(gh)mi(fg)ni(g) no(gh)stri(g) Je(hji)su(j) Chri(jk/jj'j/kjjh)(,)(ji/jjvI'G//hjh'jvHF.g.h!iwjjk)sti :(j.) (:) per(kj~) quem(j_kJ'//G) mi(gh)hi(fg) mun(g)dus(ghhg/hhg//hjjhj.) (,) cru(gh)ci(gf)fí(h!iwj)xus(jjj) est,(jh//jjjlvKJ'jvI'HGhg..) (:) et(gg/hfg) e(g/hji)go(j) mun(j.h!iwj)do.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Mi(jj)hi(j) ví(kjjg)(,)(jv.kli/jki'/jhhg.ixhiGF.iyh!iwjjk)ve(j)re(j.) (,) Chri(jj/kij)stus(hg) est,(g.jv.hkJI.hjIH.giH'G) (,) (hg/hg/hg/jjh/jjggf.0) (:) et(g) mo(hg/jjghvG'F)ri(f!h'j) () * lu(j)crum.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Philip 1:11.\nRepléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.",
+            "incipit": {
+              "incipit": "Repleti fructu",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(cdf)le(f'gvE'Dfv.efd)lú(dc/ee[ll:1]d~){ia}.(d.) (;) * <i>ij.</i>(fg!hvGF'gff//e!fwg/efd___!ew!fvEC'ewfd.1) (::) <sp>V/</sp>. Re(dh)plé(f!gwhg)ti(gf) fru(fv.e!fwg/efd)ctu(d.) ju(dg)stí(gvF'ED'ewfe)ti(de)ae(dc..) (;) per(dfe) Je(fg)sum(e.[ll:1]d!ewfe) Chri(deDC'd)stum,(d.) (:) in(cdf) gló(fv.efd/e[ll:1]d)ri(cd)am(d.) (,) et(d) lau(dc/ee[ll:1]d~)dem(d.) * De(fgf/hggf)i.(fv.e!fwg/efd___!ew!fvEC'ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 10:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in illud. Et compléxans párvulos et impónens manus super illos, benedicébat eos. ¶ Et cum egréssus esset in viam, procúrrens quidam, genu flexo ante eum, rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, ne occídas, ne furéris, ne falsum testimónium díxeris, ne fraudem féceris, honora patrem tuum et matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis thesáurum in cælo: et veni, séquere me.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 10:15-21\nIn illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in illud. Et compléxans párvulos et impónens manus super illos, benedicébat eos. ¶ Et cum egréssus esset in viam, procúrrens quidam, genu flexo ante eum, rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, ne occídas, ne furéris, ne falsum testimónium díxeris, ne fraudem féceris, honora patrem tuum et matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis thesáurum in cælo: et veni, séquere me."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Offertorium",
             "texte": "!Ps 137:1-2\nIn conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
-            "incipit": "In conspéctu Angelórum",
+            "incipit": {
+              "incipit": "In conspectu Angelorum (Off)",
+              "version": "Solesmes 1961",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) IN(c) con(d)spé(ixdh'!iv)ctu(h) *() An(h)ge(h)ló(hjh)rum(ghggf.0) (,) psal(h/jjh/i_[uh:l]j)lam(g_[oh:h]fg) ti(fhhg/!hv./!gh/jjjh)bi :(hhgh.) (:) ad(hj)o(jk)rá(klkl)bo(j_h) (,) ad(h_gh) tem(hj/kjk)plum(k_[hl:1]h_[hl:1]) san(hj)ctum(jjj) tu(hhg)um,(g_[oh:h]fg.) (:) et(f) con(gh)fi(hg)té(g.e!fwgfg)bor(g_[oh:h]d_[oh:h]) (,) nó(df/gfgf//f'ffd/g_[oh:h]ef.)(,)(hjg)mi(fdf)ni(fgffe) tu(de!fvED'e)o.(e[ll:1]d..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Secreta",
-            "texte": "Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit.\n$Per Dominum",
-            "references": null
+            "texte": "Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/07-05.txt",
-            "section": "Communio",
             "texte": "!Philipp 3:17\nImitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam nostram.",
-            "incipit": "Imitatóres mei estóte,",
+            "incipit": {
+              "incipit": "Imitatores",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) I(d)mi(fe)ta(f)tó(gh)res(g) me(f)i(g) *() e(f)stó(d_[oh:h]e_[oh:h]c_[oh:h])te,(c.) fra(fh)tres,(g.) (;) et(gf) ob(g)ser(h)vá(f)te(d) e(fef)os(d.) (,) qui(dc) i(f)ta(gh) ám(hjh___!iwj)bu(g)lant,(fgFD.1) (;) sic(fe)ut(f) ha(g)bé(h)tis(g.) for(ixjjhig)mam(ghf___) no(f_[oh:h]g_[oh:h]f_[oh:h])stram.(f.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/07-05.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-05.txt",
             "section": "Postcommunio",
-            "texte": "Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam:\n$Qui vivis.",
-            "references": null
+            "texte": "Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam:\n$Qui vivis."
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Introitus",
-            "texte": "!1 Cor 2:4.\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance.\n!Ps 110:1\nSeigneur, je vous célèbrerai de tout mon cœur dans la réunion des justes et dans l’assemblée.\n&Gloria\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance.",
-            "incipit": "Ma parole et",
-            "mp3": null,
-            "references": null
+            "texte": "!1 Cor 2:4.\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance.\n!Ps 110:1\nSeigneur, je vous célèbrerai de tout mon cœur dans la réunion des justes et dans l’assemblée.\n&Gloria\nv. Ma parole et ma prédication ne consistent pas dans les discours persuasifs de la sagesse humaine, mais dans la manifestation de l’esprit et de la puissance."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Oratio",
-            "texte": "Faites-nous, Seigneur, la grâce d’apprendre selon l’esprit de l’Apôtre Paul la science suréminente de Jésus-Christ dont le bienheureux Antoine-Marie fut merveilleusement instruit, lui qui rassembla dans votre Église de nouvelles familles de clercs et de religieuses.\n$Per eundem",
-            "references": null
+            "texte": "Faites-nous, Seigneur, la grâce d’apprendre selon l’esprit de l’Apôtre Paul la science suréminente de Jésus-Christ dont le bienheureux Antoine-Marie fut merveilleusement instruit, lui qui rassembla dans votre Église de nouvelles familles de clercs et de religieuses.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.\n!1. Tim 4:8-16.\nMon très cher : la piété est toujours utile. Elle a les promesses de la vie future. La promesse de Dieu est sûre et mérite notre confiance. Si nous supportons les fatigues et les malédictions, c’est que nous avons mis notre espoir dans le Dieu vivant qui est le Sauveur de tous les hommes et surtout des croyants. Prêche et enseigne ces vérités. Ne donne pas prétexte à mépriser ta jeunesse : mais sois un exemple pour les fidèles dans tes paroles, dans ta manière de vivre, par ta charité, ta foi, ta chasteté. En attendant ma visite, fais soigneusement la lecture de l’Écriture sainte, les exhortations et les instructions. Ne néglige pas la grâce de ton sacerdoce, que tu as reçu sur l’intervention des prophètes avec l’imposition des mains de tous les prêtres réunis. Sois entier à ton ministère. Prends-le à cœur, pour que tout le monde puisse voir tes progrès. Surveille ta conduite et ton enseignement, et sois persévérant. Ce faisant, tu assureras et ton propre salut et le salut de ceux qui t’entendent.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.\n!1. Tim 4:8-16.\nMon très cher : la piété est toujours utile. Elle a les promesses de la vie future. La promesse de Dieu est sûre et mérite notre confiance. Si nous supportons les fatigues et les malédictions, c’est que nous avons mis notre espoir dans le Dieu vivant qui est le Sauveur de tous les hommes et surtout des croyants. Prêche et enseigne ces vérités. Ne donne pas prétexte à mépriser ta jeunesse : mais sois un exemple pour les fidèles dans tes paroles, dans ta manière de vivre, par ta charité, ta foi, ta chasteté. En attendant ma visite, fais soigneusement la lecture de l’Écriture sainte, les exhortations et les instructions. Ne néglige pas la grâce de ton sacerdoce, que tu as reçu sur l’intervention des prophètes avec l’imposition des mains de tous les prêtres réunis. Sois entier à ton ministère. Prends-le à cœur, pour que tout le monde puisse voir tes progrès. Surveille ta conduite et ton enseignement, et sois persévérant. Ce faisant, tu assureras et ton propre salut et le salut de ceux qui t’entendent."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Graduale",
-            "texte": "!Philipp 1:8-9\nDieu m’est témoin, combien je vous chéris tous dans les entrailles de Jésus-Christ. Et ce que je demande, c’est que votre charité abonde de plus en plus, en connaissance et en toute intelligence.\n!Philip 1:10\nPour que vous appréciez ce qui est meilleur, afin d’être pur et irrépréhensibles pour le jour du Christ. Alléluia, alléluia.\n!Philip 1:11.\nRemplis des fruits de justice, par Jésus-Christ, pour la gloire et la louange de Dieu. Alléluia.",
-            "incipit": "Dieu m’est témoin,",
-            "mp3": null,
-            "references": null
+            "texte": "!Philipp 1:8-9\nDieu m’est témoin, combien je vous chéris tous dans les entrailles de Jésus-Christ. Et ce que je demande, c’est que votre charité abonde de plus en plus, en connaissance et en toute intelligence.\n!Philip 1:10\nPour que vous appréciez ce qui est meilleur, afin d’être pur et irrépréhensibles pour le jour du Christ."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Tractus",
-            "texte": "!2 Cor 10:17-18\nQue celui qui se glorifie se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est un homme éprouvé ; c’est celui que le Seigneur recommande.\n!Gal 6:14\nPour moi, Dieu me garde de me glorifier, si ce n’est dans la croix de Notre Seigneur Jésus-Christ, par qui le monde est crucifié pour moi, comme je le suis pour le monde.\n!Philipp 1:21\nCar le Christ est ma vie, et la mort m’est un gain.",
-            "incipit": "Que celui qui",
-            "mp3": null,
-            "references": null
+            "texte": "!2 Cor 10:17-18\nQue celui qui se glorifie se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est un homme éprouvé ; c’est celui que le Seigneur recommande.\n!Gal 6:14\nPour moi, Dieu me garde de me glorifier, si ce n’est dans la croix de Notre Seigneur Jésus-Christ, par qui le monde est crucifié pour moi, comme je le suis pour le monde.\n!Philipp 1:21\nCar le Christ est ma vie, et la mort m’est un gain."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-05.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Philip 1:11.\nRemplis des fruits de justice, par Jésus-Christ, pour la gloire et la louange de Dieu. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 10:15-21\nEn ce temps-là : Jésus dit à ses disciples : Je vous le dis, en vérité, qui ne recevra pas comme un petit enfant le royaume de Dieu, n’y entrera point. Puis il les embrassa, et les bénit en leur imposant les mains. Comme il se mettait en route, quelqu’un accourut, et fléchissant le genou devant lui, lui demanda : Bon Maître, que dois-je faire pour entrer en possession de la vie éternelle ? Jésus lui dit : Pourquoi m’appelles-tu bon ? Nul n’est bon que Dieu seul. Tu connais les commandements : Ne tue pas, ne commets pas l’adultère, ne dérobe pas, ne porte pas de faux témoignage, ne fais pas de tort, honore ton père et ta mère. Il lui répondit : Maître, j’ai observé tout cela dès ma jeunesse. Jésus, ayant fixé son regard sur lui, l’aima et lui dit : Il te manque une chose : va, vends tout ce que tu as, donne-le aux pauvres, et tu auras un trésor dans le ciel ; puis viens, et suis-moi.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 10:15-21\nEn ce temps-là : Jésus dit à ses disciples : Je vous le dis, en vérité, qui ne recevra pas comme un petit enfant le royaume de Dieu, n’y entrera point. Puis il les embrassa, et les bénit en leur imposant les mains. Comme il se mettait en route, quelqu’un accourut, et fléchissant le genou devant lui, lui demanda : Bon Maître, que dois-je faire pour entrer en possession de la vie éternelle ? Jésus lui dit : Pourquoi m’appelles-tu bon ? Nul n’est bon que Dieu seul. Tu connais les commandements : Ne tue pas, ne commets pas l’adultère, ne dérobe pas, ne porte pas de faux témoignage, ne fais pas de tort, honore ton père et ta mère. Il lui répondit : Maître, j’ai observé tout cela dès ma jeunesse. Jésus, ayant fixé son regard sur lui, l’aima et lui dit : Il te manque une chose : va, vends tout ce que tu as, donne-le aux pauvres, et tu auras un trésor dans le ciel ; puis viens, et suis-moi."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Offertorium",
-            "texte": "!Ps 137:1-2\nJe vous chanterai des hymnes, en présence des Anges : j’adorerai dans votre saint temple, et je célèbrerai votre nom.",
-            "incipit": "Je vous chanterai",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 137:1-2\nJe vous chanterai des hymnes, en présence des Anges : j’adorerai dans votre saint temple, et je célèbrerai votre nom."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Secreta",
-            "texte": "Accordez-nous, Seigneur, d’apporter à la table du céleste festin une pureté d’âme et de corps semblable à celle qui revêtit d’un merveilleux éclat le bienheureux Antoine-Marie, tandis qu’il offrait cette très sainte hostie.\n$Per Dominum",
-            "references": null
+            "texte": "Accordez-nous, Seigneur, d’apporter à la table du céleste festin une pureté d’âme et de corps semblable à celle qui revêtit d’un merveilleux éclat le bienheureux Antoine-Marie, tandis qu’il offrait cette très sainte hostie.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Communio",
-            "texte": "!Philipp 3:17\nSoyez mes imitateurs, mes Frères, et regardez ceux qui marchent selon le modèle que vous avez en vous.",
-            "incipit": "Soyez mes imitateurs,",
-            "mp3": null,
-            "references": null
+            "texte": "!Philipp 3:17\nSoyez mes imitateurs, mes Frères, et regardez ceux qui marchent selon le modèle que vous avez en vous."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-05.txt",
             "section": "Postcommunio",
-            "texte": "Seigneur Jésus-Christ, que par le banquet céleste et sacré où nous avons reçu notre nourriture, notre cœur s’enflamme de ce feu de la charité, par un mouvement duquel le bienheureux Antoine-Marie a élevé contre les ennemis de votre Église, l’étendard de l’hostie salutaire.\n$Qui vivis.",
-            "references": null
+            "texte": "Seigneur Jésus-Christ, que par le banquet céleste et sacré où nous avons reçu notre nourriture, notre cœur s’enflamme de ce feu de la charité, par un mouvement duquel le bienheureux Antoine-Marie a élevé contre les ennemis de votre Église, l’étendard de l’hostie salutaire.\n$Qui vivis."
           }
         }
       },
@@ -203,7 +209,7 @@
         "Francais/Sancti/07-05.txt",
         "Latin/Sancti/07-05.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

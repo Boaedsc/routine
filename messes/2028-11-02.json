@@ -28,174 +28,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Introitus",
             "texte": "!4 Esdr 2:34; 2:35\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 64:2-3\nTe decet hymnus, Deus, in Sion, et tibi reddétur votum in Jerúsalem: exáudi oratiónem meam, ad te omnis caro véniet.\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Intr.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) RE(ffg)qui(f)em(f) *() ae(fg'h)tér(hggfg)nam(gf..) (;) do(fg'h)na(hg) e(h)is(ixhjHG'hw!ivHG') Dó(f)mi(fg!hvGF'g)ne :(gf..) (:) et(hg~) lux(hvGF') per(h)pé(gh)tu(gf)a(f.) (;) lú(hg)ce(h)at(ixhjHG'hw!ivHG) e(fg!hvGF'g)is.(gf..) (::) <i>Ps.</i> Te(fg) de(gf)cet(gh) hy(h)mnus(h) De(h)us(h) in(h) Si(g)on,(h.) (;) et(f) ti(g)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Je(g)rú(ixi)sa(g)lem :(h.) *(:) ex(f)áu(gh~)di(h) o(h)ra(h)ti(h)ó(h)nem(h) me(h)am,(h.) (;) ad(h) te(h) o(h)mnis(h) ca(f)ro(gh) vé(g)ni(f)et.(f.) (::) Ré(ffg)qui(f)em.(f) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Oratio",
-            "texte": "Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:\n$Qui vivis",
-            "references": null
+            "texte": "Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 15:51-57\nFratres: Ecce, mystérium vobis dico: Omnes quidem resurgámus, sed non omnes immutábimur. In moménto, in ictu óculi, in novíssima tuba: canet enim tuba, et mórtui resúrgent incorrúpti: et nos immutábimur. Opórtet enim corruptíbile hoc induere incorruptiónem: et mortále hoc indúere immortalitátem. Cum autem mortále hoc indúerit immortalitátem, tunc fiet sermo, qui scriptus est: Absórpta est mors in victória. Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus? Stímulus autem mortis peccátum est: virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Jesum Christum.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 15:51-57\nFratres: Ecce, mystérium vobis dico: Omnes quidem resurgámus, sed non omnes immutábimur. In moménto, in ictu óculi, in novíssima tuba: canet enim tuba, et mórtui resúrgent incorrúpti: et nos immutábimur. Opórtet enim corruptíbile hoc induere incorruptiónem: et mortále hoc indúere immortalitátem. Cum autem mortále hoc indúerit immortalitátem, tunc fiet sermo, qui scriptus est: Absórpta est mors in victória. Ubi est, mors, victória tua? Ubi est, mors, stímulus tuus? Stímulus autem mortis peccátum est: virtus vero peccáti lex. Deo autem grátias, qui dedit nobis victóriam per Dóminum nostrum Jesum Christum."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Graduale",
             "texte": "!4 Esdr 2:34-35\nRéquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 111:7.\nV. In memória ætérna erit justus: ab auditióne mala non timébit.\n_\n!Tractus\nAbsólve, Dómine, ánimas ómnium fidélium ab omni vínculo delictórum.\nV. Et grátia tua illis succurrénte, mereántur evádere judícium ultiónis.\nV. Et lucis ætérnæ beatitúdine pérfrui.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(e[ll:1]d/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tu(f)a(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) * non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:25-29\nIn illo témpore: Dixit Jesus turbis Judæórum: Amen, amen, dico vobis, quia venit hora, et nunc est, quando mórtui áudient vocem Fílii Dei: et qui audíerint, vivent. Sicut enim Pater habet vitam in semetípso, sic dedit et Fílio habére vitam in semetípso: et potestátem dedit ei judícium fácere, quia Fílius hóminis est. Nolíte mirári hoc, quia venit hora, in qua omnes, qui in monuméntis sunt, áudient vocem Fílii Dei: et procédent, qui bona fecérunt, in resurrectiónem vitæ: qui vero mala egérunt, in resurrectiónem judícii.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 5:25-29\nIn illo témpore: Dixit Jesus turbis Judæórum: Amen, amen, dico vobis, quia venit hora, et nunc est, quando mórtui áudient vocem Fílii Dei: et qui audíerint, vivent. Sicut enim Pater habet vitam in semetípso, sic dedit et Fílio habére vitam in semetípso: et potestátem dedit ei judícium fácere, quia Fílius hóminis est. Nolíte mirári hoc, quia venit hora, in qua omnes, qui in monuméntis sunt, áudient vocem Fílii Dei: et procédent, qui bona fecérunt, in resurrectiónem vitæ: qui vero mala egérunt, in resurrectiónem judícii."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Offertorium",
             "texte": "Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium defunctórum de pœnis inférni et de profúndo lacu: líbera eas de ore leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer sanctus Míchaël repræséntet eas in lucem sanctam:\n* Quam olim Abrahæ promisísti et sémini ejus.\nV. Hóstias et preces tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam.\n* Quam olim Abrahæ promisísti et sémini ejus.",
-            "incipit": "Dómine Jesu Christe,",
+            "incipit": {
+              "incipit": "Domine Jesu Christe (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DO(f)mi(ef)ne(f) Je(f)su(fe) Chri(f)ste,(fhffe.) (,) * Rex(hv.ghi) gló(gfh./ghf/gf)ri(ef)ae,(fhffe.) (;) lí(g)be(ef)ra(f) á(fg)ni(f)mas(f.) (,) ó(fg~)mni(f)um(f) fi(g)dé(gfh)li(fge)um(e) de(efh)fun(gh)ctó(f_[oh:h]g_[oh:h]f_[oh:h])rum(f.) (;) de(f) poe(ef)nis(f) in(f)fér(f!gwh_f)ni,(f.) (,) et(g) de(e) pro(f)fún(h)do(g) la(f_[oh:h]g_[oh:h]f_[oh:h])cu :(f.) (:) lí(g)be(e)ra(f) e(h)as(hg) de(f) o(g)re(f) le(i)ó(ivvHF'E)nis,(f!gwhg.) (;) ne(e) ab(f)sór(h)be(g)at(f) e(g)as(f.) tár(ghf)ta(ef)rus,(f.) (;) ne(f) ca(f)dant(ec~) in(e) ob(fg)scú(g.f!gwh_f)rum :(f.) (:) sed(f.g!hwi) sí(hg~)gni(fg)fer(g.) san(gf~)ctus(f!gwhg) Mí(fgf)cha(ef)el(f.) (;) re(f)prae(f)sén(hg~)tet(hi) e(ivvHF'E)as(fg..) (,) in(eg~) lu(g.f!gwh)cem(gf~) san(eg/hf~)ctam :(f.) (:) *~Quam(f) o(f)lim(ec~) A(e)bra(fg)hae(gf) pro(h)mi(hg)sí(fg)sti,(ffe.) (;) et(hi) sé(gf//hiHF'fe.//fhg/hig)(,)(fhg)mi(fge)ni(e_[oh:h]c) e(e!fwg/hf~)jus.(f.) (::) \r\n\r\n<sp>V/</sp>.~Hó(e)sti(fh)as(hhg) et(fe~) pre(fh)ces(hhg.) (,) ti(e)bi(fh) Dó(h)mi(fgF'E)ne(e.) (,) lau(gf~)dis(gh) of(gf)fé(e)ri(ef)mus :(f.) (:) tu(f.g!hwi) sús(hg)ci(fg)pe(g.) (,) pro(f) a(f)ni(e)má(fh)bus(ghg) il(f.)lis,(f.) (;) qua(ih)rum(iji') hó(h)di(gh)e(f.) (,) me(f)mó(fe)ri(f)am(hg) fá(fg)ci(fe)mus :(e.) (:) fac(fg) e(e)as,(ec) Dó(e)mi(ef)ne,(f.) (,) de(h) mor(gff)te(e) trans(ghi~)í(iih)re(gf) ad(ghg) vi(f.)tam.(f.) (::)\r\n\r\n*~Quam(f) o(f)lim.(ec~) (::)",
             "mp3": "offertoire_domine-jesu-christe.mp3",
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Secreta",
-            "texte": "Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum famularúmque tuárum offérimus, propitiátus inténde: ut, quibus fídei christiánæ méritum contulísti, dones et prǽmium.\n$Per Dominum",
-            "references": null
+            "texte": "Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum famularúmque tuárum offérimus, propitiátus inténde: ut, quibus fídei christiánæ méritum contulísti, dones et prǽmium.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Communio",
             "texte": "!4 Esdr 2:35; 2:34\nLux ætérna lúceat eis, Dómine:\n* Cum Sanctis tuis in ætérnum: quia pius es.\nV. Requiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n* Cum Sanctis tuis in ætérnum: quia pius es.",
-            "incipit": "Lux ætérna lúceat",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Lux aeterna",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) LUX(h) ae(gf)tér(gh)na(g.) (,) * lú(h)ce(j)at(i) e(j)is,(h) Dó(g)mi(fg)ne :(g.) (:) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::) <sp>V/</sp>. Ré(g)qui(h)em(j) ae(j)tér(j)nam(j) do(j)na(j) e(j)is(k) Dó(k)mi(j)ne,(j.) (;) et(h) lux(j) per(j)pé(j)tu(j)a(j) lú(j)ce(i)at(j) e(h)is.(g.) (::) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::)",
+            "mp3": "communion_lux-aeterna.mp3",
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-02m1.txt",
             "section": "Postcommunio",
-            "texte": "Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et tuæ redemptiónis fácias esse partícipes:\n$Qui vivis",
-            "references": null
+            "texte": "Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et tuæ redemptiónis fácias esse partícipes:\n$Qui vivis"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Introitus",
-            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, Créateur et Rédempteur de tous les fidèles, accordez aux âmes de vos serviteurs et de vos servantes la rémission de tous leurs péchés, afin qu’elles obtiennent, par nos humbles prières, le pardon qu’elles ont toujours désiré. Vous qui vivez.\n$Qui vivis",
-            "references": null
+            "texte": "Ô Dieu, Créateur et Rédempteur de tous les fidèles, accordez aux âmes de vos serviteurs et de vos servantes la rémission de tous leurs péchés, afin qu’elles obtiennent, par nos humbles prières, le pardon qu’elles ont toujours désiré. Vous qui vivez.\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 15:51-57\nMes frères, Voici un mystère que je vais vous dire : Nous ressusciterons tous, mais nous ne serons pas tous transformés. En un moment, en un clin d’œil, au son de la dernière trompette (car la trompette sonnera), les morts ressusciteront incorruptibles, et nous serons transformés. Car il faut que ce corps corruptible revête l’incorruptibilité, et que ce corps mortel revête l’immortalité. Et quand ce corps mortel aura revêtu l’immortalité, alors s’accomplira cette parole de l’Écriture : La mort a été absorbée dans la victoire. Où est, ô mort, ta victoire ? Où est, ô mort, ton aiguillon ? Or l’aiguillon de la mort, c’est le péché ; et la force du péché, c’est la loi. Mais grâces soient rendues à Dieu, qui nous a donné la victoire par notre Seigneur Jésus-Christ.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n!1 Cor 15:51-57\nMes frères, Voici un mystère que je vais vous dire : Nous ressusciterons tous, mais nous ne serons pas tous transformés. En un moment, en un clin d’œil, au son de la dernière trompette (car la trompette sonnera), les morts ressusciteront incorruptibles, et nous serons transformés. Car il faut que ce corps corruptible revête l’incorruptibilité, et que ce corps mortel revête l’immortalité. Et quand ce corps mortel aura revêtu l’immortalité, alors s’accomplira cette parole de l’Écriture : La mort a été absorbée dans la victoire. Où est, ô mort, ta victoire ? Où est, ô mort, ton aiguillon ? Or l’aiguillon de la mort, c’est le péché ; et la force du péché, c’est la loi. Mais grâces soient rendues à Dieu, qui nous a donné la victoire par notre Seigneur Jésus-Christ."
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Graduale",
-            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 5:25-29\nEn ce temps-là, Jésus dit aux Juifs : En vérité, en vérité, je vous le dis, l’heure vient, et elle est déjà venue, où les morts entendront la voix du Fils de Dieu, et ceux qui l’auront entendue vivront. Car, comme le Père a la vie en lui-même, ainsi il a donné également au Fils d’avoir la vie en lui-même ; et lui a donné le pouvoir d’exercer un jugement, parce qu’il est le Fils de l’homme. Ne vous étonnez pas de cela ; car l’heure vient où tous ceux qui sont dans les sépulcres entendront la voix du Fils de Dieu ; et ceux qui auront fait le bien en sortiront pour la résurrection de la vie ; mais ceux qui auront fait le mal en sortiront pour la résurrection du jugement.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 5:25-29\nEn ce temps-là, Jésus dit aux Juifs : En vérité, en vérité, je vous le dis, l’heure vient, et elle est déjà venue, où les morts entendront la voix du Fils de Dieu, et ceux qui l’auront entendue vivront. Car, comme le Père a la vie en lui-même, ainsi il a donné également au Fils d’avoir la vie en lui-même ; et lui a donné le pouvoir d’exercer un jugement, parce qu’il est le Fils de l’homme. Ne vous étonnez pas de cela ; car l’heure vient où tous ceux qui sont dans les sépulcres entendront la voix du Fils de Dieu ; et ceux qui auront fait le bien en sortiront pour la résurrection de la vie ; mais ceux qui auront fait le mal en sortiront pour la résurrection du jugement."
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Offertorium",
-            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité.",
-            "incipit": "Seigneur Jésus-Christ, Roi",
-            "mp3": null,
-            "references": null
+            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Secreta",
-            "texte": "Considérez, nous vous en supplions, Seigneur, en agréant ce sacrifice propitiatoire, les hosties que nous vous offrons pour les âmes de vos serviteurs et de vos servantes ; afin qu’après leur avoir accordé le mérite de la foi chrétienne, vous leur en donniez la récompense.\n$Per Dominum",
-            "references": null
+            "texte": "Considérez, nous vous en supplions, Seigneur, en agréant ce sacrifice propitiatoire, les hosties que nous vous offrons pour les âmes de vos serviteurs et de vos servantes ; afin qu’après leur avoir accordé le mérite de la foi chrétienne, vous leur en donniez la récompense.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Communio",
-            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon.",
-            "incipit": "Que sur eux",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-02m1.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous demandons instamment, Seigneur, que notre prière suppliante soit utile aux âmes de vos serviteurs et de vos servantes, en sorte que vous les délivriez de tous leurs péchés et que vous les fassiez participer à votre rédemption.\n$Qui vivis",
-            "references": null
+            "texte": "Nous vous demandons instamment, Seigneur, que notre prière suppliante soit utile aux âmes de vos serviteurs et de vos servantes, en sorte que vous les délivriez de tous leurs péchés et que vous les fassiez participer à votre rédemption.\n$Qui vivis"
           }
         }
       },
@@ -231,174 +219,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Introitus",
             "texte": "!4 Esdr 2:34; 2:35\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 64:2-3\nTe decet hymnus, Deus, in Sion, et tibi reddétur votum in Jerúsalem: exáudi oratiónem meam, ad te omnis caro véniet.\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Intr.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) RE(ffg)qui(f)em(f) *() ae(fg'h)tér(hggfg)nam(gf..) (;) do(fg'h)na(hg) e(h)is(ixhjHG'hw!ivHG') Dó(f)mi(fg!hvGF'g)ne :(gf..) (:) et(hg~) lux(hvGF') per(h)pé(gh)tu(gf)a(f.) (;) lú(hg)ce(h)at(ixhjHG'hw!ivHG) e(fg!hvGF'g)is.(gf..) (::) <i>Ps.</i> Te(fg) de(gf)cet(gh) hy(h)mnus(h) De(h)us(h) in(h) Si(g)on,(h.) (;) et(f) ti(g)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Je(g)rú(ixi)sa(g)lem :(h.) *(:) ex(f)áu(gh~)di(h) o(h)ra(h)ti(h)ó(h)nem(h) me(h)am,(h.) (;) ad(h) te(h) o(h)mnis(h) ca(f)ro(gh) vé(g)ni(f)et.(f.) (::) Ré(ffg)qui(f)em.(f) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Oratio",
-            "texte": "Deus, indulgentiárum Dómine: da animábus famulórum famularúmque tuárum refrigérii sedem, quiétis beatitúdinem et lúminis claritátem.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, indulgentiárum Dómine: da animábus famulórum famularúmque tuárum refrigérii sedem, quiétis beatitúdinem et lúminis claritátem.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Machabæórum\n!2 Mach 12:43-46\nIn diébus illis: Vir fortíssimus Judas, facta collatióne, duódecim mília drachmas argénti misit Jerosólymam, offérri pro peccátis mortuórum sacrifícium, bene et religióse de resurrectióne cógitans, nisi enim eos, qui cecíderant, resurrectúros speráret, supérfluum viderétur et vanum oráre pro mórtuis: et quia considerábat, quod hi, qui cum pietáte dormitiónem accéperant, óptimam habérent repósitam grátiam. Sancta ergo et salúbris est cogitátio pro defunctis exoráre, ut a peccátis solvántur.",
-            "references": null
+            "texte": "Léctio libri Machabæórum\n!2 Mach 12:43-46\nIn diébus illis: Vir fortíssimus Judas, facta collatióne, duódecim mília drachmas argénti misit Jerosólymam, offérri pro peccátis mortuórum sacrifícium, bene et religióse de resurrectióne cógitans, nisi enim eos, qui cecíderant, resurrectúros speráret, supérfluum viderétur et vanum oráre pro mórtuis: et quia considerábat, quod hi, qui cum pietáte dormitiónem accéperant, óptimam habérent repósitam grátiam. Sancta ergo et salúbris est cogitátio pro defunctis exoráre, ut a peccátis solvántur."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Graduale",
             "texte": "!4 Esdr 2:34-35\nRéquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 111:7.\nV. In memória ætérna erit justus: ab auditióne mala non timébit.\n_\n!Tractus\nAbsólve, Dómine, ánimas ómnium fidélium ab omni vínculo delictórum.\nV. Et grátia tua illis succurrénte, mereántur evádere judícium ultiónis.\nV. Et lucis ætérnæ beatitúdine pérfrui.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(e[ll:1]d/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tu(f)a(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) * non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:37-40\nIn illo témpore: Dixit Jesus turbis Judæórum: Omne, quod dat mihi Pater, ad me véniet: et eum, qui venit ad me, non ejíciam foras: quia descéndi de cælo, non ut fáciam voluntátem meam, sed voluntátem ejus, qui misit me. Hæc est autem volúntas ejus, qui misit me, Patris: ut omne, quod dedit mihi, non perdam ex eo, sed resúscitem illud in novíssimo die. Hæc est autem volúntas Patris mei, qui misit me: ut omnis, qui videt Fílium et credit in eum, hábeat vitam ætérnam, et ego resuscitábo eum in novíssimo die.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:37-40\nIn illo témpore: Dixit Jesus turbis Judæórum: Omne, quod dat mihi Pater, ad me véniet: et eum, qui venit ad me, non ejíciam foras: quia descéndi de cælo, non ut fáciam voluntátem meam, sed voluntátem ejus, qui misit me. Hæc est autem volúntas ejus, qui misit me, Patris: ut omne, quod dedit mihi, non perdam ex eo, sed resúscitem illud in novíssimo die. Hæc est autem volúntas Patris mei, qui misit me: ut omnis, qui videt Fílium et credit in eum, hábeat vitam ætérnam, et ego resuscitábo eum in novíssimo die."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Offertorium",
             "texte": "Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium defunctórum de pœnis inférni et de profúndo lacu: líbera eas de ore leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer sanctus Míchaël repræséntet eas in lucem sanctam:\n* Quam olim Abrahæ promisísti et sémini ejus.\nV. Hóstias et preces tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam.\n* Quam olim Abrahæ promisísti et sémini ejus.",
-            "incipit": "Dómine Jesu Christe,",
+            "incipit": {
+              "incipit": "Domine Jesu Christe (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DO(f)mi(ef)ne(f) Je(f)su(fe) Chri(f)ste,(fhffe.) (,) * Rex(hv.ghi) gló(gfh./ghf/gf)ri(ef)ae,(fhffe.) (;) lí(g)be(ef)ra(f) á(fg)ni(f)mas(f.) (,) ó(fg~)mni(f)um(f) fi(g)dé(gfh)li(fge)um(e) de(efh)fun(gh)ctó(f_[oh:h]g_[oh:h]f_[oh:h])rum(f.) (;) de(f) poe(ef)nis(f) in(f)fér(f!gwh_f)ni,(f.) (,) et(g) de(e) pro(f)fún(h)do(g) la(f_[oh:h]g_[oh:h]f_[oh:h])cu :(f.) (:) lí(g)be(e)ra(f) e(h)as(hg) de(f) o(g)re(f) le(i)ó(ivvHF'E)nis,(f!gwhg.) (;) ne(e) ab(f)sór(h)be(g)at(f) e(g)as(f.) tár(ghf)ta(ef)rus,(f.) (;) ne(f) ca(f)dant(ec~) in(e) ob(fg)scú(g.f!gwh_f)rum :(f.) (:) sed(f.g!hwi) sí(hg~)gni(fg)fer(g.) san(gf~)ctus(f!gwhg) Mí(fgf)cha(ef)el(f.) (;) re(f)prae(f)sén(hg~)tet(hi) e(ivvHF'E)as(fg..) (,) in(eg~) lu(g.f!gwh)cem(gf~) san(eg/hf~)ctam :(f.) (:) *~Quam(f) o(f)lim(ec~) A(e)bra(fg)hae(gf) pro(h)mi(hg)sí(fg)sti,(ffe.) (;) et(hi) sé(gf//hiHF'fe.//fhg/hig)(,)(fhg)mi(fge)ni(e_[oh:h]c) e(e!fwg/hf~)jus.(f.) (::) \r\n\r\n<sp>V/</sp>.~Hó(e)sti(fh)as(hhg) et(fe~) pre(fh)ces(hhg.) (,) ti(e)bi(fh) Dó(h)mi(fgF'E)ne(e.) (,) lau(gf~)dis(gh) of(gf)fé(e)ri(ef)mus :(f.) (:) tu(f.g!hwi) sús(hg)ci(fg)pe(g.) (,) pro(f) a(f)ni(e)má(fh)bus(ghg) il(f.)lis,(f.) (;) qua(ih)rum(iji') hó(h)di(gh)e(f.) (,) me(f)mó(fe)ri(f)am(hg) fá(fg)ci(fe)mus :(e.) (:) fac(fg) e(e)as,(ec) Dó(e)mi(ef)ne,(f.) (,) de(h) mor(gff)te(e) trans(ghi~)í(iih)re(gf) ad(ghg) vi(f.)tam.(f.) (::)\r\n\r\n*~Quam(f) o(f)lim.(ec~) (::)",
             "mp3": "offertoire_domine-jesu-christe.mp3",
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Secreta",
-            "texte": "Propitiáre, Dómine, supplicatiónibus nostris, pro animábus famulórum famularúmque tuárum, pro quibus tibi offérimus sacrifícium laudis; ut eas Sanctórum tuórum consórtio sociáre dignéris.\n$Per Dominum",
-            "references": null
+            "texte": "Propitiáre, Dómine, supplicatiónibus nostris, pro animábus famulórum famularúmque tuárum, pro quibus tibi offérimus sacrifícium laudis; ut eas Sanctórum tuórum consórtio sociáre dignéris.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Communio",
             "texte": "!4 Esdr 2:35; 2:34\nLux ætérna lúceat eis, Dómine:\n* Cum Sanctis tuis in ætérnum: quia pius es.\nV. Requiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n* Cum Sanctis tuis in ætérnum: quia pius es.",
-            "incipit": "Lux ætérna lúceat",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Lux aeterna",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) LUX(h) ae(gf)tér(gh)na(g.) (,) * lú(h)ce(j)at(i) e(j)is,(h) Dó(g)mi(fg)ne :(g.) (:) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::) <sp>V/</sp>. Ré(g)qui(h)em(j) ae(j)tér(j)nam(j) do(j)na(j) e(j)is(k) Dó(k)mi(j)ne,(j.) (;) et(h) lux(j) per(j)pé(j)tu(j)a(j) lú(j)ce(i)at(j) e(h)is.(g.) (::) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::)",
+            "mp3": "communion_lux-aeterna.mp3",
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-02m2.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, Dómine: ut ánimæ famulórum famularúmque tuárum, his purgátæ sacrifíciis, indulgéntiam páriter et réquiem cápiant sempitérnam.\n$Per Dominum",
-            "references": null
+            "texte": "Præsta, quǽsumus, Dómine: ut ánimæ famulórum famularúmque tuárum, his purgátæ sacrifíciis, indulgéntiam páriter et réquiem cápiant sempitérnam.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Introitus",
-            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Oratio",
-            "texte": "Seigneur Dieu des miséricordes, accordez aux âmes de vos serviteurs et de vos servantes, le lieu du rafraîchissement, la béatitude du repos et la splendeur de la lumière.\n$Per Dominum",
-            "references": null
+            "texte": "Seigneur Dieu des miséricordes, accordez aux âmes de vos serviteurs et de vos servantes, le lieu du rafraîchissement, la béatitude du repos et la splendeur de la lumière.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Machabæórum.\n!2 Mach 12:43-46\nEn ces jours-là, le vaillant Judas Macchabée, après avoir fait une collecte, envoya douze mille drachmes d’argent à Jérusalem, afin qu’un sacrifice fût offert pour les péchés des morts, ayant de bonnes et de religieuses pensées touchant la résurrection, car s’il n’avait pas espéré que ceux qui avaient été tués ressusciteraient, il eût regardé comme une chose vaine et superflue de prier pour les morts ; et il considérait qu’une grande miséricorde était réservée à ceux qui étaient morts avec piété. C’est donc une sainte et salutaire pensée de prier pour les morts, afin qu’ils soient délivrés de leurs péchés.",
-            "references": null
+            "texte": "Léctio libri Machabæórum.\n!2 Mach 12:43-46\nEn ces jours-là, le vaillant Judas Macchabée, après avoir fait une collecte, envoya douze mille drachmes d’argent à Jérusalem, afin qu’un sacrifice fût offert pour les péchés des morts, ayant de bonnes et de religieuses pensées touchant la résurrection, car s’il n’avait pas espéré que ceux qui avaient été tués ressusciteraient, il eût regardé comme une chose vaine et superflue de prier pour les morts ; et il considérait qu’une grande miséricorde était réservée à ceux qui étaient morts avec piété. C’est donc une sainte et salutaire pensée de prier pour les morts, afin qu’ils soient délivrés de leurs péchés."
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Graduale",
-            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:37-40\nEn ce temps-là, Jésus dit aux foules des Juifs : Tout ce que mon Père me donne viendra à moi, et celui qui vient à moi je ne le jetterai pas dehors. Car je suis descendu du ciel, pour faire, non ma volonté, mais la volonté de Celui qui m’a envoyé. Or la volonté du Père qui m’a envoyé, c’est que je ne perde rien de ce qu’il m’a donné, mais que je le ressuscite au dernier jour. La volonté de mon Père qui m’a envoyé, c’est que quiconque voit le Fils, et croit en lui, ait la vie éternelle ; et moi-même je le ressusciterai au dernier jour.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:37-40\nEn ce temps-là, Jésus dit aux foules des Juifs : Tout ce que mon Père me donne viendra à moi, et celui qui vient à moi je ne le jetterai pas dehors. Car je suis descendu du ciel, pour faire, non ma volonté, mais la volonté de Celui qui m’a envoyé. Or la volonté du Père qui m’a envoyé, c’est que je ne perde rien de ce qu’il m’a donné, mais que je le ressuscite au dernier jour. La volonté de mon Père qui m’a envoyé, c’est que quiconque voit le Fils, et croit en lui, ait la vie éternelle ; et moi-même je le ressusciterai au dernier jour."
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Offertorium",
-            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité.",
-            "incipit": "Seigneur Jésus-Christ, Roi",
-            "mp3": null,
-            "references": null
+            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Secreta",
-            "texte": "Soyez propice, Seigneur, à nos supplications en faveur des âmes de vos serviteurs et de vos servantes pour lesquelles nous vous offrons ce sacrifice de louange, afin que vous daigniez leur faire partager le sort de vos Saints.\n$Per Dominum",
-            "references": null
+            "texte": "Soyez propice, Seigneur, à nos supplications en faveur des âmes de vos serviteurs et de vos servantes pour lesquelles nous vous offrons ce sacrifice de louange, afin que vous daigniez leur faire partager le sort de vos Saints.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Communio",
-            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon.",
-            "incipit": "Que sur eux",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-02m2.txt",
             "section": "Postcommunio",
-            "texte": "Accordez-nous, s’il vous plaît ô Dieu tout-puissant, que les âme de vos serviteurs et de vos servantes, étant purifiées par ces sacrifices, obtiennent à la fois le pardon et le repos éternel.\n$Per Dominum",
-            "references": null
+            "texte": "Accordez-nous, s’il vous plaît ô Dieu tout-puissant, que les âme de vos serviteurs et de vos servantes, étant purifiées par ces sacrifices, obtiennent à la fois le pardon et le repos éternel.\n$Per Dominum"
           }
         }
       },
@@ -434,174 +410,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Introitus",
             "texte": "!4 Esdr 2:34; 2:35\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 64:2-3\nTe decet hymnus, Deus, in Sion, et tibi reddétur votum in Jerúsalem: exáudi oratiónem meam, ad te omnis caro véniet.\nv. Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Intr.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) RE(ffg)qui(f)em(f) *() ae(fg'h)tér(hggfg)nam(gf..) (;) do(fg'h)na(hg) e(h)is(ixhjHG'hw!ivHG') Dó(f)mi(fg!hvGF'g)ne :(gf..) (:) et(hg~) lux(hvGF') per(h)pé(gh)tu(gf)a(f.) (;) lú(hg)ce(h)at(ixhjHG'hw!ivHG) e(fg!hvGF'g)is.(gf..) (::) <i>Ps.</i> Te(fg) de(gf)cet(gh) hy(h)mnus(h) De(h)us(h) in(h) Si(g)on,(h.) (;) et(f) ti(g)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Je(g)rú(ixi)sa(g)lem :(h.) *(:) ex(f)áu(gh~)di(h) o(h)ra(h)ti(h)ó(h)nem(h) me(h)am,(h.) (;) ad(h) te(h) o(h)mnis(h) ca(f)ro(gh) vé(g)ni(f)et.(f.) (::) Ré(ffg)qui(f)em.(f) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Oratio",
-            "texte": "Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut nostræ congregatiónis fratres, propínquos et benefactóres, qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut nostræ congregatiónis fratres, propínquos et benefactóres, qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:13\nIn diébus illis: Audívi vocem de cœlo, dicéntem mihi: Scribe: Beáti mórtui, qui in Dómino moriúntur. Amodo jam dicit Spíritus, ut requiéscant a labóribus suis: ópera enim illórum sequúntur illos.",
-            "references": null
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:13\nIn diébus illis: Audívi vocem de cœlo, dicéntem mihi: Scribe: Beáti mórtui, qui in Dómino moriúntur. Amodo jam dicit Spíritus, ut requiéscant a labóribus suis: ópera enim illórum sequúntur illos."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Graduale",
             "texte": "!4 Esdr 2:34-35\nRéquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n!Ps 111:7.\nV. In memória ætérna erit justus: ab auditióne mala non timébit.\n_\n!Tractus\nAbsólve, Dómine, ánimas ómnium fidélium ab omni vínculo delictórum.\nV. Et grátia tua illis succurrénte, mereántur evádere judícium ultiónis.\nV. Et lucis ætérnæ beatitúdine pérfrui.",
-            "incipit": "Réquiem ætérnam dona",
+            "incipit": {
+              "incipit": "Requiem (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(e[ll:1]d/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tu(f)a(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) * non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:51-55\nIn illo témpore: Dixit Jesus turbis Judæórum: Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita. Litigábant ergo Judæi ad ínvicem, dicéntes: Quómodo potest hic nobis carnem suam dare ad manducándum? Dixit ergo eis Jesus: Amen, amen, dico vobis: nisi manducavéritis carnem Fílii hóminis et bibéritis ejus sánguinem, non habébitis vitam in vobis. Qui mánducat meam carnem et bibit meum sánguinem, habet vitam ætérnam: et ego resuscitábo eum in novíssimo die.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:51-55\nIn illo témpore: Dixit Jesus turbis Judæórum: Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita. Litigábant ergo Judæi ad ínvicem, dicéntes: Quómodo potest hic nobis carnem suam dare ad manducándum? Dixit ergo eis Jesus: Amen, amen, dico vobis: nisi manducavéritis carnem Fílii hóminis et bibéritis ejus sánguinem, non habébitis vitam in vobis. Qui mánducat meam carnem et bibit meum sánguinem, habet vitam ætérnam: et ego resuscitábo eum in novíssimo die."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Offertorium",
             "texte": "Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium defunctórum de pœnis inférni et de profúndo lacu: líbera eas de ore leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer sanctus Míchaël repræséntet eas in lucem sanctam:\n* Quam olim Abrahæ promisísti et sémini ejus.\nV. Hóstias et preces tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam.\n* Quam olim Abrahæ promisísti et sémini ejus.",
-            "incipit": "Dómine Jesu Christe,",
+            "incipit": {
+              "incipit": "Domine Jesu Christe (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DO(f)mi(ef)ne(f) Je(f)su(fe) Chri(f)ste,(fhffe.) (,) * Rex(hv.ghi) gló(gfh./ghf/gf)ri(ef)ae,(fhffe.) (;) lí(g)be(ef)ra(f) á(fg)ni(f)mas(f.) (,) ó(fg~)mni(f)um(f) fi(g)dé(gfh)li(fge)um(e) de(efh)fun(gh)ctó(f_[oh:h]g_[oh:h]f_[oh:h])rum(f.) (;) de(f) poe(ef)nis(f) in(f)fér(f!gwh_f)ni,(f.) (,) et(g) de(e) pro(f)fún(h)do(g) la(f_[oh:h]g_[oh:h]f_[oh:h])cu :(f.) (:) lí(g)be(e)ra(f) e(h)as(hg) de(f) o(g)re(f) le(i)ó(ivvHF'E)nis,(f!gwhg.) (;) ne(e) ab(f)sór(h)be(g)at(f) e(g)as(f.) tár(ghf)ta(ef)rus,(f.) (;) ne(f) ca(f)dant(ec~) in(e) ob(fg)scú(g.f!gwh_f)rum :(f.) (:) sed(f.g!hwi) sí(hg~)gni(fg)fer(g.) san(gf~)ctus(f!gwhg) Mí(fgf)cha(ef)el(f.) (;) re(f)prae(f)sén(hg~)tet(hi) e(ivvHF'E)as(fg..) (,) in(eg~) lu(g.f!gwh)cem(gf~) san(eg/hf~)ctam :(f.) (:) *~Quam(f) o(f)lim(ec~) A(e)bra(fg)hae(gf) pro(h)mi(hg)sí(fg)sti,(ffe.) (;) et(hi) sé(gf//hiHF'fe.//fhg/hig)(,)(fhg)mi(fge)ni(e_[oh:h]c) e(e!fwg/hf~)jus.(f.) (::) \r\n\r\n<sp>V/</sp>.~Hó(e)sti(fh)as(hhg) et(fe~) pre(fh)ces(hhg.) (,) ti(e)bi(fh) Dó(h)mi(fgF'E)ne(e.) (,) lau(gf~)dis(gh) of(gf)fé(e)ri(ef)mus :(f.) (:) tu(f.g!hwi) sús(hg)ci(fg)pe(g.) (,) pro(f) a(f)ni(e)má(fh)bus(ghg) il(f.)lis,(f.) (;) qua(ih)rum(iji') hó(h)di(gh)e(f.) (,) me(f)mó(fe)ri(f)am(hg) fá(fg)ci(fe)mus :(e.) (:) fac(fg) e(e)as,(ec) Dó(e)mi(ef)ne,(f.) (,) de(h) mor(gff)te(e) trans(ghi~)í(iih)re(gf) ad(ghg) vi(f.)tam.(f.) (::)\r\n\r\n*~Quam(f) o(f)lim.(ec~) (::)",
             "mp3": "offertoire_domine-jesu-christe.mp3",
-            "references": null
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Secreta",
-            "texte": "Deus, cujus misericórdiæ non est númerus, súscipe propítius preces humilitátis nostræ: et animábus fratrum, propinquórum et benefactórum nostrórum, quibus tui nóminis dedísti confessiónem, per hæc sacraménta salútis nostræ, cunctórum remissiónem tríbue peccatórum.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, cujus misericórdiæ non est númerus, súscipe propítius preces humilitátis nostræ: et animábus fratrum, propinquórum et benefactórum nostrórum, quibus tui nóminis dedísti confessiónem, per hæc sacraménta salútis nostræ, cunctórum remissiónem tríbue peccatórum.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C9.txt",
-            "section": "Communio",
             "texte": "!4 Esdr 2:35; 2:34\nLux ætérna lúceat eis, Dómine:\n* Cum Sanctis tuis in ætérnum: quia pius es.\nV. Requiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.\n* Cum Sanctis tuis in ætérnum: quia pius es.",
-            "incipit": "Lux ætérna lúceat",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Lux aeterna",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) LUX(h) ae(gf)tér(gh)na(g.) (,) * lú(h)ce(j)at(i) e(j)is,(h) Dó(g)mi(fg)ne :(g.) (:) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::) <sp>V/</sp>. Ré(g)qui(h)em(j) ae(j)tér(j)nam(j) do(j)na(j) e(j)is(k) Dó(k)mi(j)ne,(j.) (;) et(h) lux(j) per(j)pé(j)tu(j)a(j) lú(j)ce(i)at(j) e(h)is.(g.) (::) * Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::)",
+            "mp3": "communion_lux-aeterna.mp3",
+            "fichier": "../horas/Latin/Commune/C9.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-02m3.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, omnípotens et miséricors Deus: ut ánimæ fratrum, propinquórum et benefactórum nostrórum, pro quibus hoc sacrifícium laudis tuæ obtúlimus majestáti; per hujus virtútem sacraménti a peccátis ómnibus expiátæ, lucis perpétuæ, te miseránte, recípiant beatitúdinem.\n$Per Dominum",
-            "references": null
+            "texte": "Præsta, quǽsumus, omnípotens et miséricors Deus: ut ánimæ fratrum, propinquórum et benefactórum nostrórum, pro quibus hoc sacrifícium laudis tuæ obtúlimus majestáti; per hujus virtútem sacraménti a peccátis ómnibus expiátæ, lucis perpétuæ, te miseránte, recípiant beatitúdinem.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Introitus",
-            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esd 2:34; 2:35\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière.\n!Ps 64:2-3\nÀ vous sied la louange, ô Dieu, dans Sion ; en votre honneur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.\nV. Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui accordez le pardon et qui aimez à sauver les hommes, nous demandons à votre bonté que, par l’intercession de la bienheureuse Marie toujours Vierge et de tous vos Saints, vous accordiez aux âmes de vos serviteurs et de vos servantes, qui sont morts, de parvenir au séjour de la béatitude éternelle\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui accordez le pardon et qui aimez à sauver les hommes, nous demandons à votre bonté que, par l’intercession de la bienheureuse Marie toujours Vierge et de tous vos Saints, vous accordiez aux âmes de vos serviteurs et de vos servantes, qui sont morts, de parvenir au séjour de la béatitude éternelle\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:13\n En ces jours-là, j’entendis une voix venant du ciel, qui me disait : Écris : Heureux les morts qui meurent dans le Seigneur ! Dès maintenant dit l’Esprit, ils se reposeront de leurs travaux, car leurs œuvres les suivent.",
-            "references": null
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:13\n En ces jours-là, j’entendis une voix venant du ciel, qui me disait : Écris : Heureux les morts qui meurent dans le Seigneur ! Dès maintenant dit l’Esprit, ils se reposeront de leurs travaux, car leurs œuvres les suivent."
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Graduale",
-            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle.",
-            "incipit": "Donnez-leur, Seigneur, le",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:34 et 35.\nDonnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux.\n!Ps 111:7.\nV. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.\n_\n!Tractus.\nDélivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts.\nV. Et que, votre grâce leur venant en aide, ils méritent d’échapper au jugement de vengeance.\nV. Et de jouir de la béatitude de la lumière éternelle."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:51-55\n En ce temps-là, Jésus dit au peuple Juif : Je suis le pain vivant, qui suis descendu du ciel. Si quelqu’un mange de ce pain, il vivra éternellement ; et le pain que je donnerai, c’est ma chair, pour la vie du monde. Les Juifs disputaient donc entre eux en disant : Comment celui-ci peut-il nous donner sa chair à manger ? Jésus leur dit donc : En vérité, en vérité, je vous le dis, si vous ne mangez la chair du Fils de l’homme, et si vous ne buvez son sang, vous n’aurez pas la vie en vous. Celui qui mange ma chair et boit mon sang, a la vie éternelle, et je le ressusciterai au dernier jour.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:51-55\n En ce temps-là, Jésus dit au peuple Juif : Je suis le pain vivant, qui suis descendu du ciel. Si quelqu’un mange de ce pain, il vivra éternellement ; et le pain que je donnerai, c’est ma chair, pour la vie du monde. Les Juifs disputaient donc entre eux en disant : Comment celui-ci peut-il nous donner sa chair à manger ? Jésus leur dit donc : En vérité, en vérité, je vous le dis, si vous ne mangez la chair du Fils de l’homme, et si vous ne buvez son sang, vous n’aurez pas la vie en vous. Celui qui mange ma chair et boit mon sang, a la vie éternelle, et je le ressusciterai au dernier jour."
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Offertorium",
-            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité.",
-            "incipit": "Seigneur Jésus-Christ, Roi",
-            "mp3": null,
-            "references": null
+            "texte": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l’enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l’abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte :\n* Que jadis vous avez promise à Abraham et à sa postérité.\nV. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud’hui mémoire. Faites-en sorte, Seigneur, qu’elles passent de la mort à la vie.\n* Que jadis vous avez promise à Abraham et à sa postérité."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Secreta",
-            "texte": "Ô Dieu, dont la miséricorde est infinie, recevez favorablement les prières que nous vous adressons avec humilité, et accordez la rémission des péchés aux âmes de tous les fidèles défunts, à qui vous avez fait la grâce de confesser votre nom.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, dont la miséricorde est infinie, recevez favorablement les prières que nous vous adressons avec humilité, et accordez la rémission des péchés aux âmes de tous les fidèles défunts, à qui vous avez fait la grâce de confesser votre nom.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C9.txt",
             "section": "Communio",
-            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon.",
-            "incipit": "Que sur eux",
-            "mp3": null,
-            "references": null
+            "texte": "!4 Esdr 2:35; 2:34\nQue sur eux brille la lumière éternelle, Seigneur :\n* Avec vos saints à jamais ; car Vous êtes bon.\nV. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux.\n* Avec vos saints à jamais ; car Vous êtes bon."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-02m3.txt",
             "section": "Postcommunio",
-            "texte": "Dieu tout-puissant, soyez, s’il vous plaît, miséricordieux envers les âmes de vos serviteurs et de vos servantes, pour lesquelles nous offrons à votre Majesté ce sacrifice de louange, et faites que, purifiées de leurs péchés par la vertu de ce sacrement, elles reçoivent de votre bonté la béatitude du repos éternel.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout-puissant, soyez, s’il vous plaît, miséricordieux envers les âmes de vos serviteurs et de vos servantes, pour lesquelles nous offrons à votre Majesté ce sacrifice de louange, et faites que, purifiées de leurs péchés par la vertu de ce sacrement, elles reçoivent de votre bonté la béatitude du repos éternel.\n$Per Dominum"
           }
         }
       },

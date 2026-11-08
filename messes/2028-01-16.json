@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Epi2-0.txt",
-            "section": "Introitus",
             "texte": "!Ps 65:4\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.\n!Ps 65:1-2\nJubiláte Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.\n&Gloria\nv. Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini tuo, Altíssime.",
-            "incipit": "Omnis terra adóret",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Omnis terra",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) O(fff)mnis(dfe') ter(e!g'h~)ra(h.) *(,) ad(gh)ó(hjjg)ret(hgff/ded.) te,(e.f!gwh) De(ghffef)us,(fe..) (;) et(fff) psal(e.f!gwh)lat(h_g) ti(gef)bi :(e[ll:1]d..) (:) psal(fv.fff)mum(dfe') di(ef'h)cat(h.) (,) nó(hg/h!jj)mi(hjg)ni(h_g) tu(ixef!hig)o,(g.) (,) Al(fff)tís(ef'g)si(fhG'FgvFE)me.(e.) (::) <i>Ps.</i> Ju(hg)bi(gh)lá(h)te(h) De(h)o(hg) o(gi)mnis(i) ter(hi)ra,(h.) (:) * psal(hg~)mum(gh) dí(h)ci(h)te(h) nó(h)mi(h)ni(h) e(h)jus :(h.) (,) da(h)te(h) gló(h)ri(h)am(h) lau(gf~)di(gh) e(g)jus.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
+            "mp3": "introitus_omnis-terra.mp3",
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, qui cœléstia simul et terréna moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem tuam nostris concéde tempóribus.\n$Per Dominum",
-            "references": null
+            "texte": "Omnípotens sempitérne Deus, qui cœléstia simul et terréna moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem tuam nostris concéde tempóribus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 12:6-16\nFratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis, differéntes: sive prophetíam secúndum ratiónem fídei, sive ministérium in ministrándo, sive qui docet in doctrína, qui exhortátur in exhortándo, qui tríbuit in simplicitáte, qui præest in sollicitúdine, qui miserétur in hilaritáte. Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono: Caritáte fraternitátis ínvicem diligéntes: Honóre ínvicem præveniéntes: Sollicitúdine non pigri: Spíritu fervéntes: Dómino serviéntes: Spe gaudéntes: In tribulatióne patiéntes: Oratióni instántes: Necessitátibus sanctórum communicántes: Hospitalitátem sectántes. Benedícite persequéntibus vos: benedícite, et nolíte maledícere. Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 12:6-16\nFratres: Habéntes donatiónes secúndum grátiam, quæ data est nobis, differéntes: sive prophetíam secúndum ratiónem fídei, sive ministérium in ministrándo, sive qui docet in doctrína, qui exhortátur in exhortándo, qui tríbuit in simplicitáte, qui præest in sollicitúdine, qui miserétur in hilaritáte. Diléctio sine simulatióne. Odiéntes malum, adhæréntes bono: Caritáte fraternitátis ínvicem diligéntes: Honóre ínvicem præveniéntes: Sollicitúdine non pigri: Spíritu fervéntes: Dómino serviéntes: Spe gaudéntes: In tribulatióne patiéntes: Oratióni instántes: Necessitátibus sanctórum communicántes: Hospitalitátem sectántes. Benedícite persequéntibus vos: benedícite, et nolíte maledícere. Gaudére cum gaudéntibus, flere cum fléntibus: Idípsum ínvicem sentiéntes: Non alta sapiéntes, sed humílibus consentiéntes."
           },
           "Graduale": {
+            "texte": "!Ps 106:20-21\nMisit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum.\nV. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum.",
+            "incipit": {
+              "incipit": "Misit Dominus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) MI(dd)sit(ef~) Dó(f_devDC[ull:0]B.e_[oh:h]c/de)mi(d)nus(d.) *(;) ver(fd/ef!hh/ihi)bum(hgh) su(f_e/f!hhvFD.1fvEDe[ll:1]d)um,(d.) (:) et(fe~) sa(eh)ná(h)vit(gxhfgED.) (`) e(fdfED//fd/ef!hh/ig/hf/hi!kkk_[hl:1]h)os :(h.) (:) et(f) e(h)rí(hi)pu(h)it(hh) e(hh//hhjvIG'hvF'Ef!hhivHG)os(h.) (;) de(h) in(h)tér(h)i(h_g)tu(e) e(f)ó(hiH'F)rum.(de//fiH'GE.) (,) (gxfhF'E//fgED.) (::) \r\n<sp>V/</sp>. Con(d)fi(d)te(f)án(hf/hhf/hhf/hhh)(,)(f!hhf/hhf/hhh//ih/!hf/hhf/hhh)tur(h.) (,) Dó(h)mi(h)no(ih//h'hh_f//hhf/hhe//gxfgED./[-0.5]hhjvIH.) (:) mi(d)se(d)ri(fe)cór(eh)di(h)ae(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) e(fdfED//f_d/ef!gwh'!iv)jus :(hg/ijIH.ghGF.) (:) et(f) mi(hfh)ra(h)bí(i)li(hi)a(hh) (,) e(hh//hhjvIG'hvF'Ef!hhivHG)jus(h.) (;) fí(hh)li(hih)is(h_f) *() hó(fh!ij)mi(hg)num.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+            "mp3": "graduel_misit-dominus.mp3",
             "fichier": "Latin/Tempora/Epi2-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 106:20-21\nMisit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu eórum.\nV. Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum. Allelúja, allelúja.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.",
-            "incipit": "Misit Dóminus verbum",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Ps 148:2\nLaudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.",
+            "incipit": {
+              "incipit": "Laudate Deum",
+              "version": "Solesmes",
+              "distance": 23,
+              "similarite": 0.425,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) <clear>*(,) <i>ij.</i>(ixhiHG'ge./ghGF'Ef_gffe.) (::) \r\n<sp>V/</sp>. Lau(h)dá(h)te(g) De(ghG'E)um(fgfg.) (;) o(g)mnes(gh) An(h_g~)ge(ghg'/hf)li(e[ll:1]d) e(egF'~D~)jus :(d.) (:) lau(dc~)dá(f)te(ghg) e(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/g_[oh:h]efv.df!gvFE'f)um(fe..) (;) o(fd~)mnes(f) vir(f)tú(ef/g_[oh:h]efv.df!gvFE'f)tes(fe..) *(;) e(fd/ef!g'h)jus.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
+            "mp3": "alleluia_laudate-deum.mp3",
             "fichier": "Latin/Tempora/Epi2-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 2:1-11\nIn illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus minístris: Quodcúmque díxerit vobis, fácite. Erant autem ibi lapídeæ hýdriæ sex pósitæ secúndum purificatiónem Judæórum, capiéntes síngulæ metrétas binas vel ternas. Dicit eis Jesus: Implete hýdrias aqua. Et implevérunt eas usque ad summum. Et dicit eis Jesus: Hauríte nunc, et ferte architriclíno. Et tulérunt. Ut autem gustávit architriclínus aquam vinum fáctam, et non sciébat unde esset, minístri autem sciébant, qui háuserant aquam: vocat sponsum architriclínus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebriáti fúerint, tunc id, quod detérius est. Tu autem servásti bonum vinum usque adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et manifestávit glóriam suam, et credidérunt in eum discípuli ejus.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 2:1-11\nIn illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu ibi. Vocátus est autem et Jesus, et discípuli ejus ad núptias. Et deficiénte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus minístris: Quodcúmque díxerit vobis, fácite. Erant autem ibi lapídeæ hýdriæ sex pósitæ secúndum purificatiónem Judæórum, capiéntes síngulæ metrétas binas vel ternas. Dicit eis Jesus: Implete hýdrias aqua. Et implevérunt eas usque ad summum. Et dicit eis Jesus: Hauríte nunc, et ferte architriclíno. Et tulérunt. Ut autem gustávit architriclínus aquam vinum fáctam, et non sciébat unde esset, minístri autem sciébant, qui háuserant aquam: vocat sponsum architriclínus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebriáti fúerint, tunc id, quod detérius est. Tu autem servásti bonum vinum usque adhuc. Hoc fecit inítium signórum Jesus in Cana Galilǽæ: et manifestávit glóriam suam, et credidérunt in eum discípuli ejus."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Epi2-0.txt",
-            "section": "Offertorium",
             "texte": "!Ps 65:1-2; 65:16\nJubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimæ meæ, allelúja.",
-            "incipit": "Jubiláte Deo, univérsa",
+            "incipit": {
+              "incipit": "Jubilate Deo universa",
+              "version": "Dominican",
+              "distance": 10,
+              "similarite": 0.75,
+              "source": "Offertorium"
+            },
+            "gabc": "\"(c4) Ju(c)bi(d)l\\u00e1(ixdh!iv)te(h) (::) De(hjh)o(ghggf) (;) u(ghg)ni(hg)v\\u00e9r(hg/jjv)sa(g) ter(fh/jvHG;iyig//hjjh//jjvHG;h!iji)ra,(jjvIH/jggf) (:) psal(fh~)mum(hg) d\\u00ed(hg/jjv)ci(hg)te(ghGF) (;) n\\u00f3(f!ghf//ghg//jkj)mi(jji)ni(hg) (;) e(gv//fhhg//hhgh//jji~)jus:(hgh) (:) ve(jk)n\\u00ed(klkl)te,(jh) (;3) et(h) au(gh~)d\\u00ed(hj/kjk)te,(kh) (;) et(jk/lkl) nar(jh)r\\u00e1(hj)bo(jj) vo(hg)bis,(gfg) (;) o(f!ghf//ghg//jkj)mnes,(hjGFg) (;) qui(f) ti(g)m\\u00e9(hfg)tis(fgd) De(fhg)um,(g) (:) quan(hj)ta(ji) fe(jvIH)cit(hg) D\\u00f3(ge)mi(fgfg)nus(gd) (;) \\u00e1(df/gfgffd;4gef/hjg)ni(fdf)m\\u00e6(f) me(ffv)\\u00e6,(gvFD) (:) al(fgf~)le(ed//fh//ghg;4ef/ghf//gvFE)l\\u00fa(de/fef)ia.(ed) (::)\"",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Secreta",
-            "texte": "Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per Dominum",
-            "references": null
+            "texte": "Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Epi2-0.txt",
-            "section": "Communio",
             "texte": "!Joann 2:7; 2:8; 2:9; 2:10-11\nDicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum gustásset architriclínus aquam vinum factam, dicit sponso: Servásti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram discípulis suis.",
-            "incipit": "Dicit Dóminus: Implete",
+            "incipit": {
+              "incipit": "Dicit Dominus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DI(fh)cit(h) Dó(ixhiHG')mi(hggfg)nus :(fg..) *(;) ~Im(df~)plé(f)te(df) hý(f)dri(fff)as(df) a(ff/g_[oh:h]f)qua(f.) (;) et(f) fer(gh~)te(h) ar(hg~)chi(h)tri(h!iwj)clí(ghGF'g)no.(gf..) (:) Cum(f) gu(ghg)stás(h!jij)set(ixhhi) ar(gh~)chi(f)tri(ghgh)clí(ghGF'g)nus(gf..) (;) a(h)quam(ghg) vi(hg)num(fg) fa(ghg___)ctam,(g.) (;) di(ixii//g!i'j)cit(ih~) spon(fgf~)so :(f.) (:) Ser(hg~)vá(jlk)sti(j) vi(jlk)num(j) bo(i.h!iwj)num(h_g) (,) us(gh!jlk)que(j) ad(hj)huc.(jg..) (:) Hoc(j) si(j)gnum(i) fe(h)cit(g) Je(g)sus(fh) pri(fg)mum(g.) (,) co(h)ram(i) di(j)scí(i_[oh:h]h)pu(gf)lis(gh) su(f.)is.(f.) (::)",
             "mp3": "communion_dicit-dominus-implete.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Epi2-0.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Epi2-0.txt",
             "section": "Postcommunio",
-            "texte": "Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo múnere præparémur.\n$Per Dominum",
-            "references": null
+            "texte": "Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo múnere præparémur.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Introitus",
-            "texte": "!Ps 65:4\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut.\n!Ps 65:1-2\nPoussez vers Dieu des cris de joie, ô terre entière ; chantez un hymne à son nom ; rendez glorieuse sa louange.\n&Gloria\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut.",
-            "incipit": "Que la terre",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 65:4\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut.\n!Ps 65:1-2\nPoussez vers Dieu des cris de joie, ô terre entière ; chantez un hymne à son nom ; rendez glorieuse sa louange.\n&Gloria\nv. Que la terre vous adore, ô Dieu, et chante en votre honneur, qu’elle dise un hymne à votre nom, ô Très-Haut."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant et éternel qui régissez tout à la foi le ciel et la terre : écoutez avec clémence les prières de votre peuple, et accordez votre paix à nos temps.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout-puissant et éternel qui régissez tout à la foi le ciel et la terre : écoutez avec clémence les prières de votre peuple, et accordez votre paix à nos temps.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Lectio",
-            "texte": "Lecture de l’Épître de Saint Paul Apôtre aux Romains.\n!Rom 12:6-16\nMes Frères : nous avons des dons différents selon la grâce qui nous a été donnée : soit de prophétie, selon la mesure de notre foi, soit de ministère, pour nous exercer dans le ministère ; celui-ci a reçu le don d’enseigner : qu’il enseigne ; celui-là, le don d’exhorter : qu’il exhorte ; un autre distribue : qu’il s’en acquitte avec simplicité ; un autre préside : qu’il le fasse avec zèle ; un autre exerce les œuvres de miséricorde : qu’il s’y livre avec joie. Que votre charité soit sans hypocrisie. Ayez le mal en horreur ; attachez-vous fortement au bien. Quant à l’amour fraternel, soyez pleins d’affection les uns pour les autres, vous prévenant d’honneur les uns les autres ; pour ce qui est du zèle, ne soyez pas nonchalants. Soyez fervents d’esprit ; c’est le Seigneur que vous servez. Soyez pleins de la joie que donne l’espérance, patients dans l’affliction, assidus à la prière, prêts à subvenir aux nécessités des saints, empressés à donner l’hospitalité. Bénissez ceux qui vous persécutent : bénissez et ne maudissez pas. Réjouissez-vous avec ceux qui sont dans la joie ; pleurez avec ceux qui pleurent. Ayez les mêmes sentiments entre vous ; n’aspirez pas à ce qui est élevé, mais laissez-vous attirer par ce qui est humble.",
-            "references": null
+            "texte": "Lecture de l’Épître de Saint Paul Apôtre aux Romains.\n!Rom 12:6-16\nMes Frères : nous avons des dons différents selon la grâce qui nous a été donnée : soit de prophétie, selon la mesure de notre foi, soit de ministère, pour nous exercer dans le ministère ; celui-ci a reçu le don d’enseigner : qu’il enseigne ; celui-là, le don d’exhorter : qu’il exhorte ; un autre distribue : qu’il s’en acquitte avec simplicité ; un autre préside : qu’il le fasse avec zèle ; un autre exerce les œuvres de miséricorde : qu’il s’y livre avec joie. Que votre charité soit sans hypocrisie. Ayez le mal en horreur ; attachez-vous fortement au bien. Quant à l’amour fraternel, soyez pleins d’affection les uns pour les autres, vous prévenant d’honneur les uns les autres ; pour ce qui est du zèle, ne soyez pas nonchalants. Soyez fervents d’esprit ; c’est le Seigneur que vous servez. Soyez pleins de la joie que donne l’espérance, patients dans l’affliction, assidus à la prière, prêts à subvenir aux nécessités des saints, empressés à donner l’hospitalité. Bénissez ceux qui vous persécutent : bénissez et ne maudissez pas. Réjouissez-vous avec ceux qui sont dans la joie ; pleurez avec ceux qui pleurent. Ayez les mêmes sentiments entre vous ; n’aspirez pas à ce qui est élevé, mais laissez-vous attirer par ce qui est humble."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Graduale",
-            "texte": "!Ps 106:20-21\nLe Seigneur envoya sa parole et il les guérit, et les arracha à la mort.\nV. Qu’ils louent le Seigneur pour sa miséricorde et pour les merveilles en faveur des enfants des hommes. Alleluia, alleluia.\n!Ps 148:2\nLouez le Seigneur, vous tous ses Anges ; louez-le, toutes ses puissances. Alléluia.",
-            "incipit": "Le Seigneur envoya",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 106:20-21\nLe Seigneur envoya sa parole et il les guérit, et les arracha à la mort.\nV. Qu’ils louent le Seigneur pour sa miséricorde et pour les merveilles en faveur des enfants des hommes."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alleluia, alleluia.\n!Ps 148:2\nLouez le Seigneur, vous tous ses Anges ; louez-le, toutes ses puissances. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Evangelium",
-            "texte": "Lecture du Saint Évangile selon saint Jean.\n!Joann 2:1-11\nEn ce temps là : il se fit des noces à Cana en Galilée ; et la mère de Jésus y était. Jésus fut aussi convié aux noces avec ses disciples. Le vin étant venu à manquer, la mère de Jésus lui dit : « Ils n’ont plus de vin.» Jésus lui répondit : « Femme, qu’est-ce que cela pour moi et pour vous ? Mon heure n’est pas encore venue.» Sa mère dit aux serviteurs : « Faites tout ce qu’il vous dira.» Or, il y avait là six urnes de pierre destinées aux ablutions des Juifs et contenant chacune deux ou trois mesures. Jésus leur dit : « Remplissez d’eau ces urnes.» Et ils les remplirent jusqu’au haut. Et il leur dit : « Puisez maintenant, et portez-en au maître du festin ; et ils en portèrent. Dès que le maître du festin eut goûté l’eau changée en vin — il ne savait pas d’où venait ce vin, mais les serviteurs qui avaient puisé l’eau le savaient — il interpella l’époux et lui dit : « Tout homme sert d’abord le bon vin, et après qu’on a bu abondamment, le moins bon ; mais toi, tu as gardé le bon jusqu’à ce moment.» Tel fut, à Cana de Galilée, le premier des miracles que fit Jésus, et il manifesta sa gloire, et ses disciples crurent en lui.",
-            "references": null
+            "texte": "Lecture du Saint Évangile selon saint Jean.\n!Joann 2:1-11\nEn ce temps là : il se fit des noces à Cana en Galilée ; et la mère de Jésus y était. Jésus fut aussi convié aux noces avec ses disciples. Le vin étant venu à manquer, la mère de Jésus lui dit : « Ils n’ont plus de vin.» Jésus lui répondit : « Femme, qu’est-ce que cela pour moi et pour vous ? Mon heure n’est pas encore venue.» Sa mère dit aux serviteurs : « Faites tout ce qu’il vous dira.» Or, il y avait là six urnes de pierre destinées aux ablutions des Juifs et contenant chacune deux ou trois mesures. Jésus leur dit : « Remplissez d’eau ces urnes.» Et ils les remplirent jusqu’au haut. Et il leur dit : « Puisez maintenant, et portez-en au maître du festin ; et ils en portèrent. Dès que le maître du festin eut goûté l’eau changée en vin — il ne savait pas d’où venait ce vin, mais les serviteurs qui avaient puisé l’eau le savaient — il interpella l’époux et lui dit : « Tout homme sert d’abord le bon vin, et après qu’on a bu abondamment, le moins bon ; mais toi, tu as gardé le bon jusqu’à ce moment.» Tel fut, à Cana de Galilée, le premier des miracles que fit Jésus, et il manifesta sa gloire, et ses disciples crurent en lui."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 65:1-2; 65:16\nPoussez des cris de joie, ô terre entière ; chantez un hymne à son nom. Venez et entendez, vous tous qui craignez Dieu et je vous raconterai tout ce que le Seigneur a fait à mon âme. Alléluia.",
-            "incipit": "Poussez des cris",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 65:1-2; 65:16\nPoussez des cris de joie, ô terre entière ; chantez un hymne à son nom. Venez et entendez, vous tous qui craignez Dieu et je vous raconterai tout ce que le Seigneur a fait à mon âme. Alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Secreta",
-            "texte": "Sanctifiez, Seigneur, les dons qui vous sont offerts, et purifiez-nous des taches de nos péchés.\n$Per Dominum",
-            "references": null
+            "texte": "Sanctifiez, Seigneur, les dons qui vous sont offerts, et purifiez-nous des taches de nos péchés.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Communio",
-            "texte": "!Joann 2:7; 2:8; 2:9; 2:10-11\nLe Seigneur dit : Remplissez d’eau ces urnes et portez-en au maître du festin. Dès que le maître du festin eut goûté l’eau changée en vin, il dit à l’époux : tu as gardé le bon jusqu’à ce moment. Tel fut le premier miracle que fit Jésus devant ses disciples",
-            "incipit": "Le Seigneur dit",
-            "mp3": null,
-            "references": null
+            "texte": "!Joann 2:7; 2:8; 2:9; 2:10-11\nLe Seigneur dit : Remplissez d’eau ces urnes et portez-en au maître du festin. Dès que le maître du festin eut goûté l’eau changée en vin, il dit à l’époux : tu as gardé le bon jusqu’à ce moment. Tel fut le premier miracle que fit Jésus devant ses disciples"
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Epi2-0.txt",
             "section": "Postcommunio",
-            "texte": "Qu’elle ait en nous plus d’influence, nous vous en supplions, Seigneur, l’action de votre vertu puissante ; afin que nourris de vos divins sacrements, nous soyons disposés par votre grâce à en recueillir les fruits promis.\n$Per Dominum",
-            "references": null
+            "texte": "Qu’elle ait en nous plus d’influence, nous vous en supplions, Seigneur, l’action de votre vertu puissante ; afin que nourris de vos divins sacrements, nous soyons disposés par votre grâce à en recueillir les fruits promis.\n$Per Dominum"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Tempora/Epi2-0.txt",
         "Latin/Tempora/Epi2-0.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

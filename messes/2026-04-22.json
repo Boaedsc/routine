@@ -30,230 +30,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C3b.txt",
-            "section": "Introitus",
             "texte": "!Joann 21:15-17\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\n&Gloria\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)",
-            "incipit": "Si díligis me,",
+            "incipit": {
+              "incipit": "Si diligis me",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) SI(e[ll:1]d) dí(g)li(hj)gis(ij) me,(j.) <clear>*(,) Si(jjj_h)mon(hk) Pe(kj)tre,(jkjji.) (;) pa(gh'j)sce(jjjvIH) <nlba>a(h!iwj)gnos</nlba>(h_g) me(g_[oh:h]f)os,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (;) pa(g.h!iw!jvIH)sce(jj) o(jjg)ves(g.h!iw!jvIHi.g!hw!ivHG) me(egff)as.(fe..) (::) <i>T. P.</i> Al(e)le(f)lú(gh){ia},(g.) (,) al(gh)le(g.h!iwjjvIH'G)lú(g_[oh:h]e/fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Ex(g)al(hj)tá(j)bo(j) te,(j) Dó(j)mi(j)ne,(j.) (,) quó(j)ni(j)am(j) sus(k)ce(j)pí(j)sti(ih) me :(jjj) <clear>*(:) nec(ig) de(hj)le(j)ctá(j)sti(j) in(j)i(j)mí(j)cos(j) me(jji)os(hg) su(h')per(i) me.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C3b.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C3b.txt",
             "section": "Oratio",
-            "texte": "v. Gregem tuum, Pastor ætérne, placátus inténde: et per beátos N. et N. Mártyres tuos atque Summos Pontífices perpétua protectióne custódi; quos totíus Ecclésiæ præstitísti esse pastóres.\n$Per Dominum",
-            "references": null
+            "texte": "v. Gregem tuum, Pastor ætérne, placátus inténde: et per beátos N. et N. Mártyres tuos atque Summos Pontífices perpétua protectióne custódi; quos totíus Ecclésiæ præstitísti esse pastóres.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/04-22.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C3b.txt",
-            "section": "Graduale",
-            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
-            "incipit": "Exáltent eum in",
+            "texte": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.",
+            "incipit": {
+              "incipit": "Exaltent eum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) EX(b)ál(dd)tent(ef~) e(f_devDC[ull:0]B.e_[oh:h]c/de)um(d.) *(;) in(d) ec(d)clé(fd/ef!hh/ihi)si(hgh)a(f_e) (,) ple(f!hhvFD.1fvEDe[ll:1]d)bis :(d.) (:) et(d) in(fe~) cá(eh)the(h)dra(hfhED.) (`) (fd/ef!hh/ig/hf/hi/kkkh..) (,) se(f)ni(fi)ó(iv.hhhjvIH'hvGF'g)rum(gf..) (;) lau(hh)dent(h) e(ihhf)um.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::) <sp>V/</sp>. Con(d)fi(d)te(f)án(hf/hhf/hhf/hhh)(,)(f!hhf/hhf/hhh//ihhf/hhf/hhh)tur(h.) (,) Dó(h)mi(h)no(ih//h'hh_f//hhf/hhe//gxfgED./[-0.5]hhjvIH.) (:) mi(d)se(d)ri(fe)cór(eh)di(h)ae(ih) (,) (hhh'/ih/!hg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) e(fdfED//f_d/ef!gwh'!iv)jus :(hg/ijIH.ghGF.) (:) et(f) mi(hfh)ra(h)bí(i)li(hi)a(hh) (,) e(hh//hhjvIG'hvF'Ef!hhivHG)jus(h.) (;) fí(hh)li(hih)is(h_f) () * hó(fh!ij)mi(hg)num.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
-                    "section": "Graduale",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C3b.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/04-22.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": {
+              "incipit": "Tu es Petrus (Alleluia)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Tu(hi) es(i) Pe(jiihi)trus,(iv.hh/fgf.) (;) et(f) su(fg)per(f) hanc(f) pe(f!hh/ijHF'ivH'GEf./hfhhf/ge)tram(e.) (:) ae(f)di(e)fi(f)cá(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)bo(ivH'Ghf..) (;) Ec(f)clé(hh)si(h)am(hi~) *() me(i_[oh:h]h/jij)am.(jvvIH'GE//f!gwhf.1) (::)",
+            "mp3": "alleluia_tu-es-petrus.mp3",
             "fichier": "Latin/Sancti/04-22.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/04-22.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C3b.txt",
-            "section": "Offertorium",
             "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
-            "incipit": "Ecce, dedi verba",
+            "incipit": {
+              "incipit": "Ecce dedi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) EC(gh/jij)ce(i.) *() de(ikj)di(i./jjj) ver(h)ba(ghg) me(h)a(hi/jhhg.) (,) in(gh/jij) o(j_h/k_[hl:1]j)re(j) tu(ikJ'I)o :(i.) (:) ec(g)ce(hihi') con(g)stí(h!iwj)tu(jjjvIH)i(gh) te(ghggf.0) (,) su(gh/jij)per(j) gen(jjjvIHivH~G~)tes,(hg..) (,) et(g) su(hi)per(i.h!iw!jvIH) re(f_[oh:h]g_[oh:h]f_[oh:h])gna,(f.) (:) ut(e[ll:1]d) e(g)vél(gh/ihi)las(g_[uh:l]h) et(f) dé(efghgh)stru(fd)as,(d_f) (,) et(c) ae(df)dí(f_eg//hhj)fi(g)ces(g_[uh:l]h) et(e) plan(egF~'E~)tes.(e.) (::) <i>T. P.</i> Al(f)le(efghgh)lú(hjg){ia}.(gvFEf_e//g_[oh:h]f/gffe..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C3b.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C3b.txt",
             "section": "Secreta",
-            "texte": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n$Per Dominum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Secreta",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/04-22.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C3b.txt",
-            "section": "Communio",
             "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
-            "incipit": "Tu es Petrus,",
+            "incipit": {
+              "incipit": "Tu es Petrus... alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) TU(f) es(df) Pe(fgff)trus,(cdc.) *(;) et(d) su(ffg)per(f) hanc(f) pe(f_[oh:h]g_[oh:h]f_[oh:h])tram(f.) (;) ae(f)di(fg'h)fi(h_g)cá(g)bo(fgFD.1) (,) Ec(d)clé(ffg)si(f)am(fg/hg/h_g) me(fg!hvGF'g)am.(gf..) (::) <i>T. P.</i> Al(fg~)le(ixgiHG')lú(hggfg){ia}.(gf..) (::)",
             "mp3": "communion_tu-es-petrus.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
-                    "section": "Communio",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C3b.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C3b.txt",
             "section": "Postcommunio",
-            "texte": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\n$Per Dominum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Postcommunio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Introitus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Oratio": {
             "fichier": "../horas/Francais/Commune/C3b.txt",
             "section": "Oratio",
-            "texte": "Pasteur éternel, considérez avec bonté votre troupeau, et gardez-le sous la constante protection des bienheureux N. et N., vos martyrs et souverains pontifes, que vous avez constitués pasteurs de toute l’Église.\n$Per Dominum",
-            "references": null
+            "texte": "Pasteur éternel, considérez avec bonté votre troupeau, et gardez-le sous la constante protection des bienheureux N. et N., vos martyrs et souverains pontifes, que vous avez constitués pasteurs de toute l’Église.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Graduale",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Offertorium",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Secreta": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Secreta",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Communio",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/04-22.txt",
             "section": "Postcommunio",
-            "texte": "",
-            "references": null
+            "texte": ""
           }
         }
       },

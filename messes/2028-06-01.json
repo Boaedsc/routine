@@ -30,174 +30,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Introitus",
             "texte": "!Ps 44:8\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)",
-            "incipit": "Dilexísti justítiam, et",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Dilexisti",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DI(g)le(g)xí(hjg)sti(g_[oh:h]f) *() ju(g)stí(g.h!iwjjk)ti(j)am,(j.) (;) et(j) o(j)dí(jkj)sti(jjj) in(gh)i(h)qui(hfhg)tá(ghg___)tem :(g.) (:) pro(fg)ptér(gjj)e(hg)a(ghggf.0) (,) un(gh/i.h!iwj)xit(hjg) te(g) De(ghG'F)us,(f.) (,) De(fg'h)us(h) tu(ixhgivHG'hf)us,(f.) (;) ó(g)le(fg)o(g) lae(h)tí(jj)ti(hg)ae(g/jjh/jggf.0) (;) prae(g) con(hi~)sór(i.h!iwj)ti(hg)bus(gv.f!hfg) tu(ghg___)is.(g.) (::) <i>T. P.</i> Al(f)le(fg)lú(gh~){ia},(hgh.) (,) al(h!iwj)le(jv.ijH'G)lú(ghg___){ia}.(g.) (::) (z)<i>Ps.</i> E(g)ru(hg)ctá(gj)vit(j) cor(j) me(j)um(ji) ver(jk)bum(k) bo(jk)num :(j.) *(:) di(jh)co(hj) e(j)go(j) ó(j)pe(j)ra(jji) me(gh)a(ji) re(h)gi.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(g.) (::)",
+            "mp3": "introitus_dilexisti-iustitiam.mp3",
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-01.txt",
             "section": "Oratio",
-            "texte": "Deus, qui novum per beátam Angelam sacrárum Virginum collégium in Ecclésia tua floréscere voluísti: da nobis, ejus intercessióne, angélicis móribus vívere; ut, terrénis ómnibus abdicátis, gáudiis pérfrui mereámur ætérnis.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui novum per beátam Angelam sacrárum Virginum collégium in Ecclésia tua floréscere voluísti: da nobis, ejus intercessióne, angélicis móribus vívere; ut, terrénis ómnibus abdicátis, gáudiis pérfrui mereámur ætérnis.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pasc6-4r.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum.",
-            "references": null
+            "texte": "Léctio Actuum Apostólorum\n!Act 1:1-11\nPrimum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et prǽbuit seípsum vivum post passiónem suam in multas arguméntis, per dies quadragínta appárens eis et loquens de regno Dei. Et convéscens, præcépit eis, ab Jerosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis - inquit - per os meum: quia Joánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israël? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quæ Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Jerúsalem et in omni Judǽa et Samaría et usque ad últimum terræ. Et cum hæc dixísset, vidéntibus illis, elevátus est, et nubes suscépit eum ab óculis eórum. Cumque intueréntur in cœlum eúntem illum, ecce, duo viri astitérunt juxta illos in véstibus albis, qui et dixérunt: Viri Galilǽi, quid statis aspiciéntes in cœlum? Hic Jesus, qui assúmptus est a vobis in cœlum, sic véniet, quemádmodum vidístis eum eúntem in cœlum."
           },
           "Graduale": {
+            "texte": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
+            "incipit": {
+              "incipit": "Specie tua (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) SPé(ff)ci(f)e(f_e/g_[uh:l]h) tu(gf)a,(fv.d!ff/ge'/fgd'/e[ll:1]ddc.) <clear>*(;) et(f) pul(f)chri(h)tú(jh/jjj)di(jh/jjj)ne(jh/jjlvKJ'k) (,) tu(kjjh/jhhf)a(fh//g!jjjh/jhh/fgf.) (:) in(f)tén(ghgh)de,(ixhg/hiGF./[-1]iyh!iwj) (,) pró(hf)spe(gf)re(f_g//d!f'g//fh!jvGF'fd//ff/ge'/fgd'/e[ll:1]ddc.) (;) pro(d)cé(fd/fff)de,(dc__) (,) et(ff) re(ixhhg/hh//ixgh!ivGFhh//f!h'j)gna.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Pro(d)pter(d) ve(d)ri(fh)tá(hv.hihhfh.)(,)(df!hvv//hihhfh./gh/ihi)tem,(hh) (;) et(d) man(d)su(d)e(fe)tú(eh)di(h)nem(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) et(d) ju(d)stí(fdfED//f_d/ef!gwhhi)ti(h)am :(hhi!kvvh_[oh:h]i_[oh:h]h._[oh:h]) (:) et(f) de(fi)dú(i)cet(ih/jkihhf/hh/ijH'Gh) te(h.) (;) mi(h)ra(h)bí(i_[oh:h]h//ghG'Fi_[oh:h]h//h'hhvFEfe//f/hhivHGh')li(h)ter(h.) <clear>*(;) déx(hh)te(h)ra(h) tu(ihhf//hh/ijH'G)a.(hhhf//hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+            "mp3": "graduel_specie-tua.mp3",
             "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
-            "incipit": "Spécie tua et",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-01.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "incipit": {
+              "incipit": "Adducentur",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) <i>ij.</i>(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) <sp>V/</sp>. Ad(c.d!ewff)du(fg)cén(ixg_[oh:h]f/g/ig/hffd./fg/ighhV!gh~)tur(f.) (;) re(f.0h!iwjj)gi(ixjjvIG') vír(ixgjjh~)gi(h_[oh:h]i_[oh:h]h_[oh:h])nes(h.) (;) post(fg'hjhhfg) e(fg)am :(gv.ff/ded.) (:) pró(de!f'g)xi(ghg)mae(fg) e(ghg___)jus(g.) (;) af(f)fe(ghg)rén(ixh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghgfffd~)tur(ef~) ti(d_[oh:h]e_[oh:h]d_[oh:h])bi(d.) *(;) in(fc~) lae(d)tí(d!fff/g_[oh:h]f)ti(f!hgh)a.(hhf.) (,) (h_ghvFDgff'fvEC//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+            "mp3": "alleluia_adducentur-regi.mp3",
             "fichier": "Latin/Sancti/06-01.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pasc6-4r.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nIn illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Jesus: et exprobrávit incredulitátem eórum et durítiam cordis: quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, prædicáte Evangélium omni creatúræ. Qui credíderit et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, hæc sequéntur: In nómine meo dæmónia ejícient: linguis loquentur novis: serpentes tollent: et si mortíferum quid bíberint, non eis nocébit: super ægros manus impónent, et bene habébunt. Et Dóminus quidem Jesus, postquam locútus est eis, assúmptus est in cœlum, et sedet a dextris Dei. Illi autem profécti, prædicavérunt ubíque, Dómino cooperánte et sermónem confirmánte, sequéntibus signis.\n!Dicto Evangelio exstinguitur Cereus paschalis."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Offertorium",
             "texte": "!Ps 44:10\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)",
-            "incipit": "Fíliæ regum in",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Filiae regum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) FI(e/hhh)li(h)ae(h) re(hihh'hh)gum(hihh'hh//ihh'hh_fh.) <clear>*(,) in(fh) ho(fh)nó(h_i)re(hi) tu(f!h'i)o,(ijijvIHih..) (:) á(fh/ih)sti(hhh)tit(hhh) re(h)gí(fh!ivHG'F)na(fhffe.) (,) a(ef) dex(h_f/hji)tris(hji) tu(hiH'F)is(gf..) (;) in(e) ve(f)stí(fh!ivHF)tu(f_h) (,) de(f!hhf'hvE'D)au(de/fef)rá(f!hh/ij)to,(ijiih.0) (:) cir(h)cúm(fh)da(hhh/ijH'F)ta(fhffe.) (,) va(f_e)ri(f_e)e(hhg)tá(gih./ghF'Ehv.//ghF'Ehig'hvF'E)te.(fv.efEC.) (::) <nlba><i>T. P.</i> Al(ef~)le(fgF'Ef./e/hh//gh/ijh)lú(hhh_e//hvGF'fe~){ia}.</nlba>(fv.efEC.) (::)",
+            "mp3": "offertoire_filiae-regum.mp3",
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-01.txt",
             "section": "Secreta",
-            "texte": "Hóstia, Dómine, quam tibi beátæ Angelæ memóriam recoléntes offérimus, et nostræ pravitátis véniam implóret, et grátiæ tuæ nobis dona concíliet.\n$Per Dominum",
-            "references": null
+            "texte": "Hóstia, Dómine, quam tibi beátæ Angelæ memóriam recoléntes offérimus, et nostræ pravitátis véniam implóret, et grátiæ tuæ nobis dona concíliet.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Communio",
             "texte": "!Matt 25:4-6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)",
-            "incipit": "Quinque prudéntes vírgines",
-            "mp3": "communion_quinque-prudentes-virgines.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Quinque prudentes (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) QUin(dde~)que(d) *() pru(d)dén(ef~)tes(f) vír(f!gwh)gi(e)nes(deD/B.1) (;) ac([ull:1{1]b)ce(b[ull:}])pé(ded)runt(dc~) ó(efef)le(ef)um(f.) (;) in(df~) va(f)sis(ef) su(d)is(dc) cum(e) lam(ef~)pá(d)di(de!fvED'e)bus :(e[ll:1]d..) (:) mé(f)di(e)a(d) au(e)tem(f) no(hjI'H)cte(h.) (,) cla(hi)mor(j_i) fa(h)ctus(gh) est :(hihh/fgf.) (;) Ec(f)ce(e_[oh:h][ll:1]d) spon(e)sus(f) ve(hjI'H)nit(h.) (,) ex(i)í(i!jwk)te(h.) ób(gxffg)vi(e[ll:1]d)am(d.) (,) Chri(gxd!ffg)sto(ehhh.f!gw!hvGE'fgd') Dó(d)mi(d_[oh:h]e_[oh:h]d_[oh:h])no.(d.) (::) <i>T. P.</i> Al(df)le(gxehvhf!gw!hvGE'fw!gvFE)lú(de!fvED'e){ia}.(e[ll:1]d..) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-01.txt",
             "section": "Postcommunio",
-            "texte": "Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut, beátæ Angelæ précibus et exémplo ab omni labe mundáti, et córpore tibi placeámus et mente.\n$Per Dominum",
-            "references": null
+            "texte": "Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut, beátæ Angelæ précibus et exémplo ab omni labe mundáti, et córpore tibi placeámus et mente.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)",
-            "incipit": "Vous avez aimé",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, par la bienheureuse Angèle, avez voulu qu’une nouvelle société de vierges saintes fleurît dans votre Église, faites-nous, par son intercession, la grâce de mener une vie angélique, afin que, renonçant à toutes les choses de la terre, nous méritions de jouir des joies éternelles.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui, par la bienheureuse Angèle, avez voulu qu’une nouvelle société de vierges saintes fleurît dans votre Église, faites-nous, par son intercession, la grâce de mener une vie angélique, afin que, renonçant à toutes les choses de la terre, nous méritions de jouir des joies éternelles.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pasc6-4r.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »",
-            "references": null
+            "texte": "Léctio Actuum Apostólorum.\n!Act 1:1-11\nCher Théophile, j'ai raconté dans le premier livre tout ce que Jésus a fait et enseigné jusqu'au jour où, après avoir donné, par l'Esprit Saint, ses ordres aux apôtres qu'il avait choisis, il fut enlevé au ciel. C'est à eux aussi qu'après sa passion il se montra vivant, avec force preuves, leur apparaissant pendant quarante jours et parlant du royaume de Dieu. Comme il mangeait avec eux, il leur enjoignit de ne pas s'éloigner de Jérusalem, mais d'attendre ce que le Père avait promis, ce que, leur dit-il, vous avez appris de moi : que Jean a baptisé d'eau, mais que vous, sous peu de jours, vous serez baptisés de l'Esprit-Saint. Eux donc, s'étant réunis, lui demandèrent : « Seigneur, est-ce en ce temps-ci que vous allez rétablir la royauté pour Israël ? » Il leur dit : « Ce n'est pas à vous de connaître les temps ni les moments que le Père a fixés de sa propre autorité. Mais vous allez recevoir la force du Saint-Esprit venant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée et la Samarie, et jusqu'à l'extrémité de la terre. » Quand il eut dit cela, il fut élevé de terre sous leur regard, et un nuage le déroba à leurs yeux. Et comme ils regardaient vers le ciel pendant qu'il s'en allait, voici que deux hommes, vêtus de blanc, se présentèrent à eux et leur dirent : « Hommes de Galilée, pourquoi restez-vous à regarder vers le ciel ? Ce Jésus qui, d'auprès de vous, a été enlevé au ciel, ainsi viendra de la même manière que vous l'avez vu s'en aller au ciel. »"
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:15-16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Alléluia.",
-            "incipit": "Dans votre grâce,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:15-16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pasc6-4r.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nEn ce temps-là, Jésus se montra aux Onze eux-mêmes, pendant qu'ils étaient à table ; et il leur reprocha leur incrédulité et leur dureté de cœur, pour n'avoir pas cru ceux qui l'avaient vu ressuscité des morts. Puis il leur dit : « Allez dans le monde entier et prêchez l'Évangile à toute créature. Celui qui croira et sera baptisé sera sauvé ; celui qui ne croira pas sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru : en mon nom ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris. » Après leur avoir ainsi parlé, le Seigneur Jésus fut enlevé au ciel et s'assit à la droite de Dieu. Et eux s'en allèrent prêcher partout, le Seigneur travaillant avec eux et confirmant leur parole par les miracles qui l'accompagnaient.\n!Dicto Evangelio exstinguitur Cereus paschalis.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 16:14-20\nEn ce temps-là, Jésus se montra aux Onze eux-mêmes, pendant qu'ils étaient à table ; et il leur reprocha leur incrédulité et leur dureté de cœur, pour n'avoir pas cru ceux qui l'avaient vu ressuscité des morts. Puis il leur dit : « Allez dans le monde entier et prêchez l'Évangile à toute créature. Celui qui croira et sera baptisé sera sauvé ; celui qui ne croira pas sera condamné. Et voici les miracles qui accompagneront ceux qui auront cru : en mon nom ils chasseront les démons ; ils parleront de nouvelles langues ; ils prendront des serpents, et s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains aux malades et les malades seront guéris. » Après leur avoir ainsi parlé, le Seigneur Jésus fut enlevé au ciel et s'assit à la droite de Dieu. Et eux s'en allèrent prêcher partout, le Seigneur travaillant avec eux et confirmant leur parole par les miracles qui l'accompagnaient.\n!Dicto Evangelio exstinguitur Cereus paschalis."
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:10\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
-            "incipit": "Des filles de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:10\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Secreta",
-            "texte": "Que l’hostie que nous vous offrons, Seigneur, en honorant à nouveau la mémoire de la bienheureuse Angèle, nous obtienne miséricorde pour nos égarements, et attire sur nous les dons de votre grâce.\n$Per Dominum",
-            "references": null
+            "texte": "Que l’hostie que nous vous offrons, Seigneur, en honorant à nouveau la mémoire de la bienheureuse Angèle, nous obtienne miséricorde pour nos égarements, et attire sur nous les dons de votre grâce.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Communio",
-            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)",
-            "incipit": "Les cinq vierges",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-01.txt",
             "section": "Postcommunio",
-            "texte": "Fortifiés par cette céleste nourriture, nous vous demandons avec instances Seigneur, de faire qu’à l’exemple de la bienheureuse Angèle, et en vertu de ses prières, nous soyons purifiés de toute souillure, et vous plaisions en notre manière de nous comporter de corps et d’âme.\n$Per Dominum",
-            "references": null
+            "texte": "Fortifiés par cette céleste nourriture, nous vous demandons avec instances Seigneur, de faire qu’à l’exemple de la bienheureuse Angèle, et en vertu de ses prières, nous soyons purifiés de toute souillure, et vous plaisions en notre manière de nous comporter de corps et d’âme.\n$Per Dominum"
           }
         }
       },

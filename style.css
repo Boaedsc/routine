@@ -30,7 +30,7 @@ body {
   color: var(--texte);
   font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: 1.2rem;
-  line-height: 1.65;
+  line-height: 1.6;
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
            env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
@@ -38,7 +38,7 @@ body {
 main {
   max-width: 40rem;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 1.6rem 1.1rem 3rem;
 }
 
 /* ---------- En-tête ---------- */
@@ -50,83 +50,65 @@ main > h1 {
   text-transform: uppercase;
   text-align: center;
   color: var(--rouge);
-  margin: 0 0 0.3rem;
+  margin: 0 0 0.2rem;
 }
 main > h1::before {
   content: '✠';
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   letter-spacing: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 #date {
   text-align: center;
   font-style: italic;
   color: var(--discret);
-  margin: 0 0 1rem;
+  margin: 0 0 0.8rem;
 }
 
-.picker {
-  text-align: center;
-  margin: 0 0 1.5rem;
+/* ---------- Barre de date et de messe ---------- */
+.barre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem 0.9rem;
+  margin: 0 0 0.9rem;
   color: var(--discret);
   font-size: 1rem;
 }
-.picker input {
+.barre label { margin-right: 0.2rem; }
+.barre input,
+.barre select {
   font: inherit;
   color: var(--texte);
   background: var(--carte);
   border: 1px solid var(--filet);
   border-radius: 8px;
-  padding: 0.25rem 0.6rem;
+  padding: 0.2rem 0.5rem;
+  max-width: 100%;
 }
+.barre [hidden] { display: none; }
 
+/* ---------- Titre de la messe ---------- */
 #titre {
   font-family: 'Cinzel', 'Cormorant Garamond', serif;
   font-weight: 600;
-  font-size: clamp(1.4rem, 5.5vw, 2rem);
+  font-size: clamp(1.3rem, 5.2vw, 1.9rem);
   letter-spacing: 0.06em;
   line-height: 1.25;
   text-align: center;
-  margin: 1rem 0 0.4rem;
+  margin: 0.6rem 0 0.2rem;
   text-wrap: balance;
 }
-#titre .classe {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--rouge);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin-top: 0.4rem;
-}
 
-#note {
+#meta {
   text-align: center;
   font-style: italic;
   color: var(--discret);
-  margin: 0 0 2rem;
-  padding-bottom: 1.2rem;
-  position: relative;
-}
-#note::before {
-  content: '';
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--or), transparent);
-}
-#note::after {
-  content: '✠';
-  position: absolute;
-  bottom: -0.65rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--fond);
-  padding: 0 0.6rem;
-  color: var(--or);
-  font-size: 0.8rem;
-  line-height: 1.3;
+  margin: 0 0 1.4rem;
+  font-size: 1rem;
 }
 
 /* ---------- Sections ---------- */
@@ -134,8 +116,8 @@ main > h1::before {
   background: var(--carte);
   border: 1px solid var(--filet);
   border-radius: 14px;
-  padding: 1.4rem 1.4rem 1.2rem;
-  margin-bottom: 1.5rem;
+  padding: 1.2rem 1.2rem 1rem;
+  margin-bottom: 1.2rem;
   box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 6px 20px rgba(0,0,0,0.04);
 }
 
@@ -147,13 +129,13 @@ main > h1::before {
   text-transform: uppercase;
   text-align: center;
   color: var(--rouge);
-  margin: 0 0 1.2rem;
-  padding-bottom: 0.8rem;
+  margin: 0 0 0.8rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--filet);
 }
 
 #messe p {
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -166,7 +148,7 @@ main > h1::before {
   -webkit-hyphens: auto;
 }
 
-/* ---------- Superposition FR / LA : une seule langue visible à la fois ---------- */
+/* ---------- Superposition FR / LA ---------- */
 #messe .pile { position: relative; }
 #messe .pile .texte { display: none; }
 #messe .pile.langue-fr .texte-fr,
@@ -191,22 +173,12 @@ main > h1::before {
   color: var(--or);
   font-weight: 700;
   font-size: 1rem;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.4rem;
   text-align: left;
 }
 
-/* Lettrine dorée : uniquement sur le corps du psaume (classe .corps) */
-#messe .corps::first-letter {
-  font-family: 'Cinzel', serif;
-  color: var(--or);
-  float: left;
-  font-size: 3.1rem;
-  line-height: 0.85;
-  padding: 0.25rem 0.5rem 0 0;
-}
-
-/* Lettrine générique : sections sans .corps (hors psaume) */
-#messe .section > p:not(.ref):not(.gloria):not(.origine):not(.corps):first-of-type::first-letter {
+/* Lettrine dorée : uniquement sur le corps d'un psaume */
+#messe .psaume .corps::first-letter {
   font-family: 'Cinzel', serif;
   color: var(--or);
   float: left;
@@ -222,7 +194,7 @@ main > h1::before {
   font-size: 0.9rem;
   letter-spacing: 0.04em;
   text-align: left;
-  margin: 1.4rem 0 0.2rem;
+  margin: 0.9rem 0 0.2rem;
 }
 #messe .ref::before { content: '— '; }
 
@@ -243,12 +215,12 @@ main > h1::before {
   color: var(--discret);
   font-style: italic;
   text-align: center;
-  margin: 0.8rem 0;
+  margin: 0.6rem 0;
 }
 
 #messe .espace {
-  height: 1.1rem;
-  margin: 0.6rem 0;
+  height: 0.9rem;
+  margin: 0.4rem 0;
   position: relative;
 }
 #messe .espace::after {
@@ -259,35 +231,37 @@ main > h1::before {
   background: var(--filet);
 }
 
-/* ---------- Bouton de langue, audio, erreur ---------- */
-.toggle-langue {
-  font: inherit;
-  font-size: 0.85rem;
-  background: none;
-  color: var(--rouge);
-  border: 1px solid var(--rouge);
-  border-radius: 999px;
-  padding: 0.2rem 0.9rem;
-  cursor: pointer;
-  margin-bottom: 0.8rem;
+/* ---------- Partition (canvas PDF.js recadré) ---------- */
+#messe .partition {
+  margin: 0.6rem 0 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--carte);
+  border: 1px solid var(--filet);
 }
-
-.audio audio {
+#messe .partition .pdf {
+  display: block;
   width: 100%;
-  margin-top: 0.8rem;
+  height: auto;
+  background: transparent;
 }
 
-/* Audio absent : on masque le lecteur et on affiche une mention discrète */
-.audio.audio-indispo audio {
-  display: none;
+
+/* ---------- Audio ---------- */
+#messe .audio { margin: 0; }
+#messe .audio audio {
+  width: 100%;
+  margin-top: 0.4rem;
 }
-.audio.audio-indispo::after {
+#messe .audio.audio-indispo audio { display: none; }
+#messe .audio.audio-indispo::after {
   content: 'audio indisponible';
   font-style: italic;
   font-size: 0.85rem;
   color: var(--discret);
 }
 
+/* ---------- Erreur ---------- */
 .erreur {
   border: 1px solid var(--rouge);
   color: var(--rouge);
@@ -298,7 +272,7 @@ main > h1::before {
 
 /* ---------- Petits écrans ---------- */
 @media (max-width: 480px) {
-  body { font-size: 1.12rem; }
-  main { padding: 1.4rem 0.9rem 3rem; }
-  #messe .section { padding: 1.1rem 1rem; border-radius: 12px; }
+  body { font-size: 1.1rem; }
+  main { padding: 1.2rem 0.8rem 2.5rem; }
+  #messe .section { padding: 0.9rem 0.9rem 0.8rem; border-radius: 12px; }
 }

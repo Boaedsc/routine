@@ -30,202 +30,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/06-09.txt",
-            "section": "Introitus",
             "texte": "!Eccli 44:15; 44:14\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.\n!Ps 32:1\nExsultáte, justi, in Dómino: rectos decet collaudátio.\n&Gloria\nv. Sapiéntiam Sanctórum narrent populi, et laudes eórum núntiet ecclésia: nómina autem eórum vivent in sǽculum sǽculi.",
-            "incipit": "Sapiéntiam Sanctórum narrent",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Sapientiam sanctorum (Intr.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) SA(h)pi(h)én(h)ti(gf)am(f) *() san(gfg)ctó(ixhgih)rum(h.) (,) nar(g_[oh:h]f)rent(hfh) pó(h)pu(h!iwj_h)li,(h.) (:) et(h) lau(jk~)des(k) e(kj)ó(kljjhi)rum(i_[oh:h]h) (,) nún(j)ti(jk)et(ki) ec(j)clé(i)si(hjI'H)a :(h.) (:) nó(h)mi(g)na(ghg) au(h)tem(f) e(hfh)ó(jh/jjjk)rum(j.) (,) vi(h!jjh)vent(h) in(hg/hfg) saé(d)cu(ff)lum(gvF'Ef') saé(d)cu(d_[oh:h]e_[oh:h]d_[oh:h])li.(d.) (::) <i>Ps.</i> Ex(f)sul(gh)tá(h)te(h) ju(hj)sti(h) in(h) Dó(h)mi(hg)no :(gh..) (:) re(gf)ctos(gh) de(h)cet(h) col(hjh)lau(g')dá(f)ti(fg)o.(h.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fg) e.</eu>(h.) (::)",
+            "mp3": "introitus_sapientiam-sanctorum.mp3",
+            "fichier": "Latin/Sancti/06-09.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Oratio",
-            "texte": "Fac nos, quǽsumus. Dómine, sanctórum Martyrum tuórum Primi et Feliciáni semper festa sectári: quorum suffrágiis protectiónis tuæ dona sentiámus.\n$Per Dominum",
-            "references": null
+            "texte": "Fac nos, quǽsumus. Dómine, sanctórum Martyrum tuórum Primi et Feliciáni semper festa sectári: quorum suffrágiis protectiónis tuæ dona sentiámus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Lectio",
-            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/06-09.txt",
-            "section": "Graduale",
-            "texte": "!Ps 88:6; 88:2\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum.\nV. Misericórdias tuas, Dómine, in ætérnum cantábo: in generatióne et progénie. Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.",
-            "incipit": "Confitebúntur cœli mirabília",
+            "texte": "!Ps 88:6; 88:2\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum.\nV. Misericórdias tuas, Dómine, in ætérnum cantábo: in generatióne et progénie.",
+            "incipit": {
+              "incipit": "Confitebuntur caeli",
+              "version": "Solesmes",
+              "distance": 3,
+              "similarite": 0.925,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) COn(fd~)fi(dfe)te(fg)bún(gffvEDef)tur(f.) *(,) cae(fhG'FhvGFgvFE)li(e.) (;) mi(g)ra(hih)bí(iji)li(hi)a(hg) tu(gh/ihi)a(h_g) (,) Dó(gh/ih/i_[oh:h]h)mi(ghg___)ne,(g.) (:) et(ge~) ve(g)ri(hih)tá(jj/ikijvI'HG'h)tem(g.) (,) tu(gv.egffdgvFE'fd.0/egF'EfvEDe)am(d/efef.) (;) in(d) ec(e)clé(gh)si(g_[oh:h]f)a(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (,) san(g)ctó(gh/ih)rum.(hv.ghGEf_g//fgFDf_h//ghGEf_g//fgFE.) (::) \r\n<sp>V/</sp>. Mi(fd)se(fe)ri(f)cór(gh)di(gf)as(fff/d_[oh:h]e_[oh:h]d_[oh:h]) tu(ghg)as,(g.) (,) Dó(gh/jij)mi(j)ne,(ihjvIH//jj/ki'jvHG'jh'/ihhg.) (;) in(ji) ae(jk)tér(klK'JkvJIjjjh//ivHGh!iwj'!kv)num(j.) (;) can(j)tá(jjh/jjh//jlKJ'jvIG//hjh/jjhj)bo :(ghg.) (:) in(f) ge(ef'g)ne(g)ra(gh!ivHG)ti(gh/jij)ó(j)ne(ihj//iji//hihghFE.) (;) * et(f) pro(ef'g)gé(hiH'G)ni(h!jij)e.(ih) (,) (jvIHjvIGhh//fg/hh/giHG'hffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/06-09.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/06-09.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.",
+            "incipit": {
+              "incipit": "Haec est vera",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(ef)le(e)lú(ehg/hiH'GF'f){ia}.(e.) *(;) <i>ij.</i>(eh!ijjvjv'1IGivHFE.) (,) (eh!ijjvjv'1IGivHFE.fhf/gffe.) (::) <sp>V/</sp>. Haec(ef) est(e) ve(ehg/hiH'GF'f)ra(e) fra(g)tér(gf/ghgg)ni(fe)tas,(e.) (;) quae(eh!ijjvjv'1IGivHFE.) vi(f!hfg)cit(fe..) (,) mun(hg~)di(fivvHF) crí(hg/h_i)mi(f!gw!hvG'FE'f)na :(fe..) (:) Chri(evDCd/efe)stum(e) se(i)cú(hiie)ta(fgffe) est,(e.) (;) ín(ef)cly(ehg/hiH'GF'f)ta(e) te(g)nens(fhgg) re(ff)gna(e.) *(,) cae(ef)lé(e)sti(ehg/hiH'GF'f)a.(e.) (;) (eh!ijjvjv'1IGivHFE.) (,) (eh!ijjvjv'1IGivHFE.fhf/gffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/06-09.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:25-30\nIn illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-15.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:25-30\nIn illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/06-09.txt",
-            "section": "Offertorium",
             "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
-            "incipit": "Mirábilis Deus in",
+            "incipit": {
+              "incipit": "Mirabilis Deus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) MI(d!ewf)rá(fg/h_g)bi(ghg___)lis(gh~) De(hjI'GhvGF)us(f.) *(;) in(fh) san(hj/kjkvJI'H)ctis(h.) su(hj!kvJH)is :(hjhhg.) (:) De(hj)us(jjj) Is(h!jjj)ra(gh)el,(ixfihhg.) (,) i(g)pse(h) da(iij_hjvIH'hg)bit(ghggf.0) (;) vir(h!iwji~)tú(jv.jjj/kl)tem,(jkjji.) (,) et(g) for(g/jjj)ti(j_i)tú(i!k'l)di(jvIH)nem(hjhhg.) (,) ple(h_g/jkj)bi(jjj_g) su(gjhhg)ae :(ghggf.0) (:) be(fg)ne(h)dí(hjvvH'Gh!iwji)ctus(j.) De(jkj'/ki'jvHG'gfg.)(,)(fgh!jjjg//hjggf!gw!hi)us,(hg..) (:) al(hg~)le(gjg/hggf//g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/06-09.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Secreta",
-            "texte": "Fiat tibi, quǽsumus, Dómine, hóstia sacránda placábilis, pretiósi celebritáte martýrii: quæ et peccáta nostra puríficet, et tuórum tibi vota concíliet famulórum.\n$Per Dominum.",
-            "references": null
+            "texte": "Fiat tibi, quǽsumus, Dómine, hóstia sacránda placábilis, pretiósi celebritáte martýrii: quæ et peccáta nostra puríficet, et tuórum tibi vota concíliet famulórum.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/06-09.txt",
-            "section": "Communio",
             "texte": "!Joannes 15:16\nEgo vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat.",
-            "incipit": "Ego vos elégi",
+            "incipit": {
+              "incipit": "Ego vos elegi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) E(h)go(jhhg.) (,) * vos(i.h!iwj) e(h_f)lé(gh)gi(g) de(eg) mun(fgff)do,(d.) (;) ut(fe) e(fg)á(g'/hfg)tis,(d.) (,) et(df~) fru(fef)ctum(dc~) af(fh)fe(gh)rá(f_[oh:h]g_[oh:h]f_[oh:h])tis :(f.) (:) et(hg~) fru(ixgh/if)ctus(df~) ve(fe)ster(cd~) má(d)ne(de!fvED'e)at.(e[ll:1]d..) (::)",
             "mp3": "communion_ego-vos-elegi.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/06-09.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-09.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, omnípotens Deus: ut sanctórum Mártyrum tuórum Primi et Feliciáni cœléstibus mystériis celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis acquírat.\n$Per Dominum",
-            "references": null
+            "texte": "Quǽsumus, omnípotens Deus: ut sanctórum Mártyrum tuórum Primi et Feliciáni cœléstibus mystériis celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis acquírat.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Introitus",
-            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.\n!Ps 32:1\nJustes, réjouissez-vous dans le Seigneur, c’est aux hommes droits que sied la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.",
-            "incipit": "Que les peuples",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération.\n!Ps 32:1\nJustes, réjouissez-vous dans le Seigneur, c’est aux hommes droits que sied la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges ; leur nom vivra de génération en génération."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Oratio",
-            "texte": "Nous vous en supplions, Seigneur, faites que nous célébrions toujours fidèlement la fête de vos saints Martyrs Prime et Félicien, afin que, grâce à leur intercession, nous éprouvions les bienfaits de votre protection.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous en supplions, Seigneur, faites que nous célébrions toujours fidèlement la fête de vos saints Martyrs Prime et Félicien, afin que, grâce à leur intercession, nous éprouvions les bienfaits de votre protection.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 5:16-20\nLes justes vivront éternellement, et le Seigneur leur réserve leur récompense, et le Très-Haut pense à eux. C’est pourquoi ils recevront de la main du Seigneur un royaume de gloire et un diadème éclatant ; car il les protégera de sa droite, et les défendra de son saint bras. Son zèle se munira d’une armure, et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice pour cuirasse, et il prendra pour casque l’intégrité de son jugement ; il se couvrira de l’équité comme d’un bouclier impénétrable.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ.\n!Sap 5:16-20\nLes justes vivront éternellement, et le Seigneur leur réserve leur récompense, et le Très-Haut pense à eux. C’est pourquoi ils recevront de la main du Seigneur un royaume de gloire et un diadème éclatant ; car il les protégera de sa droite, et les défendra de son saint bras. Son zèle se munira d’une armure, et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice pour cuirasse, et il prendra pour casque l’intégrité de son jugement ; il se couvrira de l’équité comme d’un bouclier impénétrable."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Graduale",
-            "texte": "!Ps 88:6; 88:2\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints.\nV. Je chanterai éternellement les miséricordes du Seigneur de génération en génération. Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia.",
-            "incipit": "Les cieux publieront",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:6; 88:2\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints.\nV. Je chanterai éternellement les miséricordes du Seigneur de génération en génération."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-09.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 11:25-30\nEn ce temps-là Jésus prit la parole et dit : Je vous rends grâce, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents, et de ce que vous les avez révélées aux petits. Oui, Père, (je vous rends grâce) parce, qu’il vous a plu ainsi. Toutes choses m’ont été données par mon Père. Et personne ne connaît le Fils, si ce n’est le Père ; personne non plus ne connaît le Père, si ce n’est le Fils, et celui à qui le Fils aura voulu le révéler. Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et Je vous soulagerai. Prenez mon joug sur vous, et recevez mes leçons, parce que je suis doux et humble de cœur, et vous trouverez le repos pour vos âmes. Car mon joug est doux, et mon fardeau léger.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 11:25-30\nEn ce temps-là Jésus prit la parole et dit : Je vous rends grâce, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents, et de ce que vous les avez révélées aux petits. Oui, Père, (je vous rends grâce) parce, qu’il vous a plu ainsi. Toutes choses m’ont été données par mon Père. Et personne ne connaît le Fils, si ce n’est le Père ; personne non plus ne connaît le Père, si ce n’est le Fils, et celui à qui le Fils aura voulu le révéler. Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et Je vous soulagerai. Prenez mon joug sur vous, et recevez mes leçons, parce que je suis doux et humble de cœur, et vous trouverez le repos pour vos âmes. Car mon joug est doux, et mon fardeau léger."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia.",
-            "incipit": "Dieu est admirable",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Secreta",
-            "texte": "Nous vous le demandons instamment, Seigneur, que cette hostie, qui va être consacrée, tandis que nous solennisons la mémoire d’un précieux martyre, apaise votre justice, efface nos péchés et vous fasse agréer les vœux de vos serviteurs.\n$Per Dominum.",
-            "references": null
+            "texte": "Nous vous le demandons instamment, Seigneur, que cette hostie, qui va être consacrée, tandis que nous solennisons la mémoire d’un précieux martyre, apaise votre justice, efface nos péchés et vous fasse agréer les vœux de vos serviteurs.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Communio",
-            "texte": "!Joannes 15:16\nC’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure.",
-            "incipit": "C’est moi qui",
-            "mp3": null,
-            "references": null
+            "texte": "!Joannes 15:16\nC’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-09.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en supplions, Dieu tout-puissant, que la solennité de vos saints Martyrs Prime et Félicien, célébrée en ces célestes mystères, nous obtienne de votre bonté qui nous est propice, des faveurs et le pardon.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous en supplions, Dieu tout-puissant, que la solennité de vos saints Martyrs Prime et Félicien, célébrée en ces célestes mystères, nous obtienne de votre bonté qui nous est propice, des faveurs et le pardon.\n$Per Dominum"
           }
         }
       },
@@ -233,7 +202,7 @@
         "Francais/Sancti/06-09.txt",
         "Latin/Sancti/06-09.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

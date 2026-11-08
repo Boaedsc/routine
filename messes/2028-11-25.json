@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Introitus",
             "texte": "!Ps 118:46-47\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (Allelúja, allelúja.)\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (Allelúja, allelúja.)",
-            "incipit": "Loquébar de testimóniis",
-            "mp3": "introitus_loquebar-de-testimoniis.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Loquebar... Ps. Laudate",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) LO(df)qué(hhi)bar(h.) *(,) de(h) te(h)sti(h)mó(i)ni(h.f!gwh)is(h) tu(hi!jvIH'i)is(ih..) (;) in(h) con(iji~)spé(j)ctu(h) re(hjIH'i)gum,(h.) (,) et(fdf) non(hh) con(ijh)fun(hh)dé(h_[oh:h]i_[oh:h]h_[oh:h])bar :(h.) (:) et(h_) me(e)di(f)tá(hhi)bar(h.) (,) in(hihh) man(ef)dá(hhi)tis(h) tu(hh/ijh)is,(f/hhfh.) (;) quae(d) di(ef)lé(f!hhf)xi(e) ni(ef/hfh)mis.(d.) (::) <i>Ps.</i> Lau(d)dá(f)te(h) Dó(h)mi(h)num(h) o(h)mnes(h) gen(h)tes,(h.) (,) lau(h)dá(h)te(h) e(h)um(h) o(h)mnes(i) pó(i)pu(h)li :(h.) *(:) quó(f)ni(h)am(h) con(h)fir(h)má(h)ta(h) est(h) su(h)per(h) nos(h) mi(h)se(h)ri(h)cór(h)di(h)a(i) e(i)jus,(h.) (;) et(f) vé(h)ri(h)tas(h) Dó(h)mi(h)ni(h) ma(h)net(h) in(i) ae(g)tér(h)num.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-25.txt",
             "section": "Oratio",
-            "texte": "Deus, qui dedísti legem Móysi in summitáte montis Sínai, et in eódem loco per sanctos Angelos tuos corpus beátæ Catharínæ Vírginis et Mártyris tuæ mirabíliter collocásti: præsta, quǽsumus; ut, ejus méritis et intercessióne, ad montem, qui Christus est, perveníre valeámus.\n$Qui tecum",
-            "references": null
+            "texte": "Deus, qui dedísti legem Móysi in summitáte montis Sínai, et in eódem loco per sanctos Angelos tuos corpus beátæ Catharínæ Vírginis et Mártyris tuæ mirabíliter collocásti: præsta, quǽsumus; ut, ejus méritis et intercessióne, ad montem, qui Christus est, perveníre valeámus.\n$Qui tecum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-25.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
+            "texte": "Dilexísti justítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.",
+            "incipit": {
+              "incipit": "Dilexisti",
+              "version": "Solesmes",
+              "distance": 2,
+              "similarite": 0.95,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) DI(c)le(dc)xí(cg)sti(gv.fffddc.) (,) * ju(c)stí(c!geghjh___!iwj)ti(ghg___)am,(g.) (;) et(f) o(gh)dí(jj/kjk)sti(kjj) (,) in(gh)i(h)qui(hjh)tá(g)tem.(f/ghffd//gvgf/gjhhg.) (::) <sp>V/</sp>. Pro(gf)ptér(gf)e(hj)a(jjjvHG'hjjlvKJ'Ijg..) (;) un(gh)xit(h_g) te(g) De(g_[oh:h]f/ghffd)us,(d.) (,) De(gg)us(g) tu(ghg___)us,(g.) (;) ó(g)le(fg)o(gggvED'/!eg'//hvGFg.) <clear>*(,) lae(gf)tí(gf)ti(hj)ae.(jjk//iijhhg.) (,) (ijGF.h!iwjji gjh/ihhg.) (::)",
+            "mp3": "graduel_dilexisti-iustitiam.mp3",
             "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.\nAllelúja, allelúja.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
-            "incipit": "Dilexísti justítiam, et",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-25.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "incipit": {
+              "incipit": "Adducentur",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) <i>ij.</i>(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) <sp>V/</sp>. Ad(c.d!ewff)du(fg)cén(ixg_[oh:h]f/g/ig/hffd./fg/ighhV!gh~)tur(f.) (;) re(f.0h!iwjj)gi(ixjjvIG') vír(ixgjjh~)gi(h_[oh:h]i_[oh:h]h_[oh:h])nes(h.) (;) post(fg'hjhhfg) e(fg)am :(gv.ff/ded.) (:) pró(de!f'g)xi(ghg)mae(fg) e(ghg___)jus(g.) (;) af(f)fe(ghg)rén(ixh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghgfffd~)tur(ef~) ti(d_[oh:h]e_[oh:h]d_[oh:h])bi(d.) *(;) in(fc~) lae(d)tí(d!fff/g_[oh:h]f)ti(f!hgh)a.(hhf.) (,) (h_ghvFDgff'fvEC//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+            "mp3": "alleluia_adducentur-regi.mp3",
             "fichier": "Latin/Sancti/11-25.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-25.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Offertorium",
             "texte": "!Ps 44:15-16\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia et exsultatióne: adducéntur in templum Regi Dómino. (Allelúja.)",
-            "incipit": "Afferéntur Regi Vírgines",
-            "mp3": "offertoire_afferentur-regi-virgines-proximae.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Afferentur... post eam",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) AF(c)fe(d)rén(f)tur(fff/ded.) ()* re(fg)gi(fe/fggf.0) (;) vír(fgffe)gi(de!fvED'e)nes(e[ll:1]d..) (`) post(dg) e(gf)am :(f.) (:) pró(hf/gh!jjh)xi(g)mae(fggf) e(d!ew!fvED)jus(dc/ded.) (;) af(c)fe(d)rén(ffd//fgf/ge/fgd)tur(dV!cd~) ti(d)bi.(dc/d!fffc//fvED'ewfd.1) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C6.txt",
             "section": "Secreta",
-            "texte": "Súscipe, Dómine, múnera, quæ in beátæ N. Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.\n$Per Dominum",
-            "references": null
+            "texte": "Súscipe, Dómine, múnera, quæ in beátæ N. Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Communio",
             "texte": "!Ps 118:78; 118:80\nConfundántur supérbi, quia injúste iniquitátem fecérunt in me: ego autem in mandátis tuis exercébor, in tuis justificatiónibus, ut non confúndar. (Allelúja.)",
-            "incipit": "Confundántur supérbi, quia",
+            "incipit": {
+              "incipit": "Confundantur",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) COn(fe~)fun(f)dán(gh)tur(ffe) su(dc)pér(d!ewfef)bi,(e[ll:1]d..) (;) * qui(d)a(d) in(dh~)jú(h)ste(ixhg/hih.) (,) in(g)i(g)qui(ge)tá(ghgh)tem(g) fe(f)cé(g)runt(fe) in(d) me :(fddc.) (:) e(c.d!ewffg)go(f) au(ffe~)tem(ixghg/hih.) in(g) man(h)dá(jj)tis(kjjh) tu(ixh.g!hwihi)is(ih..) (,) ex(h)er(fg~)cé(g.f!gwh_g)bor,(ghG'Fg.) (;) in(f) tu(gh)is(h) ju(hf)sti(g)fi(gf)ca(fe)ti(d)ó(d!ew!fvED')ni(d)bus,(dc/ded.) (;) ut(cd) non(fg'h) con(f_e)fún(d_c/d!ewf)dar.(e[ll:1]d..) (::) <nlba><i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.</nlba>(e[ll:1]d..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C6.txt",
             "section": "Postcommunio",
-            "texte": "Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta N. Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\n$Per Dominum",
-            "references": null
+            "texte": "Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta N. Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Introitus",
-            "texte": "!Ps 118:46-47\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)",
-            "incipit": "Je parlerai de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 118:46-47\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui avez donné la loi à Moïse sur le sommet du mont Sinaï, et qui avez fait miraculeusement transporter en ce même lieu, par vos saints Anges, le corps de votre bienheureuse Vierge et Martyre Catherine ; faites, nous vous en supplions, que par ses mérites et son intercession, nous puissions parvenir à la montagne qui est le Christ.\n$Qui tecum",
-            "references": null
+            "texte": "Ô Dieu, qui avez donné la loi à Moïse sur le sommet du mont Sinaï, et qui avez fait miraculeusement transporter en ce même lieu, par vos saints Anges, le corps de votre bienheureuse Vierge et Martyre Catherine ; faites, nous vous en supplions, que par ses mérites et son intercession, nous puissions parvenir à la montagne qui est le Christ.\n$Qui tecum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:8.\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie. Alléluia, alléluia.\nV. Ps 48:15; 48:16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit dans la joie. Alléluia.",
-            "incipit": "Vous avez aimé",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:8.\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie. Alléluia, alléluia.\nV. Ps 48:15; 48:16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit dans la joie. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:15-16\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
-            "incipit": "Des filles de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:15-16\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Secreta",
-            "texte": "Recevez, Seigneur, nos offrandes en cette fête de la bienheureuse Catherine, votre Vierge et Martyre, au patronage de laquelle nous confions notre délivrance.\n$Per Dominum",
-            "references": null
+            "texte": "Recevez, Seigneur, nos offrandes en cette fête de la bienheureuse Catherine, votre Vierge et Martyre, au patronage de laquelle nous confions notre délivrance.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Communio",
-            "texte": "!Ps 118:78; 118:80\nQue les superbes soient confondus, eux qui me maltraitent sans raison. Je veux méditer vos préceptes et vos lois, pour n’avoir pas à rougir. (Alléluia.)",
-            "incipit": "Que les superbes",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 118:78; 118:80\nQue les superbes soient confondus, eux qui me maltraitent sans raison. Je veux méditer vos préceptes et vos lois, pour n’avoir pas à rougir. (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-25.txt",
             "section": "Postcommunio",
-            "texte": "Que le sacrement que nous avons reçu nous vienne en aide, Seigneur, et par l'intercession de la bienheureuse Catherine, votre Vierge et Martyre, nous assure le bonheur d'une constante protection.\n$Per Dominum",
-            "references": null
+            "texte": "Que le sacrement que nous avons reçu nous vienne en aide, Seigneur, et par l'intercession de la bienheureuse Catherine, votre Vierge et Martyre, nous assure le bonheur d'une constante protection.\n$Per Dominum"
           }
         }
       },

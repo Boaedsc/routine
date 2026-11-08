@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pasc0-3.txt",
-            "section": "Introitus",
             "texte": "!Matt 25:34\nv. Veníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis parátum est ab orígine mundi, allelúja, allelúja, allelúja.\n!Ps 95:1\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n&Gloria\nv. Veníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis parátum est ab orígine mundi, allelúja, allelúja, allelúja.",
-            "incipit": "Veníte, benedícti Patris",
+            "incipit": {
+              "incipit": "Venite benedicti",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) VE(eh)ní(hhi)te(i.) *(,) be(iji)ne(h)dí(gh!ivHG'i)cti(i.) Pa(i)tris(ef~) me(fv.efd)i,(d.) (;) per(f)cí(i)pi(h)te(hhh) re(hiH~'G~)gnum,(hh) (,) al(f)le(fv.dfe)lú(efe___){ia} :(e.) (:) quod(e) vo(e)bis(ehg) pa(hi)rá(i)tum(hi) est(ijii/ghg.) (;) ab(i) o(k)rí(kk//kk)gi(i)ne(ijhi) mun(iji___)di,(i.) (:) al(ik~)le(kkk)lú(hih){ia},(f.) (,) al(hi~)le(i)lú(kikvJ~I~){ia},(i.) (,) al(hi~)le(iv.hig'hvF'E)lú(efe___){ia}.(e.) (::) <i>Ps.</i> Can(ehg)tá(hi)te(i) Dó(i)mi(i)no(i) cán(ik)ti(j)cum(j) no(ji)vum :(ij..) *(:) can(ig~)tá(hi)te(i) Dó(i)mi(i)no(i!jwk) o(i')mnis(h) ter(hhh)ra.(fe..) (::) Gló(ehg)ri(hi)a(i) Pa(i)tri.(i) (::) <eu>E(i) u(i!jwk) o(i') u(h) a(hhh) e.</eu>(fe..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Pasc0-3.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas: concéde propítius; ut per temporália festa, quæ ágimus, perveníre ad gáudia ætérna mereámur.\n$Per eumdem",
-            "references": null
+            "texte": "Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas: concéde propítius; ut per temporália festa, quæ ágimus, perveníre ad gáudia ætérna mereámur.\n$Per eumdem"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum\n!Acts 3:13-15; 3:17-19\nIn diébus illis: Apériens Petrus os suum, dixit: Viri Israëlítæ, et qui timétis Deum, audíte. Deus Abraham et Deus Isaac et Deus Jacob, Deus patrum nostrórum, glorificávit Fílium suum Jesum, quem vos quidem tradidístis et negástis ante fáciem Piláti, judicánte illo dimítti. Vos autem sanctum et justum negástis, et petístis virum homicídam donári vobis: auctórem vero vitæ interfecístis, quem Deus suscitávit a mórtuis, cujus nos testes sumus. Et nunc, fratres, scio, quia per ignorántiam fecístis, sicut et príncipes vestri. Deus autem, quæ prænuntiávit per os ómnium Prophetárum, pati Christum suum, sic implévit. Pœnitémini ígitur et convertímini, ut deleántur peccáta vestra.",
-            "references": null
+            "texte": "Léctio Actuum Apostolórum\n!Acts 3:13-15; 3:17-19\nIn diébus illis: Apériens Petrus os suum, dixit: Viri Israëlítæ, et qui timétis Deum, audíte. Deus Abraham et Deus Isaac et Deus Jacob, Deus patrum nostrórum, glorificávit Fílium suum Jesum, quem vos quidem tradidístis et negástis ante fáciem Piláti, judicánte illo dimítti. Vos autem sanctum et justum negástis, et petístis virum homicídam donári vobis: auctórem vero vitæ interfecístis, quem Deus suscitávit a mórtuis, cujus nos testes sumus. Et nunc, fratres, scio, quia per ignorántiam fecístis, sicut et príncipes vestri. Deus autem, quæ prænuntiávit per os ómnium Prophetárum, pati Christum suum, sic implévit. Pœnitémini ígitur et convertímini, ut deleántur peccáta vestra."
           },
           "Graduale": {
+            "texte": "!Ps 117:24; 117:16\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
+            "incipit": {
+              "incipit": "Haec dies... Dextera",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) HAec(gxf_egvFEfd/f_h) di(hhhvFEfef)es,(f.) <clear>*(;) quam(ef) fe(hh)cit(hh//ijhhvF'Ef.) (,) Dó(hfh)mi(hhh)nus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ex(f)sul(h)té(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)mus,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'f) lae(fef)té(hf/hhh)mur(hiHF.1) (;) in(ef) e(hf/h_i)a.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) \r\n<sp>V/</sp>. Déx(f)te(h)ra(ij) Dó(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)mi(ji)ni(i.) (:) fe(i!jw!kvJI'jw!kvJI')cit(i) vir(ij~)tú(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)tem,(f.) (:) déx(hh)te(h)ra(hi) Dó(ivH'GE//fhGEfh..)(,)(gi!jvHF')mi(f)ni(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) ex(de'f)al(f.0/[-0.5]hvGF'g)tá(ef)vit(hf/h_i) me.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+            "mp3": "graduel_haec-dies-dextera.mp3",
             "fichier": "Latin/Tempora/Pasc0-3.txt",
-            "section": "Graduale",
-            "texte": "!Ps 117:24; 117:16\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.\nAllelúja, allelúja.\n!Luc 24:34\nV. Surréxit Dóminus vere: et appáruit Petro.",
-            "incipit": "Hæc dies, quam",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Luc 24:34\nV. Surréxit Dóminus vere: et appáruit Petro.",
+            "incipit": {
+              "incipit": "Surrexit Dominus vere (All.)",
+              "version": "Solesmes",
+              "distance": 25,
+              "similarite": 0.375,
+              "source": "Alleluia"
+            },
+            "gabc": "\"(c4) AL(fg~)le(g/hjghvGF)l\\u00fa(fh!jjk){ia}.(jjvIGh.) <clear>*(,) <i>ij.</i>(ijH'Gixfihhg.) (::) <sp>V/</sp>. Sur(fg)r\\u00e9(g/hjghvGF'g)xit(f.) (,) D\\u00f3(fh!jjk)mi(j)nus(j) ve(jv_IGh.)(,)(ijH'Gixfihhg)re,(g.) (:) et(fg) ap(g/hjghvGF'g)p\\u00e1(fg)ru(f)it(f.) <clear>*(,) Pe(fh!jjk)tro.(jjvIGh.) (,) (ijH'Gixfihhg.) (::)\"",
+            "mp3": "alleluia_surrexit-dominus-vere.mp3",
             "fichier": "Latin/Tempora/Pasc0-3.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 21:1-14\nIn illo témpore: Manifestávit se íterum Jesus discípulis ad mare Tiberíadis. Manifestávit autem sic. Erant simul Simon Petrus et Thomas, qui dícitur Dídymus, et Nathánaël, qui erat a Cana Galilǽæ, et fílii Zebedǽi et álii ex discípulis ejus duo. Dicit eis Simon Petrus: Vado piscári. Dicunt ei: Venímus et nos tecum. Et exiérunt et ascendérunt in navim: et illa nocte nihil prendidérunt. Mane autem facto, stetit Jesus in lítore: non tamen cognovérunt discípuli, quia Jesus est. Dixit ergo eis Jesus: Púeri, numquid pulmentárium habétis? Respondérunt ei: Non. Dicit eis: Míttite in déxteram navígii rete, et inveniétis. Misérunt ergo: et jam non valébant illud tráhere præ multitúdine píscium. Dixit ergo discípulus ille, quem diligébat Jesus, Petro: Dóminus est. Simon Petrus cum audísset, quia Dóminus est, túnica succínxit se - erat enim nudus, - et misit se in mare. Alii autem discípuli navígio venérunt - non enim longe erant a terra, sed quasi cúbitis ducéntis, - trahéntes rete píscium. Ut ergo descendérunt in terram, vidérunt prunas pósitas, et piscem superpósitum, et panem. Dicit eis Jesus: Afférte de píscibus, quos prendidístis nunc. Ascéndit Simon Petrus, et traxit rete in terram, plenum magnis píscibus centum quinquagínta tribus. Et cum tanti essent, non est scissum rete. Dicit eis Jesus: Veníte, prandéte. Et nemo audébat discumbéntium interrogáre eum: Tu quis es? sciéntes, quia Dóminus est. Et venit Jesus, et áccipit panem, et dat eis, et piscem simíliter. Hoc jam tértio manifestátus est Jesus discípulis suis, cum resurrexísset a mórtuis.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 21:1-14\nIn illo témpore: Manifestávit se íterum Jesus discípulis ad mare Tiberíadis. Manifestávit autem sic. Erant simul Simon Petrus et Thomas, qui dícitur Dídymus, et Nathánaël, qui erat a Cana Galilǽæ, et fílii Zebedǽi et álii ex discípulis ejus duo. Dicit eis Simon Petrus: Vado piscári. Dicunt ei: Venímus et nos tecum. Et exiérunt et ascendérunt in navim: et illa nocte nihil prendidérunt. Mane autem facto, stetit Jesus in lítore: non tamen cognovérunt discípuli, quia Jesus est. Dixit ergo eis Jesus: Púeri, numquid pulmentárium habétis? Respondérunt ei: Non. Dicit eis: Míttite in déxteram navígii rete, et inveniétis. Misérunt ergo: et jam non valébant illud tráhere præ multitúdine píscium. Dixit ergo discípulus ille, quem diligébat Jesus, Petro: Dóminus est. Simon Petrus cum audísset, quia Dóminus est, túnica succínxit se - erat enim nudus, - et misit se in mare. Alii autem discípuli navígio venérunt - non enim longe erant a terra, sed quasi cúbitis ducéntis, - trahéntes rete píscium. Ut ergo descendérunt in terram, vidérunt prunas pósitas, et piscem superpósitum, et panem. Dicit eis Jesus: Afférte de píscibus, quos prendidístis nunc. Ascéndit Simon Petrus, et traxit rete in terram, plenum magnis píscibus centum quinquagínta tribus. Et cum tanti essent, non est scissum rete. Dicit eis Jesus: Veníte, prandéte. Et nemo audébat discumbéntium interrogáre eum: Tu quis es? sciéntes, quia Dóminus est. Et venit Jesus, et áccipit panem, et dat eis, et piscem simíliter. Hoc jam tértio manifestátus est Jesus discípulis suis, cum resurrexísset a mórtuis."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pasc0-3.txt",
-            "section": "Offertorium",
             "texte": "!Ps 77:23-25\nPortas cœli apéruit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis: panem Angelórum manducávit homo, allelúja.",
-            "incipit": "Portas cœli apéruit",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Portas caeli",
+              "version": "Solesmes",
+              "distance": 1,
+              "similarite": 0.975,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) POr(d)tas(e) cae(f/hhf)li(e'gvF'Ef.) <clear>*(,) a(de)pé(e/fhg)ru(hg)it(g) Dó(gi/jhhf)mi(fhf)nus :(efe.) (;) et(fh~) plu(h)it(f') il(h)lis(hhhvFE'g) man(ggh)na,(efee[ll:1]d.0) (,) ut(e/fhg) é(hhvGF)de(gf)rent :(f.) (:) pa(df)nem(hjI'H) cae(hhh/ih'/ihh)li(e_[uh:l]f) (,) de(f/hhh_f)dit(f_e) il(e_[oh:h]de)lis :(e.f!gw!hvGF.) (:) pa(h)nem(hh//hhh) An(h)ge(f)ló(f/hh//hhh)rum(efe.) (;) man(f)du(e[ll:1]d)cá(efe)vit(fgf) ho(g'/ih'/ihhe//hvGFgvFE'f)mo,(fe..) (;) al(f)le(fe/f_c)lú(fe/fgF~'E~){ia}.(e./ffg_[oh:h]e.) (::)",
+            "mp3": "offertoire_portas-caeli.mp3",
+            "fichier": "Latin/Tempora/Pasc0-3.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Secreta",
-            "texte": "Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia tua mirabíliter et páscitur et nutrítur.\n$Per Dominum",
-            "references": null
+            "texte": "Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia tua mirabíliter et páscitur et nutrítur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pasc0-3.txt",
-            "section": "Communio",
             "texte": "!Rom 6:9\nChristus resúrgens ex mórtuis jam non móritur, allelúja: mors illi ultra non dominábitur, allelúja, allelúja.",
-            "incipit": "Christus resúrgens ex",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Christus resurgens",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) CHri(eh)stus(ggh.) *(,) re(hf)súr(hi~)gens(g) ex(f) mór(ggh)tu(fe)is,(e.) (,) jam(g) non(g) mó(gf/g_[uh:l]h)ri(e)tur,(c.) (,) al(f)le(f)lú(e!f@ec~){ia} :(c.) (:) mors(f) il(ef)li(feec) ul(eg~)tra(f.) non(hhf~) do(hi'j)mi(ij)ná(g)bi(gihh)tur,(hg..) (;) al(gj~)le(j)lú(jij){ia},(g.) (,) al(h)le(fhGF')lú(gffef){ia}.(fe..) (::)",
+            "mp3": "communion_christus-resurgens.mp3",
+            "fichier": "Latin/Tempora/Pasc0-3.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pasc0-3.txt",
             "section": "Postcommunio",
-            "texte": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui veneránda percéptio in novam tránsferat creatúram:\n$Qui vivis",
-            "references": null
+            "texte": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui veneránda percéptio in novam tránsferat creatúram:\n$Qui vivis"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Introitus",
-            "texte": "!Matt 25:34\nv. Venez, les bénis de mon Père, recevez le Royaume, alléluia, qui vous a été préparé depuis l'origine du monde, alléluia, alléluia, alléluia.\n!Ps 95:1\nChantez au Seigneur un cantique nouveau, chantez pour le Seigneur, toute la terre.\n&Gloria\nv. Venez, les bénis de mon Père, recevez le Royaume, alléluia, qui vous a été préparé depuis l'origine du monde, alléluia, alléluia, alléluia.",
-            "incipit": "Venez, les bénis",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 25:34\nv. Venez, les bénis de mon Père, recevez le Royaume, alléluia, qui vous a été préparé depuis l'origine du monde, alléluia, alléluia, alléluia.\n!Ps 95:1\nChantez au Seigneur un cantique nouveau, chantez pour le Seigneur, toute la terre.\n&Gloria\nv. Venez, les bénis de mon Père, recevez le Royaume, alléluia, qui vous a été préparé depuis l'origine du monde, alléluia, alléluia, alléluia."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui nous donnez la joie, chaque année, de célébrer la résurrection du Seigneur, daignez nous accorder dans votre bonté d'avoir accès, par ces fêtes que nous observons sur la terre, au bonheur de l'éternité.\n$Per eundem",
-            "references": null
+            "texte": "Ô Dieu, qui nous donnez la joie, chaque année, de célébrer la résurrection du Seigneur, daignez nous accorder dans votre bonté d'avoir accès, par ces fêtes que nous observons sur la terre, au bonheur de l'éternité.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolorum.\n!Acts 3:13-15; 3:17-19\nEn ces jours-là, Pierre ouvrant la bouche dit : « Israélites, et vous qui craignez Dieu, écoutez. Le Dieu d'Abraham, d'Isaac et de Jacob, le Dieu de nos pères, a glorifié son serviteur Jésus, que vous avez livré et que vous avez renié devant Pilate, alors qu'il était d'avis de le relâcher. Mais vous, vous avez renié le Saint et le Juste, et vous avez sollicité la grâce d'un meurtrier. Vous avez fait mourir le chef de la vie, que Dieu a ressuscité des morts : de quoi nous sommes témoins. Et maintenant, frères, je sais bien que vous avez agi par ignorance, ainsi que vos magistrats ; mais Dieu a accompli ainsi ce qu'il avait prédit par la bouche de tous les prophètes, que son Christ souffrirait. Repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés. »",
-            "references": null
+            "texte": "Léctio Actuum Apostolorum.\n!Acts 3:13-15; 3:17-19\nEn ces jours-là, Pierre ouvrant la bouche dit : « Israélites, et vous qui craignez Dieu, écoutez. Le Dieu d'Abraham, d'Isaac et de Jacob, le Dieu de nos pères, a glorifié son serviteur Jésus, que vous avez livré et que vous avez renié devant Pilate, alors qu'il était d'avis de le relâcher. Mais vous, vous avez renié le Saint et le Juste, et vous avez sollicité la grâce d'un meurtrier. Vous avez fait mourir le chef de la vie, que Dieu a ressuscité des morts : de quoi nous sommes témoins. Et maintenant, frères, je sais bien que vous avez agi par ignorance, ainsi que vos magistrats ; mais Dieu a accompli ainsi ce qu'il avait prédit par la bouche de tous les prophètes, que son Christ souffrirait. Repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés. »"
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Graduale",
-            "texte": "Allelúja, allelúja.\n!Ps 117:24; 117:16\nVoici le jour que fit le Seigneur : exultons et réjouissons-nous.\nV. La droite du Seigneur a agi avec force, la droite du Seigneur m'a élevé. Alléluia, alléluia.\n!Luc 24:34\nV. Le Seigneur est vraiment ressuscité, et il est apparu à Pierre.",
-            "incipit": "Allelúja, allelúja. Voici",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 117:24; 117:16\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\nV. Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 117:24; 117:16\nVoici le jour que fit le Seigneur : exultons et réjouissons-nous.\nV. La droite du Seigneur a agi avec force, la droite du Seigneur m'a élevé. Alléluia, alléluia.\n!Luc 24:34\nV. Le Seigneur est vraiment ressuscité, et il est apparu à Pierre."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 21:1-14\nEn ce temps-là, Jésus se manifesta de nouveau à ses disciples sur les bords de la mer de Tibériade : et il se montra ainsi : Simon-Pierre, Thomas appelé Didyme, Nathanaël, qui était de Cana en Galilée, les fils de Zébédée et deux autres de ses disciples étaient ensemble. Simon-Pierre leur dit : « Je vais pêcher. » Ils lui dirent : « Nous y allons, nous aussi, avec toi. » Ils sortirent donc et montèrent dans la barque ; mais ils ne prirent rien cette nuit-là. Le matin venu, Jésus se trouva sur le rivage ; mais les disciples ne savaient pas que c'était Jésus. Et Jésus leur dit : « Enfants, n'avez-vous rien à manger ? » Non, répondirent-ils. Il leur dit : « Jetez le filet à droite de la barque, et vous trouverez. » Ils le jetèrent, et ils ne pouvaient plus le tirer à cause de la grande quantité de poissons. Alors, le disciple que Jésus aimait dit à Pierre : « C'est le Seigneur ! » Simon-Pierre, ayant entendu que c'était le Seigneur, mit son vêtement et sa ceinture, car il était nu, et se jeta dans la mer. Les autres disciples vinrent avec la barque (car ils n'étaient éloignés de la terre que d'environ deux cents coudées), en tirant le filet plein de poissons. Quand ils furent descendus à terre, ils virent là des charbons allumés, du poisson mis dessus, et du pain. Jésus leur dit : « Apportez de ces poissons que vous venez de prendre. » Simon-Pierre monta dans la barque, et tira à terre le filet qui était plein de cent cinquante-trois grands poissons ; et quoiqu'il y en eût un si grand nombre, le filet ne se rompit point. Jésus leur dit : « Venez et mangez. » Et aucun des disciples n'osait lui demander : « Qui es-tu ? », parce qu'ils savaient qu'il était le Seigneur. Jésus s'approcha, et prenant le pain, il leur en donna ; il fit de même du poisson. C'était déjà la troisième fois que Jésus apparaissait à ses disciples, depuis qu'il était ressuscité des morts.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 21:1-14\nEn ce temps-là, Jésus se manifesta de nouveau à ses disciples sur les bords de la mer de Tibériade : et il se montra ainsi : Simon-Pierre, Thomas appelé Didyme, Nathanaël, qui était de Cana en Galilée, les fils de Zébédée et deux autres de ses disciples étaient ensemble. Simon-Pierre leur dit : « Je vais pêcher. » Ils lui dirent : « Nous y allons, nous aussi, avec toi. » Ils sortirent donc et montèrent dans la barque ; mais ils ne prirent rien cette nuit-là. Le matin venu, Jésus se trouva sur le rivage ; mais les disciples ne savaient pas que c'était Jésus. Et Jésus leur dit : « Enfants, n'avez-vous rien à manger ? » Non, répondirent-ils. Il leur dit : « Jetez le filet à droite de la barque, et vous trouverez. » Ils le jetèrent, et ils ne pouvaient plus le tirer à cause de la grande quantité de poissons. Alors, le disciple que Jésus aimait dit à Pierre : « C'est le Seigneur ! » Simon-Pierre, ayant entendu que c'était le Seigneur, mit son vêtement et sa ceinture, car il était nu, et se jeta dans la mer. Les autres disciples vinrent avec la barque (car ils n'étaient éloignés de la terre que d'environ deux cents coudées), en tirant le filet plein de poissons. Quand ils furent descendus à terre, ils virent là des charbons allumés, du poisson mis dessus, et du pain. Jésus leur dit : « Apportez de ces poissons que vous venez de prendre. » Simon-Pierre monta dans la barque, et tira à terre le filet qui était plein de cent cinquante-trois grands poissons ; et quoiqu'il y en eût un si grand nombre, le filet ne se rompit point. Jésus leur dit : « Venez et mangez. » Et aucun des disciples n'osait lui demander : « Qui es-tu ? », parce qu'ils savaient qu'il était le Seigneur. Jésus s'approcha, et prenant le pain, il leur en donna ; il fit de même du poisson. C'était déjà la troisième fois que Jésus apparaissait à ses disciples, depuis qu'il était ressuscité des morts."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Offertorium",
-            "texte": "!Ps 77:23-25\nLe Seigneur a ouvert les portes du ciel, et il a fait pleuvoir pour eux la manne, afin qu'ils mangent. Il leur a donné le pain du ciel ; l'homme a mangé le pain des anges, alléluia.",
-            "incipit": "Le Seigneur a",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 77:23-25\nLe Seigneur a ouvert les portes du ciel, et il a fait pleuvoir pour eux la manne, afin qu'ils mangent. Il leur a donné le pain du ciel ; l'homme a mangé le pain des anges, alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Secreta",
-            "texte": "Nous vous offrons, Seigneur, en ces joies de Pâques, le sacrifice où votre Église, d'une manière merveilleuse, se restaure et se nourrit.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous offrons, Seigneur, en ces joies de Pâques, le sacrifice où votre Église, d'une manière merveilleuse, se restaure et se nourrit.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Communio",
-            "texte": "!Rom 6:9\nLe Christ ressuscité d'entre les morts ne meurt plus désormais, alléluia ; la mort n'a plus sur Lui aucun pouvoir, alléluia, alléluia.",
-            "incipit": "Le Christ ressuscité",
-            "mp3": null,
-            "references": null
+            "texte": "!Rom 6:9\nLe Christ ressuscité d'entre les morts ne meurt plus désormais, alléluia ; la mort n'a plus sur Lui aucun pouvoir, alléluia, alléluia."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pasc0-3.txt",
             "section": "Postcommunio",
-            "texte": "Après avoir expulsé tout ce qui reste en nous du vieil homme, que votre sacrement, Seigneur, que nous recevons avec un pieux respect fasse de nous une créature toute nouvelle.\n$Qui vivis",
-            "references": null
+            "texte": "Après avoir expulsé tout ce qui reste en nous du vieil homme, que votre sacrement, Seigneur, que nous recevons avec un pieux respect fasse de nous une créature toute nouvelle.\n$Qui vivis"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Tempora/Pasc0-3.txt",
         "Latin/Tempora/Pasc0-3.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

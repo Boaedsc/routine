@@ -28,181 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Introitus",
             "texte": "!Gal 6:14.\nv. Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.",
-            "incipit": "Mihi autem absit",
+            "incipit": {
+              "incipit": "Mihi autem absit. Ps. Memento",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(f3) MI(e)hi(f) au(f)tem(hh) *(,) ab(ihi)sit(ihi_[oh:h]f) glo(hj)ri(ih)á(hg)ri,(e_[uh:l]f) (;) ni(fi)si(i) in(i) cru(kxi!jwkj)ce(ji__) (,) Dó(ij)mi(ih)ni(hv.gih) no(fge)stri(f.) (,) Je(f)su(hhi) Chri(fgF'E)sti,(e.) (:) per(h) quem(hhh) mi(f)hi(fi) mun(i)dus(h) cru(h)ci(hi)fí(i)xus(h) est,(hji.) (;) et(hihh) e(ef!hhi)go(h) mun(hjI~'H~)do.(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::) <i>Ps.</i> Me(e)mén(fe)to(eh) Dó(hg)mi(hi)ne(i) Da(hi)vid :(h.) *(:) et(hf) o(fh)mnis(h) man(h)su(h)e(h')tú(i)di(hf)nis(h) e(ge)jus.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C2.txt",
             "section": "Oratio",
-            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum",
-            "references": null
+            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/02-01.txt",
             "section": "Lectio",
-            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:35-39\nFratres: Quis nos separábit a caritáte Christi: tribulátio, an angustia, an fames, an núditas, an perículum, an persecútio, an gládius? sicut scriptum est: Quia propter te mortificámur tota die: æstimáti sumus sicut oves occisiónis. Sed in his ómnibus superámus propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque vita, neque ángeli, neque principátus, neque virtútes, neque instántia, neque futúra, neque fortitúdo, neque altitúdo, neque profúndum, neque creatúra alia poterit nos separáre a caritáte Dei, quæ est in Christo Jesu, Dómino nostro.",
-            "references": null
+            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:35-39\nFratres: Quis nos separábit a caritáte Christi: tribulátio, an angustia, an fames, an núditas, an perículum, an persecútio, an gládius? sicut scriptum est: Quia propter te mortificámur tota die: æstimáti sumus sicut oves occisiónis. Sed in his ómnibus superámus propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque vita, neque ángeli, neque principátus, neque virtútes, neque instántia, neque futúra, neque fortitúdo, neque altitúdo, neque profúndum, neque creatúra alia poterit nos separáre a caritáte Dei, quæ est in Christo Jesu, Dómino nostro."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Graduale",
-            "texte": "!Eccli 44:16.\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20.\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja\n!Gal 2:19-20.\nV. Christo confíxus sum Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.",
-            "incipit": "Ecce sacérdos magnus,",
+            "texte": "!Eccli 44:16.\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20.\nV. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+            "incipit": {
+              "incipit": "Ecce sacerdos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Tractus",
             "texte": "!Eccli 44:16.\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20.\nNon est invéntus símilis illi, qui conserváret legem Excélsi.\n!Ps 20:3-4.\nDesidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.\nV. Quoniam prævenísti eum in benedictiónibus dulcedinis.\nV. Posuísti in cápite ejus coronam de lápide pretióso.",
-            "incipit": "Ecce sacérdos magnus,",
+            "incipit": {
+              "incipit": "Ecce sic benedicetur",
+              "version": "Solesmes",
+              "distance": 30,
+              "similarite": 0.25,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) EC(g)ce(gv.fff_d/e_[oh:h]c cd!fvv//g./hjhhg.) (,) * sic(gh) be(f)ne(ixg!hwi)di(i)cé(iiivHG)tur(g.) (;) o(g)mnis(g) ho(gh)mo(g.) (,) qui(g) ti(h_g/h!iwj)met(ghf) Dó(f!h'j)mi(j)num.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Be(d)ne(d)dí(d!ff//fffd//f_!h_f_g_)cat(f) ti(fghhg)bi(g.) (,) Dó(gh)mi(g)nus(g) ex(gh) Si(fg)on :(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) et(fh) ví(hgh)de(fg)as(g) bo(gh)na(g.) (,) Je(g)rú(gh/jij)sa(j.h!iwj)lem(jjjvIHivHGhg..) (;) ó(gh)mni(g)bus(g) di(g)é(h_g/h!iwj)bus(ghf) (,) vi(f!h'j)tae(j) tu(j)ae.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Et(fg) ví(g!jj)de(j)as(jj/kljj'jg) (,) (jj/kljj'jh//ijH'GF.g.h!iwjjv) (;) fí(jk'l)li(j_h)os(h_g) fi(hj)li(j)ó(ij'k)rum(ki) tu(kj)ó(j_kJ'//G)rum :(g_[uh:l]h) (,) (fh/ji/jkhhg/hg/jjh/jggf.0) <clear>*(:) pax(h_g/h!iwj) su(gh)per(g_[oh:h]f) Is(f!h'j)ra(j)el.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja\n!Gal 2:19-20.\nV. Christo confíxus sum Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.",
+            "incipit": {
+              "incipit": "Christo confixus",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(cd~)le(d!ewf!gvFED.fvEDC')lú(fg'h~){ia}.(h.) <clear>*(,) <i>ij.</i>(ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'E/fvEDee[ll:1]d.0) (::) <sp>V/</sp>. Chri(cd)sto(d!ewf!gvFED.fvEDC.) (,) con(f)fí(ixfg!hvGFghg/hi)xus(h) sum(gf) cru(gh)ci :(h.) (:) vi(fe)vo(d) e(d!ewfef)go,(e[ll:1]d..) (;) jam(hvGFgdevDC.) non(fg!hvGF'ED) e(cd)go,(d.) (:) vi(fg'h)vit(hj) ve(jvIH'GhhvGFgvFD)ro(e[ll:1]d..) (;) in(cd~) me(d!ewf!gvFED.fvEDC') () * Chri(fg'h)stus.(h.) (,) (ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'EfvEDee[ll:1]d.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/02-01.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:24-26\nIn illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis, nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam. Si quis mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster meus erit. Si quis mihi ministráverit, honorificábit eum Pater meus.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:24-26\nIn illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis, nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam. Si quis mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster meus erit. Si quis mihi ministráverit, honorificábit eum Pater meus."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Offertorium",
             "texte": "!Ps 8:6-7\nGlória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
-            "incipit": "Glória et honore",
+            "incipit": {
+              "incipit": "Gloria et honore (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) GLó(f)ri(ixf.g!hwihi)a(h.) *(,) et(h) ho(h)nó(iyh!jjjvIHjjjvIH//gih)re(hggfg.) (;) co(fg'h)ro(ghG'F)ná(ghg___hvGF)sti(jvvI'G) e(jjvIH'G)um :(ghggf.0) (:) et(h) con(jjk)sti(hhg)tu(f)í(fg!hvhg)sti(jjjvIH) e(ghf___fd)um(d.) (;) su(f)per(ff) ó(ff/gfg)pe(deDC'd)ra(d_c/f!gwhg.) (;) má(h/jjjvIH//giH'G)nu(gf)um(f.) tu(f)á(fgF'E)rum,(fg!hvhg.) (;) Dó(giHG'g//fhGF'fdfv.//fff/gf/gff)mi(d)ne.(fff_[oh:h]g_[oh:h]d.1_[oh:h]) (::)",
             "mp3": "offertoire_gloria-et-honore.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C2.txt",
             "section": "Secreta",
-            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
-            "references": null
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/02-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/02-01.txt",
-            "section": "Communio",
             "texte": "Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus invéniar.",
-            "incipit": "Fruméntum Christi sum:",
+            "incipit": {
+              "incipit": "Frumentum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) FRu(e)mén(g)tum(gf~) Chri(h)sti(g) sum,(f.) *(;) dén(eh~)ti(h)bus(h) be(h)sti(h)á(h_f)rum(g) mo(ef!gvFE'f)lar,(fe..) (;) ut(ei~) pa(ij)nis(hg) mun(hhh)dus(f_e) in(efe)vé(c)ni(cedd)ar.(dc..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-01.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C2.txt",
             "section": "Postcommunio",
-            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
-            "references": null
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Introitus",
-            "texte": "!Gal 6:14.\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.\n!Ps 131:1.\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.",
-            "incipit": "Je souhaite de",
-            "mp3": null,
-            "references": null
+            "texte": "!Gal 6:14.\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.\n!Ps 131:1.\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos péchés nous accable, fortifiez-nous par la glorieuse intercession du bienheureux Ignace, votre Martyr et Pontife.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos péchés nous accable, fortifiez-nous par la glorieuse intercession du bienheureux Ignace, votre Martyr et Pontife.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Lectio",
-            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:35-39.\nMes Frères : Qui donc nous séparera de l’amour du Christ ? Sera-ce la tribulation, ou l’angoisse, ou la faim, ou la nudité, ou le péril, ou la persécution, ou le glaive ? (Selon qu’il est écrit : À cause de vous, nous sommes mis à mort tout le jour ; on nous regarde comme des brebis destinées à la boucherie.) Mais en tout cela nous demeurons victorieux, par Celui qui nous a aimés. Car je suis certain que ni la mort, ni la vie, ni les anges, ni les principautés, ni les puissances, ni les choses présentes, ni les choses à venir, ni la violence, ni ce qu’il y a de plus élevé, ni ce qu’il y a de plus profond, ni aucune autre créature, ne pourra nous séparer de l’amour de Dieu, manifesté dans le Christ Jésus notre Seigneur.",
-            "references": null
+            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:35-39.\nMes Frères : Qui donc nous séparera de l’amour du Christ ? Sera-ce la tribulation, ou l’angoisse, ou la faim, ou la nudité, ou le péril, ou la persécution, ou le glaive ? (Selon qu’il est écrit : À cause de vous, nous sommes mis à mort tout le jour ; on nous regarde comme des brebis destinées à la boucherie.) Mais en tout cela nous demeurons victorieux, par Celui qui nous a aimés. Car je suis certain que ni la mort, ni la vie, ni les anges, ni les principautés, ni les puissances, ni les choses présentes, ni les choses à venir, ni la violence, ni ce qu’il y a de plus élevé, ni ce qu’il y a de plus profond, ni aucune autre créature, ne pourra nous séparer de l’amour de Dieu, manifesté dans le Christ Jésus notre Seigneur."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16.\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20.\nV. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Allelúja, allelúja\n!Gal 2:19-20.\nV. Avec le Christ j’ai été cloué à la croix. Et je vis, non ce n’est plus moi, mais c’est le Christ qui vit en moi. Allelúja.",
-            "incipit": "Voici le grand",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 44:16.\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20.\nV. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Tractus",
-            "texte": "!Eccli 44:16.\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20.\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut.\n!Ps 20:3-4.\nVous lui avez accordé le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres.\nV. Car vous l’avez prévenu des plus douces bénédictions.\nV. Vous avez mis sur sa tête une couronne de pierres précieuses.",
-            "incipit": "Voici le grand",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 44:16.\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20.\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut.\n!Ps 20:3-4.\nVous lui avez accordé le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres.\nV. Car vous l’avez prévenu des plus douces bénédictions.\nV. Vous avez mis sur sa tête une couronne de pierres précieuses."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/02-01.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja\n!Gal 2:19-20.\nV. Avec le Christ j’ai été cloué à la croix. Et je vis, non ce n’est plus moi, mais c’est le Christ qui vit en moi. Allelúja."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Evangelium",
-            "texte": "Sequentia sancti Evangelii secundum Joánnem\n!Joann 12:24-26.\nEn ce temps-là : Jésus dit à ses disciples : En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul. Mais s’il meurt, il porte beaucoup de fruit. Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle. Si quelqu’un veut être mon serviteur, qu’il me suive, et là où je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera.",
-            "references": null
+            "texte": "Sequentia sancti Evangelii secundum Joánnem\n!Joann 12:24-26.\nEn ce temps-là : Jésus dit à ses disciples : En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul. Mais s’il meurt, il porte beaucoup de fruit. Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle. Si quelqu’un veut être mon serviteur, qu’il me suive, et là où je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Offertorium",
-            "texte": "!Ps 8:6-7.\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
-            "incipit": "Vous l’avez couronné",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 8:6-7.\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Secreta",
-            "texte": "Seigneur, acceptez dans votre bonté ces hosties qui vous sont offertes en mémoire des mérites du bienheureux Ignace votre Martyr et Pontife ; et faites qu’elles nous obtiennent une continuelle assistance.\n$Per Dominum",
-            "references": null
+            "texte": "Seigneur, acceptez dans votre bonté ces hosties qui vous sont offertes en mémoire des mérites du bienheureux Ignace votre Martyr et Pontife ; et faites qu’elles nous obtiennent une continuelle assistance.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Communio",
-            "texte": "!\nJe suis le froment du Christ : Puisse-je être broyé sous les dents des bêtes féroces pour devenir un pain blanc.",
-            "incipit": "Je suis le",
-            "mp3": null,
-            "references": null
+            "texte": "!\nJe suis le froment du Christ : Puisse-je être broyé sous les dents des bêtes féroces pour devenir un pain blanc."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/02-01.txt",
             "section": "Postcommunio",
-            "texte": "Rassasiés par la participation à ce don sacré, nous vous supplions, Seigneur notre Dieu, par l’intercession du bienheureux Ignace, votre Martyr et Pontife, de nous faire ressentir l’effet du sacrifice que nous célébrons.\n$Per Dominum",
-            "references": null
+            "texte": "Rassasiés par la participation à ce don sacré, nous vous supplions, Seigneur notre Dieu, par l’intercession du bienheureux Ignace, votre Martyr et Pontife, de nous faire ressentir l’effet du sacrifice que nous célébrons.\n$Per Dominum"
           }
         }
       },
@@ -211,7 +210,7 @@
         "Francais/Sancti/02-01.txt",
         "Latin/Sancti/02-01.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

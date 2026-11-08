@@ -28,181 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Quad4-0.txt",
-            "section": "Introitus",
             "texte": "!Is 66:10 et 11\nv. Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam: gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et satiémini ab ubéribus consolatiónis vestræ.\n!Ps 121:1.\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\n&Gloria\nv. Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam: gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et satiémini ab ubéribus consolatiónis vestræ.",
-            "incipit": "Lætáre, Jerúsalem: et",
+            "incipit": {
+              "incipit": "Laetare Jerusalem",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) LAe(d)tá(gxd!gef)re(e_[oh:h][ll:1]d) *() Je(d)rú(e)sa(f)lem :(hh) (;) et(h) con(hf~)vén(hji)tum(h_g) fá(hji)ci(h_g)te(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (;) o(f)mnes(hiHF'fd) qui(gxg) di(gxg)lí(g)gi(egf)tis(ggvFE'fw!gvFE) e(de!fvED'e)am :(e[ll:1]d..) (:) gau(fh~)dé(h)te(f) cum(hgh) lae(e)tí(gxfgf)ti(d_[oh:h]e_[oh:h]d_[oh:h])a,(d.) (;) qui(d) in(e) tri(gxg)stí(f.0/[-0.5]ghf)ti(f.e!fwgfg)a(g_[oh:h]f_[oh:h]) (,) fu(f!hhivH'GF)í(gxf.e!fwgfg)stis :(gf..) (:) ut(f) ex(fe)sul(h)té(hji)tis,(i_[oh:h]h) (,) et(hhh) sa(e)ti(g)é(gi/jij)mi(hi_[oh:h]H'_[oh:h]GF'g)ni(gf..) (;) ab(d) u(gxeg)bé(gxffg)ri(e)bus(hh) (,) con(d)so(ef)la(f)ti(h)ó(h_iH//E'f)nis(gxfhFE'fw!gvFE) ve(de!fvED'e)strae.(e[ll:1]d..) (::) <i>Ps.</i> Lae(d)tá(f)tus(h) sum(h) in(h) his(h) quae(h) di(h)cta(h) sunt(i) mi(i)hi :(h.) *(:) in(f) do(h)mum(h) Dó(i)mi(g)ni(g) í(h)bi(f)mus.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(fefvEDe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Quad4-0.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Oratio",
-            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui ex mérito nostræ actiónis afflígimur, tuæ grátiæ consolatióne respirémus.\n$Per Dominum",
-            "references": null
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui ex mérito nostræ actiónis afflígimur, tuæ grátiæ consolatióne respirémus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 4:22-31\nFratres: Scriptum est: Quóniam Abraham duos fílios hábuit: unum de ancílla, et unum de líbera. Sed qui de ancílla, secúndum carnem natus est: qui autem de líbera, per repromissiónem: quæ sunt per allegoríam dicta. Hæc enim sunt duo testaménta. Unum quidem in monte Sina, in servitútem génerans: quæ est Agar: Sina enim mons est in Arábia, qui conjúnctus est ei, quæ nunc est Jerúsalem, et servit cum fíliis suis. Illa autem, quæ sursum est Jerúsalem, líbera est, quæ est mater nostra. Scriptum est enim: Lætáre, stérilis, quæ non paris: erúmpe, et clama, quæ non párturis: quia multi fílii desértæ, magis quam ejus, quæ habet virum. Nos autem, fratres, secúndum Isaac promissiónis fílii sumus. Sed quómodo tunc is, qui secúndum carnem natus fúerat, persequebátur eum, qui secúndum spíritum: ita et nunc. Sed quid dicit Scriptúra? Ejice ancíllam et fílium ejus: non enim heres erit fílius ancíllæ cum fílio líberæ. Itaque, fratres, non sumus ancíllæ fílii, sed líberæ: qua libertáte Christus nos liberávit.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 4:22-31\nFratres: Scriptum est: Quóniam Abraham duos fílios hábuit: unum de ancílla, et unum de líbera. Sed qui de ancílla, secúndum carnem natus est: qui autem de líbera, per repromissiónem: quæ sunt per allegoríam dicta. Hæc enim sunt duo testaménta. Unum quidem in monte Sina, in servitútem génerans: quæ est Agar: Sina enim mons est in Arábia, qui conjúnctus est ei, quæ nunc est Jerúsalem, et servit cum fíliis suis. Illa autem, quæ sursum est Jerúsalem, líbera est, quæ est mater nostra. Scriptum est enim: Lætáre, stérilis, quæ non paris: erúmpe, et clama, quæ non párturis: quia multi fílii desértæ, magis quam ejus, quæ habet virum. Nos autem, fratres, secúndum Isaac promissiónis fílii sumus. Sed quómodo tunc is, qui secúndum carnem natus fúerat, persequebátur eum, qui secúndum spíritum: ita et nunc. Sed quid dicit Scriptúra? Ejice ancíllam et fílium ejus: non enim heres erit fílius ancíllæ cum fílio líberæ. Itaque, fratres, non sumus ancíllæ fílii, sed líberæ: qua libertáte Christus nos liberávit."
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Quad4-0.txt",
-            "section": "Graduale",
             "texte": "!Ps 121:1, 7\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\nV. Fiat pax in virtúte tua: et abundántia in túrribus tuis.\n_\n!Tractus\n!Ps 124:1-2\nQui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum, qui hábitat in Jerúsalem.\nV. Montes in circúitu ejus: et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.",
-            "incipit": "Lætátus sum in",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Laetatus sum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c2) LAe(ff)tá(g)tus(fgF'Dgfg) sum(g./hiHG'gf/ghg.___) <clear>*(;) in(fg) his(gj) quae(j) di(jii)cta(g) sunt(gj~) mi(j_)hi :(g) (,) (ihij_i//hjii/ghg.) (:) in(gh) do(gh)mum(g_[oh:h]e) Dó(f)mi(dec)ni(c.) (,) í(eggf/g_[oh:h]e//fvED'ef'gffd!ewf)bi(cdc___)mus.(c.) (::) <sp>V/</sp>. Fi(gfg)at(gj~) pax(j_kJ'//G//ihij_i//hjii/ghg.) (;) in(f) vir(g)tú(g!ii//iikvJI'ig)te(gffd) tu(fdffd/ec)a :(c.) (:) et(g) a(c)bun(df~)dán(fv.d!gf'gjv.iiiih~)ti(ij)a(j_g//ihij_i//hjii/ghg.) (;) * in(cd) túr(fgf)ri(dgf/gh)bus(gh) tu(gf)is.(f.) (,) (hg/i_[oh:h]hgiHG'ge./fge'fvD'Cd_eddc.) (::)",
+            "mp3": "graduel_laetatus-sum.mp3",
+            "fichier": "Latin/Tempora/Quad4-0.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Quad4-0.txt",
-            "section": "Graduale",
             "texte": "!Ps 124:1-2\nQui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum, qui hábitat in Jerúsalem.\nV. Montes in circúitu ejus: et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.",
-            "incipit": "Qui confídunt in",
+            "incipit": {
+              "incipit": "Qui confidunt",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) QUI(g) con(g)fí(g/hih)dunt(g/hhg.) (,) * in(fg) Dó(gjjk)mi(h)no,(gf/ghhg.) (;) sic(iijh)ut(jk) mons(kij) Si(hjI'G)on :(g.) (,) (fh/ji/jkhhg/hg/jjh/jggf.0) (:) non(g) com(gef)mo(dg)vé(gv.fgh!jjh)(,)(jjvH'Ghji/j.h!iwj)bi(hiHG'h)tur(hg..) (,) in(gj) ae(j)tér(ik/ljjh)num,(jhhg/hg/jjh/jggf.0) (:) qui(f) há(hj)bi(igh)tat(gf/gh) (,) in(gh~) Je(g)rú(gh/jij)sa(j.h!iwj)lem.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Mon(dg'//jvHG.dg'//hjhhg.)(,)(jjjg/hhfgv.dg/hgh)tes(ghg/hhg.) (;) in(g) cir(g)cú(gj)i(j)tu(j) e(ik/ljjh)jus :(jhhg/hg/jjh/jggf.0) (:) et(h!iwj) Dó(j)mi(jjj)nus(jh//jjlvKJ'jvI'HGhg..) (;) in(gh) cir(fg)cú(gh/jij)i(j)tu(g.) (`) pó(gh)pu(h)li(h) su(h)i,(hf/ghg/hg/hg/hg/jjh/jggf.0) (:) ex(g/h!jij) hoc(j.h!iwj) nunc(jjjvIHivHGhg..) (;) et(g) us(h_g/h!iwj)que(g_[uh:l]h) *() in(f) saé(f!h'j)cu(j)lum.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Quad4-0.txt",
+            "section": "Graduale"
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:1-15\nIn illo témpore: Abiit Jesus trans mare Galilǽæ, quod est Tiberíadis: et sequebátur eum multitúdo magna, quia vidébant signa, quæ faciébat super his, qui infirmabántur. Súbiit ergo in montem Jesus: et ibi sedébat cum discípulis suis. Erat autem próximum Pascha, dies festus Judæórum. Cum sublevásset ergo óculos Jesus et vidísset, quia multitúdo máxima venit ad eum, dixit ad Philíppum: Unde emémus panes, ut mandúcent hi? Hoc autem dicébat tentans eum: ipse enim sciébat, quid esset factúrus. Respóndit ei Philíppus: Ducentórum denariórum panes non suffíciunt eis, ut unusquísque módicum quid accípiat. Dicit ei unus ex discípulis ejus, Andréas, frater Simónis Petri: Est puer unus hic, qui habet quinque panes hordeáceos et duos pisces: sed hæc quid sunt inter tantos? Dixit ergo Jesus: Fácite hómines discúmbere. Erat autem fænum multum in loco. Discubuérunt ergo viri, número quasi quinque míllia. Accépit ergo Jesus panes, et cum grátias egísset, distríbuit discumbéntibus: simíliter et ex píscibus, quantum volébant. Ut autem impléti sunt, dixit discípulis suis: Collígite quæ superavérunt fragménta, ne péreant. Collegérunt ergo, et implevérunt duódecim cóphinos fragmentórum ex quinque pánibus hordeáceis, quæ superfuérunt his, qui manducáverant. Illi ergo hómines cum vidíssent, quod Jesus fécerat signum, dicébant: Quia hic est vere Prophéta, qui ventúrus est in mundum. Jesus ergo cum cognovísset, quia ventúri essent, ut ráperent eum et fácerent eum regem, fugit íterum in montem ipse solus.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 6:1-15\nIn illo témpore: Abiit Jesus trans mare Galilǽæ, quod est Tiberíadis: et sequebátur eum multitúdo magna, quia vidébant signa, quæ faciébat super his, qui infirmabántur. Súbiit ergo in montem Jesus: et ibi sedébat cum discípulis suis. Erat autem próximum Pascha, dies festus Judæórum. Cum sublevásset ergo óculos Jesus et vidísset, quia multitúdo máxima venit ad eum, dixit ad Philíppum: Unde emémus panes, ut mandúcent hi? Hoc autem dicébat tentans eum: ipse enim sciébat, quid esset factúrus. Respóndit ei Philíppus: Ducentórum denariórum panes non suffíciunt eis, ut unusquísque módicum quid accípiat. Dicit ei unus ex discípulis ejus, Andréas, frater Simónis Petri: Est puer unus hic, qui habet quinque panes hordeáceos et duos pisces: sed hæc quid sunt inter tantos? Dixit ergo Jesus: Fácite hómines discúmbere. Erat autem fænum multum in loco. Discubuérunt ergo viri, número quasi quinque míllia. Accépit ergo Jesus panes, et cum grátias egísset, distríbuit discumbéntibus: simíliter et ex píscibus, quantum volébant. Ut autem impléti sunt, dixit discípulis suis: Collígite quæ superavérunt fragménta, ne péreant. Collegérunt ergo, et implevérunt duódecim cóphinos fragmentórum ex quinque pánibus hordeáceis, quæ superfuérunt his, qui manducáverant. Illi ergo hómines cum vidíssent, quod Jesus fécerat signum, dicébant: Quia hic est vere Prophéta, qui ventúrus est in mundum. Jesus ergo cum cognovísset, quia ventúri essent, ut ráperent eum et fácerent eum regem, fugit íterum in montem ipse solus."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Quad4-0.txt",
-            "section": "Offertorium",
             "texte": "!Ps 134:3, 6\nLaudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam suávis est: ómnia, quæcúmque vóluit, fecit in cœlo et in terra.",
-            "incipit": "Laudáte Dóminum, quia",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Laudate Dominum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) LAu(fc~)dá(ef)te(f!gwhhvGF'geec) () * Dó(ef)mi(fhf)num,(efe.) (;) qui(fe)a(f) be(f!hhh)ní(hihh)gnus(f) est :(f!gw!hvGEgf..) (:) psál(fh/ih)li(hhh)te(f) nó(f!hhh)mi(f)ni(eh) e(ghG~'F~)jus,(gf..) (;) quó(f!gw!hvGF)ni(fe)am(f) su(hh)á(hihh)vis(fe) est :(e!fwgffe.) (:) ó(e.f!gwh'!iv)mni(ih)a(hihh'h) (,) quae(f)cúm(hhi)que(h) vó(hih)lu(hhhf)it,(fiHG.) (,) fe(hghf)cit(f.e!fwgf.) (;) in(fe~) cae(ffe)lo(fiHG.) (,) et(hghf) in(f.e!fw!gvFE'f) ter(f!gwhgh)ra.(gf..) (::)",
+            "mp3": "offertoire_laudate-dominum.mp3",
+            "fichier": "Latin/Tempora/Quad4-0.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Secreta",
-            "texte": "Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quadp3-4.txt",
-                "section": "Secreta",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et devotióni nostræ profíciant et salúti.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Quad4-0.txt",
-            "section": "Communio",
             "texte": "!Ps 121:3-4\nJerúsalem, quæ ædificátur ut cívitas, cujus participátio ejus in idípsum: illuc enim ascendérunt tribus, tribus Dómini, ad confiténdum nómini tuo, Dómine.",
-            "incipit": "Jerúsalem, quæ ædificátur",
+            "incipit": {
+              "incipit": "Jerusalem quae",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) JE(eef)rú(de)sa(cd)lem,(dg/hffe.) (,) * quae(f) ae(fd)di(fe)fi(f)cá(g)tur(f) ut(fd~) cí(ef)vi(f)tas,(eef.) (;) cu(fd~)jus(dfe) par(fg~)ti(g)ci(g)pá(gh)ti(h)o(h') e(j)jus(g') in(h) id(f')í(g)psum :(e.) (:) il(h)luc(j) e(jjj)nim(g') a(h)scen(j)dé(ikjj)runt(ji..) (,) tri(jjj)bus,(g') tri(h)bus(f') Dó(h)mi(gh_G'_FE'f)ni,(fe..) (;) ad(fff) con(f)fi(fd)tén(dg~)dum(g.) (,) nó(gh)mi(f)ni(d) tu(ff)o,(dec//f!gwhgh_g) Dó(e)mi(egff)ne.(fe..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Quad4-0.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad4-0.txt",
             "section": "Postcommunio",
-            "texte": "Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus incessánter explémur, sincéris tractémus obséquiis, et fidéli semper mente sumámus.\n$Per Dominum",
-            "references": null
+            "texte": "Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus incessánter explémur, sincéris tractémus obséquiis, et fidéli semper mente sumámus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Introitus",
-            "texte": "!Is 66:10 et 11.\nv. Réjouis-toi, Jérusalem, et rassemblez-vous, vous tous qui l’aimez ; tressaillez de joie avec elle, vous qui avez été dans la tristesse afin que vous exultiez et soyez rassasiés à la mamelle de vos consolations.\n!Ps 121:1.\nJe me suis réjoui de ce qui m’a été dit : Nous irons dans la maison du Seigneur.\n&Gloria\nv. Réjouis-toi, Jérusalem, et rassemblez-vous, vous tous qui l’aimez ; tressaillez de joie avec elle, vous qui avez été dans la tristesse afin que vous exultiez et soyez rassasiés à la mamelle de vos consolations.",
-            "incipit": "Réjouis-toi, Jérusalem, et",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 66:10 et 11.\nv. Réjouis-toi, Jérusalem, et rassemblez-vous, vous tous qui l’aimez ; tressaillez de joie avec elle, vous qui avez été dans la tristesse afin que vous exultiez et soyez rassasiés à la mamelle de vos consolations.\n!Ps 121:1.\nJe me suis réjoui de ce qui m’a été dit : Nous irons dans la maison du Seigneur.\n&Gloria\nv. Réjouis-toi, Jérusalem, et rassemblez-vous, vous tous qui l’aimez ; tressaillez de joie avec elle, vous qui avez été dans la tristesse afin que vous exultiez et soyez rassasiés à la mamelle de vos consolations."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Oratio",
-            "texte": "Faites, s’il vous plaît, Dieu tout-puissant, que, justement affligés à cause de nos péchés, nous respirions par la consolation de votre grâce.\n$Per Dominum",
-            "references": null
+            "texte": "Faites, s’il vous plaît, Dieu tout-puissant, que, justement affligés à cause de nos péchés, nous respirions par la consolation de votre grâce.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 4:22-31.\nFrères, il est écrit qu’Abraham eut deux fils, l’un de l’esclave, et l’autre de la femme libre. Mais celui de l’esclave naquit selon la chair ; et celui de la femme libre, naquit en vertu de la promesse. Cela a été dit par allégorie ; car ces femmes sont deux alliances : l’une sur le mont Sina, qui enfante pour la servitude, et c’est Agar ; car Sina est une montagne d’Arabie, qui correspond à la Jérusalem d’à présent, laquelle est esclave avec ses enfants. Mais la Jérusalem d’en-haut est libre, et c’est notre mère. En effet, il est écrit : Réjouis-toi, stérile, qui n’enfantes pas ; éclate, pousse des cris de joie, toi qui ne deviens pas mère ; parce que les enfants de la délaissée sont plus nombreux que ceux de la femme mariée. Pour nous, mes frères, nous sommes, comme Isaac, les enfants de la promesse. Et de même qu’alors celui qui était né selon la chair persécutait celui qui était né selon l’esprit, ainsi en est-il encore maintenant. Mais que dit l’Écriture ? Chasse l’esclave et son fils ; car le fils de l’esclave ne sera pas héritier avec le fils de la femme libre. Ainsi, mes frères, nous ne sommes point les enfants de l’esclave, mais de la femme libre ; et c’est par cette liberté que le Christ nous a rendus libres.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 4:22-31.\nFrères, il est écrit qu’Abraham eut deux fils, l’un de l’esclave, et l’autre de la femme libre. Mais celui de l’esclave naquit selon la chair ; et celui de la femme libre, naquit en vertu de la promesse. Cela a été dit par allégorie ; car ces femmes sont deux alliances : l’une sur le mont Sina, qui enfante pour la servitude, et c’est Agar ; car Sina est une montagne d’Arabie, qui correspond à la Jérusalem d’à présent, laquelle est esclave avec ses enfants. Mais la Jérusalem d’en-haut est libre, et c’est notre mère. En effet, il est écrit : Réjouis-toi, stérile, qui n’enfantes pas ; éclate, pousse des cris de joie, toi qui ne deviens pas mère ; parce que les enfants de la délaissée sont plus nombreux que ceux de la femme mariée. Pour nous, mes frères, nous sommes, comme Isaac, les enfants de la promesse. Et de même qu’alors celui qui était né selon la chair persécutait celui qui était né selon l’esprit, ainsi en est-il encore maintenant. Mais que dit l’Écriture ? Chasse l’esclave et son fils ; car le fils de l’esclave ne sera pas héritier avec le fils de la femme libre. Ainsi, mes frères, nous ne sommes point les enfants de l’esclave, mais de la femme libre ; et c’est par cette liberté que le Christ nous a rendus libres."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Graduale",
-            "texte": "!Ps 121:1, 7\nJe me suis réjoui de ce qui m’a été dit : Nous irons dans la maison du Seigneur.\nV. Que la paix soit dans tes forteresses, et l’abondance dans tes tours.\n_\n!Tractus 124:1-2\nCeux qui se confient dans le Seigneur, sont comme la montagne de Sion. Il ne sera jamais ébranlé, celui qui habite dans Jérusalem.\nV. Des montagnes sont autour d’elle ; et le Seigneur est autour de son peuple, dès maintenant et à jamais.",
-            "incipit": "Je me suis",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 121:1, 7\nJe me suis réjoui de ce qui m’a été dit : Nous irons dans la maison du Seigneur.\nV. Que la paix soit dans tes forteresses, et l’abondance dans tes tours.\n_\n!Tractus 124:1-2\nCeux qui se confient dans le Seigneur, sont comme la montagne de Sion. Il ne sera jamais ébranlé, celui qui habite dans Jérusalem.\nV. Des montagnes sont autour d’elle ; et le Seigneur est autour de son peuple, dès maintenant et à jamais."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 121:1, 7\nJe me suis réjoui de ce qui m’a été dit : Nous irons dans la maison du Seigneur.\nV. Que la paix soit dans tes forteresses, et l’abondance dans tes tours.\n_\n!Tractus 124:1-2\nCeux qui se confient dans le Seigneur, sont comme la montagne de Sion. Il ne sera jamais ébranlé, celui qui habite dans Jérusalem.\nV. Des montagnes sont autour d’elle ; et le Seigneur est autour de son peuple, dès maintenant et à jamais.",
-            "incipit": "Je me suis",
-            "mp3": null,
-            "references": null
+            "section": "Tractus",
+            "texte": "!Ps 124:1-2\nQui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum, qui hábitat in Jerúsalem.\nV. Montes in circúitu ejus: et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum."
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:1-15\nEn ce temps-là, Jésus s’en alla au delà de la mer de Galilée ou de Tibériade ; et une multitude nombreuse le suivait, parce qu’elle voyait les miracles qu’il opérait sur les malades. Jésus monta donc sur une montagne, et là il s’assit avec ses disciples. Or la Pâque, jour de fête des Juifs, était proche. Ayant donc levé les yeux, et voyant qu’une très grande multitude venait à lui, Jésus dit à Philippe : Où achèterons-nous des pains pour leur donner à manger ? Mais il disait cela pour l’éprouver ; car, lui, il savait ce qu’il allait faire. Philippe lui répondit : Deux cents deniers de pain ne suffiraient pas pour que chacun en reçût un peu. Un de ses disciples, André, frère de Simon-Pierre, lui dit : Il y a ici un jeune garçon qui a cinq pains d’orge et deux poissons ; mais qu’est-ce que cela pour tant de monde ? Jésus dit donc : Faites asseoir ces hommes. Or il y avait beaucoup d’herbe en ce lieu. Ils s’assirent donc, au nombre d’environ cinq mille hommes. Jésus prit alors les pains et ayant rendu grâces, il les distribua à ceux qui étaient assis ; il leur donna de même des poissons, autant qu’ils en voulaient. Lorsqu’ils furent rassasiés, il dit à ses disciples : Ramassez les morceaux qui sont restés, pour qu’ils ne se perdent pas. Ils les ramassèrent donc, et ils remplirent douze corbeilles avec les morceaux qui étaient restés des cinq pains d’orge après que tous eurent mangé. Ces hommes, ayant donc vu le miracle qu’avait fait Jésus, disaient : Celui-là est vraiment le prophète, qui doit venir dans le monde. Mais Jésus, sachant qu’ils allaient venir l’enlever pour le faire roi, s’enfuit de nouveau, tout seul, sur la montagne.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 6:1-15\nEn ce temps-là, Jésus s’en alla au delà de la mer de Galilée ou de Tibériade ; et une multitude nombreuse le suivait, parce qu’elle voyait les miracles qu’il opérait sur les malades. Jésus monta donc sur une montagne, et là il s’assit avec ses disciples. Or la Pâque, jour de fête des Juifs, était proche. Ayant donc levé les yeux, et voyant qu’une très grande multitude venait à lui, Jésus dit à Philippe : Où achèterons-nous des pains pour leur donner à manger ? Mais il disait cela pour l’éprouver ; car, lui, il savait ce qu’il allait faire. Philippe lui répondit : Deux cents deniers de pain ne suffiraient pas pour que chacun en reçût un peu. Un de ses disciples, André, frère de Simon-Pierre, lui dit : Il y a ici un jeune garçon qui a cinq pains d’orge et deux poissons ; mais qu’est-ce que cela pour tant de monde ? Jésus dit donc : Faites asseoir ces hommes. Or il y avait beaucoup d’herbe en ce lieu. Ils s’assirent donc, au nombre d’environ cinq mille hommes. Jésus prit alors les pains et ayant rendu grâces, il les distribua à ceux qui étaient assis ; il leur donna de même des poissons, autant qu’ils en voulaient. Lorsqu’ils furent rassasiés, il dit à ses disciples : Ramassez les morceaux qui sont restés, pour qu’ils ne se perdent pas. Ils les ramassèrent donc, et ils remplirent douze corbeilles avec les morceaux qui étaient restés des cinq pains d’orge après que tous eurent mangé. Ces hommes, ayant donc vu le miracle qu’avait fait Jésus, disaient : Celui-là est vraiment le prophète, qui doit venir dans le monde. Mais Jésus, sachant qu’ils allaient venir l’enlever pour le faire roi, s’enfuit de nouveau, tout seul, sur la montagne."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 134:3, 6\nLouez le Seigneur, car il est bon : chantez à la gloire de son nom, car il est doux : tout ce qu’il a voulu, le Seigneur l’a fait au ciel et sur la terre.",
-            "incipit": "Louez le Seigneur,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 134:3, 6\nLouez le Seigneur, car il est bon : chantez à la gloire de son nom, car il est doux : tout ce qu’il a voulu, le Seigneur l’a fait au ciel et sur la terre."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Secreta",
-            "texte": "Jetez un regard favorable sur le présent sacrifice, nous vous en supplions, Seigneur, afin qu’il accroisse notre dévotion et contribue à notre salut.\n$Per Dominum",
-            "references": null
+            "texte": "Jetez un regard favorable sur le présent sacrifice, nous vous en supplions, Seigneur, afin qu’il accroisse notre dévotion et contribue à notre salut.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Communio",
-            "texte": "!Ps 121:3-4\nJérusalem qui est bâtie comme une ville, dont toutes les parties se tiennent ensemble. Car c’est là que montaient les tribus, les tribus du Seigneur, pour célébrer votre nom, ô Seigneur !",
-            "incipit": "Jérusalem qui est",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 121:3-4\nJérusalem qui est bâtie comme une ville, dont toutes les parties se tiennent ensemble. Car c’est là que montaient les tribus, les tribus du Seigneur, pour célébrer votre nom, ô Seigneur !"
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad4-0.txt",
             "section": "Postcommunio",
-            "texte": "Donnez-nous, s’il vous plaît, ô Dieu miséricordieux, de traiter avec un respect sincère vos choses saintes dont nous sommes sans cesse nourris et de nous en approcher avec esprit de foi.\n$Per Dominum",
-            "references": null
+            "texte": "Donnez-nous, s’il vous plaît, ô Dieu miséricordieux, de traiter avec un respect sincère vos choses saintes dont nous sommes sans cesse nourris et de nous en approcher avec esprit de foi.\n$Per Dominum"
           }
         }
       },

@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C2.txt",
-            "section": "Introitus",
             "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
-            "incipit": "Státuit ei Dóminus",
+            "incipit": {
+              "incipit": "Statuit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_[oh:h]e_[oh:h]d_[oh:h])cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_[oh:h]i_[oh:h]h_[oh:h])tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_statuit-ei-dominus.mp3",
-            "references": null
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/05-07.txt",
             "section": "Oratio",
-            "texte": "Deus, pro cujus honóre gloriósus Póntifex Stanisláus gládiis impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant auxílium, petitiónis suæ salutárem consequántur efféctum.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, pro cujus honóre gloriósus Póntifex Stanisláus gládiis impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant auxílium, petitiónis suæ salutárem consequántur efféctum.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/05-07.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
+            "texte": "Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.",
+            "incipit": {
+              "incipit": "Inveni David (St Louis)",
+              "version": "Solesmes",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Graduale"
+            },
+            "gabc": "\"(c4) IN(dc~)v\\u00e9(d)ni(fef) Da(ghg)vid(gh..) *(,) ser(hjhhg~)vum(gfgd) me(fg)um,(gv./fg!hjGF'fvED'fddc.) (:) \\u00f3(ixf!gwh'!iv)le(h)o(h) san(jj)cto(ixhih) me(gfg)o(ded.) (;) un(d/g'h~)xi(g) e(gf/ghd)um.(ddc/da..) (,) (cd/fvfvDC'd!ff/gf/!f/ded.) (::)\\r\\n<sp>V/</sp>. Ma(dh)nus(hg) me(gh/jh/jggf)a(f.) (,) au(f)xi(hj)li(ji)\\u00e1(jjj)bi(hg)tur(g) e(ixhv./fh!ivHGhv.,fgh/jij//h/jjjvHGh./jjh/jjg/jj)i,(h_[oh:h]i_[oh:h]h._[oh:h]) (:) et(fg) br\\u00e1(f)chi(gh)um(hg~) me(hf/gh/jv./ijh.1,ixjjvH'GhiG'FghF'Dfv.e!gwhgh)um(ixhf/hig/ff/ded.) (;) con(d/fffd~)for(ef)t\\u00e1(fhgh/hg/hv.ixfh!ivGF'Ef!gwh'!iv)bit(hg__) * e(ixhiGF'/h/jjvH'G)um.(hghF'Efg..) (,) (d!ewf!gv./fhGF'ED'/ewfd.1) (::)\"",
+            "mp3": "graduel_inveni-david.mp3",
             "fichier": "../horas/Latin/Commune/C2.txt",
-            "section": "Graduale",
-            "texte": "!Ps 88:21-23\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum.\nV. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Allelúja, allelúja\n!Ps 109:4\nJurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
-            "incipit": "Invéni David servum",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/05-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/05-07.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": {
+              "incipit": "Juravit Dominus",
+              "version": "Solesmes",
+              "distance": 23,
+              "similarite": 0.425,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(cd~)le(de/ge/fee[ll:1]d)lú(eg//fhgefdc!ee){ia}.(d.) <clear>*(;) <i>ij.</i>(ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::) <sp>V/</sp>. Ju(dh)rá(ixh_g/hiHG'h)vit(f_e) Dó(ef!gvFE)mi(de)nus,(e.) (;) et(eg!hv_GF) non(e[ll:1]dd) pae(c)ni(ef/gf)té(e[ll:1]d)bit(cd) e(dee[ll:1]d)um :(d.) (:) Tu(cd) es(d) sa(ef!gh)cér(egFE'e[ll:1]d~)dos(d.) (,) in(hhghvGF'gvF'ED.) ae(ef!gh)tér(egFE'e[ll:1]d~)num,(d.) (;) se(dede)cún(c)dum(e) ór(ixgh/igh./egF'ED.)(,)(ixce!gh/igh./egF'ED'dc~)di(c!ef)nem(e[ll:1]d..) (;) * Mel(cd)chí(de/ge/fee[ll:1]d)se(eg//fhgefdc!ee)dech.(d.) (;) (ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/05-07.txt",
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/05-07.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C2.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-            "incipit": "Véritas mea et",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Veritas mea",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C2.txt",
             "section": "Secreta",
-            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
-            "references": null
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/05-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C2.txt",
-            "section": "Communio",
             "texte": "!Ps 88:36; 88:37-38\nSemel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in coelo fidélis. (Allelúja.)",
-            "incipit": "Semel jurávi in",
+            "incipit": {
+              "incipit": "Semel juravi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) SE(g)mel(f') ju(e)rá(g)vi(f') *() in(e) san(ghgh)cto(g) me(egff)o :(fe..) (:) se(h)men(hg) e(ixhi)jus(h.) (,) in(h) ae(gf)tér(gh)num(g) ma(fd)né(egff)bit :(eef.) (:) et(e[ll:1]d~) se(gh)des(gf) e(gh)jus(g.) (,) sic(g)ut(hj~) sol(jij) in(h) con(h)spé(h)ctu(h) me(hgh)o,(h.) (;) et(ixhi~) sic(h)ut(hg~) lu(h)na(ghg) per(fe~)fé(fg)cta(gh) in(f) ae(d)tér(gefvE~D~)num :(e[ll:1]d..) (;) et(f) te(gh)stis(ghg) in(ge~) cae(g)lo(gd) fi(f)dé(egff)lis.(fe..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C2.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C2.txt",
             "section": "Postcommunio",
-            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
-            "references": null
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Introitus",
-            "texte": "!Eccli 45:30.\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)\n!Ps 131:1.\nSouvenez-vous, ô Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)",
-            "incipit": "Le Seigneur a",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 45:30.\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)\n!Ps 131:1.\nSouvenez-vous, ô Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, pour l’honneur de qui le glorieux Pontife Stanislas a succombé sous le glaive des impies, faites, nous vous en conjurons, que tous ceux qui implorent son secours obtiennent l’effet salutaire de leur prière.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, pour l’honneur de qui le glorieux Pontife Stanislas a succombé sous le glaive des impies, faites, nous vous en conjurons, que tous ceux qui implorent son secours obtiennent l’effet salutaire de leur prière.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Graduale",
-            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n\n!Ps 109:4.\nV. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
-            "incipit": "J’ai trouvé David,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:21-23.\nJ’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force.\nV. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire.\n\n!Ps 109:4.\nV. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
-            "incipit": "Ma vérité et",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Secreta",
-            "texte": "Dans votre bienveillance, Seigneur, acceptez les hosties qui vous sont dédiées par les mérites du bienheureux N., votre évêque et martyr, et faites qu’elles nous viennent continuellement en aide.\n$Per Dominum",
-            "references": null
+            "texte": "Dans votre bienveillance, Seigneur, acceptez les hosties qui vous sont dédiées par les mérites du bienheureux N., votre évêque et martyr, et faites qu’elles nous viennent continuellement en aide.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/05-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Communio",
-            "texte": "!Ps 88:36-38.\nJe l’ai juré une fois pour toutes par ma sainteté : sa postérité sub­sistera éternellement et son trône sera devant moi comme le soleil, comme la pleine lune il durera toujours ; et le témoin qui est au ciel est ﬁdèle.",
-            "incipit": "Je l’ai juré",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:36-38.\nJe l’ai juré une fois pour toutes par ma sainteté : sa postérité sub­sistera éternellement et son trône sera devant moi comme le soleil, comme la pleine lune il durera toujours ; et le témoin qui est au ciel est ﬁdèle."
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C2.txt",
             "section": "Postcommunio",
-            "texte": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.\n$Per Dominum",
-            "references": null
+            "texte": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.\n$Per Dominum"
           }
         }
       },

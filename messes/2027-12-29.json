@@ -28,209 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Nat29.txt",
-            "section": "Introitus",
             "texte": "!Isa 9:6\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.\n!Ps 97:1\nCantáte Dómino cánticum novum, quia mirabília fecit.\n&Gloria\nv. Puer natus est nobis, et fílius datus est nobis: cujus impérium super húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.",
-            "incipit": "Puer natus est",
+            "incipit": {
+              "incipit": "Puer natus est",
+              "version": "Solesmes 1961",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) PU(ei)ER(i.) *() na(iji)tus(h) est(hhh) no(ih/ji)bis,(i.) (;) et(ei~) fí(iji)li(hg)us(f) da(hhi)tus(h) est(h) no(hihh)bis :(efe.) (:) cu(e)jus(f) im(h)pé(gi!jk)ri(ih)um(h.) (,) su(h)per(h) hú(ih/ji)me(h_g)rum(hhh) e(h_f//hghvG~F~)jus :(gf..) (:) et(hg) vo(h)cá(hji)bi(h)tur(hhh) no(h)men(hhh) e(highvG~F~)jus,(gf..) (;) ma(hj)gni(i) con(eh~)sí(h)li(hhh_f)i(f) An(fhf___!gwh)ge(efe___)lus.(e.) (::) <i>Ps.</i> Can(ehg)tá(hi)te(i) Dó(i)mi(i)no(i) cán(ik)ti(j)cum(j) no(ji)vum :(ij..) *(:) qui(ig)a(hi) mi(i)ra(i)bí(i!jwk)li(i')a(h) fe(hhh)cit.(fe..) (::) Gló(ehg)ri(hi)a(i) Pa(i)tri.(i) (::) <eu>E(i) u(i!jwk) o(i') u(h) a(hhh) e.</eu>(fe..) (::)",
             "mp3": "introitus_puer-natus-est.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Oratio",
-            "texte": "Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.\n$Per eundem",
-            "references": null
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Titum\n!Tit 3:4-7\nCaríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam salvos nos fecit, per lavácrum regeneratiónis et renovatiónis Spíritus Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatórem nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino nostro.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Titum\n!Tit 3:4-7\nCaríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam salvos nos fecit, per lavácrum regeneratiónis et renovatiónis Spíritus Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatórem nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem vitæ ætérnæ: in Christo Jesu, Dómino nostro."
           },
           "Graduale": {
+            "texte": "Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam.",
+            "incipit": {
+              "incipit": "Viderunt omnes",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) VI(d)dé(d)runt(fh~) o(hiH'F//hhhjvIH)mnes(h.) *(,) fi(hi)nes(h_f) ter(hfhhf)rae(f/hhf/hg/hf..) (;) sa(f)lu(hg)tá(h_gi)re(ivHGh_f) (,) De(f_e/f!gwh/i_[oh:h]h)i(hg/ijk) no(i_[oh:h]h)stri :(hg/hf..) (:) ju(f)bi(hg)lá(h)te(hhh) De(fhee[ll:1]d)o(de!fhFD.1) (;) o(d!f'h/ijh)mnis(gxh.f!gw!hvGE'fw!gvFE) ter(ded)ra.(d!f'h//d!f'hhv'1GE//dfe/fee[ll:1]d.0) (::) \r\n<sp>V/</sp>. No(d)tum(fe~) fe(eh)cit(hi~) Dó(ihhf/hiHG.hiFD.1)(,)(f/hhi/hhf/hiHG.hiFD.1)(,)(gxfg//e!g'h/ghghvFD.1)(,)(fdfED//fd/ef!hh/i!jwk)mi(ih)nus(hiHF.1) (;) sa(f)lu(hg)tá(hhf/hhf)re(f) su(fhf/hhf)um :(f.) (:) an(f)te(f) con(fi~)spé(i)ctum(hiH'F) gén(h.i!jwk)ti(ih)um(hiHF.1) (;) re(f!h'i/hhf)ve(f)lá(hfhhe/fd)vit(d.) *(,) ju(f)stí(f/hhfg)ti(ef)am(gxhf/ge) su(d)am.(cd/efe.) (,) (de!fhFE.gxde'f!hhe'gvFD.1) (::)",
+            "mp3": "graduel_viderunt-omnes.mp3",
             "fichier": "Latin/Tempora/Nat29.txt",
-            "section": "Graduale",
-            "texte": "!Ps 97:3; 97:2\nVidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante conspéctum géntium revelávit justitiam suam. Allelúja, allelúja.\nV. Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.",
-            "incipit": "Vidérunt omnes fines",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia hódie descéndit lux magna super terram. Allelúja.",
+            "incipit": {
+              "incipit": "Dies sanctificatus",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Di(f_e/f!gwh'!iv//jiihi)es(iv.hh/fgf.) san(fg~)cti(f)fi(f)cá(fg)tus(f.) (,) il(f)lú(fg)xit(f) no(f!hh/ijHF'ivH'GEf./hfhhf/ge)bis :(e.) (:) ve(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)ní(hi)te(h) gen(hi~)tes,(h.) (,) et(h) ad(h)o(h)rá(h)te(ivH'Gh') Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])num :(f.) (:) qui(f)a(f) hó(f!h'i)di(jiihi)e(iv.hh/fgf.) (,) de(f)scén(fg~)dit(f) lux(f) ma(f!hh/ijHF'ivH'GEf./hfhhf/ge)gna(e.) (;) * su(hh)per(hi~) ter(i_[oh:h]h/jij)ram.(jvvIH'GE//f!gwhf.1) (::)",
+            "mp3": "alleluia_dies-sanctificatus-illuxit.mp3",
             "fichier": "Latin/Tempora/Nat29.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:15-20\nIn illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et Joseph, et Infántem pósitum in præsépio. Vidéntes autem cognovérunt de verbo, quod dictum erat illis de Púero hoc. Et omnes, qui audiérunt, miráti sunt: et de his, quæ dicta erant a pastóribus ad ipsos. María autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi sunt pastores, glorificántes et laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum est ad illos.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m2.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:15-20\nIn illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et Joseph, et Infántem pósitum in præsépio. Vidéntes autem cognovérunt de verbo, quod dictum erat illis de Púero hoc. Et omnes, qui audiérunt, miráti sunt: et de his, quæ dicta erant a pastóribus ad ipsos. María autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi sunt pastores, glorificántes et laudántes Deum in ómnibus, quæ audíerant et víderant, sicut dictum est ad illos."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Nat29.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:12; 88:15\nTui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu fundásti: justítia et judícium præparátio sedis tuæ.",
-            "incipit": "Tui sunt cœli",
+            "incipit": {
+              "incipit": "Tui sunt caeli",
+              "version": "Solesmes",
+              "distance": 1,
+              "similarite": 0.975,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) TU(f)I(ded) sunt(f) *() cae(e/fgF'EfvED)li,(fd/efe.) (;) et(fd~) tu(dfe)a(f) est(g_[oh:h]efvEDgvFE) ter(hvGFgvFE)ra :(e.) (:) or(d!g'h)bem(g) ter(fgffe)rá(egffe)rum,(fff) (;) et(dec) ple(dfe)ni(e)tú(e!gfg)di(d)nem(d.) (,) e(ff/gd/fffd/fffv_E~D~)jus(e[ll:1]d..) (,) tu(f!h'j) fun(gh)dá(egff)sti :(fe..) (:) ju(hg)stí(h_ghvGE//f!gwhgh//f!gwhgh)ti(f)a(eef.) (,) et(f.d!ewf) ju(f)dí(fffhvGF'D//gvFE'D)ci(d!ewf_d)um(d.) (;) prae(d)pa(ef)rá(gh)ti(g)o(ghGF.efED.) (,) se(fv.fffdgvFE)dis(g_[oh:h]f/hggf/ghg) tu(egff)ae.(fe..) (::)",
             "mp3": "offertoire_tui-sunt-caeli.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Secreta",
-            "texte": "Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per eundem",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
-                "section": "Secreta",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Nat29.txt",
-            "section": "Communio",
             "texte": "!Ps 97:3\nVidérunt omnes fines terræ salutáre Dei nostri.",
-            "incipit": "Vidérunt omnes fines",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Viderunt omnes",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) VI(fg)dé(gff)runt(de~) o(cd~)mnes(d.) *(,) fi(d!f'g)nes(gh) ter(hjjg)rae(g_[oh:h]fhvGE.) (;) sa(f)lu(ghg)tá(hv.fh!jvvH'GE'f)re(f.) (,) De(f_dfvECfhg___)i(ghF'Ef) no(d_[oh:h]e_[oh:h]d_[oh:h])stri.(d.) (::)",
+            "mp3": "communion_viderunt-omnes.mp3",
+            "fichier": "Latin/Tempora/Nat29.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Nat29.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n$Qui tecum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/12-25m3.txt",
-                "section": "Postcommunio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n$Qui tecum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Introitus",
-            "texte": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.",
-            "incipit": "Un enfant nous",
-            "mp3": null,
-            "references": null
+            "texte": "!Isa 9:6\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut.\n!Ps 97:1\nChantez au Seigneur un chant nouveau, car il a fait des merveilles.\n&Gloria\nv. Un enfant nous est né, un fils nous est donné : la souveraineté repose sur son épaule : et on l’appellera le Messager d’en haut."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, Dieu tout puissant, que votre Fils éternel, par sa nouvelle naissance en notre chair, vienne nous délivrer de l’ancien esclavage qui nous maintient sous le joug du péché.\n$Per eundem",
-            "references": null
+            "texte": "Nous vous en prions, Dieu tout puissant, que votre Fils éternel, par sa nouvelle naissance en notre chair, vienne nous délivrer de l’ancien esclavage qui nous maintient sous le joug du péché.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 5:1-6\nMes frères : Tout pontife pris d’entre les hommes est établi pour les hommes, en ce qui regarde le culte de Dieu, afin qu’il offre des dons et des sacrifices pour les péchés ; il peut compatir à ceux qui sont dans l’ignorance et dans l’erreur, puisqu’il est lui-même environné de faiblesse, et c’est pour cela qu’il doit offrir, pour lui-même, aussi bien que pour le peuple, des sacrifices pour les péchés. Et nul ne s’attribue à lui-même cet honneur ; mais on y est appelé de Dieu, comme Aaron. Et ainsi le Christ ne s’est point arrogé à lui-même la dignité de pontife, mais il l’a reçue de celui qui a dit : tu est mon Fils, je t’ai engendré aujourd’hui. Comme il est dit aussi dans un autre endroit : Tu est prêtre pour l’éternité, selon l’ordre de Melchisédech.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 5:1-6\nMes frères : Tout pontife pris d’entre les hommes est établi pour les hommes, en ce qui regarde le culte de Dieu, afin qu’il offre des dons et des sacrifices pour les péchés ; il peut compatir à ceux qui sont dans l’ignorance et dans l’erreur, puisqu’il est lui-même environné de faiblesse, et c’est pour cela qu’il doit offrir, pour lui-même, aussi bien que pour le peuple, des sacrifices pour les péchés. Et nul ne s’attribue à lui-même cet honneur ; mais on y est appelé de Dieu, comme Aaron. Et ainsi le Christ ne s’est point arrogé à lui-même la dignité de pontife, mais il l’a reçue de celui qui a dit : tu est mon Fils, je t’ai engendré aujourd’hui. Comme il est dit aussi dans un autre endroit : Tu est prêtre pour l’éternité, selon l’ordre de Melchisédech."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Graduale",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Joánnem\n!Joann 10:11-16\nEn ce temps là : Jésus dit aux pharisiens : Je suis le bon pasteur. Le bon pasteur donne sa vie pour les brebis. Mais le mercenaire, et celui qui n’est point le pasteur, à qui les brebis n’appartiennent pas, voit venir le loup et abandonne les brebis et s’enfuit ; et le loup ravit et disperse les brebis Le mercenaire s’enfuit, parce qu’il est mercenaire et qu’il ne se met point en peine des brebis. Je suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent, comme mon Père me connaît, et que je connais mon père ; et je donne ma vie pour les brebis. J’ai encore d’autres brebis, qui ne sont pas de cette bergerie ; celles-là aussi, il faut que je les amène, et elles écouteront ma vopix, et il n’y aura qu’une seule bergerie et qu’un seul pasteur.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secundum Joánnem\n!Joann 10:11-16\nEn ce temps là : Jésus dit aux pharisiens : Je suis le bon pasteur. Le bon pasteur donne sa vie pour les brebis. Mais le mercenaire, et celui qui n’est point le pasteur, à qui les brebis n’appartiennent pas, voit venir le loup et abandonne les brebis et s’enfuit ; et le loup ravit et disperse les brebis Le mercenaire s’enfuit, parce qu’il est mercenaire et qu’il ne se met point en peine des brebis. Je suis le bon pasteur, et je connais mes brebis, et mes brebis me connaissent, comme mon Père me connaît, et que je connais mon père ; et je donne ma vie pour les brebis. J’ai encore d’autres brebis, qui ne sont pas de cette bergerie ; celles-là aussi, il faut que je les amène, et elles écouteront ma vopix, et il n’y aura qu’une seule bergerie et qu’un seul pasteur."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:12; 88:15\nÀ vous sont les cieux, à vous la terre : c’est vous qui avez posé les fondations de l’univers, et créé ce qu’il renferme : votre trône repose sur le droit et la justice.",
-            "incipit": "À vous sont",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:12; 88:15\nÀ vous sont les cieux, à vous la terre : c’est vous qui avez posé les fondations de l’univers, et créé ce qu’il renferme : votre trône repose sur le droit et la justice."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Secreta",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Communio",
-            "texte": "!Ps 97:3\nLes extrémités de la terre ont vu le Sauveur envoyé par notre Dieu.",
-            "incipit": "Les extrémités de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 97:3\nLes extrémités de la terre ont vu le Sauveur envoyé par notre Dieu."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Nat29.txt",
             "section": "Postcommunio",
-            "texte": "",
-            "references": null
+            "texte": ""
           }
         }
       },

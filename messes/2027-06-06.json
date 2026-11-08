@@ -30,174 +30,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent03-0r.txt",
-            "section": "Introitus",
             "texte": "!Ps. 24:16; 24:18\nv. Réspice in me et miserére mei, Dómine: quóniam únicus et pauper sum ego: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea, Deus meus.\n!Ps. 24:1-2\nAd te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n&Gloria\nv. Réspice in me et miserére mei, Dómine: quóniam únicus et pauper sum ego: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta mea, Deus meus.",
-            "incipit": "Réspice in me",
+            "incipit": {
+              "incipit": "Respice in me",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) RE(ffg)spi(f)ce(f) in(fg) me,(gff) *(,) et(fd~) mi(f)se(g)ré(ixgiH'G)re(g_[oh:h]f) me(f)i,(ixf_e/g!hwi) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne :(f.) (;) quó(ixf!gwh'!iv)ni(h)am(h) ú(jjk)ni(j)cus(j.) (,) et(jh~) pau(jlk)per(j_i) sum(jlk) e(kjjh)go :(h.) (:) vi(h)de(j) hu(h)mi(h!jjj)li(g)tá(g!jjh)tem(g) me(fge/f_d)am,(dc..) (;) et(cd'f~) la(ffe)bó(ixeg!hvivGF')rem(f) me(ff/gf)um :(f.) (:) et(f) di(f)mít(gf/hg)te(f_e) (,) ó(fff)mni(dc)a(c.) pec(cd)cá(ffg)ta(f) me(ff/gf)a,(fe..) (;) De(ixgih)us(hjHG'hw!ivHG) me(fg!hvGF'g)us.(gf..) (::) <i>Ps.</i> Ad(fg) te(gf) Dó(gh)mi(h)ne(h) le(h)vá(h)vi(g) á(ixi)ni(h)mam(h) me(g)am :(f.) (:) * De(f)us(gh) me(hj)us,(g) in(f) te(f) con(f)fí(f)do,(f') non(g) e(fd)ru(f')bé(g)scam.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_respice-in-me.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pent03-0r.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Oratio",
-            "texte": "Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum: multíplica super nos misericórdiam tuam; ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus ætérna.\n$Per Dominum",
-            "references": null
+            "texte": "Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum: multíplica super nos misericórdiam tuam; ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus ætérna.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet. 5:6-11\nCaríssimi: Humiliámini sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sóbrii estote et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens circuit, quærens, quem dévoret: cui resístite fortes in fide: sciéntes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Pet. 5:6-11\nCaríssimi: Humiliámini sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sóbrii estote et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens circuit, quærens, quem dévoret: cui resístite fortes in fide: sciéntes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen."
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent03-0r.txt",
-            "section": "Graduale",
-            "texte": "!Ps. 54:23; 54:17; 54:19\nJacta cogitátum tuum in Dómino: et ipse te enútriet.\nV. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi. Allelúja, allelúja.\n!Ps. 7:12\nDeus judex justus, fortis et pátiens, numquid iráscitur per síngulos dies? Allelúja.",
-            "incipit": "Jacta cogitátum tuum",
+            "texte": "!Ps. 54:23; 54:17; 54:19\nJacta cogitátum tuum in Dómino: et ipse te enútriet.\nV. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.",
+            "incipit": {
+              "incipit": "Jacta cogitatum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) JA(ehf)cta(efED.) *(,) co(e)gi(fh)tá(h)tum(hf~) tu(hi!kkvI'G//ijhhg)um(h.) (,) in(h) Dó(hi/jk)mi(j)no,(i.) (;) et(h) i(i)pse(h) te(h_g/h_g/hjIG'hvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (;) e(e.f!gwh!ivH//E.f'/gef)nú(cd)tri(e)et.(e./ih/ie..) (,) (igijkIG.hig'hvF'Ef_gffe.) (::) <sp>V/</sp>. Dum(e) cla(hh)má(hi)rem(hh/ig'/hiffe.) (,) ad(eh) Dó(hi)mi(i)num,(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) ex(f)au(hh)dí(hi)vit(hh/ig'/hiffe.) (,) vo(hh)cem(h) me(hv.gh/ih/ij)am(i.) (;) ab(i) his(ikjikJI'ig//hih/iffe.) (;) qui(ef) ap(e)pro(ef)pín(e)quant(ef'h) *() mi(hv.gh/ihi)hi.(ie..) (,) (igijki./jkJ'Ijh/iig./hig'hvFEfde.) (,) (hhvF'EfvD[ull:0]B.1ehf/gffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Pent03-0r.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent03-0r.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Ps. 7:12\nDeus judex justus, fortis et pátiens, numquid iráscitur per síngulos dies? Allelúja.",
+            "incipit": {
+              "incipit": "Deus judex justus",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(g)le(g)lú(gvvE'Dgh){ia}.(g.) *(;) <i>ij.</i>(de//dec./g_[uh:l]h//gihgiHG'g) (,) (fghj_hjv.ijHG.) (;) (fghj_hkv.jlKJ'jvI'HG'g) (,) (fghkvJI//gjh/ihhg.) (::) <sp>V/</sp>. De(g)us(gh) ju(ggg)dex(d) ju(ev.dec./g!hwi_[oh:h]hivHG'h)stus,(g.) (;) for(gfde~)tis(ev.dec.) et(gh'i~) pá(i)ti(h!iwj!kvJH'GF'g)ens :(g.) (:) num(i)quid(g) i(h!iwj)ra(jvIH)scé(fh/jh/ig)tur(g.) (;) * per(f) sín(f!h'j)gu(ih)los(ji) di(hg)es?(g.) (,) (fghj_hjv.ijHG.) (;) (fghj_hkv.jlKJ'jvI'HG'g) (,) (fgh!kvJI//gjh/ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Pent03-0r.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 15:1-10\nIn illo témpore: Erant appropinquántes ad Jesum publicáni et peccatóres, ut audírent illum. Et murmurábant pharisǽi et scribæ, dicéntes: Quia hic peccatóres recipit et mandúcat cum illis. Et ait ad illos parábolam istam, dicens: Quis ex vobis homo, qui habet centum oves: et si perdíderit unam ex illis, nonne dimíttit nonagínta novem in desérto, et vadit ad illam, quæ períerat, donec invéniat eam? Et cum invénerit eam, impónit in húmeros suos gaudens: et véniens domum, cónvocat amícos et vicínos, dicens illis: Congratulámini mihi, quia invéni ovem meam, quæ períerat? Dico vobis, quod ita gáudium erit in cœlo super uno peccatóre pœniténtiam agénte, quam super nonagínta novem justis, qui non índigent pœniténtia. Aut quæ múlier habens drachmas decem, si perdíderit drachmam unam, nonne accéndit lucérnam, et evérrit domum, et quærit diligénter, donec invéniat? Et cum invénerit, cónvocat amícas et vicínas, dicens: Congratulámini mihi, quia invéni drachmam, quam perdíderam? Ita dico vobis: gáudium erit coram Angelis Dei super uno peccatóre pœniténtiam agénte.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 15:1-10\nIn illo témpore: Erant appropinquántes ad Jesum publicáni et peccatóres, ut audírent illum. Et murmurábant pharisǽi et scribæ, dicéntes: Quia hic peccatóres recipit et mandúcat cum illis. Et ait ad illos parábolam istam, dicens: Quis ex vobis homo, qui habet centum oves: et si perdíderit unam ex illis, nonne dimíttit nonagínta novem in desérto, et vadit ad illam, quæ períerat, donec invéniat eam? Et cum invénerit eam, impónit in húmeros suos gaudens: et véniens domum, cónvocat amícos et vicínos, dicens illis: Congratulámini mihi, quia invéni ovem meam, quæ períerat? Dico vobis, quod ita gáudium erit in cœlo super uno peccatóre pœniténtiam agénte, quam super nonagínta novem justis, qui non índigent pœniténtia. Aut quæ múlier habens drachmas decem, si perdíderit drachmam unam, nonne accéndit lucérnam, et evérrit domum, et quærit diligénter, donec invéniat? Et cum invénerit, cónvocat amícas et vicínas, dicens: Congratulámini mihi, quia invéni drachmam, quam perdíderam? Ita dico vobis: gáudium erit coram Angelis Dei super uno peccatóre pœniténtiam agénte."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent03-0r.txt",
-            "section": "Offertorium",
             "texte": "!Ps. 9:11-12 9:13\nSperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónem páuperum.",
-            "incipit": "Sperent in te",
+            "incipit": {
+              "incipit": "Sperent in te",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) SPe(gh/jij)rent(i) in(ij~) te(i.) <clear>*(,) o(ikj)mnes,(i./jjj) qui(h) no(ghg)vé(h)runt(hi/jhhg.) (,) no(gh/jij)men(j) tu(j_h/k_[hl:1]j)um,(j) Dó(i)mi(ikJ'I)ne :(i.) (:) quó(g)ni(hih)am(hi) non(gh'j) de(jjjvIH)re(ghG'F)lín(gh)quis(ghggf.0) (,) quae(g)rén(gh/jij)tes(g./h!iw!jvIHivHG'h) te :(hg..) (:) psál(gh'/ji~)li(jjj)te(h) Dó(j.h!iwj)mi(ghGF'g)no,(gf..) (;) qui(g) há(gh/i.h!iw!jvI'HG')bi(g)tat(gh/i.h!iw!jvI'HG.) (,) in(g.h!iw!jvIH) Si(f_[oh:h]g_[oh:h]f_[oh:h])on :(fff) (:) quó(e[ll:1]d)ni(g)am(g) non(gh/ihi) est(g_[uh:l]h) ob(f)lí(efghgh)tus(fdf.) (,) o(c)ra(d)ti(f)ó(f_eg//hhj)nem(gh) páu(e)pe(egF'E)rum.(e.) (::)",
             "mp3": "offertoire_sperent-in-te.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pent03-0r.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Secreta",
-            "texte": "Réspice, Dómine, múnera supplicántis Ecclésiæ: et salúti credéntium perpétua sanctificatióne suménda concéde.\n$Per Dominum",
-            "references": null
+            "texte": "Réspice, Dómine, múnera supplicántis Ecclésiæ: et salúti credéntium perpétua sanctificatióne suménda concéde.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent03-0r.txt",
-            "section": "Communio",
             "texte": "!Luc 15:10.\nDico vobis: gáudium est Angelis Dei super uno peccatóre pœniténtiam agénte.",
-            "incipit": "Dico vobis: gáudium",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Dico vobis",
+              "version": "Solesmes",
+              "distance": 3,
+              "similarite": 0.925,
+              "source": "Communio"
+            },
+            "gabc": "\"(c3) DI(h)co(f) vo(hi)bis,(i.) <clear>*(,) g\\u00e1u(ij)di(i)um(h) est(h) An(h)ge(g)lis(i) De(h_[oh:h]i_[oh:h]f_[oh:h])i(f.) (;) su(f)per(e) u(f)no(e) pec(f)ca(d)t\\u00f3(ef)re(f.) (,) pae(f)ni(h)t\\u00e9n(f)ti(e)am(f!gwhg/hih) a(f)g\\u00e9n(d_[oh:h]e_[oh:h]d~)te.(d.) (::)\"",
+            "mp3": "communion_dico-vobis.mp3",
+            "fichier": "Latin/Tempora/Pent03-0r.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent03-0r.txt",
             "section": "Postcommunio",
-            "texte": "Sancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ sempitérnæ prǽparent expiátos.\n$Per Dominum",
-            "references": null
+            "texte": "Sancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ sempitérnæ prǽparent expiátos.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Introitus",
-            "texte": "!Ps 24:16; 24:18\nv. Regardez, Seigneur, et ayez pitié de moi, car je suis seul et pauvre ; voyez mon humilité et mon labeur, et pardonnez-moi tous mes péchés, ô mon Dieu.\n!Ps 24:1-2\nVers vous, Seigneur, j'élève mon âme ; ô mon Dieu, en vous je me confie, je n'aurai pas à en rougir.\n&Gloria\nv. Regardez, Seigneur, et ayez pitié de moi, car je suis seul et pauvre ; voyez mon humilité et mon labeur, et pardonnez-moi tous mes péchés, ô mon Dieu.",
-            "incipit": "Regardez, Seigneur, et",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 24:16; 24:18\nv. Regardez, Seigneur, et ayez pitié de moi, car je suis seul et pauvre ; voyez mon humilité et mon labeur, et pardonnez-moi tous mes péchés, ô mon Dieu.\n!Ps 24:1-2\nVers vous, Seigneur, j'élève mon âme ; ô mon Dieu, en vous je me confie, je n'aurai pas à en rougir.\n&Gloria\nv. Regardez, Seigneur, et ayez pitié de moi, car je suis seul et pauvre ; voyez mon humilité et mon labeur, et pardonnez-moi tous mes péchés, ô mon Dieu."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, protecteur de ceux qui espèrent en vous, sans qui rien n'est fort ni saint, multipliez sur nous votre miséricorde, afin que, guidés et conduits par vous, nous passions de telle sorte parmi les biens temporels que nous ne perdions pas les éternels.\n$Per Dominum.",
-            "references": null
+            "texte": "Ô Dieu, protecteur de ceux qui espèrent en vous, sans qui rien n'est fort ni saint, multipliez sur nous votre miséricorde, afin que, guidés et conduits par vous, nous passions de telle sorte parmi les biens temporels que nous ne perdions pas les éternels.\n$Per Dominum."
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Pet 5:6-11\nBien-aimés, humiliez-vous sous la puissante main de Dieu, afin qu'il vous élève au temps marqué ; déchargez-vous sur lui de toutes vos sollicitudes, car lui-même prend soin de vous. Soyez sobres, veillez ; votre adversaire, le diable, comme un lion rugissant, rode autour de vous, cherchant qui dévorer. Résistez-lui, fermes dans la foi, sachant que vos frères, dispersés dans le monde, endurent les mêmes souffrances que vous. Le Dieu de toute grâce, qui vous a appelés à sa gloire éternelle dans le Christ, après quelques souffrances, achèvera lui-même son œuvre, voua affermira, vous fortifiera, vous rendra inébranlables. À lui soient la gloire et la puissance, pour les siècles des siècles ! Amen !",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Pet 5:6-11\nBien-aimés, humiliez-vous sous la puissante main de Dieu, afin qu'il vous élève au temps marqué ; déchargez-vous sur lui de toutes vos sollicitudes, car lui-même prend soin de vous. Soyez sobres, veillez ; votre adversaire, le diable, comme un lion rugissant, rode autour de vous, cherchant qui dévorer. Résistez-lui, fermes dans la foi, sachant que vos frères, dispersés dans le monde, endurent les mêmes souffrances que vous. Le Dieu de toute grâce, qui vous a appelés à sa gloire éternelle dans le Christ, après quelques souffrances, achèvera lui-même son œuvre, voua affermira, vous fortifiera, vous rendra inébranlables. À lui soient la gloire et la puissance, pour les siècles des siècles ! Amen !"
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Graduale",
-            "texte": "!Ps 54:23; 54:17; 54:19\nV. Tandis que je criais vers le Seigneur, il a exaucé ma voix et m'a délivré de ceux qui s'approchent de moi. Allelúja, allelúja\n!Ps 7:12\nDieu est un juge juste, fort et patient ; pourrait-il se mettre en colère toujours ? Allelúja.",
-            "incipit": "Tandis que je",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 54:23; 54:17; 54:19\nV. Tandis que je criais vers le Seigneur, il a exaucé ma voix et m'a délivré de ceux qui s'approchent de moi."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja\n!Ps 7:12\nDieu est un juge juste, fort et patient ; pourrait-il se mettre en colère toujours ? Allelúja."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 15:1-10\nEn ce temps-là, les publicains et les pécheurs s'approchaient de Jésus pour l'entendre. Les Pharisiens et les scribes murmuraient, disant : « Cet homme accueille des pécheurs et mange avec eux. » Et il dit à leur adresse cette parabole : « Qui d'entre vous, ayant cent brebis, s'il en perd une, ne laisse pas les quatre-vingt-dix-neuf autres dans le désert, pour aller après celle qui est perdue, jusqu'à ce qu'il l'ait retrouvée ? Et quand il l'a retrouvée, il la met sur ses épaules tout joyeux et, de retour à la maison, il convoque les amis et les voisins et leur dit : « Réjouissez-vous avec moi, car j'ai retrouvé ma brebis qui était perdue. » Ainsi, je vous le dis, il y aura plus de joie dans le ciel pour un seul pécheur qui se repent, que pour quatre-vingt-dix-neuf justes qui n'ont pas besoin de repentance. Ou bien, quelle est la femme ayant dix drachmes qui, si elle perd une drachme, n'allume une lampe, ne balaie la maison, et ne cherche avec soin jusqu'à ce qu'elle l'ait retrouvée ? et quand elle l'a retrouvée, elle convoque les amies et les voisines et leur dit : « Réjouissez-vous avec moi, car j'ai retrouvé la drachme que j'avais perdue. » Ainsi, je vous le dis, il y a de la joie chez les anges de Dieu pour un seul pécheur qui se repent. »",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 15:1-10\nEn ce temps-là, les publicains et les pécheurs s'approchaient de Jésus pour l'entendre. Les Pharisiens et les scribes murmuraient, disant : « Cet homme accueille des pécheurs et mange avec eux. » Et il dit à leur adresse cette parabole : « Qui d'entre vous, ayant cent brebis, s'il en perd une, ne laisse pas les quatre-vingt-dix-neuf autres dans le désert, pour aller après celle qui est perdue, jusqu'à ce qu'il l'ait retrouvée ? Et quand il l'a retrouvée, il la met sur ses épaules tout joyeux et, de retour à la maison, il convoque les amis et les voisins et leur dit : « Réjouissez-vous avec moi, car j'ai retrouvé ma brebis qui était perdue. » Ainsi, je vous le dis, il y aura plus de joie dans le ciel pour un seul pécheur qui se repent, que pour quatre-vingt-dix-neuf justes qui n'ont pas besoin de repentance. Ou bien, quelle est la femme ayant dix drachmes qui, si elle perd une drachme, n'allume une lampe, ne balaie la maison, et ne cherche avec soin jusqu'à ce qu'elle l'ait retrouvée ? et quand elle l'a retrouvée, elle convoque les amies et les voisines et leur dit : « Réjouissez-vous avec moi, car j'ai retrouvé la drachme que j'avais perdue. » Ainsi, je vous le dis, il y a de la joie chez les anges de Dieu pour un seul pécheur qui se repent. »"
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Offertorium",
-            "texte": "!Ps 9:11-12 9:13\nQu'espèrent en vous tous ceux qui connaissent votre Nom, Seigneur, car vous n'abandonnez pas ceux qui vous cherchent. Psalmodiez pour le Seigneur qui habite dans Sion, car il n'oublie pas la prière des pauvres.",
-            "incipit": "Qu'espèrent en vous",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 9:11-12 9:13\nQu'espèrent en vous tous ceux qui connaissent votre Nom, Seigneur, car vous n'abandonnez pas ceux qui vous cherchent. Psalmodiez pour le Seigneur qui habite dans Sion, car il n'oublie pas la prière des pauvres."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Secreta",
-            "texte": "Regardez, Seigneur, les offrandes de l'Église en prière, et faites-en , pour le salut des croyants, un aliment qui les sanctifie à jamais.\n$Per Dominum",
-            "references": null
+            "texte": "Regardez, Seigneur, les offrandes de l'Église en prière, et faites-en , pour le salut des croyants, un aliment qui les sanctifie à jamais.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Communio",
-            "texte": "!Luc 15:10.\nJe vous le dis : il y a de la joie chez les anges de Dieu pour un pécheur qui fait pénitence.",
-            "incipit": "Je vous le",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 15:10.\nJe vous le dis : il y a de la joie chez les anges de Dieu pour un pécheur qui fait pénitence."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent03-0r.txt",
             "section": "Postcommunio",
-            "texte": "Puisse le don sacré que nous avons reçu, Seigneur, nous procurer la vie, laver nos souillures et nous rendre dignes de l'éternelle miséricorde.\n$Per Dominum",
-            "references": null
+            "texte": "Puisse le don sacré que nous avons reçu, Seigneur, nous procurer la vie, laver nos souillures et nous rendre dignes de l'éternelle miséricorde.\n$Per Dominum"
           }
         }
       },
@@ -205,7 +202,7 @@
         "Francais/Tempora/Pent03-0r.txt",
         "Latin/Tempora/Pent03-0r.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

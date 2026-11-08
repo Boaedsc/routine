@@ -1,0 +1,193 @@
+{
+  "occurrence": {
+    "gagnant": "Sancti/07-03",
+    "nom_sanctoral": "S. Irenaei Episcopi et Martyris",
+    "classe": 2.2,
+    "commemorations": [],
+    "fichier_gagnant": "Latin/Sancti/07-03.txt",
+    "temporal": "Latin/Tempora/Pent05-5.txt",
+    "sanctoral": "Latin/Sancti/07-03.txt",
+    "calendrier": "07-03",
+    "table_transfert": null,
+    "transfert_annuel": [],
+    "transfert_permanent": [],
+    "table_transfert_permanent": "1960",
+    "transfert_saisonnier": [],
+    "table_transfert_saisonnier": "1960",
+    "transfert_scriptura_annuel": [],
+    "table_transfert_scriptura": null,
+    "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
+  },
+  "sections": {
+    "Latin": {
+      "Introitus": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Introitus",
+        "texte": "!Joann 21:15-17\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\n&Gloria\nv. Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)",
+        "references": null
+      },
+      "Oratio": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Oratio",
+        "texte": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\n$Per Dominum",
+        "references": null
+      },
+      "Lectio": {
+        "fichier": "Latin/Sancti/07-03.txt",
+        "section": "Lectio",
+        "texte": "",
+        "references": null
+      },
+      "Graduale": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Graduale",
+        "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.\nAllelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "references": [
+          {
+            "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+            "section": "Graduale",
+            "resolu": true,
+            "sous_references": null
+          }
+        ]
+      },
+      "Tractus": {
+        "fichier": "Latin/Sancti/07-03.txt",
+        "section": "Tractus",
+        "texte": "",
+        "references": null
+      },
+      "Alleluia": {
+        "fichier": "Latin/Sancti/07-03.txt",
+        "section": "Alleluia",
+        "texte": "",
+        "references": null
+      },
+      "Evangelium": {
+        "fichier": "Latin/Sancti/07-03.txt",
+        "section": "Evangelium",
+        "texte": "",
+        "references": null
+      },
+      "Offertorium": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Offertorium",
+        "texte": "!Jer 1:9-10\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+        "references": null
+      },
+      "Secreta": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Secreta",
+        "texte": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n$Per Dominum",
+        "references": null
+      },
+      "Prefatio": {
+        "fichier": "Latin/Sancti/07-03.txt",
+        "section": "Prefatio",
+        "texte": "",
+        "references": null
+      },
+      "Communio": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Communio",
+        "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+        "references": [
+          {
+            "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
+            "section": "Communio",
+            "resolu": true,
+            "sous_references": null
+          }
+        ]
+      },
+      "Postcommunio": {
+        "fichier": "../horas/Latin/Commune/C4b.txt",
+        "section": "Postcommunio",
+        "texte": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\n$Per Dominum",
+        "references": null
+      }
+    },
+    "Francais": {
+      "Introitus": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Introitus",
+        "texte": "!Joannes 21:15-17\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Si tu m’aimes, Simon-Pierre, pais mes agneaux, pais mes brebis. (Alléluia, alléluia.)",
+        "references": null
+      },
+      "Oratio": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Oratio",
+        "texte": "Pasteur éternel, considérez avec bonté votre troupeau, et gardez-le sous la constante protection du bienheureux N., souverain pontife, que vous avez constitué pasteur de toute l’Église.\n$Per Dominum",
+        "references": null
+      },
+      "Lectio": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Lectio",
+        "texte": "",
+        "references": null
+      },
+      "Graduale": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Graduale",
+        "texte": "!Ps 106:32; 106:31\nQu’ils l’exaltent dans l’assemblée du peuple et qu’ils le célèbrent dans la chaire des anciens.\nV. Qu’ils louent le Seigneur pour sa bonté et pour ses merveilles en faveur des enfants des hommes. Alléluia, alléluia.\n!Matt 16:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+        "references": null
+      },
+      "Tractus": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Tractus",
+        "texte": "",
+        "references": null
+      },
+      "Alleluia": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Alleluia",
+        "texte": "",
+        "references": null
+      },
+      "Evangelium": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Evangelium",
+        "texte": "",
+        "references": null
+      },
+      "Offertorium": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Offertorium",
+        "texte": "!Jer 1:9-10\nVoici : j’ai mis mes paroles dans ta bouche ; je t’ai établi sur les nations et sur les royaumes, pour que tu arraches et que tu détruises, que tu bâtisses et que tu plantes. (Alléluia.)",
+        "references": null
+      },
+      "Secreta": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Secreta",
+        "texte": "Après l’offrande de ces dons, Seigneur, veuillez éclairer votre Église dans votre bonté : afin que votre troupeau progresse en tout lieu, et que ses pasteurs, gouvernés par vous, soient agréables à vos yeux.\n$Per Dominum",
+        "references": null
+      },
+      "Prefatio": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Prefatio",
+        "texte": "",
+        "references": null
+      },
+      "Communio": {
+        "fichier": "Francais/Sancti/07-03.txt",
+        "section": "Communio",
+        "texte": "",
+        "references": null
+      },
+      "Postcommunio": {
+        "fichier": "../horas/Francais/Commune/C4b.txt",
+        "section": "Postcommunio",
+        "texte": "Gouvernez avec bienveillance, Seigneur, votre Église qui s’est nourrie à la table sainte ; afin que, sous votre conduite toute-puissante, elle reçoive un accroissement de liberté et demeure ferme dans l’intégrité de sa foi.\n$Per Dominum",
+        "references": null
+      }
+    }
+  },
+  "fichiers_utilises": [
+    "../horas/Francais/Commune/C4b.txt",
+    "../horas/Latin/Commune/C4b.txt",
+    "Francais/Sancti/07-03.txt",
+    "Latin/Sancti/07-03.txt"
+  ],
+  "sections_vides": 11,
+  "numero": 1
+}

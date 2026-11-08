@@ -28,181 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Introitus",
             "texte": "!Is 61:10\nv. Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo: quia índuit me vestiméntis salútis: et induménto justítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.\n!Ps 29:2\nExaltábo te, Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me.\n&Gloria\nv. Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo: quia índuit me vestiméntis salútis: et induménto justítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.",
-            "incipit": "Gaudens gaudébo in",
-            "mp3": "introitus_gaudens-gaudebo-in.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Gaudens gaudebo... quasi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) GAU(eef)DENS(dge) gau(eg~)dé(ghg/hj)bo(j.) *(,) in(hj~) Dó(jjjh)mi(hg)no(ghgg/efe.) (;) et(dfe) ex(f)sul(f)tá(ef'h)bit(h) á(h!jj)ni(h)ma(h) me(h.f!gwhgh)a(h_g) (,) in(f) De(f)o(df) me(egff)o :(fe..) (:) qui(ff)a(dge) ín(gh)du(h)it(hkJI'j) me(j_i) (,) ve(j)sti(j)mén(j_i/j_i/jlk)tis(k_[hl:1]i) sa(i)lú(ikj)tis,(iki/jhhg.) (:) et(g) in(h)du(g)mén(h!iwj)to(ih) ju(h)stí(h!jjj)ti(hg)ae(g.) (,) cir(gih)cúm(gv.ef'h)de(h)dit(h!iwjg~) me,(hg..) (;) qua(g)si(h) spon(gef)sam(e_[oh:h][ll:1]d) or(gh)ná(g.h!iwjij)tam(j_h) (,) mo(hk)ní(j.h!iwj)li(g)bus(g_[oh:h]e) su(fgF'E)is.(e.) (::) <i>Ps.</i> Ex(g)al(hj)tá(j)bo(j) te,(j) Dó(j)mi(j)ne,(j.) (,) quó(j)ni(j)am(j) sus(k)ce(j)pí(j)sti(ih) me :(jjj) (:) * nec(ig) de(hj)le(j)ctá(j)sti(j) in(j)i(j)mí(j)cos(j) me(jji)os(hg) su(h')per(i) me.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+            "mp3": null,
+            "fichier": "Latin/Sancti/12-08.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Oratio",
-            "texte": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus intercessióne ad te perveníre concédas.\n$Per eundem",
-            "references": null
+            "texte": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus intercessióne ad te perveníre concédas.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-35\nDóminus possedit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum, et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram: necdum fontes aquárum erúperant: necdum montes gravi mole constíterant: ante colles ego parturiébar: adhuc terram non fécerat et flúmina et cárdines orbis terræ. Quando præparábat cœlos, áderam: quando certa lege et gyro vallábat abýssos: quando æthera firmábat sursum et librábat fontes aquárum: quando circúmdabat mari términum suum et legem ponébat aquis, ne transírent fines suos: quando appendébat fundaménta terræ. Cum eo eram cuncta compónens: et delectábar per síngulos dies, ludens coram eo omni témpore: ludens in orbe terrárum: et delíciæ meæ esse cum filiis hóminum. Nunc ergo, filii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/09-08.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-35\nDóminus possedit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum, et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram: necdum fontes aquárum erúperant: necdum montes gravi mole constíterant: ante colles ego parturiébar: adhuc terram non fécerat et flúmina et cárdines orbis terræ. Quando præparábat cœlos, áderam: quando certa lege et gyro vallábat abýssos: quando æthera firmábat sursum et librábat fontes aquárum: quando circúmdabat mari términum suum et legem ponébat aquis, ne transírent fines suos: quando appendébat fundaménta terræ. Cum eo eram cuncta compónens: et delectábar per síngulos dies, ludens coram eo omni témpore: ludens in orbe terrárum: et delíciæ meæ esse cum filiis hóminum. Nunc ergo, filii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Graduale",
-            "texte": "!Judith 13:23\nBenedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus muliéribus super terram.\n!Judith 15:10\nTu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.\nAllelúja, allelúja.\n!Cant 4:7\nTota pulchra es, María: et mácula originális non est in te. Allelúja.",
-            "incipit": "Benedícta es tu.",
+            "texte": "!Judith 13:23\nBenedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus muliéribus super terram.\n!Judith 15:10\nTu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.",
+            "incipit": {
+              "incipit": "Benedicta es tu (Grad)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) BE(d)ne(ff)dí(f!hgh)cta(h) es(gg) tu,(gf..) *(,) Vir(f)go(h) Ma(ixi)rí(h_g)a,(g./hiHF.ghFD.ev.dec./[-0.5]fg/hggf.0) (;) a(j) Dó(jk)mi(j)no(jh) De(j)o(jk) ex(j)cél(ixjhi)so,(hgiHGkv.jkJ//F.0gh/jiih.0) (:) prae(j_h) ó(ixi!jwk)mni(jk_[hl:1]J'_[hl:1]IH'i)bus(h.) mu(ixi)li(h)é(gh!i'j)ri(ih)bus(h.) (;) su(j)per(ixhi) ter(g_[oh:h]f)ram.(fhg___//jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Tu(df) gló(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)ri(gh)a(h.) (,) Je(h)rú(ih/kkh/ih/kkvI'H)sa(h_ghvGF'g)lem,(gf..) (:) tu(hhi) lae(h)tí(h.i!jwk)ti(ih)a(h.) (,) Is(gxfgFE.fgFD.fvEDe[ll:1]d)ra(bd)el,(d.) (:) tu(de) ho(ef)no(hf/ge)ri(ef)fi(hih)cén(h)ti(gh)a(gxfhE'D//hf/gf..) (,) pó(d)pu(ef)li(f/h_fg) () * no(e.f!gwh)stri.(he) (,) (gxhfgED'//ef/!hf/!f/ded.) (::)",
             "mp3": "graduel_benedicta-es-tu.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/12-08.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Tractus",
             "texte": "!Ps 86:1-2\nFundaménta ejus in móntibus sanctis: díligit Dóminus portas Sion super ómnia tabernácula Jacob.\n!Ps 86:3\nGloriósa dicta sunt de te, cívitas Dei.\n!Ps 86:5\nHomo natus est in ea, et ipse fundávit eam Altíssimus.",
-            "incipit": "Fundaménta ejus in",
+            "incipit": {
+              "incipit": "Fundamenta ejus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) FUn(d)da(f)mén(fg)ta(ge/fgD'Cd) e(fg)jus(ixf/iiivHGhhg.) <clear>*(;) in(fg) món(gjjk)ti(h)bus(hg/hf//h!jhj) san(jvIH'iw!jvI'HG'h)ctis :(hg..) (:) dí(g/hji)li(j)git(j) Dó(j)mi(j)nus(iijh.1) (,) por(jk)tas(kij) Si(hjI'G)on(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) su(f)per(hj) ó(igh)mni(gf)a(gh) ta(g)ber(g)ná(gh)cu(g)la(gh/jij) (,) Ja(j.h!iwj)cob.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Glo(g)ri(g)ó(g!hwi!jv'1)sa(j) di(j)cta(j) sunt(jk) de(j_g) te,(h_g/h!iw!jvIHijhhg.) (:) cí(hg/jjghvG'F)vi(f!h'j)tas(j) De(j)i.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Ho(g!hwi'!jv)mo(j) na(ij)tus(j) est(j) in(j) e(ik/ljjh)a,(jhhg/hg/jjh/jggf.0) (:) et(f) i(hj)pse(igh) fun(gfg)dá(g/hji)vit(j) e(h!iwj)am(ijhhg.) <clear>*(;) Al(hg/jjghvG'F)tís(f!h'j)si(j)mus.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'/!hg/hjI'HG'/!ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/12-08.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Cant 4:7\nTota pulchra es, María: et mácula originális non est in te. Allelúja.",
+            "incipit": {
+              "incipit": "Tota pulchra es Maria (All)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d!ff/gf)le(e[ll:1]d)lú(ixfgh!ivHG'gf/gh~){ia}.(h.) (,) * <i>ij.</i>(def!gvFE'/!e[ll:1]d.0) (;) (de!fg!hv'1//jg/!gf/!gh/!h//def!gvFE'/!e[ll:1]d.0) (,) (hvGF'ghh//def!gvFE'/!e[ll:1]d.0) (::) <sp>V/</sp>. To(d!ew!fv_ED'Cde)ta(d.) pul(fgh)chra(ixhiGF'gwhg/hi) es,(h.) (:) Ma(ffvEDfg/hfgvFE)rí(d!ewfef)a :(e[ll:1]d..) (:) et(hg~) má(gj)cu(i)la(jkJH.1) (,) o(hg)ri(hjIG.egff'ffvD'C)gi(dfd)ná(egE'DfvDCde)lis(e./ghdfvED.) <clear>*(;) non(d!ff/gf) est(e[ll:1]d) in(ixfgh!ivHG'gf/gh~) te.(h.//def!gvFE'/!e[ll:1]d.0) (;) (de!fg!hv'1//jg/!gf/!gh/!h//def!gvFE'/!e[ll:1]d.0) (,) (hvGF'ghh//def!gvFE'/!e[ll:1]d.0) (::)",
+            "mp3": "alleluia_tota-pulchra-es.mp3",
             "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-28\nIn illo témpore: Missus est Angelus Gábriël a Deo in civitátem Galilææ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-28\nIn illo témpore: Missus est Angelus Gábriël a Deo in civitátem Galilææ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Offertorium",
             "texte": "!Luc 1:28\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, allelúja.",
-            "incipit": "Ave, María, grátia",
-            "mp3": "offertoire_ave-maria-et.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Ave Maria (Offertorium)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) A(gxdef!hvvFE'//gvFE)ve(e_[uh:l]f) *(,) Ma(fdf)rí(h_g//ijIH'hg/hf)a,(fe..) (;) grá(hhf!gwhefvED'C[ull:0]B.)(,)(ef/h.f!gwh)ti(h)a(g.) ple(hiHF.g/hiH//E.)(,)(fhFEf./ih/ijh)na :(hiih.0) (:) Dó(fvEDevDC'db.0/cd!effe)mi(de)nus(e.) (`) te(fe/hhe//ffdev.)(,)(de/f_de./df!hvGFE'f)cum :(fe..) (:) be(hi)ne(ih)dí(h'/jij)cta(h.f!gwh/ih) tu(he..) (,) in(ef) mu(fh)li(fe)é(e_[oh:h][ll:1]d/efD'C[ull:0]B.)(,)(cd/e_[oh:h][ll:1]d/f_e)ri(de)bus,(effe.) (;) al(fe~)le(fdf)lú(h_g/ijIH'hg/hf){ia}.(fe/fgffe.) (::)",
+            "mp3": "offertoire_ave-maria.mp3",
+            "fichier": "Latin/Sancti/12-08.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Secreta",
-            "texte": "Salutárem hóstiam, quam in sollemnitáte immaculátæ Conceptiónis beátæ Vírginis Maríæ tibi, Dómine, offérimus, súscipe et præsta: ut, sicut illam tua grátia præveniénte ab omni labe immúnem profitémur; ita ejus intercessióne a culpis ómnibus liberémur.\n$Per Dominum",
-            "references": null
+            "texte": "Salutárem hóstiam, quam in sollemnitáte immaculátæ Conceptiónis beátæ Vírginis Maríæ tibi, Dómine, offérimus, súscipe et præsta: ut, sicut illam tua grátia præveniénte ab omni labe immúnem profitémur; ita ejus intercessióne a culpis ómnibus liberémur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/12-08.txt",
-            "section": "Communio",
             "texte": "!Ps 86:3, Luc 1:49\nGloriósa dicta sunt de te, María: quia fecit tibi magna qui potens est.",
-            "incipit": "Gloriósa dicta sunt",
-            "mp3": "communion_gloriosa-dicta-sunt.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Gloriosa dicta... Maria",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) GLo(gg)ri(gh)ó(hvGF//g.h!iwjg)sa(g.) *(,) di(g!jj)cta(j) sunt(kij) de(h) te,(hvGF') Ma(h)rí(hjI'G)a :(g.) (:) qui(g)a(hih) fe(g)cit(e) ti(ffg)bi(gvFED.) () () ma(f/gh/jg)gna(g.) (,) qui(f) pot(ghg/h!jjh)ens(hig) est.(g.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Sancti/12-08.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/12-08.txt",
             "section": "Postcommunio",
-            "texte": "Sacraménta quæ súmpsimus, Dómine, Deus noster: illíus in nobis culpæ vúlnera réparent; a qua immaculátam beátæ Maríæ Conceptiónem singuláriter præservásti.\n$Per Dominum",
-            "references": null
+            "texte": "Sacraménta quæ súmpsimus, Dómine, Deus noster: illíus in nobis culpæ vúlnera réparent; a qua immaculátam beátæ Maríæ Conceptiónem singuláriter præservásti.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Introitus",
-            "texte": "!Is 61:10\nv. Je me réjouirai avec effusion dans le Seigneur, et mon âme sera ravie d’allégresse en mon Dieu : car il m’a revêtu des vêtements du salut : et il m’a entouré des ornements de la justice, comme une épouse parée de ses bijoux.\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé, et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Je me réjouirai avec effusion dans le Seigneur, et mon âme sera ravie d’allégresse en mon Dieu : car il m’a revêtu des vêtements du salut : et il m’a entouré des ornements de la justice, comme une épouse parée de ses bijoux.",
-            "incipit": "Je me réjouirai",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 61:10\nv. Je me réjouirai avec effusion dans le Seigneur, et mon âme sera ravie d’allégresse en mon Dieu : car il m’a revêtu des vêtements du salut : et il m’a entouré des ornements de la justice, comme une épouse parée de ses bijoux.\n!Ps 29:2\nJe vous exalterai, Seigneur, parce que vous m’avez relevé, et que vous n’avez pas réjoui mes ennemis à mon sujet.\n&Gloria\nv. Je me réjouirai avec effusion dans le Seigneur, et mon âme sera ravie d’allégresse en mon Dieu : car il m’a revêtu des vêtements du salut : et il m’a entouré des ornements de la justice, comme une épouse parée de ses bijoux."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, par l’Immaculée Conception de la Vierge, avez préparé à votre Fils une demeure digne de lui, nous vous en supplions, vous qui, en prévision de la mort de ce même Fils, l’avez préservée de toute tache, accordez-nous, par son intercession, d’être purifiés et de parvenir à vous.\n$Per eundem",
-            "references": null
+            "texte": "Ô Dieu, qui, par l’Immaculée Conception de la Vierge, avez préparé à votre Fils une demeure digne de lui, nous vous en supplions, vous qui, en prévision de la mort de ce même Fils, l’avez préservée de toute tache, accordez-nous, par son intercession, d’être purifiés et de parvenir à vous.\n$Per eundem"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-35\nLe Seigneur m’a possédée au commencement de ses voies, avant de faire quoi que ce soit, dès le principe. J’ai été établie dès l’éternité, et dès les temps anciens, avant que la terre fût créée. Les abîmes n’étaient pas encore, et déjà j’étais conçue ; les sources des eaux n’avaient pas encore jailli ; les montagnes ne s’étaient pas encore dressées avec leur pesante masse ; j’étais enfantée avant les collines. Il n’avait pas encore fait la terre, ni les fleuves, ni les bases du globe terrestre. Lorsqu’il préparait les cieux, j’étais là ; lorsqu’il environnait les abîmes de leurs bornes, par une loi inviolable ; lorsqu’il affermissait l’air dans les régions supérieures, et qu’il équilibrait les sources des eaux ; lorsqu’il entourait la mer de ses limites, et qu’il imposait une loi aux eaux, pour qu’elles ne franchissent point leurs bornes, lorsqu’il posait les fondements de la terre, j’étais avec lui, réglant toutes choses, et j’étais chaque jour dans les délices, me jouant sans cesse devant lui, me jouant sur le globe de la terre, et mes délices sont d’être avec les enfants des hommes. Maintenant donc, mes fils, écoutez-moi : Heureux ceux qui gardent mes voies. Écoutez mes instructions et soyez sages, et ne les rejetez pas. Heureux l’homme qui m’écoute, et qui veille tous les jours à ma porte, et qui se tient à la porte de ma maison. Celui qui me trouvera, trouvera la vie, et puisera le salut dans le Seigneur.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ\n!Prov 8:22-35\nLe Seigneur m’a possédée au commencement de ses voies, avant de faire quoi que ce soit, dès le principe. J’ai été établie dès l’éternité, et dès les temps anciens, avant que la terre fût créée. Les abîmes n’étaient pas encore, et déjà j’étais conçue ; les sources des eaux n’avaient pas encore jailli ; les montagnes ne s’étaient pas encore dressées avec leur pesante masse ; j’étais enfantée avant les collines. Il n’avait pas encore fait la terre, ni les fleuves, ni les bases du globe terrestre. Lorsqu’il préparait les cieux, j’étais là ; lorsqu’il environnait les abîmes de leurs bornes, par une loi inviolable ; lorsqu’il affermissait l’air dans les régions supérieures, et qu’il équilibrait les sources des eaux ; lorsqu’il entourait la mer de ses limites, et qu’il imposait une loi aux eaux, pour qu’elles ne franchissent point leurs bornes, lorsqu’il posait les fondements de la terre, j’étais avec lui, réglant toutes choses, et j’étais chaque jour dans les délices, me jouant sans cesse devant lui, me jouant sur le globe de la terre, et mes délices sont d’être avec les enfants des hommes. Maintenant donc, mes fils, écoutez-moi : Heureux ceux qui gardent mes voies. Écoutez mes instructions et soyez sages, et ne les rejetez pas. Heureux l’homme qui m’écoute, et qui veille tous les jours à ma porte, et qui se tient à la porte de ma maison. Celui qui me trouvera, trouvera la vie, et puisera le salut dans le Seigneur."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Graduale",
-            "texte": "!Judith 13:23\nBénie êtes-vous, ô Vierge Marie, par le Seigneur Dieu très-Haut, plus que toutes les femmes sur la terre.\n!Judith 15:10\nVous, gloire de Jérusalem ; vous, joie d’Israël ; vous, honneur de notre peuple. Alléluia, alléluia.\n!Cant 4:7\nVous êtes toute belle, ô Marie, et la tache originelle n’est pas en vous. Alléluia.",
-            "incipit": "Bénie êtes-vous, ô",
-            "mp3": null,
-            "references": null
+            "texte": "!Judith 13:23\nBénie êtes-vous, ô Vierge Marie, par le Seigneur Dieu très-Haut, plus que toutes les femmes sur la terre.\n!Judith 15:10\nVous, gloire de Jérusalem ; vous, joie d’Israël ; vous, honneur de notre peuple."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Tractus",
-            "texte": "!Ps 86:1-2\nSes fondements s’appuient sur les montagnes saintes ; le Seigneur chérit les portes de Sion plus que toutes les tentes de Jacob.\n!Ps 85:3\nDes choses glorieuses ont été dites de vous, cité de Dieu.\n!Ps 86:5\nUn homme est né en elle, et lui même, le Très-Haut, l’a fondée.",
-            "incipit": "Ses fondements s’appuient",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 86:1-2\nSes fondements s’appuient sur les montagnes saintes ; le Seigneur chérit les portes de Sion plus que toutes les tentes de Jacob.\n!Ps 85:3\nDes choses glorieuses ont été dites de vous, cité de Dieu.\n!Ps 86:5\nUn homme est né en elle, et lui même, le Très-Haut, l’a fondée."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/12-08.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Cant 4:7\nVous êtes toute belle, ô Marie, et la tache originelle n’est pas en vous. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-28\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 1:26-28\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:28\n Je vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, Alléluia.",
-            "incipit": "Je vous salue,",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 1:28\n Je vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, Alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Secreta",
-            "texte": "Recevez, Seigneur, l’hostie salutaire que nous vous offrons en la solennité de l’Immaculée Conception de la bienheureuse Vierge Marie, et accordez-nous que, de même que nous confessons qu’elle a été exempte de toute tache par votre grâce qui l’a prévenue, nous soyons ainsi, par son intercession, délivrés de toutes nos fautes.\n$Per Dominum",
-            "references": null
+            "texte": "Recevez, Seigneur, l’hostie salutaire que nous vous offrons en la solennité de l’Immaculée Conception de la bienheureuse Vierge Marie, et accordez-nous que, de même que nous confessons qu’elle a été exempte de toute tache par votre grâce qui l’a prévenue, nous soyons ainsi, par son intercession, délivrés de toutes nos fautes.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Communio",
-            "texte": "!Ps 86:3, Luc 1:49\nDes choses glorieuses ont été dites de vous, Marie : parce que le Puissant vous a fait de grandes choses.",
-            "incipit": "Des choses glorieuses",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 86:3, Luc 1:49\nDes choses glorieuses ont été dites de vous, Marie : parce que le Puissant vous a fait de grandes choses."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/12-08.txt",
             "section": "Postcommunio",
-            "texte": "Seigneur, notre Dieu, que ce sacrement que nous avons reçu, répare en nous les blessures de cette faute dont, par un privilège tout spécial, vous avez préservé la bienheureuse Marie dans sa Conception Immaculée.\n$Per Dominum",
-            "references": null
+            "texte": "Seigneur, notre Dieu, que ce sacrement que nous avons reçu, répare en nous les blessures de cette faute dont, par un privilège tout spécial, vous avez préservé la bienheureuse Marie dans sa Conception Immaculée.\n$Per Dominum"
           }
         }
       },
@@ -210,7 +209,7 @@
         "Francais/Sancti/12-08.txt",
         "Latin/Sancti/12-08.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent01-4.txt",
-            "section": "Introitus",
             "texte": "!Ps 80:17\nv. Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit eos, allelúja, allelúja, allelúja.\n!Ps 80:2\nExsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.\n&Gloria\nv. Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit eos, allelúja, allelúja, allelúja.",
-            "incipit": "Cibávit eos ex",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Cibavit eos... Alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(f3) CI(c)bá(efe)vit(f) e(fhf)os(efe.) <clear>*(,) ex(f) á(h)di(hhh)pe(f) fru(e)mén(egf'/ge)ti,(c.) (,) al(eh~)le(hghf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia} :(f.) (:) et(e) de(f) pe(hh)tra,(hi~) mel(ih~)le(hihh/fgf.) (,) sa(f)tu(fi)rá(i_[oh:h]h)vit(hi'j) e(ih)os,(h.) (;) al(hi~)le(i)lú(ihi){ia},(f.) (,) al(g!hwi)le(i_[oh:h]h)lú(hfgv_[oh:h]F~E~){ia},(fe..) (,) al(f!gwh)le(hvGF'gwh/ig/h_g)lú(fg!hvGF'g){ia}.(gf..) (::) <i>Ps.</i> Ex(e)sul(fe)tá(eh)te(h) De(h)o(h) ad(h)ju(hg)tó(hi)ri(i) no(hi)stro :(h.) *(:) ju(hf)bi(fh)lá(h')te(i) De(hf)o(h) Ja(ge)cob.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+            "mp3": "introitus_cibavit-eos.mp3",
+            "fichier": "Latin/Tempora/Pent01-4.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter sentiámus:\n$Qui vivis",
-            "references": null
+            "texte": "Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter sentiámus:\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 11:23-29\nFratres: Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam cenávit, dicens: Hic calix novum Testaméntum est in meo sánguine. Hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de calice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini.",
-            "references": null
+            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 11:23-29\nFratres: Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam cenávit, dicens: Hic calix novum Testaméntum est in meo sánguine. Hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de calice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini."
           },
           "Graduale": {
+            "texte": "!Ps 144:15-16\nOculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno,\nV. Aperis tu manum tuam: et imples omne ánimal benedictióne.",
+            "incipit": {
+              "incipit": "Oculi omnium",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_[oh:h]h) il(iiiv_[oh:h]H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::) <sp>V/</sp>. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_[oh:h]h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) <clear>*(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/e[ll:1]ddc.) (::)",
+            "mp3": "graduel_oculi-omnium.mp3",
             "fichier": "Latin/Tempora/Pent01-4.txt",
-            "section": "Graduale",
-            "texte": "!Ps 144:15-16\nOculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno,\nV. Aperis tu manum tuam: et imples omne ánimal benedictióne. Allelúja, allelúja,\n!Joannes 6:56-57\nCaro mea vere est cibus, et sanguis meus vere est potus: qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo. Alleluia.",
-            "incipit": "Oculi ómnium in",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja,\n!Joannes 6:56-57\nCaro mea vere est cibus, et sanguis meus vere est potus: qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo. Alleluia.",
+            "incipit": {
+              "incipit": "Caro mea vere",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(d)le(efdeffe)lú(df!hvGFhh){ia}.(e.) *(;) <i>ij.</i>(hvijj/h/ii//efE'Dffe.) (,) (h'/ig'hvF'ED'C[ull:0]B.e.f!gwhhvG'FEffe.) (::) <sp>V/</sp>. Ca(eh)ro(h_gfge) me(fe)a(e.) (,) ve(d)re(efef) est(f) ci(hvGF'ge)bus,(e.) (;) et(ei) san(iv.jkj/!jvIHjh/ij)guis(i) me(ij)us(i.) (,) ve(ij)re(i) est(i) po(j!kwljkvJIjvIHi)tus :(i.) (:) qui(ij) man(i)dú(ij/kljkvJIjvIHi)cat(i.) (;) me(eijvIH'hvGF'E)am(fe) car(de)nem,(e/ffe.) (;) et(e) bi(ehg)bit(hi) me(i./jkj/!jvIH'Ghih)um(i.) (,) sán(hv.fhG'FE'D//fg)gui(fe)nem,(e.) (;) in(d) me(efdeffe) ma(df!hvGFhh)net,(e.) (;) et(h) e(ijj)go(h) *() in(i) e(i)o.(efE'Dffe.) (,) (h'/ig'hvF'ED'C[ull:0]B.e.f!gwhhvG'FEffe.) (::)",
+            "mp3": "alleluia_caro-mea.mp3",
             "fichier": "Latin/Tempora/Pent01-4.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia sancti Evangéli secúndum Joánnem\n!Joann 6:56-59\nIn illo témpore: Dixit Jesus turbis Judæórum: Caro mea vere est cibus et sanguis meus vere est potus. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in illo. Sicut misit me vivens Pater, et ego vivo propter Patrem: et qui mandúcat me, et ipse vivet propter me. Hic est panis, qui de cœlo descéndit. Non sicut manducavérunt patres vestri manna, et mórtui sunt. Qui mandúcat hunc panem, vivet in ætérnum.",
-            "references": null
+            "texte": "Sequéntia sancti Evangéli secúndum Joánnem\n!Joann 6:56-59\nIn illo témpore: Dixit Jesus turbis Judæórum: Caro mea vere est cibus et sanguis meus vere est potus. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in illo. Sicut misit me vivens Pater, et ego vivo propter Patrem: et qui mandúcat me, et ipse vivet propter me. Hic est panis, qui de cœlo descéndit. Non sicut manducavérunt patres vestri manna, et mórtui sunt. Qui mandúcat hunc panem, vivet in ætérnum."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent01-4.txt",
-            "section": "Offertorium",
             "texte": "!Levit 21:6\nSacerdótes Dómini incénsum et panes ófferunt Deo: et ideo sancti erunt Deo suo, et non pólluent nomen ejus, allelúja.",
-            "incipit": "Sacerdótes Dómini incénsum",
+            "incipit": {
+              "incipit": "Sacerdotes Domini",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) SA(f)cer(d!ewf)dó(f)tes(e'fg) *() Dó(ixghf___//ih/igh)mi(e)ni(egf/gffe.) (;) in(f)cén(fgf)sum(ff) et(df~) pa(fff/ghggef)nes(e_[oh:h][ll:1]d) (,) óf(gh)fe(g/jjj)runt(hjhhg) De(gh)o :(hg..) (:) et(ixgih'ivGF') íd(g)e(f)o(f_e) (,) san(ef'g~)cti(g) e(ixhig)runt(ghF'E) (;) De(gh)o(gjh) su(ghf/ghg)o,(gvFD//ef/gfgd.) (:) et(df/gef) non(f) pól(ixef/hiHG')lu(hggfg)ent(g_[oh:h]d) (,) no(df/gef)men(f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus,(f.) (;) al(f!gwhg~)le(ixh_f/ih/igh)lú(e){ia}.(egf/gffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Pent01-4.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Secreta",
-            "texte": "Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona concéde: quæ sub oblátis munéribus mýstice designántur.\n$Per Dominum",
-            "references": null
+            "texte": "Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona concéde: quæ sub oblátis munéribus mýstice designántur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent01-4.txt",
-            "section": "Communio",
             "texte": "!1 Cor 11:26-27\nQuotiescúmque manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat: itaque quicúmque manducáverit panem vel bíberit calicem Dómini indígne, reus erit córporis et sánguinis Dómini, allelúja.",
-            "incipit": "Quotiescúmque manducábitis panem",
+            "incipit": {
+              "incipit": "Quotiescumque",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) QUo(e)ti(ei)es(i)cúm(i)que(e.) *(,) man(i)du(h)cá(kjki)bi(i)tis(i) pa(ij)nem(i) hunc,(i.) (,) et(h) cá(hi'j)li(j)cem(ji~) bi(hj)bé(ih)tis,(h.) (;) mor(hg)tem(f) Dó(hhi)mi(h)ni(h) an(h)nun(g)ti(h)á(i)bi(h)tis,(h.) (;) do(i!jwkj)nec(iji) vé(hg)ni(f!gwhg)at :(fe..) (:) í(fg)ta(f)que(f.) (,) qui(hg)cúm(efe)que(e.) man(e)du(f)cá(hi'j)ve(i)rit(i) pa(j)nem,(i.) (,) vel(i) bí(j)be(i)rit(i) cá(j)li(i)cem(h) Dó(ik)mi(i)ni(j) in(h)dí(hg/h_ih)gne(fe..) (;) re(fh)us(h) e(ge)rit(e) cór(fg)po(fe)ris(e.) et(e) sán(ef)gui(e)nis(e) Dó(fhg)mi(hih)ni,(f.) (;) al(eg~)le(gv.fhg)lú(efe___){ia}.(e.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Pent01-4.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent01-4.txt",
             "section": "Postcommunio",
-            "texte": "Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne repléri: quam pretiósi Corporis et Sanguinis tui temporalis percéptio præfigúrat:\n$Qui vivis",
-            "references": null
+            "texte": "Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne repléri: quam pretiósi Corporis et Sanguinis tui temporalis percéptio præfigúrat:\n$Qui vivis"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Introitus",
-            "texte": "!Ps 80:17.\nv. Il les a nourris de la graisse du froment, alléluia ; et il les a rassasiés du miel de la pierre, alléluia, alléluia, alléluia.\n!Ps 80:2\nExultez pour Dieu, notre secours ; jubilez pour le Dieu de Jacob.\n&Gloria\nv. Il les a nourris de la graisse du froment, alléluia ; et il les a rassasiés du miel de la pierre, alléluia, alléluia, alléluia.",
-            "incipit": "Il les a",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 80:17.\nv. Il les a nourris de la graisse du froment, alléluia ; et il les a rassasiés du miel de la pierre, alléluia, alléluia, alléluia.\n!Ps 80:2\nExultez pour Dieu, notre secours ; jubilez pour le Dieu de Jacob.\n&Gloria\nv. Il les a nourris de la graisse du froment, alléluia ; et il les a rassasiés du miel de la pierre, alléluia, alléluia, alléluia."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, sous un sacrement admirable, nous avez laissé le mémorial de votre passion, accordez-nous une telle vénération pour les mystères sacrés de votre Corps et de votre Sang que nous ressentions sans cesse en nous les effets de votre rédemption.\n$Qui vivis",
-            "references": null
+            "texte": "Ô Dieu, qui, sous un sacrement admirable, nous avez laissé le mémorial de votre passion, accordez-nous une telle vénération pour les mystères sacrés de votre Corps et de votre Sang que nous ressentions sans cesse en nous les effets de votre rédemption.\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 11:23-29\nFrères, j'ai moi-même reçu du Seigneur ce que je vous ai transmis : à savoir, que le Seigneur Jésus, dans la nuit où il fut livré, prit du pain, et après avoir rendu grâces, le rompit et dit : « Prenez et mangez ; ceci est mon corps, qui sera livré pour vous ; faites ceci en mémoire de moi. » De même, après le repas, il prit le calice et dit : « Ce calice est la nouvelle Alliance en mon sang ; faites ceci, toutes les fois que vous en boirez, en mémoire de moi. » Car toutes les fois que vous mangez ce pain et que vous buvez ce calice, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. C'est pourquoi celui qui mangera le pain ou boira le calice du Seigneur indignement, sera coupable envers le Corps et le Sang du Seigneur. Que chacun donc s'éprouve soi-même, et qu'ainsi il mange de ce pain et boive de ce calice ; car celui qui mange et boit indignement, sans discerner le Corps du Seigneur, mange et boit son propre jugement.",
-            "references": null
+            "texte": "Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 11:23-29\nFrères, j'ai moi-même reçu du Seigneur ce que je vous ai transmis : à savoir, que le Seigneur Jésus, dans la nuit où il fut livré, prit du pain, et après avoir rendu grâces, le rompit et dit : « Prenez et mangez ; ceci est mon corps, qui sera livré pour vous ; faites ceci en mémoire de moi. » De même, après le repas, il prit le calice et dit : « Ce calice est la nouvelle Alliance en mon sang ; faites ceci, toutes les fois que vous en boirez, en mémoire de moi. » Car toutes les fois que vous mangez ce pain et que vous buvez ce calice, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. C'est pourquoi celui qui mangera le pain ou boira le calice du Seigneur indignement, sera coupable envers le Corps et le Sang du Seigneur. Que chacun donc s'éprouve soi-même, et qu'ainsi il mange de ce pain et boive de ce calice ; car celui qui mange et boit indignement, sans discerner le Corps du Seigneur, mange et boit son propre jugement."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Graduale",
-            "texte": "!Ps 144:15-16\nLes yeux de tous espèrent en vous, Seigneur, et vous leur donnez leur nourriture en temps opportun.\nV. Vous ouvrez votre main, et vous remplissez toute chair de votre bénédiction. Alléluia, alléluia.\n!Joannes 6:56-57\nMa chair est vraiment une nourriture, et mon Sang est vraiment un breuvage ; celui qui mange ma Chair et boit mon Sang demeure en moi et moi en lui. Alléluia.",
-            "incipit": "Les yeux de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 144:15-16\nLes yeux de tous espèrent en vous, Seigneur, et vous leur donnez leur nourriture en temps opportun.\nV. Vous ouvrez votre main, et vous remplissez toute chair de votre bénédiction."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Joannes 6:56-57\nMa chair est vraiment une nourriture, et mon Sang est vraiment un breuvage ; celui qui mange ma Chair et boit mon Sang demeure en moi et moi en lui. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia sancti Evangéli secúndum Joánnem.\n!Joann 6:56-59\nEn ce temps-là, Jésus dit à la foule des Juifs : « Celui qui mange ma chair et boit mon sang, demeure en moi, et moi en lui. Comme le Père qui est vivant m'a envoyé, et que je vis par le Père, ainsi celui qui me mange vivra aussi par moi. C'est là le pain qui est descendu du ciel : il n'en est point comme de vos pères qui ont mangé la manne et qui sont morts ; celui qui mange de ce pain vivra éternellement. »",
-            "references": null
+            "texte": "Sequéntia sancti Evangéli secúndum Joánnem.\n!Joann 6:56-59\nEn ce temps-là, Jésus dit à la foule des Juifs : « Celui qui mange ma chair et boit mon sang, demeure en moi, et moi en lui. Comme le Père qui est vivant m'a envoyé, et que je vis par le Père, ainsi celui qui me mange vivra aussi par moi. C'est là le pain qui est descendu du ciel : il n'en est point comme de vos pères qui ont mangé la manne et qui sont morts ; celui qui mange de ce pain vivra éternellement. »"
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Offertorium",
-            "texte": "!Levit 21:6\nLes prêtres du Seigneur offrent l'encens et le pain à Dieu ; et c'est pourquoi ils seront saints pour leur Dieu, et ils ne profaneront point son Nom, alléluia.",
-            "incipit": "Les prêtres du",
-            "mp3": null,
-            "references": null
+            "texte": "!Levit 21:6\nLes prêtres du Seigneur offrent l'encens et le pain à Dieu ; et c'est pourquoi ils seront saints pour leur Dieu, et ils ne profaneront point son Nom, alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Secreta",
-            "texte": "À votre Église, Seigneur, accordez avec bienveillance l'unité et la paix, que symbolisent les offrandes que nous vous présentons.\n$Per Dominum",
-            "references": null
+            "texte": "À votre Église, Seigneur, accordez avec bienveillance l'unité et la paix, que symbolisent les offrandes que nous vous présentons.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Communio",
-            "texte": "!1 Cor 11:26-27\nChaque fois que vous mangerez ce pain et boirez ce calice, vous annoncerez la mort du Seigneur, jusqu'à ce qu'Il vienne ; donc, quiconque mangera le pain ou boira le calice du Seigneur indignement, il sera coupable du Corps et du Sang du Seigneur, alléluia.",
-            "incipit": "Chaque fois que",
-            "mp3": null,
-            "references": null
+            "texte": "!1 Cor 11:26-27\nChaque fois que vous mangerez ce pain et boirez ce calice, vous annoncerez la mort du Seigneur, jusqu'à ce qu'Il vienne ; donc, quiconque mangera le pain ou boira le calice du Seigneur indignement, il sera coupable du Corps et du Sang du Seigneur, alléluia."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent01-4.txt",
             "section": "Postcommunio",
-            "texte": "Accordez-nous, Seigneur, dans l'éternité, cette jouissance intarissable de votre divinité qu'annonce en figure ici-bas la communion à vos précieux Corps et Sang.\n$Qui vivis",
-            "references": null
+            "texte": "Accordez-nous, Seigneur, dans l'éternité, cette jouissance intarissable de votre divinité qu'annonce en figure ici-bas la communion à vos précieux Corps et Sang.\n$Qui vivis"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Tempora/Pent01-4.txt",
         "Latin/Tempora/Pent01-4.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

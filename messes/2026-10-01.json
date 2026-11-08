@@ -28,188 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Introitus",
             "texte": "!Eccli 45:30\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)\n!Ps 131:1.\nMeménto, Dómine, David: et omnis mansuetúdinis ejus.\n&Gloria\nv. Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in ætérnum. (Allelúja, allelúja.)",
-            "incipit": "Státuit ei Dóminus",
+            "incipit": {
+              "incipit": "Statuit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_[oh:h]e_[oh:h]d_[oh:h])cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_[oh:h]i_[oh:h]h_[oh:h])tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_statuit-ei-dominus.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C4.txt",
             "section": "Oratio",
-            "texte": "v. Da, quǽsumus, omnípotens Deus: ut beáti N. Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.\n$Per Dominum.",
-            "references": null
+            "texte": "v. Da, quǽsumus, omnípotens Deus: ut beáti N. Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.\n$Per Dominum."
           },
           "Lectio": {
             "fichier": "Latin/Sancti/10-01.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Graduale",
-            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 109:4\nTu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
-            "incipit": "Ecce sacérdos magnus,",
+            "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+            "incipit": {
+              "incipit": "Ecce sacerdos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
-            "references": null
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/10-01.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": {
+              "incipit": "Tu es sacerdos",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
+            "mp3": "alleluia_tu-es-sacerdos.mp3",
             "fichier": "Latin/Sancti/10-01.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/10-01.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
-            "incipit": "Invéni David servum",
+            "incipit": {
+              "incipit": "Inveni David",
+              "version": "Dominican",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Offertorium"
+            },
+            "gabc": "\"(c3) In(c)v\\u00e9(e!fg)ni(f) (::) Da(f)vid(fhffe) ser(g)vum(giHGh) me(fgf)um,(f) (:) \\u00f3(hhi)le(h)o(h) san(h)cto(hg) me(h)o(hiHG//hvGFE/fe) (;) un(hhf~)xi(h) e(hiHG)um:(h) (:) ma(hhi)nus(h) e(h!iji)nim(ih) me(fhhf//ivHGh)a(hg) (;) au(h)xi(h)li(hg)\\u00e1(hi)bi(f)tur(eed) e(fhFE/fvEDe)i,(ed) (:) et(ef) br\\u00e1(e)chi(ef/hg)um(gf) me(hg)um(hig//hvFEf) (;) con(e)for(f)t\\u00e1(fhhf//ivHGh)bit(gf) e(effe)um.(e) (::)\"",
             "mp3": "offertoire_inveni-david-servum.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C4.txt",
             "section": "Secreta",
-            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum.",
-            "references": null
+            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/10-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Communio",
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
-            "incipit": "Fidélis servus et",
-            "mp3": "communion_fidelis-servus-et.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Fidelis servus (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C4.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum",
-            "references": null
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Introitus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Oratio": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Oratio",
-            "texte": "Faites, nous vous en prions, Dieu tout-puissant, que la vénérable solennité de saint N., votre évêque et confesseur, accroisse en nous la dévotion et le salut.\n$Per Dominum",
-            "references": null
+            "texte": "Faites, nous vous en prions, Dieu tout-puissant, que la vénérable solennité de saint N., votre évêque et confesseur, accroisse en nous la dévotion et le salut.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
-            "incipit": "Voici un grand",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Offertorium",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Secreta",
-            "texte": "Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.\n$Per Dominum.",
-            "references": null
+            "texte": "Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/10-01.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Communio",
-            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
-            "incipit": "Voici le serviteur",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.\n$Per Dominum"
           }
         }
       },

@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent23-0.txt",
-            "section": "Introitus",
             "texte": "!Jer 29:11; 29:12; 29:14\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.\n!Ps 84:2\nBenedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.\n&Gloria\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.",
-            "incipit": "Dicit Dóminus: Ego",
+            "incipit": {
+              "incipit": "Dicit Dominus : Ego",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DI(d)cit(bxdbc) Dó(dc/fffg)mi(f)nus :(f.) *(,) E(f)go(f) có(fhg)gi(f)to(fff) (,) co(d)gi(bxdbc)ta(dc/fffg)ti(f)ó(fg'h)nes(h_f) pa(hjvvH'GFf'_[oh:h]g_[oh:h]f_[oh:h])cis,(f.) (;) et(fg~) non(f) af(fe~)fli(g)cti(ixgh!jvHG'hw!ivHG)ó(fg!hvGF'g)nis :(gf..) (:) in(f)vo(g)cá(g/hji)bi(jjj)tis(hjgg) me,(f.) (;) et(f) e(g)go(f) ex(f)áu(ixfg'i)di(i)am(i.g!hwihivH~G~) vos :(hg..) (:) et(f) re(f)dú(gh)cam(f) ca(f)pti(f)vi(fff)tá(f)tem(dg) ve(fge/f_d)stram(dc..) (;) de(ffe) cun(g.h!iwj)ctis(hg/h_g) lo(fg!hvGF'g)cis.(gf..) (::) <i>Ps.</i> Be(fg)ne(gf)di(gh)xí(h)sti(h) Dó(h)mi(h)ne(g) ter(ixi)ram(h) tu(g)am :(f.) *(:) a(f)ver(gh)tí(hj)sti(g) ca(f)pti(f')vi(g)tá(fd)tem(f') Ja(g)cob.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_dicit-dominus-ego.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pent23-0.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Oratio",
-            "texte": "Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a peccatórum néxibus, quæ pro nostra fragilitáte contráximus, tua benignitáte liberémur.\n$Per Dominum",
-            "references": null
+            "texte": "Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a peccatórum néxibus, quæ pro nostra fragilitáte contráximus, tua benignitáte liberémur.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Phil 3:17-21; 4:1-3\nFratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant, sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam vobis - nunc autem et flens dico - inimícos Crucis Christi: quorum finis intéritus: quorum Deus venter est: et glória in confusióne ipsórum, qui terréna sápiunt. Nostra autem conversátio in cœlis est: unde étiam Salvatórem exspectámus, Dóminum nostrum Jesum Christum, qui reformábit corpus humilitátis nostræ, configurátum córpori claritátis suæ, secúndum operatiónem, qua étiam possit subjícere sibi ómnia. Itaque, fratres mei caríssimi et desideratíssimi, gáudium meum et coróna mea: sic state in Dómino, caríssimi. Evódiam rogo et Sýntychen déprecor idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris adjutóribus meis, quorum nómina sunt in libro vitæ.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Phil 3:17-21; 4:1-3\nFratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant, sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam vobis - nunc autem et flens dico - inimícos Crucis Christi: quorum finis intéritus: quorum Deus venter est: et glória in confusióne ipsórum, qui terréna sápiunt. Nostra autem conversátio in cœlis est: unde étiam Salvatórem exspectámus, Dóminum nostrum Jesum Christum, qui reformábit corpus humilitátis nostræ, configurátum córpori claritátis suæ, secúndum operatiónem, qua étiam possit subjícere sibi ómnia. Itaque, fratres mei caríssimi et desideratíssimi, gáudium meum et coróna mea: sic state in Dómino, caríssimi. Evódiam rogo et Sýntychen déprecor idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris adjutóribus meis, quorum nómina sunt in libro vitæ."
           },
           "Graduale": {
+            "texte": "!Ps 43:8-9\nLiberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti.\nV. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.",
+            "incipit": {
+              "incipit": "Liberasti nos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c2) LI(d)be(ff)rá(fg)sti(fg'h) nos,(fef.) *(,) Dó(ihig)mi(fg)ne,(g_[oh:h]d//gih/ijhhg.) (;) ex(g) af(gih)fli(ij)gén(j)ti(g)bus(jh/ihig) nos :(g_[oh:h]e//fgf/gddc.) (:) et(c) e(df)os(fdf) qui(d) nos(fe) o(fg)dé(ggfgd//ef/gfg)runt,(fe..) (;) con(gih)fu(jhhggefv.dfe)dí(cdc)sti.(c!e'g) (,) (ce'!gvgv'1FD//ced/e[ll:1]ddc.) (::) <sp>V/</sp>. In(cg) De(gv.fg!hvFD'gvF'EC'd//ffdevDCdv[ll:1]/CBc.)(,)(ff//fffc/dfD'[ull:0]BdfD'Bc.)(,)(ffg/iiivGFE./[-0.5]ghGF'Ef_g)o(g.) (;) lau(hi'j~)dá(j)bi(i)mur(i_[oh:h]h) to(i_[oh:h]h/ikj)ta(jiig) (,) di(gig/iivG'Fg!hwi_[oh:h]h)e,(iiivHG'hfgvFEfe..) (:) et(c) nó(ff)mi(d)ni(c) tu(gfg)o(gge//fgf/gddc.) (;) con(c)fi(d)té(fgf)bi(dgf/gh)mur(g.) <clear>*(,) in(cd) saé(fgf)cu(dgf/gh)la.(g.) (;) (cg/i.g!hwi_[oh:h]g/!iigffd//ceDC.) (::)",
+            "mp3": "graduel_liberasti-nos.mp3",
             "fichier": "Latin/Tempora/Pent23-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 43:8-9\nLiberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti.\nV. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula. Allelúja, allelúja.\n!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.",
-            "incipit": "Liberásti nos, Dómine,",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.",
+            "incipit": {
+              "incipit": "De profundis",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c2) AL(cd)le(c)lú(cfe/gh){ia}.(g.) *(;) <i>ij.</i>(fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::) <sp>V/</sp>. De(cd) pro(c)fún(cfe/gh)dis(g.) (,) cla(g)má(g!hwi/jiivHG)vi(ghfgvFEfe..) (;) ad(dg) te,(ghGF'gffvED'ew!fvED'e) Dó(c)mi(cd'e)ne :(dc..) (:) Dó(cfe/gh)mi(g)ne(g.) (,) ex(gh!i'j)áu(j_k)di(g_[oh:h]i_[oh:h]g_[oh:h]!hwi_[oh:h]hivHGhg..) (;) * vo(dfe)cem(fg) me(g)am.(g.) (,) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::)",
+            "mp3": "alleluia_de-profundis.mp3",
             "fichier": "Latin/Tempora/Pent23-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:18-26\nIn illo témpore: Loquénte Jesu ad turbas, ecce, princeps unus accéssit et adorábat eum, dicens: Dómine, fília mea modo defúncta est: sed veni, impóne manum tuam super eam, et vivet. Et surgens Jesus sequebátur eum et discípuli ejus. Et ecce múlier, quæ sánguinis fluxum patiebátur duódecim annis, accéssit retro et tétigit fímbriam vestiménti ejus. Dicébat enim intra se: Si tetígero tantum vestiméntum ejus, salva ero. At Jesus convérsus et videns eam, dixit: Confíde, fília, fides tua te salvam fecit. Et salva facta est múlier ex illa hora. Et cum venísset Jesus in domum príncipis, et vidísset tibícines et turbam tumultuántem, dicebat: Recédite: non est enim mórtua puélla, sed dormit. Et deridébant eum. Et cum ejécta esset turba, intrávit et ténuit manum ejus. Et surréxit puélla. Et éxiit fama hæc in univérsam terram illam.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:18-26\nIn illo témpore: Loquénte Jesu ad turbas, ecce, princeps unus accéssit et adorábat eum, dicens: Dómine, fília mea modo defúncta est: sed veni, impóne manum tuam super eam, et vivet. Et surgens Jesus sequebátur eum et discípuli ejus. Et ecce múlier, quæ sánguinis fluxum patiebátur duódecim annis, accéssit retro et tétigit fímbriam vestiménti ejus. Dicébat enim intra se: Si tetígero tantum vestiméntum ejus, salva ero. At Jesus convérsus et videns eam, dixit: Confíde, fília, fides tua te salvam fecit. Et salva facta est múlier ex illa hora. Et cum venísset Jesus in domum príncipis, et vidísset tibícines et turbam tumultuántem, dicebat: Recédite: non est enim mórtua puélla, sed dormit. Et deridébant eum. Et cum ejécta esset turba, intrávit et ténuit manum ejus. Et surréxit puélla. Et éxiit fama hæc in univérsam terram illam."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent23-0.txt",
-            "section": "Offertorium",
             "texte": "!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te, Dómine.",
-            "incipit": "De profúndis clamávi",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "De profundis",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DE(c) pro(e)fún(f'/hf/hhh)dis(f_ef.) *(,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) <nlba>Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne :</nlba>(f.) (:) Dó(hig'/hf)mi(ef)ne(ff) (,) ex(hji)áu(high)di(f.) (,) o(f)ra(fe)ti(gih)ó(hhhe/gf)nem(fg) me(f)am :(f//hhhe/g_[oh:h]f) (,) (f'/hg/hiG'F//g_[oh:h]fgvFEfvEC//e.f!gwh_f) (,) (h_f/hhhvFE'ec/eef.) (:) <nlba>de(c) pro(e)fún(f'/hf/hhh)dis</nlba>(f_ef.) (,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (::) (z)",
+            "mp3": "offertoire_de-profundis.mp3",
+            "fichier": "Latin/Tempora/Pent23-0.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Secreta",
-            "texte": "Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis offérimus: ut, quod imméritis contulísti, propítius exsequáris.\n$Per Dominum",
-            "references": null
+            "texte": "Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis offérimus: ut, quod imméritis contulísti, propítius exsequáris.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent23-0.txt",
-            "section": "Communio",
             "texte": "!Marc 11:24\nAmen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.",
-            "incipit": "Amen, dico vobis,",
+            "incipit": {
+              "incipit": "Amen dico vobis quidquid",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) A(cd)men(ixdh'!iv) di(h)co(g) vo(jijh)bis,(h.) (,) * quid(h)quid(g) o(f)rán(h)tes(f) pé(ghg)ti(fg)tis,(g.) (;) cré(ixhih)di(g)te(f) qui(fg)a(f) ac(f)ci(f)pi(f)é(ixfg!hiHF'g)tis,(f.) (;) et(hhV!gh~) fi(fg'h)et(ffe) vo(de!fvED'e)bis.(e[ll:1]d..) (::)",
             "mp3": "communion_amen-dico-vobis.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pent23-0.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent23-0.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne gaudére, humánis non sinas subjacére perículis.\n$Per Dominum",
-            "references": null
+            "texte": "Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne gaudére, humánis non sinas subjacére perículis.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Introitus",
-            "texte": "!Jer 29:11; 29:12; 29:14\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.\n!Ps 84:2\nVous avez béni votre terre, Seigneur, vous avez détourné la captivité de Jacob.\n&Gloria\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.",
-            "incipit": "Ainsi parle le",
-            "mp3": null,
-            "references": null
+            "texte": "!Jer 29:11; 29:12; 29:14\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.\n!Ps 84:2\nVous avez béni votre terre, Seigneur, vous avez détourné la captivité de Jacob.\n&Gloria\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Oratio",
-            "texte": "Pardonnez, Seigneur, les fautes de votre peuple, en sorte que, par votre libéralité, soient dénoués les liens des péchés que nous a fait commettre notre humaine faiblesse.\n$Per Dominum",
-            "references": null
+            "texte": "Pardonnez, Seigneur, les fautes de votre peuple, en sorte que, par votre libéralité, soient dénoués les liens des péchés que nous a fait commettre notre humaine faiblesse.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Phil 3:17-21; 4:1-3\nFrères, soyez mes imitateurs, et ayez les yeux sur ceux qui marchent suivant le modèle que vous avez en nous. Car il en est plusieurs qui marchent en ennemis de la croix du Christ : je vous en ai souvent parlé, et j'en parle maintenant encore avec larmes. Leur fin, c'est la perdition, eux qui font leur dieu de leur ventre, et mettent leur gloire dans ce qui fait leur honte, n'ayant de goût que pour les choses de la terre. Pour nous, notre cité est dans les cieux, d'où nous attendons aussi comme Sauveur le Seigneur Jésus-Christ, qui transformera notre corps si misérable, en le rendant semblable à son corps glorieux, par sa vertu puissante qui lui assujettit toutes choses. C'est pourquoi, mes chers et bien-aimés frères, ma joie et ma couronne, tenez ainsi ferme dans le Seigneur, mes bien-aimés. J'exhorte Évodie et j'invite Syntyche à être en bonne intelligence dans le Seigneur. Et toi aussi, mon fidèle compagnon, je te prie de leur venir en aide, elles qui ont combattu pour l'Évangile avec moi, avec Clément, et mes autres collaborateurs dont les noms sont dans le livre de vie.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Phil 3:17-21; 4:1-3\nFrères, soyez mes imitateurs, et ayez les yeux sur ceux qui marchent suivant le modèle que vous avez en nous. Car il en est plusieurs qui marchent en ennemis de la croix du Christ : je vous en ai souvent parlé, et j'en parle maintenant encore avec larmes. Leur fin, c'est la perdition, eux qui font leur dieu de leur ventre, et mettent leur gloire dans ce qui fait leur honte, n'ayant de goût que pour les choses de la terre. Pour nous, notre cité est dans les cieux, d'où nous attendons aussi comme Sauveur le Seigneur Jésus-Christ, qui transformera notre corps si misérable, en le rendant semblable à son corps glorieux, par sa vertu puissante qui lui assujettit toutes choses. C'est pourquoi, mes chers et bien-aimés frères, ma joie et ma couronne, tenez ainsi ferme dans le Seigneur, mes bien-aimés. J'exhorte Évodie et j'invite Syntyche à être en bonne intelligence dans le Seigneur. Et toi aussi, mon fidèle compagnon, je te prie de leur venir en aide, elles qui ont combattu pour l'Évangile avec moi, avec Clément, et mes autres collaborateurs dont les noms sont dans le livre de vie."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Graduale",
-            "texte": "!Ps 43:8-9\nVous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient.\nV. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais. Alléluia, alléluia.\n!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Alléluia.",
-            "incipit": "Vous nous avez",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 43:8-9\nVous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient.\nV. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:18-26\nEn ce temps-là, tandis que Jésus parlait aux foules, voici qu'un chef s'avança, se prosterna devant lui et dit : « Seigneur, ma fille vient de mourir ; mais venez, imposez votre main sur elle, et elle vivra. » Jésus se leva et le suivit ainsi que ses disciples. Et voilà qu'une femme, affligée d'une perte de sang depuis douze ans, s'approcha par derrière et toucha la houppe de son vêtement. Car elle se disait en elle-même : « Si seulement je touche son vêtement, je serai guérie. » Jésus se retourna, la vit et dit : « Ayez confiance, ma fille, votre foi vous a guérie. » Et la femme fut guérie à l'heure même. Arrivé à la maison du chef, Jésus vit les joueurs de flûte et une foule qui faisait grand bruit, et il leur dit : « Retirez-vous : car la jeune fille n'est pas morte, mais elle dort. » Et ils se moquaient de lui. Lorsqu'on eut fait sortir la foule, il entra, prit la main de la jeune fille, et elle se leva. Et le bruit s'en répandit dans tout ce pays.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:18-26\nEn ce temps-là, tandis que Jésus parlait aux foules, voici qu'un chef s'avança, se prosterna devant lui et dit : « Seigneur, ma fille vient de mourir ; mais venez, imposez votre main sur elle, et elle vivra. » Jésus se leva et le suivit ainsi que ses disciples. Et voilà qu'une femme, affligée d'une perte de sang depuis douze ans, s'approcha par derrière et toucha la houppe de son vêtement. Car elle se disait en elle-même : « Si seulement je touche son vêtement, je serai guérie. » Jésus se retourna, la vit et dit : « Ayez confiance, ma fille, votre foi vous a guérie. » Et la femme fut guérie à l'heure même. Arrivé à la maison du chef, Jésus vit les joueurs de flûte et une foule qui faisait grand bruit, et il leur dit : « Retirez-vous : car la jeune fille n'est pas morte, mais elle dort. » Et ils se moquaient de lui. Lorsqu'on eut fait sortir la foule, il entra, prit la main de la jeune fille, et elle se leva. Et le bruit s'en répandit dans tout ce pays."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Des profondeurs je crie vers vous, Seigneur",
-            "incipit": "Des profondeurs je",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Des profondeurs je crie vers vous, Seigneur"
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Secreta",
-            "texte": "Nous vous offrons, Seigneur, ce sacrifice de louange, pour que s'accroisse notre zèle à vous servir, afin que votre bonté achève en nous ce que vous avez commencé sans mérite de notre part.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous offrons, Seigneur, ce sacrifice de louange, pour que s'accroisse notre zèle à vous servir, afin que votre bonté achève en nous ce que vous avez commencé sans mérite de notre part.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Communio",
-            "texte": "!Marc 11:24\nAmen je vous le dis : tout ce que vous demandez dans la prière, croyez que vous le recevrez, et cela adviendra pour vous.",
-            "incipit": "Amen je vous",
-            "mp3": null,
-            "references": null
+            "texte": "!Marc 11:24\nAmen je vous le dis : tout ce que vous demandez dans la prière, croyez que vous le recevrez, et cela adviendra pour vous."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent23-0.txt",
             "section": "Postcommunio",
-            "texte": "Dieu tout-puissant, qui nous donnez la joie de participer aux mystères divins, ne permettez pas que nous succombions aux périls humains.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout-puissant, qui nous donnez la joie de participer aux mystères divins, ne permettez pas que nous succombions aux périls humains.\n$Per Dominum"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Tempora/Pent23-0.txt",
         "Latin/Tempora/Pent23-0.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

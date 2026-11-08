@@ -30,188 +30,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/04-25.txt",
-            "section": "Introitus",
             "texte": "!Ps 63:3\nv. Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.\n!Ps 63:2\nExáudi, Deus, oratiónem meam cum déprecor: a timóre inimíci éripe ánimam meam.\n&Gloria\nv. Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.",
-            "incipit": "Protexísti me, Deus,",
+            "incipit": {
+              "incipit": "Protexisti me",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c2) PR{o}(cd)te(c)xí(cd'f)sti(f) me(gfg) ()* De(gh!ivHG'h)us(hg..) (;) a(g) con(gf~)vén(g!iiivH~G~)tu(hg) ma(f)li(gffe)gnán(fg~)ti(gh!ivHG'h)um,(hg..) (,) al(ghf~)le(g)lú(g!hwihi){ia} :(hg..) (:) a(gf) mul(g)ti(i)tú(h/iji)di(hiHG'h)ne(hg..) (,) o(g)pe(gi)rán(i)ti(i_[oh:h]hivHG'h)um(h_g) in(gh)i(h)qui(fh)tá(ghffef)tem,(fe..) (;) al(fg~)le(g)lú(fge/fgf){ia},(f.) (,) al(fg)le(ghffvE'DC)lú(cdc___){ia}.(c.) (::) <i>Ps.</i> Ex(cfe)áu(fg~)di(g) De(g)us(g) o(g)ra(g)ti(g)ó(g)nem(g) me(gi)am(h) cum(h) dé(h)pre(hg)cor :(gh..) *(:) a(ge) ti(fg)mó(g)re(g) in(g)i(g)mí(g)ci(g.) (,) é(g)ri(g)pe(g) á(g!hwi)ni(g')mam(f) me(fff)am.(dc..) (::) Gló(cfe)ri(fg)a(g) Pa(g)tri.(g) (::) <eu>E(g) u(g!hwi) o(g') u(f) a(fff) e.</eu>(dc..) (::)",
             "mp3": "introitus_protexisti-me-deus.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/04-25.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne profícere et oratióne deféndi.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne profícere et oratióne deféndi.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 1:10-14\nSimilitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et pennæ eórum exténtæ désuper: duæ pennæ singulórum jungebántur et duæ tegébant córpora eórum: et unumquódque eórum coram fácie sua ambulábat: ubi erat ímpetus spíritus, illuc gradiebántur, nec revertebántur cum ambulárent. Et similitúdo animálium, aspéctus eórum quasi carbónum ignis ardéntium et quasi aspéctus lampadárum. Hæc erat visio discúrrens in médio animálium, splendor ignis, et de igne fulgur egrédiens. Et animália ibant et revertebántur in similitúdinem fúlguris coruscántis.",
-            "references": null
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 1:10-14\nSimilitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et pennæ eórum exténtæ désuper: duæ pennæ singulórum jungebántur et duæ tegébant córpora eórum: et unumquódque eórum coram fácie sua ambulábat: ubi erat ímpetus spíritus, illuc gradiebántur, nec revertebántur cum ambulárent. Et similitúdo animálium, aspéctus eórum quasi carbónum ignis ardéntium et quasi aspéctus lampadárum. Hæc erat visio discúrrens in médio animálium, splendor ignis, et de igne fulgur egrédiens. Et animália ibant et revertebántur in similitúdinem fúlguris coruscántis."
           },
           "Graduale": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Graduale",
-            "texte": "Allelúja, allelúja.\n!Ps 88:6\nv. Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 20:4.\nPosuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.",
-            "incipit": "Allelúja, allelúja. Confitebúntur",
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/04-25.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Ps 88:6\nv. Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 20:4.\nPosuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.",
+            "incipit": {
+              "incipit": "Confitebuntur",
+              "version": "Solesmes",
+              "distance": 23,
+              "similarite": 0.425,
+              "source": "Alleluia"
+            },
+            "gabc": "(c2) AL(cd)le(c)lú(cfe!gh){ia}.(g.) *(;) <i>ij.</i>(fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/e[ll:1]ddc.) (::) <sp>V/</sp>. Con(cd)fi(c)te(cfe)bún(fg)tur(g.) cae(gh!ij)li(iivHG.) (;) mi(g)ra(g)bí(g/hih)li(gf)a(f) tu(fvEDef!hvGF'fvEDef)a(e.) (,) Dó(e!fw!gvF'ED'ew!fvED')mi(cd'e)ne :(dc..) (:) ét(gfg)e(ihijg//jvIH'Fg.)(;)(gfgihijg//jvIH'F)nim(g'/hihhg.) (;) ve(g)ri(hih)tá(gf)tem(f) tu(fvEDef!hvGF'fvEDef)am(e./fgf'/gd//evDCdc..) (:) in(cd) ec(c)clé(c.d!ewfef)si(e)a(e.) *(,) san(fg)ctó(fe/fgf/gh)rum.(g.) (;) (fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/e[ll:1]ddc.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/04-25.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/04-25.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
-            "incipit": "Confitebúntur cœli mirabília",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Confitebuntur",
+              "version": "Solesmes",
+              "distance": 1,
+              "similarite": 0.975,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) COn(e)fi(e/gih)te(h)bún(hih)tur(h.) *(,) cae(hhh/iji/kkklk)li(iji.) (;) mi(ei)ra(i)bí(i/jkj)li(ih)a(hkJIH'hg) tu(fi)a(i./[-0.5]kkk) (,) Dó(h!kki)mi(hg/hi!jvIH'i)ne,(ijIH'hg.) (:) et(e) ve(e/gih)ri(h)tá(h)tem(hgh) tu(hjihhf/h_g)am(hhhiHG.) (;) in(fhg) ec(h)clé(i)si(h)a(hji/jh) san(gf~)ctó(hihhe/hh/i_[oh:h]h)rum,(h.) (:) <nlba>al(ih~)le(iv.hh/ih/ihhe//f!hhh)lú(fe~){ia},</nlba>(efED.) (;) al(df)le(hv.iijh.1/ji/jhhe)(,)(f!hhhjvIH'GF'//hvGF'gvFE')lú(ef'g){ia}.(fe..) (::)",
+            "mp3": "offertoire_confitebuntur.mp3",
+            "fichier": "Latin/Sancti/04-25.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Secreta",
-            "texte": "Beáti Marci Evangelístæ tui sollemnitáte tibi múnera deferéntes, quǽsumus, Dómine: ut, sicut illum prædicátio evangélica fecit gloriósum: ita nos ejus intercéssio et verbo et ópere tibi reddat accéptos.\n$Per Dominum",
-            "references": null
+            "texte": "Beáti Marci Evangelístæ tui sollemnitáte tibi múnera deferéntes, quǽsumus, Dómine: ut, sicut illum prædicátio evangélica fecit gloriósum: ita nos ejus intercéssio et verbo et ópere tibi reddat accéptos.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/04-25.txt",
-            "section": "Communio",
             "texte": "!Ps 63:11\nLætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja.",
-            "incipit": "Lætábitur justus in",
+            "incipit": {
+              "incipit": "Laetabitur justus (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) LAe(f)tá(ggh)bi(g)tur(fe~) ju(f_[oh:h]g_[oh:h]f_[oh:h])stus(f.) <clear>*(,) in(fh~) Dó(h_g!jjh/jg/h_g)mi(fg!hvGF'g)no,(gf..) (;) et(fh) spe(j)rá(jlK'J)bit(jkjj/hih.) in(j) e(ixh_[oh:h]i_[oh:h]g_[oh:h])o :(gf..) (:) et(fg) lau(fg)da(f)bún(fdev_[oh:h]D~C~)tur(dc__) (,) o(fh)mnes(g!jjk) re(j)cti(ixj.h!iw!jvIG'hw!ivHG) cor(fg!hvGF'g)de,(gf..) (:) al(fh)le(j)lú(jk){ia},(jk!mv[oll:0{1]/LJ'lv[oll:}]/KJ.) (,) al(fh)le(ixgjvjh!iw!jvIG'hw!ivHG)lú(fg!hvGF'g){ia}.(gf..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2p.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/04-25.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/04-25.txt",
             "section": "Postcommunio",
-            "texte": "Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium: quo, beáti Marci evangelístæ tui précibus, nos ab ómnibus semper tueántur advérsis.\n$Per Dominum",
-            "references": null
+            "texte": "Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium: quo, beáti Marci evangelístæ tui précibus, nos ab ómnibus semper tueántur advérsis.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Introitus",
-            "texte": "!Ps 63:3\nv. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia.\n!Ps 63:2\nExaucez, ô Dieu, ma prière lorsque je vous implore ; délivrez mon âme de la crainte de l’ennemi.\n&Gloria\nv. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia.",
-            "incipit": "Vous m’avez protégé,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 63:3\nv. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia.\n!Ps 63:2\nExaucez, ô Dieu, ma prière lorsque je vous implore ; délivrez mon âme de la crainte de l’ennemi.\n&Gloria\nv. Vous m’avez protégé, ô Dieu, contre l’assemblée des méchants, contre la multitude de ceux qui commettent l’iniquité, alléluia, alléluia."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui avez glorifié le bienheureux Marc, votre Évangéliste, en l’appelant à la dignité de prédicateur de l’Évangile, faites, nous vous en supplions, que nous profitions toujours de ses enseignements, et que, eu égard à ses prières, nous soyons défendus.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui avez glorifié le bienheureux Marc, votre Évangéliste, en l’appelant à la dignité de prédicateur de l’Évangile, faites, nous vous en supplions, que nous profitions toujours de ses enseignements, et que, eu égard à ses prières, nous soyons défendus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 1:10-14\nVoici l’apparence des visages des quatre animaux : ils avaient tous les quatre une face d’homme, une face de lion à leur droite, et une face de bœuf à leur gauche, et une face d’aigle au-dessus d’eux quatre. Leurs faces et leurs ailes s’étendaient en haut ; deux de leurs ailes se joignaient, et deux couvraient leurs corps. Chacun d’eux marchait devant soi ; ils allaient où l’Esprit les poussait, et ils ne se retournaient point en marchant. Et l’aspect des animaux ressemblait à celui de charbons de feu ardents et à celui de lampes allumées. On voyait courir au milieu des animaux des flammes de feu, et de ce feu sortaient des éclairs. Et les animaux allaient et revenaient comme des éclairs flamboyants.",
-            "references": null
+            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 1:10-14\nVoici l’apparence des visages des quatre animaux : ils avaient tous les quatre une face d’homme, une face de lion à leur droite, et une face de bœuf à leur gauche, et une face d’aigle au-dessus d’eux quatre. Leurs faces et leurs ailes s’étendaient en haut ; deux de leurs ailes se joignaient, et deux couvraient leurs corps. Chacun d’eux marchait devant soi ; ils allaient où l’Esprit les poussait, et ils ne se retournaient point en marchant. Et l’aspect des animaux ressemblait à celui de charbons de feu ardents et à celui de lampes allumées. On voyait courir au milieu des animaux des flammes de feu, et de ce feu sortaient des éclairs. Et les animaux allaient et revenaient comme des éclairs flamboyants."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Graduale",
-            "texte": "Allelúja, allelúja.\n!Ps 88:6\nv. Les cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints. Alléluia.\n!Ps 20:4.\nVous avez mis sur sa tête, Seigneur, une couronne de pierres précieuses. Alléluia.",
-            "incipit": "Allelúja, allelúja. Les",
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Tractus": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/04-25.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Ps 88:6\nv. Les cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints. Alléluia.\n!Ps 20:4.\nVous avez mis sur sa tête, Seigneur, une couronne de pierres précieuses. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia.",
-            "incipit": "Les cieux publieront",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Secreta",
-            "texte": "Vous apportant nos offrandes en la solennité du bienheureux Marc, votre Évangéliste, nous vous prions, Seigneur : de même qu’il mérita la gloire par la prédication de l’Évangile : puissions-nous, par son intercession, vous devenir agréables, nous aussi, et par nos paroles, et par nos actes.\n$Per Dominum",
-            "references": null
+            "texte": "Vous apportant nos offrandes en la solennité du bienheureux Marc, votre Évangéliste, nous vous prions, Seigneur : de même qu’il mérita la gloire par la prédication de l’Évangile : puissions-nous, par son intercession, vous devenir agréables, nous aussi, et par nos paroles, et par nos actes.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Communio",
-            "texte": "!Ps 63:11\nLe juste se réjouira dans le Seigneur, et espérera en lui ; et tous ceux qui ont le cœur droit se réjouiront, alléluia, alléluia.",
-            "incipit": "Le juste se",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 63:11\nLe juste se réjouira dans le Seigneur, et espérera en lui ; et tous ceux qui ont le cœur droit se réjouiront, alléluia, alléluia."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/04-25.txt",
             "section": "Postcommunio",
-            "texte": "Que vos saints mystères, Seigneur, nous vous en prions, nous soient un continuel secours : afin que nous puissions, par les prières du bienheureux Marc votre Évangéliste, en tirer toujours une protection contre toutes les forces adverses.\n$Per Dominum",
-            "references": null
+            "texte": "Que vos saints mystères, Seigneur, nous vous en prions, nous soient un continuel secours : afin que nous puissions, par les prières du bienheureux Marc votre Évangéliste, en tirer toujours une protection contre toutes les forces adverses.\n$Per Dominum"
           }
         }
       },

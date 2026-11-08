@@ -3,18 +3,21 @@
   'use strict';
 
   var BASE_JSON = 'messes';
+  var BASE_PDF = 'partitions';
+  var PDF_WORKER = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   var ORDRE = ['Introitus', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
                'Evangelium', 'Offertorium', 'Communio'];
   var TITRES = {
     Introitus: 'Introït', Lectio: 'Épître', Graduale: 'Graduel',
     Tractus: 'Trait', Alleluia: 'Alléluia', Evangelium: 'Évangile',
-    Offertorium: 'Offertoire', Communio: 'Communion'
+    Offertorium: 'Offertoire', Communio: 'Communion',
   };
   // Sections toujours en français uniquement
   var FR_SEULEMENT = ['Lectio', 'Evangelium'];
-  // Sections où l'incipit n'est pas affiché
-  var SANS_INCIPIT = ['Introitus', 'Lectio', 'Graduale', 'Tractus', 'Alleluia',
-                      'Evangelium', 'Offertorium', 'Communio'];
+  // Sections avec partition PDF attendue
+  var AVEC_PARTITION = ['Introitus', 'Graduale', 'Tractus', 'Alleluia', 'Offertorium', 'Communio'];
+
+  var cacheExistence = {};
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -32,6 +35,29 @@
 
   function texteOk(t) {
     return typeof t === 'string' && t.trim().length > 0;
+  }
+
+  // Même logique que generer_messe.py : minuscules, sans accents, tirets
+  function slug(s) {
+    return String(s || '')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function nomPdf(cle, incipit) {
+    var s = slug(incipit);
+    if (!s) return null;
+    return BASE_PDF + '/' + slug(cle) + '_' + s + '.pdf';
+  }
+
+  // Vérifie l'existence d'un PDF (résultat mis en cache)
+  function pdfExiste(chemin) {
+    if (chemin in cacheExistence) return Promise.resolve(cacheExistence[chemin]);
+    return fetch(encodeURI(chemin), { method: 'HEAD' })
+      .then(function (r) { cacheExistence[chemin] = r.ok; return r.ok; })
+      .catch(function () { cacheExistence[chemin] = false; return false; });
   }
 
   // Nettoie les marqueurs de rubrique du texte source
@@ -68,11 +94,10 @@
     zone.appendChild(err);
   }
 
-  // Construit le bloc texte (origine + corps), utilisé pour FR et LA
-  function construireTexte(brut, classeLangue) {
+  function construireTexte(brut, classeLangue, estPsaume) {
     var d = decouper(brut);
     var conteneur = document.createElement('div');
-    conteneur.className = 'texte ' + classeLangue;
+    conteneur.className = 'texte ' + classeLangue + (estPsaume ? ' psaume' : '');
 
     if (d.origine) {
       var o = document.createElement('p');
@@ -80,7 +105,6 @@
       o.textContent = d.origine;
       conteneur.appendChild(o);
     }
-
     if (d.corps) {
       var c = document.createElement('p');
       c.className = 'corps';
@@ -90,12 +114,112 @@
     return conteneur;
   }
 
+  // Partition : rendu PDF.js de la 1re page, recadré sur la zone de notation
+  function ajouterPartition(block, cle, incipit) {
+    if (AVEC_PARTITION.indexOf(cle) === -1) return;
+    var chemin = nomPdf(cle, incipit);
+    if (!chemin) return;
+
+    pdfExiste(chemin).then(function (ok) {
+      if (!ok || !window.pdfjsLib) return;
+
+      var canvas = document.createElement('canvas');
+      canvas.className = 'pdf';
+      canvas.setAttribute('role', 'img');
+      canvas.setAttribute('aria-label', 'Partition ' + (TITRES[cle] || cle));
+
+      var wrap = document.createElement('div');
+      wrap.className = 'partition';
+      wrap.appendChild(canvas);
+      block.appendChild(wrap);
+
+      rendrePartition(encodeURI(chemin), canvas, wrap);
+    });
+  }
+
+  function rendrePartition(url, canvas, wrap) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER;
+
+    pdfjsLib.getDocument(url).promise
+      .then(function (pdf) { return pdf.getPage(1); })
+      .then(function (page) {
+        var vue = page.getViewport({ scale: 2 }); // rendu net sur écran retina
+        var tmp = document.createElement('canvas');
+        tmp.width = vue.width;
+        tmp.height = vue.height;
+        return page.render({ canvasContext: tmp.getContext('2d'), viewport: vue }).promise
+          .then(function () { return recadrer(tmp); });
+      })
+      .then(function (rogne) {
+        canvas.width = rogne.width;
+        canvas.height = rogne.height;
+        canvas.getContext('2d').drawImage(rogne, 0, 0);
+      })
+      .catch(function () { wrap.remove(); });
+  }
+  // Lit une variable CSS (ex. --carte) telle qu'elle est actuellement appliquée
+  function couleurCss(nom) {
+    var v = getComputedStyle(document.documentElement).getPropertyValue(nom).trim();
+    var m = v.match(/^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
+    if (!m) return null;
+    return [parseInt(m[1], 16), parseInt(m[2], 16), parseInt(m[3], 16)];
+  }
+  // Recadre la partition et applique les couleurs du thème :
+  // fond = --carte, encres = --texte. Les pixels intermédiaires (anti-aliasing)
+  // sont interpolés entre les deux couleurs, ce qui garde des contours nets.
+  function recadrer(src) {
+    var fond = couleurCss('--carte') || [255, 255, 255];
+    var encre = couleurCss('--texte') || [0, 0, 0];
+
+    var ctx = src.getContext('2d');
+    var img = ctx.getImageData(0, 0, src.width, src.height);
+    var d = img.data;
+    var x0 = src.width, y0 = src.height, x1 = 0, y1 = 0;
+
+    for (var y = 0; y < src.height; y++) {
+      for (var x = 0; x < src.width; x++) {
+        var i = (y * src.width + x) * 4;
+        // Luminosité du pixel d'origine : 1 = blanc, 0 = noir
+        var l = (d[i] + d[i + 1] + d[i + 2]) / (3 * 255);
+
+        d[i]     = encre[0] + (fond[0] - encre[0]) * l;
+        d[i + 1] = encre[1] + (fond[1] - encre[1]) * l;
+        d[i + 2] = encre[2] + (fond[2] - encre[2]) * l;
+        d[i + 3] = 255;
+
+        if (l < 0.97) {
+          if (x < x0) x0 = x;
+          if (x > x1) x1 = x;
+          if (y < y0) y0 = y;
+          if (y > y1) y1 = y;
+        }
+      }
+    }
+    ctx.putImageData(img, 0, 0);
+
+    if (x1 <= x0 || y1 <= y0) return src;
+
+    var pad = 8;
+    x0 = Math.max(0, x0 - pad);
+    y0 = Math.max(0, y0 - pad);
+    x1 = Math.min(src.width, x1 + pad);
+    y1 = Math.min(src.height, y1 + pad);
+
+    var out = document.createElement('canvas');
+    out.width = x1 - x0;
+    out.height = y1 - y0;
+    out.getContext('2d').drawImage(src, x0, y0, out.width, out.height, 0, 0, out.width, out.height);
+    return out;
+}
+
   function renderSection(cle, fr, la) {
     var frTexte = nettoyer(fr && fr.texte);
     var laTexte = nettoyer(la && la.texte);
     if (!frTexte && !laTexte) return null;
 
     var bilingue = FR_SEULEMENT.indexOf(cle) === -1 && laTexte && frTexte;
+    var estPsaume = cle === 'Introitus' || cle === 'Graduale' || cle === 'Tractus' ||
+                    cle === 'Offertorium' || cle === 'Communio';
 
     var block = document.createElement('section');
     block.className = 'section';
@@ -105,23 +229,15 @@
     h.textContent = TITRES[cle] || cle;
     block.appendChild(h);
 
-    // Incipit : seulement si la section ne fait pas partie de SANS_INCIPIT
-    if (SANS_INCIPIT.indexOf(cle) === -1) {
-      var inc = nettoyer((fr && fr.incipit) || (la && la.incipit));
-      if (inc) {
-        var pInc = document.createElement('p');
-        pInc.className = 'incipit';
-        pInc.textContent = inc;
-        block.appendChild(pInc);
-      }
-    }
+    // Incipit : celui de la langue latine en priorité (c'est lui qui nomme le PDF)
+    var incipit = (la && la.incipit && la.incipit.incipit) ||
+                  (fr && fr.incipit && fr.incipit.incipit) || '';
 
     if (bilingue) {
-      // Superposition FR / LA, bascule par bouton
       var pile = document.createElement('div');
       pile.className = 'pile langue-fr';
-      pile.appendChild(construireTexte(frTexte, 'texte-fr'));
-      pile.appendChild(construireTexte(laTexte, 'texte-la'));
+      pile.appendChild(construireTexte(frTexte, 'texte-fr', estPsaume));
+      pile.appendChild(construireTexte(laTexte, 'texte-la', estPsaume));
       block.appendChild(pile);
 
       var btn = document.createElement('button');
@@ -136,30 +252,29 @@
       });
       block.appendChild(btn);
     } else {
-      // Français seul (Lectio, Evangelium) ou latin seul en secours
-      block.appendChild(construireTexte(frTexte || laTexte, frTexte ? 'texte-fr' : 'texte-la'));
+      block.appendChild(construireTexte(frTexte || laTexte,
+                                        frTexte ? 'texte-fr' : 'texte-la', estPsaume));
     }
 
-    // Audio en dernier
-    var mp3 = (fr && fr.mp3) || (la && la.mp3);
+    // Audio : chemin relatif, erreur silencieuse si absent
+    var mp3 = (la && la.mp3) || (fr && fr.mp3);
     if (texteOk(mp3)) {
-      var dossierAudio = 'Graduale Project/';
-      var chemin = dossierAudio + mp3.replace(/^\/+/, '');
-      var src = encodeURI(chemin);
-      var wrap = document.createElement('div');
-      wrap.className = 'audio';
+      var chemin = 'Graduale Project/' + mp3.replace(/^\/+/, '');
+      var wrapAudio = document.createElement('div');
+      wrapAudio.className = 'audio';
       var audio = document.createElement('audio');
       audio.controls = true;
-      audio.preload = 'metadata';
-      audio.src = src;
+      audio.preload = 'none';
+      audio.src = encodeURI(chemin);
       audio.addEventListener('error', function () {
-        wrap.classList.add('audio-indispo');
-        wrap.setAttribute('title', 'Fichier audio introuvable : ' + chemin);
+        wrapAudio.classList.add('audio-indispo');
+        wrapAudio.title = 'Fichier audio introuvable : ' + chemin;
       });
-      wrap.appendChild(audio);
-      block.appendChild(wrap);
+      wrapAudio.appendChild(audio);
+      block.appendChild(wrapAudio);
     }
 
+    ajouterPartition(block, cle, incipit);
     return block;
   }
 
@@ -172,8 +287,8 @@
 
     var meta = [];
     if (occ.commemorations && occ.commemorations.length) {
-      meta.push('commémoration' + (occ.commemorations.length > 1 ? 's' : '') + ' : '
-                + occ.commemorations.join(', '));
+      meta.push('commémoration' + (occ.commemorations.length > 1 ? 's' : '') + ' : ' +
+                occ.commemorations.join(', '));
     }
     $('meta').textContent = meta.join(' — ');
 
@@ -205,8 +320,9 @@
     messes.forEach(function (m, i) {
       var opt = document.createElement('option');
       opt.value = String(i);
-      var nom = (m.occurrence && (m.occurrence.nom_sanctoral || m.occurrence.gagnant)) || ('Messe ' + (i + 1));
-      opt.textContent = 'Messe ' + (m.numero || i + 1) + ' — ' + nom;
+      var nom = (m.occurrence && (m.occurrence.nom_sanctoral || m.occurrence.gagnant)) ||
+                ('Messe ' + (i + 1));
+      opt.textContent = (m.numero || i + 1) + ' — ' + nom;
       select.appendChild(opt);
     });
 
@@ -221,8 +337,7 @@
     $('messe').textContent = '';
     $('choix-messe-wrap').hidden = true;
 
-    var url = BASE_JSON + '/' + dateStr + '.json';
-    fetch(url, { cache: 'no-cache' })
+    fetch(BASE_JSON + '/' + dateStr + '.json', { cache: 'no-cache' })
       .then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.json();
@@ -231,8 +346,8 @@
       .catch(function (err) {
         $('titre').textContent = '';
         $('meta').textContent = '';
-        showError('Impossible de charger la messe du ' + dateStr
-                  + ' (' + (err && err.message ? err.message : 'erreur inconnue') + ').');
+        showError('Impossible de charger la messe du ' + dateStr +
+                  ' (' + (err && err.message ? err.message : 'erreur inconnue') + ').');
       });
   }
 

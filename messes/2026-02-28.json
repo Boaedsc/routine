@@ -28,181 +28,162 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Quad1-6.txt",
-            "section": "Introitus",
             "texte": "!Ps 87:3\nv. Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam, Dómine.\n!Ps 87:2\nDómine, Deus salútis meæ: in die clamávi, et nocte coram te.\n&Gloria\nv. Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam, Dómine.",
-            "incipit": "Intret orátio mea",
+            "incipit": {
+              "incipit": "Intret oratio",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(gj)tret(j) *() o(j)rá(jkjj)ti(hj)o(j) me(jkjj)a(h!jj/khhg.) (;) in(g) con(h)spé(h/jjh/jij)ctu(gh) tu(hkj)o :(jkjj'j) (:) in(jj)clí(klJ'IH)na(hkjji) au(g)rem(hj~) tu(j_hjvIG)am(gh/igh.) (;) ad(f) pre(ef'g)cem(gj) me(jijg)am(fh/ji) (,) Dó(jh/jg)mi(g_[oh:h]e)ne.(fgFE.) (::) <i>Ps.</i> Dó(g)mi(hj)ne(j) De(j)us(j) sa(j)lú(k)tis(j) me(ih)ae :(jjj) *(:) in(ig~) di(hj)e(j) cla(j)má(j)vi,(j) et(j) no(jji)cte(hg) co(h')ram(i) te.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": "introitus_intret-oratio-mea.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Quad1-6.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Oratio",
-            "texte": "Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo flagélla tuæ iracúndiæ cleménter avérte.\n$Per Dominum",
-            "references": null
+            "texte": "Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo flagélla tuæ iracúndiæ cleménter avérte.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 5:14-23\nFratres: Rogámus vos, corrípite inquiétos, consolámini pusillánimes, suscípite infirmos, patiéntes estóte ad omnes. Vidéte, ne quis malum pro malo alícui reddat: sed semper quod bonum est sectámini in ínvicem, et in omnes. Semper gaudéte. Sine intermissióne oráte. In ómnibus grátias ágite: hæc est enim volúntas Dei in Christo Jesu in ómnibus vobis. Spíritum nolíte exstínguere. Prophetías nolíte spérnere. Omnia autem probáte: quod bonum est tenéte. Ab omni spécie mala abstinéte vos. Ipse autem Deus pacis sanctíficet vos per ómnia: ut ínteger spíritus vester, et ánima, et corpus sine queréla, in advéntu Dómini nostri Jesu Christi servétur.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 5:14-23\nFratres: Rogámus vos, corrípite inquiétos, consolámini pusillánimes, suscípite infirmos, patiéntes estóte ad omnes. Vidéte, ne quis malum pro malo alícui reddat: sed semper quod bonum est sectámini in ínvicem, et in omnes. Semper gaudéte. Sine intermissióne oráte. In ómnibus grátias ágite: hæc est enim volúntas Dei in Christo Jesu in ómnibus vobis. Spíritum nolíte exstínguere. Prophetías nolíte spérnere. Omnia autem probáte: quod bonum est tenéte. Ab omni spécie mala abstinéte vos. Ipse autem Deus pacis sanctíficet vos per ómnia: ut ínteger spíritus vester, et ánima, et corpus sine queréla, in advéntu Dómini nostri Jesu Christi servétur."
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Quad1-6.txt",
-            "section": "Graduale",
             "texte": "!Ps 116:1-2\nLaudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.\nV. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.",
-            "incipit": "Laudáte Dóminum, omnes",
+            "incipit": {
+              "incipit": "Laudate Dominum",
+              "version": "Solesmes",
+              "distance": 21,
+              "similarite": 0.475,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) LAu(eg~)dá(g_[oh:h]i_[oh:h]h_[oh:h])te(fe/hhg/ihhg.) (,) * Dó(ge)mi(fh)num(h_gi) de(h_gi) cae(hiHF'g)lis :(fv.ef!hhhvFEff//ehf/gffe.) (:) lau(e)dá(fe/f!hh)te(f) e(ef)um(f.) (,) in(eg) ex(g_[oh:h]i_[oh:h]h_[oh:h]h'hh_f//hffe/f_e)cél(d!ew!fvE'DC'd)sis.(dv.cd/efdd'd ded/e[ll:1]ddc.) (::) <sp>V/</sp>. Lau(e)dá(gh'i)te(i) e(iv.hj/ijii'i//h/iih/ihh'hhf/hffe/f/ijhhg)um(hhh) (;) o(fg~)mnes(ef) An(gh'i)ge(h)li(ivHF') e(hffef)jus :(fhFE'fddc.) (:) lau(e)dá(ehhvGE')te(e/hh//hh/ijhh'hvFE'gvFE.) (,) (ge/f!hh/ijij.) (,) (hj!kvIGhiG'Fghf./giH'G) e(ef)um(fgh!iv.hiHF.1) (;) o(e!hfh)mnes(h.) Vir(hi)tú(g_[oh:h]e//fhg)tes(gi!jvIH.f!hhvF'Ef_e) (,) * e(d!ew!fvE'DC'd)jus.(dv.cd/efdd'd ded/e[ll:1]ddc.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Quad1-6.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad2-0.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 17:1-9\nIn illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem eius, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Quad1-6.txt",
-            "section": "Offertorium",
             "texte": "!Ps 87:2-3\nDómine, Deus salútis meæ, in die clamávi et nocte coram te: intret orátio mea in conspéctu tuo, Dómine.",
-            "incipit": "Dómine, Deus salútis",
+            "incipit": {
+              "incipit": "Domine Deus salutis",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) DO(d!ewf)mi(gf)ne(g.) *(,) De(hjh)us(ghG'F) sa(fh)lú(hv.jjh!iwj)tis(g.f!gwh_g) me(ghg___)ae,(g.) (;) in(g) di(gi/kj)e(jjjhj) cla(g)má(hjh)vi,(g_[uh:l]h) (;) et(fg) no(gjh)cte(ghG'F) co(f)ram(fg!hv_G~F~) te :(gf..) (:) in(gh)tret(gh) o(gf)rá(hjh___!iwj)ti(gh)o(g_[oh:h]f) me(gh)a(hjhh/fgf.) (;) in(gh) con(g/hji)spé(j)ctu(gh) tu(gh/ji)o,(jjvIH'iw!jvIH) Dó(hg)mi(gh/jhi)ne.(hg..) (::)",
             "mp3": "offertoire_domine-deus-salutis.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Quad1-6.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Secreta",
-            "texte": "Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra sanctífica: ut, quod observántia nostra profitétur extrínsecus, intérius operétur.\n$Per Dominum",
-            "references": null
+            "texte": "Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra sanctífica: ut, quod observántia nostra profitétur extrínsecus, intérius operétur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Quad1-6.txt",
-            "section": "Communio",
             "texte": "!Ps 7:2\nDómine, Deus meus, in te sperávi: líbera me ab ómnibus persequéntibus me, et éripe me.",
-            "incipit": "Dómine, Deus meus,",
+            "incipit": {
+              "incipit": "Domine Deus meus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(f3) DO(h)mi(hhh)ne(f) *() De(h)us(ge~) me(f)us,(f!gwh.) (,) in(ef) te(h) spe(hg)rá(hi)vi :(ivHGhf..) (:) lí(hj)be(j)ra(i) me(hg) (,) ab(i) ó(hi)mni(fgFE'f)bus(fe..) per(f)se(h)quén(hi~)ti(h)bus(h) me,(hfgEC.) (;) et(c) é(ef)ri(hih)pe(g_[oh:h]e/f!gw!hvGF'g) me.(gf..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Tempora/Quad1-6.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad1-6.txt",
             "section": "Postcommunio",
-            "texte": "Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum",
-            "references": null
+            "texte": "Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Introitus",
-            "texte": "!Ps 87:3\nv. Que ma prière pénètre jusqu’à vous, Seigneur, prêtez l’oreille à ma supplication.\n!Ps 87:2\nSeigneur, Dieu de mon salut, devant vous j’ai crié le jour et la nuit.\n&Gloria\nv. Que ma prière pénètre jusqu’à vous, Seigneur, prêtez l’oreille à ma supplication.",
-            "incipit": "Que ma prière",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 87:3\nv. Que ma prière pénètre jusqu’à vous, Seigneur, prêtez l’oreille à ma supplication.\n!Ps 87:2\nSeigneur, Dieu de mon salut, devant vous j’ai crié le jour et la nuit.\n&Gloria\nv. Que ma prière pénètre jusqu’à vous, Seigneur, prêtez l’oreille à ma supplication."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Oratio",
-            "texte": "Regardez, Seigneur, votre peuple d’un œil favorable, et, dans votre clémence, détournez de lui les fléaux de votre colère.\n$Per Dominum",
-            "references": null
+            "texte": "Regardez, Seigneur, votre peuple d’un œil favorable, et, dans votre clémence, détournez de lui les fléaux de votre colère.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 5:14-23\nFrères, nous vous en prions, reprenez ceux qui sont dans le désordre, consolez ceux qui sont abattus, soutenez les faibles, soyez patients envers tous. Prenez garde que personne ne rende à autrui le mal pour le mal ; mais poursuivez toujours le bien, et entre vous, et envers vous. Soyez toujours dans la joie. Priez sans cesse. Rendez grâces en toutes choses ; car c’est là ce que Dieu veut de vous tous en Jésus-Christ. N’éteignez pas l’Esprit. Ne méprisez pas les prophéties ; mais examinez toutes choses, retenez ce qui est bon. Abstenez-vous de toute espèce de mal. Que le Dieu de paix vous sanctifie lui-même de toute manière, afin que tout votre esprit, votre âme et votre corps soient conservés irréprochables lors de l’avènement de Notre-Seigneur Jésus-Christ.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 5:14-23\nFrères, nous vous en prions, reprenez ceux qui sont dans le désordre, consolez ceux qui sont abattus, soutenez les faibles, soyez patients envers tous. Prenez garde que personne ne rende à autrui le mal pour le mal ; mais poursuivez toujours le bien, et entre vous, et envers vous. Soyez toujours dans la joie. Priez sans cesse. Rendez grâces en toutes choses ; car c’est là ce que Dieu veut de vous tous en Jésus-Christ. N’éteignez pas l’Esprit. Ne méprisez pas les prophéties ; mais examinez toutes choses, retenez ce qui est bon. Abstenez-vous de toute espèce de mal. Que le Dieu de paix vous sanctifie lui-même de toute manière, afin que tout votre esprit, votre âme et votre corps soient conservés irréprochables lors de l’avènement de Notre-Seigneur Jésus-Christ."
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Graduale",
-            "texte": "!Ps 116:1-2\nNations, louez toutes le Seigneur ; peuples, louez-le tous.\nV. Car sa miséricorde a été affermie sur nous, et la vérité du Seigneur demeure éternellement.",
-            "incipit": "Nations, louez toutes",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 116:1-2\nNations, louez toutes le Seigneur ; peuples, louez-le tous.\nV. Car sa miséricorde a été affermie sur nous, et la vérité du Seigneur demeure éternellement."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 17:1-9\nEn ce temps-là, Jésus prit avec lui Pierre, Jacques, et Jean son frère, et les conduisit à l’écart sur une haute montagne. Et il fut transfiguré devant eux : son visage resplendit comme le soleil, et ses vêtements devinrent blancs comme la neige. Et voici que Moïse et Élie leur apparurent, s’entretenant avec lui. Alors Pierre prenant la parole, dit à Jésus : Seigneur, il nous est bon d’être ici ; si vous le voulez, faisons-y trois tentes, une pour vous, une pour Moïse, et une pour Élie. Comme il parlait encore, voici qu’une nuée lumineuse les couvrit ; et voici qu’une voix sortit de la nuée, disant : Celui-ci est mon Fils bien-aimé, en qui j’ai mis toutes mes complaisances ; écoutez-le. Les disciples, l’entendant, tombèrent le visage contre terre, et furent saisis d’une grande crainte. Mais Jésus, s’approchant, les toucha, et leur dit : Levez-vous, et ne craignez point. Alors, levant les yeux, ils ne virent plus que Jésus seul. Lorsqu’ils descendaient de la montagne, Jésus leur donna cet ordre : Ne parlez à personne de ce que vous avez vu, jusqu’à ce que le Fils de l’homme soit ressuscité d’entre les morts.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 17:1-9\nEn ce temps-là, Jésus prit avec lui Pierre, Jacques, et Jean son frère, et les conduisit à l’écart sur une haute montagne. Et il fut transfiguré devant eux : son visage resplendit comme le soleil, et ses vêtements devinrent blancs comme la neige. Et voici que Moïse et Élie leur apparurent, s’entretenant avec lui. Alors Pierre prenant la parole, dit à Jésus : Seigneur, il nous est bon d’être ici ; si vous le voulez, faisons-y trois tentes, une pour vous, une pour Moïse, et une pour Élie. Comme il parlait encore, voici qu’une nuée lumineuse les couvrit ; et voici qu’une voix sortit de la nuée, disant : Celui-ci est mon Fils bien-aimé, en qui j’ai mis toutes mes complaisances ; écoutez-le. Les disciples, l’entendant, tombèrent le visage contre terre, et furent saisis d’une grande crainte. Mais Jésus, s’approchant, les toucha, et leur dit : Levez-vous, et ne craignez point. Alors, levant les yeux, ils ne virent plus que Jésus seul. Lorsqu’ils descendaient de la montagne, Jésus leur donna cet ordre : Ne parlez à personne de ce que vous avez vu, jusqu’à ce que le Fils de l’homme soit ressuscité d’entre les morts."
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Offertorium",
-            "texte": "!Ps 87:2-3\nSeigneur, Dieu de mon salut, devant vous j’ai crié le jour et la nuit ; que ma prière pénètre jusqu’à vous, Seigneur.",
-            "incipit": "Seigneur, Dieu de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 87:2-3\nSeigneur, Dieu de mon salut, devant vous j’ai crié le jour et la nuit ; que ma prière pénètre jusqu’à vous, Seigneur."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Seigneur, daignez sanctifier nos jeûnes par le présent sacrifice, pour que le changement que leur observation marque extérieurement, s’accomplisse intérieurement en nos âmes.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous en supplions, Seigneur, daignez sanctifier nos jeûnes par le présent sacrifice, pour que le changement que leur observation marque extérieurement, s’accomplisse intérieurement en nos âmes.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Communio",
-            "texte": "!Ps 7:2\nSeigneur, mon Dieu, j’ai espéré en vous ; sauvez-moi de tous ceux qui me persécutent et délivrez-moi.",
-            "incipit": "Seigneur, mon Dieu,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 7:2\nSeigneur, mon Dieu, j’ai espéré en vous ; sauvez-moi de tous ceux qui me persécutent et délivrez-moi."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad1-6.txt",
             "section": "Postcommunio",
-            "texte": "Dieu tout puissant, que, grâce à vos secours sanctifiants, nos vices soient guéris et notre âme pourvue de remèdes spirituels en vue de l’éternité.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout puissant, que, grâce à vos secours sanctifiants, nos vices soient guéris et notre âme pourvue de remèdes spirituels en vue de l’éternité.\n$Per Dominum"
           }
         }
       },

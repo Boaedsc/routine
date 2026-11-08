@@ -28,188 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Introitus",
             "texte": "!Rom 5:5\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)\n!Ps. 102:1\nBenedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.\n&Gloria\nv. Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum ejus in nobis. (Allelúja, allelúja.)",
-            "incipit": "Cáritas Dei diffúsa",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Caritas Dei sine Alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) CA(gj)ri(j)tas(j) De(j)i(hih.) (,) * dif(g)fú(gh/ih!i_[uh:l]j)sa(gh_G'_3FE'f) est(fe..) (;) in(f) cór(ef'h)di(h)bus(h) no(hghf)stris(d!ewf.) (:) per(fgf) in(ff)ha(ef)bi(g)tán(g/hjhfhf/gh)tem(g.) (,) Spí(hhg)ri(h_g)tum(e) e(ef'g~)jus(g.) in(f) no(egff)bis.(fe..) (::) <i>T. P.</i> Al(f)le(fh/jh)lú(ghg){ia},(e.) (,) al(g)le(ixg./hiG'FhvGF'g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> Bé(g)ne(hj)dic(j) á(j)ni(j)ma(j) me(k)a(j) Dó(j)mi(ih)no :(jjj) <clear>*(:) et(ig) ó(hj)mni(j)a(j) quae(j) in(j)tra(j) me(j) sunt,(j.) (,) nó(j)mi(j)ni(jji) san(hg~)cto(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+            "mp3": "introitus_caritas-dei.mp3",
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cujus sollemnitáte lætámur, ejus virtútum proficiámus exémplo.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cujus sollemnitáte lætámur, ejus virtútum proficiámus exémplo.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 7:7-14\nOptávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam lutum æstimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiæ Dei, propter disciplínæ dona commendáti.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/03-07.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 7:7-14\nOptávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum in comparatióne illíus arena est exígua, et tamquam lutum æstimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et lætátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam, quóniam horum ómnium mater est. Quam sine fictióne dídici et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiæ Dei, propter disciplínæ dona commendáti."
           },
           "Graduale": {
+            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur.",
+            "incipit": {
+              "incipit": "Venite filii",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) VE(d)ní(ff)te(ghgh) fí(h_fg)li(g)i,(f.) *(,) au(hj~)dí(j_h//jij)te(ixgjh/i_[uh:l]j) me :(ixih..) (:) ti(h)mó(hg)rem(j) Dó(j)mi(ij)ni(h_f) do(gh)cé(f)bo(ef) vos.(dec.) (,) (fhg___//jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Ac(d)cé(d)di(f)te(hvvGFhvGEff) (,) (gxde!fgF'EfvEDe.) (,) (fh/ih/ih/ijh.1) (,) ad(h) e(ih/kkh/ih/kkvIH)um,(hv.ghGF.) (;) et(h) il(h)lu(h)mi(h)ná(i!jwk)mi(ih)ni :(hihh/fgf.) (:) et(fh~) fá(h)ci(h)es(g) ve(h)strae(f.) *(,) non(df) con(e!hgh)fun(f)dén(de~)tur.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::)",
+            "mp3": "graduel_venite-filii.mp3",
             "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Graduale",
-            "texte": "!Ps 33:12; 33:6\nVeníte, fílii, audíte me: timórem Dómini docébo vos.\nV. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja.\n!Lam 1:18\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
-            "incipit": "Veníte, fílii, audíte",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Lam 1:18\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
+            "incipit": {
+              "incipit": "De excelso",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(df/gfefd)lú(ixf!gwh!ivH~G~){ia}.(gh..) *(,) <i>ij.</i>(d!ffe/fg!hvGF//ghg'/hf/gffe.) (::) <sp>V/</sp>. De(h) ex(h)cél(hg~)so(ixgih'ivGF'gffe.) (,) mi(fd/ef!g'h)sit(h) i(ixhiHGhwihi)gnem(ih..) (;) in(g) ós(gh)si(hg)bus(ghG'E) me(f!gw!hvGF'EfvED'/!ewfef)is,(e[ll:1]d..) *(:) et(d) e(f)ru(ef!gvFEfvED'ewfef)dí(e[ll:1]d)vit(ixf!gwh!ivH~G~) me.(gh..) (,) (d!ffe/fg!hvGF//ghg'/hf/gffe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. ¶ Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. ¶ Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Offertorium",
             "texte": "!Ps 118:32\nViam mandatórum tuórum cucúrri, cum dilatásti cor meum. (Allelúja.)",
-            "incipit": "Viam mandatórum tuórum",
+            "incipit": {
+              "incipit": "Viam mandatorum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) VI(ghg)am(fg) *() man(gjji/j_k)da(ji)tó(jv.ijhi)rum(hhg.) (,) tu(g)ó(ghGF'gffvEDgh)rum(g.) (;) cu(h)cúr(gjI'Ghh//fh!jvGF'fd/ef!ghg)ri,(g.) (:) cum(ghg) di(fg)la(g)tá(gj/hi//h!jj//jjjhhggf.0/h!iwjj)sti(k_[hl:1]j) (;) cor(ij/kj) me(kjj'jj_h//jjhjvIGh.)(,)(fh!jvIG___ivHGhg)um.(g.) (::) <i>T. P.</i> Al(h!iwj)le(jv.jjjghvGFg./jjvIH'iw!jvIH)lú(hg~){ia}.(gjh/ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Secreta",
-            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placatus: et præsta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Phílippi cor mirabíliter penetrávit.\n$Per Dominum eiusdem",
-            "references": null
+            "texte": "Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placatus: et præsta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Phílippi cor mirabíliter penetrávit.\n$Per Dominum eiusdem"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Communio",
             "texte": "!Ps 83:3\nCor meum et caro mea exsultavérunt in Deum vivum. (Allelúja.)",
-            "incipit": "Cor meum et",
+            "incipit": {
+              "incipit": "Cor meum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) COR(fg) me(gff)um(de) *(,) et(cd~) ca(d!f'g)ro(gh) me(hjjg)a(g_[oh:h]fhvGE.) (;) ex(fg)sul(f)ta(ghg)vé(hv.fh!jvvH'GE'f)runt(f.) (,) in(f) De(f_dfvECfhg___)um(ghF'Ef) vi(d_[oh:h]e_[oh:h]d_[oh:h])vum.(d.) (::) <i>T. P.</i> Al(f)le(ef)lú(d./cd!ewf){ia}.(e[ll:1]d..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/05-26.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/05-26.txt",
             "section": "Postcommunio",
-            "texte": "Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut beáti Philippi Confessóris tui méritis et imitatióne, semper eadem, per quæ veráciter vívimus, appetámus.\n$Per Dominum",
-            "references": null
+            "texte": "Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut beáti Philippi Confessóris tui méritis et imitatióne, semper eadem, per quæ veráciter vívimus, appetámus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Introitus",
-            "texte": "!Rom 5:5.\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)\n!Ps. 102:1\nMon âme, bénis le Seigneur : et que tout ce qui est au dedans de moi bénisse son saint nom.\n&Gloria\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)",
-            "incipit": "L’amour de Dieu",
-            "mp3": null,
-            "references": null
+            "texte": "!Rom 5:5.\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)\n!Ps. 102:1\nMon âme, bénis le Seigneur : et que tout ce qui est au dedans de moi bénisse son saint nom.\n&Gloria\nv. L’amour de Dieu a été répandu dans nos cœurs par l’Esprit-Saint, qui nous a été donné. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Oratio",
-            "texte": "Dieu, qui avez élevé le bienheureux Philippe, votre Confesseur, à la gloire de vos Saints, accordez-nous, dans votre miséricorde, que, célébrant avec joie cette solennité, nous mettions à profit l’exemple de ses vertus.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, qui avez élevé le bienheureux Philippe, votre Confesseur, à la gloire de vos Saints, accordez-nous, dans votre miséricorde, que, célébrant avec joie cette solennité, nous mettions à profit l’exemple de ses vertus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ.\n!Sap 7:7-14\nJ’ai demandé l’intelligence et elle me fut donnée. J’ai prié, et l’Esprit de Sagesse est venu en moi. Je l’ai préférée à la puissance et aux dignités. J’ai estimé qu’auprès d’elle les richesses n’étaient rien et que les pierres précieuses étaient sans valeur ; oui, tout l’or du monde n’était qu’un peu de sable, et l’argent ne valait pas plus que la boue. Je l’ai aimée plus que la santé et la beauté. J’ai choisi sa lumière pour me guider, car sa flamme ne s’éteint jamais. Avec elle me sont venus tous les biens ; de ses mains, j’ai reçu d’innombrables richesses ; et, avec tous ces biens, la joie qu’elle apporte, car la Sagesse marchait devant moi, et j’ignorais qu’elle en était la mère. Je l’ai apprise avec désintéressement, je ne la garde pas jalousement pour moi, et je ne cache pas aux autres ses trésors. Car elle est pour les hommes une richesse inépuisable. Ceux qui viennent y puiser acquièrent ces dons de la science qui leur ouvrent l’amitié de Dieu."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Graduale",
-            "texte": "!Ps 33:12; 33:6\nVenez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\nV. Approchez-vous de lui, et vous serez éclairés : et vos visages ne seront pas couverts de confusion. Alléluia, alléluia.\n!Lam 1:18\nD’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia.",
-            "incipit": "Venez, mes fils,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 33:12; 33:6\nVenez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\nV. Approchez-vous de lui, et vous serez éclairés : et vos visages ne seront pas couverts de confusion."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/05-26.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Lam 1:18\nD’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:35-40\nEn ce temps-là, Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:35-40\nEn ce temps-là, Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Offertorium",
-            "texte": "!Ps 118:32\nJ’ai couru dans la voie de vos commandements, lorsque vous avez dilaté mon cœur. (Alléluia.)",
-            "incipit": "J’ai couru dans",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 118:32\nJ’ai couru dans la voie de vos commandements, lorsque vous avez dilaté mon cœur. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Secreta",
-            "texte": "Seigneur, nous vous en prions, regardez avec bonté ce sacrifice que nous présentons : afin que le Saint-Esprit nous embrase, nous aussi, de ce feu dont il a admirablement pénetré le cœur du bienheureux Philippe.\n$Per Dominum ejusdem",
-            "references": null
+            "texte": "Seigneur, nous vous en prions, regardez avec bonté ce sacrifice que nous présentons : afin que le Saint-Esprit nous embrase, nous aussi, de ce feu dont il a admirablement pénetré le cœur du bienheureux Philippe.\n$Per Dominum ejusdem"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Communio",
-            "texte": "!Ps 83:3\nMon cœur et ma chair tressaillent d’amour pour le Dieu vivant. (Alléluia.)",
-            "incipit": "Mon cœur et",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 83:3\nMon cœur et ma chair tressaillent d’amour pour le Dieu vivant. (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "Postcommunio",
-            "texte": "Nourris de celui qui fait les délices du ciel, nous vous en supplions, Seigneur ; faites que, par les mérites et à l’imitation du bienheureux Philippe, votre Confesseur, nous ayons toujours faim de ce même aliment au moyen duquel nous vivons véritablement.\n$Per Dominum",
-            "references": null
+            "texte": "Nourris de celui qui fait les délices du ciel, nous vous en supplions, Seigneur ; faites que, par les mérites et à l’imitation du bienheureux Philippe, votre Confesseur, nous ayons toujours faim de ce même aliment au moyen duquel nous vivons véritablement.\n$Per Dominum"
           }
         }
       },
@@ -217,7 +200,7 @@
         "Francais/Sancti/05-26.txt",
         "Latin/Sancti/05-26.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

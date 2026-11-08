@@ -28,216 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/01-05.txt",
-            "section": "Introitus",
             "texte": "!Sap 18:14-15\n!Sap 18:14-15.\nv. Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter háberet, omnípotens Sermo tuus, Dómine, de cœlis a regálibus sédibus venit.\n!Ps 92:1\nDóminus regnávit, decórem indútus est: indútus est Dóminus fortitúdinem, et præcínxit se.\n&Gloria\nv. Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter háberet, omnípotens Sermo tuus, Dómine, de cœlis a regálibus sédibus venit.",
-            "incipit": "Dum médium siléntium",
+            "incipit": {
+              "incipit": "Dum medium silentium",
+              "version": "Solesmes 1961",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DUM(cd) mé(dgf/gh)di(g)um(g) *() si(g)lén(ixgih)ti(hggfg)um(gf..) (;) te(fg)né(g/hji)rent(ih) ó(jjj)mni(hg)a,(ghgh.) (:) et(fg) nox(gj) in(j) su(j)o(h) cur(jj)su(g.) (,) mé(h)di(hfhg)um(g) i(jj)ter(j_[hl:1]k_[hl:1]j_[hl:1]) ha(h)bé(h!jjvH'G)ret,(gf..) (:) o(f)mní(fg'h)pot(h)ens(h) ser(h)mo(f) tu(fg'h)us,(h) (,) Dó(ixhiHG')mi(hggfg)ne,(fg..) (:) de(cd) cae(fg)lis(ixgiggf.0) (,) a(g) re(hj)gá(iij)li(g)bus(h_g) sé(jj)di(hji)bus(jjvIH'iw!jvIH) ve(gh!ivHG'h)nit.(hg..) (::) <i>Ps.</i> Dó(g)mi(hg)nus(gj) re(j)gná(j)vit,(j) de(j)có(ji)rem(jk) in(k)dú(jk)tus(j) est :(j.) (:) * in(jh~)dú(hj)tus(j) est(j) Dó(j)mi(j)nus(j) for(j)ti(j)tú(j)di(j)nem,(jji) et(gh) prae(ji)cín(h)xit(h) se.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(ghd___/ffg.) (::)",
             "mp3": "introitus_dum-medium-silentium.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/01-05.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo: ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre:\n$Qui tecum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Oratio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo: ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre:\n$Qui tecum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Lectio",
-            "texte": "Lectio Epístolæ beati Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFratres: Quanto témpore heres párvulus est, nihil differt a servo, cum sit dóminus ómnium: sed sub tutóribus et actóribus est usque ad præfinítum tempus a patre: ita et nos, cum essémus párvuli, sub eleméntis mundi erámus serviéntes. At ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus. Quóniam autem estis fílii, misit Deus Spíritum Fílii sui in corda vestra, clamántem: Abba, Pater. Itaque jam non est servus, sed fílius: quod si fílius, et heres per Deum.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Lectio Epístolæ beati Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFratres: Quanto témpore heres párvulus est, nihil differt a servo, cum sit dóminus ómnium: sed sub tutóribus et actóribus est usque ad præfinítum tempus a patre: ita et nos, cum essémus párvuli, sub eleméntis mundi erámus serviéntes. At ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus. Quóniam autem estis fílii, misit Deus Spíritum Fílii sui in corda vestra, clamántem: Abba, Pater. Itaque jam non est servus, sed fílius: quod si fílius, et heres per Deum."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/01-05.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:3; 44:2\nSpeciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.\nV. Eructávit cor meum verbum bonum, dico ego ópera mea Regi: lingua mea cálamus scribæ, velóciter scribéntis. Allelúja, allelúja.\n!Ps 92:1.\nDóminus regnávit, decórem índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte. Allelúja.",
-            "incipit": "Speciósus forma præ",
+            "texte": "Speciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis. Eructávit cor meum verbum bonum, dico ego ópera mea Regi: lingua mea cálamus scribæ, velóciter scribéntis.",
+            "incipit": {
+              "incipit": "Speciosus... Eructavit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) SPe(e)ci(fhg)ó(h)sus(h.) *(,) for(hh//hhh.f!gwh/i_[oh:h]h//j_ijvIG)ma(ig/hi/jh) (,) (hhh'ih/ihhg.) (;) prae(fhg) fí(hihhf)li(hig)is(hiffe.) (,) hó(fhg/h_fi)mi(hg)num :(gv.eg/ihh/fgf.) (:) dif(f)fú(hf/ghg)sa(ge/f!hhhvFE'ec) est(d_e) (,) grá(eg)ti(g)a(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) in(f) lá(hf/gh!ivFE')bi(feec)is(efe/f!hh) tu(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)is.(c./eec//e[ll:1]d/ec..) (::) \r\n<sp>V/</sp>. E(e)ru(e)ctá(e.f!gwhgh)vit(h_g) cor(g.h!iwjij) me(jihhf/ig/h_[oh:h]i_[oh:h]h_[oh:h])(,)(hhhvFEhg/h_i)um(ih/ihhg.) (;) ver(gh/iji/jhhg)bum(g) bo(h.f!gwh_g)num :(gv.eg/ihh/fgf.) (:) di(f)co(fi) e(ivvH'Fijhhgh)go(hg..) (;) ó(hv.fhg)pe(g)ra(g) me(gh/iji/jhhg)a(g.) (,) Re(h.f!gwh_g)gi :(gv.eg/ihh/fgf.) (:) lin(f)gua(f) me(f)a(f) cá(fgfg)la(ge/f!hhhvFE'ec)mus(d_e) (,) scri(eg)bae(fgF'Ef!hh/f!hhhvGF'hee[ll:1]d.0) (;) ve(f)ló(hf/gh!ivFE')ci(feec)ter(efef) (,) * scri(hh)bén(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)tis.(c./eec//e[ll:1]d/ec..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/01-05.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Dóminus regnávit, decórem índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte. Allelúja.",
+            "incipit": {
+              "incipit": "Dominus regnavit decorem",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(ef)le(f)lú(hhivHGh_i){ia}.(ijIH'h//fihhe/f!gwhf.1) (,) * <i>{ij.}</i>(hhf/hghvFE//ivHGh.f!gwhf.1) (::) \r\n<sp>V/</sp>. Dó(fi!jvIH fihi)mi(ighf)nus(f.) (,) re(feg)gná(gv.fig/h.f!gwhgh)vit,(hg..) (;) de(gh)có(ijij)rem(h_f/hjI'Gh.) (,) ín(eg/ihi/ghf.1/hiH'Gh)du(f_[oh:h]g_[oh:h]f_[oh:h])it :(f.) (:) ín(f)du(f!h'i)it(ijI'Hh'h) Dó(gh!ivHF.gh'i)mi(i)nus(i) (,) for(kxji/jki)ti(h)tú(hjihhf)di(f)nem,(fh//fhhegvFE.) (;) et(e) prae(f)cín(hhi)xit(f) se(fhg) <clear>*(,) vir(hi~)tú(ivihi)te.(i./jijIG.hiH'//Ef!gwhf.1) (::)",
+            "mp3": "alleluia_dominus-regnavit-decorem.mp3",
             "fichier": "Latin/Sancti/01-05.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 2:19-23\nIn illo témpore: Defúncto Heróde, ecce, Angelus Dómini appáruit in somnis Joseph in Ægýpto, dicens: Surge, et áccipe Púerum et Matrem ejus, et vade in terram Israël: defúncti sunt enim, qui quærébant ánimam Pueri. Qui consúrgens, accépit Púerum et Matrem ejus, et venit in terram Israël. Audiens autem, quod Archeláus regnáret in Judæa pro Heróde patre suo, tímuit illo ire: et, admonítus in somnis, secéssit in partes Galilææ. Et véniens habitávit in civitáte, quæ vocátur Názareth: ut adimplére tur quod dictum est per Prophétas: Quóniam Nazaræus vocábitur.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 2:19-23\nIn illo témpore: Defúncto Heróde, ecce, Angelus Dómini appáruit in somnis Joseph in Ægýpto, dicens: Surge, et áccipe Púerum et Matrem ejus, et vade in terram Israël: defúncti sunt enim, qui quærébant ánimam Pueri. Qui consúrgens, accépit Púerum et Matrem ejus, et venit in terram Israël. Audiens autem, quod Archeláus regnáret in Judæa pro Heróde patre suo, tímuit illo ire: et, admonítus in somnis, secéssit in partes Galilææ. Et véniens habitávit in civitáte, quæ vocátur Názareth: ut adimplére tur quod dictum est per Prophétas: Quóniam Nazaræus vocábitur."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/01-05.txt",
-            "section": "Offertorium",
             "texte": "!Ps 92:1-2\nDeus firmávit orbem terræ, qui non commovébitur: paráta sedes tua, Deus, ex tunc, a sǽculo tu es.",
-            "incipit": "Deus firmávit orbem",
+            "incipit": {
+              "incipit": "Deus firmavit",
+              "version": "Dominican",
+              "distance": 3,
+              "similarite": 0.925,
+              "source": "Offertorium"
+            },
+            "gabc": "\"(c4) De(h)us(ghg) (::) fi(h)ra(hjh/ij)vit(g) (;) or(f!gh//jjg//jji~)bem(hv//fhfg) (;3) ter(g)r\\u00e6,(gjjh//ixgiHG/gf) (:) qui(fg) non(gh!jjvHG//jjvHG/gfg) (;3) com(g)mo(ghfg)v\\u00e9(g)bi(ghg)tur:(g) (:) pa(j)r\\u00e1(iyikjjv)ta(hg) se(jjhj)des(j) tu(hg)a(gf) (;3) De(ixgiHG)us(g) ex(f) tunc:(ghg/hih) (:) a(g) s<sp>'ae</sp>(gjjv)cu(hg/hih)lo(hggf) (;) tu(iyfh/jh/ig//hhg) es.(g) (::)\"",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/01-05.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Secreta",
-            "texte": "Concéde, quǽsumus, omnípotens Deus: ut óculis tuæ majestátis munus oblátum, et grátiam nobis piæ devotiónis obtíneat, et efféctum beátæ perennitátis acquírat.\n$Per Dominum",
-            "references": null
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut óculis tuæ majestátis munus oblátum, et grátiam nobis piæ devotiónis obtíneat, et efféctum beátæ perennitátis acquírat.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/01-05.txt",
-            "section": "Communio",
             "texte": "!Matt 2:20\nTolle Púerum et Matrem ejus, et vade in terram Israël: defúncti sunt enim, qui quærébant ánimam Púeri.",
-            "incipit": "Tolle Púerum et",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Nat1-0.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Tolle puerum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) TOl(ef)le(e) *() pú(fh)e(h_g)rum(hi) (,) et(i) ma(ivvHG')trem(f) e(gh)jus,(g.) (;) et(i) va(hhg)de(e) in(f!gwh) ter(h)ram(fh!ivG'Fg') Is(e)ra(efe___)el :(e.) (:) de(e)fún(fh)cti(g) sunt(h) e(ijij)nim,(hi/ji..) (;) qui(h) quae(h)ré(hj!kvJI)bant(ji__) (,) á(i)ni(h)mam(g_[oh:h]fhvG'Fg') pú(e)e(efe___)ri.(e.) (::)",
+            "mp3": "communion_tolle-puerum.mp3",
+            "fichier": "Latin/Sancti/01-05.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/01-05.txt",
             "section": "Postcommunio",
-            "texte": "Per hujus, Dómine, operatiónem mystérii, et vítia nostra purgéntur, et justa desidéria compleántur.\n$Per Dominum",
-            "references": null
+            "texte": "Per hujus, Dómine, operatiónem mystérii, et vítia nostra purgéntur, et justa desidéria compleántur.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Introitus",
-            "texte": "!Sap 18:14-15.\nv. Tandis qu'un profond silence enveloppait toutes choses, et que la nuit atteignait le milieu de sa course, du haut des cieux votre Parole toute-puissante, Seigneur, s'élança du trône royal.\n!Ps 92:l\nLe Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force.\n&Gloria\nv. Tandis qu'un profond silence enveloppait toutes choses, et que la nuit atteignait le milieu de sa course, du haut des cieux votre Parole toute-puissante, Seigneur, s'élança du trône royal.",
-            "incipit": "Tandis qu'un profond",
-            "mp3": null,
-            "references": null
+            "texte": "!Sap 18:14-15.\nv. Tandis qu'un profond silence enveloppait toutes choses, et que la nuit atteignait le milieu de sa course, du haut des cieux votre Parole toute-puissante, Seigneur, s'élança du trône royal.\n!Ps 92:l\nLe Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force.\n&Gloria\nv. Tandis qu'un profond silence enveloppait toutes choses, et que la nuit atteignait le milieu de sa course, du haut des cieux votre Parole toute-puissante, Seigneur, s'élança du trône royal."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Oratio",
-            "texte": "Dieu éternel et tout-puissant, dirigez nos actes selon votre bon plaisir, afin qu'au nom de votre Fils bient-aimé, notre vie soit féconde en bonnes œuvres.\n$Qui tecum",
-            "references": null
+            "texte": "Dieu éternel et tout-puissant, dirigez nos actes selon votre bon plaisir, afin qu'au nom de votre Fils bient-aimé, notre vie soit féconde en bonnes œuvres.\n$Qui tecum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFrères, aussi longtemps que l'héritier est enfant, il ne diffère en rien d'un esclave, quoiqu'il soit le maître de tout ; mais il est soumis à des tuteurs et à des curateurs jusqu'au temps marqué par le père. De même, nous aussi, quand nous étions enfants, nous étions sous l'esclavage des rudiments du monde. Mais lorsque est venue la plénitude des temps, Dieu a envoyé son Fils, formé d'une femme, né sous la Loi, pour affranchir ceux qui sont sous la Loi, afin de nous conférer l'adoption. Et parce que vous êtes fils, Dieu a envoyé dans vos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! Ainsi tu n'es plus esclave, tu es fils ; et si tu es fils, tu es aussi héritier grâce à Dieu.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n!Gal 4:1-7\nFrères, aussi longtemps que l'héritier est enfant, il ne diffère en rien d'un esclave, quoiqu'il soit le maître de tout ; mais il est soumis à des tuteurs et à des curateurs jusqu'au temps marqué par le père. De même, nous aussi, quand nous étions enfants, nous étions sous l'esclavage des rudiments du monde. Mais lorsque est venue la plénitude des temps, Dieu a envoyé son Fils, formé d'une femme, né sous la Loi, pour affranchir ceux qui sont sous la Loi, afin de nous conférer l'adoption. Et parce que vous êtes fils, Dieu a envoyé dans vos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! Ainsi tu n'es plus esclave, tu es fils ; et si tu es fils, tu es aussi héritier grâce à Dieu."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:3; 44:2\nVous êtes le plus beau des enfants des hommes ; la grâce est répandue sur vos lèvres.\nV. De mon cœur jaillit un beau poème, je dis mes œuvres au Roi ; ma langue est le roseau d'un scribe à l'écriture rapide. Alléluia, alléluia.\n!Ps 92:1.\nLe Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force. Alléluia.",
-            "incipit": "Vous êtes le",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:3; 44:2\nVous êtes le plus beau des enfants des hommes ; la grâce est répandue sur vos lèvres.\nV. De mon cœur jaillit un beau poème, je dis mes œuvres au Roi ; ma langue est le roseau d'un scribe à l'écriture rapide."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-05.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 92:1.\nLe Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 2:19-23.\nEn ce temps-là, Hérode étant mort, voici qu'un ange du Seigneur apparut en songe à Joseph en Égypte, et lui dit : « Lève-toi, prends l'enfant et sa mère, et va dans la terre d'Israël, car ceux qui en voulaient à la vie de l'enfant sont morts. » Et lui, s'étant levé, prit l'enfant et sa mère, et il vint dans la terre d'Israël. Mais, apprenant qu'Archélaüs régnait en Judée à la place d'Hérode, son père, il eut peur d'y aller, et, ayant été averti en songe, il gagna la région de la Galilée et vint habiter dans une ville nommée Nazareth, afin que s'accomplît ce qu'avaient dit les prophètes : Il sera appelé Nazaréen.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 2:19-23.\nEn ce temps-là, Hérode étant mort, voici qu'un ange du Seigneur apparut en songe à Joseph en Égypte, et lui dit : « Lève-toi, prends l'enfant et sa mère, et va dans la terre d'Israël, car ceux qui en voulaient à la vie de l'enfant sont morts. » Et lui, s'étant levé, prit l'enfant et sa mère, et il vint dans la terre d'Israël. Mais, apprenant qu'Archélaüs régnait en Judée à la place d'Hérode, son père, il eut peur d'y aller, et, ayant été averti en songe, il gagna la région de la Galilée et vint habiter dans une ville nommée Nazareth, afin que s'accomplît ce qu'avaient dit les prophètes : Il sera appelé Nazaréen."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Offertorium",
-            "texte": "!Ps 92:1-2\nDieu a fondé le monde, il ne sera pas ébranlé. Dès lors, ô Dieu, votre trône est stable ; depuis toujours vous êtes.",
-            "incipit": "Dieu a fondé",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 92:1-2\nDieu a fondé le monde, il ne sera pas ébranlé. Dès lors, ô Dieu, votre trône est stable ; depuis toujours vous êtes."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Secreta",
-            "texte": "Faites, Dieu tout-puissant, que cette offrande présentée aux regards de votre majesté nous obtienne la grâce d'un vrai don de nous-mêmes, et nous acquière la bienheureuse éternité.\n$Per Dominum",
-            "references": null
+            "texte": "Faites, Dieu tout-puissant, que cette offrande présentée aux regards de votre majesté nous obtienne la grâce d'un vrai don de nous-mêmes, et nous acquière la bienheureuse éternité.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Communio",
-            "texte": "!Matt 2:20\nPrends avec toi l'Enfant et sa Mère, et pars pour le pays d'Israël ; car ils sont morts, ceux qui en voulaient à la vie de l'Enfant.",
-            "incipit": "Prends avec toi",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 2:20\nPrends avec toi l'Enfant et sa Mère, et pars pour le pays d'Israël ; car ils sont morts, ceux qui en voulaient à la vie de l'Enfant."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/01-05.txt",
             "section": "Postcommunio",
-            "texte": "Par l'action de ce sacrement, Seigneur, que nos mauvais penchants soient extirpés, nos bons désirs comblés.\n$Per Dominum",
-            "references": null
+            "texte": "Par l'action de ce sacrement, Seigneur, que nos mauvais penchants soient extirpés, nos bons désirs comblés.\n$Per Dominum"
           }
         }
       },
@@ -245,7 +200,7 @@
         "Francais/Sancti/01-05.txt",
         "Latin/Sancti/01-05.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 5,
       "numero": 1
     }
   ]

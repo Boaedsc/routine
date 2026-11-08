@@ -1,12 +1,47 @@
 #!/usr/bin/env python3
 """Messe romaine 1960: calendrier, transferts, précédence et textes propres."""
 from __future__ import annotations
-import argparse, datetime as dt, json, os, re
+import argparse, datetime as dt, json, os, re, sys, unicodedata
 from pathlib import Path
 
 PARTS = ['Introitus','Oratio','Lectio','Graduale','Tractus','Alleluia','Evangelium','Offertorium','Secreta','Prefatio','Communio','Postcommunio']
 SCRIPTURE_PARTS = ('Lectio','Evangelium')
 VERSION='Rubrics 1960 - 1960'
+
+# Propres exportés en GABC : partie messe.py -> code office-part Gregobase
+GABC_PROPRES = {
+    'Introitus': 'in',
+    'Graduale': 'gr',
+    'Tractus': 'tr',
+    'Alleluia': 'al',
+    'Offertorium': 'of',
+    'Communio': 'co',
+}
+GREGOBASE_COLS = ['id','cantusid','version','incipit','initial','office-part',
+    'mode','mode_var','transcriber','commentary','headers','gabc',
+    'gabc_verses','tex_verses','remarks','copyrighted','duplicateof']
+
+SECTIONS_ALT = {
+    'Alleluia': ['Alleluia', 'Alleluja', 'Allelúja', 'Allelujah'],
+    'Tractus':  ['Tractus', 'Tract'],
+}
+
+"""Ajout Test / Bilan : fonctionne sauf quand le Graduel vient d'un fichier Commune"""
+ALLELUIA_RE = re.compile(r'\bAll[eé]l[uú][ij][aá]\b', re.I)
+SEPARATEUR_TRACTUS_RE = re.compile(r'^!\s*Tractus\s*$', re.I)
+
+def clean_lines(texte: str) -> list[str]:
+    """Lignes utiles : sans vide, sans rubrique @/!/& ni commentaire [..]."""
+    out = []
+    for l in texte.splitlines():
+        s = l.strip()
+        if not s or s[0] in '@&[#<':
+            continue
+        if s.startswith('!'):
+            continue
+        out.append(s)
+    return out
+"""Fin Ajout Test"""
 
 def easter(y:int)->dt.date:
     # Computus grégorien de Divinum Officium Date.pm::geteaster.
@@ -241,18 +276,93 @@ def inherited_document(path:Path|None,data:Path,lang='Latin')->dict[str,str]:
             if val:doc[key]=val
     return doc
 
-def _extraire_partie(doc:dict[str,str],part:str)->tuple[str,str]:
-    """Retourne (texte, section) pour une partie ; Tractus/Alleluia sont
-    parfois logés dans Graduale après un marqueur !Tractus / !Alleluia."""
-    if part in ('Tractus','Alleluia'):
-        raw=doc.get('Graduale','')
-        marker='!'+part
-        if marker in raw:
-            t=re.split(r'(?m)^!'+part+r'\s*$',raw,maxsplit=1)[-1]
-            t=re.split(r'(?m)^!(?:Alleluia|Tractus)\s*$',t)[0].strip()
-            return t,'Graduale'
-        return doc.get(part,'').strip(),part
-    return doc.get(part,'').strip(),part
+def _extraire_partie(doc: dict[str, str], part: str) -> tuple[str, str]:
+    """Retourne (texte, section) en appliquant les règles de extract_chants."""
+    if part in ('Graduale', 'Tractus', 'Alleluia'):
+        wanted = {'Graduale': 'Graduale', 'Tractus': 'Tractus', 'Alleluia': 'Alleluia'}[part]
+        chants = extract_chants(doc)
+        if wanted == 'Alleluia':
+            # Le pascal (GradualeP) et les alléluias coupés du Graduale sont des Alleluia.
+            sel = [c for c in chants if c['type'] == 'Alleluia']
+            src = sel[0]['source'] if sel else 'Alleluia'
+        else:
+            sel = [c for c in chants if c['type'] == wanted]
+            src = sel[0]['source'] if sel else wanted
+        if sel:
+            return '\n'.join(c['texte'] for c in sel), src
+        return '', part
+    if part in SECTIONS_ALT:
+        for alias in SECTIONS_ALT[part]:
+            if doc.get(alias, '').strip():
+                return doc[alias].strip(), alias
+        return '', part
+    return doc.get(part, '').strip(), part
+
+def _bloc_vers_chants(texte: str, type_bloc: str, source: str) -> list:
+    """Sépare la partie chant (type_bloc) de l'alléluia éventuel qui suit."""
+    chants = []
+    m = ALLELUIA_RE.search(texte)
+    if not m:
+        if texte.strip():
+            chants.append({"type": type_bloc, "source": source, "texte": texte.strip()})
+        return chants
+
+    avant = texte[:m.start()].strip()
+    apres = texte[m.start():].strip()   # on garde le mot trouvé, avec sa graphie
+
+    if avant:
+        chants.append({"type": type_bloc, "source": source, "texte": avant})
+    chants.append({"type": "Alleluia", "source": source, "texte": apres})
+    return chants
+
+def extract_chants(sections: dict) -> list:
+    """Extrait les chants typés (Graduale, Tractus, Alleluia) d'une section dict.
+    Règles identiques à find incipit :
+    - [Tractus] et [Alleluia] : chant de leur type ;
+    - [GradualeP] : alléluia pascal, traité comme Alleluia ;
+    - [Graduale] : découpé en blocs sur '_' et '!Tractus' ; les blocs contenant
+      'Allelúja' sont coupés en Graduale/Tractus + Alleluia."""
+    chants = []
+
+    if "Tractus" in sections:
+        texte = " ".join(clean_lines(sections["Tractus"]))
+        if texte:
+            chants.append({"type": "Tractus", "source": "Tractus", "texte": texte})
+
+    if "Alleluia" in sections:
+        texte = " ".join(clean_lines(sections["Alleluia"]))
+        if texte:
+            chants.append({"type": "Alleluia", "source": "Alleluia", "texte": texte})
+
+    if "GradualeP" in sections:
+        texte = " ".join(clean_lines(sections["GradualeP"]))
+        if texte:
+            chants.append({"type": "Alleluia", "source": "GradualeP", "texte": texte})
+
+    if "Graduale" in sections:
+        blocs, courant, type_courant = [], [], "Graduale"
+        for raw in sections["Graduale"].splitlines():
+            stripped = raw.strip()
+            if stripped == "_":
+                if courant:
+                    blocs.append((type_courant, courant))
+                courant, type_courant = [], "Graduale"
+                continue
+            if SEPARATEUR_TRACTUS_RE.match(stripped):
+                if courant:
+                    blocs.append((type_courant, courant))
+                courant, type_courant = [], "Tractus"
+                continue
+            courant.append(raw)
+        if courant:
+            blocs.append((type_courant, courant))
+
+        for idx, (type_bloc, lignes) in enumerate(blocs):
+            texte = " ".join(clean_lines("\n".join(lignes)))
+            if texte:
+                chants.extend(_bloc_vers_chants(texte, type_bloc, f"Graduale[{idx}]"))
+
+    return chants
 
 def _permanent_map(tab:Path,date:dt.date,version=VERSION)->tuple[dict[str,str],str|None]:
     """Lecture fixe Directorium::load_tempora(Generale) et inheritance via base."""
@@ -313,6 +423,60 @@ def messes_sanctoral(data:Path,date:dt.date)->list[str]:
     if variantes:return [f'Sancti/{v}' for v in variantes]
     return [f'Sancti/{base}'] if (dossier/f'{base}.txt').is_file() else []
 
+# ---------------------------------------------------------------------------
+# Oratio Dominica : reprise du propre du dimanche précédent
+# ---------------------------------------------------------------------------
+
+def _dimanche_precedent(temporal: str) -> str | None:
+    """Pasc2-1 -> Pasc2-0, Pasc2-3 -> Pasc2-0, Tempora/Pent05-4 -> Tempora/Pent05-0.
+    Retourne None si le temporal n'a pas de semaine ou de jour."""
+    m = re.match(r'^(Tempora/)?([A-Za-z]+\d+)-(\d)$', temporal)
+    if not m:
+        return None
+    prefixe = m.group(1) or ''
+    return f'{prefixe}{m.group(2)}-0'
+
+def _oratio_dominica(rule: str) -> bool:
+    return bool(re.search(r'Oratio\s+Dominica', rule, re.I))
+
+def _a_un_propre(doc_path: Path | None, data: Path) -> bool:
+    """Vrai si le fichier (héritage @ compris) fournit au moins une partie propre
+    autre que les lectures."""
+    if not doc_path:
+        return False
+    doc = inherited_document(doc_path, data)
+    return any(
+        _extraire_partie(doc, p)[0].strip()
+        for p in PARTS if p not in SCRIPTURE_PARTS
+    )
+
+def _appliquer_oratio_dominica(temporal: str, win: dict, wp: Path | None,
+                               tp: Path | None, data: Path):
+    """Si la [Rule] du gagnant porte 'Oratio Dominica' et que ce gagnant
+    n'a pas de propre, retourne (wp, tp, win, winner) pris dans le dimanche
+    précédent. Sinon retourne les valeurs inchangées (winner = None)."""
+    if not _oratio_dominica(win.get('Rule', '') if win else ''):
+        return wp, tp, win, None
+    if _a_un_propre(wp, data):
+        return wp, tp, win, None
+    dimanche = _dimanche_precedent(temporal)
+    if not dimanche:
+        return wp, tp, win, None
+    dp = find_file(data, 'Latin', dimanche)
+    if dp is None:
+        return wp, tp, win, None
+    return dp, dp, inherited_document(dp, data), dimanche
+
+def _officium_francais(wp: Path | None, data: Path, nom_sanctoral: str) -> dict | None:
+    """Retourne l'entrée Officium française pour la messe gagnante"""
+    lang_path = find_file(data, 'Francais', wp.relative_to(data / 'Latin').as_posix()) \
+        if wp.is_relative_to(data / 'Latin') else None
+    if not lang_path or not lang_path.is_file():
+        return None
+    doc = section_parse(lang_path)
+    name_office = doc.get('Officium', '')
+    return name_office
+
 def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
     """Calcule l'occurrence et les sections pour une messe donnée (saint = fichier sanctoral ou None)."""
     week=getweek(date)
@@ -362,6 +526,14 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
     winner=saint if twinner else temporal
     wp=sp if twinner else tp; win=ss if twinner else ts
     if not win and ss:winner=saint;wp=sp;win=ss;twinner=True
+
+    # Oratio Dominica : si le gagnant n'a pas de propre et que sa [Rule] le demande,
+    # on reprend le propre du dimanche précédent (Pasc2-1 -> Pasc2-0), même si ce
+    # dimanche a cédé la place à une fête de rang supérieur.
+    wp, tp, win, dom_winner = _appliquer_oratio_dominica(temporal, win, wp, tp, data)
+    if dom_winner:
+        winner = dom_winner
+        twinner = False
 
     # Lectio/Evangelium : le gagnant fournit ses propres lectures, le temporal en repli.
     if twinner:
@@ -435,11 +607,13 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
             else:
                 rel=None
             results[lang][part]={'fichier':rel,'section':key,'texte':txt,'references':refs or None}
+    # Officium français : valeur remplacée par le nom sanctoral de l'occurrence.
+    officium_fr = _officium_francais(wp, data, names[1] if len(names) > 1 else '')
 
     used=sorted({x['fichier'] for ll in results.values() for x in ll.values() if x['fichier']})
     out={'occurrence':{
             'gagnant':winner,
-            'nom_sanctoral':names[1] if len(names)>1 else '',
+            'nom_sanctoral': officium_fr if len(officium_fr)>1 else '',
             'classe':rank_info(win)[0],
             'commemorations':commem,
             'fichier_gagnant':wp.relative_to(data).as_posix() if wp else None,
@@ -454,13 +628,167 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
             'table_transfert_saisonnier':season_table,
             'transfert_scriptura_annuel':scripture_transfer,
             'table_transfert_scriptura':scripture_table,
+            'oratio_dominica_source':dom_winner,
             'note':'Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md'},
          'sections':results,
          'fichiers_utilises':used}
     out['sections_vides']=sum(not item['texte'].strip() for ll in results.values() for item in ll.values())
     return out
 
-def main_mass(date:dt.date,root:Path)->dict:
+# ---------------------------------------------------------------------------
+# Export GABC depuis la base Gregobase (dump SQL)
+# ---------------------------------------------------------------------------
+
+def _sql_fields(row:str)->list[str]:
+    """Découpe une ligne VALUES(...) en champs bruts, en respectant les chaînes SQL."""
+    fields,buf,in_str,esc=[],[],False,False
+    for ch in row:
+        if in_str:
+            buf.append(ch)
+            if esc: esc=False
+            elif ch=='\\': esc=True
+            elif ch=="'": in_str=False
+        elif ch=="'":
+            in_str=True; buf.append(ch)
+        elif ch==',':
+            fields.append(''.join(buf).strip()); buf=[]
+        else:
+            buf.append(ch)
+    fields.append(''.join(buf).strip())
+    return fields
+
+def _sql_value(lit:str)->str:
+    if lit=='NULL': return ''
+    if lit.startswith("'") and lit.endswith("'"):
+        body=lit[1:-1]
+        return body.replace("\\'","'").replace('\\"','"').replace('\\\\','\\').replace('\\n','\n').replace('\\r','\r')
+    return lit
+
+def load_gregobase(dump:Path)->list[dict]:
+    """Charge les lignes de gregobase_chants depuis le dump phpMyAdmin."""
+    if not dump or not dump.is_file(): return []
+    text=dump.read_text(encoding='utf-8',errors='replace')
+    m=re.search(r'INSERT INTO `gregobase_chants`[^\n]*VALUES\s*\n',text)
+    if not m: return []
+    rows=[]
+    for line in text[m.end():].splitlines():
+        line=line.strip()
+        if not line: continue
+        if not line.startswith('('):
+            if line.endswith(';') or line.startswith(('--','/*','INSERT')): break
+            continue
+        body=line.rstrip(',;')
+        if body.endswith(')'): body=body[:-1]
+        raw=_sql_fields(body[1:])
+        if len(raw)!=len(GREGOBASE_COLS): continue
+        rows.append({c:_sql_value(v) for c,v in zip(GREGOBASE_COLS,raw)})
+    return rows
+
+def _gabc_entry(gabc_json:str,key:str)->str:
+    try: data=json.loads(gabc_json)
+    except (json.JSONDecodeError,TypeError): return gabc_json if key=='gabc' else ''
+    for entry in data:
+        if isinstance(entry,list) and entry and entry[0]==key: return entry[1]
+    return ''
+
+def _norm(s:str)->str:
+    """Minuscules, sans accents, graphies médiévales ramenées à une forme commune."""
+    s=unicodedata.normalize('NFKD',s.lower())
+    s=''.join(c for c in s if not unicodedata.combining(c))
+    for a,b in [('æ','ae'),('œ','oe'),('j','i'),('v','u')]:
+        s=s.replace(a,b)
+    s=re.sub(r'[^a-z ]',' ',s)
+    return re.sub(r'\s+',' ',s).strip()
+
+def _incipit_propre(texte: str) -> str:
+    """Antienne (incipit Gregobase) : la ligne 'v.' d'abord, sinon première ligne non annotée."""
+    lignes = [l.strip() for l in texte.splitlines() if l.strip()]
+
+    # 1. Antienne : première ligne 'v.' / 'V.' (avant le verset de psaume)
+    for s in lignes:
+        if re.match(r'^[vV]\.\s', s):
+            s = re.sub(r'^[vV]\.\s*', '', s)
+            s = re.sub(r'\([^)]*\)', '', s)
+            s = re.split(r'[:;.]', s)[0]
+            return ' '.join(s.split()[:5])
+
+    # 2. Repli : première ligne non annotée (ni référence, ni rubrique, ni r./*)
+    for s in lignes:
+        if s[0] in '@!&[*#<':
+            continue
+        if re.match(r'^(r\.|\*)\s*', s, re.I):
+            continue
+        s = re.sub(r'\([^)]*\)', '', s)
+        s = re.split(r'[:;.]', s)[0]
+        return ' '.join(s.split()[:5])
+    return ''
+
+def _match_chant(rows:list[dict],dbcode:str,incipit:str)->dict|None:
+    """Meilleure correspondance sur les premiers mots normalisés, filtre de partie tolérant."""
+    target=_norm(incipit)
+    if not target: return None
+    words=target.split()
+    best=None; best_score=0
+    for r in rows:
+        if (r.get('office-part') or '').strip().lower()!=dbcode:
+            continue
+        if r.get('duplicateof'):
+            continue
+        if not r.get('gabc'):
+            continue
+        inc=_norm(r.get('incipit',''))
+        if not inc: continue
+        if inc==target: return r
+        common=0
+        for a,b in zip(inc.split(),words):
+            if a==b: common+=1
+            else: break
+        if common>best_score:
+            best,best_score=r,common
+    return best if best_score>=min(2,len(words)) else None
+
+def exporter_gabc(messes:list[dict],date:dt.date,out_dir:Path,dump:Path)->list[dict]:
+    """Écrit un .gabc par propre attribué à chaque messe. Ne traite que les parties
+    effectivement présentes dans la sortie de messe.py (texte non vide)."""
+    rows=load_gregobase(dump)
+    rapport=[]
+    for m in messes:
+        num=m['numero']
+        lat=m['sections']['Latin']
+        for part,dbcode in GABC_PROPRES.items():
+            texte=lat.get(part,{}).get('texte','')
+            if not texte: continue
+            incipit=_incipit_propre(texte)
+            row=_match_chant(rows,dbcode,incipit)
+            if row is None:
+                rapport.append({'messe':num,'partie':part,'incipit':incipit,'statut':'non trouvé'})
+                continue
+            d=out_dir/date.isoformat()/f'messe{num}'
+            d.mkdir(parents=True,exist_ok=True)
+            slug=_norm(row['incipit']).replace(' ','_')
+            path=d/f'{part.lower()}_{slug}.gabc'
+            head=[f"name: {row['incipit']};",
+                  f"office-part: {row['office-part']};",
+                  f"mode: {row['mode']};",
+                  f"transcriber: {row['transcriber']};",
+                  f"gregobase-id: {row['id']};"]
+            if row.get('commentary'): head.append(f"commentary: {row['commentary']};")
+            body=_gabc_entry(row['gabc'],'gabc').strip()
+            path.write_text('\n'.join(head)+'\n%%\n'+body+'\n',encoding='utf-8')
+            rapport.append({'messe':num,'partie':part,'incipit':incipit,
+                            'statut':'écrit','gregobase_id':row['id'],'fichier':str(path)})
+    return rapport
+
+def ecrire_json_messe(dossier_gabc: Path, jour: dt.date, n: int, messe: dict) -> Path:
+    """Écrit le JSON de la messe n dans <dossier_gabc>/<date>/messe<n>/messe.json."""
+    cible = dossier_gabc / jour.isoformat() / f"messe{n}"
+    cible.mkdir(parents=True, exist_ok=True)
+    chemin = cible / "messe.json"
+    with chemin.open("w", encoding="utf-8") as f:
+        json.dump(messe, f, ensure_ascii=False, indent=2)
+    return chemin
+
+def main_mass(date:dt.date,root:Path,gabc_out:Path|None=None,gabc_dump:Path|None=None)->dict:
     data=root_data(root)
     if data is None:raise FileNotFoundError(f'Données missa introuvables sous {root}')
     tab=repo_root(root,data)/'web/www/Tabulae'
@@ -470,7 +798,7 @@ def main_mass(date:dt.date,root:Path)->dict:
         m=_une_messe(date,data,tab,saint)
         m['numero']=i
         messes.append(m)
-    return {
+    out={
         'date':date.isoformat(),
         'rubriques':VERSION,
         'semaine':getweek(date),
@@ -478,18 +806,58 @@ def main_mass(date:dt.date,root:Path)->dict:
         'nombre_messes':len(messes),
         'messes':messes,
     }
+    if gabc_out is not None and gabc_dump is not None:
+        out['gabc']=exporter_gabc(messes,date,gabc_out,gabc_dump)
+    if gabc_out is not None:
+        for i,m in enumerate(out['messes'],start=1):
+            ecrire_json_messe(gabc_out,date,i,m)
+    return out
 
-def cli():
+# ---------------------------------------------------------------------------
+# Génération par années (ex: python3 messe.py 2026 2027 2028)
+# ---------------------------------------------------------------------------
+
+def generer_annee(annee:int,racine:Path,sortie:Path|None,gregobase:Path|None)->int:
+    """Génère toutes les messes d'une année civile. Retourne le nombre d'échecs."""
+    d=dt.date(annee,1,1); fin=dt.date(annee,12,31); echecs=0
+    while d<=fin:
+        try:
+            main_mass(d,racine,gabc_out=sortie,gabc_dump=gregobase)
+        except Exception as e:
+            echecs+=1
+            print(f'échec {d.isoformat()}: {e}',file=sys.stderr)
+        d+=dt.timedelta(days=1)
+    return echecs
+
+def cli()->int:
     p=argparse.ArgumentParser(description='Résolution des propres de la messe romaine 1960')
-    p.add_argument('date',help='AAAA-MM-JJ')
+    p.add_argument('dates',nargs='+',help='une date AAAA-MM-JJ, ou une ou plusieurs années (ex: 2026 2027 2028)')
     p.add_argument('--racine',default=os.environ.get('DIVINUM_OFFICIUM_ROOT','.'),help='racine du dépôt Divinum Officium ou dossier web/www/missa')
     p.add_argument('--messe',type=int,default=None,help='numéro de la messe (1, 2, 3…) ; par défaut toutes les messes du jour')
     p.add_argument('--json',action='store_true',help='sortie JSON détaillée')
     p.add_argument('--fichiers',action='store_true',help='sortie compacte des fichiers/sections')
+    p.add_argument('--gabc',type=Path,default=None,help='dossier de sortie des .gabc et des messe.json (active l’export)')
+    p.add_argument('--gregobase',type=Path,default=None,help='dump SQL Gregobase (requis avec --gabc)')
     a=p.parse_args()
-    try:d=dt.date.fromisoformat(a.date)
-    except ValueError:p.error('date invalide, format attendu AAAA-MM-JJ')
-    out=main_mass(d,Path(a.racine).expanduser().resolve())
+
+    racine=Path(a.racine).expanduser().resolve()
+
+    # Mode années : tous les arguments sont des entiers à 4 chiffres.
+    if all(re.fullmatch(r'\d{4}',x) for x in a.dates):
+        if a.gabc and not a.gregobase: p.error('--gabc nécessite --gregobase <dump.sql>')
+        total=0
+        for x in a.dates:
+            print(f'=== {x} ===',file=sys.stderr)
+            total+=generer_annee(int(x),racine,a.gabc,a.gregobase)
+        print(f'terminé, {total} échec(s)',file=sys.stderr)
+        return 0 if total==0 else 1
+
+    # Mode date unique (comportement d'origine).
+    if len(a.dates)!=1: p.error('mélange interdit : donner soit une date, soit une ou plusieurs années')
+    try:d=dt.date.fromisoformat(a.dates[0])
+    except ValueError:p.error('date invalide, format attendu AAAA-MM-JJ ou année AAAA')
+    if a.gabc and not a.gregobase: p.error('--gabc nécessite --gregobase <dump.sql>')
+    out=main_mass(d,racine,a.gabc,a.gregobase)
     if a.messe is not None:
         if not 1<=a.messe<=out['nombre_messes']:
             p.error(f"cette date compte {out['nombre_messes']} messe(s)")
@@ -498,5 +866,6 @@ def cli():
         for m in out['messes']:
             m['sections']={l:{s:{'fichier':v['fichier'],'section':v['section']} for s,v in sec.items()} for l,sec in m['sections'].items()}
     print(json.dumps(out,ensure_ascii=False,indent=2))
+    return 0
 
-if __name__=='__main__':cli()
+if __name__=='__main__':sys.exit(cli())

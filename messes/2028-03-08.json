@@ -28,195 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Introitus",
             "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
-            "incipit": "Os justi meditábitur",
+            "incipit": {
+              "incipit": "Os justi",
+              "version": "Solesmes",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Introitus"
+            },
+            "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/03-08.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad1-3.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nIn diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi púerum suum, et perréxit in desértum, viam uníus diéi. Cumque venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut morerétur, et ait: Súfficit mihi, Dómine, tolle ánimam meam: neque enim mélior sum quam patres mei. Projecítque se, et obdormívit in umbra juníperi: et ecce, Angelus Dómini tétigit eum, et dixit illi: Surge et cómede. Respéxit, et ecce ad caput suum subcinerícius panis, et vas aquæ: comédit ergo et bibit, et rursum obdormívit. Reversúsque est Angelus Dómini secundo, et tétigit eum, dixítque illi: Surge, cómede: grandis enim tibi restat via. Qui cum surrexísset, comédit et bibit, et ambulávit in fortitúdine cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad montem Dei Horeb.",
-            "references": null
+            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nIn diébus illis: Venit Elías in Bersabée Juda, et dimísit ibi púerum suum, et perréxit in desértum, viam uníus diéi. Cumque venísset, et sedéret subter unam juníperum, petívit ánimæ suæ, ut morerétur, et ait: Súfficit mihi, Dómine, tolle ánimam meam: neque enim mélior sum quam patres mei. Projecítque se, et obdormívit in umbra juníperi: et ecce, Angelus Dómini tétigit eum, et dixit illi: Surge et cómede. Respéxit, et ecce ad caput suum subcinerícius panis, et vas aquæ: comédit ergo et bibit, et rursum obdormívit. Reversúsque est Angelus Dómini secundo, et tétigit eum, dixítque illi: Surge, cómede: grandis enim tibi restat via. Qui cum surrexísset, comédit et bibit, et ambulávit in fortitúdine cibi illíus quadragínta diébus et quadragínta nóctibus, usque ad montem Dei Horeb."
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n!Ja 1:12\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
-            "incipit": "Justus ut palma",
+            "texte": "Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "incipit": {
+              "incipit": "Justus ut palma",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) JU(egf)stus(f.) *(,) ut(f) pal(f)ma(f) flo(f)ré(hfghvF'Ege/fg)bit :(f.) (:) sic(f)ut(f) ce(hf/hi'j)drus(gxhffegvFE.) (,) Lí(e)ba(e[ll:1]d/fef)ni(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) mul(hh)ti(h)pli(h)cá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')bi(f)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) do(de'fhvGF'g)mo(ef) Dó(hf)mi(hi)ni.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHFgwhf.1) (::) \r\n<sp>V/</sp>. Ad(f) an(h)nun(hi)ti(i)án(i)dum(ij~) ma(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ne(ji..) (:) mi(i!jw!kvJI'jw!kvJI)se(i)ri(i)cór(i)di(i)am(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am,(f.) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) per(de'fhvGFgef) no(hf/h_i)ctem.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/03-08.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": {
+              "incipit": "Beatus vir qui suffert",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_[oh:h]c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(e[ll:1]d..) (:) quó(e_[uh:l]g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0[uh:l]fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::)",
+            "mp3": "alleluia_beatus-vir-qui-suffert.mp3",
             "fichier": "Latin/Sancti/03-08.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/03-08.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:34-46\nIn illo témpore: Accessérunt ad Jesum pharisǽi: et interrogávit eum unus ex eis legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum tuum, ex toto corde tuo et in tota ánima tua et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum sicut teípsum. In his duóbus mandátis univérsa lex pendet et prophétæ. Congregátis autem pharisǽis, interrogávit eos Jesus, dicens: Quid vobis vidétur de Christo? cujus fílius est? Dicunt ei: David. Ait illis: Quómodo ergo David in spíritu vocat eum Dóminum, dicens: Dixit Dóminus Dómino meo, sede a dextris meis, donec ponam inimícos tuos scabéllum pedum tuórum? Si ergo David vocat eum Dóminum, quómodo fílius ejus est? Et nemo poterat ei respóndere verbum: neque ausus fuit quisquam ex illa die eum ámplius interrogáre.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent17-0.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:34-46\nIn illo témpore: Accessérunt ad Jesum pharisǽi: et interrogávit eum unus ex eis legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum tuum, ex toto corde tuo et in tota ánima tua et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum sicut teípsum. In his duóbus mandátis univérsa lex pendet et prophétæ. Congregátis autem pharisǽis, interrogávit eos Jesus, dicens: Quid vobis vidétur de Christo? cujus fílius est? Dicunt ei: David. Ait illis: Quómodo ergo David in spíritu vocat eum Dóminum, dicens: Dixit Dóminus Dómino meo, sede a dextris meis, donec ponam inimícos tuos scabéllum pedum tuórum? Si ergo David vocat eum Dóminum, quómodo fílius ejus est? Et nemo poterat ei respóndere verbum: neque ausus fuit quisquam ex illa die eum ámplius interrogáre."
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-            "incipit": "Véritas mea et",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Veritas mea",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C5.txt",
             "section": "Secreta",
-            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
-            "references": null
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/03-08.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Communio",
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
-            "incipit": "Beátus servus, quem,",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Beatus servus",
+              "version": "Solesmes",
+              "distance": 9,
+              "similarite": 0.775,
+              "source": "Communio"
+            },
+            "gabc": "\"(c2) BE(exdde)\\u00e1(cf)tus(f) ser(g_[oh:h]f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) v\\u00e9(jkj)ne(i)rit(hvGF) D\\u00f3(h_i)mi(h)nus,(h.) (,) in(fh~)v\\u00e9(h)ne(ghg)rit(ef) vi(g)gi(fe)l\\u00e1n(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) \\u00f3(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)st\\u00ed(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(exe)le(c./[-0.5]fgF'Efgf)l\\u00fa(dfee){ia}.(e[ll:1]d..) (::)\"",
+            "mp3": "communion_beatus-servus.mp3",
+            "fichier": "../horas/Latin/Commune/C5.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C5.txt",
             "section": "Postcommunio",
-            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
-            "references": null
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Introitus",
-            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)",
-            "incipit": "La bouche du",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, après avoir embrasé l’âme du bienheureux Jean du feu de votre amour, l’avez fait marcher au milieu des flammes sans qu’il en reçût aucune atteinte, et qui, par lui, avez enrichi votre Église d’une nouvelle famille, faites, s’il vous plaît, que, grâce à ses mérites, nous soyons purifiés de nos vices dans le feu de votre charité, et pourvus des remèdes qui conduisent à l’éternité.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui, après avoir embrasé l’âme du bienheureux Jean du feu de votre amour, l’avez fait marcher au milieu des flammes sans qu’il en reçût aucune atteinte, et qui, par lui, avez enrichi votre Église d’une nouvelle famille, faites, s’il vous plaît, que, grâce à ses mérites, nous soyons purifiés de nos vices dans le feu de votre charité, et pourvus des remèdes qui conduisent à l’éternité.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad1-3.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nEn ces jours-là, Élie, étant arrivé à Bersabée, qui appartient à Juda, y laissa son serviteur. Pour lui, il alla dans le désert l’espace d’une journée de marche ; arrivé là, il s’assit sous un genêt et demanda pour lui la mort, en disant : « C’est assez ! Maintenant, Seigneur, prends ma vie, car je ne suis pas meilleur que mes pères ! » Il se coucha et s’endormit sous le genêt. Et voici qu’un ange le toucha et lui dit : « Lève-toi, mange. » Il regarda, et voici qu’il y avait à son chevet un gâteau cuit sur des pierres chauffées et une cruche d’eau. Après avoir mangé et bu, il se recoucha. L’ange du Seigneur vint une seconde fois, le toucha et dit : « Lève-toi, mange, car le chemin est trop long pour toi. » Il se leva, mangea et but, et, avec la force que lui donna cette nourriture, il marcha quarante jours et quarante nuits jusqu’à la montagne de Dieu, à Horeb.",
-            "references": null
+            "texte": "Léctio libri Regum\n!3 Reg 19:3-8\nEn ces jours-là, Élie, étant arrivé à Bersabée, qui appartient à Juda, y laissa son serviteur. Pour lui, il alla dans le désert l’espace d’une journée de marche ; arrivé là, il s’assit sous un genêt et demanda pour lui la mort, en disant : « C’est assez ! Maintenant, Seigneur, prends ma vie, car je ne suis pas meilleur que mes pères ! » Il se coucha et s’endormit sous le genêt. Et voici qu’un ange le toucha et lui dit : « Lève-toi, mange. » Il regarda, et voici qu’il y avait à son chevet un gâteau cuit sur des pierres chauffées et une cruche d’eau. Après avoir mangé et bu, il se recoucha. L’ange du Seigneur vint une seconde fois, le toucha et dit : « Lève-toi, mange, car le chemin est trop long pour toi. » Il se leva, mangea et but, et, avec la force que lui donna cette nourriture, il marcha quarante jours et quarante nuits jusqu’à la montagne de Dieu, à Horeb."
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
-            "incipit": "Le juste fleurira",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:34-46.\nEn ce temps-là, les pharisiens s’approchèrent de Jésus, et l’un d’eux, docteur de la loi, lui demanda pour le tenter : Maître, quel est le plus grand commandement de la loi ? Jésus lui dit : Tu aimeras le Seigneur ton Dieu de tout ton cœur, et de toute ton âme, et de tout ton esprit. C’est là le plus grand et le premier commandement. Mais le second lui est semblable : Tu aimeras ton prochain comme toi-même. Dans ces deux commandements sont renfermés la loi et les prophètes. Les pharisiens étant rassemblés, Jésus les interrogea, en disant : Que vous semble du Christ ? De qui est-il fils ? Ils lui répondirent de David. Il leur dit : Comment donc David 1’appelle-t-il en esprit son Seigneur, en disant : Le Seigneur a dit à mon Seigneur : Assieds-toi à ma droite, jusqu’à ce que j’aie fait de tes ennemis l’escabeau de tes pieds ? Si donc David l’appelle son Seigneur, comment est-il son fils ? Et personne ne pouvait rien lui répondre, et, depuis ce jour, nul n’osa plus lui proposer des questions.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:34-46.\nEn ce temps-là, les pharisiens s’approchèrent de Jésus, et l’un d’eux, docteur de la loi, lui demanda pour le tenter : Maître, quel est le plus grand commandement de la loi ? Jésus lui dit : Tu aimeras le Seigneur ton Dieu de tout ton cœur, et de toute ton âme, et de tout ton esprit. C’est là le plus grand et le premier commandement. Mais le second lui est semblable : Tu aimeras ton prochain comme toi-même. Dans ces deux commandements sont renfermés la loi et les prophètes. Les pharisiens étant rassemblés, Jésus les interrogea, en disant : Que vous semble du Christ ? De qui est-il fils ? Ils lui répondirent de David. Il leur dit : Comment donc David 1’appelle-t-il en esprit son Seigneur, en disant : Le Seigneur a dit à mon Seigneur : Assieds-toi à ma droite, jusqu’à ce que j’aie fait de tes ennemis l’escabeau de tes pieds ? Si donc David l’appelle son Seigneur, comment est-il son fils ? Et personne ne pouvait rien lui répondre, et, depuis ce jour, nul n’osa plus lui proposer des questions."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Offertorium",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Secreta",
-            "texte": "Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.\n$Per Dominum.",
-            "references": null
+            "texte": "Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/03-08.txt",
             "section": "Communio",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Postcommunio",
-            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum",
-            "references": null
+            "texte": "Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.\n$Per Dominum"
           }
         }
       },

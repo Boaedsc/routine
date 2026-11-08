@@ -28,181 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C8.txt",
-            "section": "Introitus",
             "texte": "!Gen 28:17\nv. Terríbilis est locus iste: hic domus Dei est et porta cœli: et vocábitur aula Dei. (Allelúja, allelúja.)\n!Ps 83:2-3\nQuam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.\n&Gloria\nv. Terríbilis est locus iste: hic domus Dei est et porta cœli: et vocábitur aula Dei. (Allelúja, allelúja.)",
-            "incipit": "Terríbilis est locus",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Terribilis est",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(f3) TEr(f)rí(f)bi(e)lis(c) est(c!e'f) *(,) lo(h)cus(hhh) i(hihh)ste :(gf..) (;) hic(e) do(ef'g)mus(igge) De(e.f!gw!hvGF)i(ef) est,(f.) (;) et(fh~) por(h)ta(gh'i) cae(i_[oh:h]h)li :(hihh/efe.) (:) et(e) vo(f)cá(fh/ih)bi(hhh)tur(fgE'Ce.) (;) au(c!e'f)la(f/hhe/gf) De(f_[oh:h]g_[oh:h]f_[oh:h])i.(f.) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::) <i>Ps.</i> Quam(e) di(fe)lé(eh)cta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(hg)ne(hi) vir(i)tú(hi)tum!(h.) *(:) con(hf~)cu(fh)pí(h)scit,(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) me(h)a(h.) (,) in(h) á(h')tri(i)a(hf) Dó(h)mi(ge)ni.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+            "mp3": "introitus_terribilis-est.mp3",
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-18.txt",
             "section": "Oratio",
-            "texte": "!In Anniversario Dedicationis Ecclesiæ\nv. Deus, qui nobis per síngulos annos hujus sancti templi tui consecratiónis réparas diem, et sacris semper mystériis repræséntas incólumes: exáudi preces pópuli tui, et præsta; ut quisquis hoc templum benefícia petitúrus ingréditur, cuncta se impetrásse lætétur.\n$Per Dominum",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C8.txt",
-                "section": "Oratio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "!In Anniversario Dedicationis Ecclesiæ\nv. Deus, qui nobis per síngulos annos hujus sancti templi tui consecratiónis réparas diem, et sacris semper mystériis repræséntas incólumes: exáudi preces pópuli tui, et præsta; ut quisquis hoc templum benefícia petitúrus ingréditur, cuncta se impetrásse lætétur.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-18.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
+            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum.",
+            "incipit": {
+              "incipit": "Locus iste",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) LO(dde)cus(d) i(gxd!ewf'!gv)ste(f.) *(,) a(fh) De(ffe)o(ef) fa(fefDC'ef/hf)ctus(d_[oh:h]e_[oh:h]d_[oh:h]) est,(d.) (;) in(f)ae(fe)sti(eh)má(h)bi(gxihhfg)le(g_[oh:h]f) sa(f)cra(e.[ll:1]d!ew!fvED'e)mén(gxef!gvF~E~)tum,(fe..) (:) ir(f)re(f)pre(f)hen(hh)sí(h)bi(f)lis(de) est.(dfe___//highf.dfe/fee[ll:1]d.0) (::) <sp>V/</sp>. De(d)us,(d) cu(d)i(d) ad(df!hh/ijh)stat(h.) (,) An(h)ge(h)ló(h)rum(h) cho(h)rus,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) ex(h)áu(hi!jvIH'hf/hhhi~)di(h.) (,) pre(gxfgFE.fgFD.1fvEDe[ll:1]d)ces(d.) (;) ser(d)vó(dfE'D)rum(ef) *() tu(h)ó(hiH'Fhhh)rum.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
+            "mp3": "graduel_locus-iste.mp3",
             "fichier": "../horas/Latin/Commune/C8.txt",
-            "section": "Graduale",
-            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est.\nV. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum. Allelúja, allelúja.\n!Ps 137:2\nAdorábo ad templum sanctum tuum: et confitébor nómini tuo. Allelúja.",
-            "incipit": "Locus iste a",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-18.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Adorábo ad templum sanctum tuum: et confitébor nómini tuo. Allelúja.",
+            "incipit": {
+              "incipit": "Adorabo",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(e)le(fde)lú(hf/hhi){ia}.(ijhh'he.) <clear>*(,) <i>ij.</i>(hig'hvFD.1//fhg/ihh'hhvF'Ef_gffe.) (::) <sp>V/</sp>. Ad(e)o(hh)rá(iv.hif.1/[-0.5]efd.1/f!gwhhvG'FEf_e)bo(e.) (;) ad(ef~) tem(ef~)plum(e) san(df!hh/jij)ctum(i_[oh:h]h) tu(fhff/d/ef_d)um :(d.) (:) et(d) con(e)fi(f)té(h_i!kkh/ii//hhhf/hhe/ffdev.)(,)(defh_i!kkh/ii//hhhf/hhe/ffdev.)(,)(de/ffdev.f!gwhhvG'FEf_e)bor(e.) (;) * nó(ef)mi(e)ni(e.f!gwh) tu(h_f/g!hwihi)o.(i_[oh:h]g/h!iwjij//ijIG.) (,) (hig'hvF'Ef_gffe.) (::)",
+            "mp3": "alleluia_adorabo-ad-templum.mp3",
             "fichier": "Latin/Sancti/11-18.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-18.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C8.txt",
-            "section": "Offertorium",
             "texte": "!1 Par 29:17-18\nDómine Deus, in simplicitáte cordis mei lætus óbtuli univérsa; et pópulum tuum, qui repértus est, vidi cum ingénti gáudio: Deus Israël, custódi hanc voluntátem, allelúja.",
-            "incipit": "Dómine Deus, in",
-            "mp3": "offertoire_domine-deus-in.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Domine Deus... qui repertus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) DO(fg)mi(f)ne(f) De(fg!hvGF'g)us,(gf..) *(;) in(f) sim(fd~)pli(fgf)ci(h)tá(hjh___!iwj)te(g) cor(f)dis(d!ewf) me(fgffvED)i(dfddc.) (;) lae(ff)tus(ff) ób(fe/f_g)tu(dc)li(ff) u(gf/h_g)ni(f)vér(fg!hv_G~F~)sa :(gf..) (:) et(f) pó(ixf!gwh'!iv)pu(h)lum(h) tu(hjh)um,(hggfg.) (,) qui(d!f'g) re(g)pér(ghgg)tus(fgF'E) est,(f.) (;) vi(f)di(fd) cum(fgf) in(fd~)gén(fgf~)ti(g) gáu(g.h!iw!jvIH)di(h_[oh:h]i_[oh:h]h_[oh:h])o :(h.) (:) De(h)us(h_g) Is(ghg)ra(f)el,(fg!hvhg.) (;) cu(f)stó(fg/hgh)di(g) hanc(ghgff/ded.) vo(ffe)lun(fg/hg/h_g)tá(fg)tem,(f./hjGF'gvFD'Cfv.) (;) Dó(fg)mi(f)ne(f) De(fg!hvGF'g)us.(gf..) (::) <i>T. P.</i> Al(gf~)le(fff//hg/h_g)lú(fg!hvGF'g){ia}.(gf..) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C8.txt",
             "section": "Secreta",
-            "texte": "!Extra Ecclesiam dedicatam\nv. Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præséntia réddimus, ad ætérna prǽmia, te adjuvánte, perveníre mereámur.\n$Per Dominum",
-            "references": null
+            "texte": "!Extra Ecclesiam dedicatam\nv. Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præséntia réddimus, ad ætérna prǽmia, te adjuvánte, perveníre mereámur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-18.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C8.txt",
-            "section": "Communio",
             "texte": "!Matt 21:13\nDomus mea domus oratiónis vocábitur, dicit Dóminus: in ea omnis, qui petit, áccipit; et qui quærit, invénit; et pulsánti aperiétur. (Allelúja.)",
-            "incipit": "Domus mea domus",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Domus mea",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DO(g)mus(fg) me(gh!ivHG'h)a,(hg..) (,) * do(jjk)mus(j) o(f)ra(g)ti(hj)ó(j)nis(g) vo(ixi)cá(ihi)bi(f)tur,(ixg_[uh:l]i) (,) di(ixi)cit(g_[oh:h]i_[oh:h]g_[oh:h]!hw!ivHG') Dó(f)mi(fg!hvGF'g)nus :(gf..) (:) in(f) e(gh)a(h) o(ixhg/higgf~)mnis,(f) qui(f) pe(hj)tit,(j) ác(jij)ci(h_[oh:h]i_[oh:h]h_[oh:h])pit :(h.) (;) et(hj~) qui(j) quae(j)rit,(ij) ín(h)ve(ixf!gwhg/hi)nit,(h.) (;) et(h) pul(j)sán(j_hjvIG'h)ti(f_g) a(fh)pe(g!jij)ri(h)é(f_[oh:h]g_[oh:h]f_[oh:h])tur.(f.) (::) <i>T. P.</i> Al(hg~)le(hjg/h_g)lú(fg!hvGF'g){ia}.(gf..) (::)",
+            "mp3": "communion_domus-mea.mp3",
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C8.txt",
             "section": "Postcommunio",
-            "texte": "Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut, quod Ecclésiæ tuæ corporálibus próficit spátiis, spirituálibus amplificétur augméntis.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut, quod Ecclésiæ tuæ corporálibus próficit spátiis, spirituálibus amplificétur augméntis.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Introitus",
-            "texte": "!Gn 28:17\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)\n!Ps 83:2-3\nQue vos demeures sont aimables, Dieu des armées ! Mon âme languit, défaillante, après les parvis du Seigneur.\n&Gloria\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)",
-            "incipit": "Que ce lieu",
-            "mp3": null,
-            "references": null
+            "texte": "!Gn 28:17\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)\n!Ps 83:2-3\nQue vos demeures sont aimables, Dieu des armées ! Mon âme languit, défaillante, après les parvis du Seigneur.\n&Gloria\nv. Que ce lieu est redoutable ! C’est ici la maison de Dieu et la porte du Ciel ; et on l’appellera la demeure de Dieu. (Alléluia, alléluia)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui renouvelez chaque année en notre faveur le jour où ce saint temple vous a été consacré, et qui nous conservez en état d’assister à vos saints mystères, exaucez les prières de votre peuple et accordez à quiconque entrera dans ce temple pour demander vos grâces, la joie de les avoir obtenues.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui renouvelez chaque année en notre faveur le jour où ce saint temple vous a été consacré, et qui nous conservez en état d’assister à vos saints mystères, exaucez les prières de votre peuple et accordez à quiconque entrera dans ce temple pour demander vos grâces, la joie de les avoir obtenues.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Graduale",
-            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs. Alléluia, alléluia.\n!Ps 137:2\nJ’adorerai vers votre saint temple, et je célébrerai votre Nom. Alléluia.",
-            "incipit": "Dieu a fait",
-            "mp3": null,
-            "references": null
+            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs. Alléluia, alléluia.\n!Ps 137:2\nJ’adorerai vers votre saint temple, et je célébrerai votre Nom. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Offertorium",
-            "texte": "!1 Par 29:17-18\nSeigneur mon Dieu, c’est en droiture de cœur que je vous ai offert tous ces dons, et je vois avec joie votre peuple ici réuni ; Dieu d’Israël, gardez-nous ces bonnes dispositions, alléluia.",
-            "incipit": "Seigneur mon Dieu,",
-            "mp3": null,
-            "references": null
+            "texte": "!1 Par 29:17-18\nSeigneur mon Dieu, c’est en droiture de cœur que je vous ai offert tous ces dons, et je vois avec joie votre peuple ici réuni ; Dieu d’Israël, gardez-nous ces bonnes dispositions, alléluia."
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Secreta",
-            "texte": "! Dans l’Église elle-même dédiée.\nv. Accordez à nos prières, Seigneur, qu’assemblés dans l’enceinte de ce temple pour célébrer l’anniversaire de sa dédicace, nous puissions vous plaire par la consécration totale de notre corps et de notre âme, et qu’à vous rendre ces hommages dans le présent, nous méritions de parvenir, avec votre aide, aux récompenses éternelles.\n$Per Dominum",
-            "references": null
+            "texte": "! Dans l’Église elle-même dédiée.\nv. Accordez à nos prières, Seigneur, qu’assemblés dans l’enceinte de ce temple pour célébrer l’anniversaire de sa dédicace, nous puissions vous plaire par la consécration totale de notre corps et de notre âme, et qu’à vous rendre ces hommages dans le présent, nous méritions de parvenir, avec votre aide, aux récompenses éternelles.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-18.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Communio",
-            "texte": "!Matt 21:13\nMa maison sera appelée une maison de prière, dit le Seigneur. En elle, celui qui demande reçoit, celui qui cherche trouve, et pour celui qui frappe la porte s’ouvre. (Alléluia)",
-            "incipit": "Ma maison sera",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 21:13\nMa maison sera appelée une maison de prière, dit le Seigneur. En elle, celui qui demande reçoit, celui qui cherche trouve, et pour celui qui frappe la porte s’ouvre. (Alléluia)"
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Postcommunio",
-            "texte": "Ô Dieu qui vous choisissez des pierres vivantes pour bâtir la demeure éternelle de votre gloire, venez en aide à votre peuple qui vous implore, pour que l’extension matérielle de votre Église en ses temples se double d’une croissance spirituelle.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu qui vous choisissez des pierres vivantes pour bâtir la demeure éternelle de votre gloire, venez en aide à votre peuple qui vous implore, pour que l’extension matérielle de votre Église en ses temples se double d’une croissance spirituelle.\n$Per Dominum"
           }
         }
       },

@@ -28,188 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/08-27.txt",
-            "section": "Introitus",
             "texte": "!Ps 33:12\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.\n!Ps 33:2\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\n&Gloria\nv. Veníte, fílii, audíte me: timórem Dómini docébo vos.",
-            "incipit": "Veníte, fílii, audíte",
+            "incipit": {
+              "incipit": "Venite filii",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) VE(hfg)ní(hgjvIH)te,(h.) *(,) fí(hj)li(h)i,(ixhg/hih.) (;) au(f)dí(ixhf/hi)te(gf) me :(fgff/ded.) (:) ti(f)mó(h)rem(g) Dó(gh)mi(f)ni(d!ewf.) (,) do(f)cé(eg/hf)bo(fgF'E) vos.(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) <i>Ps.</i> Be(f)ne(gh)dí(h)cam(h) <nlba>Dó(h)mi(h)num</nlba>(h) in(h) o(hj)mni(h) tém(h)po(hg)re :(gh..) *(:) sem(gf~)per(gh) laus(h) e(h)jus(h) in(hjh) o(g')re(f) me(fg)o.(h.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fg) e.</eu>(h.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Oratio",
-            "texte": "Deus, qui per sanctum Joséphum Confessórem tuum, ad erudiéndam spíritu intellegéntiæ ac pietátis juventútem, novum Ecclésiæ tuæ subsídium providére dignátus es: præsta, quǽsumus; nos, ejus exémplo et intercessióne, ita fácere et docére, ut præmia consequámur ætérna.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui per sanctum Joséphum Confessórem tuum, ad erudiéndam spíritu intellegéntiæ ac pietátis juventútem, novum Ecclésiæ tuæ subsídium providére dignátus es: præsta, quǽsumus; nos, ejus exémplo et intercessióne, ita fácere et docére, ut præmia consequámur ætérna.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/08-27.txt",
-            "section": "Graduale",
-            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.\nAllelúja, allelúja.\n!Jac 1:12.\nV. Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
-            "incipit": "Os justi meditábitur",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "incipit": {
+              "incipit": "Os justi (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_[oh:h]eg)jus(gvF'EDfvED) (,) (fge'/fgd'/e[ll:1]ddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_[oh:h]e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/e[ll:1]ddc.) <clear>*(;) gres(ff)sus(fg) e(g_[oh:h]f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Jac 1:12.\nV. Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
+            "incipit": {
+              "incipit": "Beatus vir qui suffert",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_[oh:h]c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(e[ll:1]d..) (:) quó(e_[uh:l]g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0[uh:l]fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::)",
+            "mp3": "alleluia_beatus-vir-qui-suffert.mp3",
             "fichier": "Latin/Sancti/08-27.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlorum? Et ádvocans Jesus parvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrabitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlorum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-5\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlorum? Et ádvocans Jesus parvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrabitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlorum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/08-27.txt",
-            "section": "Offertorium",
             "texte": "!Ps 9:17\nDesidérium páuperum exaudívit Dóminus: præparatiónem cordis eórum audívit auris tua.",
-            "incipit": "Desidérium páuperum exaudívit",
+            "incipit": {
+              "incipit": "Desiderium pauperum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DE(c)si(c)dé(e!fg')ri(e)um(ce) páu(de/gf)pe(ef)rum(f.) *(,) ex(e)au(f)dí(hih)vit(hhh) Dó(hihh)mi(f)nus :(fgf.) (:) prae(f)pa(fe)ra(eh)ti(h)ó(hji)nem(ijhh/fgf.) (;) cor(hhhiH'F)dis(f) e(ef)ó(f!gwh/ihhgh)rum(hg..) (;) au(hh)dí(hi/jij)vit(hhvGF.) (,) au(iig/hih)ris(hvGE'f) tu(f!gwhgh)a.(gf..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Secreta",
-            "texte": "Altáre tuum, Dómine, munéribus cumulamus oblatis: ut ejus nobis fiant supplicatione propitia, cujus nos donasti patrocínio adjuvári.\n$Per Dominum",
-            "references": null
+            "texte": "Altáre tuum, Dómine, munéribus cumulamus oblatis: ut ejus nobis fiant supplicatione propitia, cujus nos donasti patrocínio adjuvári.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/08-27.txt",
-            "section": "Communio",
             "texte": "!Marc 10:14\nSínite párvulos veníre ad me, et ne prohibuéritis eos: tálium est enim regnum Dei.",
-            "incipit": "Sínite párvulos veníre",
+            "incipit": {
+              "incipit": "Sinite parvulos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) SI(fg'h)ni(g)te(g) *() pár(h)vu(g)los(ghg) ve(f)ní(ixhi)re(h) ad(g) me,(ghg.) (;) et(hjI~'H~) ne(jk) pro(k)hi(k)bu(j)é(k)ri(j)tis(j) e(jjh/ig)os :(g.) (:) tá(gk)li(k)um(k) est(kl) e(jvIH)nim(hgh.) (,) re(gee[ll:1]d/geg)gnum(g) De(ghg___)i.(g.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-27.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/08-27.txt",
             "section": "Postcommunio",
-            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut, intercedénte sancto Josépho Confessóre tuo, ad majus semper proficiámus pietátis increméntum.\n$Per Dominum",
-            "references": null
+            "texte": "Sanctificáti, Dómine, salutári mystério: quǽsumus; ut, intercedénte sancto Josépho Confessóre tuo, ad majus semper proficiámus pietátis increméntum.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Introitus",
-            "texte": "!Ps 33:12\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps : toujours sa louange sera à ma bouche.\n&Gloria\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.",
-            "incipit": "Venez, mes fils,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 33:12\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps : toujours sa louange sera à ma bouche.\n&Gloria\nv. Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Oratio",
-            "texte": "Dieu, par saint Joseph, votre Confesseur, vous avez daigné pourvoir votre Église d’un nouveau secours pour former la jeunesse à la science et à la piété : faites, nous vous en prions, qu’aidés de son exemple et de son intercession, nous puissions agir et enseigner de manière à mériter les éternelles récompenses.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, par saint Joseph, votre Confesseur, vous avez daigné pourvoir votre Église d’un nouveau secours pour former la jeunesse à la science et à la piété : faites, nous vous en prions, qu’aidés de son exemple et de son intercession, nous puissions agir et enseigner de manière à mériter les éternelles récompenses.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Lectio",
-            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Graduale",
-            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia.\n!Jac 1:12.\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
-            "incipit": "La bouche du",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/08-27.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Jac 1:12.\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nEn ce temps-là : les disciples vinrent un jour poser à Jésus cette question : « Selon Vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-5\nEn ce temps-là : les disciples vinrent un jour poser à Jésus cette question : « Selon Vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »"
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Offertorium",
-            "texte": "!Ps 9:17\nLe Seigneur a entendu le désir des pauvres : à son oreille est parvenue la voix de leur cœur.",
-            "incipit": "Le Seigneur a",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 9:17\nLe Seigneur a entendu le désir des pauvres : à son oreille est parvenue la voix de leur cœur."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Secreta",
-            "texte": "Nous couvrons aujourd’hui d’offrandes votre autel, Seigneur, afin qu’elles nous soient profitables par les mérites de celui dont vous avez fait notre protecteur.\n$Per Dominum",
-            "references": null
+            "texte": "Nous couvrons aujourd’hui d’offrandes votre autel, Seigneur, afin qu’elles nous soient profitables par les mérites de celui dont vous avez fait notre protecteur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Communio",
-            "texte": "!Marc 10:14\nLaissez les petits enfants venir à moi et ne les en empêchez pas, car c’est à eux qu’appartient le royaume des cieux.",
-            "incipit": "Laissez les petits",
-            "mp3": null,
-            "references": null
+            "texte": "!Marc 10:14\nLaissez les petits enfants venir à moi et ne les en empêchez pas, car c’est à eux qu’appartient le royaume des cieux."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/08-27.txt",
             "section": "Postcommunio",
-            "texte": "Sanctifiés, Seigneur, par le sacrement du salut, nous vous supplions, par les prières de saint Joseph, votre Confesseur, de nous accorder d’avancer de plus en plus dans l’esprit de piété.\n$Per Dominum",
-            "references": null
+            "texte": "Sanctifiés, Seigneur, par le sacrement du salut, nous vous supplions, par les prières de saint Joseph, votre Confesseur, de nous accorder d’avancer de plus en plus dans l’esprit de piété.\n$Per Dominum"
           }
         }
       },
@@ -217,7 +200,7 @@
         "Francais/Sancti/08-27.txt",
         "Latin/Sancti/08-27.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

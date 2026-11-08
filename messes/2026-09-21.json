@@ -28,195 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/09-21.txt",
-            "section": "Introitus",
             "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
-            "incipit": "Os justi meditábitur",
+            "incipit": {
+              "incipit": "Os justi",
+              "version": "Solesmes",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Introitus"
+            },
+            "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
-                    "section": "Introitus",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "fichier": "Latin/Sancti/09-21.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Oratio",
-            "texte": "Beáti Apóstoli et Evangelístæ Matthǽi, Dómine, précibus adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur.\n$Per Dominum",
-            "references": null
+            "texte": "Beáti Apóstoli et Evangelístæ Matthǽi, Dómine, précibus adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 1:10-14\nSimilitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et pennæ eórum exténtæ désuper: duæ pennæ singulórum jungebántur et duæ tegébant córpora eórum: et unumquódque eórum coram fácie sua ambulábat: ubi erat ímpetus spíritus, illuc gradiebántur, nec revertebántur cum ambulárent. Et similitúdo animálium, aspéctus eórum quasi carbónum ignis ardéntium et quasi aspéctus lampadárum. Hæc erat visio discúrrens in médio animálium, splendor ignis, et de igne fulgur egrédiens. Et animália ibant et revertebántur in similitúdinem fúlguris coruscántis.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/04-25.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 1:10-14\nSimilitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et pennæ eórum exténtæ désuper: duæ pennæ singulórum jungebántur et duæ tegébant córpora eórum: et unumquódque eórum coram fácie sua ambulábat: ubi erat ímpetus spíritus, illuc gradiebántur, nec revertebántur cum ambulárent. Et similitúdo animálium, aspéctus eórum quasi carbónum ignis ardéntium et quasi aspéctus lampadárum. Hæc erat visio discúrrens in médio animálium, splendor ignis, et de igne fulgur egrédiens. Et animália ibant et revertebántur in similitúdinem fúlguris coruscántis."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/09-21.txt",
-            "section": "Graduale",
-            "texte": "!Ps 111:1-2\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.\nAllelúja, allelúja.\nV. Te gloriosus Apostolórum chorus laudat, Dómine. Allelúja.",
-            "incipit": "Beátus vir, qui",
+            "texte": "!Ps 111:1-2\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\nV. Potens in terra erit semen ejus: generátio rectórum benedicétur.",
+            "incipit": {
+              "incipit": "Beatus vir qui timet (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) BE(d)á(ff/g_[oh:h]e/f_d//g_[oh:h]ef)tus(d/gef) vir,(f.) *(;) qui(jj) ti(j_[hl:1]k_[hl:1]j_[hl:1])met(j) Dó(ixj_hivHGivHG//f!gwhgh//gh)mi(fg)num :(fgff/ded.) (:) in(d) man(d)dá(fgfgh_g//jv.ikjjvIH)tis(hv.gj/kj) e(jjjijv_I~H~)jus(ih..) (;) cu(jjlK'J)pit(j_i/jjj_hj) ni(gh)mis.(e.f!gwhgh.//ghGF'f//f'hg/hggf.0) (z0::c3) <sp>V/</sp>. Pot(d)ens(d) in(f) ter(h)ra(ihh'hh//f!hhhvF'ED//fvED//fvED) (,) (f!gwh/i_[oh:h]g/i_[oh:h]h//h'hhjIH'//hvGF.) (;) e(f!h'i)rit(ih/jkihhf.) se(hf/hhh)men(h) e(ihhfhv.)(,)(df/h_fhv.ihhfhv.ih/ihhghv_G~F~)jus :(gf..) (:) ge(f)ne(h)rá(h)ti(hfih)o(hhhvF'D) re(f)ctó(hv.fig'hvF'Ef.)(,)(egF'EfvED'e)rum(e[ll:1]d..) *(;) be(d)ne(ef)di(fhGF')cé(i)tur.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_beatus-vir-qui.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/09-21.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/09-21.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\nV. Te gloriosus Apostolórum chorus laudat, Dómine. Allelúja.",
+            "incipit": {
+              "incipit": "Te gloriosus (All)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(cd)le(ef!ghhg)lú(gi/jhivH~G~){ia}.(g.) (;) {*} <i>ij.</i>(gh/ijh.1___jvIHG.f!hfg./egFE'DC.) (,) (cd!ef!ghhvGF'De[ll:1]ddc.) (::) <sp>V/</sp>. Te(cd) glo(f)ri(e)ó(fg)sus(gvFEDfg!hvhg.) (,) A(g)po(gh)sto(hg)ló(fvED)rum(dgF'E) cho(cdc___)rus(c.) (:) lau(g/hgjv.ijh/!hvGEfg~)dat,(g.) <clear>*(,) Dó(gh/ijh.1___jvIH'G)mi(f!hfg)ne.(egFE'DC.) (,) (cd!ef!ghhvGF'De[ll:1]ddc.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/09-21.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:9-13\nIn illo témpore: Vidit Jesus hóminem sedéntem in telónio, Matthǽum nómine. Et ait illi: Séquere me. Et surgens, secútus est eum. Et factum est, discumbénte eo in domo, ecce, multi publicáni et peccatóres veniéntes discumbébant cum Jesu et discípulis ejus. Et vidéntes pharisæi, dicébant discípulis ejus: Quare cum publicánis et peccatóribus mandúcat Magíster vester? At Jesus áudiens, ait: Non est opus valéntibus médicus, sed male habéntibus. Eúntes autem díscite, quid est: Misericórdiam volo, et non sacrifícium. Non enim veni vocáre justos, sed peccatóres.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:9-13\nIn illo témpore: Vidit Jesus hóminem sedéntem in telónio, Matthǽum nómine. Et ait illi: Séquere me. Et surgens, secútus est eum. Et factum est, discumbénte eo in domo, ecce, multi publicáni et peccatóres veniéntes discumbébant cum Jesu et discípulis ejus. Et vidéntes pharisæi, dicébant discípulis ejus: Quare cum publicánis et peccatóribus mandúcat Magíster vester? At Jesus áudiens, ait: Non est opus valéntibus médicus, sed male habéntibus. Eúntes autem díscite, quid est: Misericórdiam volo, et non sacrifícium. Non enim veni vocáre justos, sed peccatóres."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/09-21.txt",
-            "section": "Offertorium",
             "texte": "!Ps 20:4-5\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam pétiit a te, et tribuísti ei, allelúja.",
-            "incipit": "Posuísti, Dómine, in",
+            "incipit": {
+              "incipit": "Posuisti Domine (Off.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) PO(f)su(g)í(g./hjHG'gf/ghg___)sti(g.) <clear>*(,) Dó(hg/h!jjkvJH)mi(gfh)ne(h.) (;) in(h) cá(jhhf/!ghGF'/!fde'1c)(,)(cd!ff/gh/jh)pi(g)te(f) e(fg~)jus(g.) (;) co(g.h!iwj)ró(jj/ij_g//h!jijkljj)nam(ki/jhhg.) (;) de(g) lá(g)pi(g)de(gggvED'eg'!hvGFg.) (,) pre(g)ti(hj)ó(ig/h!jj/klK'Ijkjjh/ig)so :(g.) (:) vi(g)tam(gh~) pé(hvGFgvFEf.0/!ghffdg)ti(fg)it(g.) (,) a(h) te,(gjI'Ghh//fh!jvGF'fd/ef!ghg.) (:) tri(g)bu(g)í(gjji/jh)sti(h) e(gh)i,(h.) (;) al(h!iwji~)le(jkJH'//gi. hjIH'//g!jj/h_[oh:h]i_[oh:h]g_[oh:h])lú(ghg___){ia}.(g.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/09-21.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Secreta",
-            "texte": "Supplicatiónibus beáti Matthæi Apóstoli et Evangelístæ, quǽsumus, Dómine, Ecclésiæ tuæ commendétur oblátio: cujus magníficis prædicatiónibus erúditur.\n$Per Dominum",
-            "references": null
+            "texte": "Supplicatiónibus beáti Matthæi Apóstoli et Evangelístæ, quǽsumus, Dómine, Ecclésiæ tuæ commendétur oblátio: cujus magníficis prædicatiónibus erúditur.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/09-21.txt",
-            "section": "Communio",
             "texte": "!Ps 20:6\nMagna est glória ejus in salutári tuo: glóriam et magnum deI córem ímpones super eum, Dómine.",
-            "incipit": "Magna est glória",
+            "incipit": {
+              "incipit": "Magna est gloria (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) MA(g)gna(gh) est(h) *(,) gló(jj)ri(hg)a(g) e(gh~)jus(g.) (,) in(gh~) sa(h)lu(hf)tá(g)ri(gff) tu(f.d!ew!fvE'DC'd)o :(dc..) (:) gló(cd/fef)ri(f)am(fff) (,) et(fd~) ma(fg~)gnum(g) de(gh)có(fv.efd)rem(e[ll:1]d..) (:) im(fh~)pó(h)nes(fgf) su(g_[oh:h]f)per(f) e(fdfvEC)um,(d!ewf!g'h) Dó(e)mi(egff)ne.(fe..) (::)",
             "mp3": "communion_magna-est-gloria.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/09-21.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/09-21.txt",
             "section": "Postcommunio",
-            "texte": "Percéptis, Dómine, sacraméntis, beáto Matthæo Apóstolo tuo et Evangelísta interveniénte, deprecámur: ut, quæ pro ejus celebráta sunt glória, nobis profíciant ad medélam.\n$Per Dominum",
-            "references": null
+            "texte": "Percéptis, Dómine, sacraméntis, beáto Matthæo Apóstolo tuo et Evangelísta interveniénte, deprecámur: ut, quæ pro ejus celebráta sunt glória, nobis profíciant ad medélam.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Introitus",
-            "texte": "!Ps 36:30-31.\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.",
-            "incipit": "La bouche du",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 36:30-31.\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Oratio",
-            "texte": "Que les prières du bienheureux Apôtre et Évangéliste Matthieu nous viennent en aide, Seigneur, afin que les grâces que notre insuffisance ne peut obtenir nous soient accordées grâce à son intercession.\n$Per Dominum",
-            "references": null
+            "texte": "Que les prières du bienheureux Apôtre et Évangéliste Matthieu nous viennent en aide, Seigneur, afin que les grâces que notre insuffisance ne peut obtenir nous soient accordées grâce à son intercession.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 1:10-14\nVoici l’apparence des visages des quatre animaux : ils avaient tous les quatre une face d’homme, une face de lion à leur droite, et une face de boeuf à leur gauche, et une face d’aigle au-dessus d’eux quatre. Leurs faces et leurs ailes s’étendaient en haut ; deux de leurs ailes se joignaient, et deux couvraient leurs corps. Chacun d’eux marchait devant soi ; ils allaient où l’Esprit les poussait, et ils ne se retournaient point en marchant. Et l’aspect des animaux ressemblait à celui de charbons de feu ardents et à celui de lampes allumées. On voyait courir au milieu des animaux des flammes de feu, et de ce feu sortaient des éclairs. Et les animaux allaient et revenaient comme des éclairs flamboyants.",
-            "references": null
+            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 1:10-14\nVoici l’apparence des visages des quatre animaux : ils avaient tous les quatre une face d’homme, une face de lion à leur droite, et une face de boeuf à leur gauche, et une face d’aigle au-dessus d’eux quatre. Leurs faces et leurs ailes s’étendaient en haut ; deux de leurs ailes se joignaient, et deux couvraient leurs corps. Chacun d’eux marchait devant soi ; ils allaient où l’Esprit les poussait, et ils ne se retournaient point en marchant. Et l’aspect des animaux ressemblait à celui de charbons de feu ardents et à celui de lampes allumées. On voyait courir au milieu des animaux des flammes de feu, et de ce feu sortaient des éclairs. Et les animaux allaient et revenaient comme des éclairs flamboyants."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Graduale",
-            "texte": "!Ps 111:1-2\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa race sera puissante sur la terre ; la postérité des justes sera bénie. Alléluia, alléluia.\nV. Le chœur glorieux des Apôtres chante vos louanges, Seigneur. Alléluia.",
-            "incipit": "Heureux l’homme qui",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 111:1-2\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.\nV. Sa race sera puissante sur la terre ; la postérité des justes sera bénie."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-21.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\nV. Le chœur glorieux des Apôtres chante vos louanges, Seigneur. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:9-13\nEn ce temps-là : Jésus vit un homme, appelé Matthieu, assis au bureau des impots. Et il lui dit : Suis-moi. Et se levant, il le suivit. Or, il arriva que, Jésus étant à table dans la maison, beaucoup de publicains et de pécheurs vinrent se mettre à table avec lui et ses disciples. Et voyant cela, les pharisiens disaient à ses disciples : Pourquoi votre Maître mange-t-il avec les publicains et les pécheurs ? Mais Jésus les ayant entendus, dit : Ce ne sont pas ceux qui se portent bien, mais les malades, qui ont besoin de médecin. Allez, et apprenez ce que signifie cette parole : Je veux la miséricorde et non le sacrifice. Car Je ne suis pas venu appeler les justes, mais les pécheurs.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:9-13\nEn ce temps-là : Jésus vit un homme, appelé Matthieu, assis au bureau des impots. Et il lui dit : Suis-moi. Et se levant, il le suivit. Or, il arriva que, Jésus étant à table dans la maison, beaucoup de publicains et de pécheurs vinrent se mettre à table avec lui et ses disciples. Et voyant cela, les pharisiens disaient à ses disciples : Pourquoi votre Maître mange-t-il avec les publicains et les pécheurs ? Mais Jésus les ayant entendus, dit : Ce ne sont pas ceux qui se portent bien, mais les malades, qui ont besoin de médecin. Allez, et apprenez ce que signifie cette parole : Je veux la miséricorde et non le sacrifice. Car Je ne suis pas venu appeler les justes, mais les pécheurs."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Offertorium",
-            "texte": "!Ps 20:4-5.\nVous avez mis, Seigneur, sur sa tête, une couronne de pierres précieuses. Il vous a demandé la vie, et vous la lui avez donnée, alléluia.",
-            "incipit": "Vous avez mis,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 20:4-5.\nVous avez mis, Seigneur, sur sa tête, une couronne de pierres précieuses. Il vous a demandé la vie, et vous la lui avez donnée, alléluia."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Secreta",
-            "texte": "Que l’offrande de votre Eglise trouve, nous vous en prions Seigneur, une recommandation dans les instantes prières du bienheureux Apôtre et Evangéliste Matthieu, dont les prédications admirables l’ont instruite.\n$Per Dominum",
-            "references": null
+            "texte": "Que l’offrande de votre Eglise trouve, nous vous en prions Seigneur, une recommandation dans les instantes prières du bienheureux Apôtre et Evangéliste Matthieu, dont les prédications admirables l’ont instruite.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Communio",
-            "texte": "!Ps 20:6\nGrande est sa gloire, grâce à votre salut : vous le couvrirez de gloire et d’un honneur immense.",
-            "incipit": "Grande est sa",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 20:6\nGrande est sa gloire, grâce à votre salut : vous le couvrirez de gloire et d’un honneur immense."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-21.txt",
             "section": "Postcommunio",
-            "texte": "Ayant reçu vos sacrements, nous vous demandons, Seigneur, que le bienheureux Apôtre et Evangéliste Matthieu intervenant en notre faveur, ce sacrifice célébré en son honneur nous serve de remède.\n$Per Dominum",
-            "references": null
+            "texte": "Ayant reçu vos sacrements, nous vous demandons, Seigneur, que le bienheureux Apôtre et Evangéliste Matthieu intervenant en notre faveur, ce sacrifice célébré en son honneur nous serve de remède.\n$Per Dominum"
           }
         }
       },
@@ -224,7 +200,7 @@
         "Francais/Sancti/09-21.txt",
         "Latin/Sancti/09-21.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

@@ -28,181 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Introitus",
             "texte": "!Hebr 4:16\nv. Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur, et grátiam inveniámus in auxílio opportúno.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea regi.\n&Gloria\nv. Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur, et grátiam inveniámus in auxílio opportúno.",
-            "incipit": "Adeámus cum fidúcia",
+            "incipit": {
+              "incipit": "Adeamus. Ps. Levavi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) AD(d)e(f)á(hhi)mus(h) *() cum(hihh) fi(f_e)dú(f!gwh)ci(e[ll:1]d)a(d.) (,) ad(f) thro(fef)num(fef) grá(hf/hhh)ti(ivHF)ae,(f.) (:) ut(f) mi(h)se(hi)ri(i)cór(ij)di(i)am(h) con(h)se(hi)quá(hihh)mur,(gf..) (:) et(f) grá(hhi)ti(f)am(f') in(f)ve(f)ni(hh)á(hv.gihghf)mus(f.) (,) in(gxfg~) au(fe)xí(gxfgF'D)li(dfE'De[ll:1]d)o(d.) (,) op(gxde/gf/g_[uh:l]h)por(hgge!fwg)tú(d_[oh:h]e_[oh:h]d_[oh:h])no.(d.) (::) <i>T. P.</i> Al(df~)le(fef)lú(hf/hhh){ia},(hiHF.1) (,) al(ef)le(gxfhe___!fw!gvFE)lú(de!fvED'e){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Le(d)vá(f)vi(h) ó(h)cu(h)los(h) me(h)os(h) in(i) mon(i)tes :(h.) *(:) un(f)de(h) vé(h)ni(h)et(h) au(h)xí(i)li(g)um(g) mi(h)hi.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::) ",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor tuum vívere valeámus.\n$Per Dominum",
-            "references": null
+            "texte": "Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor tuum vívere valeámus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-16.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Graduale",
-            "texte": "!Ps 12:6\nExsultábit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.\n!Ps 44:18\nV. Mémores erunt nóminis tui in omni generatióne et generatiónem: proptérea pópuli confitebúntur tibi in ætérnum. Allelúja, allelúja.\n! Luc 1:46; 1:47\nV. Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo. Allelúja.",
-            "incipit": "Exsultábit cor meum",
+            "texte": "!Ps 12:6\nExsultábit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.\n!Ps 44:18\nV. Mémores erunt nóminis tui in omni generatióne et generatiónem: proptérea pópuli confitebúntur tibi in ætérnum.",
+            "incipit": {
+              "incipit": "Exsultabit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) EX(c)sul(e)tá(egf)bit(f.) *(,) cor(hfghvF'Egef) me(gf)um(f.) (;) in(f) sa(hf/hi'j)lu(h_f)tá(f_e)ri(gxegFE.) (`) tu(e[ll:1]d/fef)o :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) can(hh)tá(h)bo(hi) Dó(ihhvGF')mi(g)no,(f.) (,) qui(f) bo(f)na(fi) trí(i_[oh:h]f/ij)bu(h')it(fh./ghF'Ef.) (,) mi(hf/hhh)hi :(h.f!gwh!iv.hi/jhh/iih.0) (:) et(hh) psal(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)lam(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) nó(d)mi(ef)ni(f) Dó(f)mi(f)ni(f.0/[-0.5]hvGF'g) al(ef)tís(hf)si(hi)mi.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Mé(f)mo(h)res(hi) e(i)runt(i.) nó(i)mi(i)nis(ij) tu(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)i(ji..) (:) in(i) o(k.i!jw!kvJI)mni(i') ge(i)ne(i)ra(i)ti(i)ó(i)ne(i.) (,) et(i) ge(i)ne(i)ra(i)ti(ij)ó(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)nem :(f.) (:) pro(fge)ptér(hh)e(ih)a(h) pó(ihhvGF')pu(g)li(f.) (,) con(f)fi(f)te(fi)bún(i_[oh:h]f/ij)tur(h_fhv.ghF'Ef.) (,) ti(hf/hhh)bi(h.f!gwh!iv.hi/jhh/iih.0) <clear>*(:) in(de'fhvGF'g) ae(ef)tér(hf/h_i)num.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Tractus",
             "texte": "!Prov 8:32; 8:35\nNunc ergo, fílii, audíte me: Beáti qui custódiunt vias meas.\nV. Audíte disciplínam et estóte sapiéntes, et nolíte abjícere eam.\nV. Beátus homo qui audit me, et qui vígilat ad fores meas quotídie, et obsérvat ad postes óstii mei.\nV. Qui me invénerit, invéniet vitam, et háuriet salútem a Dómino.",
-            "incipit": "Nunc ergo, fílii,",
+            "incipit": {
+              "incipit": "Nunc ergo",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) NUnc(g) er(g/hih)go,(g/hhg.) <clear>*(,) fí(gjjk)li(h)i,(gf/ghhg.) (;) au(h)dí(h!jij)te(hj) me :(jjjkh/!hg/hg/jjh/jggf.0) (:) Be(f)á(hj)ti,(igh) qui(gf/gh) cu(g)stó(gh)di(g)unt(g'_[oh:h]) vi(g)as(gh/jij) me(j.h!iwj)as.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Au(g)dí(g!hwi'!jv)te(j) di(j)sci(j)plí(ij)nam,(j.) (,) et(j) e(j)stó(j)te(j) sa(jji)pi(g)én(h_g/h!iw!jvIHijh)tes,(hg..) (;) et(f) no(f)lí(hj)te(igh) ab(gfg)jí(gh)ce(g)re(gh/jij) e(jh!iwj)am.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Be(g)á(gh'j)tus(jjjvIH') ho(jhhg)mo(g_[uh:l]h) (,) qui(h) au(h/jjh)dit(gf) me,(g_0[uh:l]/hfg.) (,) (ixi_[oh:h]hivGF.g/hg/hg/hg/jjh/jggf.0) (:) et(f) qui(f) ví(hj)gi(igh)lat(gf/gh) ad(g) fo(gh)res(g) me(gh)as(g.) quo(gh/ji)tí(j)di(h!iwj)e,(jjjvIHivHGhg..) (:) et(gh~) ob(g)sér(h_g/h!iwj)vat(ghf.1) ad(g) po(gh)stes(g) ó(hg/jjghvG'F)sti(f!h'j)i(j') me(j)i.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Qui(g) me(g!hwi'!jv) in(j)vé(ij)ne(j)rit,(j.) (,) in(j)vé(j)ni(j)et(j) vi(j_kJ'//Gh_g/h!iw!jvIHijh)tam,(hg..) (;) et(g) háu(h_g/h!iwj)ri(ghG'F)et(f.) (,) sa(f)lú(f.0h!iwj'!kv)tem(j') *() a(j) Dó(j')mi(j)no.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n! Luc 1:46; 1:47\nV. Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo. Allelúja.",
+            "incipit": {
+              "incipit": "Magnificat",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(ff)lú(ixfgfivHG'h){ia}.(hv.fgf//ivGFhhf.) <clear>*(,) <i>ij.</i>(dfe___gvFD'dc//ffc.) (,) (f_0!h_0g_0j._0/!jjj'//kjjh./fhg/hggf.0) (::) <sp>V/</sp>. Ma(ff)gní(f)fi(ixfgfivHG'h)cat(hv.fgf//ivGFhhf.) (;) á(f!h'j)ni(j)ma(ixjjvIG') me(ixg/jjj'//kjjhi)a(i_[oh:h]h) (;) Dó(fghjhhgh//fgFD.1cd/fd//cd!ff)(,)(ixg.h!iw!jvIH)mi(ghf)num :(f!gwh!ivHGh_[oh:h]i_[oh:h]h._[oh:h]) (:) et(f) ex(fg)sul(f)tá(ixf!gwhghjjjvIH'G//jjjvIG'Fhv.)(,)(ixf!gwhghjjjvIH'G//jjjvIG'Fhv.fgf/ih)vit(ghf.1) (;) spí(df)ri(f)tus(fgf) me(fv.efd)us(c_[ll:1]f) (;) in(ff) De(ixfgfivHG'h)o(hv.fgf//ivGFhhf.) <clear>*(,) sa(dfe)lu(gf)tá(ddc)ri(ffc.) me(ixf_0!h_0g_0j._0/!jjj'//kjjhi)o.(hv.fhg/hggf.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 19:25-27\nIn illo témpore: Stabant juxta crucem Jesu mater ejus, et soror matris ejus María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus matrem, et discípulum stantem, quem diligébat, dicit matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in sua.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 19:25-27\nIn illo témpore: Stabant juxta crucem Jesu mater ejus, et soror matris ejus María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus matrem, et discípulum stantem, quem diligébat, dicit matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in sua."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Offertorium",
             "texte": "!Luc 1:46; 1:49\nExsultávit spíritus meus in Deo salutári meo; quia fecit mihi magna qui potens est, et sanctum nomen ejus.",
-            "incipit": "Exsultávit spíritus meus",
+            "incipit": {
+              "incipit": "Exsultavit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) EX(f)sul(gh~)tá(h/jjh!iwj)vit(g.) (,) * spí(fgh!jjj_h/jj)ri(jh)tus(hv.f!hfg) me(g)us(g/jjh//giHG'gf.0) (;) in(fg~) De(gh!jjjvH'G)o(g!jj) sa(jhhg)lu(fg)tá(g)ri(ghfg) me(ghg___)o :(g.) (:) qui(ikjj'j)a(h_g) fe(j_i//jjj_g/j)cit(j.jjj) mi(h_g)hi(g_[oh:h]f) ma(giH'G)gna(g.) (,) qui(f) pot(gh)ens(g) est,(h_[oh:h]i_[oh:h]h._[oh:h]) (:) et(g) san(g!jjjh/!hg!hwi_[oh:h]h)ctum(hggf.0) (,) no(fg'h//fg/hih/ig)men(g) e(ghg___)jus.(g.) (::) <i>T. P.</i> Al(hg~)le(gjg/hggf/g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Secreta",
-            "texte": "Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ Vírginis ineffabíliter inflammávit.\n$Per eundem",
-            "references": null
+            "texte": "Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ Vírginis ineffabíliter inflammávit.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/08-22.txt",
-            "section": "Communio",
             "texte": "!Joann 19:27\nDixit Jesus matri suæ: Múlier, ecce fílius tuus: deinde dixit discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in sua.",
-            "incipit": "Dixit Jesus matri",
+            "incipit": {
+              "incipit": "Dixit Jesus matri suae",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DI(gg)xit(gh) Je(h)sus(hvGF') ma(h)tri(hi) su(g.)ae :(g.) *(,) Mú(g)li(hi)er,(i.) ec(i.h!iwj)ce(hg) fí(hi)li(h)us(h) tu(g.)us;(g.) (:) de(g)ín(gh~)de(g') di(g)xit(ge) di(fg)scí(f)pu(e_[uh:l]fED'e)lo :(e[ll:1]d..) (,) Ec(ffd)ce(e_[uh:l]f) ma(gh)ter(h) tu(g.)a.(g.) (:) Et(g) ex(g) il(h')la(g) ho(f!gwh)ra(h'_) ac(h)cé(h')pit(g) e(hj)am(jv_IH') di(h)scí(h)pu(hg)lus(h) in(hi) su(g.)a.(g.) (::) <i>T. P.</i> Al(g)le(ghfg)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-22.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/08-22.txt",
             "section": "Postcommunio",
-            "texte": "Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut beátæ Maríæ Vírginis intercessióne, cujus immaculáti Cordis sollémnia venerándo égimus, a præséntibus perículis liberáti, ætérnæ vitæ gáudia consequámur.\n$Per Dominum",
-            "references": null
+            "texte": "Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut beátæ Maríæ Vírginis intercessióne, cujus immaculáti Cordis sollémnia venerándo égimus, a præséntibus perículis liberáti, ætérnæ vitæ gáudia consequámur.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Introitus",
-            "texte": "!Hebr 4:16.\nv. Approchons-nous donc avec assurance du trône de la grâce, afin d’obtenir miséricorde et de trouver grâce, pour être secourus en temps opportun.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Approchons-nous donc avec assurance du trône de la grâce, afin d’obtenir miséricorde et de trouver grâce, pour être secourus en temps opportun.",
-            "incipit": "Approchons-nous donc avec",
-            "mp3": null,
-            "references": null
+            "texte": "!Hebr 4:16.\nv. Approchons-nous donc avec assurance du trône de la grâce, afin d’obtenir miséricorde et de trouver grâce, pour être secourus en temps opportun.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Approchons-nous donc avec assurance du trône de la grâce, afin d’obtenir miséricorde et de trouver grâce, pour être secourus en temps opportun."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Oratio",
-            "texte": "Dieu éternel et tout puissant, qui avez préparé dans le Coeur de la bienheureuse Vierge Marie une demeure digne du Saint-Esprit, faites, dans votre bonté, qu’en célébrant de toute notre âme cette fête en l’honneur de son cœur immaculé, nous arrivions à vivre selon votre cœur.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu éternel et tout puissant, qui avez préparé dans le Coeur de la bienheureuse Vierge Marie une demeure digne du Saint-Esprit, faites, dans votre bonté, qu’en célébrant de toute notre âme cette fête en l’honneur de son cœur immaculé, nous arrivions à vivre selon votre cœur.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Graduale",
-            "texte": "!Ps 12:6\nMon coeur tressaillira à cause de ton salut : chanterai le Seigneur pour le bien qu’il m’a fait, et je louerai le nom du Seigneur, le Très-haut.\n!Ps 44:18\nIls se rappelleront de votre nom d’âge en âge ; et les peuples vous loueront éternellement et à jamais. Alléluia, alléluia.\n! Luc 1:46; 1:47\nMon âme glorifie le Seigneur, et mon esprit tressaille de joie en Dieu, mon Sauveur. Alléluia.",
-            "incipit": "Mon coeur tressaillira",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 12:6\nMon coeur tressaillira à cause de ton salut : chanterai le Seigneur pour le bien qu’il m’a fait, et je louerai le nom du Seigneur, le Très-haut.\n!Ps 44:18\nIls se rappelleront de votre nom d’âge en âge ; et les peuples vous loueront éternellement et à jamais."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Tractus",
-            "texte": "!Prov 8:32; 8:35\nEt maintenant, mes fils, écoutez-moi ; heureux ceux qui gardent mes voies !\nV. Écoutez l’instruction pour devenir sages ; ne la rejetez pas.\nV. Heureux l’homme qui m’écoute, qui veille chaque jour à mes portes, et qui en garde les montants !\nV. Car celui qui me trouve a trouvé la vie, et il puisera le salut dans le Seigneur.",
-            "incipit": "Et maintenant, mes",
-            "mp3": null,
-            "references": null
+            "texte": "!Prov 8:32; 8:35\nEt maintenant, mes fils, écoutez-moi ; heureux ceux qui gardent mes voies !\nV. Écoutez l’instruction pour devenir sages ; ne la rejetez pas.\nV. Heureux l’homme qui m’écoute, qui veille chaque jour à mes portes, et qui en garde les montants !\nV. Car celui qui me trouve a trouvé la vie, et il puisera le salut dans le Seigneur."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/08-22.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n! Luc 1:46; 1:47\nMon âme glorifie le Seigneur, et mon esprit tressaille de joie en Dieu, mon Sauveur. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 19:25-27\nEn ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 19:25-27\nEn ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:46; 1:49\nMon esprit tressaille de joie en Dieu, mon Sauveur, parce que le Puissant a fait pour moi de grandes choses, et son nom est saint,",
-            "incipit": "Mon esprit tressaille",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 1:46; 1:49\nMon esprit tressaille de joie en Dieu, mon Sauveur, parce que le Puissant a fait pour moi de grandes choses, et son nom est saint,"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Secreta",
-            "texte": "En offrant, Seigneur, à votre majesté, l’Agneau sans tache, nous vous supplions d’allumer en nos cœurs ce feu divin qui embrasa d’une manière ineffable le Cœur de la bienheureuse Vierge Marie.\n$Per eundem",
-            "references": null
+            "texte": "En offrant, Seigneur, à votre majesté, l’Agneau sans tache, nous vous supplions d’allumer en nos cœurs ce feu divin qui embrasa d’une manière ineffable le Cœur de la bienheureuse Vierge Marie.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Communio",
-            "texte": "!Joann 19:27\nJésus dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui.",
-            "incipit": "Jésus dit à",
-            "mp3": null,
-            "references": null
+            "texte": "!Joann 19:27\nJésus dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/08-22.txt",
             "section": "Postcommunio",
-            "texte": "Renouvelés par ces dons divins, nous vous supplions humblement, Seigneur, par l’intercession de la bienheureuse Vierge Marie dont nous célébrons avec piété la solennité du Cœur immaculé, de nous arracher aux dangers de la vie présente et de nous accorder les joies de la vie éternelle.\n$Per Dominum",
-            "references": null
+            "texte": "Renouvelés par ces dons divins, nous vous supplions humblement, Seigneur, par l’intercession de la bienheureuse Vierge Marie dont nous célébrons avec piété la solennité du Cœur immaculé, de nous arracher aux dangers de la vie présente et de nous accorder les joies de la vie éternelle.\n$Per Dominum"
           }
         }
       },
@@ -210,7 +209,7 @@
         "Francais/Sancti/08-22.txt",
         "Latin/Sancti/08-22.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

@@ -28,202 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/08-04.txt",
-            "section": "Introitus",
             "texte": "!Ps 36:30-31\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n!Ps 36:1\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n&Gloria\nv. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)",
-            "incipit": "Os justi meditábitur",
+            "incipit": {
+              "incipit": "Os justi",
+              "version": "Solesmes",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Introitus"
+            },
+            "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
-                    "section": "Introitus",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Oratio",
-            "texte": "Deus, qui Ecclésiam tuam beáti Domínici Confessóris tui illumináre dignátus es méritis et doctrínis: concéde; ut ejus intercessióne temporalibus non destituátur auxíliis, et spirituálibus semper profíciat increméntis.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui Ecclésiam tuam beáti Domínici Confessóris tui illumináre dignátus es méritis et doctrínis: concéde; ut ejus intercessióne temporalibus non destituátur auxíliis, et spirituálibus semper profíciat increméntis.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prædica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímple. Sóbrius esto. Ego enim jam délibor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prædica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímple. Sóbrius esto. Ego enim jam délibor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/08-04.txt",
-            "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
-            "incipit": "Justus ut palma",
+            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "incipit": {
+              "incipit": "Justus ut palma",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) JU(egf)stus(f.) *(,) ut(f) pal(f)ma(f) flo(f)ré(hfghvF'Ege/fg)bit :(f.) (:) sic(f)ut(f) ce(hf/hi'j)drus(gxhffegvFE.) (,) Lí(e)ba(e[ll:1]d/fef)ni(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) mul(hh)ti(h)pli(h)cá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')bi(f)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) do(de'fhvGF'g)mo(ef) Dó(hf)mi(hi)ni.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHFgwhf.1) (::) \r\n<sp>V/</sp>. Ad(f) an(h)nun(hi)ti(i)án(i)dum(ij~) ma(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ne(ji..) (:) mi(i!jw!kvJI'jw!kvJI)se(i)ri(i)cór(i)di(i)am(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am,(f.) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) per(de'fhvGFgef) no(hf/h_i)ctem.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/08-04.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "incipit": {
+              "incipit": "Justus germinabit",
+              "version": "Solesmes",
+              "distance": 18,
+              "similarite": 0.55,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(ff)lú(g.f!gwhgh){ia}.(hhf.) <clear>*(,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h!j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::) <sp>V/</sp>. Ju(h_fhhvGE'fd)stus(d.) ger(dfd___dc~)mi(d)ná(d_[oh:h]e_[oh:h]d_[oh:h]hvhg/!gfixg!igh)bit(h.) (;) sic(d)ut(efg~) lí(g)li(gfhvFEgvFD)um :(d.) (:) et(f) flo(ghg)ré(h/jhhg//hvGFgvFDfvECd./ffdfvECd.)(,)(fghjhhg//hvGFhv.//defhvGE'fd)bit(d.) (;) in(fvEC) ae(egf)tér(e[ll:1]d/ffd)num(d.) (:) * an(d)te(ff) Dó(g_[oh:h]f)mi(f!gwhgh)num.(hhf.) (,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h/j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent10-2.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/08-04.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-            "incipit": "Véritas mea et",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Veritas mea",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Secreta",
-            "texte": "Múnera tibi, Dómine, dicáta sanctífica: ut, méritis beáti Domínici Confessóris tui, nobis profíciant ad medélam.\n$Per Dominum",
-            "references": null
+            "texte": "Múnera tibi, Dómine, dicáta sanctífica: ut, méritis beáti Domínici Confessóris tui, nobis profíciant ad medélam.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/08-04.txt",
-            "section": "Communio",
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
-            "incipit": "Fidélis servus et",
-            "mp3": "communion_fidelis-servus-et.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Fidelis servus (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Sancti/08-04.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/08-04.txt",
             "section": "Postcommunio",
-            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui peccatórum nostrórum póndere prémimur, beáti Domínici Confessóris tui patrocínio sublevémur.\n$Per Dominum",
-            "references": null
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut, qui peccatórum nostrórum póndere prémimur, beáti Domínici Confessóris tui patrocínio sublevémur.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Introitus",
-            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant : et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur.",
-            "incipit": "La bouche du",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant : et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité : la loi de son Dieu est dans son cœur."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Oratio",
-            "texte": "Dieu, vous avez daigné éclairer votre Église par les mérites et les leçons du bienheureux Dominique, votre Confesseur : faites que, par son intercession, elle ne soit pas privée des secours temporels, et qu’elle fasse toujours de nouveaux progrès dans les voies spirituelles.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, vous avez daigné éclairer votre Église par les mérites et les leçons du bienheureux Dominique, votre Confesseur : faites que, par son intercession, elle ne soit pas privée des secours temporels, et qu’elle fasse toujours de nouveaux progrès dans les voies spirituelles.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nMon bien-aimé : je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8.\nMon bien-aimé : je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit. Alléluia, alléluia.\n!Osee 14:6\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur. Alléluia.",
-            "incipit": "Le juste fleurira",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/08-04.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Osee 14:6\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban dans la maison du Seigneur. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nEn ce temps-là : Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:35-40\nEn ce temps-là : Jésus dit à ses disciples : Que vos reins soient ceints, et les lampes allumées dans vos mains. Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que, lorsqu’il arrivera et frappera, ils lui ouvrent aussitôt. Heureux ces serviteurs que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il se ceindra, les fera asseoir à table, et passant devant eux, il les servira. Et, s’il vient à la seconde veille, s’il vient à la troisième veille, et qu’il les trouve en cet état, heureux sont ces serviteurs ! Or, sachez que, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement, et ne laisserait pas percer sa maison. Vous aussi, soyez prêts ; car, à l’heure que vous ne pensez pas, le Fils de l’homme viendra."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui : et par mon nom s’élèvera sa puissance.",
-            "incipit": "Ma vérité et",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui : et par mon nom s’élèvera sa puissance."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Secreta",
-            "texte": "Rendez saints, ô Seigneur, les dons qui vous sont dédiés, afin que, par les mérites du bienheureux Dominique, votre Confesseur, ils nous servent de remède spirituels.\n$Per Dominum",
-            "references": null
+            "texte": "Rendez saints, ô Seigneur, les dons qui vous sont dédiés, afin que, par les mérites du bienheureux Dominique, votre Confesseur, ils nous servent de remède spirituels.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Communio",
-            "texte": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs : pour leur donner au temps fixé, leur mesure de blé.",
-            "incipit": "Voici le dispensateur",
-            "mp3": null,
-            "references": null
+            "texte": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs : pour leur donner au temps fixé, leur mesure de blé."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/08-04.txt",
             "section": "Postcommunio",
-            "texte": "Accordez-nous, nous vous le demandons, ô Dieu tout-puissant : qu’alors que nous nous sentons accablés sous le poids de nos péchés, nous soyons soulagés par le patronage du bienheureux Dominique, votre Confesseur.\n$Per Dominum",
-            "references": null
+            "texte": "Accordez-nous, nous vous le demandons, ô Dieu tout-puissant : qu’alors que nous nous sentons accablés sous le poids de nos péchés, nous soyons soulagés par le patronage du bienheureux Dominique, votre Confesseur.\n$Per Dominum"
           }
         }
       },
@@ -232,7 +201,7 @@
         "Latin/Sancti/08-04.txt",
         "Latin/Tempora/Pent10-2.txt"
       ],
-      "sections_vides": 7,
+      "sections_vides": 5,
       "numero": 1
     }
   ]

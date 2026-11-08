@@ -28,230 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/12-07.txt",
-            "section": "Introitus",
             "texte": "!Eccli 15:5\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)",
-            "incipit": "In médio Ecclésiæ",
+            "incipit": {
+              "incipit": "In medio Ecclesiae",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(df~) mé(fff)di(f)o(f) *() Ec(f)clé(gfg)si(f)ae(fff) (,) a(cd)pé(fff)ru(f)it(f) os(g_[oh:h]f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus :(f.) (:) et(f) im(f)plé(ixf!gwh'!iv)vit(h) e(hjjh)um(h.) Dó(gh)mi(gf)nus(f.) (,) spí(fh)ri(g)tu(f) sa(fgf)pi(ef'g)én(gh~)ti(f)ae,(fgf.) (,) et(f) in(ef'g)tel(hghf)lé(f)ctus :(fffc..) (:) sto(fdf)lam(f) gló(ghf)ri(f_d)ae(d_c) (,) ín(ff)du(f)it(ff) e(f_[oh:h]g_[oh:h]f_[oh:h])um.(f.) (::) <i>T. P.</i> Al(d)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> Bo(fg)num(gf) est(gh) con(h)fi(g)té(ixi)ri(h) Dó(g)mi(f)no :(f.) *(:) et(h) psál(hj)le(g)re(f) nó(f)mi(f)ni(f') tu(g)o,(fd) Al(f')tís(g)si(f)me.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_in-medio-ecclesiae.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/12-07.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C4a.txt",
             "section": "Oratio",
-            "texte": "Deus, qui pópulo tuo ætérnæ salútis beátum N. minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis.\n(sed communi Summorum Pontificum)\nDeus, qui pópulo tuo ætérnæ salútis beátum N. minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cælis.\n$Per Dominum.",
-            "references": null
+            "texte": "Deus, qui pópulo tuo ætérnæ salútis beátum N. minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis.\n(sed communi Summorum Pontificum)\nDeus, qui pópulo tuo ætérnæ salútis beátum N. minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cælis.\n$Per Dominum."
           },
           "Lectio": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/12-07.txt",
-            "section": "Graduale",
-            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi. Allelúja, allelúja.\n!Ps 109:4\nTu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
-            "incipit": "Ecce sacérdos magnus,",
+            "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+            "incipit": {
+              "incipit": "Ecce sacerdos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/12-07.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "incipit": {
+              "incipit": "Tu es sacerdos",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
+            "mp3": "alleluia_tu-es-sacerdos.mp3",
             "fichier": "Latin/Sancti/12-07.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. ¶ Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. ¶ Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/12-07.txt",
-            "section": "Offertorium",
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-            "incipit": "Véritas mea et",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Veritas mea",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
+            "mp3": "offerorium_veritas-mea.mp3",
+            "fichier": "Latin/Sancti/12-07.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Secreta",
-            "texte": "Omnípotens sempitérne Deus, múnera tuæ majestáti obláta, per intercessiónem beáti Ambrósii Confessóris tui atque Pontíficis, ad perpétuam nobis fac proveníre salútem.\n$Per Dominum",
-            "references": null
+            "texte": "Omnípotens sempitérne Deus, múnera tuæ majestáti obláta, per intercessiónem beáti Ambrósii Confessóris tui atque Pontíficis, ad perpétuam nobis fac proveníre salútem.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/12-07.txt",
-            "section": "Communio",
             "texte": "!Ps 88:36; 88:37-38\nSemel jurávi in sancto meo: Semen ejus in ætérnum manébit: et sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et testis in coelo fidélis. (Allelúja.)",
-            "incipit": "Semel jurávi in",
+            "incipit": {
+              "incipit": "Semel juravi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) SE(g)mel(f') ju(e)rá(g)vi(f') *() in(e) san(ghgh)cto(g) me(egff)o :(fe..) (:) se(h)men(hg) e(ixhi)jus(h.) (,) in(h) ae(gf)tér(gh)num(g) ma(fd)né(egff)bit :(eef.) (:) et(e[ll:1]d~) se(gh)des(gf) e(gh)jus(g.) (,) sic(g)ut(hj~) sol(jij) in(h) con(h)spé(h)ctu(h) me(hgh)o,(h.) (;) et(ixhi~) sic(h)ut(hg~) lu(h)na(ghg) per(fe~)fé(fg)cta(gh) in(f) ae(d)tér(gefvE~D~)num :(e[ll:1]d..) (;) et(f) te(gh)stis(ghg) in(ge~) cae(g)lo(gd) fi(f)dé(egff)lis.(fe..) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/12-07.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/12-07.txt",
             "section": "Postcommunio",
-            "texte": "Sacraménta salútis nostræ suscipiéntes, concéde, quǽsumus, omnípotens Deus: ut beáti Ambrósii Confessóris tui atque Pontíficis nos ubíque orátio ádjuvet; in cujus veneratióne hæc tuæ obtúlimus majestáti.\n$Per Dominum",
-            "references": null
+            "texte": "Sacraménta salútis nostræ suscipiéntes, concéde, quǽsumus, omnípotens Deus: ut beáti Ambrósii Confessóris tui atque Pontíficis nos ubíque orátio ádjuvet; in cujus veneratióne hæc tuæ obtúlimus majestáti.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Introitus",
-            "texte": "!Eccli 15:5\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.",
-            "incipit": "Au milieu de",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 15:5\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Oratio",
-            "texte": "Dieu, vous avez accordé à votre peuple le bienheureux Ambroise pour ministre du salut éternel : faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux, celui qui fut sur cette terre Docteur de la vie.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, vous avez accordé à votre peuple le bienheureux Ambroise pour ministre du salut éternel : faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux, celui qui fut sur cette terre Docteur de la vie.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Lectio",
-            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 4:1-8\nMon bien-aimé : je t’adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, par son avènement et son royaume : prêche la parole ; interviens à temps et à contretemps ; reprends, supplie, menace, en toute patience et doctrine. Car un temps viendra où les hommes ne supporteront plus la saine doctrine, mais ils se choisiront une foule de maîtres selon leurs désirs, avides de ce qui flatte l’oreille. Ils détourneront l’oreille de la vérité pour l’ouvrir à des fables. Quant à toi, sois vigilant, travaille constamment, fais œuvre de prédicateur de l’Évangile, remplis jusqu’au bout ton ministère. Sois sobre. Car, en ce qui me concerne, me voici déjà répandu en libation et le moment de mon départ est proche. J’ai combattu le bon combat ; j’ai accompli ma course jusqu’au bout ; j’ai gardé la foi. Elle est prête désormais, la couronne de justice que me donnera le Seigneur, le juste juge, au grand jour ; non seulement à moi, mais aussi à tous ceux qui aiment son avènement.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 4:1-8\nMon bien-aimé : je t’adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, par son avènement et son royaume : prêche la parole ; interviens à temps et à contretemps ; reprends, supplie, menace, en toute patience et doctrine. Car un temps viendra où les hommes ne supporteront plus la saine doctrine, mais ils se choisiront une foule de maîtres selon leurs désirs, avides de ce qui flatte l’oreille. Ils détourneront l’oreille de la vérité pour l’ouvrir à des fables. Quant à toi, sois vigilant, travaille constamment, fais œuvre de prédicateur de l’Évangile, remplis jusqu’au bout ton ministère. Sois sobre. Car, en ce qui me concerne, me voici déjà répandu en libation et le moment de mon départ est proche. J’ai combattu le bon combat ; j’ai accompli ma course jusqu’au bout ; j’ai gardé la foi. Elle est prête désormais, la couronne de justice que me donnera le Seigneur, le juste juge, au grand jour ; non seulement à moi, mais aussi à tous ceux qui aiment son avènement."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nLe Seigneur l'a juré et il ne s'en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
-            "incipit": "Voici le grand",
-            "mp3": null,
-            "references": null
+            "texte": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/12-07.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 109:4\nLe Seigneur l'a juré et il ne s'en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Evangelium",
-            "texte": "Évangile ++ selon saint Matthieu.\n!Matt 5:13-19\nEn ce temps-là, Jésus dit à ses disciples : « Vous êtes le sel de la terre. Si le sel s’affadit, avec quoi le salera-t-on ? Il n’est plus bon qu’à être jeté dehors et foulé aux pieds par les hommes. Vous êtes la lumière du monde. Une ville située au sommet d’une montagne ne peut être cachée ; et on n’allume pas une lampe pour la mettre sous le boisseau, mais on la met sur le chandelier et elle éclaire tous ceux qui sont dans la maison. Que votre lumière brille ainsi devant les hommes, afin qu’ils voient vos bonnes œuvres et qu’ils glorifient votre Père qui est dans les cieux. Ne pensez pas que je sois venu pour abolir la loi ou les prophètes ; je suis venu non pour les abolir, mais pour les accomplir. Car, en vérité je vous le dis, jusqu’à ce que passent le ciel et la terre, un seul iota ou un seul trait de la loi ne passera pas que tout ne soit accompli. Celui donc qui aura violé un de ces moindres commandements et appris aux hommes à faire de même, sera appelé le moindre dans le royaume des cieux ; mais celui qui les observera et les enseignera sera appelé grand dans le royaume des cieux. »",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C4a.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Évangile ++ selon saint Matthieu.\n!Matt 5:13-19\nEn ce temps-là, Jésus dit à ses disciples : « Vous êtes le sel de la terre. Si le sel s’affadit, avec quoi le salera-t-on ? Il n’est plus bon qu’à être jeté dehors et foulé aux pieds par les hommes. Vous êtes la lumière du monde. Une ville située au sommet d’une montagne ne peut être cachée ; et on n’allume pas une lampe pour la mettre sous le boisseau, mais on la met sur le chandelier et elle éclaire tous ceux qui sont dans la maison. Que votre lumière brille ainsi devant les hommes, afin qu’ils voient vos bonnes œuvres et qu’ils glorifient votre Père qui est dans les cieux. Ne pensez pas que je sois venu pour abolir la loi ou les prophètes ; je suis venu non pour les abolir, mais pour les accomplir. Car, en vérité je vous le dis, jusqu’à ce que passent le ciel et la terre, un seul iota ou un seul trait de la loi ne passera pas que tout ne soit accompli. Celui donc qui aura violé un de ces moindres commandements et appris aux hommes à faire de même, sera appelé le moindre dans le royaume des cieux ; mais celui qui les observera et les enseignera sera appelé grand dans le royaume des cieux. »"
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance.",
-            "incipit": "Ma vérité et",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Secreta",
-            "texte": "Dieu tout-puissant et éternel, par l’intercession du bienheureux Ambroise votre confesseur et Pontife, faites que l’oblation offerte à votre majesté nous fasse parvenir au salut éternel.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu tout-puissant et éternel, par l’intercession du bienheureux Ambroise votre confesseur et Pontife, faites que l’oblation offerte à votre majesté nous fasse parvenir au salut éternel.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Communio",
-            "texte": "!Ps 88:36-38\nJe l’ai juré une fois par ma sainteté, sa race demeurera éternellement et son trône sera comme le soleil en ma présence ; et comme la lune qui subsistera à jamais, et le témoin qui est au ciel est fidèle.",
-            "incipit": "Je l’ai juré",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 88:36-38\nJe l’ai juré une fois par ma sainteté, sa race demeurera éternellement et son trône sera comme le soleil en ma présence ; et comme la lune qui subsistera à jamais, et le témoin qui est au ciel est fidèle."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/12-07.txt",
             "section": "Postcommunio",
-            "texte": "Accordez-nous, Dieu tout-puissant, qu’ayant reçu les sacrements de notre salut, nous soyons assistés partout par l’intercession de votre bienheureux confesseur et pontife Ambroise, en l’honneur de qui nous avons offert ce sacrifice à votre majesté.\n$Per Dominum",
-            "references": null
+            "texte": "Accordez-nous, Dieu tout-puissant, qu’ayant reçu les sacrements de notre salut, nous soyons assistés partout par l’intercession de votre bienheureux confesseur et pontife Ambroise, en l’honneur de qui nous avons offert ce sacrifice à votre majesté.\n$Per Dominum"
           }
         }
       },
@@ -260,7 +201,7 @@
         "Francais/Sancti/12-07.txt",
         "Latin/Sancti/12-07.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 5,
       "numero": 1
     }
   ]

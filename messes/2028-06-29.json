@@ -30,216 +30,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/06-29.txt",
-            "section": "Introitus",
             "texte": "!Acts 12:11\nv. Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum.\n!Ps 138:1-2\nDómine; probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n&Gloria\nv. Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum.",
-            "incipit": "Nunc scio vere,",
+            "incipit": {
+              "incipit": "Nunc scio vere",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) NUNC(fffdgvFE) sci(g)o(h) ve(h!jij)re,(i.) (,) * qui(j)a(j) mi(jkjj)sit(h) Dó(h!jj)mi(hgh)nus(h.) (;) An(ixhi~)ge(gv.fg'h)lum(h) su(ixhiggef)um :(fe..) (:) et(f) e(f)rí(ef'g)pu(g)it(ixhiH~'G~) me(g.) (,) de(gh) ma(h)nu(f) He(fg/hhgh)ró(e!gfg)dis,(fe..) (:) et(f) de(fffdg) o(gh)mni(e) ex(g)spe(g)cta(g)ti(jj)ó(hjg)ne(g.) (;) ple(ghG'EgvFE'f)bis(d.) Ju(fhg___)dae(g_[oh:h]e)ó(e!gfg)rum.(fe..) (::) <i>Ps.</i> Dó(g)mi(hj)ne(j) pro(j)bá(j)sti(j) me,(j) et(j) co(k)gno(j)ví(j)sti(ih) me :(jjj) (:) * tu(ig) co(hj)gno(j)ví(j)sti(j) ses(j)si(j)ó(j)nem(j) me(j)am,(j.) (,) et(j) re(j)sur(j)re(j)cti(jji)ó(hg)nem(h') me(i)am.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": "introitus_nunc-scio-vere.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/06-29.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Oratio",
-            "texte": "Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martýrio consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi præcéptum; per quos religiónis sumpsit exórdium.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martýrio consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi præcéptum; per quos religiónis sumpsit exórdium.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum\n!Act 12:1-11\nIn diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem, quia placéret Judæis, appósuit, ut apprehénderet et Petrum. Erant autem dies azymórum. Quem cum apprehendísset, misit in cárcerem, tradens quátuor quaterniónibus mílitum custodiéndum, volens post Pascha prodúcere eum pópulo. Et Petrus quidem servabátur in cárcere. Orátio autem fiébat sine intermissióne ab ecclésia ad Deum pro eo. Cum autem productúrus eum esset Heródes, in ipsa nocte erat Petrus dórmiens inter duos mílites, vinctus caténis duábus: et custódes ante óstium custodiébant cárcerem. Et ecce, Angelus Dómini ástitit: et lumen refúlsit in habitáculo: percussóque látere Petri, excitávit eum, dicens: Surge velóciter. Et cecidérunt caténæ de mánibus ejus. Dixit autem Angelus ad eum: Præcíngere, et cálcea te cáligas tuas. Et fecit sic. Et dixit illi: Circúmda tibi vestiméntum tuum, et séquere me. Et éxiens sequebátur eum, et nesciébat, quia verum est, quod fiébat per Angelum: existimábat autem se visum vidére. Transeúntes autem primam et secúndam custódiam, venérunt ad portam férream, quæ ducit ad civitátem: quæ ultro apérta est eis. Et exeúntes processérunt vicum unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus, dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum.",
-            "references": null
+            "texte": "Léctio Actuum Apostolórum\n!Act 12:1-11\nIn diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem, quia placéret Judæis, appósuit, ut apprehénderet et Petrum. Erant autem dies azymórum. Quem cum apprehendísset, misit in cárcerem, tradens quátuor quaterniónibus mílitum custodiéndum, volens post Pascha prodúcere eum pópulo. Et Petrus quidem servabátur in cárcere. Orátio autem fiébat sine intermissióne ab ecclésia ad Deum pro eo. Cum autem productúrus eum esset Heródes, in ipsa nocte erat Petrus dórmiens inter duos mílites, vinctus caténis duábus: et custódes ante óstium custodiébant cárcerem. Et ecce, Angelus Dómini ástitit: et lumen refúlsit in habitáculo: percussóque látere Petri, excitávit eum, dicens: Surge velóciter. Et cecidérunt caténæ de mánibus ejus. Dixit autem Angelus ad eum: Præcíngere, et cálcea te cáligas tuas. Et fecit sic. Et dixit illi: Circúmda tibi vestiméntum tuum, et séquere me. Et éxiens sequebátur eum, et nesciébat, quia verum est, quod fiébat per Angelum: existimábat autem se visum vidére. Transeúntes autem primam et secúndam custódiam, venérunt ad portam férream, quæ ducit ad civitátem: quæ ultro apérta est eis. Et exeúntes processérunt vicum unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus, dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/06-29.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi. Allelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
-            "incipit": "Constítues eos príncipes",
+            "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.",
+            "incipit": {
+              "incipit": "Constitues eos principes (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) COn(d)stí(ff)tu(f!hgh)es(h) e(gg)os(gf..) <clear>*(,) prín(h)ci(ixi)pes(h_g//hiHF.ghFD.ev.dec.!/[-0.5]fg/!hggf.0) (;) su(jjk)per(j_h) o(jk~)mnem(j) ter(ixjhi)ram :(hgiHGkv.jkJ//F.0gh/jiih.0) (:) mé(ixj_h/i!jwk)mo(ixjk_[hl:1]J'_[hl:1]IH'i)res(h.) e(ixgh!i'j)runt(i_[oh:h]h) (,) nó(ixjhi)mi(gf)nis(f) tu(h_g)i,(jj) (`) Dó(ixjhi)mi(gf)ne.(fhg___) (,) (jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Pro(df) pá(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)tri(gh)bus(h.) (,) tu(ih/kkh/ih/kkvIH)is(hv.ghGF.) (;) na(h.i!jwk)ti(ih) sunt(h.) ti(f!hhe)bi(f.) (,) fí(gxfgFE.fgFD.fvEDe[ll:1]d)li(bd)i :(d.) (:) pro(de)ptér(ef)e(hf/ge)a(ef!hih.) (,) pó(h)pu(gh)li(gxfhE'D//hf/gf..) (,) con(d)fi(ef)te(f)bún(f)tur(hV_!fg~) *() ti(e.f!gwh)bi.(he) (,) (gxhfgED'//ef/hff/ded.) (::)",
             "mp3": "graduel_constitues-eos-principes.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/06-29.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\n!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "incipit": {
+              "incipit": "Tu es Petrus (Alleluia)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Tu(hi) es(i) Pe(jiihi)trus,(iv.hh/fgf.) (;) et(f) su(fg)per(f) hanc(f) pe(f!hh/ijHF'ivH'GEf./hfhhf/ge)tram(e.) (:) ae(f)di(e)fi(f)cá(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)bo(ivH'Ghf..) (;) Ec(f)clé(hh)si(h)am(hi~) *() me(i_[oh:h]h/jij)am.(jvvIH'GE//f!gwhf.1) (::)",
+            "mp3": "alleluia_tu-es-petrus.mp3",
             "fichier": "Latin/Sancti/06-29.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:13-19\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
-                    "section": "Evangelium",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:13-19\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/06-29.txt",
-            "section": "Offertorium",
             "texte": "!Ps 44:17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
-            "incipit": "Constítues eos príncipes",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "incipit": {
+              "incipit": "Constitues eos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) COn(dg)stí(g./hji)tu(jkj)es(jvIH.) *() e(hj!kvJH)os(hjhhg.) (,) prín(ikj)ci(jvIH)pes(h_g//ih/igh.) (;) su(ef)per(g) o(h_g/jki'jvH'G)mnem(g_[oh:h]fh) ter(ghfg)ram :(f.) (:) mé(ffff_d/gih)mo(g)res(g./hjh) e(f_d/fhg)runt(ef'g) (,) nó(gh/jij)mi(gjj'1jj)nis(gj) tu(ixjjjvH'GF'gwh!ivHG'h)i,(hg..) (:) in(hji___) o(jkjijh)mni(h.) pro(dg)gé(gj)ni(jjjvH'G)e(g.) (;) et(f) ge(ef'g)ne(fh/jgh)ra(ef)ti(g)ó(g./h!iw!jvIH)ne.(hjH'GF.) (,) (fff//hvG'FEf_e//g_[oh:h]f/gffe.) (::)",
+            "mp3": "offertoire_constitues-eos.mp3",
+            "fichier": "Latin/Sancti/06-29.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Secreta",
-            "texte": "Hóstias, Dómine, quas nómini tuo sacrándas offérimus, apostólica prosequátur orátio: per quam nos expiári tríbuas et deféndi.\n$Per Dominum",
-            "references": null
+            "texte": "Hóstias, Dómine, quas nómini tuo sacrándas offérimus, apostólica prosequátur orátio: per quam nos expiári tríbuas et deféndi.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/06-29.txt",
-            "section": "Communio",
             "texte": "!Matt 16:18\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
-            "incipit": "Tu es Petrus,",
+            "incipit": {
+              "incipit": "Tu es Petrus... alleluia",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) TU(f) es(df) Pe(fgff)trus,(cdc.) *(;) et(d) su(ffg)per(f) hanc(f) pe(f_[oh:h]g_[oh:h]f_[oh:h])tram(f.) (;) ae(f)di(fg'h)fi(h_g)cá(g)bo(fgFD.1) (,) Ec(d)clé(ffg)si(f)am(fg/hg/h_g) me(fg!hvGF'g)am.(gf..) (::) <i>T. P.</i> Al(fg~)le(ixgiHG')lú(hggfg){ia}.(gf..) (::)",
             "mp3": "communion_tu-es-petrus.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/06-29.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-29.txt",
             "section": "Postcommunio",
-            "texte": "Quos cœlésti, Dómine, aliménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi.\n$Per Dominum",
-            "references": null
+            "texte": "Quos cœlésti, Dómine, aliménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Introitus",
-            "texte": "!Acts 12:11\nv. Maintenant, je reconnais d’une manière certaine que le Seigneur a envoyé son ange : qu’il m’a arraché de la main d’Hérode et à toute l’attente du peuple juif.\n!Ps 138:1-2\nSeigneur, vous m’avez sondé, et vous me connaissez : vous savez quand je m’assieds, et quand je me lève.\n&Gloria\nv. Maintenant, je reconnais d’une manière certaine que le Seigneur a envoyé son ange : qu’il m’a arraché de la main d’Hérode et à toute l’attente du peuple juif.",
-            "incipit": "Maintenant, je reconnais",
-            "mp3": null,
-            "references": null
+            "texte": "!Acts 12:11\nv. Maintenant, je reconnais d’une manière certaine que le Seigneur a envoyé son ange : qu’il m’a arraché de la main d’Hérode et à toute l’attente du peuple juif.\n!Ps 138:1-2\nSeigneur, vous m’avez sondé, et vous me connaissez : vous savez quand je m’assieds, et quand je me lève.\n&Gloria\nv. Maintenant, je reconnais d’une manière certaine que le Seigneur a envoyé son ange : qu’il m’a arraché de la main d’Hérode et à toute l’attente du peuple juif."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Oratio",
-            "texte": "Dieu, vous avez consacré ce jour par le martyre de vos Apôtres saint Pierre et saint Paul : faites la grâce à votre Église de suivre en tout le précepte de ceux par qui la religion a commencé.\n$Per Dominum",
-            "references": null
+            "texte": "Dieu, vous avez consacré ce jour par le martyre de vos Apôtres saint Pierre et saint Paul : faites la grâce à votre Église de suivre en tout le précepte de ceux par qui la religion a commencé.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum.\n!Act 12:1-11\nEn ces jours-là : le roi Hérode mit les mains sur quelques membres de l’Église, pour les maltraiter. Il fit mourir par le glaive Jacques, frère de Jean. Et voyant que cela plaisait aux Juifs, il fit aussi arrêter Pierre. C’étaient alors les jours des azymes. L’ayant donc fait arrêter, il le mit en prison, et le donna à garder à quatre escouades, de quatre soldats chacune, avec l’intention de le faire comparaître devant le peuple après la Pâque. Pierre était donc gardé dans la prison ; mais l’église faisait sans interruption des prières à Dieu pour lui. Or, la nuit même avant le jour où Hérode devait le faire comparaître, Pierre dormait entre deux soldats, lié de deux chaînes, et des gardes devant la porte gardaient la prison. Et voici qu’un ange du Seigneur apparut, et une lumière brilla dans la cellule ; et l’ange, touchant Pierre au côté, l’éveilla, en disant : Lève-toi vite. Et les chaînes tombèrent de ses mains. Et l’ange lui dit : mets ta ceinture, et chausse tes sandales. Il le fit. Et l’ange reprit : Enveloppe-toi de ton vêtement, et suis-moi. Pierre sortit et le suivit ; et il ne savait pas que ce qui se faisait par l’ange était véritable, mais il croyait voir une vision. Passant la première et la seconde garde, ils vinrent à la porte de fer qui conduit à la ville ; elle s’ouvrit d’elle-même devant eux, et étant sortis, ils s’avancèrent dans une rue ; et aussitôt l’ange le quitta. Alors Pierre, étant revenu à lui-même, dit : Maintenant je reconnais d’une manière certaine que le Seigneur a envoyé son ange, et qu’il m’a arraché à la main d’Hérode et à toute l’attente du peuple juif.",
-            "references": null
+            "texte": "Léctio Actuum Apostolórum.\n!Act 12:1-11\nEn ces jours-là : le roi Hérode mit les mains sur quelques membres de l’Église, pour les maltraiter. Il fit mourir par le glaive Jacques, frère de Jean. Et voyant que cela plaisait aux Juifs, il fit aussi arrêter Pierre. C’étaient alors les jours des azymes. L’ayant donc fait arrêter, il le mit en prison, et le donna à garder à quatre escouades, de quatre soldats chacune, avec l’intention de le faire comparaître devant le peuple après la Pâque. Pierre était donc gardé dans la prison ; mais l’église faisait sans interruption des prières à Dieu pour lui. Or, la nuit même avant le jour où Hérode devait le faire comparaître, Pierre dormait entre deux soldats, lié de deux chaînes, et des gardes devant la porte gardaient la prison. Et voici qu’un ange du Seigneur apparut, et une lumière brilla dans la cellule ; et l’ange, touchant Pierre au côté, l’éveilla, en disant : Lève-toi vite. Et les chaînes tombèrent de ses mains. Et l’ange lui dit : mets ta ceinture, et chausse tes sandales. Il le fit. Et l’ange reprit : Enveloppe-toi de ton vêtement, et suis-moi. Pierre sortit et le suivit ; et il ne savait pas que ce qui se faisait par l’ange était véritable, mais il croyait voir une vision. Passant la première et la seconde garde, ils vinrent à la porte de fer qui conduit à la ville ; elle s’ouvrit d’elle-même devant eux, et étant sortis, ils s’avancèrent dans une rue ; et aussitôt l’ange le quitta. Alors Pierre, étant revenu à lui-même, dit : Maintenant je reconnais d’une manière certaine que le Seigneur a envoyé son ange, et qu’il m’a arraché à la main d’Hérode et à toute l’attente du peuple juif."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:17-18\nVous les établirez princes sur toute la terre : ils se souviendront de votre nom, de génération en génération, Seigneur.\nV. À la place de vos pères, des fils vous sont nés : c’est pourquoi les peuples vous loueront. Alléluia, alléluia.\n!Matt 18:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
-            "incipit": "Vous les établirez",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:17-18\nVous les établirez princes sur toute la terre : ils se souviendront de votre nom, de génération en génération, Seigneur.\nV. À la place de vos pères, des fils vous sont nés : c’est pourquoi les peuples vous loueront."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-29.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Matt 18:18\nTu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 16:13-19\nEn ce temps-là : Jésus vint aux environs de Césarée de Philippe, et il interrogeait ses disciples, en disant : Que disent les hommes touchant le Fils de l’homme ? Ils lui répondirent : Les uns, qu’il est Jean-Baptiste ; les autres, Elie ; les autres, Jérémie, ou quelqu’un des prophètes. Jésus leur dit : Et vous, qui dites-vous que je suis. Simon-Pierre, prenant la parole, dit : Vous êtes le Christ, le Fils du Dieu vivant. Jésus lui répondit : Tu es bienheureux, Simon, fils de Jonas, parce que ce n’est pas la chair et le sang qui t’ont révélé cela, mais mon Père qui est dans les cieux. Et moi, je te dis que tu es Pierre, et que sur cette pierre je bâtirai mon église, et les portes de l’enfer ne prévaudront point contre elle. Et je te donnerai les clefs du royaume des cieux ; et tout ce que tu lieras sur la terre sera lié aussi dans les cieux, et tout ce que tu délieras sur la terre sera délié dans les cieux.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 16:13-19\nEn ce temps-là : Jésus vint aux environs de Césarée de Philippe, et il interrogeait ses disciples, en disant : Que disent les hommes touchant le Fils de l’homme ? Ils lui répondirent : Les uns, qu’il est Jean-Baptiste ; les autres, Elie ; les autres, Jérémie, ou quelqu’un des prophètes. Jésus leur dit : Et vous, qui dites-vous que je suis. Simon-Pierre, prenant la parole, dit : Vous êtes le Christ, le Fils du Dieu vivant. Jésus lui répondit : Tu es bienheureux, Simon, fils de Jonas, parce que ce n’est pas la chair et le sang qui t’ont révélé cela, mais mon Père qui est dans les cieux. Et moi, je te dis que tu es Pierre, et que sur cette pierre je bâtirai mon église, et les portes de l’enfer ne prévaudront point contre elle. Et je te donnerai les clefs du royaume des cieux ; et tout ce que tu lieras sur la terre sera lié aussi dans les cieux, et tout ce que tu délieras sur la terre sera délié dans les cieux."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:17-18.\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération.",
-            "incipit": "Vous les établirez",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "!Ps 44:17-18.\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Secreta",
-            "texte": "Ces hosties que nous vous offrons, Seigneur, comme devant être consacrées à la gloire de votre nom, qu’elles soient accompagnées de la prière de vos apôtres en raison de laquelle vous nous accorderez pardon et protection.\n$Per Dominum",
-            "references": null
+            "texte": "Ces hosties que nous vous offrons, Seigneur, comme devant être consacrées à la gloire de votre nom, qu’elles soient accompagnées de la prière de vos apôtres en raison de laquelle vous nous accorderez pardon et protection.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Communio",
-            "texte": "Tu es Pierre, et sur cette pierre je bâtirai mon Église. (Alléluia.)\n!Matt 16:18",
-            "incipit": "Tu es Pierre,",
-            "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Commune/Coronatio.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Tu es Pierre, et sur cette pierre je bâtirai mon Église. (Alléluia.)\n!Matt 16:18"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-29.txt",
             "section": "Postcommunio",
-            "texte": "Seigneur, eu égard à ces apôtres, défendez contre toute adversité ceux que vous avez nourris de l’aliment céleste.\n$Per Dominum",
-            "references": null
+            "texte": "Seigneur, eu égard à ces apôtres, défendez contre toute adversité ceux que vous avez nourris de l’aliment céleste.\n$Per Dominum"
           }
         }
       },
@@ -247,7 +202,7 @@
         "Francais/Sancti/06-29.txt",
         "Latin/Sancti/06-29.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

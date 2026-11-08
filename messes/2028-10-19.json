@@ -28,223 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/10-19.txt",
-            "section": "Introitus",
             "texte": "!Ps 91:13-14\nv. Justus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)\n!Ps 91:2\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n&Gloria\nv. Justus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)",
-            "incipit": "Justus ut palma",
+            "incipit": {
+              "incipit": "Justus ut palma (Intr.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) JU(d!ffd/fff)stus(e_[oh:h][ll:1]d_[oh:h]) (,) * ut(cd) pal(cd'f)ma(fvvED') flo(d)ré(d!ew!fvED)bit :(dff'1f//fff) (;) sic(c)ut(d) ce(f)drus(g) Lí(f)ba(gh)ni(h.) (,) mul(h)ti(h)pli(h)cá(hjhhg)bi(hggfg)tur :(fg..) (:) plan(df)tá(fff/g_[oh:h]f)tus(f) in(f) do(fg)mo(gffd) Dó(d)mi(dff'1f/g_[oh:h]f)ni,(f.) (;) in(f) á(f_[oh:h]g_[oh:h]f_[oh:h])tri(f)is(f) do(fg)mus(gff) De(d)i(c!fff) no(d_c/fff/ced)stri.(d.) (::) <i>T. P.</i> Al(cd'f~)le(f_e)lú(fgf){ia},(fffddc.) (,) al(df~)le(fefd)lú(d_[oh:h]e_[oh:h]d_[oh:h]){ia}.(d.) (::) <i>Ps.</i> Bo(f)num(gh) est(h) con(h)fi(h)té(hj)ri(h) Dó(h)mi(hg)no(gh..) *(:) et(gf) psál(gh)le(h)re(h) nó(h)mi(h)ni(h) tu(h)o,(hjh) Al(g')tís(f)si(fff)me.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
-                "section": "Introitus",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/10-19.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/10-19.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis, quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti, facílius cœléstia capiámus.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis, quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti, facílius cœléstia capiámus.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/10-19.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Philipp 3:7-12\nFratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum defriménta. Verúmtamen exístimo ómnia detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem ómnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo, non habens meam justítiam, quæ ex lege est, sed illam, quæ ex fide est Christi Jesu: quæ ex Deo est justítia in fide, ad cognoscéndum illum, et virtútem resurrectiónis ejus, et societátem passiónum illíus: configurátus morti ejus: si quo modo occúrram ad resurrectiónem, quæ est ex mórtuis: non quod jam accéperim aut jam perféctus sim: sequor autem, si quo modo comprehéndam, in quo et comprehénsus sum a Christo Jesu.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-15.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n!Philipp 3:7-12\nFratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum defriménta. Verúmtamen exístimo ómnia detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem ómnia detriméntum feci et árbitror ut stércora, ut Christum lucrifáciam et invéniar in illo, non habens meam justítiam, quæ ex lege est, sed illam, quæ ex fide est Christi Jesu: quæ ex Deo est justítia in fide, ad cognoscéndum illum, et virtútem resurrectiónis ejus, et societátem passiónum illíus: configurátus morti ejus: si quo modo occúrram ad resurrectiónem, quæ est ex mórtuis: non quod jam accéperim aut jam perféctus sim: sequor autem, si quo modo comprehéndam, in quo et comprehénsus sum a Christo Jesu."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/10-19.txt",
-            "section": "Graduale",
-            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus. Allelúja, allelúja.\n!Ps 111:1\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja.",
-            "incipit": "Os justi meditábitur",
+            "texte": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "incipit": {
+              "incipit": "Os justi (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_[oh:h]eg)jus(gvF'EDfvED) (,) (fge'/fgd'/e[ll:1]ddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_[oh:h]e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/e[ll:1]ddc.) <clear>*(;) gres(ff)sus(fg) e(g_[oh:h]f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
             "mp3": null,
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/10-19.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/10-19.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja.",
+            "incipit": {
+              "incipit": "Beatus vir qui timet (All.)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(d!f'h~)le(h_f)lú(fh'/ih~){ia}.(iv.hiHF'fd.) <clear>*(;) <i>ij.</i>(gxfgF'Egyhighf.dfe/fee[ll:1]d.0) (::) <sp>V/</sp>. Be(d.0f!gwh)á(h_iH//E./!gxgfgE'Dd'f/h_f)tus(fh/i_[oh:h]hjvIH) vir,(h.) (;) qui(h_f) ti(gxg)met(gyf_e/highf.gxegF'Ef') Dó(d)mi(d_[oh:h]e_[oh:h]d_[oh:h])num :(d.) (:) in(d) man(d)dá(efeffefv.)(,)(h_[oh:h]i_[oh:h]h'_[oh:h]ivHF'Ef.//hiH'F)tis(gxgvFE) e(gxf@h!fg~)jus(f.) *(;) cu(de'f)pit(fhGF') ni(i)mis.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
+            "mp3": "alleluia_beatus-vir-qui-suffert.mp3",
             "fichier": "Latin/Sancti/10-19.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/10-19.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:32-34\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. ¶ Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:32-34\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. ¶ Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/10-19.txt",
-            "section": "Offertorium",
             "texte": "!Ps 20:2-3\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (Allelúja.)",
-            "incipit": "In virtúte tua,",
+            "incipit": {
+              "incipit": "In virtute tua",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c2) IN(c) vir(d)tú(ff)te(f) tu(f)a,(f.) *(,) Dó(fgf)mi(exfee)ne,(c!ece.) (;) <nlba>lae(c)tá(ffg)bi(f)tur</nlba>(fg/hg/h_g) ju(fg!hvGF'g)stus,(gf..) (:) et(f) su(f!gwh'!iv)per(h) sa(h)lu(h)tá(h/jjh/i_[uh:l]j)re(g_[oh:h]fg) tu(d!fff/g_[oh:h]f)um(f.) (;) ex(g)sul(f)tá(f)bit(d!ff) ve(d)he(ff/gf)mén(deD~'C~)ter :(dc..) (:) de(c)si(d)dé(ffg)ri(f)um(f.) (,) á(hj)ni(g)mae(f) e(d!fffvEDevD~C~)jus(dc..) (;) tri(c)bu(d)í(ffg)sti(f) <nlba>e(f!gwhghjjh//giH'GF.)(,)(fff//fgf/ghg/hf/g_[oh:h]f)i.</nlba>(f.) (::) <nlba><i>T. P.</i> Al(gf~)le(fff//hg/h_g)lú(fg!hvGF'g){ia}.</nlba>(gf..) (::)",
             "mp3": "offertoire_in-virtute-tua.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
-                "section": "Offertorium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/10-19.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C5.txt",
             "section": "Secreta",
-            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum",
-            "references": null
+            "texte": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/10-19.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/10-19.txt",
-            "section": "Communio",
             "texte": "!Matt 19:28-29\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (Allelúja.)",
-            "incipit": "Amen, dico vobis:",
+            "incipit": {
+              "incipit": "Amen dico vobis quod vos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) A(d!ewfe)men(fgf) (,) * di(f)co(fe) vo(ghghvGF'g)bis :(f_e//fvEDe[ll:1]d..) (;) quod(d!ewf) vos,(f_[oh:h]g_[oh:h]d_[oh:h]fv.) (,) qui(c) re(d)li(f)quí(fe)stis(g) ó(fg)mni(fvED)a,(d!ewf.) (;) et(c) se(d)cú(f)ti(fe) e(ghgh)stis(fg) me,(fggf.0) (:) cén(h)tu(hg)plum(h) ac(f)ci(f)pi(g)é(fvED)tis,(ff) (;) et(fh~) vi(h)tam(g) ae(fe)tér(ghghvG~F~)nam(gvFE'DCd.) (,) pos(f_e/ggh)si(fe)dé(d)bi(de!fvED'e)tis.(e[ll:1]d..) (::) <i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
             "mp3": "communion_amen-dico-vobis.mp3",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
-                "section": "Communio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "fichier": "Latin/Sancti/10-19.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C5.txt",
             "section": "Postcommunio",
-            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum",
-            "references": null
+            "texte": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Introitus",
-            "texte": "!Ps 91:13-14\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu.",
-            "incipit": "Le juste fleurira",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 91:13-14\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu.\n!Ps 91:2\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui avez daigné faire briller dans votre Confesseur, le bienheureux Pierre, les dons d’une admirable pénitence et d’une sublime contemplation, faites, s’il vous plaît, qu’aidés de ses mérites et mortifiant notre chair, nous obtenions plus facilement les biens célestes.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui avez daigné faire briller dans votre Confesseur, le bienheureux Pierre, les dons d’une admirable pénitence et d’une sublime contemplation, faites, s’il vous plaît, qu’aidés de ses mérites et mortifiant notre chair, nous obtenions plus facilement les biens célestes.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 3:7-12\nMes Frères : Les choses qui avaient été pour moi des gains, je les ai regardées comme une perte à cause du Christ. Et même je regarde toutes choses comme une perte, à cause de l’excellence de la connaissance de Jésus-Christ mon Seigneur, pour lequel j’ai renoncé à toutes choses, les regardant comme des ordures, afin de gagner le Christ, et d’être trouvé en lui, ayant, non pas ma justice, celle qui vient de la loi, mais celle qui vient de la foi au Christ Jésus, la justice qui vient de Dieu moyennant la foi, afin de le connaître, lui et la vertu de sa résurrection, et la participation à ses souffrances, en devenant conforme à sa mort. Pour parvenir, si je le puis, à la résurrection d’entre les morts. Ce n’est pas que j’aie déjà reçu le prix, ou que je sois déjà parfait ; mais je le poursuis pour tâcher de le saisir, puisque j’ai été saisi moi-même par le Christ Jésus.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-15.txt",
-                "section": "Lectio",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 3:7-12\nMes Frères : Les choses qui avaient été pour moi des gains, je les ai regardées comme une perte à cause du Christ. Et même je regarde toutes choses comme une perte, à cause de l’excellence de la connaissance de Jésus-Christ mon Seigneur, pour lequel j’ai renoncé à toutes choses, les regardant comme des ordures, afin de gagner le Christ, et d’être trouvé en lui, ayant, non pas ma justice, celle qui vient de la loi, mais celle qui vient de la foi au Christ Jésus, la justice qui vient de Dieu moyennant la foi, afin de le connaître, lui et la vertu de sa résurrection, et la participation à ses souffrances, en devenant conforme à sa mort. Pour parvenir, si je le puis, à la résurrection d’entre les morts. Ce n’est pas que j’aie déjà reçu le prix, ou que je sois déjà parfait ; mais je le poursuis pour tâcher de le saisir, puisque j’ai été saisi moi-même par le Christ Jésus."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Graduale",
-            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia.\n!Ps 111:1\nV. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Alléluia.",
-            "incipit": "La bouche du",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/10-19.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 111:1\nV. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:32-34\nEn ce temps-là, Jésus dit à ses disciples : Ne craignez point petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumônes ; faites-vous des bourses qui ne s’usent point, un trésor inépuisable dans les deux, dont le voleur n’approche pas et que le ver ne détruit pas. Car où est votre trésor, là sera aussi votre cœur.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:32-34\nEn ce temps-là, Jésus dit à ses disciples : Ne craignez point petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumônes ; faites-vous des bourses qui ne s’usent point, un trésor inépuisable dans les deux, dont le voleur n’approche pas et que le ver ne détruit pas. Car où est votre trésor, là sera aussi votre cœur."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Offertorium",
-            "texte": "!Ps 20:2-3\nSeigneur, le juste se réjouira dans votre force, et il tressaillira d’une vive allégresse, parce que vous l’avez sauvé. Vous lui avez accordé le désir de son cœur.",
-            "incipit": "Seigneur, le juste",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 20:2-3\nSeigneur, le juste se réjouira dans votre force, et il tressaillira d’une vive allégresse, parce que vous l’avez sauvé. Vous lui avez accordé le désir de son cœur."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Secreta",
-            "texte": "Ô Dieu tout-puissant, accordez-nous, s’il vous plaît, que cette offrande que vous présente notre bassesse en l’honneur de vos Saints vous soit agréable à cause d’eux, et nous purifie en notre corps ainsi qu’en notre âme.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu tout-puissant, accordez-nous, s’il vous plaît, que cette offrande que vous présente notre bassesse en l’honneur de vos Saints vous soit agréable à cause d’eux, et nous purifie en notre corps ainsi qu’en notre âme.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Communio",
-            "texte": "!Matt 19:28; 19:29\nEn vérité, je vous le dis : vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple et posséderez la vie éternelle.",
-            "incipit": "En vérité, je",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 19:28; 19:29\nEn vérité, je vous le dis : vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple et posséderez la vie éternelle."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/10-19.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en supplions, ô Dieu tout-puissant, faites qu’ayant reçu un aliment tout céleste et que le bienheureux Pierre votre Confesseur, intercédant pour nous, nous soyons grâce à ses secours munis contre toutes les adversités.\n$Per Dominum",
-            "references": null
+            "texte": "Nous vous en supplions, ô Dieu tout-puissant, faites qu’ayant reçu un aliment tout céleste et que le bienheureux Pierre votre Confesseur, intercédant pour nous, nous soyons grâce à ses secours munis contre toutes les adversités.\n$Per Dominum"
           }
         }
       },
@@ -253,7 +201,7 @@
         "Francais/Sancti/10-19.txt",
         "Latin/Sancti/10-19.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 5,
       "numero": 1
     }
   ]

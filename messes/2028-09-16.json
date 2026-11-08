@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Introitus",
             "texte": "!Ps 78:11-12; 78:10\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.\n!Ps 78:1\nDeus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Jerúsalem in pomórum custódiam.\n&Gloria\nv. Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
-            "incipit": "Intret in conspéctu",
+            "incipit": {
+              "incipit": "Intret in conspectu",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(f)tret(fff/ded) (,) * in(f) con(gh)spé(h)ctu(g) tu(gh/ji)o,(ih) Dó(jjj)mi(h)ne,(ghg.) (;) gé(gih)mi(g)tus(gff) com(dg)pe(gh)di(fe)tó(egF'E)rum,(e.) (:) red(ge)de(fg) vi(g)cí(g)nis(gh) no(h)stris(h.) sé(hjI'H)ptu(g.f!gwhgh)plum(hg..) (,) in(g) si(gh/ji)nu(ih) e(jjj)ó(hiH'Gh)rum :(hg..) (:) vín(h)di(g)ca(e) sán(g)gui(f)nem(fff) (,) san(fd~)ctó(fv.fff)rum(d!ewf) tu(d)ó(g_[oh:h]e/fff)rum,(e_[oh:h][ll:1]d_[oh:h]) (,) qui(d!f'h) ef(hg)fú(ghG'E)sus(fgF'E) est.(e.) (::) <i>Ps.</i> De(hg)us(gh) ve(h)né(h)runt(h) gen(h)tes(h) in(h) hae(h)re(h)di(hg)tá(gi)tem(i) tu(hi)am,(h.) (:) * pol(hg)lu(gh)é(h)runt(h) tem(h)plum(h) san(h)ctum(h) tu(h)um :(h.) (,) po(h)su(h)é(h)runt(h) Je(h)rú(h)sa(h)lem(h) in(h) po(h)mó(h)rum(h) cu(gf)stó(gh)di(g)am.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C3.txt",
             "section": "Oratio",
-            "texte": "Beatórum Mártyrum paritérque Pontíficum N. et N. nos, quǽsumus, Dómine, festa tueántur: et eórum comméndet orátio veneránda.\n$Per Dominum.",
-            "references": null
+            "texte": "Beatórum Mártyrum paritérque Pontíficum N. et N. nos, quǽsumus, Dómine, festa tueántur: et eórum comméndet orátio veneránda.\n$Per Dominum."
           },
           "Lectio": {
             "fichier": "Latin/Sancti/09-16.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
-            "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Graduale",
-            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos. Allelúja, allelúja.\n!Eccl 44:14\nCórpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
-            "incipit": "Gloriósus Deus in",
+            "texte": "Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+            "incipit": {
+              "incipit": "Gloriosus Deus",
+              "version": "Solesmes",
+              "distance": 8,
+              "similarite": 0.8,
+              "source": "Graduale"
+            },
+            "gabc": "(f3) GLo(c)ri(c)ó(ef)sus(fhf/gffe.) <clear>*(,) De(ghG'Fhv.giH'GF)us(f.) (;) in(f!gwh) san(hv.g!ijH'GF'g)ctis,(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (:) mi(f!gw!hi)rá(hi)bi(ihhvGF'g)lis(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (;) in(f!gwhhvGF'g) ma(ef)je(h.f!gwh)stá(hiHF'g)te,(f.) (,) (ef!hvGFh_g//e.f!gw!hvGF'hf/gffe.) (:) fá(h_[oh:h]i_[oh:h]h_[oh:h])ci(kxh.i!jwkj)ens(j) pro(jij)dí(hi'j)gi(hvGF)a.(f//gh/iffe.) (,) (ef!h/[1]{/[-1]kx}h/ij!kvJH'//ih/ihhf.) (f+::c4) \r\n<sp>V/</sp>. Déx(dh)te(h)ra(h) tu(h)a(hg) Dó(ixhv.fh!ivHGhv.)(,)(fghjij//h!jjjvGFh./jjh/jjg/j_i)mi(h_[oh:h]i_[oh:h]h_[oh:h])ne,(h.) (;) glo(fg)ri(f)fi(gh)cá(h)ta(g./h!iw!jvIH') est(hgg) (,) in(f) vir(ghg~)tú(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'FghF'Dfv.e!gwhgh)te :(ixhf/higff/ded.) (:) déx(hj)te(h)ra(ghg) ma(f)nus(ghg) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiGF.)(,)(hf/gh!jjvH'Gh)a,(ixhf/higff/ded.) (:) con(d)fré(dfED'fvED.)(,)(de!fg/hjIH'hgh.ixfh!ivGF'E//f!gw!hi)git(hg__) *(,) in(g)i(gh)mí(ixjhiGF'h!jjvH'G)cos.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-16.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/09-16.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
+            "incipit": {
+              "incipit": "Corpora Sanctorum",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(ef!gh)le(f!gw!hvGFgvFE)lú(h!iwj){ia}.(j_i) <clear>*(,) <i>ij.</i>(jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::) <sp>V/</sp>. Cór(ef!gh)po(f/ghg)ra(hvGFgvFE) san(efg)ctó(gf/ghGF'g)rum(gf..) (;) in(f) pa(e)ce(f!gwh) se(hij)púl(ih)ta(fg) sunt,(g'ivH'GFgvFE.) (,) (gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (:) et(c) nó(ef)mi(fe)na(efh) e(hij)ó(ih)rum(i.) (,) vi(hij)vent(j) in(i) ge(hvGF)ne(e)ra(f)ti(ghg)ó(f.)ne(f.) *(;) et(c) ge(ef)ne(fe)ra(efh)ti(hij)ó(ihj)nem.(j_i) (,) (jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/09-16.txt",
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-16.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Offertorium",
             "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
-            "incipit": "Mirábilis Deus in",
+            "incipit": {
+              "incipit": "Mirabilis Deus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) MI(d!ewf)rá(fg/h_g)bi(ghg___)lis(gh~) De(hjI'GhvGF)us(f.) *(;) in(fh) san(hj/kjkvJI'H)ctis(h.) su(hj!kvJH)is :(hjhhg.) (:) De(hj)us(jjj) Is(h!jjj)ra(gh)el,(ixfihhg.) (,) i(g)pse(h) da(iij_hjvIH'hg)bit(ghggf.0) (;) vir(h!iwji~)tú(jv.jjj/kl)tem,(jkjji.) (,) et(g) for(g/jjj)ti(j_i)tú(i!k'l)di(jvIH)nem(hjhhg.) (,) ple(h_g/jkj)bi(jjj_g) su(gjhhg)ae :(ghggf.0) (:) be(fg)ne(h)dí(hjvvH'Gh!iwji)ctus(j.) De(jkj'/ki'jvHG'gfg.)(,)(fgh!jjjg//hjggf!gw!hi)us,(hg..) (:) al(hg~)le(gjg/hggf//g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C3.txt",
             "section": "Secreta",
-            "texte": "Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non habémus, eórum, qui tibi placuérunt, méritis adjuvémur.\n$Per Dominum.",
-            "references": null
+            "texte": "Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non habémus, eórum, qui tibi placuérunt, méritis adjuvémur.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-16.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Communio",
             "texte": "!Sap 3:4-6\nEt si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.",
-            "incipit": "Et si coram",
+            "incipit": {
+              "incipit": "Et si coram",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) ET(d) si(d) co(fdf)ram(f) ho(f)mí(ghG'F)ni(gh)bus(h.) *(,) tor(h)mén(jhhg~)ta(h!jjk) pas(h)si(h_[oh:h]i_[oh:h]h_[oh:h]) sunt,(h.) (;) De(h)us(ghg) ten(fe~)tá(f!gwhg)vit(ge/f_e) e(de!fvED'e)os :(e[ll:1]d..) (:) tam(fe~)quam(f) au(ixgiH'G)rum(g.) in(fg) for(hj~)ná(jijh)ce(h.) (,) pro(h)bá(hv.fg'h)vit(hg/h_g) e(fg!hvGF'g)os,(gf..) (:) et(ixhi~) qua(ixhi)si(h) ho(hgge)lo(gh)cáu(fg~)sta(fef.) (,) ac(g)cé(ge)pit(gfgvFE) e(de!fvED'e)os.(e[ll:1]d..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C3.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur.\n$Per Dominum",
-            "references": null
+            "texte": "Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Introitus",
-            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.",
-            "incipit": "Que les gémissements",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu."
           },
           "Oratio": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, Seigneur, que la fête des saints évêques martyrs N. et N. nous protège, et que leur vénérable prière nous recommande auprès de vous.\n$Per Dominum.",
-            "references": null
+            "texte": "Nous vous en prions, Seigneur, que la fête des saints évêques martyrs N. et N. nous protège, et que leur vénérable prière nous recommande auprès de vous.\n$Per Dominum."
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-16.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Graduale",
-            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Eccl 44:14\nLes corps des saints ont été ensevelis dans la paix, et leurs noms vivront de génération en génération. Alléluia.",
-            "incipit": "Dieu est glo­rifié",
-            "mp3": null,
-            "references": null
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Eccl 44:14\nLes corps des saints ont été ensevelis dans la paix, et leurs noms vivront de génération en génération. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-16.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-16.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-16.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu.",
-            "incipit": "Dieu est admirable",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu."
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Secreta",
-            "texte": "Soyez favorable, Seigneur, aux supplications que nous vous présentons en commémorant vos saints : afin que, n’ayant pas confiance en notre justice, nous soyons aidés par les mérites de ceux qui vous ont plu.\n$Per Dominum.",
-            "references": null
+            "texte": "Soyez favorable, Seigneur, aux supplications que nous vous présentons en commémorant vos saints : afin que, n’ayant pas confiance en notre justice, nous soyons aidés par les mérites de ceux qui vous ont plu.\n$Per Dominum."
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-16.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Communio",
-            "texte": "!Sap 3:4-6\nEt s’ils ont souffert des tourments de­vant les hommes, c’est que Dieu les a éprouvés : comme l’or dans la fournaise il les a mis à l’épreuve, et il les a reçus comme un holocauste.",
-            "incipit": "Et s’ils ont",
-            "mp3": null,
-            "references": null
+            "texte": "!Sap 3:4-6\nEt s’ils ont souffert des tourments de­vant les hommes, c’est que Dieu les a éprouvés : comme l’or dans la fournaise il les a mis à l’épreuve, et il les a reçus comme un holocauste."
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Postcommunio",
-            "texte": "Abondamment munis de vos mystères de salut, nous vous demandons, Sei­gneur, d’être aidés par les prières de ceux dont nous célébrons la solennité.\n$Per Dominum",
-            "references": null
+            "texte": "Abondamment munis de vos mystères de salut, nous vous demandons, Sei­gneur, d’être aidés par les prières de ceux dont nous célébrons la solennité.\n$Per Dominum"
           }
         }
       },

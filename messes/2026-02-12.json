@@ -28,181 +28,180 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Introitus",
             "texte": "!Sap 10:20-21\nv. Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum et linguas infántium fecit disértas.\n!Ps 8:2.\nDómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n&Gloria\nv. Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum et linguas infántium fecit disértas.",
-            "incipit": "Justi decantavérunt, Dómine,",
+            "incipit": {
+              "incipit": "Justi decantaverunt",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) JU(dde)sti(d) * de(df)can(f)ta(f)vé(ef)runt,(d) Dó(fh)mi(f)ne,(hh) (,) no(hihh)men(f_e) san(f!gwh)ctum(f_d) tu(d_[oh:h]e_[oh:h]d_[oh:h])um,(d.) (:) et(f) vic(d)trí(ef)cem(fef) ma(hf/hhhi)num(h) tu(hjI'H)am(h_f) (,) lau(f)da(hi)vé(ihh)runt(ef) pá(fe)ri(h)ter :(h_[oh:h]i_[oh:h]f.1_[oh:h]) (:) quó(h)ni(f)am(hh) sa(hg)pi(fe)én(fh~)ti(h)a(g_[uh:l]h) (,) a(ih)pé(hji)ru(hg)it(hh) os(fhg) mu(hhhfg)tum,(fe..) (;) et(f) lin(d)guas(e) in(f)fán(hh)ti(h)um(h'/ihh) (,) fe(fe)cit(e[ll:1]d) di(gxfhFE'fw!gvFE)sér(de!fvED'e)tas.(e[ll:1]d..) (::) <i>Ps.</i> Dó(d)mi(f)ne(h) Dó(h)mi(h)nus(i) no(i)ster :(h.) (:) * quam(f) ad(h)mi(h)rá(h)bi(h)le(h) est(h) no(h)men(h) tu(h)um(h.) (,) in(h) u(h)ni(h)vér(i)sa(g) ter(h)ra!(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(fefvEDe.) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Oratio",
-            "texte": "Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum sanctíssimæ Genetrícis tuæ, per septem beátos Patres nova Servorum ejus família Ecclésiam tuam fœcundásti: concéde propítius; ita nos eórum consociári flétibus, ut perfruámur et gáudiis:\n$Qui vivis",
-            "references": null
+            "texte": "Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum sanctíssimæ Genetrícis tuæ, per septem beátos Patres nova Servorum ejus família Ecclésiam tuam fœcundásti: concéde propítius; ita nos eórum consociári flétibus, ut perfruámur et gáudiis:\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:1-15\nLaudémus viros gloriósos et paréntes nostros in generatióne sua. Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in potestátibus suis, hómines magni virtúte et prudéntia sua præditi, nuntiántes in prophétis dignitátem prophetárum, et imperántes in præsénti pópulo, et virtúte prudéntiæ pópulis sanctíssima verba. In perítia sua requiréntes modos músicos, et narrántes cármina scripturárum. Hómines dívites in virtúte, pulchritúdinis stúdium habéntes: pacificántes in dómibus suis. Omnes isti in generatiónibus gentis suæ glóriam adépti sunt, et in diébus suis habéntur in láudibus. Qui de illis nati sunt, reliquérunt nomen narrándi laudes eórum. Et sunt, quorum non est memória: periérunt, quasi qui non fúerint: et nati sunt, quasi non nati, et fílii ipsórum cum ipsis. Sed illi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:1-15\nLaudémus viros gloriósos et paréntes nostros in generatióne sua. Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in potestátibus suis, hómines magni virtúte et prudéntia sua præditi, nuntiántes in prophétis dignitátem prophetárum, et imperántes in præsénti pópulo, et virtúte prudéntiæ pópulis sanctíssima verba. In perítia sua requiréntes modos músicos, et narrántes cármina scripturárum. Hómines dívites in virtúte, pulchritúdinis stúdium habéntes: pacificántes in dómibus suis. Omnes isti in generatiónibus gentis suæ glóriam adépti sunt, et in diébus suis habéntur in láudibus. Qui de illis nati sunt, reliquérunt nomen narrándi laudes eórum. Et sunt, quorum non est memória: periérunt, quasi qui non fúerint: et nati sunt, quasi non nati, et fílii ipsórum cum ipsis. Sed illi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia."
           },
           "Graduale": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Graduale",
-            "texte": "!Is 65:23\nElécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Eccli 44:14\nV. Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Allelúja, allelúja.\n!Eccli 44:15\nV. Sapiéntiam ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia. Allelúja.",
-            "incipit": "Elécti mei non",
+            "texte": "!Is 65:23\nElécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Eccli 44:14\nV. Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.",
+            "incipit": {
+              "incipit": "Electi mei",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) E(d)lé(ffg)cti(f) me(ghg'/hg)i(gv.fgFD.1) <clear>*(,) non(d) la(ffg)bo(f)rá(fg)bunt(f) fru(fffvDC'dff/hghf)stra,(f.) (;) ne(hjh)que(jj) ger(j)mi(j)ná(jkh)bunt(h_g) (,) in(h) con(hj)tur(h)ba(f)ti(h)ó(gv.fhf/gh)ne :(g.) (:) qui(h)a(hg) se(gj)men(j) be(j)ne(j)di(ij)ctó(hhg)rum(h_g) Dó(fg)mi(f)ni(fg!hvGF'g) est,(gf..) (:) et(fh) ne(gf)pó(fv.ege/f_d)tes(dc..) e(fgf)ó(fg'h)rum(h_g) (,) cum(ixhjHG'hw!ivHG') e(f)is.(fffvDC.) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Cór(hh)po(h)ra(h) i(h)psó(ig'hvF'E//f!gwhhi)rum(h.) (;) in(h) pa(ijI'H)ce(h) se(h)púl(i)ta(hiH'F) sunt(f!h'i//hi/jh/!h/iih.0) (:) et(h_f) no(hih)men(gh) e(f)ó(ded)rum(gxdf//ef!hvFE'fw!gvFE) vi(de!fvED'e)vit(e[ll:1]d..) (;) in(f) ge(d)ne(fh)ra(h)ti(g)ó(h)nem(f.) <clear>*(,) et(d) ge(ef)ne(fe)ra(e!hgh)ti(f)ó(de)nem.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Graduale"
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Tractus",
             "texte": "!Is 65:23\nElécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis.\n!Eccli 44:14\nV. Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.\n!Ps 125:5-6\nQui séminant in lácrimis, in exsultatióne metent.\nV. Eúntes ibant et fiébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
-            "incipit": "Elécti mei non",
+            "incipit": {
+              "incipit": "Nolite",
+              "version": "Vatican",
+              "distance": 31,
+              "similarite": 0.225,
+              "source": "Tractus"
+            },
+            "gabc": "\"(c4) NO(g)L\\u00cd(g/hih)TE(g/hhg) *(,) di(fg)l\\u00ed(gjjk)ge(h)re(hg/hf//hjhj) mun(jvIHiw!jvIHGh)dum,(hg) (;) ne(g)que(hj) e(iij)a(gf) quae(g) in(h!iwj) mun(jk)do(kij) sunt.(hjIG) (,) (fh/ji/jkhhg/hg/jjh/jggf) (:) Si(fh) quis(hg/hvGF) d\\u00ed(gh)li(g)git(gh/jij) mun(jh!iwj)dum,(jjjvIHivHGhg) (;) non(gh) est(g) c\\u00e1(hg/h!iwj)ri(ghGF)tas(f) Pa(f!hj)tris(j) (,) in(j) e(j)o.(jijHG//ixjjvHG/hiGF) (,) (iyh/jh/ig/hhg) <sp>V/</sp>.(::) O(g)mne(gd) quod(g) est(hjh) in(j) mun(jj/kvJIGhg/h!iw!jvIHijh)do,(hg) (;) con(f)cu(hj)pi(igh)sc\\u00e9n(gf/gh)ti(g)a(g/hji) car(j)nis(h!iwj) est,(ijhhg) (:) et(gh) con(fg)cu(g)pi(gh)sc\\u00e9n(h/ijh)ti(gf)a(gh) o(h/ijh)cu(gf)l\\u00f3(gh)rum,(hg) (,) (ixihivGF//g/hg/hg/hg/jjh/jggf) (:) et(g) su(g)p\\u00e9r(hg/h!iwj)bi(ghGF)a(f!hj) vi(j)tae.(jijHG//ixjjvHG/hiGF) (,) (iyh/jh/ig/hhg) <sp>V/</sp>.(::) Et(g) mun(g!hj)dus(jjjvIH) tran(jhhg)sit,(gh) (;) et(df) con(f)cu(f)pi(fg)sc\\u00e9n(gef)ti(dg)a(gf) e(g)jus:(g/hfg) (,) (ixih/ivGF//g/hg/hg/hg/jjh/jggf) (:) qui(f) au(hj)tem(igh) fa(gf/gh)cit(g) (,) vo(g)lun(gh)t\\u00e1(g)tem(g/hji) De(jh!iwj)i,(jjjvIHivHGhg) (;) ma(hg/h!iwj)net(ghGF) *() in(f!hj) ae(j)t\\u00e9r(jijHGgg/hggfg,jjjkvJIHhg)num.(ghGF) (,) (h!iwjijjh/ihhg) (::)\"",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Tractus"
           },
           "Alleluia": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
+            "texte": "Allelúja, allelúja.\n!Eccli 44:15\nV. Sapiéntiam ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia. Allelúja.",
+            "incipit": {
+              "incipit": "Sapientiam ipsorum (All.)",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(c)le(d)lú(e[ll:1]d/[1]{/[-4]ix}hi){ia}.(h.) (,) * <i>ij.</i>(ghG'Fhv.fgF'EgvF'ED.) (;) (ce!gvgef//deDC.) (,) (c!ff//eg'!hvF'EC'ewfd.1) (::) <sp>V/</sp>. Sa(c)pi(d)én(dh)ti(h)am(h'jvH'GhvGEf_g) (,) (ixeg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED) i(ixf!gwh'!iv)psó(hvGF'gw!hvGFgh)rum(g.) (;) nar(fhhghvGFgvFE)rent(d.) pó(d!f_ef//ef!hvGE'fd)pu(cd)li,(d.) (:) et(cd) lau(dffdfvED de!fg)dem(ghhg.) (`) e(g)ó(gf)rum(fhhghvGFgvFE) (,) nún(d!f_ef//ef!hvGE'fd)ti(cd)et(d.) (;) * Ec(cd)clé(e[ll:1]d/[1]{/[-4]ix}hi)si(h)a.(h.) (,) (ghG'Fhv.fgF'EgvF'ED.) (;) (ce!gvgef//deDC.) (,) (c!ff//eg'!hvF'EC'ewfd.1) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 19:27-29\nIn illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Israël. Et omnis, qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit.",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5b.txt",
-                "section": "Evangelium",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 19:27-29\nIn illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Israël. Et omnis, qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit."
           },
           "Offertorium": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Offertorium",
             "texte": "!Is 56:7.\nAddúcam eos in montem sanctum meum, et lætificábo eos in domo oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi super altáre meum.",
-            "incipit": "Addúcam eos in",
+            "incipit": {
+              "incipit": "Adducam eos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) AD(df)dú(fg/h_g)cam(gh) e(g)os(gv.ffffg..) <clear>*(,) in(d) mon(fhg)tem(h) san(gf~)ctum(fg!hvhg) me(hggf)um,(fg/hg/jjjhhg.) (:) et(h) lae(fg)ti(gh)fi(g)cá(g_[uh:l]jj'1jj/kljjh!iwj/kj)bo(jg) e(hjHF'g)os(g.) (;) in(df~) do(fg/h_g)mo(g) (,) o(g)ra(hjg/hg)ti(fg)ó(gh/ji)nis(j) me(jkj'/ki'jvH'GF'gwhgh)ae :(hjhhf.) (:) ho(d)lo(f)cáu(d!ewf)sta(fg) e(gh)ó(hjh)rum(ghGF.) (;) et(gh) ví(hi)cti(hg)mae(gih'/ig) e(gf)ó(fg/hgh)rum(h.0/[-0.5]jvvHG.) (;) pla(gf)cé(f!hgh)bunt(g_[oh:h]f) mi(fv.fff/gfg)hi(d/fge/fgD'Cd.) (;) su(c)per(d) al(dc~)tá(f!gwh_ghvGF)re(g./[-0.5]jjvIH'iw!jvIH) me(gh/jhi)um.(hg..) (::)",
             "mp3": null,
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Secreta",
-            "texte": "Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta; ut, intercedéntibus Sanctis tuis, libera tibi mente serviámus, et perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur.\n$Per eundem",
-            "references": null
+            "texte": "Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta; ut, intercedéntibus Sanctis tuis, libera tibi mente serviámus, et perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Sancti/02-12.txt",
-            "section": "Communio",
             "texte": "!Joann 15:16\nEgo vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat.",
-            "incipit": "Ego vos elégi",
+            "incipit": {
+              "incipit": "Ego vos elegi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) E(h)go(jhhg.) (,) * vos(i.h!iwj) e(h_f)lé(gh)gi(g) de(eg) mun(fgff)do,(d.) (;) ut(fe) e(fg)á(g'/hfg)tis,(d.) (,) et(df~) fru(fef)ctum(dc~) af(fh)fe(gh)rá(f_[oh:h]g_[oh:h]f_[oh:h])tis :(f.) (:) et(hg~) fru(ixgh/if)ctus(df~) ve(fe)ster(cd~) má(d)ne(de!fvED'e)at.(e[ll:1]d..) (::)",
             "mp3": "communion_ego-vos-elegi.mp3",
-            "references": null
+            "fichier": "Latin/Sancti/02-12.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/02-12.txt",
             "section": "Postcommunio",
-            "texte": "Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum festa percólimus imitántes exémpla; juxta Crucem Jesu cum María Matre ejus fidéliter astémus, et ejúsdem redemptiónis fructum percípere mereámur.\n$Per eundem",
-            "references": null
+            "texte": "Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum festa percólimus imitántes exémpla; juxta Crucem Jesu cum María Matre ejus fidéliter astémus, et ejúsdem redemptiónis fructum percípere mereámur.\n$Per eundem"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Introitus",
-            "texte": "!Sap 10:20-21.\nv. Les justes, Seigneur, chantèrent en chœur votre saint Nom, glorifiant de même votre bras victorieux : la Sagesse, en effet, ouvrit les lèvres du muet et rendit éloquente la langue des petits enfants.\n!Ps 8:2.\nÔ Seigneur, notre Seigneur, combien merveilleuse est votre gloire dans tout l’univers !\n&Gloria\nv. Les justes, Seigneur, chantèrent en chœur votre saint Nom, glorifiant de même votre bras victorieux : la Sagesse, en effet, ouvrit les lèvres du muet et rendit éloquente la langue des petits enfants.",
-            "incipit": "Les justes, Seigneur,",
-            "mp3": null,
-            "references": null
+            "texte": "!Sap 10:20-21.\nv. Les justes, Seigneur, chantèrent en chœur votre saint Nom, glorifiant de même votre bras victorieux : la Sagesse, en effet, ouvrit les lèvres du muet et rendit éloquente la langue des petits enfants.\n!Ps 8:2.\nÔ Seigneur, notre Seigneur, combien merveilleuse est votre gloire dans tout l’univers !\n&Gloria\nv. Les justes, Seigneur, chantèrent en chœur votre saint Nom, glorifiant de même votre bras victorieux : la Sagesse, en effet, ouvrit les lèvres du muet et rendit éloquente la langue des petits enfants."
           },
           "Oratio": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Oratio",
-            "texte": "Ô Seigneur Jésus-Christ, qui, dans le but de faire honorer la mémoire des douleurs de votre très sainte Mère, avez, par l’entremise de sept Bienheureux, doté l’Église de la nouvelle famille de ses Serviteurs, daignez nous accorder de nous associer à leurs larmes, de manière à. être admis à partager aussi leurs joies.\n$Qui vivis",
-            "references": null
+            "texte": "Ô Seigneur Jésus-Christ, qui, dans le but de faire honorer la mémoire des douleurs de votre très sainte Mère, avez, par l’entremise de sept Bienheureux, doté l’Église de la nouvelle famille de ses Serviteurs, daignez nous accorder de nous associer à leurs larmes, de manière à. être admis à partager aussi leurs joies.\n$Qui vivis"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:1-15.\nFaisons l’éloge de ces hommes illustres que sont les fondateurs de notre famille. En eux, le Seigneur a fait une œuvre éclatante : dès l’origine il a manifesté par eux sa magnificence. Ce furent de vrais chefs dans l’exercice de leur responsabilité. Leur force et leur sagesse leur donnaient une grande autorité. Doués d’une clairvoyance prophétique, ils se montrèrent pour le peuple des guides à la décision ferme et à la doctrine très sûre. Ils ont composé de belles mélodies pour faire chanter les psaumes. Riches en vertu, ayant le goût de la beauté, ils ont fait régner la paix dans leurs maisons. Ils firent tous l’admiration de leurs contemporains, furent pour leur époque un sujet de fierté, et laissèrent un grand nom aux fils qui leur sont nés. Tant d’hommes sont oubliés, qui sont passés comme s’ils n’avaient jamais existé, qui ont vécu comme s’ils n’étaient pas nés, et leurs descendants avec eux ! Mais nos pères, étaient des hommes si pleins de charité que leurs vertus ne pouvaient être oubliées. Leur bonheur reste attaché à leur descendance ; un saint héritage est confié à leurs enfants, qui gardent fidèlement leur testament. Et voilà pourquoi cette famille ne disparaît pas, et sa gloire ne s’éteint pas. Leurs restes reposent en paix ; et leur souvenir survit de génération en génération. Les peuples continuent de célébrer leur sagesse, et l’Église de publier leur éloge.",
-            "references": null
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:1-15.\nFaisons l’éloge de ces hommes illustres que sont les fondateurs de notre famille. En eux, le Seigneur a fait une œuvre éclatante : dès l’origine il a manifesté par eux sa magnificence. Ce furent de vrais chefs dans l’exercice de leur responsabilité. Leur force et leur sagesse leur donnaient une grande autorité. Doués d’une clairvoyance prophétique, ils se montrèrent pour le peuple des guides à la décision ferme et à la doctrine très sûre. Ils ont composé de belles mélodies pour faire chanter les psaumes. Riches en vertu, ayant le goût de la beauté, ils ont fait régner la paix dans leurs maisons. Ils firent tous l’admiration de leurs contemporains, furent pour leur époque un sujet de fierté, et laissèrent un grand nom aux fils qui leur sont nés. Tant d’hommes sont oubliés, qui sont passés comme s’ils n’avaient jamais existé, qui ont vécu comme s’ils n’étaient pas nés, et leurs descendants avec eux ! Mais nos pères, étaient des hommes si pleins de charité que leurs vertus ne pouvaient être oubliées. Leur bonheur reste attaché à leur descendance ; un saint héritage est confié à leurs enfants, qui gardent fidèlement leur testament. Et voilà pourquoi cette famille ne disparaît pas, et sa gloire ne s’éteint pas. Leurs restes reposent en paix ; et leur souvenir survit de génération en génération. Les peuples continuent de célébrer leur sagesse, et l’Église de publier leur éloge."
           },
           "Graduale": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Graduale",
-            "texte": "!Is 65:23.\nMes élus ne travailleront pas en vain, et ils n’engendreront pas dans l’angoisse, car ils sont une race bénie du Seigneur, et avec eux seront leurs petits-enfants.\n!Eccli 44:14.\nLeurs corps ont été ensevelis dans la paix, et leurs noms vivronts d’âge en âge. Allelúja, allelúja.\n!Eccli 44:15.\nQue les peuples racontent leur sagesse, et que l’assemblée publie leurs louanges. Allelúja.",
-            "incipit": "Mes élus ne",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 65:23.\nMes élus ne travailleront pas en vain, et ils n’engendreront pas dans l’angoisse, car ils sont une race bénie du Seigneur, et avec eux seront leurs petits-enfants.\n!Eccli 44:14.\nLeurs corps ont été ensevelis dans la paix, et leurs noms vivronts d’âge en âge."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Tractus",
-            "texte": "!Is 65:23.\nMes élus ne travailleront pas en vain, et ils n’engendreront pas dans l’angoisse, car ils sont une race bénie du Seigneur, et avec eux seront leurs petits-enfants.\n!Eccli 44:14.\nLeurs corps ont été ensevelis dans la paix, et leurs noms vivronts d’âge en âge.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes moissonneront dans l’allégresse.\nV. Ils allaient et venaient en pleurant, tandis qu’ils jetaient leurs semences.\nV. Mais ils reviendront avec allégresse chargés de leurs gerbes.",
-            "incipit": "Mes élus ne",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 65:23.\nMes élus ne travailleront pas en vain, et ils n’engendreront pas dans l’angoisse, car ils sont une race bénie du Seigneur, et avec eux seront leurs petits-enfants.\n!Eccli 44:14.\nLeurs corps ont été ensevelis dans la paix, et leurs noms vivronts d’âge en âge.\n!Ps 125:5-6.\nCeux qui sèment dans les larmes moissonneront dans l’allégresse.\nV. Ils allaient et venaient en pleurant, tandis qu’ils jetaient leurs semences.\nV. Mais ils reviendront avec allégresse chargés de leurs gerbes."
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/02-12.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Eccli 44:15.\nQue les peuples racontent leur sagesse, et que l’assemblée publie leurs louanges. Allelúja."
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 19:27-29.\nEn ce temps-là, Pierre dit à Jésus : Voici que nous avons tout quitté, et que nous vous avons suivi ; qu’y aura-t-il donc pour nous ? Jésus leur dit : En vérité, je vous le dis, vous qui m’avez suivi, lorsque, au temps de la régénération, le Fils de l’homme siégera sur le trône de sa gloire, vous siégerez, vous aussi, sur douze trônes, et vous jugerez les douze tribus d’Israël. Et quiconque aura quitté sa maison, ou ses frères, ou ses sœurs, ou son père, ou sa mère, ou sa femme, ou ses enfants, ou ses champs, à cause de mon nom, recevra le centuple, et possédera la vie éternelle.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 19:27-29.\nEn ce temps-là, Pierre dit à Jésus : Voici que nous avons tout quitté, et que nous vous avons suivi ; qu’y aura-t-il donc pour nous ? Jésus leur dit : En vérité, je vous le dis, vous qui m’avez suivi, lorsque, au temps de la régénération, le Fils de l’homme siégera sur le trône de sa gloire, vous siégerez, vous aussi, sur douze trônes, et vous jugerez les douze tribus d’Israël. Et quiconque aura quitté sa maison, ou ses frères, ou ses sœurs, ou son père, ou sa mère, ou sa femme, ou ses enfants, ou ses champs, à cause de mon nom, recevra le centuple, et possédera la vie éternelle."
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Offertorium",
-            "texte": "!Is 56:7.\nJe les conduirai à ma sainte montagne, et je les consolerai dans ma maison de prière ; leurs holocaustes et leurs victimes me seront agréables sur l’autel qui m’est dédié.",
-            "incipit": "Je les conduirai",
-            "mp3": null,
-            "references": null
+            "texte": "!Is 56:7.\nJe les conduirai à ma sainte montagne, et je les consolerai dans ma maison de prière ; leurs holocaustes et leurs victimes me seront agréables sur l’autel qui m’est dédié."
           },
           "Secreta": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Secreta",
-            "texte": "Accueillez, Seigneur, les hosties que nous vous offrons, et par l’intercession de vos saints, accordez-nous de vous servir dans la liberté du cœur, et de brûler d’amour envers la Mère affligée de votre Fils.\n$Per eundem",
-            "references": null
+            "texte": "Accueillez, Seigneur, les hosties que nous vous offrons, et par l’intercession de vos saints, accordez-nous de vous servir dans la liberté du cœur, et de brûler d’amour envers la Mère affligée de votre Fils.\n$Per eundem"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Communio",
-            "texte": "!Joann 15:16.\nC’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure.",
-            "incipit": "C’est moi qui",
-            "mp3": null,
-            "references": null
+            "texte": "!Joann 15:16.\nC’est moi qui vous ai choisis, afin que vous alliez, et que vous portiez du fruit et que votre fruit demeure."
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/02-12.txt",
             "section": "Postcommunio",
-            "texte": "Fortifiés par les célestes Mystères, nous vous demandons, Seigneur, qu’imitant les exemples de ceux dont nous célébrons la fête, nous soyons fidèles à nous tenir au pied de la Croix de Jésus avec Marie sa Mère, et qu’ainsi nous méritions d’obtenir le fruit de la Rédemption.\n$Per eundem",
-            "references": null
+            "texte": "Fortifiés par les célestes Mystères, nous vous demandons, Seigneur, qu’imitant les exemples de ceux dont nous célébrons la fête, nous soyons fidèles à nous tenir au pied de la Croix de Jésus avec Marie sa Mère, et qu’ainsi nous méritions d’obtenir le fruit de la Rédemption.\n$Per eundem"
           }
         }
       },
@@ -210,7 +209,7 @@
         "Francais/Sancti/02-12.txt",
         "Latin/Sancti/02-12.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

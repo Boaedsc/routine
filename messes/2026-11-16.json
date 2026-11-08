@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Introitus",
             "texte": "!Ps 44:8\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)",
-            "incipit": "Dilexísti justítiam, et",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Dilexisti",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DI(g)le(g)xí(hjg)sti(g_[oh:h]f) *() ju(g)stí(g.h!iwjjk)ti(j)am,(j.) (;) et(j) o(j)dí(jkj)sti(jjj) in(gh)i(h)qui(hfhg)tá(ghg___)tem :(g.) (:) pro(fg)ptér(gjj)e(hg)a(ghggf.0) (,) un(gh/i.h!iwj)xit(hjg) te(g) De(ghG'F)us,(f.) (,) De(fg'h)us(h) tu(ixhgivHG'hf)us,(f.) (;) ó(g)le(fg)o(g) lae(h)tí(jj)ti(hg)ae(g/jjh/jggf.0) (;) prae(g) con(hi~)sór(i.h!iwj)ti(hg)bus(gv.f!hfg) tu(ghg___)is.(g.) (::) <i>T. P.</i> Al(f)le(fg)lú(gh~){ia},(hgh.) (,) al(h!iwj)le(jv.ijH'G)lú(ghg___){ia}.(g.) (::) (z)<i>Ps.</i> E(g)ru(hg)ctá(gj)vit(j) cor(j) me(j)um(ji) ver(jk)bum(k) bo(jk)num :(j.) *(:) di(jh)co(hj) e(j)go(j) ó(j)pe(j)ra(jji) me(gh)a(ji) re(h)gi.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(g.) (::)",
+            "mp3": "introitus_dilexisti-iustitiam.mp3",
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-16.txt",
             "section": "Oratio",
-            "texte": "Deus, qui in corde beátæ Gertrudis Vírginis jucúndam tibi mansionem præparásti: ipsíus méritis et intercessióne; cordis nostri máculas cleménter abstérge, et ejúsdem tríbue gaudére consórtio.\n$Per Dominum",
-            "references": null
+            "texte": "Deus, qui in corde beátæ Gertrudis Vírginis jucúndam tibi mansionem præparásti: ipsíus méritis et intercessióne; cordis nostri máculas cleménter abstérge, et ejúsdem tríbue gaudére consórtio.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-16.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
+            "texte": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
+            "incipit": {
+              "incipit": "Specie tua (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) SPé(ff)ci(f)e(f_e/g_[uh:l]h) tu(gf)a,(fv.d!ff/ge'/fgd'/e[ll:1]ddc.) <clear>*(;) et(f) pul(f)chri(h)tú(jh/jjj)di(jh/jjj)ne(jh/jjlvKJ'k) (,) tu(kjjh/jhhf)a(fh//g!jjjh/jhh/fgf.) (:) in(f)tén(ghgh)de,(ixhg/hiGF./[-1]iyh!iwj) (,) pró(hf)spe(gf)re(f_g//d!f'g//fh!jvGF'fd//ff/ge'/fgd'/e[ll:1]ddc.) (;) pro(d)cé(fd/fff)de,(dc__) (,) et(ff) re(ixhhg/hh//ixgh!ivGFhh//f!h'j)gna.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Pro(d)pter(d) ve(d)ri(fh)tá(hv.hihhfh.)(,)(df!hvv//hihhfh./gh/ihi)tem,(hh) (;) et(d) man(d)su(d)e(fe)tú(eh)di(h)nem(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) et(d) ju(d)stí(fdfED//f_d/ef!gwhhi)ti(h)am :(hhi!kvvh_[oh:h]i_[oh:h]h._[oh:h]) (:) et(f) de(fi)dú(i)cet(ih/jkihhf/hh/ijH'Gh) te(h.) (;) mi(h)ra(h)bí(i_[oh:h]h//ghG'Fi_[oh:h]h//h'hhvFEfe//f/hhivHGh')li(h)ter(h.) <clear>*(;) déx(hh)te(h)ra(h) tu(ihhf//hh/ijH'G)a.(hhhf//hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+            "mp3": "graduel_specie-tua.mp3",
             "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
-            "incipit": "Spécie tua et",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-16.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "incipit": {
+              "incipit": "Adducentur",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) <i>ij.</i>(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) <sp>V/</sp>. Ad(c.d!ewff)du(fg)cén(ixg_[oh:h]f/g/ig/hffd./fg/ighhV!gh~)tur(f.) (;) re(f.0h!iwjj)gi(ixjjvIG') vír(ixgjjh~)gi(h_[oh:h]i_[oh:h]h_[oh:h])nes(h.) (;) post(fg'hjhhfg) e(fg)am :(gv.ff/ded.) (:) pró(de!f'g)xi(ghg)mae(fg) e(ghg___)jus(g.) (;) af(f)fe(ghg)rén(ixh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghgfffd~)tur(ef~) ti(d_[oh:h]e_[oh:h]d_[oh:h])bi(d.) *(;) in(fc~) lae(d)tí(d!fff/g_[oh:h]f)ti(f!hgh)a.(hhf.) (,) (h_ghvFDgff'fvEC//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+            "mp3": "alleluia_adducentur-regi.mp3",
             "fichier": "Latin/Sancti/11-16.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Alleluia"
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-16.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Offertorium",
             "texte": "!Ps 44:10\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)",
-            "incipit": "Fíliæ regum in",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Filiae regum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) FI(e/hhh)li(h)ae(h) re(hihh'hh)gum(hihh'hh//ihh'hh_fh.) <clear>*(,) in(fh) ho(fh)nó(h_i)re(hi) tu(f!h'i)o,(ijijvIHih..) (:) á(fh/ih)sti(hhh)tit(hhh) re(h)gí(fh!ivHG'F)na(fhffe.) (,) a(ef) dex(h_f/hji)tris(hji) tu(hiH'F)is(gf..) (;) in(e) ve(f)stí(fh!ivHF)tu(f_h) (,) de(f!hhf'hvE'D)au(de/fef)rá(f!hh/ij)to,(ijiih.0) (:) cir(h)cúm(fh)da(hhh/ijH'F)ta(fhffe.) (,) va(f_e)ri(f_e)e(hhg)tá(gih./ghF'Ehv.//ghF'Ehig'hvF'E)te.(fv.efEC.) (::) <nlba><i>T. P.</i> Al(ef~)le(fgF'Ef./e/hh//gh/ijh)lú(hhh_e//hvGF'fe~){ia}.</nlba>(fv.efEC.) (::)",
+            "mp3": "offertoire_filiae-regum.mp3",
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C6a.txt",
             "section": "Secreta",
-            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
-            "references": null
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-16.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "../horas/Latin/Commune/C6a.txt",
-            "section": "Communio",
             "texte": "!Matt 25:4-6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)",
-            "incipit": "Quinque prudéntes vírgines",
-            "mp3": "communion_quinque-prudentes-virgines.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Quinque prudentes (Com.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) QUin(dde~)que(d) *() pru(d)dén(ef~)tes(f) vír(f!gwh)gi(e)nes(deD/B.1) (;) ac([ull:1{1]b)ce(b[ull:}])pé(ded)runt(dc~) ó(efef)le(ef)um(f.) (;) in(df~) va(f)sis(ef) su(d)is(dc) cum(e) lam(ef~)pá(d)di(de!fvED'e)bus :(e[ll:1]d..) (:) mé(f)di(e)a(d) au(e)tem(f) no(hjI'H)cte(h.) (,) cla(hi)mor(j_i) fa(h)ctus(gh) est :(hihh/fgf.) (;) Ec(f)ce(e_[oh:h][ll:1]d) spon(e)sus(f) ve(hjI'H)nit(h.) (,) ex(i)í(i!jwk)te(h.) ób(gxffg)vi(e[ll:1]d)am(d.) (,) Chri(gxd!ffg)sto(ehhh.f!gw!hvGE'fgd') Dó(d)mi(d_[oh:h]e_[oh:h]d_[oh:h])no.(d.) (::) <i>T. P.</i> Al(df)le(gxehvhf!gw!hvGE'fw!gvFE)lú(de!fvED'e){ia}.(e[ll:1]d..) (::)",
+            "mp3": null,
+            "fichier": "../horas/Latin/Commune/C6a.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C6a.txt",
             "section": "Postcommunio",
-            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
-            "references": null
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)",
-            "incipit": "Vous avez aimé",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)\n!Ps 44:2\nDe mon cœur jaillit un beau poème, je dis mes œuvres au Roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité, aussi le Seigneur votre Dieu vous a-t-il consacrée par l’onction de l’huile d’allégresse plus que vos compagnes. (Alléluia, alléluia.)"
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui vous êtes préparé une demeure agréable dans le cœur de la bienheureuse Vierge Gertrude, daignez, dans votre clémence, en égard à ses mérites et à son intercession, laver les taches qui souillent notre cœur et nous faire jouir de sa compagnie.\n$Per Dominum",
-            "references": null
+            "texte": "Ô Dieu, qui vous êtes préparé une demeure agréable dans le cœur de la bienheureuse Vierge Gertrude, daignez, dans votre clémence, en égard à ses mérites et à son intercession, laver les taches qui souillent notre cœur et nous faire jouir de sa compagnie.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Lectio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:15-16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Alléluia.",
-            "incipit": "Dans votre grâce,",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:15-16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Alléluia."
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Evangelium",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:10\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)",
-            "incipit": "Des filles de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 44:10\nDes filles de roi viennent à ta rencontre ; la reine se tient à ta droite, parée de tissus d’or, d’étoffes chatoyantes. (Alléluia.)"
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Secreta",
-            "texte": "Qu’elle soit agréée de vous, Seigneur, l’offrande faite par votre peuple saint en l’honneur de vos Saintes par les mérites desquelles il reconnaît avoir reçu du secours dans la tribulation.\n$Per Dominum",
-            "references": null
+            "texte": "Qu’elle soit agréée de vous, Seigneur, l’offrande faite par votre peuple saint en l’honneur de vos Saintes par les mérites desquelles il reconnaît avoir reçu du secours dans la tribulation.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C6a.txt",
             "section": "Communio",
-            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)",
-            "incipit": "Les cinq vierges",
-            "mp3": null,
-            "references": null
+            "texte": "!Matt 25:4; 25:6\nLes cinq vierges sages avaient, avec leurs lampes, pris de l’huile dans des vases. Au milieu de la nuit, un cri retentit : « Voici l’Époux qui vient ! Sortez à la rencontre du Christ Seigneur. » (Alléluia.)"
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-16.txt",
             "section": "Postcommunio",
-            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous celébrons la fête.\n$Per Dominum",
-            "references": null
+            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous celébrons la fête.\n$Per Dominum"
           }
         }
       },

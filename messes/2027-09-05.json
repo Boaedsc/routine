@@ -28,174 +28,171 @@
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent16-0.txt",
-            "section": "Introitus",
             "texte": "!Ps 85:3; 85:5\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.\n!Ps 85:1\nInclína, Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum ego.\n&Gloria\nv. Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu, Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus invocántibus te.",
-            "incipit": "Miserére mihi, Dómine,",
-            "mp3": "introitus_miserere-ad-te.mp3",
-            "references": null
+            "incipit": {
+              "incipit": "Miserere mihi... ad te",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c3) MI(e)se(hh)ré(f_e)re(fd) mi(e)hi(f) *() Dó(hhi)mi(h)ne,(h.) (;) quó(h)ni(hhhe)am(e) ad(ef~) te(f) cla(f)má(f_efvED'e)vi(e_[oh:h][ll:1]d) (,) to(d!f'h)ta(hhhvF'E) di(efe___)e :(e.) (:) qui(ef/hgh)a(h) tu(h) Dó(h)mi(fh!ivHG'h)ne(hg..) (,) su(h)á(gh'i)vis(i_[oh:h]g) ac(gi) mi(hg)tis(g) es,(g.) (;) et(g) co(g)pi(i)ó(ki/kkkiihi)sus(i_[oh:h]h) (,) in(hg~) mi(h)se(i)ri(jk)cór(iihi)di(gh!ivHG'h)a(hg..) (;) ó(gh/ih)mni(hhh)bus(f.) (`) in(ef)vo(de)cán(eh)ti(hhghvGFg_[oh:h]f/gee)bus(efe___) te.(e.) (::) <i>Ps.</i> In(e)clí(fe)na(eh) Dó(h)mi(h)ne(h) au(h)rem(h) tu(h)am(hg) et(hi) ex(i)áu(hi)di(h) me :(h.) *(:) quó(hf)ni(fh)am(h) in(h)ops(h) et(h) pau(hhg)per(ef) sum(hg) e(f)go.(e.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h) u(hhg) o(ef) u(hg) a(f) e.</eu>(e.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Introitus"
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Oratio",
-            "texte": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur: ac bonis opéribus júgiter præstet esse inténtos.\n$Per Dominum",
-            "references": null
+            "texte": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur: ac bonis opéribus júgiter præstet esse inténtos.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in cœlis et in terra nominátur, ut det vobis secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in interiórem hóminem, Christum habitáre per fidem in córdibus vestris: in caritáte radicáti et  fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit latitúdo et longitúdo et sublímitas et profúndum: scire étiam supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem plenitúdinem Dei. Ei autem, qui potens est ómnia fácere superabundánter, quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen.",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFratres: Obsecro vos, ne deficiátis in tribulatiónibus meis pro vobis: quæ est glória vestra. Hujus rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex quo omnis patérnitas in cœlis et in terra nominátur, ut det vobis secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in interiórem hóminem, Christum habitáre per fidem in córdibus vestris: in caritáte radicáti et  fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit latitúdo et longitúdo et sublímitas et profúndum: scire étiam supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem plenitúdinem Dei. Ei autem, qui potens est ómnia fácere superabundánter, quam pétimus aut intellégimus, secúndum virtútem, quæ operátur in nobis: ipsi glória in Ecclésia et in Christo Jesu, in omnes generatiónes sǽculi sæculórum. Amen."
           },
           "Graduale": {
+            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua.",
+            "incipit": {
+              "incipit": "Timebunt gentes",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) TI(d)mé(ff)bunt(gh~) gen(h_fgvFED.g_[oh:h]e/fg)tes(f.) (;) * no(hf/gh!jj/kjk)men(jij) tu(h_g/h/jjvH'GF)um,(h_g~) Dó(f)mi(fg!hvGF'g)ne,(gf..) (:) et(f) o(ghgh)mnes(jhhg) re(h!iwj)ges(j_i) (`) ter(jkJ'IH)rae(hjH'GhjjhjvvIH'jggf.0) (;) gló(fg'hfg'h)ri(gf)am(fv.ef!gvgf.0) (,) tu(f!hhh//gh!jjjhjvvIH'jg./f.0h!iw!jvIH'GF'f//hvGFgf)am.(f.) (z0::c3)\r\n<sp>V/</sp>. Quó(d)ni(d)am(d) ae(d)di(d)fi(fe)cá(eh)vit(h.) (,) Dó(h)mi(h)nus(ihh'hh_f//hhf/hhegxfgE0/[-0.5]{/[0.5]gy}D0.0/[-0.5]hhjvIH'//hvGF.) (;) Si(hi)on,(i_[oh:h]h/i/kkh i_[oh:h]h/kkkvIH'//hvGF.) (:) et(f) vi(hf)dé(h)bi(hfh)tur(hhhvF'Ef!hhhf/hhhvGF'hee[ll:1]d.0) (;) in(d) ma(d)je(d)stá(dfE'D)te(ef) *() su(fhG'Fhhh)a.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
+            "mp3": "graduel_timebunt-gentes.mp3",
             "fichier": "Latin/Tempora/Pent16-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 101:16-17\nTimébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.\nV. Quóniam ædificávit Dóminus Sion, et vidébitur in majestáte sua. Allelúja, allelúja\n!Ps 97:1\nCantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.",
-            "incipit": "Timébunt gentes nomen",
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja\n!Ps 97:1\nCantáte Dómino cánticum novum: quia mirabília fecit Dóminus. Allelúja.",
+            "incipit": {
+              "incipit": "Cantate Domino",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d)le(ff)lú(gv.f!hgh){ia}.(hjH'GF.) <clear>*(;) <i>ij.</i>(e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::) <sp>V/</sp>. Can(cd)tá(ixdh//gihivGF//ggf/gg//fgh!jjg)(,)(ixhhghvGF.hiHG'hw!ivHGhi)te(h.) (,) Dó(h_g/jjvH'G//ixhihi)mi(g)no(g_[oh:h]f_[oh:h]) (;) cán(f_e/f!gwhgh)ti(hg/hf/ghg)cum(gd~) no(f_e/g_[oh:h]fgvFD'ewfd)vum :(d.) (:) qui(d/ffd/ffd def!gh)a(ghg.) (,) mi(f)ra(ghg)bí(h/jjhhgh.)(,)(ixfh!ivGF'fd/ffhvGF'fvED)li(e[ll:1]d)a(d.) (;) fe(ff)cit(fg) () * Dó(g_[oh:h]f)mi(f!gwhgh)nus.(hjH'GF.) (;) (e!gwhgh./fhg/hffvEC.) (,) (d!ewf!gv.egF'ED'ewfd.1) (::)",
+            "mp3": "alleluia_cantate-domino.mp3",
             "fichier": "Latin/Tempora/Pent16-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale"
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nIn illo témpore: Cum intráret Jesus in domum cujúsdam príncipis pharisæórum sábbato manducáre panem, et ipsi observábant eum. Et ecce, homo quidam hydrópicus erat ante illum. Et respóndens Jesus dixit ad legisperítos et pharisǽos, dicens: Si licet sábbato curáre? At illi tacuérunt. Ipse vero apprehénsum sanávit eum ac dimísit. Et respóndens ad illos, dixit: Cujus vestrum ásinus aut bos in púteum cadet, et non contínuo éxtrahet illum die sábbati? Et non póterant ad hæc respóndere illi. Dicebat autem et ad invitátos parábolam, inténdens, quómodo primos accúbitus elígerent, dicens ad illos: Cum invitátus fúeris ad núptias, non discúmbas in primo loco, ne forte honorátior te sit invitátus ab illo, et véniens is, qui te et illum vocávit, dicat tibi: Da huic locum: et tunc incípias cum rubóre novíssimum locum tenére. Sed cum vocátus fúeris, vade, recúmbe in novíssimo loco: ut, cum vénerit, qui te invitávit, dicat tibi: Amíce, ascénde supérius. Tunc erit tibi glória coram simul discumbéntibus: quia omnis, qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur.",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nIn illo témpore: Cum intráret Jesus in domum cujúsdam príncipis pharisæórum sábbato manducáre panem, et ipsi observábant eum. Et ecce, homo quidam hydrópicus erat ante illum. Et respóndens Jesus dixit ad legisperítos et pharisǽos, dicens: Si licet sábbato curáre? At illi tacuérunt. Ipse vero apprehénsum sanávit eum ac dimísit. Et respóndens ad illos, dixit: Cujus vestrum ásinus aut bos in púteum cadet, et non contínuo éxtrahet illum die sábbati? Et non póterant ad hæc respóndere illi. Dicebat autem et ad invitátos parábolam, inténdens, quómodo primos accúbitus elígerent, dicens ad illos: Cum invitátus fúeris ad núptias, non discúmbas in primo loco, ne forte honorátior te sit invitátus ab illo, et véniens is, qui te et illum vocávit, dicat tibi: Da huic locum: et tunc incípias cum rubóre novíssimum locum tenére. Sed cum vocátus fúeris, vade, recúmbe in novíssimo loco: ut, cum vénerit, qui te invitávit, dicat tibi: Amíce, ascénde supérius. Tunc erit tibi glória coram simul discumbéntibus: quia omnis, qui se exáltat, humiliábitur: et qui se humíliat, exaltábitur."
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent16-0.txt",
-            "section": "Offertorium",
             "texte": "!Ps 39:14; 39:15\nDómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.",
-            "incipit": "Dómine, in auxílium",
+            "incipit": {
+              "incipit": "Domine in auxilium",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) DO(f)mi(fff)ne,(c_[ll:1]d) *(,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_[oh:h]g_[oh:h]f_[oh:h])ce :(f.) (:) con(fgf)fun(g_[uh:l]h)dán(hg~)tur(ghGF.) (,) et(f) re(f)ve(f)re(d)án(d!ffdced)tur,(dc/ded.) (;) qui(c) quae(ffg)runt(f) á(g)ni(fg)mam(fe~) me(d!ew!fvED)am,(d.c!dw!evDCd.) (;) ut(c) áu(ffg~)fe(f)rant(fg/hghv_G~F~) e(f)am :(f/ghF'DffvD'Cffc.) (:) Dó(f)mi(fff)ne,(c_[ll:1]d) (,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_[oh:h]g_[oh:h]f_[oh:h])ce.(f.) (::)",
             "mp3": "offertoire_domine-in-auxilium.mp3",
-            "references": null
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Offertorium"
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Secreta",
-            "texte": "Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et pérfice miserátus in nobis; ut ejus mereámur esse partícipes.\n$Per Dominum",
-            "references": null
+            "texte": "Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et pérfice miserátus in nobis; ut ejus mereámur esse partícipes.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent16-0.txt",
-            "section": "Communio",
             "texte": "!Ps 70:16-17; 70:18\nDómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a juventúte mea: et usque in senéctam et sénium, Deus, ne derelínquas me.",
-            "incipit": "Dómine, memorábor justítiæ",
-            "mp3": null,
-            "references": null
+            "incipit": {
+              "incipit": "Domine memorabor",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DO(fg'h)mi(g)ne,(g) (,) * me(g)mo(gf)rá(ggfg)bor(d.) (,) ju(d)stí(d/gfg)ti(ge/fd)ae(d) tu(gfg)ae(g.) (,) so(fghjij)lí(jh/ig)us :(g.) (:) De(j)us,(jjj) do(ji)cu(h)í(ij'k)sti(h) me(g.) (,) a(g) ju(g)ven(g)tú(gh/ji)te(ih/jkj) me(ixh_givHF)a,(f.) (:) et(g) us(g.h!iwjjk)que(j) in(h) se(g)né(f/gfg)ctam(d.) (,) et(f) sé(ef'g)ni(ge/fd)um,(d.) (;) De(gfg)us,(ghggf.0) (,) ne(f!h'j) de(f!h'j)re(jh/ig)lín(g)quas(g.f!gwh_g) me.(g.) (::)",
+            "mp3": "communion_domine-memorabor.mp3",
+            "fichier": "Latin/Tempora/Pent16-0.txt",
+            "section": "Communio"
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent16-0.txt",
             "section": "Postcommunio",
-            "texte": "Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova cœléstibus sacraméntis: ut consequénter et córporum præsens páriter et futúrum capiámus auxílium.\n$Per Dominum",
-            "references": null
+            "texte": "Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova cœléstibus sacraméntis: ut consequénter et córporum præsens páriter et futúrum capiámus auxílium.\n$Per Dominum"
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Introitus",
-            "texte": "!Ps 85:3; 85:5\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent.\n!Ps 85:1\nInclinez, Seigneur, votre oreille vers moi et exaucez-moi, car je suis pauvre et indigent.\n&Gloria\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent.",
-            "incipit": "Ayez pitié de",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 85:3; 85:5\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent.\n!Ps 85:1\nInclinez, Seigneur, votre oreille vers moi et exaucez-moi, car je suis pauvre et indigent.\n&Gloria\nv. Ayez pitié de moi, Seigneur, car vers vous je crie tout le jour ; car vous, Seigneur, vous êtes bon et doux, et abondant en miséricorde pour tous ceux qui vous invoquent."
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Oratio",
-            "texte": "Que toujours votre grâce, Seigneur, nous prévienne et nous suive, et qu'elle nous accorde d'être constamment appliqués au bien.\n$Per Dominum",
-            "references": null
+            "texte": "Que toujours votre grâce, Seigneur, nous prévienne et nous suive, et qu'elle nous accorde d'être constamment appliqués au bien.\n$Per Dominum"
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFrères, je vous prie de ne pas vous laisser décourager à cause des afflictions que j'endure pour vous : elles sont votre gloire. À cause de cela, je fléchis le genou devant le Père, de qui tire son nom toute paternité dans les cieux et sur la terre, afin qu'il vous donne, selon les trésors de sa gloire, d'être puissamment fortifiés par son Esprit en vue de l'homme intérieur, et que le Christ habite dans vos cœurs par la foi, de sorte que, étant enracinés et fondés dans la charité, vous deveniez capables de comprendre avec tous les saints quelle est la largeur et la longueur, la profondeur et la hauteur, même de connaître l'amour du Christ, qui surpasse toute connaissance, en sorte que vous soyez remplis de toute la plénitude de Dieu. À celui qui peut faire, par la puissance qui agit en nous, infiniment au delà de ce que nous demandons et concevons, à Lui soit la gloire dans l'Église et en Jésus-Christ, dans tous les âges, aux siècles des siècles ! Amen !",
-            "references": null
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 3:13-21\nFrères, je vous prie de ne pas vous laisser décourager à cause des afflictions que j'endure pour vous : elles sont votre gloire. À cause de cela, je fléchis le genou devant le Père, de qui tire son nom toute paternité dans les cieux et sur la terre, afin qu'il vous donne, selon les trésors de sa gloire, d'être puissamment fortifiés par son Esprit en vue de l'homme intérieur, et que le Christ habite dans vos cœurs par la foi, de sorte que, étant enracinés et fondés dans la charité, vous deveniez capables de comprendre avec tous les saints quelle est la largeur et la longueur, la profondeur et la hauteur, même de connaître l'amour du Christ, qui surpasse toute connaissance, en sorte que vous soyez remplis de toute la plénitude de Dieu. À celui qui peut faire, par la puissance qui agit en nous, infiniment au delà de ce que nous demandons et concevons, à Lui soit la gloire dans l'Église et en Jésus-Christ, dans tous les âges, aux siècles des siècles ! Amen !"
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Graduale",
-            "texte": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre votre gloire.\nV. Car le Seigneur construit Sion, et il sera vu dans sa majesté. Alléluia, alléluia.\n!Ps 97:1\nChantez au Seigneur un cantique nouveau, car le Seigneur a fait des merveilles. Alléluia.",
-            "incipit": "Les peuples craindront",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 101:16-17\nLes peuples craindront votre Nom, Seigneur, et tous les rois de la terre votre gloire.\nV. Car le Seigneur construit Sion, et il sera vu dans sa majesté."
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Tractus",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "texte": ""
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
-            "section": "Alleluia",
-            "texte": "",
-            "incipit": null,
-            "mp3": null,
-            "references": null
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\n!Ps 97:1\nChantez au Seigneur un cantique nouveau, car le Seigneur a fait des merveilles. Alléluia."
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nEn ce temps-là, comme Jésus était entré un jour de sabbat dans la maison d'un chef des Pharisiens pour y manger, eux le guettaient. Et voici qu'un homme hydropique se trouvait devant lui. Et Jésus, prenant la parole, dit aux docteurs de la Loi et aux Pharisiens : « Est-il permis de guérir le jour du sabbat, ou non ? » Mais ils gardaient le silence. L'ayant pris, il le guérit et le congédia. Puis, il leur dit : « Qui d'entre vous, si son fils ou son bœuf tombe dans un puits, ne l'en retire pas aussitôt, un jour du sabbat ? » Et à cela ils ne purent répliquer. Et il dit une parabole aux invités, ayant remarqué comment ils choisissaient les premières places. Il leur dit : « Quand tu seras invité par quelqu'un à un repas de noces, ne te mets pas à la première place : un homme plus considérable que toi pourrait avoir été invité par lui, et celui qui vous aurait invités l'un et l'autre viendrait te dire : « Cède-lui la place» , et alors tu n'aurais, avec confusion, qu'à occuper la dernière place. Mais, quand tu es invité, va te mettre à la dernière place ; de cette façon, quand viendra celui qui t'a invité, il te dira : « Mon ami, avance plus haut.» Alors ce sera pour toi un honneur devant tous les convives. Car quiconque s'élève sera abaissé, et quiconque s'abaisse sera élevé. »",
-            "references": null
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:1-11\nEn ce temps-là, comme Jésus était entré un jour de sabbat dans la maison d'un chef des Pharisiens pour y manger, eux le guettaient. Et voici qu'un homme hydropique se trouvait devant lui. Et Jésus, prenant la parole, dit aux docteurs de la Loi et aux Pharisiens : « Est-il permis de guérir le jour du sabbat, ou non ? » Mais ils gardaient le silence. L'ayant pris, il le guérit et le congédia. Puis, il leur dit : « Qui d'entre vous, si son fils ou son bœuf tombe dans un puits, ne l'en retire pas aussitôt, un jour du sabbat ? » Et à cela ils ne purent répliquer. Et il dit une parabole aux invités, ayant remarqué comment ils choisissaient les premières places. Il leur dit : « Quand tu seras invité par quelqu'un à un repas de noces, ne te mets pas à la première place : un homme plus considérable que toi pourrait avoir été invité par lui, et celui qui vous aurait invités l'un et l'autre viendrait te dire : « Cède-lui la place» , et alors tu n'aurais, avec confusion, qu'à occuper la dernière place. Mais, quand tu es invité, va te mettre à la dernière place ; de cette façon, quand viendra celui qui t'a invité, il te dira : « Mon ami, avance plus haut.» Alors ce sera pour toi un honneur devant tous les convives. Car quiconque s'élève sera abaissé, et quiconque s'abaisse sera élevé. »"
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 39:14; 39:15\nSeigneur, venez me secourir ; que soient confondus et couverts de honte ceux qui cherchent mon âme pour l'enlever. Seigneur, venez me secourir.",
-            "incipit": "Seigneur, venez me",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 39:14; 39:15\nSeigneur, venez me secourir ; que soient confondus et couverts de honte ceux qui cherchent mon âme pour l'enlever. Seigneur, venez me secourir."
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Secreta",
-            "texte": "Purifiez-nous, Seigneur, par ce sacrifice, et dans votre bonté, rendez-nous dignes d'y participer.\n$Per Dominum",
-            "references": null
+            "texte": "Purifiez-nous, Seigneur, par ce sacrifice, et dans votre bonté, rendez-nous dignes d'y participer.\n$Per Dominum"
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Prefatio",
-            "texte": "",
-            "references": null
+            "texte": ""
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Communio",
-            "texte": "!Ps 70:16-17; 70:18\nSeigneur, je ferai mémoire de votre seule justice ; ô Dieu, vous m'avez instruit depuis ma jeunesse. Jusqu'à ma vieillesse, ne m'abandonnez pas, ô Dieu.",
-            "incipit": "Seigneur, je ferai",
-            "mp3": null,
-            "references": null
+            "texte": "!Ps 70:16-17; 70:18\nSeigneur, je ferai mémoire de votre seule justice ; ô Dieu, vous m'avez instruit depuis ma jeunesse. Jusqu'à ma vieillesse, ne m'abandonnez pas, ô Dieu."
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent16-0.txt",
             "section": "Postcommunio",
-            "texte": "Dans votre bonté, Seigneur, purifiez nos âmes et renouvelez-les par vos sacrements célestes, afin que nos corps eux-mêmes y puisent un secours pour le présent et pour l'avenir.\n$Per Dominum",
-            "references": null
+            "texte": "Dans votre bonté, Seigneur, purifiez nos âmes et renouvelez-les par vos sacrements célestes, afin que nos corps eux-mêmes y puisent un secours pour le présent et pour l'avenir.\n$Per Dominum"
           }
         }
       },
@@ -203,7 +200,7 @@
         "Francais/Tempora/Pent16-0.txt",
         "Latin/Tempora/Pent16-0.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]
