@@ -168,7 +168,8 @@
   // fond = --carte, encres = --texte. Les pixels intermédiaires (anti-aliasing)
   // sont interpolés entre les deux couleurs, ce qui garde des contours nets.
   function recadrer(src) {
-    var fond = couleurCss('--carte') || [255, 255, 255];
+    var fond = (couleurCss('--carte') || [255, 255, 255])
+      .map(function (c) { return Math.round(c + (255 - c) * 0.35); });
     var encre = couleurCss('--texte') || [0, 0, 0];
 
     var ctx = src.getContext('2d');
