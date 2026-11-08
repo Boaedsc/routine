@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-16",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Commémoraison de la Bienheureuse Vierge Marie du Mont-Carmel",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-16.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) GAU(c)DE(d)Á(ixdh'!iv)MUS(h.) *(,) o(hg~)mnes(hg) in(fg) Dó(gjh)mi(ixh.g!hwihi)no,(ih..) (;) di(h)em(fg~) fe(g)stum(gff) ce(dg)le(gff)brán(dg~)tes(gff) (,) sub(f) ho(g)nó(g./hjh)re(ghg.) be(f)á(f)tae(f) Ma(f)rí(g)ae(f') Vír(f)gi(h)nis(gjj) Re(h)gí(h_[oh:h]i_[oh:h]h_[oh:h])nae :(h.) (:) de(fg) cu(fg)jus(f) sol(f)e(g)mni(g)tá(g./hjh)te(ghg.) (,) gau(fg)dent(f) An(fg/hgh)ge(gvFE'fwgfg)li,(gf..) (;) et(f) col(g)láu(g/hjH~G~)dant(h_g) (,) Fí(fge)li(f)um(fg/hfgvFE) De(d!ewfef)i.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Ef(f)fún(gh)dit(h) cor(h) me(h)um(h) ver(hj)bum(h) bo(hg)num :(gh..) *(:) di(gf)co(gh) e(h)go(h) car(h)men(hjh) me(g')um(f) Re(fff)gi.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(dc/df..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-16.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ singulári título Carméli órdinem decorásti: concéde propítius; ut, cujus hódie Commemoratiónem sollémni celebrámus offício, ejus muníti præsídiis, ad gáudia sempitérna perveníre mereámur:\n$Qui vivis"
+            "texte": "Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ singulári título Carméli órdinem decorásti: concéde propítius; ut, cujus hódie Commemoratiónem sollémni celebrámus offício, ejus muníti præsídiis, ad gáudia sempitérna perveníre mereámur:\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt."
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.",
+            "references": null
           },
           "Graduale": {
-            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.\n_",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris. V. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
             "incipit": {
               "incipit": "Benedicta et venerabilis",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c4) BE(fe)ne(fg)dí(g)cta(gv.ff/ded.) (,) * et(f) ve(dfe)ne(fg)rá(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(e[ll:1]d~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a :(g.) (:) quae(df) si(feg)ne(gefd) ta(cd)ctu(d.) pu(f)dó(gh)ris(ixh.0/[-0.5]ivHG'h/ef'g) (;) in(gh~)vén(hfhhvGE'fd)ta(cd) es(d.) (,) ma(dc/[1]{/[-3]ix}fg'h)ter(h.0/[-0.5]ivHG'ef'g) Sal(g)va(df)tó(efED.)(,)(ixf.0/[-0.5]hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(e[ll:1]d) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) in(f) tu(f)a(ghgh) se(h) clau(hgh'1f)sit(e[ll:1]d) (,) ví(f_g//ef!hvGE'fd)sce(cd)ra(d.) (;) * fa(cd!ff)ctus(fg) ho(g_[oh:h]f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-16.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nPer te, Dei Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti prolem, et mundo genuísti Salvatórem. Allelúja.",
+            "texte": "Allelúja, allelúja. Per te, Dei Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti prolem, et mundo genuísti Salvatórem. Allelúja.",
             "incipit": {
               "incipit": "Per te Dei Genitrix",
               "version": "Solesmes",
@@ -82,12 +88,28 @@
             "gabc": "(c4) AL(d)le(efg)lú(ge/fgee[ll:1]d~){ia}.(d.) *(,) <i>ij.</i>(c/dd/cd/e[ll:1]d//ef!gvvFD'ecd.) (;) (dhhf/ghddc/d!fde.) (,) (fhghvF'ED.fegvF'ECee[ll:1]d.0) (::) <sp>V/</sp>. Per(d!hg~) te,(hggdfv.) De(eg/hee[ll:1]d)i(d) Gé(c)ni(cd)trix,(d.) (;) no(ixdh/ih)bis(gh) est(he) vi(fe)ta(c.) pér(ef'g~)di(g_[oh:h]f)ta(e[ll:1]d/fe) da(cd)ta :(d.) (:) quae(hjjvIG) de(gh) cae(h)lo(g) sus(j)ce(jvIH)pí(igh)sti(h) pro(hk)lem,(ji..) (;) et(gj~) mun(jvIG'jhhg~)do(gh) ge(gef)nu(ge/fd)í(cd)sti(d.) *(,) Sal(d)va(efg)tó(ge/fgee[ll:1]d)rem.(d.) (,) (c/dd/cd/e[ll:1]d//ef!gvvFD'ecd.) (;) (dhhf/ghddc/d!fde.) (,) (fhghvF'ED.fegvF'ECee[ll:1]d.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-16.txt",
-            "section": "Graduale"
+            "section": "Graduale[1]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:27-28\nIn illo témpore: Loquénte Jesu ad turbas, extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. ¶ At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:27-28\nIn illo témpore: Loquénte Jesu ad turbas, extóllens vocem quædam múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera, quæ suxísti. ¶ At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et custódiunt illud.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Jer 18:20\nRecordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.",
@@ -101,17 +123,20 @@
             "gabc": "(c4) RE(d!ff/ggf/gh)cor(fe~)dá(gvFEC'd)re,(d.) *(,) Vir(d/ff/ggf/gh)go(fe) Ma(cd)ter,(d.) (,) in(f) con(gh)spé(hg)ctu(ge) De(gf)i,(dff'1ff) (;) ut(f!hj) lo(ji)quá(gf)ris(fgh) pro(f) no(g)bis(h) bo(fvEC'd)na,(d.) (:) et(f) ut(g) a(gh)vér(fe)tat(d.) (,) in(f)di(g)gna(hj)ti(j)ó(k)nem(i') su(j)am(h.) (;) a(d/ff/ggf/ghd/fffh!jvvIG'Fh.) (,) (h/jj/kkj/klh/jjjvIG'Fg_[uh:l]h) no(d!ewfef)bis. (e[ll:1]d..) (::)\r\n<i>T. P.</i> Al(cd)le(d.!ghGF'fd//ffvEC'd)lú(d_c/d!ewf){ia}.(e[ll:1]d..) (::)",
             "mp3": "offertoire_recordare-virgo-mater.mp3",
             "fichier": "Latin/Sancti/07-16.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Secreta",
-            "texte": "Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore concéde.\n$Per eundem"
+            "texte": "Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore concéde.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "Regína mundi digníssima, María Virgo perpétua, intercéde pro nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem ómnium.",
@@ -125,74 +150,88 @@
             "gabc": "\"(c4) RE(dc)g\\u00ed(d)na(fe) mun(fgff)di(d_c) (,) * di(d!ewf/ge/f_e)gn\\u00eds(d)si(de!fvED'e)ma,(e[ll:1]d..) (;) Ma(dc)r\\u00ed(fh)a(ghg) Vir(h)go(gf) per(gh)p\\u00e9(f)tu(f_[oh:h]g_[oh:h]f_[oh:h])a,(f.) (:) in(f)ter(hg~)c\\u00e9(hji/jhhg)de(g.) (,) pro(f) no(gh)stra(g) pa(fe)ce(d.) et(fe~) sa(fg)l\\u00fa(deD'C)te,(c.) (:) quae(dg) ge(fe)nu(dc)\\u00ed(d)sti(c) Chri(d)stum(dc) D\\u00f3(f)mi(gf)num(f.) (,) Sal(gh)va(g)t\\u00f3(fe)rem(fgff) \\u00f3(d)mni(cd)um.(d.) (::) <i>T. P.</i> Al(de)le(d)l\\u00fa(d_c/d!ewf){ia}.(e[ll:1]d..) (::)\"",
             "mp3": null,
             "fichier": "Latin/Sancti/07-16.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-16.txt",
             "section": "Postcommunio",
-            "texte": "Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit benefíciis, a cunctis perículis absolútos, sua fáciat pietáte concórdes:\n$Qui vivis"
+            "texte": "Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit benefíciis, a cunctis perículis absolútos, sua fáciat pietáte concórdes:\n$Qui vivis",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Introitus",
-            "texte": "!Sedulius.\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu."
+            "texte": "!Sedulius.\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 44:2\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de la bienheureuse Vierge Marie. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Oratio",
-            "texte": "Dieu, vous orné l’Ordre du Carmel du titre particulier de la bienheureuse Marie toujours Vierge et votre Mère : accordez-nous, dans votre bonté, que, soutenus de la protection de celle dont nous honorons aujourd’hui solennellement la mémoire, nous méritions de parvenir aux joies éternelles.\n$Qui vivis"
+            "texte": "Dieu, vous orné l’Ordre du Carmel du titre particulier de la bienheureuse Marie toujours Vierge et votre Mère : accordez-nous, dans votre bonté, que, soutenus de la protection de celle dont nous honorons aujourd’hui solennellement la mémoire, nous méritions de parvenir aux joies éternelles.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Lectio",
-            "texte": "Lecture du livre de la Sagesse\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle."
+            "texte": "Lecture du livre de la Sagesse\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-16.txt",
-            "section": "Graduale",
-            "texte": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte.\nV. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme."
+            "section": "Graduale[0]",
+            "texte": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte. V. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-16.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. Par vous, ô Mère de Dieu, nous a été rendue la vie que nous avions perdue ; vous qui avez reçu du ciel un rejeton, et qui avez mis au monde le Sauveur. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Par vous, ô Mère de Dieu, nous a été rendue la vie que nous avions perdue ; vous qui avez reçu du ciel un rejeton, et qui avez mis au monde le Sauveur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Evangelium",
-            "texte": "Suite ++ de la sainte Evangile selon St. Luc\n!Luc 11:27-28\nEn ce temps-là : Jésus parlait au milieu de la foule et une femme s’écria : « Comme elle est heureuse, la Mère qui t’a mis au monde, et qui t’a nourri de son lait ! » Mais Il répondit : « Bien plus heureux encore celui qui écoute la parole de Dieu et qui la met en pratique ! »"
+            "texte": "Suite ++ de la sainte Evangile selon St. Luc\n!Luc 11:27-28\nEn ce temps-là : Jésus parlait au milieu de la foule et une femme s’écria : « Comme elle est heureuse, la Mère qui t’a mis au monde, et qui t’a nourri de son lait ! » Mais Il répondit : « Bien plus heureux encore celui qui écoute la parole de Dieu et qui la met en pratique ! »",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Offertorium",
-            "texte": "!Jer 18:20\nSouvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation."
+            "texte": "!Jer 18:20\nSouvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Secreta",
-            "texte": "Rendez saints, Seigneur, nous vous le demandons instamment, ces dons offerts à votre majesté, et moyennant l’intercession si salutaire de la bienheureuse Marie, mère de Dieu, accordez qu’ils soient utiles à notre salut.\n$Per eundem"
+            "texte": "Rendez saints, Seigneur, nous vous le demandons instamment, ces dons offerts à votre majesté, et moyennant l’intercession si salutaire de la bienheureuse Marie, mère de Dieu, accordez qu’ils soient utiles à notre salut.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Communio",
-            "texte": "!\nÔ Marie, très digne Reine du monde, et toujours Vierge, obtenez-nous la paix et le salut, vous qui avez mis au monde le Christ, Seigneur et Sauveur de tous."
+            "texte": "!\nÔ Marie, très digne Reine du monde, et toujours Vierge, obtenez-nous la paix et le salut, vous qui avez mis au monde le Christ, Seigneur et Sauveur de tous.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-16.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en supplions, Seigneur, que l’intercession digne de respect de la glorieuse Marie, votre Mère toujours Vierge, nous vienne en aide, en sorte que sa bonté fasse régner la concorde parmi ceux qu’elle a comblés d’incessants bienfaits et délivrés de tous les périls.\n$Qui vivis"
+            "texte": "Nous vous en supplions, Seigneur, que l’intercession digne de respect de la glorieuse Marie, votre Mère toujours Vierge, nous vienne en aide, en sorte que sa bonté fasse régner la concorde parmi ceux qu’elle a comblés d’incessants bienfaits et délivrés de tous les périls.\n$Qui vivis",
+            "references": null
           }
         }
       },

@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/11-11",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Martin, Evêque et Confesseur",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/11-11.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,37 @@
             "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_[oh:h]e_[oh:h]d_[oh:h])cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_[oh:h]i_[oh:h]h_[oh:h])tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_statuit-ei-dominus.mp3",
             "fichier": "Latin/Sancti/11-11.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Oratio",
-            "texte": "Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus: concéde propítius; ut, intercessióne beáti Martíni Confessóris tui atque Pontíficis, contra ómnia advérsa muniámur.\n$Per Dominum"
+            "texte": "Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus: concéde propítius; ut, intercessióne beáti Martíni Confessóris tui atque Pontíficis, contra ómnia advérsa muniámur.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:16-27; 45, 3-20\nEcce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invénit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis."
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:16-27; 45, 3-20\nEcce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invénit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi.",
+            "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
             "incipit": {
               "incipit": "Ecce sacerdos",
               "version": "Solesmes",
@@ -63,15 +81,17 @@
             "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
             "fichier": "Latin/Sancti/11-11.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Beátus vir, sanctus Martinus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja. V. Hic est sacérdos, quem coronávit Dóminus. Allelúja.\nAllelúja, allelúja. V. Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.",
             "incipit": {
               "incipit": "Beatus vir sanctus Martinus",
               "version": "Solesmes",
@@ -82,12 +102,14 @@
             "gabc": "(c4) AL(c)le(efg)lú(h_g/h!iw!jvIH'hg~){ia}.(g.) *(;) <i>ij.</i>(ce!fg/h_g/h!iw!jvIHG.jvvvIHG'ivHG.) (,) (jvvvIHG'ivHG.eg'FED'evDC.) (,) (cd!ef!gvvFD'e[ll:1]ddc.) (::) <sp>V/</sp>. Be(c)á(efg)tus(h_g/h!iw!jvIH'hg~) vir(g.) (,) san(ghF'Efgf)ctus(g) Mar(g.h!iw!jvIHG)tí(hfg)nus,(g.) (;) ur(gvF~D~)bis(e) Tu(f)ró(e[ll:1]d)nis,(cde) (,) re(fe)qui(ded)é(cdc___)vit :(c.) (:) quem(ghGF'g) sus(g)ce(h!iwj)pé(ji)runt(hg) An(ef/gff)ge(dc)li(c.) (,) at(c)que(d) Arch(e)án(e[ll:1]d/efe)ge(cdc___)li,(c.) (;) <nlba>Thro(c)ni,(d) Do(e)mi(f)na(g)ti(hih)ó(gef)nes</nlba>(g.) *(,) et(g.h!iw!jvIHG) Vir(hih)tú(g.)tes.(g.) (;) (ce!fg/h_g/h!iw!jvIHG.jvvvIHG'ivHG.) (,) (jvvvIHG'ivHG.eg'FED'evDC.) (,) (cd!ef!gvvFD'e[ll:1]ddc.) (::)",
             "mp3": "alleluia_beatus-vir-sanctus.mp3",
             "fichier": "Latin/Sancti/11-11.txt",
-            "section": "Graduale"
+            "section": "GradualeP",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:33-36\nIn illo témpore: Dixit Jesus discípulis suis: Nemo lucérnam accéndit, et in abscóndito ponit, neque sub módio: sed supra candelábrum, ut, qui ingrediúntur, lumen vídeant. Lucérna córporis tui est óculus tuus. ¶ Si óculus tuus fúerit simplex, totum corpus tuum lúcidum erit: si autem nequam fúerit, étiam corpus tuum tenebrósum erit. Vide ergo, ne lumen, quod in te est, ténebræ sint. Si ergo corpus tuum totum lúcidum fúerit, non habens áliquam partem tenebrárum, erit lúcidum totum, et sicut lucérna fulgóris illuminábit te."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 11:33-36\nIn illo témpore: Dixit Jesus discípulis suis: Nemo lucérnam accéndit, et in abscóndito ponit, neque sub módio: sed supra candelábrum, ut, qui ingrediúntur, lumen vídeant. Lucérna córporis tui est óculus tuus. ¶ Si óculus tuus fúerit simplex, totum corpus tuum lúcidum erit: si autem nequam fúerit, étiam corpus tuum tenebrósum erit. Vide ergo, ne lumen, quod in te est, ténebræ sint. Si ergo corpus tuum totum lúcidum fúerit, non habens áliquam partem tenebrárum, erit lúcidum totum, et sicut lucérna fulgóris illuminábit te.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +123,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "Latin/Sancti/11-11.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Secreta",
-            "texte": "Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte sancti Antístitis tui Martíni offérimus: ut per ea vita nostra inter advérsa et próspera ubíque dirigátur.\n$Per Dominum"
+            "texte": "Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte sancti Antístitis tui Martíni offérimus: ut per ea vita nostra inter advérsa et próspera ubíque dirigátur.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
@@ -125,74 +157,95 @@
             "gabc": "\"(c2) BE(exdde)\\u00e1(cf)tus(f) ser(g_[oh:h]f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) v\\u00e9(jkj)ne(i)rit(hvGF) D\\u00f3(h_i)mi(h)nus,(h.) (,) in(fh~)v\\u00e9(h)ne(ghg)rit(ef) vi(g)gi(fe)l\\u00e1n(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) \\u00f3(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)st\\u00ed(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(exe)le(c./[-0.5]fgF'Efgf)l\\u00fa(dfee){ia}.(e[ll:1]d..) (::)\"",
             "mp3": "communion_beatus-servus.mp3",
             "fichier": "Latin/Sancti/11-11.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-11.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, Dómine, Deus noster: ut, quorum festivitáte votíva sunt sacraménta, eórum intercessióne salutária nobis reddántur.\n$Per Dominum"
+            "texte": "Præsta, quǽsumus, Dómine, Deus noster: ut, quorum festivitáte votíva sunt sacraménta, eórum intercessióne salutária nobis reddántur.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Introitus",
-            "texte": "!Eccli 45:30\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours."
+            "texte": "!Eccli 45:30\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Le Seigneur fit avec lui une alliance de paix et l’établit prince, afin que la dignité sacerdotale lui appartînt toujours.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui voyez que nous ne saurions nullement subsister par nos propres forces ; faites, dans votre bonté, que l’intercession du bienheureux Martin, votre Pontife et Confesseur, nous fortifie contre tous les maux.\n$Per Dominum"
+            "texte": "Ô Dieu, qui voyez que nous ne saurions nullement subsister par nos propres forces ; faites, dans votre bonté, que l’intercession du bienheureux Martin, votre Pontife et Confesseur, nous fortifie contre tous les maux.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Lectio",
-            "texte": "Lecture du livre de la Sagesse\n!Eccli 44:16-27; 45:3-20\nVoici le grand pontife, qui pendant les jours de sa vie fut agréable à Dieu, et est devenu, au temps de sa colère, la réconciliation des hommes. Nul ne l’a égalé dans l’observation des lois du Très-Haut. C’est pourquoi le Seigneur a jure de le rendre père de son peuple. Le Seigneur a béni en lui toutes les nations et a confirmé en lui son alliance. Il a versé sur lui ses bénédictions ; il lui a continué sa miséricorde ; et cet homme a trouve grâce aux yeux du Seigneur. Celui-là l’a rendu grand devant les rois, et il lui a donné une couronne de gloire. Il a fait avec lui une alliance éternelle ; il lui a donné le suprême sacerdoce, et il l’a rendu heureux dans la gloire, pour exercer le sacerdoce, louer son nom et lui offrir dignement un encens d’agréable odeur."
+            "texte": "Lecture du livre de la Sagesse\n!Eccli 44:16-27; 45:3-20\nVoici le grand pontife, qui pendant les jours de sa vie fut agréable à Dieu, et est devenu, au temps de sa colère, la réconciliation des hommes. Nul ne l’a égalé dans l’observation des lois du Très-Haut. C’est pourquoi le Seigneur a jure de le rendre père de son peuple. Le Seigneur a béni en lui toutes les nations et a confirmé en lui son alliance. Il a versé sur lui ses bénédictions ; il lui a continué sa miséricorde ; et cet homme a trouve grâce aux yeux du Seigneur. Celui-là l’a rendu grand devant les rois, et il lui a donné une couronne de gloire. Il a fait avec lui une alliance éternelle ; il lui a donné le suprême sacerdoce, et il l’a rendu heureux dans la gloire, pour exercer le sacerdoce, louer son nom et lui offrir dignement un encens d’agréable odeur.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/11-11.txt",
-            "section": "Graduale",
-            "texte": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Eccli 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut."
+            "section": "Graduale[0]",
+            "texte": "Voici le grand Pontife qui dans les jours de sa vie a plu à Dieu. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-11.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. Cet homme bienheureux, saint Martin, Évêque de Tours, est entré dans son repos : et les Anges, les Archanges, les Trônes, les Dominations et les Vertus l’ont accueilli. Alléluia."
+            "section": "GradualeP",
+            "texte": "Alléluia, alléluia. V. Cet homme bienheureux, saint Martin, Évêque de Tours, est entré dans son repos : et les Anges, les Archanges, les Trônes, les Dominations et les Vertus l’ont accueilli. Alléluia. V. C’est le Prêtre que le Seigneur a couronné. Alléluia.\nAlléluia, alléluia. V. Cet homme bienheureux, saint Martin, Évêque de Tours, est entré dans son repos : et les Anges, les Archanges, les Trônes, les Dominations et les Vertus l’ont accueilli. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Evangelium",
-            "texte": "Suite ++ du saint Évangile selon Saint Luc\n!Luc 11:33-36\nEn ce temps-là, Jésus dit à ses disciples : Personne n’allume une lampe pour la mettre dans un lieu caché, ou sous le boisseau ; mais on la met sur le candélabre, afin que ceux qui entrent voient la lumière. La lampe de ton corps, c’est ton œil. Si ton œil est simple, tout ton corps sera lumineux ; mais s’il est mauvais, ton corps sera aussi ténébreux. Prends donc garde que la lumière qui est en toi ne soit ténèbres. Si donc tout ton corps est éclairé, n’ayant aucune partie ténébreuse, il sera tout lumineux, et tu seras éclairé comme par une lampe brillante."
+            "texte": "Suite ++ du saint Évangile selon Saint Luc\n!Luc 11:33-36\nEn ce temps-là, Jésus dit à ses disciples : Personne n’allume une lampe pour la mettre dans un lieu caché, ou sous le boisseau ; mais on la met sur le candélabre, afin que ceux qui entrent voient la lumière. La lampe de ton corps, c’est ton œil. Si ton œil est simple, tout ton corps sera lumineux ; mais s’il est mauvais, ton corps sera aussi ténébreux. Prends donc garde que la lumière qui est en toi ne soit ténèbres. Si donc tout ton corps est éclairé, n’ayant aucune partie ténébreuse, il sera tout lumineux, et tu seras éclairé comme par une lampe brillante.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Secreta",
-            "texte": "Rendez saints, nous vous en supplions, Seigneur Dieu, les présents que nous vous offrons en la solennité de votre saint Évêque Martin, afin que par le moyen de ces dons consacrés, notre vie, qui se poursuit entre des adversités et des prospérités, soit partout dirigée droit vers son but.\n$Per Dominum"
+            "texte": "Rendez saints, nous vous en supplions, Seigneur Dieu, les présents que nous vous offrons en la solennité de votre saint Évêque Martin, afin que par le moyen de ces dons consacrés, notre vie, qui se poursuit entre des adversités et des prospérités, soit partout dirigée droit vers son but.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Communio",
-            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
+            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-11.txt",
             "section": "Postcommunio",
-            "texte": "Faites, nous vous le demandons, Seigneur, notre Dieu, que ces mystères nous soient rendus salutaires par l’intercession de ceux en la solennité desquels ils sont célébrés.\n$Per Dominum"
+            "texte": "Faites, nous vous le demandons, Seigneur, notre Dieu, que ces mystères nous soient rendus salutaires par l’intercession de ceux en la solennité desquels ils sont célébrés.\n$Per Dominum",
+            "references": null
           }
         }
       },

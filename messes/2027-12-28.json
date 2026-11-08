@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/12-28",
-        "nom_sanctoral": "Die quarta infra octavam Nativitatis",
+        "nom_sanctoral": "Les Saints Innocents",
         "classe": 5.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/12-28.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(f3) EX(f!gwh) o(egf)re(f.) *() in(fhg)fán(hi~)ti(i)um,(hi~) De(i_[oh:h]f)us,(f.) (,) et(fi) la(i)ctén(ij)ti(ih)um(hv.gih.) (;) per(fg)fe(f_e)cí(fhg)sti(hi) lau(fgF~'E~)dem(e.) (:) pro(h)pter(hhh) in(f)i(fi)mí(iv.hji)cos(ihhf) tu(fg/eh//ghf/ggf)os.(f.) (::) <i>Ps.</i> Dó(e)mi(fe)ne(eh) Dó(hg)mi(hi)nus(i) no(hi)ster :(h.) *(:) quam(hf~) ad(fh)mi(h)rá(h)bi(h)le(h) est(h) no(h)men(h) tu(h)um(h.) (,) in(h) u(h')ni(i)vér(hf)sa(h) ter(ge)ra!(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Oratio",
-            "texte": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.\n$Per Dominum"
+            "texte": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:1-5\nIn diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœdórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei."
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n!Apoc 14:1-5\nIn diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœdórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.",
+            "texte": "Anima nostra, sicut passer, erépta est de láqueo venántium. V. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.",
             "incipit": {
               "incipit": "Anima... sicut passer",
               "version": "Solesmes",
@@ -63,10 +67,11 @@
             "gabc": "(c3) A(dd)ni(d)ma(d) no(ded//d'd)stra,(d_b/dec'/de[ull:0]b'/cbba.) <clear>*(;) sic(d)ut(f) pas(hf/hhh)ser,(h.) (,) e(h_g/i!jwk)ré(i_[oh:h]h)pta(h) est(hihh/fgf.) (;) de(h_f) lá(h)que(hi)o(i) ve(ihhf)nán(gxhfgED')ti(d!f'h)um.(gyhighf.) (,) (de/f!hh/ijghf.gxegFD.1) (::) <sp>V/</sp>. Lá(d)que(gxf)us(fh/ih/i_[oh:h]hivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0ddd!f_h/ijh.1) (,) con(hi'j)trí(i_[oh:h]h)tus(h) est,(hg/i_[oh:h]hjvIH'Ghf..) (:) et(hh) nos(h) li(h)be(h)rá(ih/ij_h ih/ij_ij//hi/jij)ti(jh/jkihhf.) (,) su(hf/hhh)mus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ad(hhi)ju(h)tó(hi)ri(h)um(hf~) no(hi)strum(h.) (,) in(hf~) nó(hi)mi(h)ne(hh) Dó(hih/ihjvIG'hvF'Ef!hhivHG)mi(hg)ni,(h.) (;) qui(hh) fe(h)cit(h) cae(ivHF)lum(f.) *(,) et(f!h'i) ter(hgiHF)ram.(f.//de/f!hh/ijghf.gxegFD.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Ps 78:3; 78:10\nEffudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem,\nV. Et non erat, qui sepelíret.\nV.Víndica, Dómine, sánguinem\nSanctórum tuórum, qui effúsus est super terram.",
+            "texte": "Effudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem, V. Et non erat, qui sepelíret. V.Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est super terram.",
             "incipit": {
               "incipit": "Effuderunt",
               "version": "Solesmes",
@@ -77,10 +82,11 @@
             "gabc": "(c4) EF(f)fu(f)dé(fg!hvhg)runt(hggf!gw!h!ghvGFgf..) (,) * sán(gjjk)gui(h)nem(hg/hf//h!jhj) san(jvIH'iw!jvI'HG'h)ctó(ghg___)rum,(g.) (;) vel(gh)ut(g) a(h_g/h!iwj)quam,(ghf.1) (,) in(gh) cir(gh)cú(g)i(g)tu(h_g/h!iwj) Je(g_[oh:h]f)rú(g)sa(h)lem.(j./kjjg/j./kjj'jj/kjjh) (,) (ji/jjvI'G//hjhjvHF.1) (,) (gh!jvvI'G//hjHF'g/hhg.) (::) \r\n<sp>V/</sp>. Et(g) non(g) e(g!hwi'!jv)rat(j.) (,) qui(j) se(jkjj'j/kjjh)(,)(ji/jjvI'G//hjhjvHF.g.h!iwj)pe(k)lí(jv.ikjjv'1jvIG'h/jjhjvHF'g)ret.(g/hhg.) (::) \r\n<sp>V/</sp>. Vín(gd~)di(g)ca,(gh'j) Dó(jjjvIH')mi(jhhg)ne,(g_[uh:l]h) (,) sán(h)gui(h)nem(h/jjh) san(gf)ctó(ghg)rum(h_g) (,) (ixi_[oh:h]hivGF.g/hg/hg/hg/jjh/jggf.0) (,) tu(gh/jij)ó(j.h!iwj)rum,(jjjvIHivHGhg..) (:) qui(g) ef(g)fú(h_g/h!iwj)sus(gh) est(g_[oh:h]f) *(,) su(f!h'j)per(j) ter(i_0[uh:l]/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)ram.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 112:1\nLaudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.",
+            "texte": "Allelúja, allelúja. Laudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja. V. Sancti tui, Dómine, florébunt sicut lílium, et sicut odor bálsami erunt ante te. Allelúja.\nAllelúja, allelúja. Laudáte, púeri, Dóminum, laudáte nomen Dómini. Allelúja.",
             "incipit": {
               "incipit": "Laudate pueri",
               "version": "Solesmes",
@@ -91,12 +97,14 @@
             "gabc": "(c4) AL(d!ff)le(ef)lú(ghG'Fg_[uh:l]h){ia}.(hjH'G) <clear>*(,) <i>ij.</i>(h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::) <sp>V/</sp>. Lau(h)dá(h)te(ixg'ivHG'hffe.) (,) pú(fd/ef!ghhg)e(fg)ri(g.) (,) Dó(gh)mi(g)num,(ghghf.) (:) lau(e[ll:1]d~)dá(e/gefhvGFhvGFgf)te(e.) (,) no(ef'g)men(gdf.) *() Dó(ef'g)mi(f!hgh)ni.(hjH'G) (,) (h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Graduale"
+            "section": "GradualeP",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nIn illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt."
+            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nIn illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 123:7\nAnima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
@@ -110,17 +118,27 @@
             "gabc": "(f3) A(ce)ni(ef)ma(f) *() no(f/hhh_f/hjIH'ihh'hhvF'Ef!gwhf)stra,(f.) (;) sic(f!hfh)ut(ef) pas(f!gwh/ih)ser,(f!hfh.) (,) e(ef)ré(hi)pta(ij) est(kxhj/kjji.) (;) de(kxh.i!jwk_[hl:1]j) lá(jji)que(ih)o(h!iwjihh/fgf.) (,) ve(hhi)nán(kxjkij)ti(h_f)um :(fhF'Ef.) (:) lá(fh)que(hhh//hv.hhh)us(fh) con(hih)trí(hi)tus(kxi./jki) est,(h.) (:) et(iv.hhhi) nos(ijhh/fgf.) (,) li(h_g)be(gihh)rá(iv.hjIH'hf/hih)ti(hv.hhh//hv.hhh) (,) su(f)mus.(f!hhh_f/hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-18t.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Secreta",
-            "texte": "Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum"
+            "texte": "Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 2:18\nVox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
@@ -134,74 +152,88 @@
             "gabc": "(c3) VOX(ii) in(h) Ra(hi)ma(i) *() au(ih~)dí(ij)ta(j) est,(i.) (;) plo(i)rá(iih)tus(g) et(h) u(i)lu(gh)lá(gh)tus :(g.) (:) Ra(i)chel(i.h!iwj_i) plo(g!igh)rans(h_g) fí(i)li(h)os(gh) su(f_[oh:h]g_[oh:h]e_[oh:h])os,(e.) (:) nó(ggh)lu(f!gwh)it(he) con(hhhf~)so(h)lá(hi)ri,(g.) (;) qui(iihivHGh.f!gwh'!iv)a(g) non(efe~___) sunt.(e.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-28.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/12-28.txt",
             "section": "Postcommunio",
-            "texte": "Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.\n$Per Dominum"
+            "texte": "Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Introitus",
-            "texte": "!Ps 8:3.\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires.\n!Ps 8:2\nSeigneur, notre Maître, que votre nom est admirable dans toute la terre.\n&Gloria\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires."
+            "texte": "!Ps 8:3.\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires.\n!Ps 8:2\nSeigneur, notre Maître, que votre nom est admirable dans toute la terre.\n&Gloria\nv. De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Oratio",
-            "texte": "Dieu, dont en ce jour les Innocents Martyrs ont confessé la gloire, non en parlant mais en mourant, faites mourir en nous tous les penchants au vice, afin que votre foi, que notre langue proclame, notre vie en témoigne aussi dans notre conduite.\n$Per Dominum"
+            "texte": "Dieu, dont en ce jour les Innocents Martyrs ont confessé la gloire, non en parlant mais en mourant, faites mourir en nous tous les penchants au vice, afin que votre foi, que notre langue proclame, notre vie en témoigne aussi dans notre conduite.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 14:1-5\nEn ces jours là : Je vis l’Agneau qui se tenait sur la montagne de Sion, et avec lui cent quarante-quatre mille personnes, qui avaient son nom et le nom de son Pére écrits sur le front. Et j’entendis un son qui venait du ciel, pareil au bruit de grandes eaux et à la vois d’un puissant tonnerre ; et le son que j’entendis ressemblait à un concert de harpistes jouant de leurs instruments. Et ils chantaient comme un cantique nouveau devant le trône, et devant les quatre animaux et les vieillards ; et nul ne pouvait apprendre ce cantique, si ce n’est les cent quarante-quatre mille qui ont été rachetés de la terre. Ce sont ceux qui ne se sont pas souillés avec des femmes, car ils sont vierges. Ce sont eux qui accompagnent l’Agneau partout où il va. Ils ont été rachetés d’entre les hommes, comme des prémices pour Dieu et pour l’Agneau ; et il ne s’est point trouvé de mensonge dans leur bouche, car ils sont irréprochables."
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 14:1-5\nEn ces jours là : Je vis l’Agneau qui se tenait sur la montagne de Sion, et avec lui cent quarante-quatre mille personnes, qui avaient son nom et le nom de son Pére écrits sur le front. Et j’entendis un son qui venait du ciel, pareil au bruit de grandes eaux et à la vois d’un puissant tonnerre ; et le son que j’entendis ressemblait à un concert de harpistes jouant de leurs instruments. Et ils chantaient comme un cantique nouveau devant le trône, et devant les quatre animaux et les vieillards ; et nul ne pouvait apprendre ce cantique, si ce n’est les cent quarante-quatre mille qui ont été rachetés de la terre. Ce sont ceux qui ne se sont pas souillés avec des femmes, car ils sont vierges. Ce sont eux qui accompagnent l’Agneau partout où il va. Ils ont été rachetés d’entre les hommes, comme des prémices pour Dieu et pour l’Agneau ; et il ne s’est point trouvé de mensonge dans leur bouche, car ils sont irréprochables.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/12-28.txt",
-            "section": "Graduale",
-            "texte": "!Ps 123:7-8\nNotre âme s’est échappée comme un passereau du filet des chasseurs.\nV. Le filet a été brisé et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre."
+            "section": "Graduale[0]",
+            "texte": "Notre âme s’est échappée comme un passereau du filet des chasseurs. V. Le filet a été brisé et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Tractus",
-            "texte": "!Ps 78:3; 78:10\nIls ont répandu le sang des Saints comme de l’eau autour de Jérusalem.\nV. Et il n’y avait personne pour les ensevelir.\nV.Vengez, Seigneur, le sang de vos Saints qui a été répandu sur la terre."
+            "texte": "Ils ont répandu le sang des Saints comme de l’eau autour de Jérusalem. V. Et il n’y avait personne pour les ensevelir. V.Vengez, Seigneur, le sang de vos Saints qui a été répandu sur la terre.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/12-28.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 112:1\nLouez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia."
+            "section": "GradualeP",
+            "texte": "Alléluia, alléluia Louez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia. V. Vos Saints, Seigneur, fleuriront comme le lys, et ils seront devant vous comme l’odeur du parfum. Alléluia.\nAlléluia, alléluia. Louez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nEn ce temps là : voici qu’un ange du Seigneur apparut en songe à Joseph et lui dit : « Lève toi, prends l’enfant et sa mère, fuis en Egypte et restes-y jusqu’à ce que je t’avertisse ; car Hérode va rechercher l’enfant pour le faire périr.» Et lui se leva, prit l’enfant et sa mère de nuit et se retira en Egypte. Et il y resta jusqu’à la mort d’Hérode, afin que s’accomplît ce qu’avait dit le Seigneur par le prophète : J’ai rappelé mon fils d’Egypte. Alors Hérode, voyant que les mages s’étaient joués de lui, entra dans une grande colère, et il envoya tuer tous les enfants qui étaient à Bethléem et dans tout son territoire, depuis l’âge de deux ans et au-dessous, d’après le temps qu’il connaissait exactement par les mages. Alors fut accompli l’oracle du prophète Jérémie disant : Une voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus."
+            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum\n!Matt 2:13-18\nEn ce temps là : voici qu’un ange du Seigneur apparut en songe à Joseph et lui dit : « Lève toi, prends l’enfant et sa mère, fuis en Egypte et restes-y jusqu’à ce que je t’avertisse ; car Hérode va rechercher l’enfant pour le faire périr.» Et lui se leva, prit l’enfant et sa mère de nuit et se retira en Egypte. Et il y resta jusqu’à la mort d’Hérode, afin que s’accomplît ce qu’avait dit le Seigneur par le prophète : J’ai rappelé mon fils d’Egypte. Alors Hérode, voyant que les mages s’étaient joués de lui, entra dans une grande colère, et il envoya tuer tous les enfants qui étaient à Bethléem et dans tout son territoire, depuis l’âge de deux ans et au-dessous, d’après le temps qu’il connaissait exactement par les mages. Alors fut accompli l’oracle du prophète Jérémie disant : Une voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Offertorium",
-            "texte": "!Ps 123:7\nNotre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés."
+            "texte": "!Ps 123:7\nNotre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Secreta",
-            "texte": "Seigneur, que la pieuse intercession de vos Saints ne nous fasse point défaut, qu’elle vous rende nos dons agréables et qu’elle nous obtienne sans cesse votre miséricorde.\n$Per Dominum"
+            "texte": "Seigneur, que la pieuse intercession de vos Saints ne nous fasse point défaut, qu’elle vous rende nos dons agréables et qu’elle nous obtienne sans cesse votre miséricorde.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Communio",
-            "texte": "!Matt 2:18.\nUne voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus."
+            "texte": "!Matt 2:18.\nUne voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/12-28.txt",
             "section": "Postcommunio",
-            "texte": "Nous avons reçu, Seigneur, les dons que vous nous avions présentés ; nous vous en supplions, daignez nous accorder, grâce aux prières de vos saints, votre assistance pour la vie présente ainsi que pour la vie éternelle.\n$Per Dominum"
+            "texte": "Nous avons reçu, Seigneur, les dons que vous nous avions présentés ; nous vous en supplions, daignez nous accorder, grâce aux prières de vos saints, votre assistance pour la vie présente ainsi que pour la vie éternelle.\n$Per Dominum",
+            "references": null
           }
         }
       },

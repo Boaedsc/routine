@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/04-29",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "S. Pierre Martyr",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/04-29.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,27 @@
             "gabc": "(c3) IN(e) vir(ef~)tú(f)te(f) tu(fdfe)a(e.) (,) * Dó(fh)mi(hhh)ne,(h.) (;) lae(hg)tá(hji)bi(ihhg)tur(h.f!gwh) ju(efe___)stus,(e.) (:) et(e) su(ef/hgh)per(h) sa(h)lu(h)tá(h)re(fh) tu(hg/hif)um(fe..) (;) ex(ef/hg)sul(h)tá(gh'i)bit(i) ve(ijh)he(f!gwh)mén(hi~)ter :(h.) (:) de(hg)si(h)dé(hji)ri(h)um(h') á(h)ni(hhh)mae(e) e(ghffd~)jus(d.) (;) tri(ef)bu(e)í(e.f!gwh/ihi)sti(ihh) e(efe___)i.(e.) (::) <i>Ps.</i> Quó(ehg)ni(hi)am(i) prae(i)ve(i)ní(i)sti(i) e(i)um(i.) (,) in(i) be(i)ne(i)di(i)cti(i)ó(i)ni(i)bus(ik) dul(j)cé(j)di(ji)nis :(ij..) *(:) po(ig)su(hi)í(i)sti(i) in(i) cá(i)pi(i)te(i) e(i)jus(i.) (,) co(i)ró(i)nam(i) de(i) lá(i)pi(i)de(i!jwk) pre(i')ti(h)ó(hhh)so.(fe..) (::) Gló(ehg)ri(hi)a(i) Pa(i)tri.(i) (::) <eu>E(i) u(i!jwk) o(i') u(h) a(hhh) e.</eu>(fe..) (::)",
             "mp3": "introitus_in-virtute-tua-laetabitur-iustus.mp3",
             "fichier": "../horas/Latin/Commune/C2a.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Oratio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut beáti Petri Mártyris tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne, martýrii palmam méruit obtinére.\n$Per Dominum."
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut beáti Petri Mártyris tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne, martýrii palmam méruit obtinére.\n$Per Dominum.",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 2:8-10; 3:10-12.\nCaríssime: Memor esto, Dóminum Jesum Christum resurrexísse a mórtuis ex sémine David, secúndum Evangélium meum, in quo labóro usque ad víncula, quasi male óperans: sed verbum Dei non est alligátum. Ideo ómnia sustíneo propter eléctos, ut et ipsi salútem consequántur, quæ est in Christo Jesu, cum glória coelésti. Tu autem assecútus es meam doctrínam, institutiónem, propósitum, fidem, longanimitátem, dilectiónem, patiéntiam, persecutiónes, passiónes: quália mihi facta sunt Antiochíæ, Icónii et Lystris: quales persecutiónes sustínui, et ex ómnibus erípuit me Dóminus. Et omnes, qui pie volunt vívere in Christo Jesu, persecutiónem patiéntur."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 2:8-10; 3:10-12.\nCaríssime: Memor esto, Dóminum Jesum Christum resurrexísse a mórtuis ex sémine David, secúndum Evangélium meum, in quo labóro usque ad víncula, quasi male óperans: sed verbum Dei non est alligátum. Ideo ómnia sustíneo propter eléctos, ut et ipsi salútem consequántur, quæ est in Christo Jesu, cum glória coelésti. Tu autem assecútus es meam doctrínam, institutiónem, propósitum, fidem, longanimitátem, dilectiónem, patiéntiam, persecutiónes, passiónes: quália mihi facta sunt Antiochíæ, Icónii et Lystris: quales persecutiónes sustínui, et ex ómnibus erípuit me Dóminus. Et omnes, qui pie volunt vívere in Christo Jesu, persecutiónem patiéntur.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "texte": "Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Potens in terra erit semen ejus: generátio rectórum benedicétur.",
@@ -63,12 +74,14 @@
             "gabc": "(c4) BE(d)á(ff/g_[oh:h]e/f_d//g_[oh:h]ef)tus(d/gef) vir,(f.) *(;) qui(jj) ti(j_[hl:1]k_[hl:1]j_[hl:1])met(j) Dó(ixj_hivHGivHG//f!gwhgh//gh)mi(fg)num :(fgff/ded.) (:) in(d) man(d)dá(fgfgh_g//jv.ikjjvIH)tis(hv.gj/kj) e(jjjijv_I~H~)jus(ih..) (;) cu(jjlK'J)pit(j_i/jjj_hj) ni(gh)mis.(e.f!gwhgh.//ghGF'f//f'hg/hggf.0) (z0::c3) <sp>V/</sp>. Pot(d)ens(d) in(f) ter(h)ra(ihh'hh//f!hhhvF'ED//fvED//fvED) (,) (f!gwh/i_[oh:h]g/i_[oh:h]h//h'hhjIH'//hvGF.) (;) e(f!h'i)rit(ih/jkihhf.) se(hf/hhh)men(h) e(ihhfhv.)(,)(df/h_fhv.ihhfhv.ih/ihhghv_G~F~)jus :(gf..) (:) ge(f)ne(h)rá(h)ti(hfih)o(hhhvF'D) re(f)ctó(hv.fig'hvF'Ef.)(,)(egF'EfvED'e)rum(e[ll:1]d..) *(;) be(d)ne(ef)di(fhGF')cé(i)tur.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_beatus-vir-qui.mp3",
             "fichier": "../horas/Latin/Commune/C2a.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Posuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.",
@@ -82,12 +95,14 @@
             "gabc": "(c4) AL(cd/fg)le(edf./efd/e[ll:1]d)lú(cd~){ia}.(d.) *(;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::) <sp>V/</sp>. Po(cd/fg)su(edf./efd/e[ll:1]d)í(cd)sti,(d.) (,) Dó(ixfg!hvhf//hv.giHF.1)(,)(ixhv.giH'GF.deddc)(,)(cd/fg)mi(edffd)ne,(d.) (:) su(h)per(g) ca(h)put(g) e(ixf/hhg/hh//fh!ivGFhh/fhfgvF~D~)jus(d.) (;) co(dcf)ró(ixhfhivGFhv.)(,)(ixf!gwhghivGFh)nam(hgg) (,) de(ef'g) lá(edf./efd/e[ll:1]d)pi(cd)de(d.) *(;) pre(cd/fg)ti(edf./efd/e[ll:1]d)ó(cd)so.(d.) (;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/04-29.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pasc4-4.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
@@ -101,17 +116,20 @@
             "gabc": "(c4) GLó(f)ri(ixf.g!hwihi)a(h.) *(,) et(h) ho(h)nó(iyh!jjjvIHjjjvIH//gih)re(hggfg.) (;) co(fg'h)ro(ghG'F)ná(ghg___hvGF)sti(jvvI'G) e(jjvIH'G)um :(ghggf.0) (:) et(h) con(jjk)sti(hhg)tu(f)í(fg!hvhg)sti(jjjvIH) e(ghf___fd)um(d.) (;) su(f)per(ff) ó(ff/gfg)pe(deDC'd)ra(d_c/f!gwhg.) (;) má(h/jjjvIH//giH'G)nu(gf)um(f.) tu(f)á(fgF'E)rum,(fg!hvhg.) (;) Dó(giHG'g//fhGF'fdfv.//fff/gf/gff)mi(d)ne.(fff_[oh:h]g_[oh:h]d.1_[oh:h]) (::)",
             "mp3": "offertoire_gloria-et-honore.mp3",
             "fichier": "../horas/Latin/Commune/C2a.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Secreta",
-            "texte": "Preces, quas tibi, Dómine, offérimus, intercedénte beáto Petro Mártyre tuo, cleménter inténde: et propugnatóres fídei sub tua protectióne custódi.\n$Per Dominum"
+            "texte": "Preces, quas tibi, Dómine, offérimus, intercedénte beáto Petro Mártyre tuo, cleménter inténde: et propugnatóres fídei sub tua protectióne custódi.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 16:24\nQui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et sequátur me.",
@@ -125,74 +143,95 @@
             "gabc": "(c4) QUI(d) vult(f) ve(fe)ní(gh)re(ixih) post(fg) me,(fvED.) <clear>*(;) áb(ixf!gwhg/hih)ne(g)get(f) se(fe)met(d)í(fg'h)psum :(e.) (:) et(h) tol(ghg)lat(ef) cru(ghgh)cem(f_d) su(gef)am,(f.) (;) et(eg/hjh) se(fg)quá(ef)tur(d!ew!fv_E~C~) me.(d.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C2a.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/04-29.txt",
             "section": "Postcommunio",
-            "texte": "Fidéles tuos, Dómine, custódiant sacraménta, quæ súmpsimus: et, intercedénte beáto Petro Mártyre tuo, contra omnes advérsos tueántur incúrsus.\n$Per Dominum"
+            "texte": "Fidéles tuos, Dómine, custódiant sacraménta, quæ súmpsimus: et, intercedénte beáto Petro Mártyre tuo, contra omnes advérsos tueántur incúrsus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C2a.txt",
             "section": "Introitus",
-            "texte": "!Ps 20:2-3.\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.\n!Ps 20:4\nParce que vous l’avez prévenu de bénédic­tions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\n&Gloria\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme."
+            "texte": "!Ps 20:2-3.\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.\n!Ps 20:4\nParce que vous l’avez prévenu de bénédic­tions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\n&Gloria\nv. Le juste se réjouit de votre protection, Seigneur, et votre secours le remplit d’allégresse ; vous lui avez accordé le désir de son âme.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez-nous d’imiter, avec la dévotion convenable, la foi du bienheureux Pierre, votre Martyr, qui, pour l’extension de cette même foi, mérita d’obtenir la palme du martyre.\n$Per Dominum."
+            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez-nous d’imiter, avec la dévotion convenable, la foi du bienheureux Pierre, votre Martyr, qui, pour l’extension de cette même foi, mérita d’obtenir la palme du martyre.\n$Per Dominum.",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Lectio",
-            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 2:8-10; 3:10-12.\nMon bien-aimé : souviens-toi que le Seigneur Jésus-Christ, né de la race de David, est ressuscité des morts, selon mon Évangile pour lequel je souffre jusqu’à porter des chaînes comme un malfai­teur ; mais la parole de Dieu n’est pas enchaînée. C’est pourquoi j’endure tout à cause des élus, pour qu’ils obtiennent eux aussi le salut qui est dans le Christ Jésus avec la gloire céleste. Mais toi, tu t’es attaché à ma doctrine, à mes institutions, à mes desseins, à ma foi, à ma longanimité, à ma cha­rité, à ma patience, à mes persécutions, à mes souf­frances, telles qu’il m’en est survenu à Antioche, à Iconium, à Lystres : à ces per­sécutions que j’ai endurées et dont le Seigneur m’a tou­jours délivré. Et tous ceux qui veulent vivre pieusement dans le Christ Jésus seront persécutés."
+            "texte": "Épître de saint Paul à Timothée.\n!2 Tim 2:8-10; 3:10-12.\nMon bien-aimé : souviens-toi que le Seigneur Jésus-Christ, né de la race de David, est ressuscité des morts, selon mon Évangile pour lequel je souffre jusqu’à porter des chaînes comme un malfai­teur ; mais la parole de Dieu n’est pas enchaînée. C’est pourquoi j’endure tout à cause des élus, pour qu’ils obtiennent eux aussi le salut qui est dans le Christ Jésus avec la gloire céleste. Mais toi, tu t’es attaché à ma doctrine, à mes institutions, à mes desseins, à ma foi, à ma longanimité, à ma cha­rité, à ma patience, à mes persécutions, à mes souf­frances, telles qu’il m’en est survenu à Antioche, à Iconium, à Lystres : à ces per­sécutions que j’ai endurées et dont le Seigneur m’a tou­jours délivré. Et tous ceux qui veulent vivre pieusement dans le Christ Jésus seront persécutés.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C2a.txt",
             "section": "Graduale",
-            "texte": "!Ps 111:1-2.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commande­ments.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. Allelúja, allelúja\n!Ps 20:4\nVous avez posé sur sa tête, Seigneur, une couronne de pierres précieuses. Alléluia."
+            "texte": "!Ps 111:1-2.\nHeureux l’homme qui craint le Seigneur et qui met ses délices dans ses commande­ments.\nV. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. Allelúja, allelúja\n!Ps 20:4\nVous avez posé sur sa tête, Seigneur, une couronne de pierres précieuses. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pasc4-4.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C2a.txt",
             "section": "Offertorium",
-            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur, et vous l’avez établi sur les œuvres de vos mains, Seigneur."
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur, et vous l’avez établi sur les œuvres de vos mains, Seigneur.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Secreta",
-            "texte": "Seigneur, écoutez avec clémence les prières que nous vous offrons, le bienheureux Pierre, votre Martyr, intercédant pour nous : et gardez sous vous protections les défenseurs de la foi.\n$Per Dominum"
+            "texte": "Seigneur, écoutez avec clémence les prières que nous vous offrons, le bienheureux Pierre, votre Martyr, intercédant pour nous : et gardez sous vous protections les défenseurs de la foi.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C2a.txt",
             "section": "Communio",
-            "texte": "!Matt 6: 24.\nSi quelqu’un veut venir après moi, qu’il renonce à lui-même, qu’il porte sa croix et qu’il me suive."
+            "texte": "!Matt 6: 24.\nSi quelqu’un veut venir après moi, qu’il renonce à lui-même, qu’il porte sa croix et qu’il me suive.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/04-29.txt",
             "section": "Postcommunio",
-            "texte": "Que vos fidèles, Seigneur, gardent les sacrements qu’ils ont reçus : et, par l’intercession du bienheureux Pierre, votre Martyr, qu’ils soient protéger contre toutes les attaques de l’ennemi.\n$Per Dominum"
+            "texte": "Que vos fidèles, Seigneur, gardent les sacrements qu’ils ont reçus : et, par l’intercession du bienheureux Pierre, votre Martyr, qu’ils soient protéger contre toutes les attaques de l’ennemi.\n$Per Dominum",
+            "references": null
           }
         }
       },

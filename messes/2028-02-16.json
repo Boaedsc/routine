@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quadp1-3",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Mercredi de la semaine de la Septuagésime",
         "classe": 1.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quadp1-3.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -30,20 +31,23 @@
           "Introitus": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 9:10-11; 9:19-20\nAdjútor in opportunitátibus, in tribulatióne: sperent in te, qui novérunt te: quóniam non derelínquis quæréntes te, Dómine,\nV. Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non períbit in ætérnum: exsúrge, Dómine, non præváleat homo.",
+            "texte": "Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui novérunt te: quóniam non derelínquis quæréntes te, Dómine, V. Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non períbit in ætérnum: exsúrge, Dómine, non præváleat homo.",
             "incipit": {
               "incipit": "Adjutor in opportunitatibus",
               "version": "Solesmes",
@@ -54,109 +58,148 @@
             "gabc": "(c4) AD(gj~)jú(jjg/hjH'Ghjh/ij)tor(j.) *(,) in(j) op(ij'k)por(kl~)tu(j_i)ni(jjjhk)tá(kjjh)ti(jhig)bus,(g.) (;) in(gd~) tri(ghg)bu(gd)la(g)ti(hj)ó(iijI'Gh'/jhhfg//jjhig)ne :(g.) (:) spe(jjk)rent(j) in(jjj) te,(hv.ghGE.) (;) qui(ef) no(e)vé(d!f'h)runt(h) te :(jhjGF'gffd.) (:) quó(dc)ni(g)am(hi~) non(ijjvH'Gh!jj//h!jjjh/i_[oh:h]g/hffe.) de(ef)re(e)lín(ef'h)quis(hg__) (,) quae(hggf)rén(hj~)tes(j_i) te,(jjjgivHGh.) (;) Dó(ef!gh/ijgh./fg/!ih'ivH'Gh)mi(f_/fef___)ne.(fefgfg.) (,) (gv//jjhghgge.) (::) <sp>V/</sp>. Quó(e[ll:1]d)ni(g)am(hi~) non(ij'k/ijij//h!jij/hiH'Gi.) (,) ([oll:1{1]il!mvKI.kl[oll:}]/JH.1jijHGjg/i_[uh:l]j//gh!jjjvH'GF'fd.) in(d) fi(d!f'h)nem(hg__) (,) ob(g_[oh:h]f)lí(f!h'j)vi(j_i)o(jjj_g) (,) e(g_[oh:h]f)rit(gffd) páu(f/gh~)pe(e!gfg)ris :(fe..) (:) pa(d)ti(e)én(g)ti(h)a(g) páu(h_j_i_3!jwk/lj~)pe(jjij)rum(ji..) (;) non(ij~) per(j)í(jj)bit(jij) in(hi) ae(gjh)tér(iv.g.h!iwjjhi g.h!iwjjhi)num :(g.) (:) ex(g)súr(jj)ge,(kjjg) Dó(jj)mi(jlk)ne,(kjjg.) (,) non(j) prae(j_i)vá(j_i)le(jjjh)at(hv.ghGE.) <clear>*(;) ho(fd/ffd/ef/gh/jjj_i)(,)(hjIH.giH'GhvF'Ef)mo.(d!ewf/gfg.) (,) (gv//jjhghgge.) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Quadp1-3.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
+            "texte": "Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui novérunt te: quóniam non derelínquis quæréntes te, Dómine, V. Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non períbit in ætérnum: exsúrge, Dómine, non præváleat homo.",
+            "incipit": {
+              "incipit": "Desiderium",
+              "version": "Solesmes",
+              "distance": 30,
+              "similarite": 0.25,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) DE(f)si(f)dé(fg!hvhg)ri(hggf)um(fg!hvhghvGFgf..) <clear>*(;) á(gjjk)ni(h)mae(hg/hf/h!jhj) e(jvIH'iw!jvI'HG'h)jus(hg..) (;) tri(ghg)bu(fg)í(jj)sti(hji') e(j)i :(jjjkhhg/hg/jjh/jggf.0) (:) et(f) vo(f)lun(f)tá(hj)te(igh) la(gf/gh)bi(g)ó(g)rum(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) non(h_g/h!iwj) frau(g_[oh:h]f~)dá(g)sti(h) (`) e(j./kjjg//j./kjj'jj/kjjh)(,)(ji/jjvI'G//hjh'jvHF.1)(,)(gh!jvvI'G//hjHF'g)um.(g/hhg.) (::) \r\n<sp>V/</sp>. Quó(g)ni(g)am(g_[oh:h]d) prae(g)ve(hih)ní(jjji)sti(g) e(h_g/h!iw!jvIHijh)um(hg..) (:) in(g) be(ghg)ne(fg)di(jj)cti(hji')ó(j)ne(jkjj'j/kjjh) (,) (ji/jjvI'G//hjh'jvHF.g.h!iwjjv) (;) dul(jk~)cé(jv.ikjjv'1jvIG'h//jjhjvHG)di(fg)nis.(g/hhg.) (::) \r\n<sp>V/</sp>. Po(g)su(g)í(gh'j)sti(jjjvIH') su(jhhg)per(g_[uh:l]h) ca(h/jjh)put(gf) e(ghg~)jus(h_g) (,) (ixi_[oh:h]hivGF.g/hg/hg/hg/jjh/jggf.0) (:) co(gh/jij)ró(j.h!iwj)nam(jjjvIHivHGhg..) (;) de(g) lá(h_g/h!iwj)pi(ghG'F)de(f.) (,) * pre(f!h'j)ti(j)ó(i_0[uh:l]/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)so.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+            "mp3": null,
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
+            "texte": "Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui novérunt te: quóniam non derelínquis quæréntes te, Dómine, V. Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non períbit in ætérnum: exsúrge, Dómine, non præváleat homo.",
+            "incipit": {
+              "incipit": "De quacumque",
+              "version": "Palmer & Burgess",
+              "distance": 26,
+              "similarite": 0.35,
+              "source": "Alleluia"
+            },
+            "gabc": "\"(c4) AL(c)le(e)lu(g!hi)ya.(hv ghg) *(,) <i>ij.</i>(jvIG/hvvGE/fvEDe) (;) (ce!gh/gih/gih/gvvFD efED ce/feed) <sp>V/</sp>.(::) From(h) what(hvGE)so(gh)e(hhhg)ver(e) tri(fe)bu(de)la(ce!gvgef/ghGEf)tion(ed) (,) they(hvGE) shall(gh~) cry(hd) un(e!fg~)to(f) me,(fe) (;) I(fhg) will(ed) hear(evDC/d!ewf) them,(ed) (:) and(e) I(dd) will(ce) be(gv fhg) their(e) de(f)fen(ed)der(ce) *() for(g!hi) e(hv ghg,jvIG/hvvGE/fvEDe;ce!gh/gih/gih/gvvFD efED ce/fe)ver.(ed) (::)\"",
+            "mp3": null,
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Alleluia",
-            "texte": ""
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quadp1-3.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
-            "section": "Graduale",
-            "texte": "!Ps 9:10-11; 9:19-20\nVous êtes notre secours au temps du besoin et de l’affliction. Qu’ils espèrent en vous ceux qui connaissent votre nom, car vous n’abandonnez pas ceux qui vous cherchent, Seigneur.\nV. Car le pauvre ne sera pas en oubli pour toujours ; la patience des pauvres ne périra pas à jamais. Levez-vous, Seigneur, que l’homme ne triomphe pas."
+            "section": "Graduale[0]",
+            "texte": "Vous êtes notre secours au temps du besoin et de l’affliction. Qu’ils espèrent en vous ceux qui connaissent votre nom, car vous n’abandonnez pas ceux qui vous cherchent, Seigneur. V. Car le pauvre ne sera pas en oubli pour toujours ; la patience des pauvres ne périra pas à jamais. Levez-vous, Seigneur, que l’homme ne triomphe pas.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Vous êtes notre secours au temps du besoin et de l’affliction. Qu’ils espèrent en vous ceux qui connaissent votre nom, car vous n’abandonnez pas ceux qui vous cherchent, Seigneur. V. Car le pauvre ne sera pas en oubli pour toujours ; la patience des pauvres ne périra pas à jamais. Levez-vous, Seigneur, que l’homme ne triomphe pas.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "Vous êtes notre secours au temps du besoin et de l’affliction. Qu’ils espèrent en vous ceux qui connaissent votre nom, car vous n’abandonnez pas ceux qui vous cherchent, Seigneur. V. Car le pauvre ne sera pas en oubli pour toujours ; la patience des pauvres ne périra pas à jamais. Levez-vous, Seigneur, que l’homme ne triomphe pas.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quadp1-3.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         }
       },
@@ -164,7 +207,7 @@
         "Francais/Tempora/Quadp1-3.txt",
         "Latin/Tempora/Quadp1-3.txt"
       ],
-      "sections_vides": 22,
+      "sections_vides": 18,
       "numero": 1
     }
   ]

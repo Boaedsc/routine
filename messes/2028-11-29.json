@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/11-29",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Vigile de St André Apôtre",
         "classe": 1.5,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/11-29.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,41 @@
             "gabc": "(c4) DO(fef)MI(dc)NUS(c.) *(,) se(f)cus(gh) ma(ixhvGF'gwhg/hi)re(h) Ga(h)li(h)laé(hjjk)ae(hhg.) (;) vi(ixgiH'G)dit(h_g) du(fv.dgf)os(f_e) fra(fv.efd)tres,(d.) (,) Pe(df!gh)trum(g) et(g) An(gh~)dré(h_g)am,(ghggf.0) (;) et(fg'h) vo(h_f)cá(fg'h)vit(jj) e(ixh_givHGhf)os :(f.) (:) Ve(fh)ní(h)te(g)  post(fg) me :(ef'g) (;) fá(h)ci(fg)am(g) vos(dgf) fí(ff//ff)e(deDC'd)ri(dc..) (,) pi(d)sca(dgf)tó(fv.dgf)res(gvF'Ef') hó(d)mi(d_[oh:h]e_[oh:h]d_[oh:h])num.(d.) (::) <i>Ps.</i> Cae(f)li(gh) e(h)nár(h)rant(h) gló(hj)ri(h)am(h) De(hg)i :(gh..) *(:) et(gf) ó(gh)pe(h)ra(h) má(h)nu(h)um(h) e(h)jus(h.) (,) an(h)nún(h)ti(h)at(hjh) fir(g')ma(f)mén(fff)tum.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_dominus-secus-mare.mp3",
             "fichier": "Latin/Sancti/11-29.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Oratio",
-            "texte": "(sed commune C4)"
+            "texte": "(sed commune C4)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C1v.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent24-3.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 138:17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.\nV. Dinumerábo eos: et super arénam multiplicabúntur.",
+            "texte": "Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. V. Dinumerábo eos: et super arénam multiplicabúntur.",
             "incipit": {
               "incipit": "Nimis honorati sunt (Grad.)",
               "version": "Solesmes",
@@ -63,22 +85,26 @@
             "gabc": "(c3) NI(egf)mis(f.) *(,) ho(f)no(f)rá(hfghvF'Egef)ti(g) sunt(f.) (;) a(f)mí(hf/hi'j)ci(h_f) tu(f_e)i,(gxegFE.) (,) De(e[ll:1]d/fef)us :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) ni(hh)mis(h) con(h)for(h)tá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')tus(f) est(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) prin(d)ci(ef)pá(f.0/[-0.5]hvGF'g)tus(e) e(f)ó(hf/h_i)rum.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Di(f)nu(h)me(hi)rá(i)bo(ij) e(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)os :(ji..) (:) et(i) su(k.i!jw!kvJI')per(i) a(ij)ré(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)nam(f.) *(:) mul(d)ti(ef)pli(f.0/[-0.5]hvGF'g)ca(ef)bún(hf/h_i~)tur.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/11-29.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nIn illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt eum duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem Jesus, et videns eos sequéntes se, dicit eis: Quid quæritis? Qui dixérunt ei: Rabbi - quod dícitur interpretátum Magíster -, ubi hábitas? Dicit eis: Veníte et vidéte. Venérunt et vidérunt, ubi manéret, et apud eum mansérunt die illo: hora autem erat quasi décima. Erat autem Andréas, frater Simónis Petri, unus ex duóbus, qui audíerant a Joánne et secúti fúerant eum. Invénit hic primum fratrem suum Simónem, et dicit ei: Invénimus Messíam - quod est interpretátum Christus -. Et addúxit eum ad Jesum. Intúitus autem eum Jesus, dixit: Tu es Simon, fílius Jona: tu vocáberis Cephas, quod interpretátur Petrus. In crastínum vóluit exíre in Galilæam, et invénit Philíppum. Et dicit ei Jesus: Séquere me. Erat autem Philíppus a Bethsáida, civitáte Andréæ et Petri. Invénit Philíppus Nathánaël, et dicit ei: Quem scripsit Moyses in lege, et Prophétæ, invénimus Jesum, fílium Joseph, a Názareth. Et dixit ei Nathánaël: A Názareth potest áliquid boni esse? Dicit ei Philíppus: Veni et vide. Vidit Jesus Nathánaël veniéntem ad se, et dicit de eo: Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël: Unde me nosti? Respóndit Jesus et dixit ei: Priúsquam te Philíppus vocáret, cum esses sub ficu, vidi te. Respóndit ei Nathánaël et ait: Rabbi, tu es Fílius Dei, tu es Rex Israël. Respóndit Jesus et dixit ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis. Et dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et Angelos Dei ascendéntes et descendéntes supra Fílium hóminis."
+            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nIn illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt eum duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem Jesus, et videns eos sequéntes se, dicit eis: Quid quæritis? Qui dixérunt ei: Rabbi - quod dícitur interpretátum Magíster -, ubi hábitas? Dicit eis: Veníte et vidéte. Venérunt et vidérunt, ubi manéret, et apud eum mansérunt die illo: hora autem erat quasi décima. Erat autem Andréas, frater Simónis Petri, unus ex duóbus, qui audíerant a Joánne et secúti fúerant eum. Invénit hic primum fratrem suum Simónem, et dicit ei: Invénimus Messíam - quod est interpretátum Christus -. Et addúxit eum ad Jesum. Intúitus autem eum Jesus, dixit: Tu es Simon, fílius Jona: tu vocáberis Cephas, quod interpretátur Petrus. In crastínum vóluit exíre in Galilæam, et invénit Philíppum. Et dicit ei Jesus: Séquere me. Erat autem Philíppus a Bethsáida, civitáte Andréæ et Petri. Invénit Philíppus Nathánaël, et dicit ei: Quem scripsit Moyses in lege, et Prophétæ, invénimus Jesum, fílium Joseph, a Názareth. Et dixit ei Nathánaël: A Názareth potest áliquid boni esse? Dicit ei Philíppus: Veni et vide. Vidit Jesus Nathánaël veniéntem ad se, et dicit de eo: Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël: Unde me nosti? Respóndit Jesus et dixit ei: Priúsquam te Philíppus vocáret, cum esses sub ficu, vidi te. Respóndit ei Nathánaël et ait: Rabbi, tu es Fílius Dei, tu es Rex Israël. Respóndit Jesus et dixit ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis. Et dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et Angelos Dei ascendéntes et descendéntes supra Fílium hóminis.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 8:6-7\nGlória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
@@ -92,17 +118,20 @@
             "gabc": "(c4) GLó(f)ri(ixf.g!hwihi)a(h.) *(,) et(h) ho(h)nó(iyh!jjjvIHjjjvIH//gih)re(hggfg.) (;) co(fg'h)ro(ghG'F)ná(ghg___hvGF)sti(jvvI'G) e(jjvIH'G)um :(ghggf.0) (:) et(h) con(jjk)sti(hhg)tu(f)í(fg!hvhg)sti(jjjvIH) e(ghf___fd)um(d.) (;) su(f)per(ff) ó(ff/gfg)pe(deDC'd)ra(d_c/f!gwhg.) (;) má(h/jjjvIH//giH'G)nu(gf)um(f.) tu(f)á(fgF'E)rum,(fg!hvhg.) (;) Dó(giHG'g//fhGF'fdfv.//fff/gf/gff)mi(d)ne.(fff_[oh:h]g_[oh:h]d.1_[oh:h]) (::)",
             "mp3": "offertoire_gloria-et-honore.mp3",
             "fichier": "../horas/Latin/Commune/C1v.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Secreta",
-            "texte": "Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli sollémnia recoléntes, purificatiónem quoque nostris méntibus implorámus.\n$Per Dominum"
+            "texte": "Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli sollémnia recoléntes, purificatiónem quoque nostris méntibus implorámus.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Joann 1:41; 1:42\nDicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur Christus: et addúxit eum ad Jesum.",
@@ -116,74 +145,88 @@
             "gabc": "(c3) DI(hh)cit(h) An(hi~)dré(i)as(hgh.) *(,) Si(h)mó(hg)ni(ge) fra(g)tri(hih) su(h.f!gw!hvG'FE'f)o :(fe..) (:) In(h)vé(ik)ni(j)mus(ijg) Mes(h)sí(ihi)am,(ie..) (;) qui(f) dí(h_g)ci(hi'j)tur(ij~) Chri(hiH'G)stus :(g.) (:) et(g) ad(h)dú(ij)xit(i) e(h_f)um(f_e) ad(ef) Je(e)sum.(dv[ll:1]/C'B//ece.) (::)",
             "mp3": "communion_dicit-andreas.mp3",
             "fichier": "Latin/Sancti/11-29.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-29.txt",
             "section": "Postcommunio",
-            "texte": "Percéptis, Dómine, sacraméntis supplíciter exorámus: ut, intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda gérimus passióne, nobis profíciant ad medélam.\n$Per Dominum"
+            "texte": "Percéptis, Dómine, sacraméntis supplíciter exorámus: ut, intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda gérimus passióne, nobis profíciant ad medélam.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Introitus",
-            "texte": "!Matt 4:18; 4:19\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes.\n!Ps 18:2.\nLes cieux racontent la gloire de Dieu, et le firmament publie les œuvres de ses mains.\n&Gloria\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes."
+            "texte": "!Matt 4:18; 4:19\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes.\n!Ps 18:2.\nLes cieux racontent la gloire de Dieu, et le firmament publie les œuvres de ses mains.\n&Gloria\nv. Le Seigneur marchant le long de la mer de Galilée, vit deux frères, Pierre et André. Et il les appela : Suivez-moi, et je vous ferez devenir pêcheurs d’hommes.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Oratio",
-            "texte": "Nous vous en supplions, ô Dieu tout-puissant, que le bienheureux Apôtre André, dont nous anticipons la fête, implore pour nous votre secours ; afin que, déchargés de nos fautes, nous soyons aussi délivrés de tous les périls.\n$Per Dominum"
+            "texte": "Nous vous en supplions, ô Dieu tout-puissant, que le bienheureux Apôtre André, dont nous anticipons la fête, implore pour nous votre secours ; afin que, déchargés de nos fautes, nous soyons aussi délivrés de tous les périls.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent24-3.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/11-29.txt",
-            "section": "Graduale",
-            "texte": "!Ps 138:17-18\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.\nV. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer."
+            "section": "Graduale[0]",
+            "texte": "Ô Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi. V. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nEn ce temps-là : Jean se trouvait avec deux de ses disciples. Et regardant Jésus qui passait, il dit : Voici l’Agneau de Dieu. Les deux disciples l’entendirent parler ainsi, et ils suivirent Jésus. Jésus, s’étant retourné, et voyant qu’ils le suivaient, leur dit : Que cherchez-vous ? Ils lui dirent : Rabbi (ce qui signifie Maître), où demeurez-vous ? Il leur dit : Venez et voyez. Ils vinrent et virent où il demeurait, et ils restèrent chez lui ce jour-là. Il était environ la dixième heure. Or André, frère de Simon-Pierre, était l’un des deux qui avaient entendu les paroles de Jean, et qui avaient suivi Jésus. Il trouva le premier son frère Simon, et lui dit : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus. Jésus, l’ayant regardé, dit : Tu es Simon, fils de Jona ; tu seras appelé Céphas (ce qui signifie Pierre). Le lendemain, Jésus voulut aller en Galilée, et il rencontra Philippe. Et il lui dit : Suis-moi. Or Philippe était de Bethsaïde, la ville d’André et de Pierre. Philippe rencontra Nathanaël, et lui dit : Celui de qui Moïse a écrit dans la loi, et qu’ont annoncé les prophètes, nous l’avons trouvé ; c’est Jésus de Nazareth, fils de Joseph. Et Nathanaël lui dit : De Nazareth peut-il venir quelque chose de bon ? Philippe lui dit : Viens et vois. Jésus vit Nathanaël qui venait à Lui, et il dit de lui : Voici un véritable Israélite, en qui il n’y a pas de fraude. Nathanaël Lui dit : D’où me connaissez-vous ? Jésus lui répondit : Avant que Philippe t’appelât, lorsque tu étais sous le figuier, je t’ai vu. Nathanaël Lui répondit : Rabbi, Vous êtes le Fils de Dieu, vous êtes le roi d’Israël. Jésus lui répondit : Parce que je t’ai dit : Je t’ai vu sous le figuier, tu crois ; tu verras des choses plus grandes que celles-là. Et il lui dit : En vérité, en vérité, je vous le dis, vous verrez le Ciel ouvert, et les Anges de Dieu monter et descendre sur le Fils de l’homme."
+            "texte": "Sequéntia ++ ++ sancti Evangélii secúndum Joánnem\n!Joann 1:35-51\nEn ce temps-là : Jean se trouvait avec deux de ses disciples. Et regardant Jésus qui passait, il dit : Voici l’Agneau de Dieu. Les deux disciples l’entendirent parler ainsi, et ils suivirent Jésus. Jésus, s’étant retourné, et voyant qu’ils le suivaient, leur dit : Que cherchez-vous ? Ils lui dirent : Rabbi (ce qui signifie Maître), où demeurez-vous ? Il leur dit : Venez et voyez. Ils vinrent et virent où il demeurait, et ils restèrent chez lui ce jour-là. Il était environ la dixième heure. Or André, frère de Simon-Pierre, était l’un des deux qui avaient entendu les paroles de Jean, et qui avaient suivi Jésus. Il trouva le premier son frère Simon, et lui dit : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus. Jésus, l’ayant regardé, dit : Tu es Simon, fils de Jona ; tu seras appelé Céphas (ce qui signifie Pierre). Le lendemain, Jésus voulut aller en Galilée, et il rencontra Philippe. Et il lui dit : Suis-moi. Or Philippe était de Bethsaïde, la ville d’André et de Pierre. Philippe rencontra Nathanaël, et lui dit : Celui de qui Moïse a écrit dans la loi, et qu’ont annoncé les prophètes, nous l’avons trouvé ; c’est Jésus de Nazareth, fils de Joseph. Et Nathanaël lui dit : De Nazareth peut-il venir quelque chose de bon ? Philippe lui dit : Viens et vois. Jésus vit Nathanaël qui venait à Lui, et il dit de lui : Voici un véritable Israélite, en qui il n’y a pas de fraude. Nathanaël Lui dit : D’où me connaissez-vous ? Jésus lui répondit : Avant que Philippe t’appelât, lorsque tu étais sous le figuier, je t’ai vu. Nathanaël Lui répondit : Rabbi, Vous êtes le Fils de Dieu, vous êtes le roi d’Israël. Jésus lui répondit : Parce que je t’ai dit : Je t’ai vu sous le figuier, tu crois ; tu verras des choses plus grandes que celles-là. Et il lui dit : En vérité, en vérité, je vous le dis, vous verrez le Ciel ouvert, et les Anges de Dieu monter et descendre sur le Fils de l’homme.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C1v.txt",
             "section": "Offertorium",
-            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains."
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Secreta",
-            "texte": "Ces dons qui doivent vous être consacrés, nous vous les offrons, Seigneur, en célébrant de nouveau la fête du bienheureux Apôtre André, et en même temps nous implorons la purification de nos âmes.\n$Per Dominum"
+            "texte": "Ces dons qui doivent vous être consacrés, nous vous les offrons, Seigneur, en célébrant de nouveau la fête du bienheureux Apôtre André, et en même temps nous implorons la purification de nos âmes.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Communio",
-            "texte": "!Joann 1:41; 1:42\nAndré dit à son frère Simon : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus."
+            "texte": "!Joann 1:41; 1:42\nAndré dit à son frère Simon : Nous avons trouvé le Messie (ce qui signifie le Christ). Et il l’amena à Jésus.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-29.txt",
             "section": "Postcommunio",
-            "texte": "Ayant reçu votre sacrement, Seigneur, nous vous demandons avec instance que, le bienheureux Apôtre André intercédant pour nous, le sacrifice que nous célébrons pour honorer son martyre, serve à notre guérison.\n$Per Dominum"
+            "texte": "Ayant reçu votre sacrement, Seigneur, nous vous demandons avec instance que, le bienheureux Apôtre André intercédant pour nous, le sacrifice que nous célébrons pour honorer son martyre, serve à notre guérison.\n$Per Dominum",
+            "references": null
           }
         }
       },

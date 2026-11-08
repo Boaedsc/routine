@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/11-01",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Tous les Saints",
         "classe": 6.4,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/11-01.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) GAU(c)DE(d)Á(ixdh'!iv)MUS(h.) *(,) o(hg~)mnes(hg) in(fg) Dó(gjh)mi(ixh.g!hwihi)no,(ih..) (;) di(h)em(fg~) fe(g)stum(gff) ce(dg)le(gff)brán(dg~)tes(gff) (,) sub(f) ho(g)nó(g./hjh)re(ghg.) be(f)á(f)tae(f) Ma(f)rí(g)ae(f') Vír(f)gi(h)nis(gjj) Re(h)gí(h_[oh:h]i_[oh:h]h_[oh:h])nae :(h.) (:) de(fg) cu(fg)jus(f) sol(f)e(g)mni(g)tá(g./hjh)te(ghg.) (,) gau(fg)dent(f) An(fg/hgh)ge(gvFE'fwgfg)li,(gf..) (;) et(f) col(g)láu(g/hjH~G~)dant(h_g) (,) Fí(fge)li(f)um(fg/hfgvFE) De(d!ewfef)i.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Ef(f)fún(gh)dit(h) cor(h) me(h)um(h) ver(hj)bum(h) bo(hg)num :(gh..) *(:) di(gf)co(gh) e(h)go(h) car(h)men(hjh) me(g')um(f) Re(fff)gi.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(dc/df..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/11-01.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris.\n$Per Dominum"
+            "texte": "Omnípotens sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 7:2-12\nIn diébus illis: Ecce, ego Joánnes vidi álterum Angelum ascendéntem ab ortu solis, habéntem signum Dei vivi: et clamávit voce magna quátuor Angelis, quibus datum est nocére terræ et mari, dicens: Nolíte nocére terræ et mari neque arbóribus, quoadúsque signémus servos Dei nostri in fróntibus eórum. Et audívi númerum signatórum, centum quadragínta quátuor mília signáti, ex omni tribu filiórum Israël. Ex tribu Juda duódecim mília signáti. Ex tribu Ruben duódecim mília signáti. Ex tribu Gad duódecim mília signati. Ex tribu Aser duódecim mília signáti. Ex tribu Néphthali duódecim mília signáti. Ex tribu Manásse duódecim mília signáti. Ex tribu Símeon duódecim mília signáti. Ex tribu Levi duódecim mília signáti. Ex tribu Issachar duódecim mília signati. Ex tribu Zábulon duódecim mília signáti. Ex tribu Joseph duódecim mília signati. Ex tribu Bénjamin duódecim mília signáti. Post hæc vidi turbam magnam, quam dinumeráre nemo póterat, ex ómnibus géntibus et tríbubus et pópulis et linguis: stantes ante thronum et in conspéctu Agni, amícti stolis albis, et palmæ in mánibus eórum: et clamábant voce magna, dicéntes: Salus Deo nostro, qui sedet super thronum, et Agno. Et omnes Angeli stabant in circúitu throni et seniórum et quátuor animálium: et cecidérunt in conspéctu throni in fácies suas et adoravérunt Deum, dicéntes: Amen. Benedíctio et cláritas et sapiéntia et gratiárum áctio, honor et virtus et fortitúdo Deo nostro in sǽcula sæculórum. Amen."
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 7:2-12\nIn diébus illis: Ecce, ego Joánnes vidi álterum Angelum ascendéntem ab ortu solis, habéntem signum Dei vivi: et clamávit voce magna quátuor Angelis, quibus datum est nocére terræ et mari, dicens: Nolíte nocére terræ et mari neque arbóribus, quoadúsque signémus servos Dei nostri in fróntibus eórum. Et audívi númerum signatórum, centum quadragínta quátuor mília signáti, ex omni tribu filiórum Israël. Ex tribu Juda duódecim mília signáti. Ex tribu Ruben duódecim mília signáti. Ex tribu Gad duódecim mília signati. Ex tribu Aser duódecim mília signáti. Ex tribu Néphthali duódecim mília signáti. Ex tribu Manásse duódecim mília signáti. Ex tribu Símeon duódecim mília signáti. Ex tribu Levi duódecim mília signáti. Ex tribu Issachar duódecim mília signati. Ex tribu Zábulon duódecim mília signáti. Ex tribu Joseph duódecim mília signati. Ex tribu Bénjamin duódecim mília signáti. Post hæc vidi turbam magnam, quam dinumeráre nemo póterat, ex ómnibus géntibus et tríbubus et pópulis et linguis: stantes ante thronum et in conspéctu Agni, amícti stolis albis, et palmæ in mánibus eórum: et clamábant voce magna, dicéntes: Salus Deo nostro, qui sedet super thronum, et Agno. Et omnes Angeli stabant in circúitu throni et seniórum et quátuor animálium: et cecidérunt in conspéctu throni in fácies suas et adoravérunt Deum, dicéntes: Amen. Benedíctio et cláritas et sapiéntia et gratiárum áctio, honor et virtus et fortitúdo Deo nostro in sǽcula sæculórum. Amen.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 33:10; 33:11\nTiméte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus eum.\nV. Inquiréntes autem Dóminum, non defícient omni bono.",
+            "texte": "Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus eum. V. Inquiréntes autem Dóminum, non defícient omni bono.",
             "incipit": {
               "incipit": "Timete Dominum",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c4) TI(d_c)mé(d)te(fef.) * Dó(g)mi(fe)num(d.0/[-0.5]fgF'D//fvED'fddc.) (;) o(ixf!gwh'!iv)mnes(h) san(hjhhg~)cti(gfgd) e(fg)jus :(gv.) (,) (fg!hjGF'fvED'fddc.) (:) quó(ixf!gwh'!iv)ni(h)am(h) ni(jj)hil(ixhih) de(gfg)est(d_[oh:h]e_[oh:h]d._[oh:h]) (;) ti(d)mén(d!g'h~)ti(g)bus(g) e(gf/ghd)um.(dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::) <sp>V/</sp>. In(d'/fdd[ll:1]c~)qui(d)rén(ded/[1]{/[-4]ix}hi~)tes(hhg/h_f//eg/hgh/fgFD.1cd/fd) (,) (cd!ff/g.h!iw!jvIH.) (;) au(ixhf/gh!jjh/jjvH'GhiG'F)(,)(ghfff'1dfED'//ef'g~)tem(gh) Dó(gh)mi(g)num(fgFE.) (;) non(fg) de(g_[oh:h]e)fí(fge)ci(fgF'EfvED'e)ent(e[ll:1]d..) (;) o(d!ffd/fff)mni(fg) * bo(g_[oh:h]f/hgh)no.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": "graduel_timete-dominum-omnes.mp3",
             "fichier": "Latin/Sancti/11-01.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Matt 11:28\nVeníte ad me, omnes, qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.",
+            "texte": "Allelúja, allelúja. Veníte ad me, omnes, qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.",
             "incipit": {
               "incipit": "Venite ad me",
               "version": "Solesmes",
@@ -82,12 +88,21 @@
             "gabc": "(c3) AL(ee[ll:1]d~)le(ff)lú(efe/hiHF'gffe~){ia}.(e.) *(;) <i>ij.</i>(de!f!gwhe./de!f!gwhe'fvED.) (;) (df!hi//hjijvHF.1) (,) (ehf___!gwh'!ivHF'EDee) (,) (fh//gh'iHF'EDee//fe/hhe.) (::) <sp>V/</sp>. Ve(e)ní(efe/hiHF'gffe)te(e) ad(d/efd/ee) me,(d.) (;) o(df!hv//jhi)mnes(i.) (,) qui(h) la(j)bo(i)rá(jkJI'i//hji/jkii)(,)(hiHF'Ehv.gh'!ivHF'EDee)(,)(fh//gh'iHF'EDee)(,)(hji/jkJI'i//hji/jki)tis,(i.) (;) et(hjh/ii) o(e)ne(f!gwh)rá(h)ti(hhhvGF) e(fhe/fe)stis :(e.) (:) et(e) e(ef)go(e) *() re(e)fí(ef)ci(e[ll:1]d)am(df!hiHF'gffe~) vos.(e.) (;) (de!f!gwhe./de!f!gwhe'fvED.) (;) (df!hi//hjijvHF.1) (,) (ehf___!gwh'!ivHF'EDee) (,) (fh//gh'iHF'EDee//fe/hhe.) (::)",
             "mp3": "alleluia_venite-ad-me.mp3",
             "fichier": "Latin/Sancti/11-01.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:1-12\nIn illo témpore: Videns Jesus turbas, ascéndit in montem, et cum sedísset, accessérunt ad eum discípuli ejus, et apériens os suum, docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsórum est regnum cœlórum. ¶ Beáti mites: quóniam ipsi possidébunt terram. Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi misericórdiam consequántur. Beáti mundo corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter justítiam: quóniam ipsórum est regnum cœlórum. Beáti estis, cum maledíxerint vobis et persecúti vos fúerint, et díxerint omne malum advérsum vos, mentiéntes, propter me: gaudete et exsultáte, quóniam merces vestra copiósa est in cœlis."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:1-12\nIn illo témpore: Videns Jesus turbas, ascéndit in montem, et cum sedísset, accessérunt ad eum discípuli ejus, et apériens os suum, docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsórum est regnum cœlórum. ¶ Beáti mites: quóniam ipsi possidébunt terram. Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi misericórdiam consequántur. Beáti mundo corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter justítiam: quóniam ipsórum est regnum cœlórum. Beáti estis, cum maledíxerint vobis et persecúti vos fúerint, et díxerint omne malum advérsum vos, mentiéntes, propter me: gaudete et exsultáte, quóniam merces vestra copiósa est in cœlis.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-05.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Sap 3:1-3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace, allelúja.\n(sed post Septuagesimam dicitur)\npace.",
@@ -101,17 +116,34 @@
             "gabc": "(c4) JU(d)stó(fffvDC'dff/hgh)rum(fgf.) *(,) á(fg'h)ni(h)mae(ixhf/higff/ded.) (;) in(d) ma(d!gfg//dgfefd/e[ll:1]d)nu(dcd) (`) De(dv.cd'f/ef!hvGE'fd)i(cd) sunt,(d.) (:) et(ixd!f'h/j_hivGEf_g) non(fe~) tan(de)get(gh) il(hggvE'DC'd)los(d.) (;) tor(d)mén(cd'f/ef'!gvE'Dfv.efd/e[ll:1]d)tum(cd) ma(d)lí(d)ti(d_[oh:h]e_[oh:h]d_[oh:h])ae :(d.) (:) vi(cd)si(d) sunt(fde/dec) (,) ó(cd'f/efd/e[ll:1]d)cu(cd)lis(d.) in(d)si(d)pi(d)én(cd)ti(d)um(dc) mo(dfd___)ri :(d.) (:) il(c)li(d) au(ixdh./jjh//gih/ig.fg'h!jjg)(,)(f!h_gh//fh!jvGF'fdf.//eg/hjh/jhhgh)tem(f.) (,) sunt(ef'g) in(e[ll:1]d/fe) pa(d_[oh:h]e_[oh:h]d_[oh:h])ce,(d.) (:) al(cd)le(f_[oh:h]g_[oh:h]f_[oh:h]hv.ghFD.1//cd/fefg_[oh:h]e)(,)(h_gefd//fvEDe[ll:1]d)lú(cd~){ia}.(d.) (::)",
             "mp3": "offertoire_justorum-animae.mp3",
             "fichier": "Latin/Sancti/11-01.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Secreta",
-            "texte": "Múnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\n$Per Dominum"
+            "texte": "Múnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 5:8-10\nBeáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici, quóniam filii Dei vocabúntur: beáti, qui persecutiónem patiúntur propter justítiam, quóniam ipsórum est regnum cœlórum.",
@@ -125,74 +157,102 @@
             "gabc": "(c4) BE(h)á(h)ti(hg) mun(hj)do(ji) cor(hi)de,(h.) (;) * quó(h)ni(g)am(hvGE) i(fgh)psi(g.) (,) De(hvGF')um(g) vi(f_e)dé(de!fvED'e)bunt :(e[ll:1]d..) (:) be(df)á(fef)ti(d!ewf) pa(fd)cí(fh)fi(gf)ci,(fg!hvhg.) (;) quó(gh)ni(gf)am(f) fí(gh)li(h)i(h) De(j)i(h) vo(h)ca(h_g)bún(fg!hvG~F~)tur :(gf..) (:) be(f!hj)á(jkl)ti(k_[hl:1]j) (,) qui(j') per(j)se(h')cu(j)ti(g')ó(h)nem(g') pa(h)ti(g')ún(h)tur(j.h!iwji.) (,) pro(g)pter(hggf) ju(gh)stí(f)ti(fg!hvGF'g)am,(gf..) (:) quó(h)ni(g)am(hgh) i(f)psó(gfg)rum(fe) est(dfddc.) (,) re(f.egwhgh)gnum(gh) cae(f_e)ló(de!fvED'e)rum.(e[ll:1]d..) (::)",
             "mp3": "communion_beati-mundo-corde.mp3",
             "fichier": "Latin/Sancti/11-01.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-01.txt",
             "section": "Postcommunio",
-            "texte": "Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper veneratióne lætári: et eórum perpétua supplicatióne muníri.\n$Per Dominum"
+            "texte": "Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper veneratióne lætári: et eórum perpétua supplicatióne muníri.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Introitus",
-            "texte": "v. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de tous les Saints. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 32:1\nJustes, exultez dans le Seigneur : aux cœurs droits convient sa louange.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de tous les Saints. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu."
+            "texte": "v. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de tous les Saints. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.\n!Ps 32:1\nJustes, exultez dans le Seigneur : aux cœurs droits convient sa louange.\n&Gloria\nv. Réjouissons-nous ensemble dans le Seigneur, car la fête que nous célébrons aujourd’hui est celle de tous les Saints. Cette solennité réjouit les Anges et tous en chœur louent le Fils de Dieu.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant et éternel, qui nous avez accordé de célébrer dans une même solennité les mérites de tous vos Saints ; faites, nous vous en prions, que nos intercesseurs étant multipliés, une abondante effusion de vos miséricordes, objet de nos désirs, nous vienne de votre munificence.\n$Per Dominum"
+            "texte": "Dieu tout-puissant et éternel, qui nous avez accordé de célébrer dans une même solennité les mérites de tous vos Saints ; faites, nous vous en prions, que nos intercesseurs étant multipliés, une abondante effusion de vos miséricordes, objet de nos désirs, nous vienne de votre munificence.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 7:2-12\nEn ces jours-là : Voici que moi, Jean, je vis un autre Ange, qui montait du côté du soleil levant, ayant le sceau du Dieu vivant ; et il cria d’une voix forte aux quatre anges auxquels il avait été donné de nuire à la terre et à la mer ; et il dit : Ne nuisez point à la terre, ni à la mer, ni aux arbres, jusqu’à ce que nous ayons marqué du sceau le front des serviteurs de notre Dieu. Et j’entendis le nombre de ceux qui avaient été marqués du sceau : cent quarante-quatre mille, de toutes les tribus des enfants d’Israël, étaient marqués du sceau. De la tribu de Juda, douze mille étaient marqués du sceau ; de la tribu de Ruben, douze mille ; de la tribu de Gad, douze mille ; de la tribu d’Azer, douze mille ; de la tribu de Nephthali, douze mille ; de la tribu de Manassé, douze mille ; de la tribu de Siméon, douze mille ; de la tribu de Lévi, douze mille ; de la tribu d’Issachar, douze mille ; de la tribu de Zabulon, douze mille ; de la tribu de Joseph, douze mille ; de la tribu de Benjamin, douze mille étaient marqués du sceau. Après cela, je vis une grande multitude, que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue ; ils se tenaient devant le trône et en face de l’Agneau, vêtus de robes blanches, et ils avaient des palmes dans leurs mains. Et ils criaient d’une voix forte, et disaient : Le salut est à notre Dieu, qui est assis sur le trône, et à l’Agneau. Et tous les Anges se tenaient autour du trône, et des vieillards, et des quatre animaux ; et ils se prosternèrent devant le trône sur leurs visages, et adorèrent Dieu, en disant : Amen. Bénédiction, gloire, sagesse, action de grâces, honneur, puissance et force à notre Dieu dans tous les siècles des siècles. Amen."
+            "texte": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli.\n!Apoc 7:2-12\nEn ces jours-là : Voici que moi, Jean, je vis un autre Ange, qui montait du côté du soleil levant, ayant le sceau du Dieu vivant ; et il cria d’une voix forte aux quatre anges auxquels il avait été donné de nuire à la terre et à la mer ; et il dit : Ne nuisez point à la terre, ni à la mer, ni aux arbres, jusqu’à ce que nous ayons marqué du sceau le front des serviteurs de notre Dieu. Et j’entendis le nombre de ceux qui avaient été marqués du sceau : cent quarante-quatre mille, de toutes les tribus des enfants d’Israël, étaient marqués du sceau. De la tribu de Juda, douze mille étaient marqués du sceau ; de la tribu de Ruben, douze mille ; de la tribu de Gad, douze mille ; de la tribu d’Azer, douze mille ; de la tribu de Nephthali, douze mille ; de la tribu de Manassé, douze mille ; de la tribu de Siméon, douze mille ; de la tribu de Lévi, douze mille ; de la tribu d’Issachar, douze mille ; de la tribu de Zabulon, douze mille ; de la tribu de Joseph, douze mille ; de la tribu de Benjamin, douze mille étaient marqués du sceau. Après cela, je vis une grande multitude, que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue ; ils se tenaient devant le trône et en face de l’Agneau, vêtus de robes blanches, et ils avaient des palmes dans leurs mains. Et ils criaient d’une voix forte, et disaient : Le salut est à notre Dieu, qui est assis sur le trône, et à l’Agneau. Et tous les Anges se tenaient autour du trône, et des vieillards, et des quatre animaux ; et ils se prosternèrent devant le trône sur leurs visages, et adorèrent Dieu, en disant : Amen. Bénédiction, gloire, sagesse, action de grâces, honneur, puissance et force à notre Dieu dans tous les siècles des siècles. Amen.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/11-01.txt",
-            "section": "Graduale",
-            "texte": "!Ps 33:10; 33:11\nCraignez le Seigneur, vous tous ses saints, car ceux qui le craignent ne manquent de rien.\nV. Et ceux qui cherchent le Seigneur ne seront privés d’aucun bien."
+            "section": "Graduale[0]",
+            "texte": "Craignez le Seigneur, vous tous ses saints, car ceux qui le craignent ne manquent de rien. V. Et ceux qui cherchent le Seigneur ne seront privés d’aucun bien.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-01.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Matt 11:28\nVenez à moi, vous tous qui êtes fatigués et qui êtes chargés, et je vous soulagerai. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et je vous soulagerai. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 5:1-12\nEn ce temps-là : Jésus, voyant les foules, monta sur la montagne, et lorsqu’il se fut assis, ses disciples s’approchèrent de lui. Alors, prenant la parole, il se mit à les enseigner, en disant : « Heureux les pauvres en esprit, car le royaume des cieux est à eux ! Heureux ceux qui sont affligés, car ils seront consolés ! Heureux ceux qui sont doux, car ils posséderont la terre ! Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés ! Heureux les miséricordieux, car ils obtiendront miséricorde ! Heureux ceux qui ont le cœur pur, car ils verront Dieu ! Heureux les pacifiques, car ils seront appelés enfants de Dieu ! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux ! Heureux serez-vous, lorsqu’on vous insultera, qu’on vous persécutera, et qu’on dira faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous et soyez dans l’allégresse, parce que votre récompense est grande dans les cieux."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 5:1-12\nEn ce temps-là : Jésus, voyant les foules, monta sur la montagne, et lorsqu’il se fut assis, ses disciples s’approchèrent de lui. Alors, prenant la parole, il se mit à les enseigner, en disant : « Heureux les pauvres en esprit, car le royaume des cieux est à eux ! Heureux ceux qui sont affligés, car ils seront consolés ! Heureux ceux qui sont doux, car ils posséderont la terre ! Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés ! Heureux les miséricordieux, car ils obtiendront miséricorde ! Heureux ceux qui ont le cœur pur, car ils verront Dieu ! Heureux les pacifiques, car ils seront appelés enfants de Dieu ! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux ! Heureux serez-vous, lorsqu’on vous insultera, qu’on vous persécutera, et qu’on dira faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous et soyez dans l’allégresse, parce que votre récompense est grande dans les cieux.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Offertorium",
-            "texte": "!Sap 3:1-3\nLes âmes des justes sont dans la main de Dieu, et les tour­ments de la mort ne les tou­cheront pas : aux yeux des insensés ils paraissent morts, mais ils sont dans la paix. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)"
+            "texte": "!Sap 3:1-3\nLes âmes des justes sont dans la main de Dieu, et les tour­ments de la mort ne les tou­cheront pas : aux yeux des insensés ils paraissent morts, mais ils sont dans la paix. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Secreta",
-            "texte": "Nous vous offrons, Seigneur, les présents de notre dévotion : daignez les agréer pour l’honneur de vos saints et, dans votre miséri­corde, faites qu’ils soient utiles à notre salut.\n$Per Dominum"
+            "texte": "Nous vous offrons, Seigneur, les présents de notre dévotion : daignez les agréer pour l’honneur de vos saints et, dans votre miséri­corde, faites qu’ils soient utiles à notre salut.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Communio",
-            "texte": "!Matt 5:8-10\nHeureux ceux qui ont le cœur pur, car ils verront Dieu ! Heureux les pacifiques, car ils seront appelés enfants de Dieu ! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux !"
+            "texte": "!Matt 5:8-10\nHeureux ceux qui ont le cœur pur, car ils verront Dieu ! Heureux les pacifiques, car ils seront appelés enfants de Dieu ! Heureux ceux qui souffrent persécution pour la justice, car le royaume des cieux est à eux !",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-01.txt",
             "section": "Postcommunio",
-            "texte": "Donnez, nous vous en supplions, Seigneur, au peuple des fidèles, d’avoir toujours la joie d’honorer vos Saints et la protection qui résulte de leur incessante prière.\n$Per Dominum"
+            "texte": "Donnez, nous vous en supplions, Seigneur, au peuple des fidèles, d’avoir toujours la joie d’honorer vos Saints et la protection qui résulte de leur incessante prière.\n$Per Dominum",
+            "references": null
           }
         }
       },

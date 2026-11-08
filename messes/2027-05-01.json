@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/05-01",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Sts Philippe et Jacques",
         "classe": 5.1,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/05-01.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,30 +40,35 @@
             "gabc": "(c4) EX(f)CLA(c)MA(d)VÉ(ixdh'!iv)RUNT(h) *(,) ad(h) te,(gfg) Dó(ixhgih)mi(gf)ne,(f.) (;) in(df~) tém(fff)po(dc)re(c.) af(d)fli(fe)cti(f)ó(fhG'E)nis(egF'Ef) su(d_[oh:h]e_[oh:h]d_[oh:h])ae,(d.) (:) et(d) tu(f) de(g) cae(ghg)lo(g_[oh:h]d) (,) ex(d)au(ff)dí(fg)sti(gff) e(deD'C)os,(c.) (;) al(cd'f~)le(f_e)lú(fgf){ia},(fffddc.) (,) al(df~)le(fefd)lú(d_[oh:h]e_[oh:h]d_[oh:h]){ia}.(d.) (::) <i>Ps.</i> Ex(f)sul(gh)tá(h)te,(h) ju(hj)sti,(h) in(h) Dó(h)mi(hg)no :(gh..) *(:) re(gf)ctos(gh) de(h)cet(h) col(hjh)lau(g')dá(f)ti(fff)o.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(dc/df..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/05-01.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus méritis, instruámur exémplis.\n$Per Dominum"
+            "texte": "Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus méritis, instruámur exémplis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est."
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, pœniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja.\n!Ps 14:9\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.",
+            "texte": "Allelúja, allelúja. Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja. Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum. Allelúja.",
             "incipit": {
               "incipit": "Confitebuntur",
               "version": "Solesmes",
@@ -73,12 +79,14 @@
             "gabc": "(c2) AL(cd)le(c)lú(cfe!gh){ia}.(g.) *(;) <i>ij.</i>(fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/e[ll:1]ddc.) (::) <sp>V/</sp>. Con(cd)fi(c)te(cfe)bún(fg)tur(g.) cae(gh!ij)li(iivHG.) (;) mi(g)ra(g)bí(g/hih)li(gf)a(f) tu(fvEDef!hvGF'fvEDef)a(e.) (,) Dó(e!fw!gvF'ED'ew!fvED')mi(cd'e)ne :(dc..) (:) ét(gfg)e(ihijg//jvIH'Fg.)(;)(gfgihijg//jvIH'F)nim(g'/hihhg.) (;) ve(g)ri(hih)tá(gf)tem(f) tu(fvEDef!hvGF'fvEDef)am(e./fgf'/gd//evDCdc..) (:) in(cd) ec(c)clé(c.d!ewfef)si(e)a(e.) *(,) san(fg)ctó(fe/fgf/gh)rum.(g.) (;) (fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/e[ll:1]ddc.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/05-01.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nIn illo témpore: Dixit Jesus discípulis suis: Non turbátur cor vestrum. Creditis in Deum, et in me crédite. In domo Patris mei mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado paráre vobis locum. Et si abíero et præparávero vobis locum: íterum vénio et accípiam vos ad meípsum, ut, ubi sum ego, et vos sitis. Et quo ego vado, scitis, et viam scitis. Dicit ei Thomas: Dómine, nescímus, quo vadis: et quómodo póssumus viam scire? Dicit ei Jesus: Ego sum via et véritas et vita; nemo venit ad Patrem nisi per me. Si cognovissétis me, et Patrem meum útique cognovissétis: et ámodo cognoscátis eum, et vidístis eum. Dicit ei Philíppus: Dómine, osténde nobis Patrem, et sufficit nobis. Dicit ei Jesus: Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem. Quómodo tu dicis: Osténde nobis Patrem? Non créditis, quia ego in Patre, et Pater in me est? Verba, quæ ego loquor vobis, a meípso non loquor. Pater autem in me manens, ipse facit ópera. Non créditis, quia ego in Patre, et Pater in me est? Alióquin propter ópera ipsa crédite. Amen, amen, dico vobis, qui credit in me, ópera, quæ ego fácio, et ipse fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et quodcúmque petiéritis Patrem in nómine meo, hoc fáciam."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nIn illo témpore: Dixit Jesus discípulis suis: Non turbátur cor vestrum. Creditis in Deum, et in me crédite. In domo Patris mei mansiónes multæ sunt. Si quo minus, dixíssem vobis: Quia vado paráre vobis locum. Et si abíero et præparávero vobis locum: íterum vénio et accípiam vos ad meípsum, ut, ubi sum ego, et vos sitis. Et quo ego vado, scitis, et viam scitis. Dicit ei Thomas: Dómine, nescímus, quo vadis: et quómodo póssumus viam scire? Dicit ei Jesus: Ego sum via et véritas et vita; nemo venit ad Patrem nisi per me. Si cognovissétis me, et Patrem meum útique cognovissétis: et ámodo cognoscátis eum, et vidístis eum. Dicit ei Philíppus: Dómine, osténde nobis Patrem, et sufficit nobis. Dicit ei Jesus: Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem. Quómodo tu dicis: Osténde nobis Patrem? Non créditis, quia ego in Patre, et Pater in me est? Verba, quæ ego loquor vobis, a meípso non loquor. Pater autem in me manens, ipse facit ópera. Non créditis, quia ego in Patre, et Pater in me est? Alióquin propter ópera ipsa crédite. Amen, amen, dico vobis, qui credit in me, ópera, quæ ego fácio, et ipse fáciet, et majóra horum fáciet: quia ego ad Patrem vado. Et quodcúmque petiéritis Patrem in nómine meo, hoc fáciam.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 88:6\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
@@ -92,17 +100,20 @@
             "gabc": "(c3) COn(e)fi(e/gih)te(h)bún(hih)tur(h.) *(,) cae(hhh/iji/kkklk)li(iji.) (;) mi(ei)ra(i)bí(i/jkj)li(ih)a(hkJIH'hg) tu(fi)a(i./[-0.5]kkk) (,) Dó(h!kki)mi(hg/hi!jvIH'i)ne,(ijIH'hg.) (:) et(e) ve(e/gih)ri(h)tá(h)tem(hgh) tu(hjihhf/h_g)am(hhhiHG.) (;) in(fhg) ec(h)clé(i)si(h)a(hji/jh) san(gf~)ctó(hihhe/hh/i_[oh:h]h)rum,(h.) (:) <nlba>al(ih~)le(iv.hh/ih/ihhe//f!hhh)lú(fe~){ia},</nlba>(efED.) (;) al(df)le(hv.iijh.1/ji/jhhe)(,)(f!hhhjvIH'GF'//hvGF'gvFE')lú(ef'g){ia}.(fe..) (::)",
             "mp3": "offertoire_confitebuntur.mp3",
             "fichier": "Latin/Sancti/05-01.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Secreta",
-            "texte": "Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ merémur avérte.\n$Per Dominum."
+            "texte": "Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ merémur avérte.\n$Per Dominum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Joannes 14:9; 14:10\nTanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum, allelúja: non credis, quia ego in Patre, et Pater in me est? Allelúja, allelúja.",
@@ -116,74 +127,95 @@
             "gabc": "(c4) TAn(d)to(fd) tém(f)po(f)re(e_0[uh:l]//fgfeef/ded.) (,) * vo(d)bís(eef)cum(d) sum,(bxcdccb.0) (;) et(df~) non(f) co(f)gno(fd)ví(f)stis(fg~) me?(e.) (:) Phi(f)líp(f)pe,(e_0[uh:l]//fgfeef/ded.) (,) qui(f) vi(gh)det(h) me,(ixhg/hih.) (,) vi(h)det(g') et(f) Pa(fff)trem,(fd~) al(fg~)le(e)lú(egff){ia} :(fe..) (:) non(f_) cre(dgF'E)dis(ff) (,) qui(d)a(e) e(gh'i)go(h) in(hg~) Pa(hj)tre,(ijI'HivHGh.) (;) et(e) Pa(gh)ter(g) in(e[ll:1]d~) me(evDC'd) est?(eef.) (;) al(c)le(d)lú(f){ia},(f_d) (,) al(fg)le(ixgv.fghig/h_g)lú(egff){ia}.(fe..) (::)",
             "mp3": "communion_tanto-tempore.mp3",
             "fichier": "Latin/Sancti/05-01.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/05-01.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur.\n$Per Dominum"
+            "texte": "Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia celebrámus, eórum oratiónibus adjuvémur.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Introitus",
-            "texte": "!Neh 9:27\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur; la louange sied aux hommes droits.\n&Gloria\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia."
+            "texte": "!Neh 9:27\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia.\n!Ps 32:1\nJustes, exultez dans le Seigneur; la louange sied aux hommes droits.\n&Gloria\nv. Ils ont crié vers vous, Seigneur, au temps de leur affliction, et du haut du ciel vous les avez exaucés, alléluia, alléluia.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu qui nous réjouissez en la solennité annuelle de vos de vos Apôtres Philippe et Jacques ; faites, nous vous en prions, que nous soyons instruits aux exemples de ceux dont les mérites nous remplissent d’allégresse.\n$Per Dominum"
+            "texte": "Ô Dieu qui nous réjouissez en la solennité annuelle de vos de vos Apôtres Philippe et Jacques ; faites, nous vous en prions, que nous soyons instruits aux exemples de ceux dont les mérites nous remplissent d’allégresse.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5.\nLes justes se lèveront avec une grande assurance contre ceux qui les auront mis dans l’angoisse, et qui auront ravi le fruit de leurs travaux. A cette vue les méchants seront troublés par une horrible frayeur, et ils seront stupéfaits en voyant tout à coup ceux dont ils n’attendaient pas le salut ; ils diront en eux-mêmes, saisis de remords, et gémissant dans l’angoisse de leur cœur : Voici ceux dont nous avons fait autrefois un objet de risée, et un thème d’outrages. Insensés que nous étions, nous regardions leur vie comme une folie, et leur mort comme une honte ; et voilà qu’ils sont comptés parmi les fils de Dieu, et que leur partage est avec les saints."
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 5:1-5.\nLes justes se lèveront avec une grande assurance contre ceux qui les auront mis dans l’angoisse, et qui auront ravi le fruit de leurs travaux. A cette vue les méchants seront troublés par une horrible frayeur, et ils seront stupéfaits en voyant tout à coup ceux dont ils n’attendaient pas le salut ; ils diront en eux-mêmes, saisis de remords, et gémissant dans l’angoisse de leur cœur : Voici ceux dont nous avons fait autrefois un objet de risée, et un thème d’outrages. Insensés que nous étions, nous regardions leur vie comme une folie, et leur mort comme une honte ; et voilà qu’ils sont comptés parmi les fils de Dieu, et que leur partage est avec les saints.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/05-01.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints. Alléluia.\n!Ps 14:9\nIl y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Les cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints. Alléluia. Il y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nEn ce temps-là : Jésus dit à ses disciples : Que votre cœur ne se trouble point. Vous croyez en Dieu, croyez aussi en moi. Dans la maison de mon Père, il y a de nombreuses demeures. Si cela n’était pas, Je vous l’aurais dit ; car je vais vous préparer une place. Et lorsque je m’en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis, vous y soyez aussi. Vous savez où je vais, et vous en savez le chemin. Thomas Lui dit : Seigneur, nous ne savons pas où vous allez ; comment pourrions-nous en savoir le chemin ? Jésus lui dit : Je suis la voie, la vérité et la vie. Personne ne vient au Père, si ce n’est par moi. Si vous m’aviez connu, vous auriez aussi connu mon Père ; et bientôt vous Le connaîtrez, et vous l’avez déjà vu. Philippe Lui dit : Seigneur, montrez-nous le Père, et cela nous suffit. Jésus lui dit : Il y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi le Père. Comment peux-tu dire : Montrez-nous le Père ? Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Les paroles que je vous dis, je ne les dis pas de moi-même ; mais le Père, qui demeure en moi, fait lui-même mes œuvres. Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Croyez-le du moins à cause de ces œuvres. En vérité, en vérité, je vous le dis, celui qui croit en moi fera lui-même les œuvres que je fais, et il en fera de plus grandes, parce que je m’en vais auprès du Père. Et tout ce que vous demanderez au Père en mon nom, je le ferai, afin que le Père soit glorifié dans le Fils. Si vous me demandez quelque chose en mon nom, je le ferai."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joannes 14:1-13\nEn ce temps-là : Jésus dit à ses disciples : Que votre cœur ne se trouble point. Vous croyez en Dieu, croyez aussi en moi. Dans la maison de mon Père, il y a de nombreuses demeures. Si cela n’était pas, Je vous l’aurais dit ; car je vais vous préparer une place. Et lorsque je m’en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis, vous y soyez aussi. Vous savez où je vais, et vous en savez le chemin. Thomas Lui dit : Seigneur, nous ne savons pas où vous allez ; comment pourrions-nous en savoir le chemin ? Jésus lui dit : Je suis la voie, la vérité et la vie. Personne ne vient au Père, si ce n’est par moi. Si vous m’aviez connu, vous auriez aussi connu mon Père ; et bientôt vous Le connaîtrez, et vous l’avez déjà vu. Philippe Lui dit : Seigneur, montrez-nous le Père, et cela nous suffit. Jésus lui dit : Il y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi le Père. Comment peux-tu dire : Montrez-nous le Père ? Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Les paroles que je vous dis, je ne les dis pas de moi-même ; mais le Père, qui demeure en moi, fait lui-même mes œuvres. Ne croyez-vous pas que je suis dans le Père, et que le Père est en moi ? Croyez-le du moins à cause de ces œuvres. En vérité, en vérité, je vous le dis, celui qui croit en moi fera lui-même les œuvres que je fais, et il en fera de plus grandes, parce que je m’en vais auprès du Père. Et tout ce que vous demanderez au Père en mon nom, je le ferai, afin que le Père soit glorifié dans le Fils. Si vous me demandez quelque chose en mon nom, je le ferai.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia."
+            "texte": "!Ps 88:6\nLes cieux publieront vos merveilles, Seigneur, et votre vérité dans l’assemblée des saints, alléluia, alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Secreta",
-            "texte": "Recevez favorablement, Seigneur, les dons que nous offrons en la solennité de vos Apôtres Philippe et Jacques : et détournez de nous tous les maux que nous méritons.\n$Per Dominum."
+            "texte": "Recevez favorablement, Seigneur, les dons que nous offrons en la solennité de vos Apôtres Philippe et Jacques : et détournez de nous tous les maux que nous méritons.\n$Per Dominum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Communio",
-            "texte": "!Joannes 14:9; 14:10\nIl y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père, alléluia : ne crois-tu pas que je suis dans le Père, et que le Père est en moi ? Alléluia, alléluia."
+            "texte": "!Joannes 14:9; 14:10\nIl y a si longtemps que je suis avec vous, et vous ne me connaissez pas ? Philippe, celui que me voit, voit aussi mon Père, alléluia : ne crois-tu pas que je suis dans le Père, et que le Père est en moi ? Alléluia, alléluia.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/05-01.txt",
             "section": "Postcommunio",
-            "texte": "Rassasiés par la participation à ces mystères de salut, nous vous demandons, Seigneur, d’être aidés grâce aux prières de ceux dont nous célébrons la solennité.\n$Per Dominum"
+            "texte": "Rassasiés par la participation à ces mystères de salut, nous vous demandons, Seigneur, d’être aidés grâce aux prières de ceux dont nous célébrons la solennité.\n$Per Dominum",
+            "references": null
           }
         }
       },

@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/05-28",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Augustin de Cantorbéry, évêque et confesseur",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/05-28.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c4) SA(fff)cer(dfe)dó(ef/ghf)tes(dfe) tu(ef'g)i,(g) *(,) Dó(gjj)mi(hg)ne,(gv.ff/ded.) (;) ín(g.h!iwj)du(hg)ant(gd~) ju(fh)stí(ghfg)ti(gv.df!gvFE'f)am,(fe..) (;) et(f) san(e!fw!gh)cti(g) tu(hggef)i(fe__) ex(e!fw!gh)súl(gh~)tent :(g.) (:) pro(gj)pter(j) Da(j.h!iwjij)vid(ji__) (,) ser(ij/klk)vum(j_i~) tu(j.h!iw!jvI'HG'h)um,(hg..) (;) non(gh) a(g.h!iwj)vér(jjjhhg~)tas(g.) fá(ghgh)ci(fg_[oh:h]F'_[oh:h]ED'e)em(e[ll:1]d..) (;) Chri(de!f!gwh)sti(gv.fhGF'g) tu(egff)i.(fe..) (::) <i>T. P.</i> Al(e)le(f)lú(gh){ia},(g.) (;) al(gh)le(g.h!iwjjvIH'G)lú(ge/fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Me(g)mén(hj~)to(j) Dó(k)mi(j)ne(j) Da(ih)vid :(jjj) *(:) et(ig) o(hj~)mnis(j) man(j)su(j)e(j)tú(jji)di(hg)nis(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": "introitus_sacerdotes-tui.mp3",
             "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Oratio",
-            "texte": "Deus, qui Anglórum gentes, prædicatióne et miráculis beáti Augustíni Confessóris tui atque Pontíficis, veræ fídei luce illustráre dignátus es: concéde; ut, ipso interveniénte, errántium corda ad veritátis tuæ rédeant unitátem, et nos in tua simus voluntáte concórdes.\n$Per Dominum"
+            "texte": "Deus, qui Anglórum gentes, prædicatióne et miráculis beáti Augustíni Confessóris tui atque Pontíficis, veræ fídei luce illustráre dignátus es: concéde; ut, ipso interveniénte, errántium corda ad veritátis tuæ rédeant unitátem, et nos in tua simus voluntáte concórdes.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 2:2-9\nFratres: Fidúciam habúimus in Deo nostro loqui ad vos Evangélium Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre neque de immundítia neque in dolo, sed sicut probáti sumus a Deo, ut crederétur nobis Evangélium: ita lóquimur, non quasi homínibus placéntes, sed Deo, qui probat corda nostra. Neque enim aliquándo fuimus in sermóne adulatiónis, sicut scitis: neque in occasióne avarítiæ: Deus testis est: nec quæréntes ab homínibus glóriam, neque a vobis neque ab áliis; cum possémus vobis óneri esse ut Christi Apóstoli: sed facti sumus párvuli in médio vestrum, tamquam si nutrix fóveat fílios suos. Ita desiderántes vos, cúpide volebámus trádere vobis non solum Evangélium Dei, sed étiam ánimas nostras: quóniam caríssimi nobis facti estis. Mémores enim estis, fratres, labóris nostri et fatigatiónis: nocte ac die operántes, ne quem vestrum gravarémus, prædicávimus in vobis Evangélium Dei."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses\n!1 Thess 2:2-9\nFratres: Fidúciam habúimus in Deo nostro loqui ad vos Evangélium Dei in multa sollicitúdine. Exhortátio enim nostra non de erróre neque de immundítia neque in dolo, sed sicut probáti sumus a Deo, ut crederétur nobis Evangélium: ita lóquimur, non quasi homínibus placéntes, sed Deo, qui probat corda nostra. Neque enim aliquándo fuimus in sermóne adulatiónis, sicut scitis: neque in occasióne avarítiæ: Deus testis est: nec quæréntes ab homínibus glóriam, neque a vobis neque ab áliis; cum possémus vobis óneri esse ut Christi Apóstoli: sed facti sumus párvuli in médio vestrum, tamquam si nutrix fóveat fílios suos. Ita desiderántes vos, cúpide volebámus trádere vobis non solum Evangélium Dei, sed étiam ánimas nostras: quóniam caríssimi nobis facti estis. Mémores enim estis, fratres, labóris nostri et fatigatiónis: nocte ac die operántes, ne quem vestrum gravarémus, prædicávimus in vobis Evangélium Dei.",
+            "references": null
           },
           "Graduale": {
-            "texte": "Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne exsultábunt. Illuc prodúcam cornu David: parávi lucérnam Christo meo.",
+            "texte": "Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne exsultábunt. V. Illuc prodúcam cornu David: parávi lucérnam Christo meo.",
             "incipit": {
               "incipit": "Sacerdotes ejus (Grad.)",
               "version": "Solesmes",
@@ -63,31 +74,42 @@
             "gabc": "(c4) SA(c)cer(d)dó(ixdh'!iv)tes(h.) *() e(ixhihghGF.hiHG'hw!ivHGhi)jus(h.) (;) ín(hjh___!iwjj)du(kvJH)am(h.) (,) sa(hg/h!jjjhhg)lu(hggf)tá(hf/gh/jhjvGE'fvDC')(,)(d!ff/ghF'Eghffe)ri :(ge/ghgff/ded.) (:) et(d!ff) san(gf~)cti(f) e(f!hgh)jus(hjh___!iwjjvIHih..) (;) ex(h)sul(hg~)ta(h!jjh)ti(f)ó(ghF'Dfff_d)ne(d.) (;) ex(d)sul(dh~)tá(h_g/jj)bunt.(ixhv.gh!ivF'D//ff/g_[oh:h]f/g_[oh:h]f/gff/ded.) (::) <sp>V/</sp>. Il(dh)luc(h) pro(g)dú(gh/jhi)cam(g.) (,) cor(fh/jhhg~)nu(g.) Da(fh!jvHG'h)vid :(h./jjh/jjgjvvh_[oh:h]i_[oh:h]h._[oh:h]) (:) pa(gh)rá(j_0kvJH'jvGF'//hghhghv.)(,)(k_[uh:l]lJ'IH)vi(ixhihih'/!ivHG'gfg.) (;) lu(f)cér(ghghk_[hl:1]jkvJHjjh)(,)(ixgih/ig.fg'h!jjhhgh)nam(ixhf/!hig/!ff/ded.) (:) Chri(dfED'fvED.//de!fg/hjIH'hgh.)(,)(ixfh!ivGF'E//f!gwh'!iv)sto(hg..) (,) * me(ixhiG'Fh!jjvH'G)o.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Tractus",
-            "texte": ""
-          },
-          "Alleluia": {
-            "texte": "Jurávit Dóminus, et non poenitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "texte": "Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. V. Potens in terra erit semen ejus: generátio rectórum benedicétur. V. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
             "incipit": {
-              "incipit": "Juravit Dominus",
+              "incipit": "Beatus vir qui timet...delectatur (Tract.)",
               "version": "Solesmes",
-              "distance": 23,
-              "similarite": 0.425,
-              "source": "Alleluia"
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Tractus"
             },
-            "gabc": "(c4) AL(cd~)le(de/ge/fee[ll:1]d)lú(eg//fhgefdc!ee){ia}.(d.) <clear>*(;) <i>ij.</i>(ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::) <sp>V/</sp>. Ju(dh)rá(ixh_g/hiHG'h)vit(f_e) Dó(ef!gvFE)mi(de)nus,(e.) (;) et(eg!hv_GF) non(e[ll:1]dd) pae(c)ni(ef/gf)té(e[ll:1]d)bit(cd) e(dee[ll:1]d)um :(d.) (:) Tu(cd) es(d) sa(ef!gh)cér(egFE'e[ll:1]d~)dos(d.) (,) in(hhghvGF'gvF'ED.) ae(ef!gh)tér(egFE'e[ll:1]d~)num,(d.) (;) se(dede)cún(c)dum(e) ór(ixgh/igh./egF'ED.)(,)(ixce!gh/igh./egF'ED'dc~)di(c!ef)nem(e[ll:1]d..) (;) * Mel(cd)chí(de/ge/fee[ll:1]d)se(eg//fhgefdc!ee)dech.(d.) (;) (ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::)",
+            "gabc": "(c4) BE(g)á(g/hih)tus(g/hhg) vir(g.) *(,) qui(gjj) ti(j_k)met(hvGF'ghhg.) (,) Dó(h!jij)mi(hj)num,(jjjkhhg/hg/jjh/jggf.0) (:) qui(f!h'j) man(igh)dá(gfg)tis(gh/jhj) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) de(f)le(f)ctá(ixfh/ih/ig)tur(j.) mul(iyjv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)tum.(g/hhg.) (::) \r\n<sp>V/</sp>. Pot(g!hwi'!jv)ens(j) in(j) ter(j)ra(j) e(ij)rit(j.) (,) se(j)men(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus;(hg..) (:) ge(f)ne(f)ra(hj)ti(igh)ó(gf/gh)ni(g.) (`) re(gh/jij)ctó(j.h!iwj)rum(jjjvIHivHGhg..) (;) be(h_g/h!iwj)ne(ghG'F)di(f!h'j)cé(j)tur.(jijHG.jjvH'GixhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. O(g!hwi'!jv)pes(j) et(j) di(j)ví(j)ti(j)ae(j) e(ij)runt(j.) (,) in(j) do(j)mo(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus,(hg..) (:) et(f) mu(f)ni(hj)fi(igh)cén(gf/gh)ti(g)a(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) ma(g)né(h_g/h!iwj)bit(ghf) (,) * sem(f!h'j)per.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Alleluia"
+            "section": "Tractus",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/05-28.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +123,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Secreta",
-            "texte": "Sacrifícium tibi offérimus, Dómine, in sollemnitáte beáti Augustíni Pontíficis et Confessóris tui, humíliter deprecántes: ut oves, quæ periérunt, ad unum ovile revérsæ, hoc salutári pábulo nutriántur.\n$Per Dominum"
+            "texte": "Sacrifícium tibi offérimus, Dómine, in sollemnitáte beáti Augustíni Pontíficis et Confessóris tui, humíliter deprecántes: ut oves, quæ periérunt, ad unum ovile revérsæ, hoc salutári pábulo nutriántur.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
@@ -125,74 +157,95 @@
             "gabc": "\"(c2) BE(exdde)\\u00e1(cf)tus(f) ser(g_[oh:h]f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) v\\u00e9(jkj)ne(i)rit(hvGF) D\\u00f3(h_i)mi(h)nus,(h.) (,) in(fh~)v\\u00e9(h)ne(ghg)rit(ef) vi(g)gi(fe)l\\u00e1n(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) \\u00f3(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)st\\u00ed(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(exe)le(c./[-0.5]fgF'Efgf)l\\u00fa(dfee){ia}.(e[ll:1]d..) (::)\"",
             "mp3": "communion_beatus-servus.mp3",
             "fichier": "Latin/Sancti/05-28.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/05-28.txt",
             "section": "Postcommunio",
-            "texte": "Hóstia salutári refécti: te, Dómine, súpplices exorámus; ut eadem, beáti Augustíni interveniénte suffrágio, in omni loco nómini tuo júgiter immolétur.\n$Per Dominum"
+            "texte": "Hóstia salutári refécti: te, Dómine, súpplices exorámus; ut eadem, beáti Augustíni interveniénte suffrágio, in omni loco nómini tuo júgiter immolétur.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Introitus",
-            "texte": "!Ps 131:9-10\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ. (Alléluia, alléluia.)\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ. (Alléluia, alléluia.)"
+            "texte": "!Ps 131:9-10\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ. (Alléluia, alléluia.)\n!Ps 131:1\nSouvenez-vous, Seigneur, de David et de toute sa douceur.\n&Gloria\nv. Que vos prêtres, Seigneur, revêtent la justice et que vos saints tressaillent de joie. En considération de David votre serviteur, ne repoussez pas la face de votre Christ. (Alléluia, alléluia.)",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, par la prédication et les miracles du bienheureux Augustin, votre Confesseur et Pontife, avez daigné éclairer de la lumière de la vraie foi la nation anglaise, faites que, par son intercession, les cœurs égarés reviennent à l’unité de votre vérité, et que nous soyons tous unis de cœur en votre volonté.\n$Per Dominum"
+            "texte": "Ô Dieu, qui, par la prédication et les miracles du bienheureux Augustin, votre Confesseur et Pontife, avez daigné éclairer de la lumière de la vraie foi la nation anglaise, faites que, par son intercession, les cœurs égarés reviennent à l’unité de votre vérité, et que nous soyons tous unis de cœur en votre volonté.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.\n!1 Thess 2:2-9\nMes Frères : Si, pour vous annoncer l’Évangile en dépit de tant de difficultés, nous avons montré une telle assurance, c’est en Dieu que nous l’avons trouvée. Notre prédication ne procède ni de l’erreur, ni d’intentions impures ; elle n’use pas de diplomatie. Mais puisque Dieu nous a jugé digne de nous confier son Évangile, nous ne parlons pas pour plaire aux hommes, mais à Dieu qui juge notre cœur. De fait, à aucun moment, nous n’avons employé des paroles de flatterie, vous le savez bien. Jamais nous n’avons cherché de profits personnels, Dieu en est témoin ; nous n’avons pas ambitionné une célébrité parmi les hommes, ni chez vous, ni ailleurs. Comme apôtres du Christ, nous aurions pu cependant rester à votre charge ; mais nous nous sommes comportés parmi vous avec une simplicité d’enfants. Et comme une mère entoure de tendresse les enfants qu’elle nourrit, dans notre affection pour vous, nous désirons vivement vous donner non seulement l’Évangile de Dieu, mais encore notre vie. Car vous êtes devenus très chers à notre cœur. Vous vous rappelez, frères, nos labeurs, nos fatigues ; c’est en travaillant nuit et jour, pour n’être à charge à aucun de vous, que nous avons prêché l’Évangile de Dieu."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.\n!1 Thess 2:2-9\nMes Frères : Si, pour vous annoncer l’Évangile en dépit de tant de difficultés, nous avons montré une telle assurance, c’est en Dieu que nous l’avons trouvée. Notre prédication ne procède ni de l’erreur, ni d’intentions impures ; elle n’use pas de diplomatie. Mais puisque Dieu nous a jugé digne de nous confier son Évangile, nous ne parlons pas pour plaire aux hommes, mais à Dieu qui juge notre cœur. De fait, à aucun moment, nous n’avons employé des paroles de flatterie, vous le savez bien. Jamais nous n’avons cherché de profits personnels, Dieu en est témoin ; nous n’avons pas ambitionné une célébrité parmi les hommes, ni chez vous, ni ailleurs. Comme apôtres du Christ, nous aurions pu cependant rester à votre charge ; mais nous nous sommes comportés parmi vous avec une simplicité d’enfants. Et comme une mère entoure de tendresse les enfants qu’elle nourrit, dans notre affection pour vous, nous désirons vivement vous donner non seulement l’Évangile de Dieu, mais encore notre vie. Car vous êtes devenus très chers à notre cœur. Vous vous rappelez, frères, nos labeurs, nos fatigues ; c’est en travaillant nuit et jour, pour n’être à charge à aucun de vous, que nous avons prêché l’Évangile de Dieu.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/05-28.txt",
-            "section": "Graduale",
-            "texte": "!Ps 131:16-17\nJe revêtirai ses prêtres de salut, et ses saints seront ravis de joie.\nV. Là je ferai paraître la puissance de David ; j’ai préparé une lampe pour mon Christ."
+            "section": "Graduale[0]",
+            "texte": "Je revêtirai ses prêtres de salut, et ses saints seront ravis de joie. V. Là je ferai paraître la puissance de David ; j’ai préparé une lampe pour mon Christ.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. V. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. V. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/05-28.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 109:4\nLe Seigneur a juré, et il ne s’en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+            "section": "GradualeP",
+            "texte": "Alléluia, alléluia Le Seigneur a juré, et il ne s’en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia. Le Seigneur l’a aimé et l’a orné, il l’a revêtu d’une robe de gloire. Alléluia.\nAlléluia, alléluia. Le Seigneur a juré, et il ne s’en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance. (Alléluia.)"
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance. (Alléluia.)",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Secreta",
-            "texte": "Nous vus offrons ce sacrifice, Seigneur, en la solennité du bienheureux Augustin votre Pontife et Confesseur, en vous priant humblement : que les brebis qui se sont perdues, une fois revenues à unique bergerie, y soient nourries de cette nourriture salutaire.\n$Per Dominum"
+            "texte": "Nous vus offrons ce sacrifice, Seigneur, en la solennité du bienheureux Augustin votre Pontife et Confesseur, en vous priant humblement : que les brebis qui se sont perdues, une fois revenues à unique bergerie, y soient nourries de cette nourriture salutaire.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Communio",
-            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens. (Alléluia.)"
+            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens. (Alléluia.)",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/05-28.txt",
             "section": "Postcommunio",
-            "texte": "Ranimés par cette victime du salut : nous vous supplions, Seigneur : qu’à l’appui de l’intercession du bienheureux Augustin, elle soit partout et sans cesse immolée à votre gloire.\n$Per dominum"
+            "texte": "Ranimés par cette victime du salut : nous vous supplions, Seigneur : qu’à l’appui de l’intercession du bienheureux Augustin, elle soit partout et sans cesse immolée à votre gloire.\n$Per dominum",
+            "references": null
           }
         }
       },
@@ -200,7 +253,7 @@
         "Francais/Sancti/05-28.txt",
         "Latin/Sancti/05-28.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 3,
       "numero": 1
     }
   ]

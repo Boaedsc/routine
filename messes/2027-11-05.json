@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/PentEpi4-5",
-        "nom_sanctoral": "",
-        "classe": 1.0,
+        "gagnant": "Tempora/PentEpi4-0",
+        "nom_sanctoral": "4e dimanche après l’Épiphanie (reporté)",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/PentEpi4-5.txt",
-        "temporal": "Latin/Tempora/PentEpi4-5.txt",
+        "fichier_gagnant": "Latin/Tempora/PentEpi4-0.txt",
+        "temporal": "Latin/Tempora/PentEpi4-0.txt",
         "sanctoral": null,
         "calendrier": null,
         "table_transfert": null,
@@ -23,139 +23,260 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/PentEpi4-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "texte": "!Jer 29:11; 29:12; 29:14\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.\n!Ps 84:2\nBenedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.\n&Gloria\nv. Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram de cunctis locis.",
+            "incipit": {
+              "incipit": "Dicit Dominus : Ego",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DI(d)cit(bxdbc) Dó(dc/fffg)mi(f)nus :(f.) *(,) E(f)go(f) có(fhg)gi(f)to(fff) (,) co(d)gi(bxdbc)ta(dc/fffg)ti(f)ó(fg'h)nes(h_f) pa(hjvvH'GFf'_[oh:h]g_[oh:h]f_[oh:h])cis,(f.) (;) et(fg~) non(f) af(fe~)fli(g)cti(ixgh!jvHG'hw!ivHG)ó(fg!hvGF'g)nis :(gf..) (:) in(f)vo(g)cá(g/hji)bi(jjj)tis(hjgg) me,(f.) (;) et(f) e(g)go(f) ex(f)áu(ixfg'i)di(i)am(i.g!hwihivH~G~) vos :(hg..) (:) et(f) re(f)dú(gh)cam(f) ca(f)pti(f)vi(fff)tá(f)tem(dg) ve(fge/f_d)stram(dc..) (;) de(ffe) cun(g.h!iwj)ctis(hg/h_g) lo(fg!hvGF'g)cis.(gf..) (::) <i>Ps.</i> Be(fg)ne(gf)di(gh)xí(h)sti(h) Dó(h)mi(h)ne(g) ter(ixi)ram(h) tu(g)am :(f.) *(:) a(f)ver(gh)tí(hj)sti(g) ca(f)pti(f')vi(g)tá(fd)tem(f') Ja(g)cob.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
+            "mp3": "introitus_dicit-dominus-ego.mp3",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 13:8-10\nFratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est diléctio.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. V. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula.",
+            "incipit": {
+              "incipit": "Liberasti nos",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c2) LI(d)be(ff)rá(fg)sti(fg'h) nos,(fef.) *(,) Dó(ihig)mi(fg)ne,(g_[oh:h]d//gih/ijhhg.) (;) ex(g) af(gih)fli(ij)gén(j)ti(g)bus(jh/ihig) nos :(g_[oh:h]e//fgf/gddc.) (:) et(c) e(df)os(fdf) qui(d) nos(fe) o(fg)dé(ggfgd//ef/gfg)runt,(fe..) (;) con(gih)fu(jhhggefv.dfe)dí(cdc)sti.(c!e'g) (,) (ce'!gvgv'1FD//ced/e[ll:1]ddc.) (::) <sp>V/</sp>. In(cg) De(gv.fg!hvFD'gvF'EC'd//ffdevDCdv[ll:1]/CBc.)(,)(ff//fffc/dfD'[ull:0]BdfD'Bc.)(,)(ffg/iiivGFE./[-0.5]ghGF'Ef_g)o(g.) (;) lau(hi'j~)dá(j)bi(i)mur(i_[oh:h]h) to(i_[oh:h]h/ikj)ta(jiig) (,) di(gig/iivG'Fg!hwi_[oh:h]h)e,(iiivHG'hfgvFEfe..) (:) et(c) nó(ff)mi(d)ni(c) tu(gfg)o(gge//fgf/gddc.) (;) con(c)fi(d)té(fgf)bi(dgf/gh)mur(g.) <clear>*(,) in(cd) saé(fgf)cu(dgf/gh)la.(g.) (;) (cg/i.g!hwi_[oh:h]g/!iigffd//ceDC.) (::)",
+            "mp3": "graduel_liberasti-nos.mp3",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "texte": "Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. V. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula. Allelúja, allelúja. De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.",
+            "incipit": {
+              "incipit": "Probasti nos",
+              "version": "Solesmes",
+              "distance": 26,
+              "similarite": 0.35,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) PRo(g)bá(g/hih)sti(g/hhg) nos,(g.) *(,) De(gjjk)us :(hvGF'ghhg.) (;) i(g)gne(gj) nos(j) ex(j)a(j)mi(j)ná(ik/ljjh)sti(jhhg/hg/jjh/jggf.0) (:) sic(f!h'j)ut(igh) ex(gf/gh)a(gh)mi(g)ná(gh)tur(g) ar(gh/jij)gén(j.h!iwj)tum.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. In(g)du(g)xí(g!hwi'!jv)sti(j) nos(j) in(j) lá(jk)que(j_g)um,(h_g/h!iw!jvIHijhhg.) (;) po(g)su(gj)í(j)sti(j) tri(j)bu(j)la(j)ti(j)ó(ij)nes(j.) (,) in(j) dor(j)so(j) no(ik/ljjh)stro :(jhhg/hg/jjh/jggf.0) (:) im(f)po(hj)su(igh)í(gfg)sti(gh/ji) hó(j)mi(h!iwj)nes(ijhhg.) (;) su(gh)per(g) cá(hg/jjghvG'F)pi(f!h'j)ta(j) no(j)stra.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Trans(g)í(g!hwi'!jv)vi(j)mus(j) per(jjjvIH) i(jhhg~)gnem(g_[uh:l]h) (,) et(df) a(fv.d!fffdg.ixfg/ihivHG'h)quam :(hg..) (:) et(g) e(gh)du(g)xí(h_g/h!iwj)sti(ghG'F) nos(f.) *(;) in(f!h'j) re(j)fri(j)gé(jijHGg'g/hggfg.)(,)(jjjkvJ'IH'hg)ri(g)um.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "texte": "Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti. V. In Deo laudábimur tota die, et in nómine tuo confitébimur in sǽcula. Allelúja, allelúja. De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.",
+            "incipit": {
+              "incipit": "Domine exaudi",
+              "version": "Solesmes",
+              "distance": 26,
+              "similarite": 0.35,
+              "source": "Alleluia"
+            },
+            "gabc": "(c2) AL(c)le(cfe)lú(g/fg~){ia}.(g.) <clear>*(,) <i>ij.</i>(hgjvIH//ef!gvvFDC.) (;) (g_[oh:h]f/h_e//fggvFD'Cd_eddc.) (::) <sp>V/</sp>. Dó(c!feg)mi(fg)ne,(g.) (,) ex(gh!i'j)áu(j_k)di(g_[oh:h]i_[oh:h]g_[oh:h]!hwi_[oh:h]hivHGhg..) (;) o(f)ra(fff)ti(gi)ó(hv.ghf)nem(dfE'De) me(cdc___)am,(c.) (:) et(c) cla(cfe)mor(fg~) me(gg/i_[oh:h]gg'h!i'j//hjI'HGhi)us(hg..) *(;) ad(c) te(cfe) vé(g)ni(fg)at.(g./hgjvIH//ef!gvvFDC.) (;) (g_[oh:h]f/h_e//fggvFD'Cd_eddc.) (::)",
+            "mp3": "alleluia_domine-exaudi-orationem.mp3",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Alleluia",
-            "texte": ""
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 8:23-27\nIn illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce, motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens, imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et mare obœ́diunt ei?",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "texte": "!Ps 129:1-2\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te, Dómine.",
+            "incipit": {
+              "incipit": "De profundis",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) DE(c) pro(e)fún(f'/hf/hhh)dis(f_ef.) *(,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) <nlba>Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne :</nlba>(f.) (:) Dó(hig'/hf)mi(ef)ne(ff) (,) ex(hji)áu(high)di(f.) (,) o(f)ra(fe)ti(gih)ó(hhhe/gf)nem(fg) me(f)am :(f//hhhe/g_[oh:h]f) (,) (f'/hg/hiG'F//g_[oh:h]fgvFEfvEC//e.f!gwh_f) (,) (h_f/hhhvFE'ec/eef.) (:) <nlba>de(c) pro(e)fún(f'/hf/hhh)dis</nlba>(f_ef.) (,) cla(e)má(e.f!gwh_f)vi(h_g) ad(hghf) te,(fgE'Defef) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (::) (z)",
+            "mp3": "offertoire_de-profundis.mp3",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram ab omni malo purget semper et múniat.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "texte": "!Marc 11:24\nAmen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.",
+            "incipit": {
+              "incipit": "Amen dico vobis quidquid",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) A(cd)men(ixdh'!iv) di(h)co(g) vo(jijh)bis,(h.) (,) * quid(h)quid(g) o(f)rán(h)tes(f) pé(ghg)ti(fg)tis,(g.) (;) cré(ixhih)di(g)te(f) qui(fg)a(f) ac(f)ci(f)pi(f)é(ixfg!hiHF'g)tis,(f.) (;) et(hhV!gh~) fi(fg'h)et(ffe) vo(de!fvED'e)bis.(e[ll:1]d..) (::)",
+            "mp3": "communion_amen-dico-vobis.mp3",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent23-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/PentEpi4-5.txt",
+            "fichier": "Latin/Tempora/PentEpi4-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper instáurent aliméntis.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Jer 29:11; 29:12; 29:14\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.\n!Ps 84:2\nVous avez béni votre terre, Seigneur, vous avez détourné la captivité de Jacob.\n&Gloria\nv. Ainsi parle le Seigneur : J'ai des pensées de paix et non d'affliction ; vous m'invoquerez, et moi je vous exaucerai, et je ramènerai votre captivité de tous les lieux.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Ô Dieu, qui savez bien qu'au milieu de si grands périls notre faiblesse humaine ne nous permet pas de subsister, donnez-nous la santé de l'âme et du corps, pour triompher, avec votre secours, des souffrances que nous avons à subir pour nos péchés.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 13:8-10\nFrères, ne soyez en dette avec personne, si ce n'est de l'amour mutuel ; car celui qui aime son prochain a accompli la loi. En effet, ces commandements: « Tu ne commettras point d'adultère ; tu ne tueras point ; tu ne déroberas point ; tu ne diras point de faux témoignage ; tu ne convoiteras point », et ceux qu'on pourrait citer encore, se résument dans cette parole : « Tu aimeras ton prochain comme toi-même. » L'amour ne fait point de mal au prochain ; l'amour est donc la plénitude de la loi.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Vous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient. V. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Vous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient. V. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais. Alléluia, alléluia. Des profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Alléluia.",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "Vous nous avez délivrés, Seigneur, de ceux qui nous affligeaient, et vous avez couvert de honte ceux qui nous haïssaient. V. En Dieu nous nous glorifierons tout le jour, célébrant votre Nom à jamais. Alléluia, alléluia. Des profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 8:23-27\nEn ce temps-là, Jésus étant monté dans une barque, ses disciples le suivirent. Et voici que la mer devint très agitée, au point que la barque était couverte par les vagues : lui cependant dormait. Ses disciples s'approchèrent, le réveillèrent et lui dirent : « Seigneur, sauvez-nous, nous périssons ! » Il leur dit : « Pourquoi êtes-vous peureux, hommes de peu de foi ? » Alors il se dressa et commanda avec force aux vents et à la mer, et il se fit un grand calme. Et les hommes, saisis d'admiration, disaient : « Qui est-il donc, que même les vents et la mer lui obéissent ? »",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Ps 129:1-2\nDes profondeurs je crie vers vous, Seigneur ; Seigneur, exaucez ma prière. Des profondeurs je crie vers vous, Seigneur",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Faites, Dieu tout-puissant, que l'offrande de ce sacrifice nous purifie sans cesse et préserve de tout mal notre humaine faiblesse.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Marc 11:24\nAmen je vous le dis : tout ce que vous demandez dans la prière, croyez que vous le recevrez, et cela adviendra pour vous.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent23-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/PentEpi4-5.txt",
+            "fichier": "Francais/Tempora/PentEpi4-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Que vos dons, Seigneur, nous détachent des plaisirs de la terre et nous fortifient toujours d'une nourriture du ciel.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/PentEpi4-5.txt",
-        "Latin/Tempora/PentEpi4-5.txt"
+        "Francais/Tempora/PentEpi4-0.txt",
+        "Latin/Tempora/PentEpi4-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 2,
       "numero": 1
     }
   ]

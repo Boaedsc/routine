@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent04-4",
-        "nom_sanctoral": "S. Gregorii Barbadici Ep. Conf",
-        "classe": 1.0,
+        "gagnant": "Tempora/Pent04-0",
+        "nom_sanctoral": "4e dimanche après la Pentecôte",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent04-4.txt",
-        "temporal": "Latin/Tempora/Pent04-4.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent04-0.txt",
+        "temporal": "Latin/Tempora/Pent04-0.txt",
         "sanctoral": null,
         "calendrier": "06-17",
         "table_transfert": null,
@@ -23,139 +23,216 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent04-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "texte": "!Ps 26:1; 26:2\nv. Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi infirmáti sunt, et cecidérunt.\n!Ps 26:3\nSi consístant advérsum me castra: non timébit cor meum.\n&Gloria\nv. Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi infirmáti sunt, et cecidérunt.",
+            "incipit": {
+              "incipit": "Dominus illuminatio",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(f3) DO(c!e'f~)mi(f)nus(f_[oh:h]g_[oh:h]f_[oh:h]) *(,) il(e)lu(f)mi(hh)ná(h)ti(hhhf)o(f) me(fhhf)a,(f.) (,) et(ef) sa(hhi)lus(h) me(hh/ihhe)a,(e.) (;) quem(fi) ti(hiH'Gh)mé(f_[oh:h]g_[oh:h]f_[oh:h])bo?(f.) (:) Dó(f!h'i~)mi(i)nus(iji) (,) de(h)fén(hih)sor(hhh) <nlba>vi(hih)tae</nlba>(hhh) me(hiH'F)ae,(f.) (;) a(f) quo(f!h'i) tre(i)pi(h)dá(h!jij)bo?(hij..) (:) qui(f) trí(f!h'i)bu(i)lant(kxih/jki) me(hihh/fgf.) (,) in(f)i(hg)mí(h)ci(f) me(f!hhhffef)i,(fe..) (;) in(f)fir(hh)má(h)ti(hhh) sunt,(f.) (,) et(fge) ce(hh)ci(ivH'Gh)dé(f_[oh:h]g_[oh:h]f_[oh:h])runt.(f.) (::) <i>Ps.</i> Si(e) con(fe~)sí(eh)stant(h) ad(h)vér(hg)sum(hi) me(i) ca(hi)stra :(h.) *(:) non(h) ti(h')mé(i)bit(hf) cor(h) me(ge)um.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+            "mp3": "introitus_dominus-illuminatio-mea.mp3",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Da nobis, quǽsumus, Dómine: ut et mundi cursus pacífice nobis tuo órdine dirigátur; et Ecclésia tua tranquílla devotióne lætétur.\n$Per Dominum.",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 8:18-23\nFratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta est, non volens, sed propter eum, qui subjécit eam in spe: quia et ipsa creatúra liberábitur a servitúte corruptiónis, in libertátem glóriæ filiórum Dei. Scimus enim, quod omnis creatúra ingemíscit et párturit usque adhuc. Non solum autem illa, sed et nos ipsi primítias spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino nostro.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum? V. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.",
+            "incipit": {
+              "incipit": "Propitius esto (Grad.)",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) PRo(d)pí(ffg)ti(f)us(f) e(ghgh)sto(gv.fgFD.1) (,) * Dó(dgf/gh)mi(g)ne(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) pec(f)cá(ghghjkj)tis(ixhiH'G) no(ixhjg___!hwihi)stris :(ih..) (:) ne(f) quan(hg~)do(gj) di(hhg)cant(gh) gen(hg/hfg)tes :(fv.e!g'h/fg!hvF'EDef!gvgf.0) (:) U(ixf!hhi)bi(g) est(gjj) De(j)us(j) e(ixj.h!iw!jvIG'hw!ivHG)ó(fgf)rum?(f!h'j) (,) (fh'!jvjv'1IGfhg/hggf.0) (z0::c3) \r\n<sp>V/</sp>. Ad(d)ju(d)va(f) nos,(gxg) De(h)us(h.) sa(h)lu(h)tá(h)ris(h) no(h)ster :(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/!ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'hvGF.) (:) et(hh) pro(h)pter(h) ho(h)nó(ih/ij_h ih/ij_ij//hi/jij)rem(jh/jkihh/fgf.) (;) nó(d)mi(d)nis(d) tu(d)i(d) Dó(d)mi(d)ne,(d.) (,) * lí(dfE'D)be(ef)ra(fhG'Fhhh) nos.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
+            "mp3": "graduel_propitius-esto.mp3",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja. Deus, qui sedes super thronum, et júdicas æquitátem: esto refúgium páuperum in tribulatióne. Allelúja.",
+            "incipit": {
+              "incipit": "Deus qui sedes",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(e)le(e)lú(ef/hf/h_f//h!jhi){ia}.(i.) <clear>*(;) <i>ij.</i>(h!iwj!kvJI'Hi.//gi!jvIH.ghFE.) (,) (ghi!jvIH.ghF'Ef_gffe.) (::) <sp>V/</sp>. De(ef/hf/h_f//h!jhi)us,(i.) (,) qui(ei) se(ij//hk/jki/jji)des(i.) (,) su(i)per(gh'i) thro(i/jg/h_i//ji/jg/h_i)(,)(kkh/jijvHF'gwh!iv.giH'GE)(,)(f!hgh./fh//ghF'Dev.)(;)(i_[uh:l]jI'//Ef_e//f!gwh!iv.h/kki)(,)([oh:{]k_j/l_[oh:}]klvKI.//kjkvIH'iwj)num,(ijhivHGhg..) (;) et(fi) jú(i!jwk)di(ih)cas(h) ae(h)qui(hi)tá(ihivHF.ihi)tem :(ijhivHGhg..) (:) e(gh!ij)sto(i) re(i)fú(hi)gi(i)um(i.) páu(ijH'Gh)pe(f!gw!hvG'FE'f)rum(fe..) *(;) in(e) tri(ef)bu(e)la(e)ti(e)ó(ef/hf/h_f//h!jhi)ne.(i.) (;) (h!iwj!kvJI'Hi.//gi!jvIH.ghFE.) (,) (ghi!jvIH.ghF'Ef_gffe.) (::)",
+            "mp3": "alleluia_deus-qui-sedes.mp3",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 5:1-11\nIn illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum Dei, et ipse stabat secus stagnum Genésareth. Et vidit duas naves stantes secus stagnum: piscatóres autem descénderant et lavábant rétia. Ascéndens autem in unam navim, quæ erat Simónis, rogávit eum a terra redúcere pusíllum. Et sedens docébat de navícula turbas. Ut cessávit autem loqui, dixit ad Simónem: Duc in altum, et laxáte rétia vestra in captúram. Et respóndens Simon, dixit illi: Præcéptor, per totam noctem laborántes, nihil cépimus: in verbo autem tuo laxábo rete. Et cum hoc fecíssent, conclusérunt píscium multitúdinem copiósam: rumpebátur autem rete eórum. Et annuérunt sóciis, qui erant in ália navi, ut venírent et adjuvárent eos. Et venérunt, et implevérunt ambas navículas, ita ut pæne mergeréntur. Quod cum vidéret Simon Petrus, prócidit ad génua Jesu, dicens: Exi a me, quia homo peccátor sum, Dómine. Stupor enim circumdéderat eum et omnes, qui cum illo erant, in captúra píscium, quam céperant: simíliter autem Jacóbum et Joánnem, fílios Zebedǽi, qui erant sócii Simónis. Et ait ad Simónem Jesus: Noli timére: ex hoc jam hómines eris cápiens. Et subdúctis ad terram návibus, relictis ómnibus, secuti sunt eum.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "texte": "!Ps 12:4-5\nIllúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.",
+            "incipit": {
+              "incipit": "Illumina",
+              "version": "Solesmes",
+              "distance": 5,
+              "similarite": 0.875,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) IL(ff)lú(fhg'/hf)mi(dgF'E)na(e.) *(,) ó(g_[oh:h]e)cu(ghg)los(h) me(ixhv.gih'ivG'Ff'g!hiH'Gih)os,(h.) (;) ne(jj)quán(gh)do(ff) ob(e)dór(ge/ghg)mi(gffvED)am(e_[oh:h][ll:1]d_[oh:h]) (,) in(fh~) mor(h_g/jjjvG'E//g_[oh:h]f/ghG'FgvFE)te :(e.) (:) ne(ef!ghg)quán(gh)do(ghG'F) di(gh)cat(h/jjjvIH.) (,) in(h)i(ghg)mí(h/jjjvIH)cus(g_[uh:l]h) me(egF'E)us :(fff) (;) Prae(dec)vá(fv.fff)lu(dc)i([ull:1{0]cccc_[oh:h]a_[oh:h][ull:}]) (;) ad(c@f!de~)vér(eef)sus(d!ewf) e(fff/ghG'//D//fffhvGFgvFE)um.(e.) (::)",
+            "mp3": "offertoire_illumina-oculos-meos.mp3",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad te nostras étiam rebélles compélle propítius voluntátes.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad4-6.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "texte": "!Ps 17:3\nDóminus firmaméntum meum, et refúgium meum, et liberátor meus: Deus meus, adjútor meus.",
+            "incipit": {
+              "incipit": "Dominus firmamentum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(f3) DO(h)mi(gh)nus(fhe.) <clear>*(,) fir(hg~)ma(hi)mén(iih)tum(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])um,(f.) (;) et(e) re(f)fú(f!gwh)gi(e)um(ec~) me(ef!hvGF)um,(f!gwh.) (;) et(hf~) li(hih)be(iji)rá(jji)tor(hi) me(hiih)us :(h.) (:) De(j)us(ij) me(hvGF)us(fhffe.) (;) ad(gh'i~)jú(iih)tor(f/hhe/gf) me(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(hi~)le(gf/hg)lú(eg/igh){ia}.(gf..) (::)",
+            "mp3": "communion_dominus-firmamentum-meum.mp3",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent04-4.txt",
+            "fichier": "Latin/Tempora/Pent04-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Mystéria nos, Dómine, quǽsumus, sumpta puríficent: et suo múnere tueántur.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Ps 26:1; 26:2\nv. Le Seigneur est ma lumière et mon salut, qui craindrais-je ? Le Seigneur est le défenseur de ma vie, devant qui tremblerais-je ? Ceux qui troublent mon âme se sont affaiblis et ils sont tombés.\n!Ps 26:3\nSi une armée se lève contre moi, mon cœur reste sans crainte.\n&Gloria\nv. Le Seigneur est ma lumière et mon salut, qui craindrais-je ? Le Seigneur est le défenseur de ma vie, devant qui tremblerais-je ? Ceux qui troublent mon âme se sont affaiblis et ils sont tombés.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Accordez-nous, Seigneur, que tout à la fois le cours du monde soit dirigé par votre Providence pour notre bien, et que votre Église jouisse d'une tranquille dévotion.\n$Per Dominum.",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Romános.\n!Rom 8:18-23.\nFrères, j'estime que les souffrances du temps présent sont sans proportion avec la gloire à venir qui sera manifestée en nous. Aussi la création attend-elle avec un ardent désir la manifestation des enfants de Dieu. La création, en effet, a été assujettie à la vanité, — non de son gré, mais par la volonté de celui qui l'y a soumise, — avec l'espérance qu'elle aussi sera affranchie de la servitude de la corruption, pour avoir part à la liberté glorieuse des enfants de Dieu. Car nous savons que, jusqu'à ce jour, la création tout entière gémit et souffre les douleurs de l'enfantement. Et ce n'est pas elle seulement ; nous aussi, qui avons les prémices de l'Esprit, nous gémissons en nous-mêmes, attendant l'adoption des enfants de Dieu, la rédemption de notre corps, dans le Christ Jésus, notre Seigneur.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent04-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Pardonnez nos péchés, Seigneur, de peur que les peuples ne disent : Où est leur Dieu ? V. Aidez-nous, ô Dieu, notre salut, et pour l'honneur de votre Nom, Seigneur, libérez-nous.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent04-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Ô Dieu qui siégez sur un trône et jugez avec équité, soyez le refuge des pauvres dans la tribulation. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 5:1-11\nEn ce temps-là, comme la foule se pressait vers Jésus pour entendre la parole de Dieu, et que lui se tenait sur le bord du lac de Génésareth, il vit deux barques qui stationnaient sur le bord ; les pêcheurs étaient descendus et lavaient les filets. Il monta dans une des barques, qui était à Simon, et le pria de s'éloigner un peu du rivage ; et s'étant assis, de la barque il enseignait les foules. Lorsqu'il eut cessé de parler, il dit à Simon : « Avance au large, et jetez vos filets pour la pêche. » Simon répondit : « Maître, toute la nuit nous avons peiné sans rien prendre ; mais, sur ta parole, je jetterai les filets. » Et l'ayant fait, ils prirent une grande quantité de poissons ; et leurs filets se rompaient. Et ils firent signe aux compagnons, qui étaient dans l'autre barque, de venir à leur aide. Ils vinrent, et on remplit les deux barques, au point qu'elles enfonçaient. Ce que voyant, Simon Pierre tomba aux genoux de Jésus en disant : « Éloigne-toi de moi, parce que je suis un pécheur, Seigneur ! » Car la stupeur l'avait envahi, lui et tous ceux qui étaient avec lui, à cause de la pêche des poissons qu'ils avaient faite ; et de même Jacques et Jean, fils de Zébédée, qui étaient associés à Simon. Et Jésus dit à Simon : « Ne crains point ; désormais ce sont des hommes que tu prendras. » Ils ramenèrent les barques à terre et, laissant tout, ils le suivirent.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Ps 12:4-5\nIlluminez mes yeux, de peur que je ne m'endorme dans la mort ; de peur que mon ennemi ne dise : Je l'ai emporté sur lui.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "En accueillant nos offrandes, Seigneur, soyez-nous indulgent, et retournez vers vous nos volontés rebelles.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 17:3\nLe Seigneur est mon soutien, mon refuge et mon libérateur ; ô Dieu, vous êtes mon secours.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent04-4.txt",
+            "fichier": "Francais/Tempora/Pent04-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Que les mystères auxquels nous venons de participer, Seigneur, nous purifient et nous protègent par leur action bienfaisante.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/Pent04-4.txt",
-        "Latin/Tempora/Pent04-4.txt"
+        "Francais/Tempora/Pent04-0.txt",
+        "Latin/Tempora/Pent04-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

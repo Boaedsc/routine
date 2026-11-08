@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent18-6",
-        "nom_sanctoral": "",
-        "classe": 1.0,
+        "gagnant": "Tempora/Pent18-0",
+        "nom_sanctoral": "18e dimanche après la Pentecôte",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent18-6.txt",
-        "temporal": "Latin/Tempora/Pent18-6.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent18-0.txt",
+        "temporal": "Latin/Tempora/Pent18-0.txt",
         "sanctoral": null,
         "calendrier": null,
         "table_transfert": null,
@@ -23,139 +23,209 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent18-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "texte": "!Eccli 36:18\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël\n!Ps 121:1\nLætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.\n&Gloria\nv. Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur: exáudi preces servi tui et plebis tuæ Israël",
+            "incipit": {
+              "incipit": "Da pacem",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) DA(ixdh'!iv) pa(ixhi)cem,(h') *(,) Dó(hjjh)mi(ixihig)ne,(hg..) (,) sus(ixhig)ti(f)nén(fg)ti(g)bus(ghF'Ef) te,(d.) (:) ut(d) pro(ff)phé(fg)tae(g) tu(ixhg/hig)i(fgf.) (,) fi(f)dé(ixf!gwh'!iv)les(h) in(jj)ve(hhg)ni(fh)án(gh~)tur :(f.) (:) ex(f)áu(ixhiH~'G~)di(g.) pre(ixhig)ces(f) ser(fg~)vi(g) tu(g.f!gwhgh)i,(hg..) (;) et(f@h!gh~) ple(h)bis(hgffd) tu(d!f/[1]{/[-1]ix}f/hig)ae(g.) (,) Is(fgF'D)ra(d!ewf_d)el.(d.) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <nlba><i>Ps.</i> Lae(f)tá(gh)tus</nlba>(h) sum(h) in(h) his(h) quae(h) di(hj)cta(h) sunt(h) mi(hg)hi :(gh..) *(:) in(gf) do(gh)mum(h) Dó(h)mi(hjh)ni(g') í(f)bi(fff)mus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+            "mp3": "introitus_da-pacem-domine.mp3",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Dírigat corda nostra, quǽsumus, Dómine, tuæ miseratiónis operátio: quia tibi sine te placére non póssumus.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:4-8\nFratres: Grátias ago Deo meo semper pro vobis in grátia Dei, quæ data est vobis in Christo Jesu: quod in ómnibus dívites facti estis in illo, in omni verbo et in omni sciéntia: sicut testimónium Christi confirmátum est in vobis: ita ut nihil vobis desit in ulla grátia, exspectántibus revelatiónem Dómini nostri Jesu Christi, qui et confirmábit vos usque in finem sine crímine, in die advéntus Dómini nostri Jesu Christi.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. V. Fiat pax in virtúte tua: et abundántia in túrribus tuis.",
+            "incipit": {
+              "incipit": "Laetatus sum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c2) LAe(ff)tá(g)tus(fgF'Dgfg) sum(g./hiHG'gf/ghg.___) <clear>*(;) in(fg) his(gj) quae(j) di(jii)cta(g) sunt(gj~) mi(j_)hi :(g) (,) (ihij_i//hjii/ghg.) (:) in(gh) do(gh)mum(g_[oh:h]e) Dó(f)mi(dec)ni(c.) (,) í(eggf/g_[oh:h]e//fvED'ef'gffd!ewf)bi(cdc___)mus.(c.) (::) <sp>V/</sp>. Fi(gfg)at(gj~) pax(j_kJ'//G//ihij_i//hjii/ghg.) (;) in(f) vir(g)tú(g!ii//iikvJI'ig)te(gffd) tu(fdffd/ec)a :(c.) (:) et(g) a(c)bun(df~)dán(fv.d!gf'gjv.iiiih~)ti(ij)a(j_g//ihij_i//hjii/ghg.) (;) * in(cd) túr(fgf)ri(dgf/gh)bus(gh) tu(gf)is.(f.) (,) (hg/i_[oh:h]hgiHG'ge./fge'fvD'Cd_eddc.) (::)",
+            "mp3": "graduel_laetatus-sum.mp3",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.",
+            "incipit": {
+              "incipit": "Timebunt gentes",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(dfddc~)le(fgf)lú(ghggf~){ia}.(f.) <clear>*(;) <i>ij.</i>(ixfh!ivHGhjh'jvIG'gf.0) (;) (ixfh!ivHGhjh'jvIG'gf.0) (,) (ghGF'gd.0/e!fwgffvEC.) (,) (cd!ef/gffvED.) (::) <sp>V/</sp>. Ti(dfddc)mé(fgf)bunt(ghg/hgg) gen(fg!hvGF'g)tes(fgf.) (;) no(fg!hvGF'gd.0/e!fwgf)men(fvEC.) tu(cd!ef/gffvED)um,(d.) (,) Dó(cb)mi(c.d!ewfd)ne :(d.) (:) et(d) o(df/dec)mnes(d.0f!gwhghvGF) re(g.h!iwjh.1)(,)(fgh!jjhh'hhvGF)ges(gh) ter(ghGF'g)rae(d/ffd/e[ll:1]ddc.) (;) gló(ccdde/!fg./!fh/!ghf.1)(,)(gf/!ghf/!fvECddv[ll:1]/CA)ri(cd)am(d.) <clear>*(,) tu(ff/dec./d!ffg//f!gh'GF)am.(f.) (;) (ixfh!ivHGhjh'jvIG'gf.0) (;) (ixfh!ivHGhjh'jvIG'gf.0) (,) (ghGF'gd.0/e!fwgffvEC.) (,) (cd!ef/gffvED.) (::)",
+            "mp3": "alleluia_timebunt-gentes.mp3",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 9:1-8\nIn illo témpore: Ascéndens Jesus in navículam, transfretávit et venit in civitátem suam. Et ecce, offerébant ei paralýticum jacéntem in lecto. Et videns Jesus fidem illórum, dixit paralýtico: Confíde, fili, remittúntur tibi peccáta tua. Et ecce, quidam de scribis dixérunt intra se: Hic blasphémat. Et cum vidísset Jesus cogitatiónes eórum, dixit: Ut quid cogitátis mala in córdibus vestris? Quid est facílius dícere: Dimittúntur tibi peccáta tua; an dícere: Surge et ámbula? Ut autem sciátis, quia Fílius hóminis habet potestátem in terra dimitténdi peccáta, tunc ait paralýtico: Surge, tolle lectum tuum, et vade in domum tuam. Et surréxit et ábiit in domum suam. Vidéntes autem turbæ timuérunt, et glorificavérunt Deum, qui dedit potestátem talem homínibus.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "texte": "!Exodi 24:4; 24:5\nSanctificávit Móyses altáre Dómino, ófferens super illud holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in odórem suavitátis Dómino Deo, in conspéctu filiórum Israël.",
+            "incipit": {
+              "incipit": "Sanctificavit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) SAn(fg)cti(f)fi(ghg)cá(ixhiH'G)vit(h_ghvGF.) (,) * Mó(f)y(h)ses(h!iwj/kjj/hih.) (;) al(f)tá(hj)re(jv.jjj_h) Dó(h)mi(h_[oh:h]i_[oh:h]h_[oh:h])no,(h.) (:) óf(hj)fe(gh)rens(gfg) su(ghG'F)per(fg) il(ixhgg'g//ggg_[oh:h]f/gih)lud(h.) (,) ho(h!iwj)lo(g/jjvHG'gfg)cáu(f.e!fwg!hvGF'g)sta,(gf..) (:) et(f.0h!iwj'!kv) ím(jk)mo(jvIH)lans(jj) ví(jk!lvKJ)cti(j_[hl:1]k_[hl:1]j_[hl:1])mas :(j.) (;) fe(jk)cit(jji) sa(jjj)cri(h!iw!jvIG')fí(h/jjj)ci(j_[hl:1]k_[hl:1]j_[hl:1])um(j.) ve(jk)sper(jvI~H~)tí(h_[oh:h]i_[oh:h]h_[oh:h])num(h.) (;) in(h) o(hf)dó(hj)rem(j'/kjj) su(j)a(j)vi(h)tá(h_g//hjg___hvGF'g)tis(gf..) (,) Dó(h!iwj)mi(g)no(fg/hgh) De(h_[oh:h]i_[oh:h]h_[oh:h])o,(h.) (:) in(h) con(j)spé(j_h/jjg/h//jjvH'Fg_[oh:h]f)ctu(fgff//df/gffgD'Cd_[oh:h]e_[oh:h]d._[oh:h]) (;) fi(c)li(d)ó(f)rum(gf~) Is(f)ra(gh)el.(hv.gh!jjvHG'ge//f_[oh:h]g_[oh:h]e_[oh:h]!fwggf.0) (::)",
+            "mp3": "offertoire_sanctificavit-moyses.mp3",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Deus, qui nos, per hujus sacrifícii veneránda commércia, uníus summæ divinitátis partícipes éfficis: præsta, quǽsumus; ut, sicut tuam cognóscimus veritátem, sic eam dignis móribus assequámur.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "texte": "!Ps 95:8-9\nTóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula sancta ejus.",
+            "incipit": {
+              "incipit": "Tollite hostias",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) TOl(i)li(h)te(g) hó(ijij)sti(hi)as,(i_[oh:h]g) *(,) et(h) in(g)tro(hi)í(i_[oh:h]g/hih)te(g.) (,) in(h) á(h_f//hgh)tri(gf)a(f) e(fhghvG~F~)jus :(gf..) (:) ad(hg)o(h)rá(i_[oh:h]h_[oh:h])te(h_f) Dó(f_e)mi(e_[oh:h][ll:1]d)num(d.) (,) in(f) au(fhgivH~G~)la(g) san(g)cta(gih) e(fiH~'G~)jus.(g.) (::)",
+            "mp3": "communion_tollite-hostias.mp3",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent18-6.txt",
+            "fichier": "Latin/Tempora/Pent18-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Grátias tibi reférimus, Dómine, sacro múnere vegetáti: tuam misericórdiam deprecántes; ut dignos nos ejus participatióne perfícias.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Eccli 36:18\nv. Donnez la paix, Seigneur, à ceux qui espèrent en vous, afin que vos prophètes soient trouvés dignes de foi ; exaucez les prières de votre serviteur et de votre peuple Israël.\n!Ps 121:1\nJe me suis réjoui lorsqu'on m'a dit : Nous irons à la maison du Seigneur.\n&Gloria\nv. Donnez la paix, Seigneur, à ceux qui espèrent en vous, afin que vos prophètes soient trouvés dignes de foi ; exaucez les prières de votre serviteur et de votre peuple Israël.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Soyez vous-même, Seigneur, le guide compatissant de nos cœurs, puisque sans vous il nous est impossible de vous plaire.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios\n!1 Cor 1:4-8\nFrères, je rends à mon Dieu de continuelles actions de grâces à votre sujet, pour la grâce de Dieu qui vous a été faite en Jésus-Christ. Car par votre union avec lui, vous avez été comblés de toute sorte de richesses, en toute parole et en toute connaissance, le témoignage du Christ ayant été solidement établi parmi vous, de sorte que vous ne le cédez à personne en aucun don de grâce, attendant avec confiance la révélation de Notre-Seigneur Jésus-Christ. Il vous affermira aussi jusqu'à la fin, pour que vous soyez irréprochables, au jour de Notre-Seigneur Jésus-Christ.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Je me suis réjoui lorsqu'on m'a dit : Nous irons à la maison du Seigneur. V. Que la paix soit dans tes fortifications, et l'abondance dans tes tours.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent18-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Les peuples craindront votre Nom, Seigneur, et tous les rois de la terre votre gloire. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 9:1-8\nEn ce temps-là, étant monté dans la barque, Jésus fit la traversée et revint dans sa ville. Et voilà qu'on lui présentait un paralytique, étendu sur un lit. Jésus, voyant leur foi, dit au paralytique : « Aie confiance, mon fils, tes péchés te sont remis. » Et voici que quelques scribes se dirent en eux-mêmes : « Cet homme blasphème. » Jésus, ayant connaissance de leurs pensées, leur dit : « Pourquoi pensez-vous au mal dans vos cœurs ? Lequel est le plus aisé de dire : Tes péchés te sont remis; ou de dire : Lève-toi et marche ? Mais pour que vous sachiez que le Fils de l'homme a, sur la terre, le pouvoir de remettre les péchés : Lève-toi, dit-il alors au paralytique, prends ton lit, et va dans ta maison. » Et il se dressa et s'en retourna dans sa maison. À cette vue les foules furent saisies de crainte et glorifièrent Dieu d'avoir donné une telle puissance aux hommes.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Exodi 24:4; 24:5\nMoïse consacra un autel au Seigneur, offrant sur lui des holocaustes et immolant des victimes. Il fit le sacrifice du soir en odeur de suavité pour le Seigneur Dieu, en présence des fils d'Israël.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Ô Dieu qui, par les admirables échanges réalisés en ce sacrifice, nous rendez participants de votre unique et souveraine divinité, faites que, connaissant votre vérité, nous puissions aussi l'atteindre par une conduite digne d'elle.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 95:8-9\nPrenez des hosties et entrez dans ses parvis ; adorez le Seigneur dans son temple saint.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent18-6.txt",
+            "fichier": "Francais/Tempora/Pent18-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Nourris du don sacré, nous vous rendons grâces, Seigneur, vous suppliant, dans votre bonté, de nous rendre pleinement dignes d'en recueillir tout le fruit.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/Pent18-6.txt",
-        "Latin/Tempora/Pent18-6.txt"
+        "Francais/Tempora/Pent18-0.txt",
+        "Latin/Tempora/Pent18-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

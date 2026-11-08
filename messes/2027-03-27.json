@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quad6-6r",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Samedi saint",
         "classe": 7.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quad6-6r.txt",
@@ -25,6 +25,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -32,124 +33,162 @@
           "Introitus": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/03-27.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster."
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:10-14\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum justum non derelíquit, sed a peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant: et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus, Deus noster.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/03-27.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nIn illo témpore: Factum est et in álio sábbato, ut intráret Jesus in synagógam et docéret. Et erat ibi homo, et manus ejus déxtera erat árida. Observábant autem scribæ et pharisæi, si in sábbato curáret: ut invenírent, unde accusárent eum. Ipse vero sciébat cogitatiónes eórum. Et ait hómini, qui habébat manum áridam: Surge et sta in médium. Et surgens stetit. Ait autem ad illos Jesus: Intérrogo vos, si licet sábbatis benefácere, an male: ánimam salvam fácere, an pérdere? Et circumspéctis ómnibus dixit hómini: Exténde manum tuam. Et exténdit: et restitúta est manus ejus. Ipsi autem repléti sunt insipiéntia, et colloquebántur ad ínvicem, quidnam fácerent Jesu."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nIn illo témpore: Factum est et in álio sábbato, ut intráret Jesus in synagógam et docéret. Et erat ibi homo, et manus ejus déxtera erat árida. Observábant autem scribæ et pharisæi, si in sábbato curáret: ut invenírent, unde accusárent eum. Ipse vero sciébat cogitatiónes eórum. Et ait hómini, qui habébat manum áridam: Surge et sta in médium. Et surgens stetit. Ait autem ad illos Jesus: Intérrogo vos, si licet sábbatis benefácere, an male: ánimam salvam fácere, an pérdere? Et circumspéctis ómnibus dixit hómini: Exténde manum tuam. Et exténdit: et restitúta est manus ejus. Ipsi autem repléti sunt insipiéntia, et colloquebántur ad ínvicem, quidnam fácerent Jesu.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad6-6r.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/03-27.txt",
             "section": "Lectio",
-            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle."
+            "texte": "Lecture du livre de la Sagesse.\n!Sap 10: 10-14\nLe Seigneur a conduit le juste par les voies droites, il lui a montré le royaume de Dieu et lui a donné la science des choses saintes. Il l’a enrichi dans ses labeurs et a fait fructiﬁer ses travaux. Contre la ruse de ses ennemis il l’a aidé et lui a donné la richesse. Il l’a protégé contre ses ennemis et l’a défendu contre les séducteurs ; il lui a donné un rude combat aﬁn qu’il soit victorieux, et pour lui ap­prendre que la sagesse est plus puissante que tout. Celle-ci n’abandonna pas le juste lorsqu’il fut vendu, mais elle le délivra des pécheurs. Elle descendit avec lui dans la fosse et ne le quitta pas dans les chaînes, jusqu’à ce qu’elle lui eût procuré le sceptre du royaume et la puissance contre ses oppresseurs. Elle convainquit de mensonge ceux qui l’avaient calomnié et le Seigneur notre Dieu lui donna une gloire éternelle.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C2a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/03-27.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nEn ce temps-là : Il arriva, un autre jour de sabbat, qu’Il entra dans la synagogue et qu’Il enseignait ; et il y avait là un homme dont la main droite était desséchée. Or les scribes et les pharisiens L’observaient, pour voir s’Il ferait une guérison le jour du sabbat, afin de trouver de quoi L’accuser. Mais Lui, Il connaissait leurs pensées, et Il dit à l’homme qui avait la main desséchée : Lève-toi, et tiens-toi là au milieu. Et se levant, il se tint debout. Alors Jésus leur dit : Je vous demande s’il est permis, les jours de sabbat, de faire du bien ou de faire du mal, de sauver la vie ou de l’ôter ? Et ayant promené Ses regards sur eux tous, Il dit à l’homme : Étends ta main. Il l’étendit, et sa main fut guérie. Mais eux, remplis de démence, s’entretenaient ensemble de ce qu’ils feraient à Jésus."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:6-11\nEn ce temps-là : Il arriva, un autre jour de sabbat, qu’Il entra dans la synagogue et qu’Il enseignait ; et il y avait là un homme dont la main droite était desséchée. Or les scribes et les pharisiens L’observaient, pour voir s’Il ferait une guérison le jour du sabbat, afin de trouver de quoi L’accuser. Mais Lui, Il connaissait leurs pensées, et Il dit à l’homme qui avait la main desséchée : Lève-toi, et tiens-toi là au milieu. Et se levant, il se tint debout. Alors Jésus leur dit : Je vous demande s’il est permis, les jours de sabbat, de faire du bien ou de faire du mal, de sauver la vie ou de l’ôter ? Et ayant promené Ses regards sur eux tous, Il dit à l’homme : Étends ta main. Il l’étendit, et sa main fut guérie. Mais eux, remplis de démence, s’entretenaient ensemble de ce qu’ils feraient à Jésus.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad6-6r.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         }
       },

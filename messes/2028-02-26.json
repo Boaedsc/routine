@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quadp2-6",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Samedi de la semaine de la Sexagésime",
         "classe": 1.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quadp2-6.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -30,20 +31,23 @@
           "Introitus": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 82:19; 82:14\nSciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super omnem terram,\nV. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.",
+            "texte": "Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super omnem terram, V. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.",
             "incipit": {
               "incipit": "Sciant gentes",
               "version": "Solesmes",
@@ -54,109 +58,148 @@
             "gabc": "(c4) SCi(dfd)ant(d/ffd/fffhvGF) gen(gff'f)tes(d/ffdev'1//fgddc.) (;) * quó(d)ni(fdf)am(gfg) no(ixg_[oh:h]f/g/igh)men(h) ti(ixh.g!hwi)bi(h.) (;) De(ixg_[oh:h]f/g/igh)us :(hgi//hihiggf.0) (:) tu(f) so(hf/gh!jjh)lus(hghvGFg.) (,) Al(h!jij)tís(h_f)si(gf~)mus(f_g//d!f'g//fh!jvGF'fd/ff/ge'/fgd'/e[ll:1]ddc.) (:) su(c)per(d) o(fg/hg)mnem(h!jj/hjg) ter(fv.dge//f!gwh)ram.(ghffgFE.) (,) (h_jHG'hvF'D//ff/gffd.) (::) <sp>V/</sp>. De(hg)us(g) me(gh/jh/jggf)us,(f.) (;) po(hj)ne(j_i) il(jjj)los(hg__) (,) ut(gf~) ro(ixgv.fhg/hiGF.hf/gh!jj/k!mmmvKJ'jvH'G)(,)(jkjjh)tam,(hjh/jjjh..) (:) et(f) sic(f)ut(ghg~) stí(h_f/ghGF.)(,)(hV!ghfg./d!ewf//e!gwhg/h!jj)pu(hfg)lam(ghgff/ded.) (:) an(d!fffd~)te(ef) fá(ghghhghv.ixfh!ivGF'E//f!gwh!ivHG)ci(hg)em(g.) <clear>*(,) ven(ixhiGF'h!jjvH'G)ti.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": "graduel_sciant-gentes.mp3",
             "fichier": "Latin/Tempora/Quadp2-6.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
+            "texte": "Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super omnem terram, V. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.",
+            "incipit": {
+              "incipit": "Gustate... Beatus",
+              "version": "Solesmes",
+              "distance": 29,
+              "similarite": 0.275,
+              "source": "Tractus"
+            },
+            "gabc": "(c3) GU(e)stá(e/fgf)te(e!ffe.) (,) * et(ehhi) vi(f)dé(fe/fd//f!hfh)te :(hhhvGFgvFEfe..) (;) quó(ef)ni(e)am(e) su(f_e/f!gwh)á(ef)vis(e[ll:1]d) est(d!f'h) Dó(h)mi(hghFE.gxhhvF'EfgED.)(,)(gyf./hf/ge)nus.(e/ffe.) (::) \r\n<sp>V/</sp>. Be(e)á(eh)tus(h) vir(h.) (,) qui(h) spe(h)rat(h) in(h) e(gi/jhhf)o :(hffe/fe/hhf/hee[ll:1]d.0) (:) quó(d)ni(d)am(fh) ni(gef)hil(e[ll:1]d) de(ef)est(e.) (,) ti(e)mén(ef)ti(e)bus(ef/hgh) e(h.f!gwh)um.(hhhvGFgvFEfe..) (::) \r\n<sp>V/</sp>. Dí(e!fwg'!hv)vi(h)tes(h) e(h)gu(h)é(gh)runt(h.) (,) et(h) e(h)su(h)ri(h)é(h_iH'//Ef_e/f!gwhGFghf)runt :(fe..) (:) in(d)qui(d)rén(fh)tes(gef) au(ede)tem(ef/hg) Dó(h)mi(f!gwh)num(ghffe.) (;) non(e) de(e)fí(f_e/f!gwh)ci(efE'D)ent(d.) *(,) o(d.0f!gwh'!iv)mni(h) bo(h)no.(hghFEe'e/feede.) (,) (hhhivH'GF'fe/fhG'FE'efd.1) (,) (f!gwhGF'gffe.) (::)",
+            "mp3": null,
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
+            "texte": "Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super omnem terram, V. Deus meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.",
+            "incipit": {
+              "incipit": "Quoniam Deus magnus",
+              "version": "Solesmes",
+              "distance": 31,
+              "similarite": 0.225,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(e)le(e)lú(ef!hh//hh/i_[uh:l]j){ia}.(i.) *(,)  <i>ij.</i>(hi/j_h//ji/jiih//ijhhvGEffe.) (;) (f/hh/iji___/!i/g_[uh:l]hffe.) (,) (fh/ijhhvG'FEffe.) (::) <sp>V/</sp>. Quó(ef)ni(e)am(e) De(hh)us(hi'j) ma(i/kkkvI'HG./!hi!jvIH/!i_[oh:h]h/!j_i)gnus(i.) (;) Dó(i_[oh:h]e/fhhe//fhe___e[ll:1]d.0)(,)(f_h//gh!jvIH'hvGF)mi(h.f!gw!hvG'FE'f)nus,(fe..) (:) et(eh) Rex(hi'j) ma(iv.hi!jvHGivHG)(,)(ijIH'i)gnus(ijhivHGhg..) (;) su(h)per(g.h!iwj) o(jijvH'FivH'GE)(,)(f!hgh)mnem(hiH'Ghv.f!gwh/ihhvG'FEfe..) <clear>*(,) ter(gh'i~)ram.(iv.hi!kvJIkkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
+            "mp3": "alleluia_quoniam-deus.mp3",
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Alleluia",
-            "texte": ""
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quadp2-6.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
-            "section": "Graduale",
-            "texte": "!Ps 82:19; 82:14\nQue les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre.\nV. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent."
+            "section": "Graduale[0]",
+            "texte": "Que les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre. V. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Que les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre. V. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "Que les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre. V. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quadp2-6.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         }
       },
@@ -164,7 +207,7 @@
         "Francais/Tempora/Quadp2-6.txt",
         "Latin/Tempora/Quadp2-6.txt"
       ],
-      "sections_vides": 22,
+      "sections_vides": 18,
       "numero": 1
     }
   ]

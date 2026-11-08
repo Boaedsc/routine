@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Pent01-6",
-        "nom_sanctoral": "S. Gregorii Barbadici Ep. Conf",
+        "nom_sanctoral": "Samedi de la 1re semaine après l’Octave de la Pentecôte",
         "classe": 2.9,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Pent01-6.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -30,124 +31,190 @@
           "Introitus": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Oratio",
-            "texte": "Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus nostris: et, quia sine te nihil potest mortális infírmitas, præsta auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.\n$Per Dominum"
+            "texte": "Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus nostris: et, quia sine te nihil potest mortális infírmitas, præsta auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent01-1.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Secreta",
-            "texte": "Hostias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad perpetuum nobis tríbue proveníre subsídium.\n$Per Dominum"
+            "texte": "Hostias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad perpetuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent01-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent01-6.txt",
             "section": "Postcommunio",
-            "texte": "Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária dona capiámus, et a tua numquam laude cessémus.\n$Per Dominum"
+            "texte": "Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária dona capiámus, et a tua numquam laude cessémus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent01-1.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Oratio",
-            "texte": "Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus nostris: et, quia sine te nihil potest mortális infírmitas, præsta auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.\n$Per Dominum"
+            "texte": "Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus nostris: et, quia sine te nihil potest mortális infírmitas, præsta auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent01-1.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Graduale",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Secreta",
-            "texte": "Hostias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad perpetuum nobis tríbue proveníre subsídium.\n$Per Dominum"
+            "texte": "Hostias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad perpetuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent01-1.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent01-6.txt",
             "section": "Postcommunio",
-            "texte": "Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária dona capiámus, et a tua numquam laude cessémus.\n$Per Dominum"
+            "texte": "Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária dona capiámus, et a tua numquam laude cessémus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Tempora/Pent01-1.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         }
       },

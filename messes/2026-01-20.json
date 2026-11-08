@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/01-20",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Sts Fabien et Sébastien, Martyrs",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/01-20.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c4) IN(f)tret(fff/ded) (,) * in(f) con(gh)spé(h)ctu(g) tu(gh/ji)o,(ih) Dó(jjj)mi(h)ne,(ghg.) (;) gé(gih)mi(g)tus(gff) com(dg)pe(gh)di(fe)tó(egF'E)rum,(e.) (:) red(ge)de(fg) vi(g)cí(g)nis(gh) no(h)stris(h.) sé(hjI'H)ptu(g.f!gwhgh)plum(hg..) (,) in(g) si(gh/ji)nu(ih) e(jjj)ó(hiH'Gh)rum :(hg..) (:) vín(h)di(g)ca(e) sán(g)gui(f)nem(fff) (,) san(fd~)ctó(fv.fff)rum(d!ewf) tu(d)ó(g_[oh:h]e/fff)rum,(e_[oh:h][ll:1]d_[oh:h]) (,) qui(d!f'h) ef(hg)fú(ghG'E)sus(fgF'E) est.(e.) (::) <i>Ps.</i> De(hg)us(gh) ve(h)né(h)runt(h) gen(h)tes(h) in(h) hae(h)re(h)di(hg)tá(gi)tem(i) tu(hi)am,(h.) (:) * pol(hg)lu(gh)é(h)runt(h) tem(h)plum(h) san(h)ctum(h) tu(h)um :(h.) (,) po(h)su(h)é(h)runt(h) Je(h)rú(h)sa(h)lem(h) in(h) po(h)mó(h)rum(h) cu(gf)stó(gh)di(g)am.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Oratio",
-            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum"
+            "texte": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos\n!Hebr 11:33-39\nFratres: Sancti per fidem vicérunt regna, operáti sunt justítiam, adépti sunt repromissiónes, obturavérunt ora leónum, exstinxérunt ímpetum ignis, effugérunt áciem gládii, convaluérunt de infirmitáte, fortes facti sunt in bello, castra vertérunt exterórum: accepérunt mulíeres de resurrectióne mórtuos suos: álii autem disténti sunt, non suscipiéntes redemptiónem, ut meliórem invenírent resurrectiónem: alii vero ludíbria et vérbera expérti, ínsuper et víncula et cárceres: lapidáti sunt, secti sunt, tentáti sunt, in occisióne gládii mórtui sunt: circuiérunt in melótis, in péllibus caprínis, egéntes, angustiáti, afflicti: quibus dignus non erat mundus: in solitudínibus errantes, in móntibus et spelúncis et in cavérnis terræ. Et hi omnes testimónio fídei probáti, invénti sunt in Christo Jesu, Dómino nostro."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos\n!Hebr 11:33-39\nFratres: Sancti per fidem vicérunt regna, operáti sunt justítiam, adépti sunt repromissiónes, obturavérunt ora leónum, exstinxérunt ímpetum ignis, effugérunt áciem gládii, convaluérunt de infirmitáte, fortes facti sunt in bello, castra vertérunt exterórum: accepérunt mulíeres de resurrectióne mórtuos suos: álii autem disténti sunt, non suscipiéntes redemptiónem, ut meliórem invenírent resurrectiónem: alii vero ludíbria et vérbera expérti, ínsuper et víncula et cárceres: lapidáti sunt, secti sunt, tentáti sunt, in occisióne gládii mórtui sunt: circuiérunt in melótis, in péllibus caprínis, egéntes, angustiáti, afflicti: quibus dignus non erat mundus: in solitudínibus errantes, in móntibus et spelúncis et in cavérnis terræ. Et hi omnes testimónio fídei probáti, invénti sunt in Christo Jesu, Dómino nostro.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nDéxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+            "texte": "Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
             "incipit": {
               "incipit": "Gloriosus Deus",
               "version": "Solesmes",
@@ -63,10 +74,11 @@
             "gabc": "(f3) GLo(c)ri(c)ó(ef)sus(fhf/gffe.) <clear>*(,) De(ghG'Fhv.giH'GF)us(f.) (;) in(f!gwh) san(hv.g!ijH'GF'g)ctis,(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (:) mi(f!gw!hi)rá(hi)bi(ihhvGF'g)lis(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (;) in(f!gwhhvGF'g) ma(ef)je(h.f!gwh)stá(hiHF'g)te,(f.) (,) (ef!hvGFh_g//e.f!gw!hvGF'hf/gffe.) (:) fá(h_[oh:h]i_[oh:h]h_[oh:h])ci(kxh.i!jwkj)ens(j) pro(jij)dí(hi'j)gi(hvGF)a.(f//gh/iffe.) (,) (ef!h/[1]{/[-1]kx}h/ij!kvJH'//ih/ihhf.) (f+::c4) \r\n<sp>V/</sp>. Déx(dh)te(h)ra(h) tu(h)a(hg) Dó(ixhv.fh!ivHGhv.)(,)(fghjij//h!jjjvGFh./jjh/jjg/j_i)mi(h_[oh:h]i_[oh:h]h_[oh:h])ne,(h.) (;) glo(fg)ri(f)fi(gh)cá(h)ta(g./h!iw!jvIH') est(hgg) (,) in(f) vir(ghg~)tú(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'FghF'Dfv.e!gwhgh)te :(ixhf/higff/ded.) (:) déx(hj)te(h)ra(ghg) ma(f)nus(ghg) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiGF.)(,)(hf/gh!jjvH'Gh)a,(ixhf/higff/ded.) (:) con(d)fré(dfED'fvED.)(,)(de!fg/hjIH'hgh.ixfh!ivGF'E//f!gw!hi)git(hg__) *(,) in(g)i(gh)mí(ixjhiGF'h!jjvH'G)cos.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-20.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nDéxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.\n_\n!Tractus\n!Ps 125:5-6\nQui séminant in lácrimis, in gáudio metent.\nV. Eúntes ibant et flébant, mitténtes sémina sua.\nV. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+            "texte": "Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos. _ Qui séminant in lácrimis, in gáudio metent. V. Eúntes ibant et flébant, mitténtes sémina sua. V. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
             "incipit": {
               "incipit": "Fundamenta ejus",
               "version": "Solesmes",
@@ -77,10 +89,11 @@
             "gabc": "(c4) FUn(d)da(f)mén(fg)ta(ge/fgD'Cd) e(fg)jus(ixf/iiivHGhhg.) <clear>*(;) in(fg) món(gjjk)ti(h)bus(hg/hf//h!jhj) san(jvIH'iw!jvI'HG'h)ctis :(hg..) (:) dí(g/hji)li(j)git(j) Dó(j)mi(j)nus(iijh.1) (,) por(jk)tas(kij) Si(hjI'G)on(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) su(f)per(hj) ó(igh)mni(gf)a(gh) ta(g)ber(g)ná(gh)cu(g)la(gh/jij) (,) Ja(j.h!iwj)cob.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Glo(g)ri(g)ó(g!hwi!jv'1)sa(j) di(j)cta(j) sunt(jk) de(j_g) te,(h_g/h!iw!jvIHijhhg.) (:) cí(hg/jjghvG'F)vi(f!h'j)tas(j) De(j)i.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Ho(g!hwi'!jv)mo(j) na(ij)tus(j) est(j) in(j) e(ik/ljjh)a,(jhhg/hg/jjh/jggf.0) (:) et(f) i(hj)pse(igh) fun(gfg)dá(g/hji)vit(j) e(h!iwj)am(ijhhg.) <clear>*(;) Al(hg/jjghvG'F)tís(f!h'j)si(j)mus.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'/!hg/hjI'HG'/!ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-20.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 144:10-11\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
+            "texte": "Allelúja, allelúja. Sancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
             "incipit": {
               "incipit": "Sancti tui... benedicent",
               "version": "Solesmes",
@@ -91,12 +104,21 @@
             "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. San(f_e/f!gwh')cti(i) tu(jiihi)i,(iv.hh/fgf.) (;) Dó(f!hh/ijHF'ivH'GEf./hfhhf/ge)mi(fe)ne,(e.) (;) be(ffe/ffe/fc..)(,)(ef!hvvF'Ehhhi)ne(h)dí(h)cent(ivH'Ghf~) te :(f.) (:) gló(f!h'i)ri(jiihi)am(iv.hh/fgf.) (,) re(f!hh/ijHF'ivH'GEf./hfhhf/ge)gni(e.) tu(hh)i(hi) (,) * di(i_[oh:h]h/jij)cent.(jvvIH'GE//f!gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-20.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nIn illo témpore: Descéndens Jesus de monte, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judǽa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes. Et ipse, elevátis oculis in discípulos suos, dicébat: Beáti, páuperes: quia vestrum est regnum Dei. Beáti, qui nunc esurítis: quia saturabímini. Beáti, qui nunc fletis: quia ridébitis. Beáti éritis, cum vos óderint hómines, et cum separáverint vos et exprobréverint, et ejécerint nomen vestrum tamquam malum, propter Fílium hóminis. Gaudéte in illa die et exsultáte: ecce enim, merces vestra multa est in cœlo."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:17-23\nIn illo témpore: Descéndens Jesus de monte, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judǽa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes. Et ipse, elevátis oculis in discípulos suos, dicébat: Beáti, páuperes: quia vestrum est regnum Dei. Beáti, qui nunc esurítis: quia saturabímini. Beáti, qui nunc fletis: quia ridébitis. Beáti éritis, cum vos óderint hómines, et cum separáverint vos et exprobréverint, et ejécerint nomen vestrum tamquam malum, propter Fílium hóminis. Gaudéte in illa die et exsultáte: ecce enim, merces vestra multa est in cœlo.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 31:11\nLætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.",
@@ -110,17 +132,27 @@
             "gabc": "(c4) LAe(d)tá(d!ewf!gvFD)mi(d!ewf_c)ni(c.) *(,) in(fg) Dó(gj!kvJH')mi(h)no,(h/jjj/h_[oh:h]i_[oh:h]h._[oh:h]) (;) et(fh!jvHG) ex(g_[oh:h]f)sul(fg)tá(gjIH'hg)te(g_[oh:h]f/gff/ded.) (,) ju(dff'1f/[1]{/[-1]ix}f/hig'hvF'D)sti :(dfddc.) (:) et(dff'1ff/gfg) glo(d!fdf)ri(cd)á(df)mi(fhg)ni(g.) (;) o(f/hjg')mnes(f/hjG'FED'ewf.) (,) re(d!ewf/g_[oh:h]f)cti(fff/h_g/h_f) cor(fg//ffg/ffgvFE')de.(d//fff_d/fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)",
             "mp3": "offertoire_laetamini.mp3",
             "fichier": "Latin/Sancti/01-20.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Secreta",
-            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum"
+            "texte": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Luc 6:18; 6:19\nMultitúdo languéntium, et qui vexabántur a spirítibus immúndis, veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.",
@@ -134,74 +166,95 @@
             "gabc": "(f3) MUl(f)ti(ef)tú(f!gw!hvGF)do(f!gwh.) <clear>*(,) lan(hf~)guén(hi)ti(hi!jvIH'i)um,(ih..) (;) et(hi) qui(h) ve(hhg)xa(f)bán(h.f!gwh)tur(hhh/i_[oh:h]h) (;) a(f) spi(fe)rí(f!gwh)ti(hhh)bus(g_[oh:h]f) im(fe~)mún(f!gw!hvGFgv_[oh:h]F~E~)dis,(fe..) (;) ve(f)ni(h)é(hih)bant(hhhf~) ad(g_[oh:h]f) Je(e!gw!hvGF'g)sum :(gf..) (:) qui(h)a(i) vir(kxi!jw!kv_[hl:1]J~I~)tus(j_i) de(hg) il(hi)lo(i_[oh:h]h) ex(hg)í(eg!hvGF)bat,(gf..) (;) et(f) sa(hg)ná(hhghi_[oh:h]h/ihhfg)bat(f.) o(f!gwhgh)mnes.(gf..) (::) <i>T. P.</i> Al(fg)le(f)lú(fe/hhvGF'gwh){ia}.(gf..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-20.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/01-20.txt",
             "section": "Postcommunio",
-            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum"
+            "texte": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Introitus",
-            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu."
+            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos péchés nous accable, fortifiez-nous par la glorieuse intercession des bienheureux Fabien et Sébastien, vos Martyrs.\n$Per Dominum"
+            "texte": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos péchés nous accable, fortifiez-nous par la glorieuse intercession des bienheureux Fabien et Sébastien, vos Martyrs.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 11:33-39\nMes Frères : les Saints, par la foi, ont conquis des royaumes, exercé la justice, obtenu l’effet des promesses, fermé la gueule des lions, éteint la violence du feu, échappé au tranchant de l’épée, triomphé de la maladie, déployé leur vaillance à la guerre, mis en fuite des armées ennemis ; par eux des femmes ont recouvré leurs morts ressuscités. Les uns ont péri dans les tortures, refusant la délivrance afin d’obtenir une meilleure résurrection ; d’autres ont souffert les moqueries et les verges ; de plus, les chaînes et les cachots ; ils ont été lapidés, sciés, éprouvés ; ils sont morts par le tranchant de l’épée ; ils ont erré çà et là, couverts de peaux de brebis et de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n’était pas digne ; Ils ont été errants dans les déserts et les montagnes, dans les cavernes et dans les antres de la terre. Et tous ceux-là ont obtenu un bon témoignage à cause de leur foi en Jésus-Christ, Notre-Seigneur."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.\n!Hebr 11:33-39\nMes Frères : les Saints, par la foi, ont conquis des royaumes, exercé la justice, obtenu l’effet des promesses, fermé la gueule des lions, éteint la violence du feu, échappé au tranchant de l’épée, triomphé de la maladie, déployé leur vaillance à la guerre, mis en fuite des armées ennemis ; par eux des femmes ont recouvré leurs morts ressuscités. Les uns ont péri dans les tortures, refusant la délivrance afin d’obtenir une meilleure résurrection ; d’autres ont souffert les moqueries et les verges ; de plus, les chaînes et les cachots ; ils ont été lapidés, sciés, éprouvés ; ils sont morts par le tranchant de l’épée ; ils ont erré çà et là, couverts de peaux de brebis et de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n’était pas digne ; Ils ont été errants dans les déserts et les montagnes, dans les cavernes et dans les antres de la terre. Et tous ceux-là ont obtenu un bon témoignage à cause de leur foi en Jésus-Christ, Notre-Seigneur.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-20.txt",
-            "section": "Graduale",
-            "texte": "!Exod 15:11\nDieu est glorifié dans ses Saints ; admirable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nVotre droite, Seigneur, s’est signalée par sa force ; votre main droite a brisé ses ennemis."
+            "section": "Graduale[0]",
+            "texte": "Dieu est glorifié dans ses Saints ; admirable dans sa majesté, il fait des prodiges. Votre droite, Seigneur, s’est signalée par sa force ; votre main droite a brisé ses ennemis.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Tractus",
-            "texte": "!Ps 125:5-6\nCeux qui sèment dans les larmes moissonneront dans l’allégresse.\nV. Ils allaient et venaient en pleurant, tandis qu’ils jetaient leurs semences.\nV. Mais ils reviendront avec allégresse chargés de leurs gerbes."
+            "texte": "Ceux qui sèment dans les larmes moissonneront dans l’allégresse. V. Ils allaient et venaient en pleurant, tandis qu’ils jetaient leurs semences. V. Mais ils reviendront avec allégresse chargés de leurs gerbes.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-20.txt",
-            "section": "Graduale",
-            "texte": "Allelúja, allelúja\n!Ps 144:10-11\nSeigneur, Vos saints vous bénissent : ils diront la gloire de votre règne. Allelúja."
+            "section": "Graduale[0]",
+            "texte": "Allelúja, allelúja Seigneur, Vos saints vous bénissent : ils diront la gloire de votre règne. Allelúja.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:17-23\nEn ce temps-là, Jésus descendant de la montagne s’arrêta dans la plaine avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous. Et lui, levant les yeux sur ses disciples, disait : Bienheureux, vous qui êtes pauvres, parce que le royaume de Dieu est à vous. Bienheureux, vous qui avez faim maintenant, parce que vous serez rassasiés. Bienheureux, vous qui pleurez maintenant, parce que vous rirez. Bienheureux serez-vous lorsque les hommes vous haïront, et vous repousseront, et vous outrageront, et lorsqu’ils rejetteront votre nom comme infâme, à cause du Fils de l’homme. Réjouissez-vous en ce jour-là et soyez dans l’allégresse, parce que votre récompense est grande dans le ciel."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:17-23\nEn ce temps-là, Jésus descendant de la montagne s’arrêta dans la plaine avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous. Et lui, levant les yeux sur ses disciples, disait : Bienheureux, vous qui êtes pauvres, parce que le royaume de Dieu est à vous. Bienheureux, vous qui avez faim maintenant, parce que vous serez rassasiés. Bienheureux, vous qui pleurez maintenant, parce que vous rirez. Bienheureux serez-vous lorsque les hommes vous haïront, et vous repousseront, et vous outrageront, et lorsqu’ils rejetteront votre nom comme infâme, à cause du Fils de l’homme. Réjouissez-vous en ce jour-là et soyez dans l’allégresse, parce que votre récompense est grande dans le ciel.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Offertorium",
-            "texte": "!Ps 31:11\n\tJustes, réjouissez-vous dans le Seigneur, et soyez dans l’allégresse ; et glorifiez-vous en lui vous tous qui avez le cœur droit, alléluia, alléluia."
+            "texte": "!Ps 31:11\n\tJustes, réjouissez-vous dans le Seigneur, et soyez dans l’allégresse ; et glorifiez-vous en lui vous tous qui avez le cœur droit, alléluia, alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Secreta",
-            "texte": "Recevez favorablement, Seigneur, les hosties que nous vous offrons par les mérites de vos saints Martyrs Fabien et Sébastien ; faites qu’elles nous obtiennent votre assistance continuelle.\n$Per Dominum"
+            "texte": "Recevez favorablement, Seigneur, les hosties que nous vous offrons par les mérites de vos saints Martyrs Fabien et Sébastien ; faites qu’elles nous obtiennent votre assistance continuelle.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Communio",
-            "texte": "!Luc 6:18; 6:19\nUne multitude de malades, et de tourmentés par des esprits impurs venait vers lui : parce qu’une vertu sortait de lui et les guérissait tous."
+            "texte": "!Luc 6:18; 6:19\nUne multitude de malades, et de tourmentés par des esprits impurs venait vers lui : parce qu’une vertu sortait de lui et les guérissait tous.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/01-20.txt",
             "section": "Postcommunio",
-            "texte": "Rassasiés par la participation à ce don sacré, nous vous supplions, Seigneur notre Dieu, par l’intercession de vos saints Martyrs Fabien et Sébastien, de nous faire ressentir l’effet du sacrifice que nous célébrons.\n$Per Dominum"
+            "texte": "Rassasiés par la participation à ce don sacré, nous vous supplions, Seigneur notre Dieu, par l’intercession de vos saints Martyrs Fabien et Sébastien, de nous faire ressentir l’effet du sacrifice que nous célébrons.\n$Per Dominum",
+            "references": null
           }
         }
       },

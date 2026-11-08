@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent12-2",
-        "nom_sanctoral": "",
-        "classe": 1.0,
+        "gagnant": "Tempora/Pent12-0",
+        "nom_sanctoral": "12e dimanche après la Pentecôte",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent12-2.txt",
-        "temporal": "Latin/Tempora/Pent12-2.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent12-0.txt",
+        "temporal": "Latin/Tempora/Pent12-0.txt",
         "sanctoral": null,
         "calendrier": null,
         "table_transfert": null,
@@ -23,139 +23,209 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent12-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "texte": "!Ps 69:2-3\nv. Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína: confundántur et revereántur inimíci mei, qui quærunt ánimam meam.\n!Ps 69:4\nAvertántur retrórsum et erubéscant: qui cógitant mihi mala.\n&Gloria\nv. Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína: confundántur et revereántur inimíci mei, qui quærunt ánimam meam.",
+            "incipit": {
+              "incipit": "Deus in adjutorium",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c2) DE(figgf)us(f.) *(,) in(exge) ad(f)ju(g)tó(iij)ri(i)um(i) me(iji)um(ihi.) (,) in(exgv.egf)tén(f_[oh:h]g_[oh:h]f_[oh:h])de :(f.) (:) Dó(f)mi(f)ne(hih.) (,) ad(g) ad(ghg)ju(f)ván(fff)dum(d) me(gi) fe(ihig)stí(f)na :(fgff) (:) con(d)fun(ff)dán(gh~)tur(f.) (,) et(f) re(f)ve(f)re(g)án(g!h!gh~)tur(f.) in(f)i(g)mí(g)ci(f) me(fffc/e[ll:1]d)i,(d.) (;) qui(d) quae(fg'h)runt(g) á(i)ni(h)mam(gh) me(fg/hffd)am.(dc..) (::) <i>Ps.</i> A(cfe)ver(fg~)tán(g)tur(g) ret(g)rór(g)sum(g) et(g) e(gi)ru(h)bé(hg)scant,(gh..) *(:) qui(ge) vo(fg)lunt(g!hwi) mi(g')hi(f) ma(fff)la.(dc..) (::) Gló(cfe)ri(fg)a(g) Pa(g)tri.(g) (::) <eu>E(g) u(g!hwi) o(g') u(f) a(fff) e.</eu>(dc..) (::)",
+            "mp3": null,
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Omnípotens et miséricors Deus, de cujus múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur: tríbue, quǽsumus, nobis; ut ad promissiónes tuas sine offensióne currámus.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 3:4-9\nFratres: Fidúciam talem habémus per Christum ad Deum: non quod sufficiéntes simus cogitáre áliquid a nobis, quasi ex nobis: sed sufficiéntia nostra ex Deo est: qui et idóneos nos fecit minístros novi testaménti: non líttera, sed spíritu: líttera enim occídit, spíritus autem vivíficat. Quod si ministrátio mortis, lítteris deformáta in lapídibus, fuit in glória; ita ut non possent inténdere fili Israël in fáciem Moysi, propter glóriam vultus ejus, quæ evacuátur: quómodo non magis ministrátio Spíritus erit in glória? Nam si ministrátio damnatiónis glória est multo magis abúndat ministérium justítiæ in glória.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Benedícam Dóminum in omni témpore: semper laus ejus in ore meo. V. In Dómino laudábitur ánima mea: áudiant mansuéti, et læténtur.",
+            "incipit": {
+              "incipit": "Benedicam Dominum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) BE(ef)ne(e)dí(ef!hhhffe)cam(e_[uh:l]f) (,) * Dó(ef'h)mi(hhh)num(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) in(e) o(ehg~)mni(hi) tém(i)po(ihkvJIkvJI)re :(ig/hi!kvvI'H//i!jwk/lkk/iji.) (,) (hj/iji/jg/hih/ihhg.) (:)\r\nsem(gh'i)per(jki/jhhg) laus(gh!i!jwk) e(ih/ih/ijI'H)jus(hhh_e) (,) (fgf'j//iji'/jhh'ih/ihhg.) (;) in(hf) o(h!iwjij)re(jihhf/hh/jkIH'jvIH') me(ihhvF'Ehhe)(,)(hihi)o.(ji/jkIH'ijij'lvJI'jvH'F//hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::)\r\n<sp>V/</sp>. In(e) Dó(ef'h)mi(hhh)no(h.0/[-0.5]ijhh'hvF'E) (,) (hhhfhvGE'fe'//hf/gffe.) (;) lau(gh'i~)dá(i)bi(h)tur(h_g) á(h_g/hji)ni(ihhvGF)ma(g_[oh:h]f) (,) me(hf/hhvF'Ef!gwh_g)a :(hhhvGF'he//fvEDe[ll:1]d..) (:)\r\náu(e)di(d.c!dwed/ef)ant(e.) man(d)su(f)é(h_0ivH'//Ef.)(,)(f!gwh'!ivH'//Ef./h_[oh:h]i_[oh:h]f.1_[oh:h])(,)(i/jg/hiH'GF.)(,)(i/jg/hiH'GF.hghFE.)(,)(ih/ijI'H)ti,(hhhvF'Effe/ff) (,) (ef!hhhf//hvvGF'he//fvEDe[ll:1]d..) (;) * et(ef) lae(hg)tén(hi)tur.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
+            "mp3": "graduel_benedicam-dominum.mp3",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja Dómine, Deus salútis meæ, in die clamávi et nocte coram te. Allelúja.",
+            "incipit": {
+              "incipit": "De profundis",
+              "version": "Solesmes",
+              "distance": 28,
+              "similarite": 0.3,
+              "source": "Alleluia"
+            },
+            "gabc": "(c2) AL(cd)le(c)lú(cfe/gh){ia}.(g.) *(;) <i>ij.</i>(fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::) <sp>V/</sp>. De(cd) pro(c)fún(cfe/gh)dis(g.) (,) cla(g)má(g!hwi/jiivHG)vi(ghfgvFEfe..) (;) ad(dg) te,(ghGF'gffvED'ew!fvED'e) Dó(c)mi(cd'e)ne :(dc..) (:) Dó(cfe/gh)mi(g)ne(g.) (,) ex(gh!i'j)áu(j_k)di(g_[oh:h]i_[oh:h]g_[oh:h]!hwi_[oh:h]hivHGhg..) (;) * vo(dfe)cem(fg) me(g)am.(g.) (,) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHGhhg//hih/ig.) (;) (fg/ihivHG'hffdfv.) (,) (ef!hvGF.efDC.) (,) (e.f!gw!hvGF.efD'Cd_eddc.) (::)",
+            "mp3": "alleluia_de-profundis.mp3",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:23-37\nIn illo témpore: Dixit Jesus discípulis suis: Beáti óculi, qui vident quæ vos videtis. Dico enim vobis, quod multi prophétæ et reges voluérunt vidére quæ vos videtis, et non vidérunt: et audire quæ audítis, et non audiérunt. Et ecce, quidam legisperítus surréxit, tentans illum, et dicens: Magister, quid faciéndo vitam ætérnam possidébo? At ille dixit ad eum: In lege quid scriptum est? quómodo legis? Ille respóndens, dixit: Díliges Dóminum, Deum tuum, ex toto corde tuo, et ex tota ánima tua, et ex ómnibus víribus tuis; et ex omni mente tua: et próximum tuum sicut teípsum. Dixítque illi: Recte respondísti: hoc fac, et vives. Ille autem volens justificáre seípsum, dixit ad Jesum: Et quis est meus próximus? Suscípiens autem Jesus, dixit: Homo quidam descendébat ab Jerúsalem in Jéricho, et íncidit in latrónes, qui étiam despoliavérunt eum: et plagis impósitis abiérunt, semivívo relícto. Accidit autem, ut sacerdos quidam descénderet eádem via: et viso illo præterívit. Simíliter et levíta, cum esset secus locum et vidéret eum, pertránsiit. Samaritánus autem quidam iter fáciens, venit secus eum: et videns eum, misericórdia motus est. Et apprópians, alligávit vulnera ejus, infúndens óleum et vinum: et impónens illum in juméntum suum, duxit in stábulum, et curam ejus egit. Et áltera die prótulit duos denários et dedit stabulário, et ait: Curam illíus habe: et quodcúmque supererogáveris, ego cum redíero, reddam tibi. Quis horum trium vidétur tibi próximus fuísse illi, qui íncidit in latrónes? At ille dixit: Qui fecit misericórdiam in illum. Et ait illi Jesus: Vade, et tu fac simíliter.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "texte": "!Exod 32:11 32:13; 32:14\nPrecátus est Moyses in conspéctu Dómini, Dei sui, et dixit: Quare, Dómine, irásceris in pópulo tuo? Parce iræ ánimæ tuæ: meménto Abraham, Isaac et Jacob, quibus jurásti dare terram fluéntem lac et mel. Et placátus factus est Dóminus de malignitáte, quam dixit fácere pópulo suo.",
+            "incipit": {
+              "incipit": "Precatus est",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) PRe(e)cá(fhe)tus(d!ewfef) est(f_e) (,) * Mó(f)y(h)ses(hihhvGEf.) (;) in(b) con(b)spé(de)ctu(de) Dó(f_e/f!gw!hvGF)mi(e!gw!hvGF'g)ni(g_[oh:h]f) (,) De(f)i(e[ll:1]d) su(ef!gvFE'f)i,(fe..) (;) et(e) di(e!hhe/ff//df!hvED'db//cd!efe)xit.(e.) (:) Pre(e)cá(fhe/fe)tus(d!ewfef) est(f_e) (,) Mó(f)y(h)ses(hg/hihhvGEf.) (;) in(b) con(b)spé(de)ctu(de) Dó(f_e/f!gw!hvGF)mi(e!gw!hvGF'g)ni(g_[oh:h]f) (,) De(f)i(e[ll:1]d) su(ef!gvFE'f)i,(eb..) (;) et(b) di(b!ddb//cd!efe)xit :(e.) (:) Qua(ehhi)re,(hi) Dó(h)mi(ivHF)ne,(efe.) (,) i(e)rá(e!hh//hhhffee[ll:1]d!ewf!gvFE)sce(fe)ris(e.) (;) in(d) pó(efe/fg)pu(f)lo(f) tu(e.[ll:1]d!ewfef)o?(fe..) (:) Par(de/f!hhhhi~)ce(g) i(h)rae(efe.) (,) á(hhi)ni(f)mae(efe) tu(ffeg'FEfvEDef!gvFE'f)ae :(fe..) (:) me(e)mén(ei'!jv)to(i) A(i)bra(i)ham,(i!jw!kvJI) (,) I(hi)sa(gh)ac(iih.0) (,) et(hv.hh//hhh_g/hi!kvJI) Ja(hi)cob,(i_[oh:h]e/f_[oh:h]g_[oh:h]f._[oh:h]) (;) qui(d)bus(e) ju(f)rá(fi)sti(h) da(hg)re(f) ter(h)ram(hh//hhh) (,) flu(e)én(f)tem(e[ll:1]d~) lac(e.) (`) et(e!fwgf/g_[oh:h]f/hhf/hhvFD'ew!fvEDef) mel.(e.) (:) Et(d) pla(f)cá(h)tus(hf~) fa(hi'j)ctus(i) est(hiHF.1) (,) Dó(h!iwj_i)mi(i.h!iwjij)nus(ji..) (;) de(iv.hhhh_i) ma(e)li(f)gni(g)tá(g)te,(iv.hhhh_i) (;) quam(fe~) di(h!iwj_i)xit(j) fá(ijhh)ce(hv.fh!ivHG'h)re(hg..) (;) pó(i_[oh:h]h)pu(h)lo(ihhf/hhhhv'1GE//fhfhvFD.1) (,) (ef!hvvGF'gw!hvGF) su(ef!gvFE'f)o.(fe..) (::)",
+            "mp3": "offertoire_precatus-est-moyses.mp3",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Hóstias, quǽsumus, Dómine, propítius inténde, quas sacris altáribus exhibémus: ut, nobis indulgéntiam largiéndo, tuo nómini dent honórem.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "texte": "!Ps 103:13; 103:14-15\nDe fructu óperum tuórum, Dómine, satiábitur terra: ut edúcas panem de terra, et vinum lætíficet cor hóminis: ut exhílaret fáciem in óleo, et panis cor hóminis confírmet.",
+            "incipit": {
+              "incipit": "De fructu",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DE(f) fru(gh)ctu(h) *() ó(h)pe(g)rum(g) tu(g)ó(h)rum,(gf~) Dó(g)mi(f)ne,(f_e) (,) sa(f)ti(ghg)á(h)bi(g)tur(fe~) ter(f!gwhgh)ra :(gf..) (:) ut(f) e(f)dú(gh)cas(f) pa(g)nem(f) de(e) ter(fg)ra,(f.) (;) et(f) vi(ixfg/ihi)num(h) lae(h)tí(jhhgh)fi(f)cet(fg'h) cor(fe) hó(d)mi(de!fvED'e)nis :(e[ll:1]d..) (:) ut(fg'h) ex(h)hí(ixjhi)la(ghGF'g)ret(gf..) (,) fá(fg)ci(f)em(f) in(fd) ó(ef)le(deDC'd)o,(dc..) (;) et(ec~) pa(de'f)nis(gfg) cor(fe) hó(f)mi(ixgi)nis(hiG'F) con(f)fír(ef~)met.(f.) (::)",
+            "mp3": "communion_de-fructu.mp3",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent12-2.txt",
+            "fichier": "Latin/Tempora/Pent12-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Vivíficet nos, quǽsumus, Dómine, hujus participátio sancta mystérii: et páriter nobis expiatiónem tríbuat et múnimen.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Ps 69:2-3\nv. Ô Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Que mes ennemis soient confondus, et couverts de honte ceux qui cherchent mon âme.\n!Ps 69:4\nQu'ils se retournent et rougissent, ceux qui méditent le mal contre moi.\n&Gloria\nv. Ô Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Que mes ennemis soient confondus, et couverts de honte ceux qui cherchent mon âme.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Dieu tout-puissant et bon, qui, dans votre libéralité, donnez vous-même à vos fidèles de pouvoir vous servir d'une manière digne et qui vous plaise, accordez-nous de courir sans trébucher vers l'accomplissement de vos promesses.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.\n!2 Cor 3:4-9\nFrères, nous avons une pleine assurance par le Christ en vue de Dieu. Ce n'est pas que nous soyons par nous-mêmes capables de concevoir quelque chose comme venant de nous-mêmes ; mais notre aptitude vient de Dieu. C'est lui également qui nous a rendus capables d'être ministres d'une nouvelle alliance, non de la lettre, mais de l'esprit ; car la lettre tue, mais l'esprit vivifie. Or, si le ministère de la mort, gravé en lettres sur des pierres, a été entouré de gloire au point que les fils d'Israël ne pouvaient fixer leurs regards sur la face de Moïse à cause de l'éclat de son visage, tout passager qu'il fût, combien plus le ministère de l'esprit ne sera-t-il pas entouré de gloire ? C'est qu'en effet, si le ministère de la condamnation a été glorieux, le ministère qui confère la justice le surpasse de beaucoup en gloire.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent12-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Je bénirai le Seigneur en tout temps, toujours sa louange sera dans ma bouche. V. Dans le Seigneur mon âme se glorifiera ; que les justes écoutent et qu'ils se réjouissent.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent12-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, allléluia. Seigneur, Dieu de mon salut, je crie jour et nuit devant vous. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:23-37\nEn ce temps-là, Jésus dit à ses disciples : « Heureux les yeux qui voient ce que vous voyez ! Car, je vous le dis, beaucoup de prophètes et de rois ont voulu voir ce que vous voyez et ne l'ont pas vu, entendre ce que vous entendez et ne l'ont pas entendu. » Et voici qu'un docteur de la Loi se leva, et, pour l'embarrasser, lui dit : « Maître, que dois-je faire pour posséder la vie éternelle ? » Il lui dit : « Qu'y a-t-il d'écrit dans la Loi ? Qu'y lis-tu ? » Il répondit : « Tu aimeras le Seigneur ton Dieu de tout cœur, de toute ton âme, de toute ta force et de tout ton esprit, et ton prochain comme toi-même. » Il lui dit : « Tu as bien répondu : fais cela et tu vivras. » Mais lui, voulant se justifier, dit à Jésus : « Et qui est mon prochain ? » Jésus reprit et dit : « Un homme descendait de Jérusalem à Jéricho ; il tomba entre les mains de brigands qui, après l'avoir dépouillé et chargé de coups, s'en allèrent, le laissant à demi-mort. Or, par hasard, un prêtre descendait par ce chemin ; il le vit et passa outre. De même un lévite aussi vint en ce lieu, le vit et passa outre. Mais un Samaritain, qui était en voyage, vint près de lui, le vit et fut touché de compassion. Il s'approcha, banda ses blessures, y versant de l'huile et du vin ; puis il le mit sur sa propre monture, le conduisit dans une hôtellerie et prit soin de lui. Le lendemain, tirant deux deniers, il les donna à l'hôtelier et lui dit : « Prends soin de lui, et ce que tu pourrais dépenser en plus, c'est moi qui te le rembourserai à mon retour.» Lequel de ces trois te semble avoir été le proche de l'homme qui était tombé aux mains des brigands ? » Il dit : « Celui qui a pratiqué la miséricorde envers lui. » Et Jésus lui dit : « Va, et toi aussi fais de même. »",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Exod 32:11 32:13; 32:14\nMoïse pria devantle Seigneur son Dieu, et il dit : Pourquoi, Seigneur, vous mettez-vous en colère contre votre peuple ? Revenez de la colère de votre âme. Souvenez-vous d'Abraham, d'Isaac et de Jacob, auxquels vous avez juré de donner une terre ruisselante de lait et de miel. Et le Seigneur fut apaisé, et renonça au châtiment dont il avait menacé son peuple.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Regardez avec bienveillance, Seigneur, ces offrandes que nous déposons sur vos saints autels, afin qu'en nous procurant votre pardon, elles vous rendent gloire.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 103:13; 103:14-15\nLa terre se rassasie du fruit de vos œuvres, Seigneur ; de la terre vous faites sortir le pain, et le vin qui réjouit le cœur de l'homme ; l'huile illumine les visages, et le pain fortifie le cœur de l'homme.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent12-2.txt",
+            "fichier": "Francais/Tempora/Pent12-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Que notre communion sainte à ce mystère, Seigneur, ranime notre vie, expie nos fautes et nous protège.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/Pent12-2.txt",
-        "Latin/Tempora/Pent12-2.txt"
+        "Francais/Tempora/Pent12-0.txt",
+        "Latin/Tempora/Pent12-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

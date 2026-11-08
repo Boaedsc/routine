@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/09-19",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Janvier, Evêque, et ses Compagnons, Martyrs",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/09-19.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,20 @@
             "gabc": "(c4) SA(h)pi(h)én(h)ti(gf)am(f) *() san(gfg)ctó(ixhgih)rum(h.) (,) nar(g_[oh:h]f)rent(hfh) pó(h)pu(h!iwj_h)li,(h.) (:) et(h) lau(jk~)des(k) e(kj)ó(kljjhi)rum(i_[oh:h]h) (,) nún(j)ti(jk)et(ki) ec(j)clé(i)si(hjI'H)a :(h.) (:) nó(h)mi(g)na(ghg) au(h)tem(f) e(hfh)ó(jh/jjjk)rum(j.) (,) vi(h!jjh)vent(h) in(hg/hfg) saé(d)cu(ff)lum(gvF'Ef') saé(d)cu(d_[oh:h]e_[oh:h]d_[oh:h])li.(d.) (::) <i>Ps.</i> Ex(f)sul(gh)tá(h)te(h) ju(hj)sti(h) in(h) Dó(h)mi(hg)no :(gh..) (:) re(gf)ctos(gh) de(h)cet(h) col(hjh)lau(g')dá(f)ti(fg)o.(h.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fg) e.</eu>(h.) (::)",
             "mp3": "introitus_sapientiam-sanctorum.mp3",
             "fichier": "../horas/Latin/Commune/C3a.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "../horas/Latin/Commune/C3a.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\n$Per Dominum"
+            "texte": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent15-2.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Anima nostra, sicut passer, erépta est de láqueo venántium. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.",
@@ -63,12 +67,14 @@
             "gabc": "(c3) A(dd)ni(d)ma(d) no(ded//d'd)stra,(d_b/dec'/de[ull:0]b'/cbba.) <clear>*(;) sic(d)ut(f) pas(hf/hhh)ser,(h.) (,) e(h_g/i!jwk)ré(i_[oh:h]h)pta(h) est(hihh/fgf.) (;) de(h_f) lá(h)que(hi)o(i) ve(ihhf)nán(gxhfgED')ti(d!f'h)um.(gyhighf.) (,) (de/f!hh/ijghf.gxegFD.1) (::) <sp>V/</sp>. Lá(d)que(gxf)us(fh/ih/i_[oh:h]hivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_[oh:h]h//ivFD'e_[oh:h][ll:1]d.0ddd!f_h/ijh.1) (,) con(hi'j)trí(i_[oh:h]h)tus(h) est,(hg/i_[oh:h]hjvIH'Ghf..) (:) et(hh) nos(h) li(h)be(h)rá(ih/ij_h ih/ij_ij//hi/jij)ti(jh/jkihhf.) (,) su(hf/hhh)mus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ad(hhi)ju(h)tó(hi)ri(h)um(hf~) no(hi)strum(h.) (,) in(hf~) nó(hi)mi(h)ne(hh) Dó(hih/ihjvIG'hvF'Ef!hhivHG)mi(hg)ni,(h.) (;) qui(hh) fe(h)cit(h) cae(ivHF)lum(f.) *(,) et(f!h'i) ter(hgiHF)ram.(f.//de/f!hh/ijghf.gxegFD.1) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C3a.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-19.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Justi epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
@@ -82,12 +88,21 @@
             "gabc": "(c4) AL(d!ff)le(ef!gvEDffd)lú(ixfghig/h_e/fg~){ia}.(g.) *(,) (def!gvEDffd) (,) (def!gvEDhv.ghF'ED.) (,) (e_[uh:l]g//fgfdeddc.) (,) (fff/g_[uh:l]hGE'fee[ll:1]d.0) (::) <sp>V/</sp>. Ju(dffeggvFE'fd)sti(d.) (,) e(d)pu(dh)lén(ixhv.fh!ivGFhv.def!hvGE'fd)tur,(d.) (;) et(d) ex(d)súl(d!fff)tent(e_[oh:h][ll:1]devDCddc.) (,) in(c.d!ewf) con(fg_[uh:l]h~)spé(hvGF'fvED)ctu(dv.cd!evDC'd) De(d!ewfef)i.(e[ll:1]d..) (:) Pa(d)rá(ddc)sti(f) in(f) dul(g)cé(f)di(gh)ne(ghg) tu(h'/jhhg/he/f_g//dfED. , ixdh'/jhhg/he/f_g//egivHGhvFDfvED , hhggf/hjh___)a(h.) *(;) páu(d!ff)pe(f)ri(ef!gvEDffd) De(ixfghig/h_e/fg)us.(g.) (,) (def!gvEDffd) (,) (def!gvEDhv.ghF'ED.) (,) (e_[uh:l]g//fgfdeddc.) (,) (fff/g_[uh:l]hGE'fee[ll:1]d.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-19.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-19.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nIn illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et quod signum advéntus tui et consummatiónis sǽculi? ¶ Et respóndens Jesus, dixit eis: Vidéte, ne quis vos sedúcat. Multi enim vénient in nómine meo, dicéntes: Ego sum Christus: et multos sedúcent. Auditúri enim estis prælia et opiniónes prœliórum. Vidéte, ne turbémini. Opórtet enim hæc fíeri, sed nondum est finis. Consúrget enim gens in gentem, et regnum in regnum, et erunt pestiléntiæ et fames et terræmótus per loca. Hæc autem ómnia inítia sunt dolórum. Tunc tradent vos in tribulatiónem et occídent vos: et éritis odio ómnibus géntibus propter nomen meum. Et tunc scandalizabúntur multi, et ínvicem tradent, et odio habébunt ínvicem. Et multi pseudoprophétæ surgent, et sedúcent multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit usque in finem, hic salvus erit."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nIn illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et quod signum advéntus tui et consummatiónis sǽculi? ¶ Et respóndens Jesus, dixit eis: Vidéte, ne quis vos sedúcat. Multi enim vénient in nómine meo, dicéntes: Ego sum Christus: et multos sedúcent. Auditúri enim estis prælia et opiniónes prœliórum. Vidéte, ne turbémini. Opórtet enim hæc fíeri, sed nondum est finis. Consúrget enim gens in gentem, et regnum in regnum, et erunt pestiléntiæ et fames et terræmótus per loca. Hæc autem ómnia inítia sunt dolórum. Tunc tradent vos in tribulatiónem et occídent vos: et éritis odio ómnibus géntibus propter nomen meum. Et tunc scandalizabúntur multi, et ínvicem tradent, et odio habébunt ínvicem. Et multi pseudoprophétæ surgent, et sedúcent multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit usque in finem, hic salvus erit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-19.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 149:5-6\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.\n(sed post Septuagesimam dicitur)\nExsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum.",
@@ -101,17 +116,20 @@
             "gabc": "(c4) EX(d)sul(dfd~)tá(f)bunt(ef'g) *(,) san(gh)cti(ef!ghF'EfvEDe[ll:1]d..) (;) in(f) gló(ef!ghGE'f)ri(f)a,(egff/ded.) (:) lae(d)ta(dh)bún(he/f_g)tur(ixgh/if/gge.) (,) in(g) cu(gh)bí(h)li(g)bus(g) su(gh!jjh//fhf/gh)is :(g.) (:) ex(d)al(dh~)ta(h)ti(h)ó(hgh)nes(h) De(ixhiHG'hffef)i(fe..) (;) in(ef'g~) fáu(g_[oh:h]fh)ci(g)bus(fffdgvFE.) (,) e(ef/hg)ó(gv.efD'Cd)rum.(f_d/f!gwhgh//ghF'Ef_gffe.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C3a.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C3a.txt",
             "section": "Secreta",
-            "texte": "Múnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\n$Per Dominum"
+            "texte": "Múnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-19.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Luc 12:4\nDico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
@@ -125,74 +143,88 @@
             "gabc": "(c4) DI(gg)co(g) au(g)tem(gh~) vo(hvGF//g.h!iwjg)bis(g.) *(,) a(gh)mí(jkjk)cis(ij) me(hjI'G)is :(g.) (;) ne(g) ter(hih)re(g)á(e)mi(ffg)ni(gvFED.) (,) ab(fg) his,(ghgh) qui(fg) vos(g.h!iwjg) per(f)se(ghg)quún(h!jj/hi~)tur.(g.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C3a.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C3a.txt",
             "section": "Postcommunio",
-            "texte": "Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.\n$Per Dominum"
+            "texte": "Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Introitus",
-            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.\n!Ps 32:1\nJustes, tressaillez de joie dans le Seigneur ; c’est aux hommes droits que convient la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais."
+            "texte": "!Eccli 44:15; 44:14\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.\n!Ps 32:1\nJustes, tressaillez de joie dans le Seigneur ; c’est aux hommes droits que convient la louange.\n&Gloria\nv. Que les peuples racontent la sagesse des saints, et que l’assemblée publie leurs louanges : leurs noms vi­vront à jamais.",
+            "references": null
           },
           "Oratio": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Oratio",
-            "texte": "Dieu, qui nous permettez de cé­lébrer la naissance au ciel de vos saints martyrs N. et N., accordez-nous de jouir de leur société dans l’éternité bienheureuse.\n$Per Dominum"
+            "texte": "Dieu, qui nous permettez de cé­lébrer la naissance au ciel de vos saints martyrs N. et N., accordez-nous de jouir de leur société dans l’éternité bienheureuse.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent15-2.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Graduale",
-            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 67:4\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia."
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 67:4\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-19.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-19.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-19.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia + sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nEn ce temps-là : Jésus était assis sur le mont des Oliviers, ses disciples s’approchèrent de lui en particulier, et lui dirent : Dites-nous quand ces choses arriveront, et quel signe il y aura de votre avènement et de la consommation du siècle. Et Jésus leur répondit : Prenez garde que personne ne vous séduise. Car beaucoup viendront sous mon nom, disant : Je suis le Christ, et ils en séduiront beaucoup. Vous entendrez parler de guerres et de bruits de guerres. Gardez-vous de vous troubler ; car il faut que ces choses arrivent, mais ce ne sera pas encore la fin. Car on verra se soulever peuple contre peuple, et royaume contre royaume ; et il y aura des pestes et des famines, et des tremblements de terre en divers lieux. Et tout cela ne sera que le commencement des douleurs. Alors on vous livrera aux tourments, et on vous fera mourir ; et vous serez en haine à toutes les nations, à cause de Mon nom. Alors aussi beaucoup seront scandalisés, et ils se trahiront et se haïront les uns les autres. Et de nombreux faux prophètes surgiront, et séduiront beaucoup de monde. Et parce que l’iniquité abondera, la charité d’un grand nombre se refroidira. Mais celui qui persévérera jusqu’à la fin sera sauvé."
+            "texte": "Sequéntia + sancti Evangélii secúndum Matthǽum\n!Matt 24:3-13\nEn ce temps-là : Jésus était assis sur le mont des Oliviers, ses disciples s’approchèrent de lui en particulier, et lui dirent : Dites-nous quand ces choses arriveront, et quel signe il y aura de votre avènement et de la consommation du siècle. Et Jésus leur répondit : Prenez garde que personne ne vous séduise. Car beaucoup viendront sous mon nom, disant : Je suis le Christ, et ils en séduiront beaucoup. Vous entendrez parler de guerres et de bruits de guerres. Gardez-vous de vous troubler ; car il faut que ces choses arrivent, mais ce ne sera pas encore la fin. Car on verra se soulever peuple contre peuple, et royaume contre royaume ; et il y aura des pestes et des famines, et des tremblements de terre en divers lieux. Et tout cela ne sera que le commencement des douleurs. Alors on vous livrera aux tourments, et on vous fera mourir ; et vous serez en haine à toutes les nations, à cause de Mon nom. Alors aussi beaucoup seront scandalisés, et ils se trahiront et se haïront les uns les autres. Et de nombreux faux prophètes surgiront, et séduiront beaucoup de monde. Et parce que l’iniquité abondera, la charité d’un grand nombre se refroidira. Mais celui qui persévérera jusqu’à la fin sera sauvé.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Offertorium",
-            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)"
+            "texte": "!Ps 149:5-6\nLes saints exulteront dans la gloire, ils tressailliront de joie sur leur couche ; les lou­anges de Dieu seront dans leur gorge. Alléluia.\n(Après la Septuagésime, on omet l’alléluia.)",
+            "references": null
           },
           "Secreta": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Secreta",
-            "texte": "Nous vous offrons, Seigneur, les présents de notre dévotion : daignez les agréer pour l’honneur de vos saints et, dans votre miséri­corde, faites qu’ils soient utiles à notre salut.\n$Per Dominum"
+            "texte": "Nous vous offrons, Seigneur, les présents de notre dévotion : daignez les agréer pour l’honneur de vos saints et, dans votre miséri­corde, faites qu’ils soient utiles à notre salut.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-19.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Communio",
-            "texte": "!Luc 12:4.\nJe vous dis donc à vous qui êtes mes amis : ne craignez pas ceux qui vous persécutent."
+            "texte": "!Luc 12:4.\nJe vous dis donc à vous qui êtes mes amis : ne craignez pas ceux qui vous persécutent.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en prions, Seigneur, par l’intercession de vos saints martyrs N. et N. : accordez-nous de recevoir d’une âme pure ce que nous touchons de notre bouche.\n$Per Dominum"
+            "texte": "Nous vous en prions, Seigneur, par l’intercession de vos saints martyrs N. et N. : accordez-nous de recevoir d’une âme pure ce que nous touchons de notre bouche.\n$Per Dominum",
+            "references": null
           }
         }
       },

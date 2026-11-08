@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-29",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ste Marthe Vierge",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-29.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c4) DI(g)le(g)xí(hjg)sti(g_[oh:h]f) *() ju(g)stí(g.h!iwjjk)ti(j)am,(j.) (;) et(j) o(j)dí(jkj)sti(jjj) in(gh)i(h)qui(hfhg)tá(ghg___)tem :(g.) (:) pro(fg)ptér(gjj)e(hg)a(ghggf.0) (,) un(gh/i.h!iwj)xit(hjg) te(g) De(ghG'F)us,(f.) (,) De(fg'h)us(h) tu(ixhgivHG'hf)us,(f.) (;) ó(g)le(fg)o(g) lae(h)tí(jj)ti(hg)ae(g/jjh/jggf.0) (;) prae(g) con(hi~)sór(i.h!iwj)ti(hg)bus(gv.f!hfg) tu(ghg___)is.(g.) (::) <i>T. P.</i> Al(f)le(fg)lú(gh~){ia},(hgh.) (,) al(h!iwj)le(jv.ijH'G)lú(ghg___){ia}.(g.) (::) (z)<i>Ps.</i> E(g)ru(hg)ctá(gj)vit(j) cor(j) me(j)um(ji) ver(jk)bum(k) bo(jk)num :(j.) *(:) di(jh)co(hj) e(j)go(j) ó(j)pe(j)ra(jji) me(gh)a(ji) re(h)gi.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(g.) (::)",
             "mp3": "introitus_dilexisti-iustitiam.mp3",
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Oratio",
-            "texte": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ N. festivitáte gaudémus; ita piæ devotiónis erudiámur afféctu.\n$Per Dominum"
+            "texte": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ N. festivitáte gaudémus; ita piæ devotiónis erudiámur afféctu.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11:1-2\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11:1-2\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
+            "texte": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. V. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
             "incipit": {
               "incipit": "Specie tua (Grad.)",
               "version": "Solesmes",
@@ -63,10 +74,11 @@
             "gabc": "(c4) SPé(ff)ci(f)e(f_e/g_[uh:l]h) tu(gf)a,(fv.d!ff/ge'/fgd'/e[ll:1]ddc.) <clear>*(;) et(f) pul(f)chri(h)tú(jh/jjj)di(jh/jjj)ne(jh/jjlvKJ'k) (,) tu(kjjh/jhhf)a(fh//g!jjjh/jhh/fgf.) (:) in(f)tén(ghgh)de,(ixhg/hiGF./[-1]iyh!iwj) (,) pró(hf)spe(gf)re(f_g//d!f'g//fh!jvGF'fd//ff/ge'/fgd'/e[ll:1]ddc.) (;) pro(d)cé(fd/fff)de,(dc__) (,) et(ff) re(ixhhg/hh//ixgh!ivGFhh//f!h'j)gna.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Pro(d)pter(d) ve(d)ri(fh)tá(hv.hihhfh.)(,)(df!hvv//hihhfh./gh/ihi)tem,(hh) (;) et(d) man(d)su(d)e(fe)tú(eh)di(h)nem(ih) (,) (hhh'/ihhg./[-0.5]i/jiih.0/[-0.5]j/kjjh.0/[-0.5]i/jiig./h/ihh//fh//ghFE'e[ll:1]d.0) (;) et(d) ju(d)stí(fdfED//f_d/ef!gwhhi)ti(h)am :(hhi!kvvh_[oh:h]i_[oh:h]h._[oh:h]) (:) et(f) de(fi)dú(i)cet(ih/jkihhf/hh/ijH'Gh) te(h.) (;) mi(h)ra(h)bí(i_[oh:h]h//ghG'Fi_[oh:h]h//h'hhvFEfe//f/hhivHGh')li(h)ter(h.) <clear>*(;) déx(hh)te(h)ra(h) tu(ihhf//hh/ijH'G)a.(hhhf//hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
             "mp3": "graduel_specie-tua.mp3",
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:13; 44:10\nVultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.\n!Ps 44:15-16\nV. Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi.\nV. Afferéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
+            "texte": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. V. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua. _ Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam. Vultum tuum deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo. V. Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi. V. Afferéntur in lætítia et exsultatióne: adducéntur in templum Regis.",
             "incipit": {
               "incipit": "Christo igitur",
               "version": "Solesmes",
@@ -77,10 +89,11 @@
             "gabc": "(f3) CHri(f)sto(efE'C) í(efef)gi(gf)tur(f.) (,) * pas(e.f!gwh)so(hg) in(h) car(ghG'F)ne,(e!fwgf//ghghvGFgf..) (;) et(f) vos(e) e(f)á(h)dem(h) co(g)gi(h)ta(i)ti(h)ó(hhvGF)ne(f.) (,) ar(gh'i)má(hhg)mi(fe)ni :(ef/gf/ggf/gh/!iffe.) (:) qui(gh)a(f) qui(f) pas(fg)sus(f) est(f) in(f) car(f_e/f!gwh'!iv)ne,(hg/hiih.0) (;) dé(i)si(e)it(fh) a(hg) pec(hi)cá(i_[oh:h]f//ihhvGF')tis.(f/ggf.0) (::) \r\n<sp>V/</sp>. Sem(f)per(fc) mor(ef~)ti(fe)fi(f)ca(fh)ti(hg)ó(hi)nem(ie/fhG'F) (,) Je(fgF'Ef!hhhf//ihhvGF)su(fhffe.) (;) in(e) cór(fh)po(h)re(f) no(gh/ihi)stro(f.) (,) cir(f)cum(fi)fe(h)rén(hvG~F~)tes,(fe/ggf/gh/!iffe.) (:) ut(e) et(e) vi(gh)ta(f) Je(fg)su(f.) (,) ma(f)ni(f)fe(f)sté(f_e/f!gwh'!iv)tur(hg/hiih.0) (;) in(hi) cor(hhg)pó(fef)ri(eh)bus(gh/ihi) no(f)stris.(f/ggf.0) (::) \r\n<sp>V/</sp>. A(f)spi(e)ci(f)én(hh/ijhhg/ihhggf!gwhgh)tes(gf..) (;) in(f) au(hg)ctó(h)rem(f) fí(f!hh//hhh)de(fg)i(fe/ggf/gh/iffe.) (;) et(f) con(f)sum(hg)ma(hi)tó(ihi)rem(h_gh) Je(e)sum,(ef/gf/ggf/gh/iffe.) (:) qui(e) pro(e)pó(gh)si(f)to(f) si(f)bi(f) gáu(fg)di(f)o,(f.) (,) sus(f)tí(f)nu(f)it(hg) cru(hvGF)cem,(f.) (;) con(f)fu(f)si(f)ó(fg)ne(f) con(f)tém(f_e/f!gwh'!iv)pta,(kxhgi.jkiih.0) (;) at(hihhg)que(fe) in(f) déx(f)te(e)ra(fg) se(f)dis(fe) De(h)i(gh/ihi) () * se(f)det.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 44:15-16\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "texte": "Allelúja, allelúja. Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
             "incipit": {
               "incipit": "Adducentur",
               "version": "Solesmes",
@@ -91,12 +104,14 @@
             "gabc": "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) <i>ij.</i>(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) <sp>V/</sp>. Ad(c.d!ewff)du(fg)cén(ixg_[oh:h]f/g/ig/hffd./fg/ighhV!gh~)tur(f.) (;) re(f.0h!iwjj)gi(ixjjvIG') vír(ixgjjh~)gi(h_[oh:h]i_[oh:h]h_[oh:h])nes(h.) (;) post(fg'hjhhfg) e(fg)am :(gv.ff/ded.) (:) pró(de!f'g)xi(ghg)mae(fg) e(ghg___)jus(g.) (;) af(f)fe(ghg)rén(ixh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghgfffd~)tur(ef~) ti(d_[oh:h]e_[oh:h]d_[oh:h])bi(d.) *(;) in(fc~) lae(d)tí(d!fff/g_[oh:h]f)ti(f!hgh)a.(hhf.) (,) (h_ghvFDgff'fvEC//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": "alleluia_adducentur-regi.mp3",
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:38-42\nIn illo témpore: Intravit Jesus in quoddam castellum: et mulier quaedam, Martha nomine, excepit illum in domum suam et huic erat soror nomine Maria quae etiam sedens secus pedes Domini audiebat verbum illius. ¶ Martha autem satagebat circa frequens ministerium quae stetit, et ait: Domine non est tibi curae quod soror mea reliquit me solam ministrare dic ergo illi ut me adiuvet et respondens dixit illi Dominus: “Martha, Martha, sollicita es, et turbaris erga plurima: porro unum est necessarium. Maria optimam partem elegit, quae non auferetur ab ea.”"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:38-42\nIn illo témpore: Intravit Jesus in quoddam castellum: et mulier quaedam, Martha nomine, excepit illum in domum suam et huic erat soror nomine Maria quae etiam sedens secus pedes Domini audiebat verbum illius. ¶ Martha autem satagebat circa frequens ministerium quae stetit, et ait: Domine non est tibi curae quod soror mea reliquit me solam ministrare dic ergo illi ut me adiuvet et respondens dixit illi Dominus: “Martha, Martha, sollicita es, et turbaris erga plurima: porro unum est necessarium. Maria optimam partem elegit, quae non auferetur ab ea.”",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 44:10\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)",
@@ -110,17 +125,20 @@
             "gabc": "(c3) FI(e/hhh)li(h)ae(h) re(hihh'hh)gum(hihh'hh//ihh'hh_fh.) <clear>*(,) in(fh) ho(fh)nó(h_i)re(hi) tu(f!h'i)o,(ijijvIHih..) (:) á(fh/ih)sti(hhh)tit(hhh) re(h)gí(fh!ivHG'F)na(fhffe.) (,) a(ef) dex(h_f/hji)tris(hji) tu(hiH'F)is(gf..) (;) in(e) ve(f)stí(fh!ivHF)tu(f_h) (,) de(f!hhf'hvE'D)au(de/fef)rá(f!hh/ij)to,(ijiih.0) (:) cir(h)cúm(fh)da(hhh/ijH'F)ta(fhffe.) (,) va(f_e)ri(f_e)e(hhg)tá(gih./ghF'Ehv.//ghF'Ehig'hvF'E)te.(fv.efEC.) (::) <nlba><i>T. P.</i> Al(ef~)le(fgF'Ef./e/hh//gh/ijh)lú(hhh_e//hvGF'fe~){ia}.</nlba>(fv.efEC.) (::)",
             "mp3": "offertoire_filiae-regum.mp3",
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Secreta",
-            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum"
+            "texte": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 25:4-6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)",
@@ -134,74 +152,95 @@
             "gabc": "(c3) QUin(dde~)que(d) *() pru(d)dén(ef~)tes(f) vír(f!gwh)gi(e)nes(deD/B.1) (;) ac([ull:1{1]b)ce(b[ull:}])pé(ded)runt(dc~) ó(efef)le(ef)um(f.) (;) in(df~) va(f)sis(ef) su(d)is(dc) cum(e) lam(ef~)pá(d)di(de!fvED'e)bus :(e[ll:1]d..) (:) mé(f)di(e)a(d) au(e)tem(f) no(hjI'H)cte(h.) (,) cla(hi)mor(j_i) fa(h)ctus(gh) est :(hihh/fgf.) (;) Ec(f)ce(e_[oh:h][ll:1]d) spon(e)sus(f) ve(hjI'H)nit(h.) (,) ex(i)í(i!jwk)te(h.) ób(gxffg)vi(e[ll:1]d)am(d.) (,) Chri(gxd!ffg)sto(ehhh.f!gw!hvGE'fgd') Dó(d)mi(d_[oh:h]e_[oh:h]d_[oh:h])no.(d.) (::) <i>T. P.</i> Al(df)le(gxehvhf!gw!hvGE'fw!gvFE)lú(de!fvED'e){ia}.(e[ll:1]d..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-29.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-29.txt",
             "section": "Postcommunio",
-            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum"
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes."
+            "texte": "!Ps 44:8\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi, ô Dieu, votre Dieu vous a oint d’une huile d’allégresse d’une manière plus excellente que toutes vos compagnes.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Oratio",
-            "texte": "Exaucez-nous, Dieu notre Sauveur, afin que célébrant dans la joie la fête de la bienheureuse N., nous nous laissions gagner aussi par l’ardeur de son amour.\n$Per Dominum"
+            "texte": "Exaucez-nous, Dieu notre Sauveur, afin que célébrant dans la joie la fête de la bienheureuse N., nous nous laissions gagner aussi par l’ardeur de son amour.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C7a.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11, 1-2.\nMes frères : que celui qui se glorifie, se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est approuvé, mais celui que Dieu recommande. Ah ! Si vous pouviez supporter de ma part un peu de folie ! Eh bien, supportez-moi. Car je suis jaloux de vous d’une jalousie de Dieu ; en effet, je vous ai fiancés à un unique époux, au Christ, pour vous présenter à lui comme une vierge pure."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!2 Cor 10:17-18; 11, 1-2.\nMes frères : que celui qui se glorifie, se glorifie dans le Seigneur. Car ce n’est pas celui qui se recommande lui-même qui est approuvé, mais celui que Dieu recommande. Ah ! Si vous pouviez supporter de ma part un peu de folie ! Eh bien, supportez-moi. Car je suis jaloux de vous d’une jalousie de Dieu ; en effet, je vous ai fiancés à un unique époux, au Christ, pour vous présenter à lui comme une vierge pure.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-29.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:5\nAvec votre gloire et votre majesté, avancez, marchez victorieusement et régnez.\nV. Pour la vérité, la douceur et la justice ; et votre droite vous conduira merveilleusement."
+            "section": "Graduale[0]",
+            "texte": "Avec votre gloire et votre majesté, avancez, marchez victorieusement et régnez. V. Pour la vérité, la douceur et la justice ; et votre droite vous conduira merveilleusement.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Tractus",
-            "texte": "!Ps 44:5\nV. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\ndéxtera tua.\n_\n!Tractus\n!Ps 44:11-12\nV. Écoutez, ma fille, voyez, prêtez l’oreille, car le Roi est épris de votre beauté.\n!Ps 44:13; 44:10\nV. Les plus riches du peuple réclameront votre faveur, des filles de rois viendront à votre rencontre.\n!Ps 44:15-16\nV. Elle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Elles font leur entrée dans le palais du Roi."
+            "texte": "V. Dans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. V. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia. déxtera tua. _ V. Écoutez, ma fille, voyez, prêtez l’oreille, car le Roi est épris de votre beauté. V. Les plus riches du peuple réclameront votre faveur, des filles de rois viendront à votre rencontre. V. Elle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit avec allégresse. Elles font leur entrée dans le palais du Roi.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-29.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 44:15-16\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Des vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:38-42\nEn ce temps-là : Jésus entra dans un certain bourg, et une femme, nommée Marthe, le reçut dans sa maison. Elle avait une sœur, appelée Marie, qui, s’étant même assise aux pieds du Seigneur, écoutait sa parole. Marthe, qui était occupée par maint service, se présenta, disant : « Seigneur, vous n’avez cure que ma sœur me laissait seule faire le service ? Dites-lui donc de m’aider.» Le Seigneur lui répondit : « Marthe, Marthe, vous vous inquiétez et vous agitez pour beaucoup de choses ! Or il n’est besoin que de peu de choses ou d’une seule. Marie en effet a choisi la bonne part, qui ne lui sera point ôtée.»"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:38-42\nEn ce temps-là : Jésus entra dans un certain bourg, et une femme, nommée Marthe, le reçut dans sa maison. Elle avait une sœur, appelée Marie, qui, s’étant même assise aux pieds du Seigneur, écoutait sa parole. Marthe, qui était occupée par maint service, se présenta, disant : « Seigneur, vous n’avez cure que ma sœur me laissait seule faire le service ? Dites-lui donc de m’aider.» Le Seigneur lui répondit : « Marthe, Marthe, vous vous inquiétez et vous agitez pour beaucoup de choses ! Or il n’est besoin que de peu de choses ou d’une seule. Marie en effet a choisi la bonne part, qui ne lui sera point ôtée.»",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:10\nLes filles des rois sont dans votre gloire ; la reine se tient à votre droite en vêtements tissés d’or, couverte de broderies."
+            "texte": "!Ps 44:10\nLes filles des rois sont dans votre gloire ; la reine se tient à votre droite en vêtements tissés d’or, couverte de broderies.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Secreta",
-            "texte": "Qu’elle soit agréée de vous, Seigneur, l’offrande faite par votre peuple saint en l’honneur de vos Saintes par les mérites desquelles il reconnaît avoir reçu du secours dans la tribulation.\n$Per Dominum"
+            "texte": "Qu’elle soit agréée de vous, Seigneur, l’offrande faite par votre peuple saint en l’honneur de vos Saintes par les mérites desquelles il reconnaît avoir reçu du secours dans la tribulation.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Communio",
-            "texte": "!Matt 25:4; 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur."
+            "texte": "!Matt 25:4; 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-29.txt",
             "section": "Postcommunio",
-            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous célébrons la fête.\n$Per Dominum"
+            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous célébrons la fête.\n$Per Dominum",
+            "references": null
           }
         }
       },

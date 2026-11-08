@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent17-5",
-        "nom_sanctoral": "",
-        "classe": 1.0,
+        "gagnant": "Tempora/Pent17-0",
+        "nom_sanctoral": "17e dimanche après la Pentecôte",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent17-5.txt",
-        "temporal": "Latin/Tempora/Pent17-5.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent17-0.txt",
+        "temporal": "Latin/Tempora/Pent17-0.txt",
         "sanctoral": null,
         "calendrier": null,
         "table_transfert": null,
@@ -23,139 +23,216 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent17-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "texte": "!Ps 118:137; 118:124\nv. Justus es, Dómine, et rectum judícium tuum: fac cum servo tuo secúndum misericórdiam tuam.\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. Justus es, Dómine, et rectum judicium tuum: fac cum servo tuo secúndum misericórdiam tuam.",
+            "incipit": {
+              "incipit": "Justus es Domine",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) JU(ixdh'!iv)stus(h) es(h) *() Dó(h)mi(gf)ne,(f.) (;) et(f) re(gh)ctum(h) ju(h)dí(jj)ci(g_[oh:h]f)um(hfh) tu(h!iwjh)um :(h.) (:) fac(h) cum(j) ser(kjk)vo(k) tu(k)o(kl) (,) se(j)cún(hj)dum(jjj_h) (`) mi(f)se(g)ri(f_e)cór(fhg)di(f)am(gffe) tu(de!fvED'e)am.(e[ll:1]d..) (::) <i>Ps.</i> Be(f)á(gh)ti(h) im(h)ma(h)cu(h)lá(hj)ti(h) in(h) vi(hg)a :(gh..) *(:) qui(gf) ám(gh)bu(h)lant(h) in(h) le(hjh)ge(g') Dó(f)mi(fff)ni.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+            "mp3": "introitus_justus-es-domine.mp3",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Da, quǽsumus, Dómine, pópulo tuo diabólica vitáre contágia: et te solum Deum pura mente sectári.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 4:1-6\nFratres: Obsecro vos ego vinctus in Dómino, ut digne ambulétis vocatióne, qua vocáti estis, cum omni humilitáte et mansuetúdine, cum patiéntia, supportántes ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo pacis. Unum corpus et unus spíritus, sicut vocáti estis in una spe vocatiónis vestræ. Unus Dóminus, una fides, unum baptísma. Unus Deus et Pater ómnium, qui est super omnes et per ómnia et in ómnibus nobis. Qui est benedíctus in sǽcula sæculórum. Amen.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi. V. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum.",
+            "incipit": {
+              "incipit": "Beata gens",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) BE(d)á(ff)ta(gffe//fhG'Fg_[oh:h]d) gens,(d.) *(;) cu(d)jus(d) est(ff) Dó(g_[oh:h]fh)mi(h)nus(h.) (,) De(hjhhg)us(g_[oh:h]f) e(fe)ó(ggfghvG__Fg_[oh:h]f)rum :(f.) (:) pó(hhghjjjvIH)pu(h_[oh:h]i_[oh:h]h_[oh:h])lus,(h.) (;) quem(f) e(ghg)lé(hvvG'FE'fwgfg)git(g_[oh:h]f_[oh:h]) (,) Dó(gffvED)mi(e[ll:1]d)nus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) in(f) he(d)re(e)di(f)tá(ghgh//ijii)tem(ih..) (,) si(h)bi.(ghGEf_g//fgFDf_h//ghGEf_g//fgFD.1) (::) <sp>V/</sp>. Ver(dh)bo(h) Dó(hjhhghGF.)(,)(ixhiHG'hw!ivHGhi)mi(h)ni(iyhjH'Gh!jjh//jjjvIH'jggf.0) (;) cae(h_[hl:1]k_[hl:1]j_[hl:1]kvJH'i)li(h.) fir(hg~)má(h!iwj)ti(g) sunt :(fh/jh/ih..) (:) et(f) spí(ghghjhhggf!gwh_g)ri(h)tu(g.) (,) o(h_fh)ris(g_[oh:h]fg) e(fg)jus(d/ffd/fge'/fgd'/e[ll:1]ddc.) (:) o(f_d/ff!gwhgh//jkjj'jvH'G/[-0.5]{ix}F0'gwh!iv_[oh:h]H~G~)mnis(h_g) vir(gh~)tus(g) *(,) e(gh)ó(ixjhiGF'h!jjvH'G)rum.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
+            "mp3": "graduel_beata-gens.mp3",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja Dómine, exáudi oratiónem meam, et clamor meus ad te pervéniat. Allelúja.",
+            "incipit": {
+              "incipit": "Domine exaudi",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c2) AL(c)le(cfe)lú(g/fg~){ia}.(g.) <clear>*(,) <i>ij.</i>(hgjvIH//ef!gvvFDC.) (;) (g_[oh:h]f/h_e//fggvFD'Cd_eddc.) (::) <sp>V/</sp>. Dó(c!feg)mi(fg)ne,(g.) (,) ex(gh!i'j)áu(j_k)di(g_[oh:h]i_[oh:h]g_[oh:h]!hwi_[oh:h]hivHGhg..) (;) o(f)ra(fff)ti(gi)ó(hv.ghf)nem(dfE'De) me(cdc___)am,(c.) (:) et(c) cla(cfe)mor(fg~) me(gg/i_[oh:h]gg'h!i'j//hjI'HGhi)us(hg..) *(;) ad(c) te(cfe) vé(g)ni(fg)at.(g./hgjvIH//ef!gvvFDC.) (;) (g_[oh:h]f/h_e//fggvFD'Cd_eddc.) (::)",
+            "mp3": "alleluia_domine-exaudi-orationem.mp3",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:34-46\nIn illo témpore: Accessérunt ad Jesum pharisǽi: et interrogávit eum unus ex eis legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Jesus: Díliges Dóminum, Deum tuum, ex toto corde tuo et in tota ánima tua et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum sicut teípsum. In his duóbus mandátis univérsa lex pendet et prophétæ. Congregátis autem pharisǽis, interrogávit eos Jesus, dicens: Quid vobis vidétur de Christo? cujus fílius est? Dicunt ei: David. Ait illis: Quómodo ergo David in spíritu vocat eum Dóminum, dicens: Dixit Dóminus Dómino meo, sede a dextris meis, donec ponam inimícos tuos scabéllum pedum tuórum? Si ergo David vocat eum Dóminum, quómodo fílius ejus est? Et nemo poterat ei respóndere verbum: neque ausus fuit quisquam ex illa die eum ámplius interrogáre.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "texte": "!Dan 9:17; 9:18; 9:19\nOrávi Deum meum ego Dániel, dicens: Exáudi, Dómine, preces servi tui: illúmina fáciem tuam super sanctuárium tuum: et propítius inténde pópulum istum, super quem invocátum est nomen tuum, Deus.",
+            "incipit": {
+              "incipit": "Oravi Deum",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) O(dfd)rá(eef//dgff'ffvD'C//dfD'C//dfd/ef)vi(e.) *(,) De(e.f!gwh)um(hg~) me(g)um(ddf) (;) e(eef)go(d!ewffvED'd) Dá(c)ni(dfd)el,(e./f!hgh) di(egff)cens :(fe..) (:) Ex(g)áu(iij)di,(g) Dó(h)mi(gh_G'_FE'f)ne,(fe..) (;) pre(e!fwg'!hv)ces(g) ser(ghgg)vi(f_e) tu(egF'E)i :(eef.) (:) il(d)lú(dg)mi(hg)na(g) fá(hji)ci(i)em(jkjj) tu(h.g!hwihi)am(ih..) (;) su(h!jj//jjj)per(gh) san(ef)ctu(g)á(hg/h!jj)ri(hg)um(gh) tu(gihhg)um :(g.) (:) et(g) pro(g)pí(gj)ti(kj)us(j) in(h)tén(ixfg'high)de(e.) (;) pó(e!fwg'!hv)pu(g)lum(hg/hf) i(d)stum,(fd/ff//fffg~) (,) su(cd)per(cd~) quem(c) in(c)vo(d!ewf)cá(fgF'E)tum(fg'h) est(h_g) (,) no(ghg)men(gh) tu(gv.fg/hgh)um,(hg..) (;) De(e/fhg'hvF'D//ff//ffvE'Cege.)(,)(g'//hg'hvF'D//ff//dffc)(,)(effd/ef'!gvF'E)us.(e.) (::)",
+            "mp3": null,
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Majestátem tuam, Dómine, supplíciter deprecámur: ut hæc sancta, quæ gérimus, et a prætéritis nos delictis éxuant et futúris.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "texte": "!Ps 75:12-13\nVovéte et réddite Dómino, Deo vestro, omnes, qui in circúitu ejus affértis múnera: terríbili, et ei qui aufert spíritum príncipum: terríbili apud omnes reges terræ.",
+            "incipit": {
+              "incipit": "Vovete",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(f3) VO(ef'g)vé(f)te,(f.) <clear>*(,) et(ef'h~) réd(hhi)di(h)te(h.) (,) Dó(h)mi(hhh)no(f) De(h)o(f) ve(hih)stro,(hhh) (;) o(fgF~'E~)mnes(f_e) qui(e) in(e) cir(ehg~)cú(hi)i(i)tu(hi) e(i)jus(e.) (,) af(f)fér(hih)tis(gh) mú(f)ne(f_[oh:h]g_[oh:h]f_[oh:h])ra :(f.) (:) ter(h)rí(hj)bi(iji)li,(i.) (,) et(hg) e(h_[oh:h]i_[oh:h]f_[oh:h])i(f.) qui(hg) au(hi)fert(hvGF) (,) spí(h)ri(h)tum(g!i'j) prín(ji/jhi)ci(h.g!hwihi)pum :(ih..) (:) ter(h)rí(hgh)bi(f)li(e.) (,) a(fgef)pud(efE'C) o(ef)mnes(f_e) re(hh)ges(ig/h_g) ter(fg!hvGF'g)rae.(gf..) (::)",
+            "mp3": "communion_vovete.mp3",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent17-5.txt",
+            "fichier": "Latin/Tempora/Pent17-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis ætérna provéniant.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad1-6.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Ps 118:137; 118:124\nv. Vous êtes juste, Seigneur, et votre jugement est droit ; agissez envers votre serviteur selon votre miséricorde.\n!Ps 118:1\nHeureux ceux qui sont sans tache dans le chemin, qui marchent dans la loi du Seigneur.\n&Gloria\nv. Vous êtes juste, Seigneur, et votre jugement est droit ; agissez envers votre serviteur selon votre miséricorde.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Donnez à votre peuple, Seigneur, d'éviter le contact du démon, et de s'attacher d'un cœur pur à vous seul, qui êtes Dieu.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 4:1-6\nFrères, je vous prie instamment, moi qui suis prisonnier dans le Seigneur, d'avoir une conduite digne de la vocation à laquelle vous avez été appelés, en toute humilité et douceur, avec patience, vous supportant mutuellement avec charité, vous efforçant de conserver l'unité de l'esprit par le lien de la paix. Il n'y a qu'un seul corps et un seul esprit, comme aussi vous avez été appelés par votre vocation à une même espérance. Il n'y a qu'un seul Seigneur, une seule foi, un seul baptême, un seul Dieu, Père de tous, qui est au-dessus de tous, qui agit par tous, qui est en nous tous, lui qui est béni pour les siècles des siècles, amen.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent17-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Heureux le peuple dont le Seigneur est le Dieu, le peuple que le Seigneur s'est choisi pour héritage. V. Par la Parole du Seigneur les cieux furent affermis, et par l'Esprit de sa bouche leur est venue leur force.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent17-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Seigneur, exaucez ma prière, et que mon cri parvienne jusqu'à vous. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:34-46\nEn ce temps-là, les Pharisiens s'approchèrent de Jésus, et l'un d'eux, docteur de la loi, lui demanda pour le mettre à l'épreuve : « Maître, quel est le plus grand commandement de la Loi ? » Il lui dit : « Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme et de tout ton esprit. C'est là le plus grand et le premier commandement. Un second lui est égal : Tu aimeras ton proche comme toi-même. En ces deux commandements tient toute la Loi, et les Prophètes. » Les Pharisiens étant rassemblés, Jésus leur fit cette question : « Que pensez-vous du Christ ? De qui est-il fils ? » Ils lui disent : « De David. — Comment donc, leur dit-il, David, inspiré par l'Esprit, l'appelle-t-il Seigneur, quand il dit : Le Seigneur a dit à mon Seigneur : Assieds-toi à ma droite, jusqu'à ce que j'aie mis tes ennemis sous tes pieds ? Si donc David l'appelle Seigneur, comment est-il son fils ? » Et nul ne pouvait lui répondre mot, et, depuis ce jour, personne n'osa plus l'interroger.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Dan 9:17; 9:18; 9:19\nJ'ai prié mon Dieu, moi Daniel, en disant : Exaucez, Seigneur, les prières de votre serviteur, faites briller votre visage sur votre sanctuaire, et regardez avec bonté ce peuple sur lequel votre Nom est invoqué, ô Dieu.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "De votre majesté, Seigneur, nous implorons la grâce d'être libérés, par les saints mystères que nous célébrons, des fautes du passé et de celles de l'avenir.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 75:12-13\nOffrez des vœux et acquittez-vous-en envers le Seigneur votre Dieu, vous tous qui l'entourez ; apportez vos présents au Dieu redoutable, qui coupe le souffle aux princes et fait trembler les rois de la terre.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent17-5.txt",
+            "fichier": "Francais/Tempora/Pent17-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Que vos mystères sanctificateurs, Dieu tout-puissant, opèrent la guérison de nos vices et nous apportent un remède d'éternité.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/Pent17-5.txt",
-        "Latin/Tempora/Pent17-5.txt"
+        "Francais/Tempora/Pent17-0.txt",
+        "Latin/Tempora/Pent17-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

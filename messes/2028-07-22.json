@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-22",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ste Marie-Madeleine pénitente",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-22.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,39 +40,51 @@
             "gabc": "(f3) ME(hf/hhh) ex(h)spe(h)cta(h)vé(hih)runt(hhh) *() pec(hih)ca(f)tó(f/hhf)res,(f.) (,) ut(fef) pér(h.f!gw!hi)de(h)rent(hiH'Gh) me :(f.) (:) te(f)sti(h)mó(hi)ni(i)a(i) tu(i)a,(i) Dó(ij)mi(ih)ne,(h.) (,) in(h)tel(h)lé(gh!ijIG'h)xi :(h.) (;) o(fi)mnis(i) con(i)sum(ih~)ma(h!jij)ti(h)ó(f!hgh)nis(f.) (,) vi(fhg)di(hi) fi(fgF'E)nem :(e.) (:) la(h)tum(gihh) man(ef)dá(hhi)tum(h) tu(h_f)um(i) ni(hiH'F)mis.(f.) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::) <i>Ps.</i> Be(e)á(fe)ti(eh) im(h)ma(h)cu(h)lá(hg)ti(hi) in(i) vi(hi)a :(h.) *(:) qui(hf) ám(fh)bu(h)lant(h) in(h) le(i)ge(hf) Dó(h)mi(ge)ni.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": "introitus_me-exspectaverunt-peccatores.mp3",
             "fichier": "Latin/Sancti/07-22.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Oratio",
-            "texte": "Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis resuscitásti:\n$Qui vivis"
+            "texte": "Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis resuscitásti:\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Cant 3:2-5; 8:6-7\nSurgam, et circuíbo civitátem: per vicos et pláteas quæram, quem díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me vígiles, qui custódiunt civitátem. Num quem díligit ánima mea, vidístis? Páululum cum pertransíssem eos, invéni, quem díligit ánima mea: ténui eum, nec dimíttam, donec introdúcam illum in domum matris meæ et in cubículum genetrícis meæ. Adjúro vos, fíliæ Jerúsalem, per cápreas cervósque campórum, ne suscitétis neque evigiláre faciátis diléctam, donec ipsa velit. Pone me ut signáculum super cor tuum, ut signáculum super bráchium tuum: quia fortis est ut mors diléctio, dura sicut inférnus æmulátio: lámpades ejus lámpades ignis atque flammárum. Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent illam: si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despíciet eam."
+            "texte": "Léctio libri Sapiéntiæ\n!Cant 3:2-5; 8:6-7\nSurgam, et circuíbo civitátem: per vicos et pláteas quæram, quem díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me vígiles, qui custódiunt civitátem. Num quem díligit ánima mea, vidístis? Páululum cum pertransíssem eos, invéni, quem díligit ánima mea: ténui eum, nec dimíttam, donec introdúcam illum in domum matris meæ et in cubículum genetrícis meæ. Adjúro vos, fíliæ Jerúsalem, per cápreas cervósque campórum, ne suscitétis neque evigiláre faciátis diléctam, donec ipsa velit. Pone me ut signáculum super cor tuum, ut signáculum super bráchium tuum: quia fortis est ut mors diléctio, dura sicut inférnus æmulátio: lámpades ejus lámpades ignis atque flammárum. Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent illam: si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despíciet eam.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.",
+            "texte": "Dilexísti justítiam, et odísti iniquitátem. V. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.",
             "incipit": {
               "incipit": "Dilexisti",
               "version": "Solesmes",
-              "distance": 2,
-              "similarite": 0.95,
+              "distance": 0,
+              "similarite": 1.0,
               "source": "Graduale"
             },
             "gabc": "(c4) DI(c)le(dc)xí(cg)sti(gv.fffddc.) (,) * ju(c)stí(c!geghjh___!iwj)ti(ghg___)am,(g.) (;) et(f) o(gh)dí(jj/kjk)sti(kjj) (,) in(gh)i(h)qui(hjh)tá(g)tem.(f/ghffd//gvgf/gjhhg.) (::) <sp>V/</sp>. Pro(gf)ptér(gf)e(hj)a(jjjvHG'hjjlvKJ'Ijg..) (;) un(gh)xit(h_g) te(g) De(g_[oh:h]f/ghffd)us,(d.) (,) De(gg)us(g) tu(ghg___)us,(g.) (;) ó(g)le(fg)o(gggvED'/!eg'//hvGFg.) <clear>*(,) lae(gf)tí(gf)ti(hj)ae.(jjk//iijhhg.) (,) (ijGF.h!iwjji gjh/ihhg.) (::)",
             "mp3": "graduel_dilexisti-iustitiam.mp3",
             "fichier": "Latin/Sancti/07-22.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 44:3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.",
+            "texte": "Allelúja, allelúja. Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.",
             "incipit": {
               "incipit": "Diffusa est (All.)",
               "version": "Solesmes",
@@ -82,12 +95,14 @@
             "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Dif(h)fú(hv.gih)sa(hg) est(g) grá(gh!ivvHFhfg)ti(hg)a(g.) (;) in(gf~) lá(hji)bi(h)is(ghf'gvF'E) tú(hhvGE.gxfgFD.egF'Efe)is :(e.) (:) pro(e)ptér(feh)e(h)a(h.) be(h)ne(h)dí(h)xit(h) te(h) (,) De(hfh'GE//fhF'DgxgvFEf.0!/[-0.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHG'he.gxf_e/g_[oh:h]e//gvFEfd)us(d.) (;) * in(fde) ae(ef)tér(hg/hfh)num.(ghFE.) (,) (df!hvF'E//d.0f!gwhg/!hvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-22.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 7:36-50\nIn illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum illo. Et ingréssus domum pharisǽi, discúbuit. Et ecce múlier, quæ erat in civitáte peccátrix, ut cognóvit, quod accubuísset in domo pharisǽi, áttulit alabástrum unguénti: et stans retro secus pedes ejus, lácrimis cœpit rigáre pedes ejus, et capíllis cápitis sui tergébat, et osculabátur pedes ejus, et unguénto ungébat. ¶ Videns autem pharisǽus, qui vocáverat eum, ait intra se, dicens: Hic si esset Prophéta, sciret útique, quæ et qualis est múlier, quæ tangit eum: quia peccátrix est. Et respóndens Jesus, dixit ad illum: Simon, hábeo tibi áliquid dícere. At ille ait: Magíster, dic. Duo debitóres erant cuidam fœneratóri: unus debébat denários quingéntos, et álius quinquagínta. Non habéntibus illis, unde rédderent, donávit utrísque. Quis ergo eum plus díligit? Respóndens Simon, dixit: Æstimo, quia is, cui plus donávit. At ille dixit ei: Recte judicásti. Et convérsus ad mulíerem, dixit Simóni: Vides hanc mulíerem? Intrávi in domum tuam, aquam pédibus meis non dedísti: hæc autem lácrimis rigávit pedes meos et capíllis suis tersit. Osculum mihi non dedísti: hæc autem, ex quo intrávit, non cessávit osculári pedes meos. Oleo caput meum non unxísti: hæc autem unguénto unxit pedes meos. Propter quod dico tibi: Remittúntur ei peccáta multa, quóniam diléxit multum. Cui autem minus dimíttitur, minus díligit. Dixit autem ad illam: Remittúntur tibi peccáta. Et cœpérunt, qui simul accumbébant, dícere intra se: Quis est hic, qui étiam peccáta dimíttit? Dixit autem ad mulíerem: Fides tua te salvam fecit: vade in pace."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 7:36-50\nIn illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum illo. Et ingréssus domum pharisǽi, discúbuit. Et ecce múlier, quæ erat in civitáte peccátrix, ut cognóvit, quod accubuísset in domo pharisǽi, áttulit alabástrum unguénti: et stans retro secus pedes ejus, lácrimis cœpit rigáre pedes ejus, et capíllis cápitis sui tergébat, et osculabátur pedes ejus, et unguénto ungébat. ¶ Videns autem pharisǽus, qui vocáverat eum, ait intra se, dicens: Hic si esset Prophéta, sciret útique, quæ et qualis est múlier, quæ tangit eum: quia peccátrix est. Et respóndens Jesus, dixit ad illum: Simon, hábeo tibi áliquid dícere. At ille ait: Magíster, dic. Duo debitóres erant cuidam fœneratóri: unus debébat denários quingéntos, et álius quinquagínta. Non habéntibus illis, unde rédderent, donávit utrísque. Quis ergo eum plus díligit? Respóndens Simon, dixit: Æstimo, quia is, cui plus donávit. At ille dixit ei: Recte judicásti. Et convérsus ad mulíerem, dixit Simóni: Vides hanc mulíerem? Intrávi in domum tuam, aquam pédibus meis non dedísti: hæc autem lácrimis rigávit pedes meos et capíllis suis tersit. Osculum mihi non dedísti: hæc autem, ex quo intrávit, non cessávit osculári pedes meos. Oleo caput meum non unxísti: hæc autem unguénto unxit pedes meos. Propter quod dico tibi: Remittúntur ei peccáta multa, quóniam diléxit multum. Cui autem minus dimíttitur, minus díligit. Dixit autem ad illam: Remittúntur tibi peccáta. Et cœpérunt, qui simul accumbébant, dícere intra se: Quis est hic, qui étiam peccáta dimíttit? Dixit autem ad mulíerem: Fides tua te salvam fecit: vade in pace.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 44:10\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)",
@@ -101,17 +116,27 @@
             "gabc": "(c3) FI(e/hhh)li(h)ae(h) re(hihh'hh)gum(hihh'hh//ihh'hh_fh.) <clear>*(,) in(fh) ho(fh)nó(h_i)re(hi) tu(f!h'i)o,(ijijvIHih..) (:) á(fh/ih)sti(hhh)tit(hhh) re(h)gí(fh!ivHG'F)na(fhffe.) (,) a(ef) dex(h_f/hji)tris(hji) tu(hiH'F)is(gf..) (;) in(e) ve(f)stí(fh!ivHF)tu(f_h) (,) de(f!hhf'hvE'D)au(de/fef)rá(f!hh/ij)to,(ijiih.0) (:) cir(h)cúm(fh)da(hhh/ijH'F)ta(fhffe.) (,) va(f_e)ri(f_e)e(hhg)tá(gih./ghF'Ehv.//ghF'Ehig'hvF'E)te.(fv.efEC.) (::) <nlba><i>T. P.</i> Al(ef~)le(fgF'Ef./e/hh//gh/ijh)lú(hhh_e//hvGF'fe~){ia}.</nlba>(fv.efEC.) (::)",
             "mp3": "offertoire_filiae-regum.mp3",
             "fichier": "Latin/Sancti/07-22.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Secreta",
-            "texte": "Múnera nostra, quǽsumus. Dómine, beátæ Maríæ Magdalénæ gloriósa mérita tibi reddant accépta: cujus oblatiónis obséquium unigénitus Fílius tuus cleménter suscépit impénsum:\n$Qui tecum"
+            "texte": "Múnera nostra, quǽsumus. Dómine, beátæ Maríæ Magdalénæ gloriósa mérita tibi reddant accépta: cujus oblatiónis obséquium unigénitus Fílius tuus cleménter suscépit impénsum:\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 118:121; 118:122; 118:128\nFeci judícium et justítiam, Dómine, non calumniéntur mihi supérbi: ad ómnia mandáta tua dirigébar, omnem viam iniquitátis ódio hábui. (Allelúja.)",
@@ -125,74 +150,95 @@
             "gabc": "(c4) FE(g)ci(f) ju(e)dí(ghgh)ci(fg)um(g_[oh:h]e_[oh:h]) *(,) et(gef) ju(e[ll:1]d)stí(f)ti(f)am,(ef!hvGFghg') Dó(e)mi(egff)ne,(fe..) (:) non(h) ca(h)lu(h)mni(gf)én(gh)tur(h') mi(h)hi(g') su(f)pér(gh)bi :(g.) (;) ad(e) ó(gef)mni(dc)a(c) man(e)dá(gfg)ta(fgF'D) tu(f!gwhgh)a(h_g) (,) di(gef)ri(e[ll:1]d)gé(fgef)bar,(e[ll:1]d..) (:) o(dh)mnem(h) vi(ixhih)am(g) in(g)i(ghg)qui(f)tá(fgf)tis(f.) (,) ó(eef)di(dc)o(d!ewf) há(e)bu(egff)i.(fe..) (::) <i>T. P.</i> Al(f)le(d./[-0.5]ghG'Fghg)lú(egff){ia}.(fe..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-22.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-22.txt",
             "section": "Postcommunio",
-            "texte": "Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ patrocíniis, eruámur:\n$Qui vivis"
+            "texte": "Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ patrocíniis, eruámur:\n$Qui vivis",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Introitus",
-            "texte": "!Ps 118:95-96\nv. Les pécheurs m’ont attendu pour me perdre : mais j’ai compris vos enseignements, Seigneur : j’ai vu la fin de toute perfection : votre loi a une étendue infinie.\n!Ps 118:1\nHeureux ceux qui sont immaculés dans la voie : qui marchent dans la loi du Seigneur.\n&Gloria\nv. Les pécheurs m’ont attendu pour me perdre : mais j’ai compris vos enseignements, Seigneur : j’ai vu la fin de toute perfection : votre loi a une étendue infinie."
+            "texte": "!Ps 118:95-96\nv. Les pécheurs m’ont attendu pour me perdre : mais j’ai compris vos enseignements, Seigneur : j’ai vu la fin de toute perfection : votre loi a une étendue infinie.\n!Ps 118:1\nHeureux ceux qui sont immaculés dans la voie : qui marchent dans la loi du Seigneur.\n&Gloria\nv. Les pécheurs m’ont attendu pour me perdre : mais j’ai compris vos enseignements, Seigneur : j’ai vu la fin de toute perfection : votre loi a une étendue infinie.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Oratio",
-            "texte": "Nous vous prions, Seigneur, par les suffrages de la bienheureuse Marie-Madeleine, de venir à notre aide : vous qui, fléchi par ses prières, avez ressuscité vivant des enfers son frère Lazare, mort depuis quatre jours.\n$Qui vivis"
+            "texte": "Nous vous prions, Seigneur, par les suffrages de la bienheureuse Marie-Madeleine, de venir à notre aide : vous qui, fléchi par ses prières, avez ressuscité vivant des enfers son frère Lazare, mort depuis quatre jours.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Cant 3:2-5; 8:6-7\nJe me lèverai, je parcourrai la ville ; les rues et les places, je chercherai celui que mon cœur aime : Je l’ai cherché et Je ne l’ai point trouvé. Les gardes m’ont rencontrée, ceux qui font la ronde dans la ville : « Avez-vous vu celui que mon cœur aime ?» A peine les avais-je dépassés, que j’ai trouvé celui que mon cœur aime. Je l’ai saisi et je ne le lâcherai pas, jusqu’à ce que je l’aie introduit dans la maison de ma mère, et dans la chambre de celle qui m’a donné le jour. Je vous en conjure, filles de Jérusalem, par les gazelles et les biches des champs, n’éveillez pas, ne réveillez pas la bien-aimée, avant qu’elle le veuille. Mets-moi comme un sceau sur ton cœur, comme un sceau sur ton bras ; car l’amour est fort comme la mort, la jalousie est inflexible comme l’enfer. Ses ardeurs sont des ardeurs de feu. Les grandes eaux ne sauraient éteindre l’amour, et les fleuves ne le submergeraient pas. Un homme donnerait-il pour l’amour toutes les richesses de sa maison, on ne ferait que le mépriser."
+            "texte": "Léctio libri Sapiéntiæ.\n!Cant 3:2-5; 8:6-7\nJe me lèverai, je parcourrai la ville ; les rues et les places, je chercherai celui que mon cœur aime : Je l’ai cherché et Je ne l’ai point trouvé. Les gardes m’ont rencontrée, ceux qui font la ronde dans la ville : « Avez-vous vu celui que mon cœur aime ?» A peine les avais-je dépassés, que j’ai trouvé celui que mon cœur aime. Je l’ai saisi et je ne le lâcherai pas, jusqu’à ce que je l’aie introduit dans la maison de ma mère, et dans la chambre de celle qui m’a donné le jour. Je vous en conjure, filles de Jérusalem, par les gazelles et les biches des champs, n’éveillez pas, ne réveillez pas la bien-aimée, avant qu’elle le veuille. Mets-moi comme un sceau sur ton cœur, comme un sceau sur ton bras ; car l’amour est fort comme la mort, la jalousie est inflexible comme l’enfer. Ses ardeurs sont des ardeurs de feu. Les grandes eaux ne sauraient éteindre l’amour, et les fleuves ne le submergeraient pas. Un homme donnerait-il pour l’amour toutes les richesses de sa maison, on ne ferait que le mépriser.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-22.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:8\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse."
+            "section": "Graduale[0]",
+            "texte": "Vous avez aimé la justice et haï l’iniquité. V. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-22.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 44:3\nV. La grâce est répandue sur vos lèvres : c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. La grâce est répandue sur vos lèvres : c’est pourquoi Dieu vous a bénie à jamais et pour tous les siècles. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:36-50\nEn ce temps-là : Un Pharisien invita Jésus à manger avec lui. Il entra dans la maison du Pharisien et se mit à table. Et voici qu’une femme qui, dans la ville, était pécheresse, ayant appris qu’il était à table dans la maison du Pharisien, apporta un vase d’albâtre plein de parfum ; et se tenant par derrière, près de ses pieds, tout en pleurs, elle se mit à arroser ses pieds de ses larmes, et elle essuyait avec les cheveux de sa tête et embrassait ses pieds, et elle les oignait de parfum. A cette vue, le Pharisien qui l’avait invité se dit en lui-même : « S’il était prophète, il saurait qui et de quelle espèce est la femme qui le touche, que c’est une pécheresse.» Et prenant la parole, Jésus lui dit : « Simon, j’ai quelque chose à te dire.» Et lui : « Maître, parlez.» dit-il. « Un créancier avait deux débiteurs : l’un devait cinq cents deniers et l’autre cinquante. Comme ils n’avaient pas de quoi rendre, il fit remise à tous les deux. Lequel donc d’entre eux l’aimera davantage ?» Simon répondit : « Celui, je pense, auquel il a remis le plus.» Il lui dit : « Tu as bien jugé.» Et, se tournant vers la femme, il dit à Simon : « Vois-tu cette femme ? Je suis entré dans ta maison, et tu n’as pas versé d’eau sur mes pieds ; mais elle, elle a arrosé mes pieds de (ses) larmes et les a essuyés avec ses cheveux. Tu ne m’as point donné de baiser ; mais elle, depuis que je suis entré, elle ne cessait pas d’embrasser mes pieds. Tu n’as pas oint ma tête d’huile ; mais elle, elle a oint mes pieds de parfum. C’est pourquoi, je te le dis, ses nombreux péchés lui sont pardonnés, parce qu’elle a beaucoup aimé ; mais celui à qui l’on pardonne peu, aime peu.» Et à elle, il dit : « Tes péchés sont pardonnés.» Et les convives se mirent à se dire en eux-mêmes : « Qui est celui-ci qui même pardonne les péchés ?» Et il dit à la femme : « Ta foi t’a sauvée, va en paix.»"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 7:36-50\nEn ce temps-là : Un Pharisien invita Jésus à manger avec lui. Il entra dans la maison du Pharisien et se mit à table. Et voici qu’une femme qui, dans la ville, était pécheresse, ayant appris qu’il était à table dans la maison du Pharisien, apporta un vase d’albâtre plein de parfum ; et se tenant par derrière, près de ses pieds, tout en pleurs, elle se mit à arroser ses pieds de ses larmes, et elle essuyait avec les cheveux de sa tête et embrassait ses pieds, et elle les oignait de parfum. A cette vue, le Pharisien qui l’avait invité se dit en lui-même : « S’il était prophète, il saurait qui et de quelle espèce est la femme qui le touche, que c’est une pécheresse.» Et prenant la parole, Jésus lui dit : « Simon, j’ai quelque chose à te dire.» Et lui : « Maître, parlez.» dit-il. « Un créancier avait deux débiteurs : l’un devait cinq cents deniers et l’autre cinquante. Comme ils n’avaient pas de quoi rendre, il fit remise à tous les deux. Lequel donc d’entre eux l’aimera davantage ?» Simon répondit : « Celui, je pense, auquel il a remis le plus.» Il lui dit : « Tu as bien jugé.» Et, se tournant vers la femme, il dit à Simon : « Vois-tu cette femme ? Je suis entré dans ta maison, et tu n’as pas versé d’eau sur mes pieds ; mais elle, elle a arrosé mes pieds de (ses) larmes et les a essuyés avec ses cheveux. Tu ne m’as point donné de baiser ; mais elle, depuis que je suis entré, elle ne cessait pas d’embrasser mes pieds. Tu n’as pas oint ma tête d’huile ; mais elle, elle a oint mes pieds de parfum. C’est pourquoi, je te le dis, ses nombreux péchés lui sont pardonnés, parce qu’elle a beaucoup aimé ; mais celui à qui l’on pardonne peu, aime peu.» Et à elle, il dit : « Tes péchés sont pardonnés.» Et les convives se mirent à se dire en eux-mêmes : « Qui est celui-ci qui même pardonne les péchés ?» Et il dit à la femme : « Ta foi t’a sauvée, va en paix.»",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:10\nLes filles des rois sont dans votre gloire, la reine se tient à votre droite en vêtements tissés d’or, couverte de broderies."
+            "texte": "!Ps 44:10\nLes filles des rois sont dans votre gloire, la reine se tient à votre droite en vêtements tissés d’or, couverte de broderies.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Seigneur, que nos dons vous soient rendus agréables par l’évocation des glorieux mérites de la bienheureuse Marie-Madeleine dont votre Fils Unique a accepté les témoignages de vénération et l’offrande de grand prix.\n$Qui tecum"
+            "texte": "Nous vous en supplions, Seigneur, que nos dons vous soient rendus agréables par l’évocation des glorieux mérites de la bienheureuse Marie-Madeleine dont votre Fils Unique a accepté les témoignages de vénération et l’offrande de grand prix.\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Communio",
-            "texte": "!Ps 118:121; 118:122; 118:128\nJ’ai accompli le droit et la justice, Seigneur, que les superbes cessent de me calomnier : je me suis conformé à vos commandements, j’ai haï toute voie d’injustice."
+            "texte": "!Ps 118:121; 118:122; 118:128\nJ’ai accompli le droit et la justice, Seigneur, que les superbes cessent de me calomnier : je me suis conformé à vos commandements, j’ai haï toute voie d’injustice.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-22.txt",
             "section": "Postcommunio",
-            "texte": "Ayant reçu l’unique et salutaire remède des âmes, votre Corps et votre Sang précieux : nous vous en supplions, Seigneur, de faire qu’en raison du patronage de saint Marie-Madeleine, nous soyons arrachés à tous les maux.\n$Qui vivis"
+            "texte": "Ayant reçu l’unique et salutaire remède des âmes, votre Corps et votre Sang précieux : nous vous en supplions, Seigneur, de faire qu’en raison du patronage de saint Marie-Madeleine, nous soyons arrachés à tous les maux.\n$Qui vivis",
+            "references": null
           }
         }
       },

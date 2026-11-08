@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-23",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Apollinaire Evêque et martyr",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-23.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c3) LAe(e)tá(hh)bi(fd)tur(e) *() ju(fe/hhvF'E)stus(f.) (`) in(hh) Dó(ihi)mi(igh)no,(ih..) (;) et(f) spe(h_g)rá(gh!ijH'G)bit(hhe/hh) (,) in(hvvGF'E) e(ef/gffe)o :(efee[ll:1]d.0) (:) et(ef) lau(e)da(hh)bún(e!hhh/i_[oh:h]h)tur(h.) (,) o(hg/hih)mnes(fv.de'f) re(f!hhf/hhh)cti(hvGF) cor(fg~)de.(e.) (::) <i>Ps.</i> Ex(e)áu(fe~)di(eh) De(h)us(h) o(h)ra(h)ti(h)ó(h)nem(h) me(hg)am(hi) cum(i) dé(hi)pre(h)cor :(h.) *(:) a(hf) ti(fh)mó(h)re(h) in(h)i(h)mí(h)ci(h.) (,) é(h)ri(h)pe(h) á(hhg)ni(ef)mam(hg) me(f)am.(e.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h) u(hhg) o(ef) u(hg) a(f) e.</eu>(e.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2a-1.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Oratio",
-            "texte": "Deus, fidélium remunerátor animárum, qui hunc diem beáti Apollináris Sacerdótis tui martýrio consecrásti: tríbue nobis, quǽsumus, fámulis tuis; ut, cujus venerándam celebrámus festivitátem, précibus ejus indulgéntiam consequámur.\n$Per Dominum"
+            "texte": "Deus, fidélium remunerátor animárum, qui hunc diem beáti Apollináris Sacerdótis tui martýrio consecrásti: tríbue nobis, quǽsumus, fámulis tuis; ut, cujus venerándam celebrámus festivitátem, précibus ejus indulgéntiam consequámur.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 5:1-11\nCaríssimi: Senióres, qui in vobis sunt, obsecro, consénior et testis Christi passiónum: qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum: neque turpis lucri grátia, sed voluntárie: neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Simíliter adolescéntes, súbditi estóte senióribus. Omnes autem ínvicem humilitátem insinuáte: quia Deus supérbis resístit, humílibus autem dat grátiam. Humiliámini ígitur sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sobrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide: scientes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen."
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli\n!1 Petri 5:1-11\nCaríssimi: Senióres, qui in vobis sunt, obsecro, consénior et testis Christi passiónum: qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum: neque turpis lucri grátia, sed voluntárie: neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Simíliter adolescéntes, súbditi estóte senióribus. Omnes autem ínvicem humilitátem insinuáte: quia Deus supérbis resístit, humílibus autem dat grátiam. Humiliámini ígitur sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum, quóniam ipsi cura est de vobis. Sobrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide: scientes eándem passiónem ei, quæ in mundo est, vestræ fraternitáti fíeri. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+            "references": null
           },
           "Graduale": {
-            "texte": "Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.",
+            "texte": "Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. V. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.",
             "incipit": {
               "incipit": "Inveni David (St Louis)",
               "version": "Solesmes",
@@ -63,31 +74,35 @@
             "gabc": "\"(c4) IN(dc~)v\\u00e9(d)ni(fef) Da(ghg)vid(gh..) *(,) ser(hjhhg~)vum(gfgd) me(fg)um,(gv./fg!hjGF'fvED'fddc.) (:) \\u00f3(ixf!gwh'!iv)le(h)o(h) san(jj)cto(ixhih) me(gfg)o(ded.) (;) un(d/g'h~)xi(g) e(gf/ghd)um.(ddc/da..) (,) (cd/fvfvDC'd!ff/gf/!f/ded.) (::)\\r\\n<sp>V/</sp>. Ma(dh)nus(hg) me(gh/jh/jggf)a(f.) (,) au(f)xi(hj)li(ji)\\u00e1(jjj)bi(hg)tur(g) e(ixhv./fh!ivHGhv.,fgh/jij//h/jjjvHGh./jjh/jjg/jj)i,(h_[oh:h]i_[oh:h]h._[oh:h]) (:) et(fg) br\\u00e1(f)chi(gh)um(hg~) me(hf/gh/jv./ijh.1,ixjjvH'GhiG'FghF'Dfv.e!gwhgh)um(ixhf/hig/ff/ded.) (;) con(d/fffd~)for(ef)t\\u00e1(fhgh/hg/hv.ixfh!ivGF'Ef!gwh'!iv)bit(hg__) * e(ixhiGF'/h/jjvH'G)um.(hghF'Efg..) (,) (d!ewf!gv./fhGF'ED'/ewfd.1) (::)\"",
             "mp3": "graduel_inveni-david.mp3",
             "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Tractus",
-            "texte": ""
-          },
-          "Alleluia": {
-            "texte": "Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "texte": "Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. V. Nihil profíciet inimícus in eo, et fílius iniquitátis non nocébit ei. Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum. V. Quóniam prævenísti eum in benedictiónibus dulcédinis. V. Posuísti in cápite ejus corónam de lápide pretióso.",
             "incipit": {
-              "incipit": "Juravit Dominus",
+              "incipit": "Nunc dimittis",
               "version": "Solesmes",
-              "distance": 23,
-              "similarite": 0.425,
-              "source": "Alleluia"
+              "distance": 27,
+              "similarite": 0.325,
+              "source": "Tractus"
             },
-            "gabc": "(c4) AL(cd~)le(de/ge/fee[ll:1]d)lú(eg//fhgefdc!ee){ia}.(d.) <clear>*(;) <i>ij.</i>(ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::) <sp>V/</sp>. Ju(dh)rá(ixh_g/hiHG'h)vit(f_e) Dó(ef!gvFE)mi(de)nus,(e.) (;) et(eg!hv_GF) non(e[ll:1]dd) pae(c)ni(ef/gf)té(e[ll:1]d)bit(cd) e(dee[ll:1]d)um :(d.) (:) Tu(cd) es(d) sa(ef!gh)cér(egFE'e[ll:1]d~)dos(d.) (,) in(hhghvGF'gvF'ED.) ae(ef!gh)tér(egFE'e[ll:1]d~)num,(d.) (;) se(dede)cún(c)dum(e) ór(ixgh/igh./egF'ED.)(,)(ixce!gh/igh./egF'ED'dc~)di(c!ef)nem(e[ll:1]d..) (;) * Mel(cd)chí(de/ge/fee[ll:1]d)se(eg//fhgefdc!ee)dech.(d.) (;) (ixhh/gihghggvF'ED.) (,) (cd/ede//g_[uh:l]hfefg.) (,) (hvGF'EdfED.c!efd.1) (::)",
+            "gabc": "(c4) NUnc(d!f'g) di(gf)mít(g)tis(gv.fff_d/e_[oh:h]c cd!fvv//g./hjhhg.) (;) * ser(gh~)vum(f) tu(ixg!hwi)um,(i) (/[0]) Dó(ixi)mi(iiivHG)ne,(hg..) (:) se(g)cún(h_g/h!iwj)dum(ghf) ver(f!h'j)bum(j) tu(jijHG.ixjjvH'GhiGF.)(,)(iyh./!jh/!ig)um(g.) in(fg) pa(g/hhg)ce.(g.) (::) \r\n<sp>V/</sp>. Qui(g!hwi'!jv)a(j) vi(j)dé(ij)runt(j.) ó(j)cu(j)li(j) me(j_kJ'//Gh_g/h!iw!jvIHijh)i(hg..) (:) sa(ghg)lu(fg)tá(jj)re(hji') tu(j)um.(jjjkhhg/hg/jjh/jggf.0) (::) \r\n<sp>V/</sp>. Quod(g) pa(hjh)rá(jjjkvJ'IGh_g/h!iw!jvIHijh)sti(hg..) (:) an(g)te(g) fá(h_g/h!iwj)ci(ghG'F)em(f.) (;) ó(ghf~)mni(g)um(hf~) po(g)pu(h)ló(jv.kli/jki'/jhhg.ixhiGF.)(,)(iyh./jh/ig)rum.(g/hhg.) (::) \r\n<sp>V/</sp>. Lu(d!ff//fffd//f_!h_f_g_)men(fg!hvhg.) (;) ad(g) re(ghg)ve(fg)la(g)ti(g)ó(gh)nem(g.) (,) gén(h!jij)ti(hj)um,(jjjkhhg/hg/jjh/jggf.0) (:) et(g/hji) gló(j)ri(h!iwj)am(jjjvIHivHGhg..) (;) ple(h_g/h!iwj)bis(ghG'F) tu(f!h'j)ae(j.) (,) * Is(j)ra(j)el.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'/!hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Alleluia"
+            "section": "Tractus",
+            "references": null
+          },
+          "Alleluia": {
+            "fichier": "Latin/Sancti/07-23.txt",
+            "section": "Alleluia",
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 22:24-30\nIn illo témpore: Facta est conténtio inter discípulos, quis eórum viderétur esse major. Dixit autem eis Jesus: Reges géntium dominántur eórum; et qui potestátem habent super eos, benéfici vocántur. Vos autem non sic: sed qui major est in vobis, fiat sicut minor: et qui præcéssor est, sicut ministrátor. Nam quis major est, qui recúmbit, an qui mínistrat? nonne qui recúmbit? Ego autem in médio vestrum sum, sicut qui mínistrat. Vos autem estis, qui permansístis mecum in tentatiónibus meis: et ego dispóno vobis, sicut dispósuii mihi Pater meus regnum, ut edátis et bibátis super mensam meam in regno meo: et sedeátis super thronos, judicántes duódecim tribus Israël."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 22:24-30\nIn illo témpore: Facta est conténtio inter discípulos, quis eórum viderétur esse major. Dixit autem eis Jesus: Reges géntium dominántur eórum; et qui potestátem habent super eos, benéfici vocántur. Vos autem non sic: sed qui major est in vobis, fiat sicut minor: et qui præcéssor est, sicut ministrátor. Nam quis major est, qui recúmbit, an qui mínistrat? nonne qui recúmbit? Ego autem in médio vestrum sum, sicut qui mínistrat. Vos autem estis, qui permansístis mecum in tentatiónibus meis: et ego dispóno vobis, sicut dispósuii mihi Pater meus regnum, ut edátis et bibátis super mensam meam in regno meo: et sedeátis super thronos, judicántes duódecim tribus Israël.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +116,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Secreta",
-            "texte": "Réspice, Dómine, propítius super hæc múnera: quæ pro beáti Sacerdótis et Martyris tui Apollináris commemoratióne deférimus, et pro nostris offensiónibus immolámus.\n$Per Dominum"
+            "texte": "Réspice, Dómine, propítius super hæc múnera: quæ pro beáti Sacerdótis et Martyris tui Apollináris commemoratióne deférimus, et pro nostris offensiónibus immolámus.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 25:20; 20:21\nDómine, quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.",
@@ -125,74 +150,88 @@
             "gabc": "(c3) DO(ggh)mi(f!gwh)ne,(h_e) (,) * quin(g_[uh:l]h)que(f) ta(e)lén(ig/ij)ta(i.) (,) tra(i)di(ig)dí(ijij)sti(i) mi(gihh)hi :(hg..) (;) ec(i)ce(ig) á(ijij)li(ih)a(h) quin(hi)que(hg/hih.) (,) su(h)per(hg)lu(ge)crá(gh'i)tus(f!gw!hvG'FE'f) sum.(fe..) (:) Eu(i_[uh:l]kJ~'I~)ge(j_i) ser(jk)ve(j) fi(ih)dé(i!jw!kvJI)lis,(i!jwk.) (;) qui(h)a(h) in(ik~) pau(k)ca(kj) fu(i)í(jk)sti(j) fi(ih)dé(i!jw!kvJI'j)lis,(ji..) (;) su(ij)pra(i) mul(ij~)ta(i) te(j/kkj) con(h)stí(ji/jkj)tu(ij_I'_HG'h)am,(hg..) (:) in(ij)tra(i) in(i) gáu(ih/i_[uh:l]j)di(h)um(f!gw!hvGE.) (,) Dó(g/hhf//g!hwi'!jv)mi(i)ni(i.g!hw!ivH'GF'gw!hvGF) tu(ef!gvFE'f)i.(fe..) (::)",
             "mp3": "communion_domine-quinque-talenta.mp3",
             "fichier": "Latin/Sancti/07-23.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-23.txt",
             "section": "Postcommunio",
-            "texte": "Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos fóveant continuáta præsídia: quia non désinis propítius intuéri, quos tálibus auxíliis concésseris adjuvári.\n$Per Dominum"
+            "texte": "Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos fóveant continuáta præsídia: quia non désinis propítius intuéri, quos tálibus auxíliis concésseris adjuvári.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Introitus",
-            "texte": "!Dan 3:84; 3:87\nv. Prêtres du Seigneur, bénissez le Seigneur : saints et humbles de cœur, louez Dieu.\n!Dan 3:57\nŒuvres du Seigneur, louez toutes le Seigneur : louez-le, et exaltez-le à jamais.\n&Gloria\nv. Prêtres du Seigneur, bénissez le Seigneur : saints et humbles de cœur, louez Dieu."
+            "texte": "!Dan 3:84; 3:87\nv. Prêtres du Seigneur, bénissez le Seigneur : saints et humbles de cœur, louez Dieu.\n!Dan 3:57\nŒuvres du Seigneur, louez toutes le Seigneur : louez-le, et exaltez-le à jamais.\n&Gloria\nv. Prêtres du Seigneur, bénissez le Seigneur : saints et humbles de cœur, louez Dieu.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Oratio",
-            "texte": "Dieu, qui récompensez les âmes fidèles, vous avez consacré ce jour par le martyre du bienheureux Apollinaire, votre Prêtre : faites, s’il vous plaît, que nous, qui sommes vos serviteurs, nos obtenions notre pardon au moyen des prières de celui dont nous célébrons la fête vénérable.\n$Per Dominum"
+            "texte": "Dieu, qui récompensez les âmes fidèles, vous avez consacré ce jour par le martyre du bienheureux Apollinaire, votre Prêtre : faites, s’il vous plaît, que nous, qui sommes vos serviteurs, nos obtenions notre pardon au moyen des prières de celui dont nous célébrons la fête vénérable.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Petri 5:1-11\nTrès chers Frères : J’exhorte les anciens qui sont parmi vous, moi ancien comme eux, témoin des souffrances du Christ, et qui prendrai part avec eux à la gloire qui doit être manifestée : paissez le troupeau de Dieu qui vous est confié, veillant sur lui, non par contrainte, mais de bon gré ; non dans un intérêt sordide, mais par dévouement ; non en dominateurs des Églises, mais en devenant les modèles du troupeau. Et quand le Prince des pasteurs paraîtra, vous recevrez la couronne de gloire, qui ne se flétrit jamais. De même, vous qui êtes plus jeunes, soyez soumis aux anciens ; tous, les uns à l’égard des autres, revêtez-vous d’humilité, car « Dieu, résiste aux orgueilleux et donne sa grâce aux humbles.» Humiliez-vous donc sous la puissante main de Dieu, afin qu’il vous élève au temps marqué ; déchargez-vous sur lui de toutes vos sollicitudes, car lui-même prend soin de vous. Soyez sobres, veillez ; votre adversaire, le diable, comme un lion rugissant, rode autour de vous, cherchant qui dévorer. Résistez-lui, fermes dans la foi, sachant que vos frères dispersés dans le monde, endurent les mêmes souffrances que vous. Le Dieu de toute grâce, qui vous a appelés à sa gloire éternelle dans le Christ, après quelques souffrances, achèvera lui-même son œuvre, voua affermira, vous fortifiera, vous rendra inébranlables. A lui soient la gloire et la puissance aux siècles des siècles ! Amen !"
+            "texte": "Léctio Epístolæ beáti Petri Apóstoli.\n!1 Petri 5:1-11\nTrès chers Frères : J’exhorte les anciens qui sont parmi vous, moi ancien comme eux, témoin des souffrances du Christ, et qui prendrai part avec eux à la gloire qui doit être manifestée : paissez le troupeau de Dieu qui vous est confié, veillant sur lui, non par contrainte, mais de bon gré ; non dans un intérêt sordide, mais par dévouement ; non en dominateurs des Églises, mais en devenant les modèles du troupeau. Et quand le Prince des pasteurs paraîtra, vous recevrez la couronne de gloire, qui ne se flétrit jamais. De même, vous qui êtes plus jeunes, soyez soumis aux anciens ; tous, les uns à l’égard des autres, revêtez-vous d’humilité, car « Dieu, résiste aux orgueilleux et donne sa grâce aux humbles.» Humiliez-vous donc sous la puissante main de Dieu, afin qu’il vous élève au temps marqué ; déchargez-vous sur lui de toutes vos sollicitudes, car lui-même prend soin de vous. Soyez sobres, veillez ; votre adversaire, le diable, comme un lion rugissant, rode autour de vous, cherchant qui dévorer. Résistez-lui, fermes dans la foi, sachant que vos frères dispersés dans le monde, endurent les mêmes souffrances que vous. Le Dieu de toute grâce, qui vous a appelés à sa gloire éternelle dans le Christ, après quelques souffrances, achèvera lui-même son œuvre, voua affermira, vous fortifiera, vous rendra inébranlables. A lui soient la gloire et la puissance aux siècles des siècles ! Amen !",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-23.txt",
-            "section": "Graduale",
-            "texte": "!Ps 88:21-23\n J’ai trouvé David mon serviteur, je l’ai oint de mon huile sainte : car ma main l’assistera et mon bras le fortifiera.\nV. L’ennemi n’aura jamais l’avantage sur lui et le fils d’iniquité ne pourra lui nuire."
+            "section": "Graduale[0]",
+            "texte": "J’ai trouvé David mon serviteur, je l’ai oint de mon huile sainte : car ma main l’assistera et mon bras le fortifiera. V. L’ennemi n’aura jamais l’avantage sur lui et le fils d’iniquité ne pourra lui nuire.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "J’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. V. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire. Vous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres. V. Car vous l’avez prévenu de bénédictions de choix. V. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-23.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 109:4\nLe Seigneur a juré, et il ne s’en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Le Seigneur a juré, et il ne s’en repentira point : Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 22:24-30\nEn ce temps-là : Il y eut parmi les disciples une dispute : lequel d’entre eux devait passer pour le plus grand. Et Jésus leur dit : « Les rois des nations leur commandent en maîtres, et ceux qui exercent empire sur elles se font appeler Bienfaiteurs. Vous, ne faites pas ainsi ; mais que le plus grand parmi vous devienne comme le plus jeune, et celui qui gouverne comme celui qui sert. Qui, en effet, est le plus grand, celui qui est à table ou celui qui sert ? N’est-ce pas celui qui est à table ? Or moi, au milieu de vous, je suis comme celui qui sert. Vous, vous êtes ceux qui sont demeurés constamment avec moi dans mes épreuves ; et moi, je vous attribue la royauté comme mon Père me l’a attribuée, afin que vous mangiez et buviez à ma table dans mon royaume ; et vous siégerez sur des trônes, jugeant les douze tribus d’Israël."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 22:24-30\nEn ce temps-là : Il y eut parmi les disciples une dispute : lequel d’entre eux devait passer pour le plus grand. Et Jésus leur dit : « Les rois des nations leur commandent en maîtres, et ceux qui exercent empire sur elles se font appeler Bienfaiteurs. Vous, ne faites pas ainsi ; mais que le plus grand parmi vous devienne comme le plus jeune, et celui qui gouverne comme celui qui sert. Qui, en effet, est le plus grand, celui qui est à table ou celui qui sert ? N’est-ce pas celui qui est à table ? Or moi, au milieu de vous, je suis comme celui qui sert. Vous, vous êtes ceux qui sont demeurés constamment avec moi dans mes épreuves ; et moi, je vous attribue la royauté comme mon Père me l’a attribuée, afin que vous mangiez et buviez à ma table dans mon royaume ; et vous siégerez sur des trônes, jugeant les douze tribus d’Israël.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui : et par mon nom s’élèvera sa puissance."
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui : et par mon nom s’élèvera sa puissance.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Secreta",
-            "texte": "Jetez un regard favorable, Seigneur, sur ces présents que nous vous offrons en mémoire du bienheureux Apollinaire, votre Prêtre et Martyr, et que nous sacrifions en expiation de nos offenses.\n$Per Dominum"
+            "texte": "Jetez un regard favorable, Seigneur, sur ces présents que nous vous offrons en mémoire du bienheureux Apollinaire, votre Prêtre et Martyr, et que nous sacrifions en expiation de nos offenses.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Communio",
-            "texte": "!Matt 25:20; 20:21\nSeigneur, vous m’avez remis cinq talents ; voici que j’en ai gagné cinq autres. C’est bien, bon et fidèle serviteur ; parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître."
+            "texte": "!Matt 25:20; 20:21\nSeigneur, vous m’avez remis cinq talents ; voici que j’en ai gagné cinq autres. C’est bien, bon et fidèle serviteur ; parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-23.txt",
             "section": "Postcommunio",
-            "texte": "En nous nourrissant de vos hosties saintes, nous vous demandons humblement, Seigneur, que la continuelle protection du bienheureux Apollinaire nous mette à couvert des dangers, car vous ne cessez de regarder favorablement ceux à qui vous accordez l’aide d’un tel secours.\n$Per Dominum"
+            "texte": "En nous nourrissant de vos hosties saintes, nous vous demandons humblement, Seigneur, que la continuelle protection du bienheureux Apollinaire nous mette à couvert des dangers, car vous ne cessez de regarder favorablement ceux à qui vous accordez l’aide d’un tel secours.\n$Per Dominum",
+            "references": null
           }
         }
       },
@@ -200,7 +239,7 @@
         "Francais/Sancti/07-23.txt",
         "Latin/Sancti/07-23.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 3,
       "numero": 1
     }
   ]

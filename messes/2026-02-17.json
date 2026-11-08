@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quadp3-2",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Mardi de la semaine de la Quinquagésime",
         "classe": 1.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quadp3-2.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -30,20 +31,23 @@
           "Introitus": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 76:15; 76:16\nTu es Deus qui facis mirabília solus: notam fecísti in géntibus virtútem tuam.\nV. Liberásti in bráchio tuo pópulum tuum, fílios Israël et Joseph.",
+            "texte": "Tu es Deus qui facis mirabília solus: notam fecísti in géntibus virtútem tuam. V. Liberásti in bráchio tuo pópulum tuum, fílios Israël et Joseph.",
             "incipit": {
               "incipit": "Tu es Deus",
               "version": "Solesmes",
@@ -54,109 +58,148 @@
             "gabc": "(c4) T<sc>u</sc>(c_d!ffgvFE) es(e.) *(,) De(ixe.f!gwh_g)us,(giH'GfffdgvFE.) (;) qui(ef'g) fa(hv.gjh/ij)cis(i.) (,) mi(ij)ra(i)bí(ij/kj)li(jjjh)a(h_g/jij) (,) so(hjI'G)lus :(ixg_[uh:l]h//e.f!gw!higff/ded.) (:) no(ghg'k)tam(kjjhj) fe(g')cí(giihi)sti(g.) (,) in(g) gén(giihjjhi)ti(g_[uh:l]h)bus(ixe.f!gw!higff/ded.) (:) vir(gj//hi~)tú(iji___!jw!kvJ'IH)tem(hv.g!jj//jj//jjjggf) (,) tu(f.0h!iwj)am.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::) <sp>V/</sp>. Li(g)be(g)rá(gj)sti(j.) (,) in(j) brá(jkij)chi(ih)o(h!iwj) tu(j)o(ihjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pó(ij//jjjvH'Gh!iwj_i)(,)(e!gh/jij/h!jj//jjjvH'Gh!iwj)pu(jjjvHG'h)lum(hv.giHG'hffe.) (;) tu(fd/ffd/ef/gh//j_[hl:1]k_[hl:1]j_[hl:1]//j'jjvHGjjjj_i)um,(i.) (:) fí(g)li(hj)os(j) Is(j)ra(j)el(i./jkh/jijHG.) (,) (ji/j_k//li/jkJ'IH.) (,) (k/li/jkJ'IH.jijHGjg/i_[uh:l]j gh!jjjvH'GF'fd.) <clear>*(;) et(g) Jo(hj)seph.(iij/hihghg.ef'gh_e//giHG'hffe.) (::)",
             "mp3": "graduel_tu-es-deus.mp3",
             "fichier": "Latin/Tempora/Quadp3-2.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
+            "texte": "Tu es Deus qui facis mirabília solus: notam fecísti in géntibus virtútem tuam. V. Liberásti in bráchio tuo pópulum tuum, fílios Israël et Joseph.",
+            "incipit": {
+              "incipit": "Notus in Judaea",
+              "version": "Solesmes",
+              "distance": 30,
+              "similarite": 0.25,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) NO(g/hih)tus(g/hhg.) (,) * in(fg) Ju(gjj)daé(jk)a(hg/hf//h!jhj) De(jvIH'iw!jvI'HG'h)us,(hg..) (:) in(h) Is(jij)ra(hj)el(jjjkhhg/hg/jjh/jggf.0) (;) ma(ixfh/ih/ig~)gnum(j.) no(j)men(j) e(iyjv.ijg.ixjjvH'G/!hiGF.)(,)(iyh./jh/ig)jus.(g/hhg.) (::) \r\n<sp>V/</sp>. Et(g) fa(g!hwi'!jv)ctus(j) est(jjjvIH') in(h) pa(jhhg)ce(g_[uh:l]h) (,) lo(gf)cus(gh) e(d!ff/[1]{ix}fdg./!fg/!ihivH~G~)jus,(hg..) (:) et(hg) ha(h)bi(h)tá(hhgh)ti(f)o(fg!hvhg.) e(hg/jjghvG~'F~)jus(f.) (;) in(f!h'j) Si(j)on.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. I(g)bi(hjh) con(j)fré(jjjkvJ'//Gh_g/h!iw!jvIHijh)git(hg..) (;) pot(fg)én(g!jj)ti(j)as(jj/kljj'jg) (,) (jj/kljj'jh/ijH'GF.g.h!iwjjv) ár(jk'l)cu(j_h)um,(h_g) (;) scu(h!jj//jjj'jk)tum,(g.) (,) glá(h_g/h!iwj)di(ghG'F)um,(f.) (;) * et(f!h'j) bel(j)lum.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+            "mp3": null,
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
+            "texte": "Tu es Deus qui facis mirabília solus: notam fecísti in géntibus virtútem tuam. V. Liberásti in bráchio tuo pópulum tuum, fílios Israël et Joseph.",
+            "incipit": {
+              "incipit": "Mirabilis Dominus",
+              "version": "Solesmes",
+              "distance": 26,
+              "similarite": 0.35,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(d!ewfe)le(ddc)lú(fg!hvGFg_[uh:l]h){ia}.(h.) *(,) <i>ij.</i>(ixgiH'GF.eg!hvGE'f_d.) (,) (ce!gvgef//ef!hvGE'f_dfvECee[ll:1]d.0) (::) <sp>V/</sp>. Mi(h)rá(h)bi(gf)lis(ev.ce'!gvF'ED//cd!evDCd.) (;) Dó(dfe/g_[uh:l]hg)mi(fvED)nus(d./cd!evDC'd) no(dfe/f_g)ster(e[ll:1]d..) (:) in(d) san(fddc/fg!hvGFg_[uh:l]h)ctis(h.) *(,) su(ixhv.giH'GF.eg!hvGE'f_d.)(,)(ce!gvgef//ef!hvGE'f_d)is.(d.fvECee[ll:1]d.0) (::)",
+            "mp3": null,
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Alleluia",
-            "texte": ""
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quadp3-2.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Graduale",
-            "texte": "!Ps 76:15; 76:16\nVous êtes le Dieu qui seul opérez des merveilles. Vous avez fait connaître parmi les peuples votre puissance.\nV. Vous avez racheté par votre bras votre peuple, les fils d’Israël et de Joseph."
+            "texte": "Vous êtes le Dieu qui seul opérez des merveilles. Vous avez fait connaître parmi les peuples votre puissance. V. Vous avez racheté par votre bras votre peuple, les fils d’Israël et de Joseph.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Vous êtes le Dieu qui seul opérez des merveilles. Vous avez fait connaître parmi les peuples votre puissance. V. Vous avez racheté par votre bras votre peuple, les fils d’Israël et de Joseph.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "Vous êtes le Dieu qui seul opérez des merveilles. Vous avez fait connaître parmi les peuples votre puissance. V. Vous avez racheté par votre bras votre peuple, les fils d’Israël et de Joseph.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quadp3-2.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "",
+            "references": null
           }
         }
       },
@@ -164,7 +207,7 @@
         "Francais/Tempora/Quadp3-2.txt",
         "Latin/Tempora/Quadp3-2.txt"
       ],
-      "sections_vides": 22,
+      "sections_vides": 18,
       "numero": 1
     }
   ]

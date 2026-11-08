@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-28",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Sts Nazaire & Celse, martyrs, Victor, pape et martyr et Innocent Ier, pape et Confesseur",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-28.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) IN(f)tret(fff/ded) (,) * in(f) con(gh)spé(h)ctu(g) tu(gh/ji)o,(ih) Dó(jjj)mi(h)ne,(ghg.) (;) gé(gih)mi(g)tus(gff) com(dg)pe(gh)di(fe)tó(egF'E)rum,(e.) (:) red(ge)de(fg) vi(g)cí(g)nis(gh) no(h)stris(h.) sé(hjI'H)ptu(g.f!gwhgh)plum(hg..) (,) in(g) si(gh/ji)nu(ih) e(jjj)ó(hiH'Gh)rum :(hg..) (:) vín(h)di(g)ca(e) sán(g)gui(f)nem(fff) (,) san(fd~)ctó(fv.fff)rum(d!ewf) tu(d)ó(g_[oh:h]e/fff)rum,(e_[oh:h][ll:1]d_[oh:h]) (,) qui(d!f'h) ef(hg)fú(ghG'E)sus(fgF'E) est.(e.) (::) <i>Ps.</i> De(hg)us(gh) ve(h)né(h)runt(h) gen(h)tes(h) in(h) hae(h)re(h)di(hg)tá(gi)tem(i) tu(hi)am,(h.) (:) * pol(hg)lu(gh)é(h)runt(h) tem(h)plum(h) san(h)ctum(h) tu(h)um :(h.) (,) po(h)su(h)é(h)runt(h) Je(h)rú(h)sa(h)lem(h) in(h) po(h)mó(h)rum(h) cu(gf)stó(gh)di(g)am.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C3.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Oratio",
-            "texte": "Sanctórum tuórum nos, Dómine, Nazárii, Celsi, Victóris et Innocéntii conféssio beáta commúniat: et fragilitáti nostræ subsídium dignánter exóret.\n$Per Dominum"
+            "texte": "Sanctórum tuórum nos, Dómine, Nazárii, Celsi, Victóris et Innocéntii conféssio beáta commúniat: et fragilitáti nostræ subsídium dignánter exóret.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:17-20\nRéddidit Deus justis mercédem labórum suorum, et deduxit illos in via mirábili: et fuit illis in velaménto diei et in luce stellárum per noctem: tránstulit illos per Mare Rubrum, et transvéxit illos per aquam nímiam. Inimícos autem illórum demérsit in mare, et ab altitúdine inferórum edúxit illos. Ideo justi tulérunt spolia impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter, Dómine, Deus noster."
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 10:17-20\nRéddidit Deus justis mercédem labórum suorum, et deduxit illos in via mirábili: et fuit illis in velaménto diei et in luce stellárum per noctem: tránstulit illos per Mare Rubrum, et transvéxit illos per aquam nímiam. Inimícos autem illórum demérsit in mare, et ab altitúdine inferórum edúxit illos. Ideo justi tulérunt spolia impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter, Dómine, Deus noster.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Exodi 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exodi 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+            "texte": "Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. V. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
             "incipit": {
               "incipit": "Gloriosus Deus",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(f3) GLo(c)ri(c)ó(ef)sus(fhf/gffe.) <clear>*(,) De(ghG'Fhv.giH'GF)us(f.) (;) in(f!gwh) san(hv.g!ijH'GF'g)ctis,(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (:) mi(f!gw!hi)rá(hi)bi(ihhvGF'g)lis(f.) (,) (ef!hhhvGFg.f!gwhhvGF'hf/gffe.) (;) in(f!gwhhvGF'g) ma(ef)je(h.f!gwh)stá(hiHF'g)te,(f.) (,) (ef!hvGFh_g//e.f!gw!hvGF'hf/gffe.) (:) fá(h_[oh:h]i_[oh:h]h_[oh:h])ci(kxh.i!jwkj)ens(j) pro(jij)dí(hi'j)gi(hvGF)a.(f//gh/iffe.) (,) (ef!h/[1]{/[-1]kx}h/ij!kvJH'//ih/ihhf.) (f+::c4) \r\n<sp>V/</sp>. Déx(dh)te(h)ra(h) tu(h)a(hg) Dó(ixhv.fh!ivHGhv.)(,)(fghjij//h!jjjvGFh./jjh/jjg/j_i)mi(h_[oh:h]i_[oh:h]h_[oh:h])ne,(h.) (;) glo(fg)ri(f)fi(gh)cá(h)ta(g./h!iw!jvIH') est(hgg) (,) in(f) vir(ghg~)tú(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'FghF'Dfv.e!gwhgh)te :(ixhf/higff/ded.) (:) déx(hj)te(h)ra(ghg) ma(f)nus(ghg) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiGF.)(,)(hf/gh!jjvH'Gh)a,(ixhf/higff/ded.) (:) con(d)fré(dfED'fvED.)(,)(de!fg/hjIH'hgh.ixfh!ivGF'E//f!gw!hi)git(hg__) *(,) in(g)i(gh)mí(ixjhiGF'h!jjvH'G)cos.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-28.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Sir 44:14\nV. Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
             "incipit": {
               "incipit": "Corpora Sanctorum",
               "version": "Solesmes",
@@ -82,12 +88,14 @@
             "gabc": "(f3) AL(ef!gh)le(f!gw!hvGFgvFE)lú(h!iwj){ia}.(j_i) <clear>*(,) <i>ij.</i>(jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::) <sp>V/</sp>. Cór(ef!gh)po(f/ghg)ra(hvGFgvFE) san(efg)ctó(gf/ghGF'g)rum(gf..) (;) in(f) pa(e)ce(f!gwh) se(hij)púl(ih)ta(fg) sunt,(g'ivH'GFgvFE.) (,) (gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (:) et(c) nó(ef)mi(fe)na(efh) e(hij)ó(ih)rum(i.) (,) vi(hij)vent(j) in(i) ge(hvGF)ne(e)ra(f)ti(ghg)ó(f.)ne(f.) *(;) et(c) ge(ef)ne(fe)ra(efh)ti(hij)ó(ihj)nem.(j_i) (,) (jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-28.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent10-3.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
@@ -101,17 +109,27 @@
             "gabc": "(c4) MI(d!ewf)rá(fg/h_g)bi(ghg___)lis(gh~) De(hjI'GhvGF)us(f.) *(;) in(fh) san(hj/kjkvJI'H)ctis(h.) su(hj!kvJH)is :(hjhhg.) (:) De(hj)us(jjj) Is(h!jjj)ra(gh)el,(ixfihhg.) (,) i(g)pse(h) da(iij_hjvIH'hg)bit(ghggf.0) (;) vir(h!iwji~)tú(jv.jjj/kl)tem,(jkjji.) (,) et(g) for(g/jjj)ti(j_i)tú(i!k'l)di(jvIH)nem(hjhhg.) (,) ple(h_g/jkj)bi(jjj_g) su(gjhhg)ae :(ghggf.0) (:) be(fg)ne(h)dí(hjvvH'Gh!iwji)ctus(j.) De(jkj'/ki'jvHG'gfg.)(,)(fgh!jjjg//hjggf!gw!hi)us,(hg..) (:) al(hg~)le(gjg/hggf//g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-28.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Secreta",
-            "texte": "Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et te placémus exhíbitis, et nos vivificémur accéptis.\n$Per Dominum"
+            "texte": "Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et te placémus exhíbitis, et nos vivificémur accéptis.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Sap 3:4-6\nEt si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.",
@@ -125,74 +143,95 @@
             "gabc": "(c4) ET(d) si(d) co(fdf)ram(f) ho(f)mí(ghG'F)ni(gh)bus(h.) *(,) tor(h)mén(jhhg~)ta(h!jjk) pas(h)si(h_[oh:h]i_[oh:h]h_[oh:h]) sunt,(h.) (;) De(h)us(ghg) ten(fe~)tá(f!gwhg)vit(ge/f_e) e(de!fvED'e)os :(e[ll:1]d..) (:) tam(fe~)quam(f) au(ixgiH'G)rum(g.) in(fg) for(hj~)ná(jijh)ce(h.) (,) pro(h)bá(hv.fg'h)vit(hg/h_g) e(fg!hvGF'g)os,(gf..) (:) et(ixhi~) qua(ixhi)si(h) ho(hgge)lo(gh)cáu(fg~)sta(fef.) (,) ac(g)cé(ge)pit(gfgvFE) e(de!fvED'e)os.(e[ll:1]d..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-28.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-28.txt",
             "section": "Postcommunio",
-            "texte": "Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quod temporáli celebrámus actióne, perpétua salvatióne capiámus.\n$Per Dominum"
+            "texte": "Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quod temporáli celebrámus actióne, perpétua salvatióne capiámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Introitus",
-            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu."
+            "texte": "!Ps 78:11-12; 78:10\nv. Que les gémissements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.\n!Ps 78:1\nÔ Dieu, les nations ont en­vahi votre héritage, elles ont profané votre saint Temple, elles ont fait de Jérusalem une cabane à garder les ré­coltes.\n&Gloria\nv. Que les gé­missements des captifs pénètrent jusqu’à vous, Seigneur ; rendez à nos voisins, dans leur sein, le septuple de leurs outrages ; vengez le sang de vos saints qui a été répandu.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Oratio",
-            "texte": "Que la bienheureuse profession de foi de vos saints Nazaire, Celse, Victor et Innocent nous fortifie, Seigneur : et qu’elle obtienne de votre bonté des secours pour notre faiblesse.\n$Per Dominum"
+            "texte": "Que la bienheureuse profession de foi de vos saints Nazaire, Celse, Victor et Innocent nous fortifie, Seigneur : et qu’elle obtienne de votre bonté des secours pour notre faiblesse.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 10:17-20\nLa Sagesse a rendu aux saints le salaire de leurs travaux, elle les conduisit par une route semée de merveilles, et fut pour eux un ombrage pendant le jour, et comme la lumière des étoiles pendant la nuit. Elle leur fit traverser la mer Rouge, et les conduisit à travers les grandes eaux. Elle submergea leurs ennemis, puis des profondeurs de l’abîme elle les rejeta. C’est pourquoi les justes enlevèrent les dépouilles des impies, et chantèrent votre saint nom, Seigneur, et louèrent de concert votre main qui combattait pour eux, Seigneur notre Dieu."
+            "texte": "Léctio libri Sapiéntiæ.\n!Sap 10:17-20\nLa Sagesse a rendu aux saints le salaire de leurs travaux, elle les conduisit par une route semée de merveilles, et fut pour eux un ombrage pendant le jour, et comme la lumière des étoiles pendant la nuit. Elle leur fit traverser la mer Rouge, et les conduisit à travers les grandes eaux. Elle submergea leurs ennemis, puis des profondeurs de l’abîme elle les rejeta. C’est pourquoi les justes enlevèrent les dépouilles des impies, et chantèrent votre saint nom, Seigneur, et louèrent de concert votre main qui combattait pour eux, Seigneur notre Dieu.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/07-28.txt",
-            "section": "Graduale",
-            "texte": "!Exodi 15:11\nDieu est glorifié dans ses Saints : admirable dans sa majesté, il fait des prodiges.\n!Exodi 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force : votre main droite a brisé ses ennemis."
+            "section": "Graduale[0]",
+            "texte": "Dieu est glorifié dans ses Saints : admirable dans sa majesté, il fait des prodiges. V. Votre droite, Seigneur, s’est signalée par sa force : votre main droite a brisé ses ennemis.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-28.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Eccli 44:14\nV. Les corps des saints ont été ensevelis dans la paix, et leurs noms vivront pour toujours. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Les corps des saints ont été ensevelis dans la paix, et leurs noms vivront pour toujours. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 21:9-19\nEn ce temps-là : Jésus dit à ses disciples : Lorsque vous entendrez parler de guerres et de séditions, ne soyez pas effrayés ; car il faut que ces choses arrivent d’abord, mais ce ne sera pas encore aussitôt la fin. Alors il leur dit : Nation se soulèvera contre nation, et royaume contre royaume. Et il y aura de grands tremblements de terre en divers lieux, et des pestes, et des famines, et des choses effrayantes dans le ciel, et de grands signes. Mais, avant tout cela, on mettra les mains sur vous, et on vous persécutera, vous livrant aux synagogues et aux prisons, vous traînant devant les rois et les gouverneurs, à cause de mon nom ; et cela vous arrivera pour que vous rendiez témoignage. Mettez donc dans vos cœurs que vous n’aurez pas a méditer d’avance comment vous répondrez ; car je vous donnerai une bouche et une sagesse auxquelles tous vos adversaires ne pourront résister et contredire. Vous serez livrés par vos parents, et par vos frères, et par vos proches, et par vos amis, et l’on fera mourir plusieurs d’entre vous ; et vous serez haïs de tous à cause de mon nom. Mais pas un cheveu de votre tête ne périra. C’est par votre patience que vous sauverez vos vies."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 21:9-19\nEn ce temps-là : Jésus dit à ses disciples : Lorsque vous entendrez parler de guerres et de séditions, ne soyez pas effrayés ; car il faut que ces choses arrivent d’abord, mais ce ne sera pas encore aussitôt la fin. Alors il leur dit : Nation se soulèvera contre nation, et royaume contre royaume. Et il y aura de grands tremblements de terre en divers lieux, et des pestes, et des famines, et des choses effrayantes dans le ciel, et de grands signes. Mais, avant tout cela, on mettra les mains sur vous, et on vous persécutera, vous livrant aux synagogues et aux prisons, vous traînant devant les rois et les gouverneurs, à cause de mon nom ; et cela vous arrivera pour que vous rendiez témoignage. Mettez donc dans vos cœurs que vous n’aurez pas a méditer d’avance comment vous répondrez ; car je vous donnerai une bouche et une sagesse auxquelles tous vos adversaires ne pourront résister et contredire. Vous serez livrés par vos parents, et par vos frères, et par vos proches, et par vos amis, et l’on fera mourir plusieurs d’entre vous ; et vous serez haïs de tous à cause de mon nom. Mais pas un cheveu de votre tête ne périra. C’est par votre patience que vous sauverez vos vies.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia."
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Secreta",
-            "texte": "Accordez-nous, Dieu tout-puissant : à l’occasion de ces dons que nous vous offrons en l’honneur de vos saints Nazaire, Celse, Victor et Innocent, et de vous plaire en les présentant, et de nous vivifier en les acceptant.\n$Per Dominum"
+            "texte": "Accordez-nous, Dieu tout-puissant : à l’occasion de ces dons que nous vous offrons en l’honneur de vos saints Nazaire, Celse, Victor et Innocent, et de vous plaire en les présentant, et de nous vivifier en les acceptant.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Communio",
-            "texte": "!Sap 3:4; 3:5; 3:6\nS’ils ont souffert des tourments devant les hommes, c’est que Dieu les a éprouvés, il les a mis à l’épreuve comme l’or dans la fournaise, et il les a agréés comme une hostie d’holocauste."
+            "texte": "!Sap 3:4; 3:5; 3:6\nS’ils ont souffert des tourments devant les hommes, c’est que Dieu les a éprouvés, il les a mis à l’épreuve comme l’or dans la fournaise, et il les a agréés comme une hostie d’holocauste.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-28.txt",
             "section": "Postcommunio",
-            "texte": "Apaisé par l’intercession des saints Nazaire, Celse, Victor et Innocent, faites, nous vous en prions, Seigneur, que ce que nous célébrons par une action temporelle, nous le possédions en étant sauvés pour toujours.\n$Per Dominum"
+            "texte": "Apaisé par l’intercession des saints Nazaire, Celse, Victor et Innocent, faites, nous vous en prions, Seigneur, que ce que nous célébrons par une action temporelle, nous le possédions en étant sauvés pour toujours.\n$Per Dominum",
+            "references": null
           }
         }
       },

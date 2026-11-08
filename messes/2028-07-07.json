@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/07-07",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ss Cyrille et Méthode, Évêques et Confesseurs",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/07-07.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,27 @@
             "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_[oh:h]e_[oh:h]d_[oh:h])cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_[oh:h]i_[oh:h]h_[oh:h])tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_statuit-ei-dominus.mp3",
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, qui Slavóniæ gentes per beátos Confessóris tuos atque Pontífices Cyríllum et Methódium ad agnitiónem tui nóminis veníre tribuísti: præsta; ut, quorum festivitáte (commemoratióne) gloriámur, eórum consórtio copulémur.\n$Per Dominum"
+            "texte": "Omnípotens sempitérne Deus, qui Slavóniæ gentes per beátos Confessóris tuos atque Pontífices Cyríllum et Methódium ad agnitiónem tui nóminis veníre tribuísti: præsta; ut, quorum festivitáte (commemoratióne) gloriámur, eórum consórtio copulémur.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent04-5.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
@@ -63,12 +74,14 @@
             "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
@@ -82,12 +95,21 @@
             "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
             "mp3": "alleluia_tu-es-sacerdos.mp3",
             "fichier": "Latin/Sancti/07-07.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:1-9\nIn illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. ¶ Et dicebat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-06.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
@@ -101,17 +123,27 @@
             "gabc": "(c4) MI(d!ewf)rá(fg/h_g)bi(ghg___)lis(gh~) De(hjI'GhvGF)us(f.) *(;) in(fh) san(hj/kjkvJI'H)ctis(h.) su(hj!kvJH)is :(hjhhg.) (:) De(hj)us(jjj) Is(h!jjj)ra(gh)el,(ixfihhg.) (,) i(g)pse(h) da(iij_hjvIH'hg)bit(ghggf.0) (;) vir(h!iwji~)tú(jv.jjj/kl)tem,(jkjji.) (,) et(g) for(g/jjj)ti(j_i)tú(i!k'l)di(jvIH)nem(hjhhg.) (,) ple(h_g/jkj)bi(jjj_g) su(gjhhg)ae :(ghggf.0) (:) be(fg)ne(h)dí(hjvvH'Gh!iwji)ctus(j.) De(jkj'/ki'jvHG'gfg.)(,)(fgh!jjjg//hjggf!gw!hi)us,(hg..) (:) al(hg~)le(gjg/hggf//g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/07-07.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Secreta",
-            "texte": "Preces nostras, quǽsumus, Dómine, et tuórum réspice oblatiónes fidélium: ut tibi gratæ sint in tuórum festivitáte commemoratione Sanctórum, et nobis conferant tuæ propitiatiónis auxílium.\n$Per Dominum"
+            "texte": "Preces nostras, quǽsumus, Dómine, et tuórum réspice oblatiónes fidélium: ut tibi gratæ sint in tuórum festivitáte commemoratione Sanctórum, et nobis conferant tuæ propitiatiónis auxílium.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 10:27\nQuod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et quod in aure audítis, prædicáte super tecta.",
@@ -125,74 +157,109 @@
             "gabc": "(c4) QUod(d) di(e)co(f) vo(g)bis(f) *() in(fd~) té(f)ne(f)bris,(e_[oh:h]c) (,) dí(f)ci(f)te(e) in(d) lú(e)mi(f)ne,(g_[oh:h]d) di(e)cit(de) Dó(c)mi(c)nus :(c.) (;) et(e) quod(c) in(d) au(f)re(fe) au(d)dí(fg)tis,(g.) (,) prae(f)di(ef)cá(d)te(dc) su(d)per(f) te(egff)cta.(fe..) (::) <i>T. P.</i> Al(f)le(d./[-0.5]ghG'Fghg)lú(egff){ia}.(fe..) (::)",
             "mp3": "communion_quod-dico-vobis.mp3",
             "fichier": "Latin/Sancti/07-07.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/07-07.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, omnípotens Deus: ut, qui nobis múnera dignáris præbére cœléstia, intercedéntibus sanctis tuis Cyríllo et Methódio, despícere terréna concédas.\n$Per Dominum"
+            "texte": "Quǽsumus, omnípotens Deus: ut, qui nobis múnera dignáris præbére cœléstia, intercedéntibus sanctis tuis Cyríllo et Methódio, despícere terréna concédas.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Oratio",
-            "texte": "Dieu tout puissant et éternel, vous avez accordé aux peuples slaves d’arriver à la connaissance de votre nom, par le ministère de vos bienheureux Pontifes et Confesseurs Cyrille et Méthode : faites que mettant notre gloire à célébrer leur fête, nous soyons associés à leur sort commun.\n$Per Dominum"
+            "texte": "Dieu tout puissant et éternel, vous avez accordé aux peuples slaves d’arriver à la connaissance de votre nom, par le ministère de vos bienheureux Pontifes et Confesseurs Cyrille et Méthode : faites que mettant notre gloire à célébrer leur fête, nous soyons associés à leur sort commun.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent04-5.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:1-9\nEn ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : « Paix à cette maison !» Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : « Le royaume de Dieu est proche de vous.»",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu."
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël lui-même donnera à son peuple force et puissance : béni soit Dieu.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Secreta",
-            "texte": "Prenez en considération, nous vous en supplions, Seigneur, nos prières et les offrandes de vos fidèles ; qu’elles vous soient agréables en cette fête de vos Saints et qu’elles nous obtiennent du secours de votre bonté propice.\n$Per Dominum"
+            "texte": "Prenez en considération, nous vous en supplions, Seigneur, nos prières et les offrandes de vos fidèles ; qu’elles vous soient agréables en cette fête de vos Saints et qu’elles nous obtiennent du secours de votre bonté propice.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Communio",
-            "texte": "!Matt 10:27\nCe que je vous dis dans les ténèbres, dites-le au grand jour, dit le Seigneur ; et ce qu’on vous dit à l’oreille, prêchez-le sur les toits."
+            "texte": "!Matt 10:27\nCe que je vous dis dans les ténèbres, dites-le au grand jour, dit le Seigneur ; et ce qu’on vous dit à l’oreille, prêchez-le sur les toits.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C3a-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/07-07.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en prions, Dieu tout-puissant, qui daignez nous enrichir des dons célestes, accordez-nous moyennant l’intercession de vos saints Cyrille et Méthode, de mépriser les biens terrestres.\n$Per Dominum"
+            "texte": "Nous vous en prions, Dieu tout-puissant, qui daignez nous enrichir des dons célestes, accordez-nous moyennant l’intercession de vos saints Cyrille et Méthode, de mépriser les biens terrestres.\n$Per Dominum",
+            "references": null
           }
         }
       },

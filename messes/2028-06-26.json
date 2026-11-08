@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/06-26",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Sts. Jean et Paul Martyrs",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/06-26.txt",
@@ -25,6 +25,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -41,20 +42,30 @@
             "gabc": "(c3) MUl(f)tae(efE'C) ~* tri(e)bu(f)la(hh)ti(h)ó(hih)nes(hhh) ju(hh)stó(egf)rum,(f.) (;) et(f) de(fi) his(i) ó(ij)mni(ih)bus(h.) (,) li(h)be(h)rá(hih)vit(hhh) e(e)os(e!hgh) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])nus :(f.) (:) Dó(fi)mi(i)nus(iji) cu(h)stó(hji)dit(i.) (,) ó(ij)mni(hf)a(f) os(fi)sa(ijh) e(h_f)ó(hfge)rum :(e.) (:) u(fgf)num(f_e) ex(f!gwh) his(hhe.) (,) non(f) con(e)te(d!fef)ré(f_[oh:h]g_[oh:h]f_[oh:h])tur.(f.) (::) <i>Ps.</i> Be(e)ne(fe)dí(eh)cam(h) Dó(h)mi(h)num(h) in(hg) o(hi)mni(i) tém(hi)po(h)re :(h.) *(:) sem(hf~)per(fh) laus(h) e(h)jus(h') in(i) o(hf)re(h) me(ge)o.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-26.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-15.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Oratio",
-            "texte": "Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ festivitátis excípiat, quæ de beatórum Joánnis et Pauli glorificatióne procédit; quos eadem fides et pássio vere fecit esse germános.\n$Per Dominum"
+            "texte": "Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ festivitátis excípiat, quæ de beatórum Joánnis et Pauli glorificatióne procédit; quos eadem fides et pássio vere fecit esse germános.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:10-15\nHi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia."
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 44:10-15\nHi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 132:1-2\nEcce, quam bonum et quam jucúndum, habitáre fratres in unum!\nV. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.",
+            "texte": "Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! V. Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.",
             "incipit": {
               "incipit": "Ecce quam bonum",
               "version": "Solesmes",
@@ -65,15 +76,17 @@
             "gabc": "(c4) EC(ixdh!ivHGfhg/hi)ce(h.) *(,) quam(fh~) bo(h)num,(ghGE.) (,) et(f) quam(ghg/hf~) ju(gh)cún(g_[oh:h]e/fgfg)dum(d.) (;) ha(h)bi(jj)tá(jkj)re(jijvIHiij) fra(g!hwi'!jv)tres(ih..) (;) in(fh) u(ixh_g!jjvH'G//hig)num!(efd/f_h//ghGE/!f_g/!/!fgFD.1) (::) <sp>V/</sp>. Sic(d)ut(d) un(dh~)guén(h)tum(hjH'GF.eg/hgh//fgFD.1) (,) (cd/fd//cd!ff/g.h!iw!jvIH.) (;) in(h) cá(h)pi(h)te,(hjH'Gh!jjjh//jjjvIH'jggf.0) (:) quod(hk) de(k_[hl:1]j)scén(j_lKJ'kjj'jh~)dit(i_[oh:h]h_[oh:h]) (,) in(f) bar(ixhv./!fhg/!hiG'F/!/!gf/ghf/!f'fd!ewfef)bam,(e[ll:1]d..) (:) bar(d/fff)bam(g_[oh:h]f) *() A(f')a(hg'h)ron.(hhf.) (,) (h_ghvFDgff'fvE'C//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": "graduel_ecce-quam-bonum.mp3",
             "fichier": "Latin/Sancti/06-26.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens regna cœléstia. Allelúja.",
             "incipit": {
               "incipit": "Haec est vera",
               "version": "Solesmes",
@@ -84,12 +97,21 @@
             "gabc": "(c3) AL(ef)le(e)lú(ehg/hiH'GF'f){ia}.(e.) *(;) <i>ij.</i>(eh!ijjvjv'1IGivHFE.) (,) (eh!ijjvjv'1IGivHFE.fhf/gffe.) (::) <sp>V/</sp>. Haec(ef) est(e) ve(ehg/hiH'GF'f)ra(e) fra(g)tér(gf/ghgg)ni(fe)tas,(e.) (;) quae(eh!ijjvjv'1IGivHFE.) vi(f!hfg)cit(fe..) (,) mun(hg~)di(fivvHF) crí(hg/h_i)mi(f!gw!hvG'FE'f)na :(fe..) (:) Chri(evDCd/efe)stum(e) se(i)cú(hiie)ta(fgffe) est,(e.) (;) ín(ef)cly(ehg/hiH'GF'f)ta(e) te(g)nens(fhgg) re(ff)gna(e.) *(,) cae(ef)lé(e)sti(ehg/hiH'GF'f)a.(e.) (;) (eh!ijjvjv'1IGivHFE.) (,) (eh!ijjvjv'1IGivHFE.fhf/gffe.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-26.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:1-8\nIn illo témpore: Dixit Jesus discípulis suis: Atténdite a ferménto pharisæórum, quod est hypócrisis. Nihil autem opértum est, quod non revelétur: neque abscónditum, quod non sciátur. ¶ Quóniam, quæ in ténebris dixístis, in lúmine dicéntur: et quod in aurem locúti estis in cubículis, prædicábitur in tectis. Dico autem vobis amícis meis: Ne terreámini ab his, qui occídunt corpus, et post hæc non habent ámplius quid fáciant. Osténdam autem vobis, quem timeátis: timéte eum, qui postquam occíderit, habet potestátem míttere in gehénnam. Ita dico vobis: hunc timéte. Nonne quinque pásseres véneunt dipóndio, et unus ex illis non est in oblivióne coram Deo? Sed et capílli cápitis vestri omnes numeráti sunt. Nolíte ergo timére: multis passéribus pluris estis vos. Dico autem vobis: Omnis, quicúmque conféssus fúerit me coram homínibus, et Fílius hóminis confitébitur illum coram Angelis Dei."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:1-8\nIn illo témpore: Dixit Jesus discípulis suis: Atténdite a ferménto pharisæórum, quod est hypócrisis. Nihil autem opértum est, quod non revelétur: neque abscónditum, quod non sciátur. ¶ Quóniam, quæ in ténebris dixístis, in lúmine dicéntur: et quod in aurem locúti estis in cubículis, prædicábitur in tectis. Dico autem vobis amícis meis: Ne terreámini ab his, qui occídunt corpus, et post hæc non habent ámplius quid fáciant. Osténdam autem vobis, quem timeátis: timéte eum, qui postquam occíderit, habet potestátem míttere in gehénnam. Ita dico vobis: hunc timéte. Nonne quinque pásseres véneunt dipóndio, et unus ex illis non est in oblivióne coram Deo? Sed et capílli cápitis vestri omnes numeráti sunt. Nolíte ergo timére: multis passéribus pluris estis vos. Dico autem vobis: Omnis, quicúmque conféssus fúerit me coram homínibus, et Fílius hóminis confitébitur illum coram Angelis Dei.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3a-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 5:12-13\nGloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu, Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.",
@@ -103,17 +125,20 @@
             "gabc": "(c4) GLo(d!fff)ri(fgFD')a(d/fff//f'gf)bún(cd!ff/gf//f'f/gf)tur(f.) *(,) in(f) te(fg'h) o(h/jjh//ixgiH'GFf'_[oh:h]g_[oh:h]f_[oh:h])mnes(f.) (;) qui(df) dí(fff)li(d!ew!fvE'DC'd)gunt(dc..) (,) no(ffe)men(g/jjh!iwj) tu(f_[oh:h]g_[oh:h]f_[oh:h])um,(f.) (:) quó(ixf!gwh'!iv)ni(h)am(h) tu,(h) Dó(ixh/jjh/i_[uh:l]j)mi(g_[oh:h]ff'_[oh:h]g_[oh:h]f_[oh:h])ne,(f.) (;) be(f)ne(df)dí(f)ces(fg/hg/h_g) ju(fg!hvGF'g)sto :(gf..) (:) Dó(hjh)mi(h)ne,(hjh'jvG'Fg.) (;) ut(f!gwhg~) scu(h)to(f) bo(g)nae(f) vo(f)lun(df)tá(df)tis(ff/gf) tu(d!ew!fvE'DC'd)ae(dc..) (;) co(ffe)ro(g/jjh!iwj)ná(f)sti(f_[oh:h]g_[oh:h]f_[oh:h]) nos.(f.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-26.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Secreta",
-            "texte": "Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum"
+            "texte": "Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Sap 3:4-6\nEt si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.",
@@ -127,74 +152,95 @@
             "gabc": "(c4) ET(d) si(d) co(fdf)ram(f) ho(f)mí(ghG'F)ni(gh)bus(h.) *(,) tor(h)mén(jhhg~)ta(h!jjk) pas(h)si(h_[oh:h]i_[oh:h]h_[oh:h]) sunt,(h.) (;) De(h)us(ghg) ten(fe~)tá(f!gwhg)vit(ge/f_e) e(de!fvED'e)os :(e[ll:1]d..) (:) tam(fe~)quam(f) au(ixgiH'G)rum(g.) in(fg) for(hj~)ná(jijh)ce(h.) (,) pro(h)bá(hv.fg'h)vit(hg/h_g) e(fg!hvGF'g)os,(gf..) (:) et(ixhi~) qua(ixhi)si(h) ho(hgge)lo(gh)cáu(fg~)sta(fef.) (,) ac(g)cé(ge)pit(gfgvFE) e(de!fvED'e)os.(e[ll:1]d..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-26.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-26.txt",
             "section": "Postcommunio",
-            "texte": "Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut, quod temporáliter gérimus, ætérnis gáudiis consequámur.\n$Per Dominum"
+            "texte": "Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut, quod temporáliter gérimus, ætérnis gáudiis consequámur.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Introitus",
-            "texte": "!Ps 33:20-21\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines : le Seigneur préserve tous leurs os : il n’y en aura pas un seul de brisé.\n!Ps 33:2\n Je bénirai le Seigneur en tout temps : toujours sa louange sera dans ma bouche.\n&Gloria\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines : le Seigneur préserve tous leurs os : il n’y en aura pas un seul de brisé."
+            "texte": "!Ps 33:20-21\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines : le Seigneur préserve tous leurs os : il n’y en aura pas un seul de brisé.\n!Ps 33:2\n Je bénirai le Seigneur en tout temps : toujours sa louange sera dans ma bouche.\n&Gloria\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines : le Seigneur préserve tous leurs os : il n’y en aura pas un seul de brisé.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Oratio",
-            "texte": "Nous vous prions, Dieu tout-puissant : faites-nous entrer dans la joie de cette double fête, joie qui provient de la glorification des bienheureux Jean et Paul ; qu’une même foi et un même martyre ont rendus vraiment frères.\n$Per Dominum"
+            "texte": "Nous vous prions, Dieu tout-puissant : faites-nous entrer dans la joie de cette double fête, joie qui provient de la glorification des bienheureux Jean et Paul ; qu’une même foi et un même martyre ont rendus vraiment frères.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:10-15\nC’étaient des hommes de miséricorde, dont les œuvres de piété subsistent à jamais. Les biens qu’ils ont laissés demeurent à leur postérité ; leurs descendants sont un saint héritage, et leur race est demeurée fidèle à l’alliance ; à cause d’eux, leurs fils subsistent éternellement, et ni leur race ni leur gloire n’aura de fin. Leurs corps ont été ensevelis en paix, et leur nom vivra de génération en génération. Que les peuples racontent leur sagesse et que l’assemblée publie leurs louanges."
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 44:10-15\nC’étaient des hommes de miséricorde, dont les œuvres de piété subsistent à jamais. Les biens qu’ils ont laissés demeurent à leur postérité ; leurs descendants sont un saint héritage, et leur race est demeurée fidèle à l’alliance ; à cause d’eux, leurs fils subsistent éternellement, et ni leur race ni leur gloire n’aura de fin. Leurs corps ont été ensevelis en paix, et leur nom vivra de génération en génération. Que les peuples racontent leur sagesse et que l’assemblée publie leurs louanges.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/06-26.txt",
-            "section": "Graduale",
-            "texte": "!Ps 132:1-2\nVoyez comme il est bon et agréable pour des frères d’habiter ensemble !\nV. C’est comme le parfum répandu sur la tête, qui descend sur la barbe, la barbe d’Aaron."
+            "section": "Graduale[0]",
+            "texte": "Voyez comme il est bon et agréable pour des frères d’habiter ensemble ! V. C’est comme le parfum répandu sur la tête, qui descend sur la barbe, la barbe d’Aaron.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-26.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. C’est la vraie fraternité qui a vaincu les crimes du monde : ils ont suivi le Christ et possèdent la gloire du Royaume céleste. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:1-8\nEn ce temps-là : Jésus dit à ses disciples : Gardez-vous du levain des pharisiens, qui est l’hypocrisie. Il n’y a rien de secret qui ne doive être découvert, ni rien de caché qui ne doive être connu. Car, ce que vous avez dit dans les ténèbres, on le dira dans la lumière ; et ce que vous avez dit à l’oreille, dans les chambres, sera prêché sur les toits. Je vous dis donc à vous, qui êtes mes amis : ne craignez point ceux qui tuent le corps, et qui, après cela, ne peuvent rien faire de plus. Mais je vous montrerai qui vous devez craindre : craignez celui qui, après avoir tué, a le pouvoir de jeter dans la géhenne. Oui, je vous le dis, celui-là, craignez-le. Cinq passereaux ne se vendent-ils pas deux as ? Et pas un d’eux n’est en oubli devant Dieu. Les cheveux même de votre tête sont tous comptés. Ne craignez donc point ; vous valez plus que beaucoup de passereaux. Or, je vous le dis, quiconque me confessera devant les hommes, le Fils de l’homme le confessera aussi devant les anges de Dieu."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 12:1-8\nEn ce temps-là : Jésus dit à ses disciples : Gardez-vous du levain des pharisiens, qui est l’hypocrisie. Il n’y a rien de secret qui ne doive être découvert, ni rien de caché qui ne doive être connu. Car, ce que vous avez dit dans les ténèbres, on le dira dans la lumière ; et ce que vous avez dit à l’oreille, dans les chambres, sera prêché sur les toits. Je vous dis donc à vous, qui êtes mes amis : ne craignez point ceux qui tuent le corps, et qui, après cela, ne peuvent rien faire de plus. Mais je vous montrerai qui vous devez craindre : craignez celui qui, après avoir tué, a le pouvoir de jeter dans la géhenne. Oui, je vous le dis, celui-là, craignez-le. Cinq passereaux ne se vendent-ils pas deux as ? Et pas un d’eux n’est en oubli devant Dieu. Les cheveux même de votre tête sont tous comptés. Ne craignez donc point ; vous valez plus que beaucoup de passereaux. Or, je vous le dis, quiconque me confessera devant les hommes, le Fils de l’homme le confessera aussi devant les anges de Dieu.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Offertorium",
-            "texte": "!Ps 5:12-13\nTous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste : Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier."
+            "texte": "!Ps 5:12-13\nTous ceux qui aiment votre nom se glorifieront en vous : parce que vous bénirez le juste : Seigneur, vous nous avez couronnés de votre amour comme d’un bouclier.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Secreta",
-            "texte": "Recevez favorablement, Seigneur, les hosties que nous vous offrons par les mérites de vos saints Martyrs Jean et Paul : faites qu’elles nous obtiennent votre assistance continuelle.\n$Per Dominum"
+            "texte": "Recevez favorablement, Seigneur, les hosties que nous vous offrons par les mérites de vos saints Martyrs Jean et Paul : faites qu’elles nous obtiennent votre assistance continuelle.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Communio",
-            "texte": "!Sap 3:4-6\nS’ils ont souffert des tourments devant les hommes, c’est que Dieu les a éprouvés : il les a mis à l’épreuve comme l’or dans la fournaise, et il les a agréés comme une hostie d’holocauste."
+            "texte": "!Sap 3:4-6\nS’ils ont souffert des tourments devant les hommes, c’est que Dieu les a éprouvés : il les a mis à l’épreuve comme l’or dans la fournaise, et il les a agréés comme une hostie d’holocauste.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-26.txt",
             "section": "Postcommunio",
-            "texte": "Nous avons reçu, Seigneur, les sacrements célestes en célébrant la solennité de vos martyrs Jean et Paul : accordez-nous, s’il vous plaît, que ce que nous portons temporellement, nous arrivions à le posséder dans les joies éternelles.\n$Per Dominum"
+            "texte": "Nous avons reçu, Seigneur, les sacrements célestes en célébrant la solennité de vos martyrs Jean et Paul : accordez-nous, s’il vous plaît, que ce que nous portons temporellement, nous arrivions à le posséder dans les joies éternelles.\n$Per Dominum",
+            "references": null
           }
         }
       },

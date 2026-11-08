@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/09-17",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Impression des Sts Stigmates de St François, Confesseur",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/09-17.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(f3) MI(e)hi(f) au(f)tem(hh) *(,) ab(ihi)sit(ihi_[oh:h]f) glo(hj)ri(ih)á(hg)ri,(e_[uh:l]f) (;) ni(fi)si(i) in(i) cru(kxi!jwkj)ce(ji__) (,) Dó(ij)mi(ih)ni(hv.gih) no(fge)stri(f.) (,) Je(f)su(hhi) Chri(fgF'E)sti,(e.) (:) per(h) quem(hhh) mi(f)hi(fi) mun(i)dus(h) cru(h)ci(hi)fí(i)xus(h) est,(hji.) (;) et(hihh) e(ef!hhi)go(h) mun(hjI~'H~)do.(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::) <i>Ps.</i> Me(e)mén(fe)to(eh) Dó(hg)mi(hi)ne(i) Da(hi)vid :(h.) *(:) et(hf) o(fh)mnis(h) man(h)su(h)e(h')tú(i)di(hf)nis(h) e(ge)jus.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-17.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Oratio",
-            "texte": "Dómine Jesu Christe, qui, frigescénte mundo, ad inflammándum corda nostra tui amóris igne, in carne beatíssimi Francísci passiónis tuæ sacra Stígmata renovásti: concéde propítius; ut ejus méritis et précibus crucem júgiter ferámus, et dignos fructus pæniténtiæ faciámus:\n$Qui vivis"
+            "texte": "Dómine Jesu Christe, qui, frigescénte mundo, ad inflammándum corda nostra tui amóris igne, in carne beatíssimi Francísci passiónis tuæ sacra Stígmata renovásti: concéde propítius; ut ejus méritis et précibus crucem júgiter ferámus, et dignos fructus pæniténtiæ faciámus:\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 6:14-18\nFratres: Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo. In Christo enim Jesu neque circumcísio áliquid valet neque præpútium, sed nova creatúra. Et quicúmque hanc régulam secúti fúerint, pax sin per illos et misericórdia, et super Israël Dei. De cetero nemo mihi moléstus sit: ego enim stígmata Dómini Jesu in córpore meo porto. Grátia Dómini nostri Jesu Christi cum spíritu vestro, fratres. Amen."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 6:14-18\nFratres: Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus est, et ego mundo. In Christo enim Jesu neque circumcísio áliquid valet neque præpútium, sed nova creatúra. Et quicúmque hanc régulam secúti fúerint, pax sin per illos et misericórdia, et super Israël Dei. De cetero nemo mihi moléstus sit: ego enim stígmata Dómini Jesu in córpore meo porto. Grátia Dómini nostri Jesu Christi cum spíritu vestro, fratres. Amen.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "texte": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. V. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
             "incipit": {
               "incipit": "Os justi (Grad.)",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_[oh:h]eg)jus(gvF'EDfvED) (,) (fge'/fgd'/e[ll:1]ddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_[oh:h]e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/e[ll:1]ddc.) <clear>*(;) gres(ff)sus(fg) e(g_[oh:h]f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-17.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Francíscus pauper et húmilis cœlum dives ingréditur, hymnis cœléstibus honorátur. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Francíscus pauper et húmilis cœlum dives ingréditur, hymnis cœléstibus honorátur. Allelúja.",
             "incipit": {
               "incipit": "Franciscus",
               "version": "Solesmes",
@@ -82,12 +88,21 @@
             "gabc": "(c4) AL(cd/fg)le(edf./efd/e[ll:1]d)lú(cd~){ia}.(d.) *(;) <i>ij.</i>(ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhghvF'EDffd.) (::) <sp>V/</sp>. Fran(cd/fgE'Dfv.efd/e[ll:1]d)cís(cd)cus(d.) (,) pau(fg'h)per(hf) et(ixhv.giHF.1) (,) (ixhv.giH'GF.deddc) hú(cd/fg)mi(edffd)lis,(d.) (:) cae(h)lum(g) di(h)ves(g) in(fh~)gré(ixhg/hh//fh!ivGFhh/fhf/gf)di(dcd)tur,(d.) (:) hy(ixdcf//hfhivGFhv.)(,)(ixf!gwhghivGFh)mnis(hgg) (,) cae(ef'g)lé(edf./efd/e[ll:1]d)sti(cd)bus(d.) *(;) ho(cd/fg)no(edf./efd/e[ll:1]d)rá(cd)tur.(d.) (;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhghvF'EDffd.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-17.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:24-27\nIn illo témpore: Dixit Jesus discípulis suis: Si quis vult post me veníre, ábneget semetípsum, et tollat crucem suam, et sequátur me. Qui enim voluerit ánimam suam salvam fácere, perdet eam: qui autem perdíderit ánimam suam propter me, invéniet eam. Quid enim prodest hómini, si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur? Aut quam dabit homo commutatiónem pro ánima sua? Fílius enim hóminis ventúrus est in glória Patris sui cum Angelis suis: et tunc reddet unicuíque secúndum ópera ejus."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:24-27\nIn illo témpore: Dixit Jesus discípulis suis: Si quis vult post me veníre, ábneget semetípsum, et tollat crucem suam, et sequátur me. Qui enim voluerit ánimam suam salvam fácere, perdet eam: qui autem perdíderit ánimam suam propter me, invéniet eam. Quid enim prodest hómini, si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur? Aut quam dabit homo commutatiónem pro ánima sua? Fílius enim hóminis ventúrus est in glória Patris sui cum Angelis suis: et tunc reddet unicuíque secúndum ópera ejus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +116,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "Latin/Sancti/09-17.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Secreta",
-            "texte": "Múnera tibi, Dómine, dicata sanctífica: et, intercedénte beáto Francísco, ab omni nos culpárum labe purífica.\n$Per Dominum"
+            "texte": "Múnera tibi, Dómine, dicata sanctífica: et, intercedénte beáto Francísco, ab omni nos culpárum labe purífica.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
@@ -125,74 +150,95 @@
             "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-17.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/09-17.txt",
             "section": "Postcommunio",
-            "texte": "Deus, qui mira Crucis mystéria in beáto Francísco Confessóre tuo multifórmiter demonstrásti: da nobis, quǽsumus; devotiónis suæ semper exémpla sectári, et assídua ejúsdem Crucis meditatióne muníri.\n$Per Dominum"
+            "texte": "Deus, qui mira Crucis mystéria in beáto Francísco Confessóre tuo multifórmiter demonstrásti: da nobis, quǽsumus; devotiónis suæ semper exémpla sectári, et assídua ejúsdem Crucis meditatióne muníri.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Introitus",
-            "texte": "!Gal 6:14\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.\n!Ps 141:2.\nDe ma voix, j’ai crié vers le Seigneur : de ma voix, j’ai supplié le Seigneur.\n&Gloria\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde."
+            "texte": "!Gal 6:14\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.\n!Ps 141:2.\nDe ma voix, j’ai crié vers le Seigneur : de ma voix, j’ai supplié le Seigneur.\n&Gloria\nv. Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Oratio",
-            "texte": "Seigneur Jésus-Christ, qui, lorsque le monde se refroidissait, avez voulu, pour enflammer nos cœurs du feu de votre amour, renouveler les sacrés stigmates de votre passion dans la chair du bienheureux François, accordez-nous, s’il vous plaît, que, par ses mérites et ses prières, nous portions continuellement la croix, et que nous fassions de dignes fruits de pénitence.\n$Qui vivis"
+            "texte": "Seigneur Jésus-Christ, qui, lorsque le monde se refroidissait, avez voulu, pour enflammer nos cœurs du feu de votre amour, renouveler les sacrés stigmates de votre passion dans la chair du bienheureux François, accordez-nous, s’il vous plaît, que, par ses mérites et ses prières, nous portions continuellement la croix, et que nous fassions de dignes fruits de pénitence.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 6:14-18\nMes Frères : Pour moi, à Dieu ne plaise que je me glorifie, si ce n’est dans la Croix de notre Seigneur Jésus-Christ, par qui le monde est crucifié pour moi, comme je le suis pour le monde. Car, dans le Christ Jésus, ce n’est pas la circoncision qui sert à quelque chose, ni l’incirconcision, mais la nouvelle créature. Tous ceux qui suivront cette règle, que la paix et la miséricorde soient sur eux, et sur l’Israël de Dieu. Que personne à l’avenir ne me cause de la peine ; car je porte sur mon corps les stigmates du Seigneur Jésus.. Que la grâce de notre Seigneur Jésus-Christ soit avec votre esprit, mes frères. Amen."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas\n!Gal 6:14-18\nMes Frères : Pour moi, à Dieu ne plaise que je me glorifie, si ce n’est dans la Croix de notre Seigneur Jésus-Christ, par qui le monde est crucifié pour moi, comme je le suis pour le monde. Car, dans le Christ Jésus, ce n’est pas la circoncision qui sert à quelque chose, ni l’incirconcision, mais la nouvelle créature. Tous ceux qui suivront cette règle, que la paix et la miséricorde soient sur eux, et sur l’Israël de Dieu. Que personne à l’avenir ne me cause de la peine ; car je porte sur mon corps les stigmates du Seigneur Jésus.. Que la grâce de notre Seigneur Jésus-Christ soit avec votre esprit, mes frères. Amen.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/09-17.txt",
-            "section": "Graduale",
-            "texte": "!Ps 36:30-31\nLa bouche du juste méditera la sagesse et sa langue proférera l’équité.\nV. La loi de son Dieu est dans son cœur et on ne le renversera point."
+            "section": "Graduale[0]",
+            "texte": "La bouche du juste méditera la sagesse et sa langue proférera l’équité. V. La loi de son Dieu est dans son cœur et on ne le renversera point.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-17.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. François, humble et pauvre entre riche au ciel, acclamé par les hymnes célestes. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. François, humble et pauvre entre riche au ciel, acclamé par les hymnes célestes. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:24-27\nEn ce temps-là, Jésus dit à ses disciples : Si quelqu’un veut venir après moi, qu’il renonce à lui-même, et qu’il porte sa croix, et qu’il me suive. Car celui qui voudra sauver sa vie, la perdra ; mais celui qui perdra sa vie à cause de moi, la trouvera. Que sert à l’homme de gagner le monde entier, s’il perd son âme ? Ou qu’est-ce que l’homme donnera en échange de son âme ? Car le Fils de l’homme viendra dans la gloire de son Père avec ses anges, et alors il rendra à chacun selon ses œuvres."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 16:24-27\nEn ce temps-là, Jésus dit à ses disciples : Si quelqu’un veut venir après moi, qu’il renonce à lui-même, et qu’il porte sa croix, et qu’il me suive. Car celui qui voudra sauver sa vie, la perdra ; mais celui qui perdra sa vie à cause de moi, la trouvera. Que sert à l’homme de gagner le monde entier, s’il perd son âme ? Ou qu’est-ce que l’homme donnera en échange de son âme ? Car le Fils de l’homme viendra dans la gloire de son Père avec ses anges, et alors il rendra à chacun selon ses œuvres.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Secreta",
-            "texte": "Rendez saintes, Seigneur, les offrandes qui vous sont dédiées, et en raison de l’intercession du bienheureux François, purifiez-nous de toute tache du péché.\n$Per Dominum"
+            "texte": "Rendez saintes, Seigneur, les offrandes qui vous sont dédiées, et en raison de l’intercession du bienheureux François, purifiez-nous de toute tache du péché.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Communio",
-            "texte": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé."
+            "texte": "!Luc 12:42\nVoici le dispensateur fidèle et prudent que le Maître a établi sur ses serviteurs pour leur donner au temps fixé, leur mesure de blé.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-17.txt",
             "section": "Postcommunio",
-            "texte": "Ô Dieu, qui avez montré sous plusieurs formes les mystères admirables de la Croix dans le bienheureux François, votre confesseur, accordez-nous, nous vous en prions, de suivre toujours les exemples de sa dévotion et de nous fortifier par a méditation assidue de cette même Croix.\n$Per Dominum"
+            "texte": "Ô Dieu, qui avez montré sous plusieurs formes les mystères admirables de la Croix dans le bienheureux François, votre confesseur, accordez-nous, nous vous en prions, de suivre toujours les exemples de sa dévotion et de nous fortifier par a méditation assidue de cette même Croix.\n$Per Dominum",
+            "references": null
           }
         }
       },

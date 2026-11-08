@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/05-16",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Saint Ubald, Évêque et Confesseur",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/05-16.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,27 @@
             "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_[oh:h]e_[oh:h]d_[oh:h])cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_[oh:h]i_[oh:h]h_[oh:h])tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(e[ll:1]d..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
             "mp3": "introitus_statuit-ei-dominus.mp3",
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/05-16.txt",
             "section": "Oratio",
-            "texte": "Auxílium tuum nobis, Dómine, quǽsumus, placátus impénde: et, intercessióne beáti Ubáldi Confessóris tui atque Pontíficis, contra omnes diáboli nequítias déxteram super nos tuæ propitiatiónis exténde.\n$Per Dominum"
+            "texte": "Auxílium tuum nobis, Dómine, quǽsumus, placátus impénde: et, intercessióne beáti Ubáldi Confessóris tui atque Pontíficis, contra omnes diáboli nequítias déxteram super nos tuæ propitiatiónis exténde.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/05-16.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
@@ -63,12 +74,14 @@
             "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/05-16.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
@@ -82,12 +95,14 @@
             "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
             "mp3": "alleluia_tu-es-sacerdos.mp3",
             "fichier": "Latin/Sancti/05-16.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/05-16.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 88:21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confortábit eum. (Allelúja.)",
@@ -101,17 +116,27 @@
             "gabc": "\"(c3) In(c)v\\u00e9(e!fg)ni(f) (::) Da(f)vid(fhffe) ser(g)vum(giHGh) me(fgf)um,(f) (:) \\u00f3(hhi)le(h)o(h) san(h)cto(hg) me(h)o(hiHG//hvGFE/fe) (;) un(hhf~)xi(h) e(hiHG)um:(h) (:) ma(hhi)nus(h) e(h!iji)nim(ih) me(fhhf//ivHGh)a(hg) (;) au(h)xi(h)li(hg)\\u00e1(hi)bi(f)tur(eed) e(fhFE/fvEDe)i,(ed) (:) et(ef) br\\u00e1(e)chi(ef/hg)um(gf) me(hg)um(hig//hvFEf) (;) con(e)for(f)t\\u00e1(fhhf//ivHGh)bit(gf) e(effe)um.(e) (::)\"",
             "mp3": "offertoire_inveni-david-servum.mp3",
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C4.txt",
             "section": "Secreta",
-            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum."
+            "texte": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n$Per Dominum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/05-16.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
@@ -125,74 +150,88 @@
             "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C4.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C4.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum"
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Oratio",
-            "texte": "Laissez-vous fléchir, Seigneur : que l’intercession du bienheureux Ubald votre Confesseur et Pontife nous obtienne votre secours ; étendez sur nous votre main miséricordieuse pour nous défendre contre toutes les perfidies du démon.\n$Per Dominum"
+            "texte": "Laissez-vous fléchir, Seigneur : que l’intercession du bienheureux Ubald votre Confesseur et Pontife nous obtienne votre secours ; étendez sur nous votre main miséricordieuse pour nous défendre contre toutes les perfidies du démon.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Secreta",
-            "texte": "Que le souvenir de vos Saints nous soit, ô Seigneur, en tous lieux, un sujet de joie, afin que nous ressentions la protection de ceux dont nous célébrons à nouveau les mérites.\n$Per Dominum"
+            "texte": "Que le souvenir de vos Saints nous soit, ô Seigneur, en tous lieux, un sujet de joie, afin que nous ressentions la protection de ceux dont nous célébrons à nouveau les mérites.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Communio",
-            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)"
+            "texte": "!Luc 12:42.\nVoici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/05-16.txt",
             "section": "Postcommunio",
-            "texte": "Accordez-nous, s’il vous plaît, ô Dieu tout-puissant, qu’en rendant grâces pour les dons reçus, nous recevions plus de bienfaits encore grâce à l’intercession du bienheureux Ubald votre Confesseur et Pontife.\n$Per Dominum"
+            "texte": "Accordez-nous, s’il vous plaît, ô Dieu tout-puissant, qu’en rendant grâces pour les dons reçus, nous recevions plus de bienfaits encore grâce à l’intercession du bienheureux Ubald votre Confesseur et Pontife.\n$Per Dominum",
+            "references": null
           }
         }
       },

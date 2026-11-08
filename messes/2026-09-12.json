@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/09-12",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Saint Nom de la Bienheureuse Vierge Marie",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/09-12.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,37 @@
             "gabc": "(f3) VUl(f)tum(efE'C) tu(efe)um(f.) *() de(ge)pre(f)ca(hh)bún(h)tur(f.) (;) o(f!hhh)mnes(f) dí(hh)vi(hih)tes(egf) ple(f_[oh:h]g_[oh:h]f_[oh:h])bis :(f.) (:) ad(f)du(hh)cén(ih~)tur(h) re(hi)gi(ihhf) vír(f)gi(f!gwh_f)nes(f') post(f) e(hg)am :(f.) (:) pró(hhh)xi(f)mae(e!gef) e(f_[oh:h]g_[oh:h]f_[oh:h])jus(f.) (,) ad(f)du(hh)cén(h_)tur(eg~) ti(fe)bi(e.) (;) in(f) lae(hh)tí(i)ti(h)a(hjIH'Ghf..) (,) et(f) ex(f)sul(gh~)ta(f)ti(e!gef)ó(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::) <i>Ps.</i> E(e)ru(fe)ctá(eh)vit(h) cor(h) me(h)um(hg) ver(hi)bum(i) bo(hi)num :(h.) *(:) di(hf)co(fh) e(h)go(h) ó(h)pe(h)ra(i) me(hf)a(h) re(ge)gi.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": "introitus_vultum-tuum.mp3",
             "fichier": "Latin/Sancti/09-12.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10b.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Oratio",
-            "texte": "Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cœlis.\n$Per Dominum"
+            "texte": "Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cœlis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt."
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 24:23-31\nEgo quasi vitis fructificávi suavitátem odóris: et flores mei fructus honóris et honestátis. Ego mater pulchræ dilectiónis, et timóris, et agnitiónis, et sanctæ spei. In me grátia omnis viæ et veritátis: in me omnis spes vitæ et virtútis. Transíte ad me, omnes, qui concupíscitis me, et a generatiónibus meis implémini. Spíritus enim meus super mel dulcis, et heréditas mea super mel et favum. Memória mea in generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-16.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. V. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
             "incipit": {
               "incipit": "Benedicta et venerabilis",
               "version": "Solesmes",
@@ -63,46 +81,87 @@
             "gabc": "(c4) BE(fe)ne(fg)dí(g)cta(gv.ff/ded.) (,) * et(f) ve(dfe)ne(fg)rá(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(e[ll:1]d~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a :(g.) (:) quae(df) si(feg)ne(gefd) ta(cd)ctu(d.) pu(f)dó(gh)ris(ixh.0/[-0.5]ivHG'h/ef'g) (;) in(gh~)vén(hfhhvGE'fd)ta(cd) es(d.) (,) ma(dc/[1]{/[-3]ix}fg'h)ter(h.0/[-0.5]ivHG'ef'g) Sal(g)va(df)tó(efED.)(,)(ixf.0/[-0.5]hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(e[ll:1]d) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) in(f) tu(f)a(ghgh) se(h) clau(hgh'1f)sit(e[ll:1]d) (,) ví(f_g//ef!hvGE'fd)sce(cd)ra(d.) (;) * fa(cd!ff)ctus(fg) ho(g_[oh:h]f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-12.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. V. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. _ Gaude, María Virgo, cunctas hǽreses sola interemísti. V. Quæ Gabriélis Archángeli dictis credidísti. V. Dum Virgo Deum et hóminem genuísti: et post partum, Virgo, invioláta permansísti. V. Dei Génetrix, intercéde pro nobis.",
+            "incipit": {
+              "incipit": "Benedicte Dominum",
+              "version": "Solesmes",
+              "distance": 28,
+              "similarite": 0.3,
+              "source": "Tractus"
+            },
+            "gabc": "(f3) BE(f)ne(f)dí(f)ci(efE'C)te(efe/fgf./efe/fgf.) (,) * Dó(ef/hgh)mi(ghG'F)num,(e!fwgf//ghghvGFgf..) (;) o(ef'h~)mnes(hg) An(hi)ge(hvGE')li(f) e(g_[oh:h]fg)jus;(fe/ggf/gh/iffe.) (:) pot(e)én(gh)tes(f) vir(f)tú(f_e/f!gwh'!iv)te,(hg/hiih.0) (;) qui(i) fá(i)ci(e)tis(f) ver(h)bum(gh/ihi) e(f)jus.(f/ggf.0) (::) \r\n<sp>V/</sp>. Be(e)ne(f)dí(h)ci(hi)te(f) Dó(hi)mi(ivH'GhvGF'g)no,(gf..) (;) o(fe~)mnes(f) Vir(hg~)tú(h)tes(f) e(f!hh//hhh)jus :(fe/ggf/gh/iffe.) (:) mi(e)ní(gh)stri(f) e(f_e/f!gwh'!iv)jus,(hg/hiih.0) (;) qui(ef) fá(eh)ci(h)tis(gh/ih) (,) vo(h)lun(h)tá(gh!ijh)tem(f!gwhg~) e(hvGF')jus.(f/ggf.0) (::) \r\n<sp>V/</sp>. Be(e)ne(f)dí(hi)ci(hiH'F)te(f!gwh) Dó(hi'j)mi(jvIH'GhvGF'g)no,(gf..) (;) ó(hi)mni(hvGF')a(f) ó(hg)pe(hi)ra(ihhg) e(fe~)jus :(ef/gf/ggf/gh/iffe.) (:) in(e) o(gh)mni(f) lo(fg)co(f.) (,) do(f)mi(f)na(f)ti(f)ó(fg)nis(f) e(f_e/f!gwh'!iv)jus,(kxhgi.jkiih.0) (;) bé(hhi)ne(h)dic(h) á(h)ni(h)ma(h) me(hihhe)a(f!gwhg) <clear>*(,) Dó(hv.gh/ihi)mi(f)no.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+            "mp3": null,
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
-            "texte": "Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
-            "incipit": {
-              "incipit": "Ave Maria (Alleluia)",
-              "version": "Solesmes",
-              "distance": 22,
-              "similarite": 0.45,
-              "source": "Alleluia"
-            },
-            "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_[oh:h]e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_[oh:h]h)mi(i_[oh:h]hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_[oh:h]c) tu(efhvGF.) (;) * in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
-            "mp3": "alleluia_ave-maria.mp3",
             "fichier": "Latin/Sancti/09-12.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum."
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 1:26-38\nIn illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Adv3-3.txt",
+                    "section": "Evangelium",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Offertorium": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10a.txt",
+                "section": "Offertorium",
+                "resolu": false
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Secreta",
-            "texte": "Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem et pacem.\n$Per Dominum"
+            "texte": "Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem et pacem.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Secreta",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)",
@@ -116,74 +175,116 @@
             "gabc": "(c4) BE(d)á(f)ta(fe) ví(fg)sce(efED'e)ra(e[ll:1]d..) (,) * Ma(f)rí(gh)ae(hvGF) Vír(ixghg/hi)gi(h)nis,(h.) (:) quae(f) por(gh~)ta(hg/hfgvFE)vé(d!ewfef)runt(e[ll:1]d..) (,) ae(h)tér(ixjhhg/hi)ni(h.) Pa(dc/fg'h)tris(f_e) Fí(cd)li(d_c/d!ewf)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
             "mp3": "communion_beata-viscera-mariae.mp3",
             "fichier": "Latin/Sancti/09-12.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Communio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/09-12.txt",
             "section": "Postcommunio",
-            "texte": "Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in cujus veneratióne hæc tuæ obtúlimus majestáti.\n$Per Dominum"
+            "texte": "Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in cujus veneratióne hæc tuæ obtúlimus majestáti.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C10.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C11.txt",
+                    "section": "Postcommunio",
+                    "resolu": true,
+                    "sous_references": null
+                  }
+                ]
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Introitus",
-            "texte": "!Ps 44:13; 44:15-16\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse."
+            "texte": "!Ps 44:13; 44:15-16\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse.\n!Ps 44:2\nDe mon cœur a jailli une excellente parole ; c’est que j’adresse mes œuvres à un roi.\n&Gloria\nv. Tous les riches d’entre le peuple vous offriront leurs humbles prières. Des Vierges seront amenées au roi après vous, vos compagnes seront présentées au milieu de la joie et de l’allégresse.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez à vos fidèles, qui mettent leur joie dans le nom et la protection de la très sainte Vierge Marie, d’être par un effet de sa maternelle intercession, préservés de tous les maux sur la terre, et d’arriver dans le ciel aux joies de l’éternité.\n$Per Dominum"
+            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez à vos fidèles, qui mettent leur joie dans le nom et la protection de la très sainte Vierge Marie, d’être par un effet de sa maternelle intercession, préservés de tous les maux sur la terre, et d’arriver dans le ciel aux joies de l’éternité.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle."
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 24:23-31\nComme la vigne j’ai poussé des fleurs d’une agréable odeur, et mes fleurs donnent des fruits de gloire et d’abondance. Je suis la mère du bel amour, de la crainte, de la science et de la sainte espérance. En moi est toute la grâce de la voie et de la vérité ; en moi est toute l’espérance de la vie et de la vertu. Venez à moi, vous tous qui me désirez, et rassasiez-vous de mes fruits ; car mon esprit est plus doux que le miel, et mon héritage plus suave que le rayon de miel. Ma mémoire passera dans la suite des siècles. Ceux qui me mangent auront encore faim, et ceux qui me boivent auront encore soif. Celui qui m’écoute ne sera pas confondu, et ceux qui agissent par moi ne pécheront point. Ceux qui me mettent en lumière auront la vie éternelle.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/09-12.txt",
-            "section": "Graduale",
-            "texte": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte.\nV. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme."
+            "section": "Graduale[0]",
+            "texte": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte. V. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur. V. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Réjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies. V. Vous qui avez cru aux paroles de l’Archange Gabriel. V. Car vous avez enfanté un Dieu et un homme, et arpès l’enfantement, ô Vierge, vous êtes demeurée inviolée. V. Mère de Dieu, intercédez pour nous.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-12.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. Après l’enfantement vous êtes demeurée Vierge inviolée : Mère de Dieu, intercédez pour nous. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Après l’enfantement vous êtes demeurée Vierge inviolée : Mère de Dieu, intercédez pour nous. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 1:26-38\nEn ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:28; 1:42\n Je vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni."
+            "texte": "!Luc 1:28; 1:42\n Je vous salue, Marie, pleine de grâce : le Seigneur est avec vous : vous êtes bénie entre les femmes, et le fruit de votre sein est béni.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Secreta",
-            "texte": "En nous étant propice, Seigneur, et grâce à l’intercession de la bienheureuse Marie toujours Vierge, faites que cette oblation nous procure pour l’éternité et pour la vie présente le bonheur et la paix.\n$Per Dominum"
+            "texte": "En nous étant propice, Seigneur, et grâce à l’intercession de la bienheureuse Marie toujours Vierge, faites que cette oblation nous procure pour l’éternité et pour la vie présente le bonheur et la paix.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Communio",
-            "texte": "Bienheureux le sein de la Vierge Marie, qui a porté le Fils du Père éternel."
+            "texte": "Bienheureux le sein de la Vierge Marie, qui a porté le Fils du Père éternel.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-12.txt",
             "section": "Postcommunio",
-            "texte": "Nous venons, Seigneur, de recevoir de puissants secours pour notre salut ; daignez faire, nous vous en supplions, que nous soyons en tous lieux couverts de la protection de la bienheureuse Marie toujours Vierge, en l’honneur de qui nous avons offert ce sacrifice à votre Majesté.\n$Per Dominum"
+            "texte": "Nous venons, Seigneur, de recevoir de puissants secours pour notre salut ; daignez faire, nous vous en supplions, que nous soyons en tous lieux couverts de la protection de la bienheureuse Marie toujours Vierge, en l’honneur de qui nous avons offert ce sacrifice à votre Majesté.\n$Per Dominum",
+            "references": null
           }
         }
       },
@@ -191,7 +292,7 @@
         "Francais/Sancti/09-12.txt",
         "Latin/Sancti/09-12.txt"
       ],
-      "sections_vides": 6,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

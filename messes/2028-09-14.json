@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/09-14",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Exaltation de la Sainte Croix",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/09-14.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c4) NOS(dfe) au(ef!gvFDfe)tem(fff) (,) * glo(fd)ri(f)á(ef'g)ri(g_[oh:h]d) o(fh)pór(gv.fhg)tet(eef.) (;) in(d) cru(g')ce(g) Dó(ixhg/hi)mi(h)ni(h) no(jj)stri(hhg) (,) Je(hhg)su(f) Chri(ixef!hig)sti :(g.) (:) in(ge~) quo(g) est(h) sa(ixhi)lus,(h.) (,) vi(jj)ta(hhg) (,) et(gh~) re(hhg)sur(f)ré(ef'g)cti(g)o(ixgih) no(g_[oh:h]f/gfg)stra :(d.) (:) per(d!fff) quem(f) sal(fd~)vá(fh)ti(g.) (,) et(h) li(f)be(gf)rá(ef'g)ti(ixgiH'G) su(g_[oh:h]fhvGFgvFE)mus.(e.) (::) <i>T. P.</i> Al(fd)le(f)lú(ef'g){ia},(g_[oh:h]d) (,) al(fh)le(gv.fhGF'g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> De(hg)us(gh) mi(h)se(h)re(h)á(h)tur(h) no(h)stri,(h.) (,) et(h) be(h)ne(hg)dí(gi)cat(i) no(hi)bis :(h.) *(:) il(hg~)lú(gh)mi(h)net(h) vul(h)tum(h) su(h)um(h) su(h)per(h) nos,(h.) (,) et(h) mi(h)se(h)re(h)á(gf)tur(gh) no(g)stri.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(egff) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-14.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in terra cognóvimus, ejus redemptiónis præmia in cœlo mereámur.\n$Per eundem"
+            "texte": "Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in terra cognóvimus, ejus redemptiónis præmia in cœlo mereámur.\n$Per eundem",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses\n!Phil 2:5-11\nFratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/05-03.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "!Phil 2:8-9\nChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis.\nV. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.",
+            "texte": "Christus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. V. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.",
             "incipit": {
               "incipit": "Christus factus est",
               "version": "Vatican",
@@ -63,15 +74,17 @@
             "gabc": "\"(c4) CHRIS(ffg)TUS(f) *(,) fac(fg)tus(f) est(f) pro(f) no(ghFED//ge/fg)bis(f) (;) o(f)b\\u00e9(hf/gh!jj/kjk)di(jij)ens(hg) (,) us(h/jjh)que(f) ad(ixfiHGh) mor(fgf)tem,(f) (:) mor(ixf!hhi)tem(g) au(ixgjj)tem(jh!iw!jvIGhw!ivHG) cru(fv//ff)cis.(fc) (,) (fg!hvGF/e!gh//fhg/hggf) <sp>V/</sp>.(z0::c3)  Prop(d)ter(d) quod(d) et(fe~) De(eh)us(h) (,) e(h)xal(h)t\\u00e1(h)vit(h) il(h)lum,(ihhe//hih/ihhe) (,) (hi!kv//lvKIjvHF) (,) (hg/ijh jvIHjvIH//hvGF) (:) et(f) de(f!hi)dit(i) il(i)li(ih/jki/hhf) (,) no(hf/hhh)men,(hf!gwh!iv//hi/jhh/iih) (;) quod(d) est(d) su(d)per(d) om(dfED)ne(ef) *() no(fhGFhhh)men.(hhf) (,) (gxgfgvED//fgED//fehvhhhff//dfe/feed) (::)\"",
             "mp3": "graduel_christus-factus-est.mp3",
             "fichier": "Latin/Sancti/09-14.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Dulce lignum, dulces clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum et Dóminum. Allelúja.",
             "incipit": {
               "incipit": "Dulce lignum",
               "version": "Solesmes",
@@ -82,12 +95,14 @@
             "gabc": "(c4) AL(e)le(gg)lú(ghgjvIH'h){ia}.(g.) (;) * (jv.hji//ghG'Fhg/jihhg.) (;) (jv.hji//ghG'Fhg/jihhg//h_ihhg.) (::) <sp>V/</sp>. Dul(e)ce(gg) li(ghgjvIH'h)gnum,(g.) (;) dul(g)ces(hi) cla(i)vos,(ig/hihhg.) (;) dúl(g)ci(g)a(hih) fe(ge/fgee[ll:1]d.0)(,)(gh'i)rens(ih~) pón(ivHGh'/ijgg)de(fg)ra :(g.) (:) quae(gji) so(jk)la(k) fu(i)í(k)sti(j) di(ih/jh/ij)gna(i.) (,) sus(i)ti(ih)né(jkjhji//ghG'Fhg/jihhg)re(g.) (;) re(fg~)gem(g) cae(fh)ló(hv.gjIH'ig)rum(g.) (,) * et(e) Dó(gg)mi(ghgjvIH'h)num.(g.) (;) (jv.hji//ghG'Fhg/jihhg.) (;) (jv.hji//ghG'Fhg/jihhg//h_ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-14.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:31-36\nIn illo témpore: Dixit Jesus turbis Judæórum: Nunc judícium est mundi: nunc princeps hujus mundi ejiciétur foras. Et ego si exaltátus fuero a terra, ómnia traham ad meipsum. ((Hoc autem dicébat, signíficans qua morte esset moritúrus.)) Respóndit ei turba. Nos audívimus ex lege, quia Christus manet in ætérnum: et quómodo tu dicis: Opórtet exaltári Fílium hóminis? Quis est iste Fílius hóminis? Dixit ergo eis Jesus: Adhuc módicum lumen in vobis est. Ambuláte, dum lucem habétis, ut non vos ténebræ comprehéndant: et qui ámbulat in ténebris, nescit, quo vadat. Dum lucem habétis, crédite in lucem, ut fílii lucis sitis."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 12:31-36\nIn illo témpore: Dixit Jesus turbis Judæórum: Nunc judícium est mundi: nunc princeps hujus mundi ejiciétur foras. Et ego si exaltátus fuero a terra, ómnia traham ad meipsum. ((Hoc autem dicébat, signíficans qua morte esset moritúrus.)) Respóndit ei turba. Nos audívimus ex lege, quia Christus manet in ætérnum: et quómodo tu dicis: Opórtet exaltári Fílium hóminis? Quis est iste Fílius hóminis? Dixit ergo eis Jesus: Adhuc módicum lumen in vobis est. Ambuláte, dum lucem habétis, ut non vos ténebræ comprehéndant: et qui ámbulat in ténebris, nescit, quo vadat. Dum lucem habétis, crédite in lucem, ut fílii lucis sitis.",
+            "references": null
           },
           "Offertorium": {
             "texte": "Prótege, Dómine, plebem tuam per signum sanctæ Crucis ab ómnibus insídiis inimicórum ómnium: ut tibi gratam exhibeámus servitútem, et acceptábile fiat sacrifícium nostrum, allelúja.",
@@ -101,17 +116,20 @@
             "gabc": "(f3) PRó(fffvEC//ef/gf)te(ef)ge,(f.) *(,) Dó(ef/hgh)mi(gf)ne,(g'hvGE.gefghf.1) (,) ple(gf)bem(ef~) tu(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (;) per(f) si(ghiihivHF'g)gnum(g/hhg.) (,) san(eg'!ivH'GF//hvGFgf)ctae(ef) Cru(fggf)cis,(f.) (;) ab(fe) ó(ffe/fhGE.gh/ih~)mni(fg)bus(g.) in(hhg)sí(fe)di(fg)is(g/hhg.) (,) in(e)i(gf)mi(hih)có(gf)rum(ghg) ó(fgf)mni(ef)um :(f.) (:) ut(fe~) ti(ffvEC//ef/gf)bi(ef) gra(f_[oh:h]g_[oh:h]f_[oh:h])tam(f.) (,) ex(f)hi(g)be(hi)á(i/jhiivHF.gh'ijhiivHF'g)mus(g/hhg.) (,) ser(eg'!ivH'GF//hvGFgf)vi(ef)tú(fggf)tem,(f.) (:) et(fe) ac(f)cep(fe)tá(fhGE.ghi)bi(hg)le(fg) ti(fe)bi(fg) fi(g/hhg)at(g.) (;) sa(iiivHF//ghg)cri(e)fí(gh'!ivH'GF)ci(gf)um(ef) no(f.e!fwg'!hv)strum(gf..) (:) al(fe~)le(e/feggvFE'f)lú(f.e!fwg'!hv){ia}.(gf..) (::)",
             "mp3": "offertoire_protege-domine.mp3",
             "fichier": "Latin/Sancti/09-14.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Secreta",
-            "texte": "Jesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per quem Crucis est sanctificátum vexíllum: quǽsumus, Dómine, Deus noster; ut, sicut illud adoráre merúimus, ita perénniter ejus glóriæ salutáris potiámur efféctu.\n$Per eundem"
+            "texte": "Jesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per quem Crucis est sanctificátum vexíllum: quǽsumus, Dómine, Deus noster; ut, sicut illud adoráre merúimus, ita perénniter ejus glóriæ salutáris potiámur efféctu.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "Per signum Crucis de inimícis nostris líbera nos, Deus noster.",
@@ -125,74 +143,88 @@
             "gabc": "(c3) PER(e) si(gih)gnum(g) Cru(ef)cis(efED.) (,) ~* de(fh) in(h)i(hf)mí(h)cis(hi!jvji) no(gihh)stris(hg..) (:) lí(f)be(ji)ra(j/ljji/jkjjij) nos,(ijHG.) (;) De(gh'i)us(h) no(gvFEf./e!hghhg//hji/jh/iivHG)ster.(g.) (::) <i>T. P.</i> Al(hi)le(h)lú(hhhjvIHivHG){ia}.(g.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/09-14.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/09-14.txt",
             "section": "Postcommunio",
-            "texte": "Adésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári facis honóre, ejus quoque perpétuis defénde subsídiis.\n$Per Dominum"
+            "texte": "Adésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári facis honóre, ejus quoque perpétuis defénde subsídiis.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Introitus",
-            "texte": "!Gal 6:14\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés.\n!Ps 66:2\nQue Dieu ait pitié de nous, et nous bénisse, qu’il fasse briller son visage sur nous et qu’il ait pitié de nous.\n&Gloria\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés."
+            "texte": "!Gal 6:14\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés.\n!Ps 66:2\nQue Dieu ait pitié de nous, et nous bénisse, qu’il fasse briller son visage sur nous et qu’il ait pitié de nous.\n&Gloria\nv. Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Oratio",
-            "texte": "O Dieu, qui nous donnez aujourd’hui un sujet de joie dans la fête annuelle de l’Exaltation de la sainte Croix, faites, nous vous en prions, que nous méritions de recueillir dans le ciel les récompenses acquises au moyen de la rédemption de celui dont nous avons connu le mystère ici-bas.\n$Per eundem"
+            "texte": "O Dieu, qui nous donnez aujourd’hui un sujet de joie dans la fête annuelle de l’Exaltation de la sainte Croix, faites, nous vous en prions, que nous méritions de recueillir dans le ciel les récompenses acquises au moyen de la rédemption de celui dont nous avons connu le mystère ici-bas.\n$Per eundem",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 2:5-11\nMes frères : Ayez en vous les mêmes sentiments dont était animé le Christ Jésus : bien qu’il fût Dieu par nature, il n’a pas retenu avidement son égalité avec Dieu, mais il s’est anéanti lui-même en prenant la condition d’esclave, en devenant semblable aux hommes, à l’extérieur absolument comme un homme. Il s’est abaissé lui-même, se faisant obéissant jusqu’à la mort, et la mort sur la croix. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom (ici on fléchit le genou), afin qu’au nom de Jésus tout genou fléchisse, au ciel, sur la terre et dans les enfers, et que toute langue proclame, à la gloire de Dieu le Père, que Jésus-Christ est Dieu."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.\n!Philipp 2:5-11\nMes frères : Ayez en vous les mêmes sentiments dont était animé le Christ Jésus : bien qu’il fût Dieu par nature, il n’a pas retenu avidement son égalité avec Dieu, mais il s’est anéanti lui-même en prenant la condition d’esclave, en devenant semblable aux hommes, à l’extérieur absolument comme un homme. Il s’est abaissé lui-même, se faisant obéissant jusqu’à la mort, et la mort sur la croix. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom (ici on fléchit le genou), afin qu’au nom de Jésus tout genou fléchisse, au ciel, sur la terre et dans les enfers, et que toute langue proclame, à la gloire de Dieu le Père, que Jésus-Christ est Dieu.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/09-14.txt",
-            "section": "Graduale",
-            "texte": "!Phil 2:8-9\nLe Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort sur la croix.\nV. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom."
+            "section": "Graduale[0]",
+            "texte": "Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort sur la croix. V. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-14.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. Ô doux bois, ô doux clous, vous portez un fardeau encore plus doux : ô Croix, toi seule as été digne de soutenir le Seigneur et Roi des Cieux. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Ô doux bois, ô doux clous, vous portez un fardeau encore plus doux : ô Croix, toi seule as été digne de soutenir le Seigneur et Roi des Cieux. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 12:31-36\nEn ce temps-là : Jésus dit à la foule des Juifs : C’est maintenant le jugement du monde ; c’est maintenant que le prince de ce monde va être jeté dehors. Et moi, quand j’aurai été élevé de terre, j’attirerai tout à moi. Il disait cela, pour marquer de quelle mort il devait mourir. La foule lui répondit : Nous avons appris de la loi que le Christ demeure éternellement ; comment donc dites-vous : Il faut que le Fils de l’homme soit élevé ? Quel est ce Fils de l’homme ?. Jésus leur dit : La lumière est encore pour un peu de temps parmi vous. Marchez pendant que vous avez la lumière, de peur que les ténèbres ne vous surprennent. Celui qui marche dans les ténèbres ne sait où il va. Pendant que vous avez la lumière, croyez en la lumière, afin que vous soyez des enfants de lumière."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 12:31-36\nEn ce temps-là : Jésus dit à la foule des Juifs : C’est maintenant le jugement du monde ; c’est maintenant que le prince de ce monde va être jeté dehors. Et moi, quand j’aurai été élevé de terre, j’attirerai tout à moi. Il disait cela, pour marquer de quelle mort il devait mourir. La foule lui répondit : Nous avons appris de la loi que le Christ demeure éternellement ; comment donc dites-vous : Il faut que le Fils de l’homme soit élevé ? Quel est ce Fils de l’homme ?. Jésus leur dit : La lumière est encore pour un peu de temps parmi vous. Marchez pendant que vous avez la lumière, de peur que les ténèbres ne vous surprennent. Celui qui marche dans les ténèbres ne sait où il va. Pendant que vous avez la lumière, croyez en la lumière, afin que vous soyez des enfants de lumière.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Offertorium",
-            "texte": "Protégez, Seigneur, votre peuple par le signe de la sainte Croix, de tous ses ennemis, afin que notre dévotion vous soit agréable et que vous acceptiez notre sacrifice, alléluia."
+            "texte": "Protégez, Seigneur, votre peuple par le signe de la sainte Croix, de tous ses ennemis, afin que notre dévotion vous soit agréable et que vous acceptiez notre sacrifice, alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Secreta",
-            "texte": "Alors que nous allons nous nourrir du Corps et du Sang de Jésus-Christ, Notre-Seigneur, par qui l’étendard de la Croix a été sanctifié : nous vous le demandons, Seigneur, notre Dieu, que comme nous avons mérité d’adorer cet étendard, nous puissions aussi éternellement bénéficier de l’effet de sa salutaire gloire.\n$Per eundem"
+            "texte": "Alors que nous allons nous nourrir du Corps et du Sang de Jésus-Christ, Notre-Seigneur, par qui l’étendard de la Croix a été sanctifié : nous vous le demandons, Seigneur, notre Dieu, que comme nous avons mérité d’adorer cet étendard, nous puissions aussi éternellement bénéficier de l’effet de sa salutaire gloire.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Communio",
-            "texte": "Par le signe de la Croix, libérez-nous de nos ennemis, ô notre Dieu."
+            "texte": "Par le signe de la Croix, libérez-nous de nos ennemis, ô notre Dieu.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-14.txt",
             "section": "Postcommunio",
-            "texte": "Soyez présent, Seigneur, notre Dieu : et ceux que vous avez rendu heureux par l’honneur de la sainte Croix, défendez-les aussi par ses secours perpétuels.\n$Per Dominum"
+            "texte": "Soyez présent, Seigneur, notre Dieu : et ceux que vous avez rendu heureux par l’honneur de la sainte Croix, défendez-les aussi par ses secours perpétuels.\n$Per Dominum",
+            "references": null
           }
         }
       },

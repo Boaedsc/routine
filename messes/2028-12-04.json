@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/12-04",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Pierre Chrysologue Evêque Confesseur et Docteur de l'Eglise",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/12-04.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,34 @@
             "gabc": "(c4) IN(df~) mé(fff)di(f)o(f) *() Ec(f)clé(gfg)si(f)ae(fff) (,) a(cd)pé(fff)ru(f)it(f) os(g_[oh:h]f) e(f_[oh:h]g_[oh:h]f_[oh:h])jus :(f.) (:) et(f) im(f)plé(ixf!gwh'!iv)vit(h) e(hjjh)um(h.) Dó(gh)mi(gf)nus(f.) (,) spí(fh)ri(g)tu(f) sa(fgf)pi(ef'g)én(gh~)ti(f)ae,(fgf.) (,) et(f) in(ef'g)tel(hghf)lé(f)ctus :(fffc..) (:) sto(fdf)lam(f) gló(ghf)ri(f_d)ae(d_c) (,) ín(ff)du(f)it(ff) e(f_[oh:h]g_[oh:h]f_[oh:h])um.(f.) (::) <i>T. P.</i> Al(d)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> Bo(fg)num(gf) est(gh) con(h)fi(g)té(ixi)ri(h) Dó(g)mi(f)no :(f.) *(:) et(h) psál(hj)le(g)re(f) nó(f)mi(f)ni(f') tu(g)o,(fd) Al(f')tís(g)si(f)me.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_in-medio-ecclesiae.mp3",
             "fichier": "Latin/Sancti/12-04.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/12-04.txt",
             "section": "Oratio",
-            "texte": "Deus, qui beátum Petrum Chrysólogum Doctórem egrégium, divínitus præmonstrátum, ad regéndam et instruéndam Ecclésiam tuam éligi voluísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis.\n$Per Dominum"
+            "texte": "Deus, qui beátum Petrum Chrysólogum Doctórem egrégium, divínitus præmonstrátum, ad regéndam et instruéndam Ecclésiam tuam éligi voluísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/12-04.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
@@ -63,31 +81,42 @@
             "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_[oh:h]e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_ecce-sacerdos-magnus.mp3",
             "fichier": "Latin/Sancti/12-04.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
+            "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi. Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. V. Potens in terra erit semen ejus: generátio rectórum benedicétur. V. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
+            "incipit": {
+              "incipit": "Ecce sic benedicetur",
+              "version": "Solesmes",
+              "distance": 30,
+              "similarite": 0.25,
+              "source": "Tractus"
+            },
+            "gabc": "(c4) EC(g)ce(gv.fff_d/e_[oh:h]c cd!fvv//g./hjhhg.) (,) * sic(gh) be(f)ne(ixg!hwi)di(i)cé(iiivHG)tur(g.) (;) o(g)mnis(g) ho(gh)mo(g.) (,) qui(g) ti(h_g/h!iwj)met(ghf) Dó(f!h'j)mi(j)num.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Be(d)ne(d)dí(d!ff//fffd//f_!h_f_g_)cat(f) ti(fghhg)bi(g.) (,) Dó(gh)mi(g)nus(g) ex(gh) Si(fg)on :(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) et(fh) ví(hgh)de(fg)as(g) bo(gh)na(g.) (,) Je(g)rú(gh/jij)sa(j.h!iwj)lem(jjjvIHivHGhg..) (;) ó(gh)mni(g)bus(g) di(g)é(h_g/h!iwj)bus(ghf) (,) vi(f!h'j)tae(j) tu(j)ae.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Et(fg) ví(g!jj)de(j)as(jj/kljj'jg) (,) (jj/kljj'jh//ijH'GF.g.h!iwjjv) (;) fí(jk'l)li(j_h)os(h_g) fi(hj)li(j)ó(ij'k)rum(ki) tu(kj)ó(j_kJ'//G)rum :(g_[uh:l]h) (,) (fh/ji/jkhhg/hg/jjh/jggf.0) <clear>*(:) pax(h_g/h!iwj) su(gh)per(g_[oh:h]f) Is(f!h'j)ra(j)el.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+            "mp3": null,
             "fichier": "Latin/Sancti/12-04.txt",
             "section": "Tractus",
-            "texte": ""
+            "references": null
           },
           "Alleluia": {
-            "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
-            "incipit": {
-              "incipit": "Tu es sacerdos",
-              "version": "Solesmes",
-              "distance": 22,
-              "similarite": 0.45,
-              "source": "Alleluia"
-            },
-            "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
-            "mp3": "alleluia_tu-es-sacerdos.mp3",
             "fichier": "Latin/Sancti/12-04.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/12-04.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. ¶ Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. ¶ Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 91:13\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
@@ -101,17 +130,27 @@
             "gabc": "(c4) JU(e.f!gwhgfffdgvFE)stus(fff) <clear>*(,) ut(dge) pal(gh)ma(g!jjjvH'GF.//ixfff!gwhg/hih.) (,) flo(ghf)ré(dgF'E)bit :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) sic(dg)ut(gh) ce(h!iwj!kvJH//gih)drus,(hjHG'hffe.) (,) quae(ghf) in(fe~) Lí(ghF'E//fh)ba(h_g!jjjvH'G)no(g_[oh:h]f//hvGFgvFE) est,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (;) mul(ff)ti(dgf)pli(f)cá(ixff/hihhghvGFg_[oh:h]e//hggf/ghg')bi(e)tur.(egf/gffe.) (::) <i>T. P.</i> Al(ce/gf)le(ffff_c//fff_e/hg/hffe)lú(egF~'E~){ia}.(e.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/12-04.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "../horas/Latin/Commune/C4a.txt",
             "section": "Secreta",
-            "texte": "Sancti N. Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum"
+            "texte": "Sancti N. Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/12-04.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 25:20; 20:21\nDómine, quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.",
@@ -125,74 +164,95 @@
             "gabc": "(c3) DO(ggh)mi(f!gwh)ne,(h_e) (,) * quin(g_[uh:l]h)que(f) ta(e)lén(ig/ij)ta(i.) (,) tra(i)di(ig)dí(ijij)sti(i) mi(gihh)hi :(hg..) (;) ec(i)ce(ig) á(ijij)li(ih)a(h) quin(hi)que(hg/hih.) (,) su(h)per(hg)lu(ge)crá(gh'i)tus(f!gw!hvG'FE'f) sum.(fe..) (:) Eu(i_[uh:l]kJ~'I~)ge(j_i) ser(jk)ve(j) fi(ih)dé(i!jw!kvJI)lis,(i!jwk.) (;) qui(h)a(h) in(ik~) pau(k)ca(kj) fu(i)í(jk)sti(j) fi(ih)dé(i!jw!kvJI'j)lis,(ji..) (;) su(ij)pra(i) mul(ij~)ta(i) te(j/kkj) con(h)stí(ji/jkj)tu(ij_I'_HG'h)am,(hg..) (:) in(ij)tra(i) in(i) gáu(ih/i_[uh:l]j)di(h)um(f!gw!hvGE.) (,) Dó(g/hhf//g!hwi'!jv)mi(i)ni(i.g!hw!ivH'GF'gw!hvGF) tu(ef!gvFE'f)i.(fe..) (::)",
             "mp3": "communion_domine-quinque-talenta.mp3",
             "fichier": "Latin/Sancti/12-04.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/07-23.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "../horas/Latin/Commune/C4a.txt",
             "section": "Postcommunio",
-            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Póntifex tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum"
+            "texte": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Póntifex tuus et Doctor egrégius, quǽsumus, precátor accédat.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Introitus",
-            "texte": "!Eccli 15:5\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2.\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire."
+            "texte": "!Eccli 15:5\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.\n!Ps 91:2.\nIl est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Au milieu de l’Église, il a ouvert la bouche, et le Seigneur l’a rempli de l’esprit de sagesse et d’intelligence, et il l’a revêtu de la robe de gloire.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui, par des prodiges divins, avez désigné et fait élire pour gouverner et enseigner votre Église l’illustre Docteur, le bienheureux Pierre Chrysologue, faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux, celui qui nous a donné sur terre la doctrine de vie.\n$Per Dominum"
+            "texte": "Ô Dieu, qui, par des prodiges divins, avez désigné et fait élire pour gouverner et enseigner votre Église l’illustre Docteur, le bienheureux Pierre Chrysologue, faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux, celui qui nous a donné sur terre la doctrine de vie.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nMon bien-aimé, je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n!2 Tim 4:1-8\nMon bien-aimé, je t’adjure, devant Dieu et Jésus-Christ, qui doit juger les vivants et les morts, par son avènement et par son règne, prêche la parole, insiste à temps et à contretemps, reprends, supplie, menace, en toute patience et toujours en instruisant. Car il viendra un temps où les hommes ne supporteront plus la saine doctrine ; mais ils amasseront autour d’eux des docteurs selon leurs désirs ; et éprouvant aux oreilles une vive démangeaison, ils détourneront l’ouïe de la vérité, et ils la tourneront vers des fables. Mais toi, sois vigilant, travaille constamment, fais l’œuvre d’un évangéliste, acquitte-toi pleinement de ton ministère ; sois sobre. Car pour moi, je vais être immolé, et le temps de ma dissolution approche, j’ai combattu le bon combat, j’ai achève ma course, j’ai gardé la foi. Reste la couronne de justice qui m’est réservée, que le Seigneur, le juste juge, me rendra en ce jour-là ; et non seulement à moi, mais aussi à ceux qui aiment son avènement.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/12-04.txt",
-            "section": "Graduale",
-            "texte": "!Eccli 44:16\nVoici le grand Pontife qui dans les jours de sa vie a plu à Dieu.\n!Ps 44:20\nNul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut."
+            "section": "Graduale[0]",
+            "texte": "Voici le grand Pontife qui dans les jours de sa vie a plu à Dieu. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. V. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. V. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/12-04.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 109:4\nVous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Vous êtes prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nEn ce temps-là, Jésus dit à ses disciples : Vous êtes le sel de la terre. Mais si le sel s’affadit, avec quoi le salera-t-on ? Il n’est plus bon qu’à être jeté dehors, et foulé aux pieds par les hommes. Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée ; et on n’allume pas une lampe pour la mettre sous le boisseau, mais on la met sur le candélabre, afin qu’elle éclaire tous ceux qui sont dans la maison.Que votre lumière luise ainsi devant les hommes, afin qu’ils voient vos bonnes œuvres, et qu’ils glorifient votre Père qui est dans les cieux. Ne pensez pas que je sois venu abolir la loi ou les prophètes ; je ne suis pas venu les abolir, mais les accomplir. Car, en vérité, je vous le dis, jusqu’à ce que passent le ciel et la terre, un seul iota ou un seul trait ne disparaîtra pas de la loi, que tout ne soit accompli. Celui donc qui violera l’un de ces plus petits commandements, et qui enseignera les hommes à le faire, sera appelé le plus petit dans le royaume des deux ; mais celui qui fera et enseignera, celui-là sera appelé grand dans le royaume des cieux."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 5:13-19\nEn ce temps-là, Jésus dit à ses disciples : Vous êtes le sel de la terre. Mais si le sel s’affadit, avec quoi le salera-t-on ? Il n’est plus bon qu’à être jeté dehors, et foulé aux pieds par les hommes. Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée ; et on n’allume pas une lampe pour la mettre sous le boisseau, mais on la met sur le candélabre, afin qu’elle éclaire tous ceux qui sont dans la maison.Que votre lumière luise ainsi devant les hommes, afin qu’ils voient vos bonnes œuvres, et qu’ils glorifient votre Père qui est dans les cieux. Ne pensez pas que je sois venu abolir la loi ou les prophètes ; je ne suis pas venu les abolir, mais les accomplir. Car, en vérité, je vous le dis, jusqu’à ce que passent le ciel et la terre, un seul iota ou un seul trait ne disparaîtra pas de la loi, que tout ne soit accompli. Celui donc qui violera l’un de ces plus petits commandements, et qui enseignera les hommes à le faire, sera appelé le plus petit dans le royaume des deux ; mais celui qui fera et enseignera, celui-là sera appelé grand dans le royaume des cieux.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Offertorium",
-            "texte": "!Ps 91:13\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban."
+            "texte": "!Ps 91:13\nLe juste fleurira comme le palmier : et il se multipliera comme le cèdre du Liban.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Secreta",
-            "texte": "Que la pieuse intercession de saint Pierre, Pontife et Docteur, ne nous fasse point défaut, Seigneur, qu’elle vous rende nos dons agréables et nous obtienne toujours votre indulgence.\n$Per Dominum"
+            "texte": "Que la pieuse intercession de saint Pierre, Pontife et Docteur, ne nous fasse point défaut, Seigneur, qu’elle vous rende nos dons agréables et nous obtienne toujours votre indulgence.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Communio",
-            "texte": "!Matt 25:20; 25:21\nSeigneur, vous m’avez remis cinq talents ; voici que j’en ai gagné cinq autres. C’est bien, bon et fidèle serviteur ; parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître."
+            "texte": "!Matt 25:20; 25:21\nSeigneur, vous m’avez remis cinq talents ; voici que j’en ai gagné cinq autres. C’est bien, bon et fidèle serviteur ; parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/12-04.txt",
             "section": "Postcommunio",
-            "texte": "Afin, Seigneur, que votre saint sacrifice nous procure le salut, que le bienheureux Pierre, votre Pontife et votre admirable Docteur intercède pour nous.\n$Per Dominum"
+            "texte": "Afin, Seigneur, que votre saint sacrifice nous procure le salut, que le bienheureux Pierre, votre Pontife et votre admirable Docteur intercède pour nous.\n$Per Dominum",
+            "references": null
           }
         }
       },
@@ -201,7 +261,7 @@
         "Francais/Sancti/12-04.txt",
         "Latin/Sancti/12-04.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 3,
       "numero": 1
     }
   ]

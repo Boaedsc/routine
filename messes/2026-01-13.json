@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/01-13",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Commémoraison du Baptême de Notre-Seigneur Jésus-Christ",
         "classe": 5.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/01-13.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,37 @@
             "gabc": "(f3) EC(ce!fg)CE(f.) *(,) ad(fe~)vé(f!gwh_f)nit(f.) (,) do(e)mi(hh)ná(h)tor(h) Dó(hiHG')mi(hggfg)nus :(gf..) (:) et(eh~) re(h)gnum(hhh) (,) in(fe~) ma(f!hhf/gf)nu(ef) e(fhhfgv_[oh:h]F~E~)jus,(fe..) (:) et(f) pot(hh)é(hi)stas,(f.) (,) et(fh'!iv) im(i)pé(hiHG')ri(hggfg)um.(gf..) (::) <i>Ps.</i> De(e)us,(fe) ju(eh)dí(h)ci(h)um(hg) tu(hi)um(i) Re(hi)gi(h) da :(h.) *(:) et(hf~) ju(fh)stí(h)ti(h)am(h) tu(h)am(h') Fí(i)li(hf)o(h) Re(ge)gis.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": "introitus_ecce-advenit-dominus.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Oratio",
-            "texte": "Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur:\n$Qui tecum"
+            "texte": "Deus, cujus Unigénitus in substántia nostræ carnis appáruit: præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur:\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ\n!Is 60:1-6\nSurge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce, ténebræ opérient terram et calígo pópulos: super te autem oriétur Dóminus, et glória ejus in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te, dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes."
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 60:1-6\nSurge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce, ténebræ opérient terram et calígo pópulos: super te autem oriétur Dóminus, et glória ejus in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te, dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est.",
+            "texte": "Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes. V. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est.",
             "incipit": {
               "incipit": "Omnes de Saba",
               "version": "Solesmes",
@@ -63,31 +81,26 @@
             "gabc": "(c3) O(d!ewfef//hig'hvFE'ede)mnes(e.) *(;) de(d) Sa(efe)ba(fv.hhh/ijhhvF'Egihhf) vé(f)ni(f_[oh:h]g_[oh:h]f_[oh:h])ent,(f.) (:) au(ijI~H~)rum(ih) et(fh~) thus(h_) de(f)fe(df)rén(eh~)tes,(hig'/hf.) (;) et(f) lau(h)dem(g) Dó(h)mi(f)no(d.) (,) an(df)nun(e!hgh)ti(f)án(de~)tes.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::) \r\n<sp>V/</sp>. Sur(hi~)ge,(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (;) et(d) il(d)lu(d)mi(d)ná(fdfED//fd/ef!hh/ig/hf/hi!kkk_[hl:1]h)re(h.) (;) Je(fh)rú(hih)sa(ffe)lem :(gxef__d_2//f_e/fgF'ED'dfvEDe[ll:1]d..) (:) qui(d)a(d) gló(fdfED')ri(d)a(d.) Dó(fd/ef!hh/i!jwk)mi(ih)ni(hiHF.1) (;) su(gxgg//gg)per(d) te(efe/ffe.) () * or(fhGF')ta(i) est.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_omnes-de-saba.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.",
-            "incipit": {
-              "incipit": "Vidimus stellam",
-              "version": "Solesmes 1961",
-              "distance": 22,
-              "similarite": 0.45,
-              "source": "Alleluia"
-            },
-            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) \r\n<sp>V/</sp>. Ví(f_e/f!gwh'!iv)di(jiihi)mus(iv.hh/fgf.) (,) stel(fg~)lam(f) e(f!hh/ijHF'ivH'GEf./hfhhf/ge)jus(e.) (:) in(f) O(e)ri(f)én(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)te,(ivH'Ghf..) (:) et(f) vé(f!h'i)ni(jiihi)mus(iv.hh/fgf.) (,) cum(fg~) mu(f)né(f!hh/ijHF'ivH'GEf./hfhhf/ge)ri(f)bus(e.) (;) ad(hh)o(h)rá(h)re(hi) * Dó(i_[oh:h]h/jij)mi(j)num.(jvvIH'GE//f!gwhf.1) (::)",
-            "mp3": "alleluia_vidimus-stellam.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 1:29-34\nIn illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi: Post me venit vir, qui ante me factus est: quia prior me erat. Et ego nesciébam eum, sed ut manifestétur in Israël, proptérea veni ego in aqua baptízans. Et testimónium perhíbuit Joánnes, dicens: Quia vidi Spíritum descendéntem quasi colúmbam de coelo, et mansit super eum. Et ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem, et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et testimónium perhíbui, quia hic est Fílius Dei."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem\n!Joann 1:29-34\nIn illo témpore: Vidit Joánnes Jesum veniéntem ad se, et ait: Ecce Agnus Dei, ecce, qui tollit peccátum mundi. Hic est, de quo dixi: Post me venit vir, qui ante me factus est: quia prior me erat. Et ego nesciébam eum, sed ut manifestétur in Israël, proptérea veni ego in aqua baptízans. Et testimónium perhíbuit Joánnes, dicens: Quia vidi Spíritum descendéntem quasi colúmbam de coelo, et mansit super eum. Et ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem, et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et testimónium perhíbui, quia hic est Fílius Dei.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 71:10-11\nReges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes sérvient ei.",
@@ -101,17 +114,27 @@
             "gabc": "(c3) RE(h)ges(fh) Thar(h)sis(hhh//hv.hhh) *(,) et(fh) ín(hhhjvIH)su(hvGF)lae(fhG'Fh.) (;) mú(defivHG')ne(hggfg)ra(g_[oh:h]f) óf(gxdf!gvFE')fe(feede)rent :(e[ll:1]d..) (:) re(f)ges(e) A(ef!gvgf)ra(ef!hhvFE')bum(fee[ll:1]d.0) (,) et(de) Sa(f)ba(hig'hvFE.//hig'hvFE'e[ll:1]d.0) (;) do(fhh'1hhi)na(i) ad(hhh)dú(hi!jvIH'GhvGF'g)cent :(gf..) (:) et(hf) ad(h)o(hi)rá(iv.hihhe)bunt(fhg) e(h_g)um(hig'hvFD.1) (;) o(df)mnes(f_e) re(f!hhh)ges(f_e) ter(egF'Efe)rae,(e.) (:) o(f!hihh'h)mnes(ef/g_[oh:h]f) gen(f!hihh'h)tes(ef/g_[oh:h]f) (;) sér(fh/i_[oh:h]h)vi(gxf!hhf/ge)ent(de/fhf) e(gxegF'Efd)i.(d.) (::)",
             "mp3": "offertoire_reges-tharsis.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Secreta",
-            "texte": "Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster:\n$Qui tecum."
+            "texte": "Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Jesus Christus, Dóminus noster:\n$Qui tecum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 2:2\nVídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum.",
@@ -125,74 +148,95 @@
             "gabc": "(c4) VI(ef'g)di(hgh)mus(gfg//efd.1) *(,) stel(gi~)lam(i) e(j)jus(g) in(g) O(fg'h)ri(i)én(gh~)te,(e.) (:) et(ef'h) vé(h!iwj)ni(g)mus(g) cum(g) mu(g)né(fg)ri(efED'e)bus(e[ll:1]d..) (;) ad(f)o(gh)rá(g)re(ghG'Fghg') Dó(e)mi(egff)num.(fe..) (::)",
             "mp3": "communion_vidimus-stellam.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-06.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/01-13.txt",
             "section": "Postcommunio",
-            "texte": "Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos præveni: ut mystérium, cujus nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus affectu.\n$Per Dominum"
+            "texte": "Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos præveni: ut mystérium, cujus nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus affectu.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Introitus",
-            "texte": "!Malach 3:1; 3:1; Par 29:12\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.\n!Ps 71:1\nÔ Dieu, donnez au roi votre jugement et au fils du roi votre justice.\n&Gloria\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire."
+            "texte": "!Malach 3:1; 3:1; Par 29:12\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.\n!Ps 71:1\nÔ Dieu, donnez au roi votre jugement et au fils du roi votre justice.\n&Gloria\nv. Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, dont le Fils Unique a paru dans la substance de notre chair ; faites, s’il Vous plaît, que nous méritions d’être réformés intérieurement par Celui que nous avons reconnu semblable à nous extérieurement.\n$Qui tecum"
+            "texte": "Ô Dieu, dont le Fils Unique a paru dans la substance de notre chair ; faites, s’il Vous plaît, que nous méritions d’être réformés intérieurement par Celui que nous avons reconnu semblable à nous extérieurement.\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ.\n!Is 60:1-6\nLève-toi, et resplendis, Jérusalem ! Car ta lumière paraît, et la gloire du Seigneur s’est levée sur toi. Voici que les ténèbres couvrent la terre, et une sombre obscurité les peuples ; mais sur toi le Seigneur se lève, et sa gloire se manifeste sur toi. Les nations marchent vers ta lumière, et les rois vers la clarté de ton lever. Lève tes regards autour de toi, et vois : Tous se rassemblent, ils viennent à toi ; tes fils viennent de loin, et tes filles sont portées sur les bras. Tu le verras alors, et tu seras radieuse ; ton cœur tressaillira et se dilatera ; car les richesses de la mer se dirigeront vers toi, les trésors des nations viendront à toi. Des multitudes de chameaux te couvriront, les dromadaires de Madian et d’Epha ; tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur."
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 60:1-6\nLève-toi, et resplendis, Jérusalem ! Car ta lumière paraît, et la gloire du Seigneur s’est levée sur toi. Voici que les ténèbres couvrent la terre, et une sombre obscurité les peuples ; mais sur toi le Seigneur se lève, et sa gloire se manifeste sur toi. Les nations marchent vers ta lumière, et les rois vers la clarté de ton lever. Lève tes regards autour de toi, et vois : Tous se rassemblent, ils viennent à toi ; tes fils viennent de loin, et tes filles sont portées sur les bras. Tu le verras alors, et tu seras radieuse ; ton cœur tressaillira et se dilatera ; car les richesses de la mer se dirigeront vers toi, les trésors des nations viendront à toi. Des multitudes de chameaux te couvriront, les dromadaires de Madian et d’Epha ; tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-13.txt",
-            "section": "Graduale",
-            "texte": "!Isa 60:6; 60:11\nTous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.\nV. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi."
+            "section": "Graduale[0]",
+            "texte": "Tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur. V. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-13.txt",
-            "section": "Graduale",
-            "texte": "Allelúja, allelúja\n!Matt 2:2.\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.\nAllelúja."
+            "section": "Graduale[0]",
+            "texte": "Allelúja, allelúja Nous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur. Allelúja.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 1:29-34\nEn ce temps là : Jean vit Jésus qui venait à lui, et il dit : voici l’Agneau de Dieu, voici celui qui enlève le péché du monde. C’est celui dont j’ai dit : Après moi vient un homme qui a été placé au dessus de moi, parce qu’il était avant moi. Et moi, je ne le connaissais pas ; mais c’est pour qu’il soit manifesté en Israël que je suis venu baptiser dans l’eau. Et Jean rendit témoignage en disant : J’ai vu l’esprit descendre du ciel comme une colombe, et se reposer sur lui. Et moi, je ne le connaissais pas ; mais celui qui m’a envoyé baptiser dans l’eau m’a dit : Celui sur qui tu verras l’esprit descendre et se reposer, c’est celui qui baptise dans l’Esprit-Saint. Et j’ai vu, et j’ai rendu témoignage qu’il est le fils de Dieu."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Joánnem.\n!Joann 1:29-34\nEn ce temps là : Jean vit Jésus qui venait à lui, et il dit : voici l’Agneau de Dieu, voici celui qui enlève le péché du monde. C’est celui dont j’ai dit : Après moi vient un homme qui a été placé au dessus de moi, parce qu’il était avant moi. Et moi, je ne le connaissais pas ; mais c’est pour qu’il soit manifesté en Israël que je suis venu baptiser dans l’eau. Et Jean rendit témoignage en disant : J’ai vu l’esprit descendre du ciel comme une colombe, et se reposer sur lui. Et moi, je ne le connaissais pas ; mais celui qui m’a envoyé baptiser dans l’eau m’a dit : Celui sur qui tu verras l’esprit descendre et se reposer, c’est celui qui baptise dans l’Esprit-Saint. Et j’ai vu, et j’ai rendu témoignage qu’il est le fils de Dieu.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Offertorium",
-            "texte": "!Ps 71:10-11\nLes rois de Tharsis et les îles lui offriront des présents, les rois d’Arabie et de Saba apporteront des dons et tous les rois de la terre l’adoreront, toutes les nations le serviront."
+            "texte": "!Ps 71:10-11\nLes rois de Tharsis et les îles lui offriront des présents, les rois d’Arabie et de Saba apporteront des dons et tous les rois de la terre l’adoreront, toutes les nations le serviront.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Secreta",
-            "texte": "Nous vous offrons, Seigneur, des hosties en mémoire de la manifestation de votre fils qui est né sur la terre et nous vous adressons d’ardentes supplications, afin que comme Jésus-Christ, Notre-Seigneur, est lui même l’auteur de nos dons, ainsi encore il les reçoivent miséricordieusement.\n$Qui tecum."
+            "texte": "Nous vous offrons, Seigneur, des hosties en mémoire de la manifestation de votre fils qui est né sur la terre et nous vous adressons d’ardentes supplications, afin que comme Jésus-Christ, Notre-Seigneur, est lui même l’auteur de nos dons, ainsi encore il les reçoivent miséricordieusement.\n$Qui tecum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Communio",
-            "texte": "!Matt 2:2\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur."
+            "texte": "!Matt 2:2\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/01-13.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en supplions, Seigneur, prévenez-nous toujours et partout de votre céleste lumière ; afin que nous considérions avec une pure intention ce mystère dont vous avez voulu nous rendre participants et que nous le recevions avec une digne affection.\n$Per Dominum"
+            "texte": "Nous vous en supplions, Seigneur, prévenez-nous toujours et partout de votre céleste lumière ; afin que nous considérions avec une pure intention ce mystère dont vous avez voulu nous rendre participants et que nous le recevions avec une digne affection.\n$Per Dominum",
+            "references": null
           }
         }
       },

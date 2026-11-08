@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent21-1",
-        "nom_sanctoral": "",
-        "classe": 1.0,
+        "gagnant": "Tempora/Pent21-0",
+        "nom_sanctoral": "21e dimanche après la Pentecôte",
+        "classe": 5.0,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent21-1.txt",
-        "temporal": "Latin/Tempora/Pent21-1.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent21-0.txt",
+        "temporal": "Latin/Tempora/Pent21-0.txt",
         "sanctoral": null,
         "calendrier": null,
         "table_transfert": null,
@@ -23,139 +23,209 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent21-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "texte": "!Esth 13:9; 13:10-11\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es\n!Ps 118:1\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\n&Gloria\nv. In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es.",
+            "incipit": {
+              "incipit": "In voluntate",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) IN(d) vo(fd)lun(f)tá(ef)te(f) tu(ef)a,(f.) *(,) Dó(f)mi(fff)ne,(e_[oh:h][ll:1]d_[oh:h]) (;) u(c)ni(dc)vér(df~)sa(f) sunt(fff) pó(egF'E)si(fgF'E)ta,(eef.) (:) et(d) non(dg!hv) est(g) qui(g) pos(f!hgh)sit(e) re(g)sí(ghgh)ste(ffef)re(fe__) (,) vo(fff)lun(df)tá(fg)ti(gffd) tu(d!ewf_d)ae :(d.) (:) tu(f) e(e.f!gwh)nim(hg~) fe(g)cí(ghgh)sti(f) ó(fg)mni(fe)a,(fgffvE'DCdc..) (;) cae(f)lum(fff) et(fd~) ter(fg~)ram,(f.) (,) et(f) u(fff)ni(fd)vér(fg~)sa(f.) (,) quae(f) cae(e.f!gwh_g)li(g_[oh:h]e) ám(fg)bi(f)tu(egffvE'DCdc..) (,) con(f)ti(ef/gfg)nén(d)tur :(d!ff/gddc.) (:) Dó(cd/fef)mi(f)nus(fff) (`) u(fd)ni(fe)ver(fg~)só(g_[oh:h]f)rum(fhg___) (,) tu(ffd/ffgvFEgvFE) es.(e.) (::) <i>Ps.</i> Be(hg)á(gh)ti(h) im(h)ma(h)cu(h)lá(hg)ti(gi) in(i) vi(hi)a :(h.) *(:) qui(hg) ám(gh)bu(h)lant(h) in(h) le(h)ge(gf) Dó(gh)mi(g)ni.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(egff) (::)",
+            "mp3": "introitus_in-voluntate-tua.mp3",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a cunctis adversitátibus, te protegénte, sit líbera, et in bonis áctibus tuo nómini sit devóta.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 6:10-17\nFratres: Confortámini in Dómino et in poténtia virtútis ejus. Indúite vos armatúram Dei, ut póssitis stare advérsus insídias diáboli. Quóniam non est nobis colluctátio advérsus carnem et sánguinem: sed advérsus príncipes et potestátes, advérsus mundi rectóres tenebrárum harum, contra spirituália nequítiæ, in cœléstibus. Proptérea accípite armatúram Dei, ut póssitis resístere in die malo et in ómnibus perfécti stare. State ergo succíncti lumbos vestros in veritáte, et indúti lorícam justítiæ, et calceáti pedes in præparatióne Evangélii pacis: in ómnibus suméntes scutum fídei, in quo póssitis ómnia tela nequíssimi ígnea exstínguere: et gáleam salútis assúmite: et gládium spíritus, quod est verbum Dei.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Dómine, refúgium factus es nobis, a generatióne et progénie. V. Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo et usque in sǽculum tu es, Deus.",
+            "incipit": {
+              "incipit": "Domine refugium",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(c3) DO(egf)mi(f)ne,(f.) *(,) re(f)fú(hfghvF'Egef)gi(gf)um(f.) (;) fa(hf/hi'j)ctus(hvGF) es(gxfegvFE.) (,) no(e[ll:1]d/fef)bis,(fd/ef!hvvF'Ef!gwh/ihh/fgf.) (:) a(hh) ge(h)ne(h)ra(h)ti(h)ó(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)ne(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'fhvGF'g) pro(ef)gé(hf)ni(hi)e.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) \r\n<sp>V/</sp>. Pri(f)ús(h)quam(ij~) mon(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)tes(ji..) (:) fí(i!jw!kvJI'jw!kvJI)e(i)rent,(i.) (,) aut(i) for(i)ma(i)ré(i)tur(ij~) ter(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)ra(f.) (`) et(hh) or(h)bis :(h.[ob:1;8mm]) (:) a(hi) saé(ivH'GE//fhGEfh..)(,)(gi!jvHF')cu(f)lo,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(d) in(d) saé(de'f)cu(f)lum(f.0/[-0.5]hvGF'g) (,) tu(e) es(f) () * De(hf/h_i)us.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+            "mp3": "graduel_domine-refugium.mp3",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja. In éxitu Israël de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.",
+            "incipit": {
+              "incipit": "In exitu Israel",
+              "version": "Solesmes",
+              "distance": 24,
+              "similarite": 0.4,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(ef'g~)le(g./hig/hffe)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(fiH'Fg./f!hh) (,) (f!gwh'!ivH'Fg./f!hh) (,) (g!hwi!jvIH'ivHF'gffe.) (;) (ef/hffe//gihh'hhvG'FE//g_[uh:l]hggf.0) (::) <sp>V/</sp>. In(e!fwggf) éx(f!gwh)i(gf)tu(f.) Is(hjji)ra(gfhvF'Eg)el(g.) (;) ex(kxfji___!jw!kvJI'j) Ae(gfh)gý(ef'h)pto,(g//hiG'FhvGEf.) (:) do(fg!h'i)mus(i_[oh:h]g) Ja(hiG'Fhhg)cob(g.) (;) de(eg) pó(i_[oh:h]g/ijIG.e_[oh:h]g_[oh:h]f_[oh:h]ivGFhhg)pu(ef)lo(f.) <clear>*(,) bár(ef'g~)ba(g)ro.(gv.fiH'Fg./f!hh) (,) (f!gwh'!ivH'Fg./f!hh) (,) (g!hwi!jvIH'ivHF'gffe.) (;) (ef/hffe//gihh'hhvG'FE//g_[uh:l]hggf.0) (::)",
+            "mp3": "alleluia_in-exitu-israel.mp3",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:23-35\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Assimilátum est regnum cœlórum hómini regi, qui vóluit ratiónem pónere cum servis suis. Et cum cœpísset ratiónem pónere, oblátus est ei unus, qui debébat ei decem mília talénta. Cum autem non habéret, unde rédderet, jussit eum dóminus ejus venúmdari et uxórem ejus et fílios et ómnia, quæ habébat, et reddi. Prócidens autem servus ille, orábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Misértus autem dóminus servi illíus, dimísit eum et débitum dimísit ei. Egréssus autem servus ille, invénit unum de consérvis suis, qui debébat ei centum denários: et tenens suffocábat eum, dicens: Redde, quod debes. Et prócidens consérvus ejus, rogábat eum, dicens: Patiéntiam habe in me, et ómnia reddam tibi. Ille autem nóluit: sed ábiit, et misit eum in cárcerem, donec rédderet débitum. Vidéntes autem consérvi ejus, quæ fiébant, contristáti sunt valde: et venérunt et narravérunt dómino suo ómnia, quæ facta fúerant. Tunc vocávit illum dóminus suus: et ait illi: Serve nequam, omne débitum dimísi tibi, quóniam rogásti me: nonne ergo opórtuit et te miseréri consérvi tui, sicut et ego tui misértus sum? Et irátus dóminus ejus, trádidit eum tortóribus, quoadúsque rédderet univérsum débitum. Sic et Pater meus cœléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "texte": "!Job 1.1\nVir erat in terra Hus, nómine Job: simplex et rectus ac timens Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a Dómino in facultátes et in carnem ejus: perdidítque omnem substántiam ipsíus et fílios: carnem quoque ejus gravi úlcere vulnerávit.",
+            "incipit": {
+              "incipit": "Vir erat",
+              "version": "Solesmes",
+              "distance": 6,
+              "similarite": 0.85,
+              "source": "Offertorium"
+            },
+            "gabc": "(c3) VIR(c) e(ef'g)rat(f.) *(,) in(fe~) ter(fhvhfgv_[oh:h]F~E~)ra(fe..) (;) nó(h)mi(hi_[oh:h]H'_[oh:h]GF)ne(f.e!fw!gvFE'f) Job,(f!gwhf.1) (:) sim(h'/igh)plex(f.) et(gh'i~) re(i_[oh:h]g/hihi)ctus,(f.) (;) ac(f) ti(fe)mens(f!gwh/ig/h_g) De(fhf)um :(fe/fgf.) (:) quem(fc~) Sa(ef'g)tan(fe~) pé(hi'j)ti(jiihi)it,(i_[oh:h]h) (;) ut(hhg) ten(fe~)tá(fg!hvGF'g)ret :(gf..) (:) et(f) da(h)ta(hi) est(i) e(ij)i(i.) pot(i)é(i'/jij)stas(hih.) (,) a(f) Dó(hi)mi(ivH'GhvGF'g)no(gf..) (;) in(fe~) fa(f)cul(hg~)tá(h)te(f.) (,) et(f) in(hg~) car(h)ne(f) e(fgF~'E~)jus :(fe/fgf.) (:) per(fc~)di(e)dít(fg~)que(f.) (,) o(fgF~'E~)mnem(f_e) sub(hg)stán(hi)ti(iv.hh/i_[oh:h]h)am(h) i(h)psí(hig/hg)us,(fe..) (;) et(fhf___!gw!h!gh~) fí(f)li(fg!hvGF'g)os :(gf..) (:) car(hhg~)nem(ih~) quo(hhg)que(fe) e(fgF~'E~)jus(f_e) (;) gra(f)vi(h) úl(hhg)ce(fe)re(f.) (,) vul(f)ne(h.f!gwh_g)rá(fg!hvGF'g)vit.(gf..) (::)",
+            "mp3": "offertoire_vir-erat.mp3",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Suscipe, Dómine, propítius hóstias: quibus et te placári voluísti, et nobis salútem poténti pietáte restítui.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "texte": "!Ps 118:81; 118:84; 118:86\nIn salutári tuo ánima mea, et in verbum tuum sperávi: quando fácies de persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me, Dómine, Deus meus.",
+            "incipit": {
+              "incipit": "In salutari",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) IN(d) sa(df)lu(fe)tá(f)ri(g) tu(g)o(g.) *(,) á(e)ni(f)ma(ef) me(d_[oh:h]e_[oh:h]d_[oh:h])a,(d.) (;) et(c) in(d) ver(f)bum(fe~) tu(ghg)um(h) spe(ghg)rá(fg!hvGF'g)vi :(gf..) (:) quan(h)do(h) fá(h)ci(gh)es(h.) de(h) per(h)se(g)quén(h)ti(g)bus(fe) me(g_[uh:l]h) (,) ju(fe)dí(d)ci(d!ew!fvED'e)um?(e[ll:1]d..) (:) in(f)í(gh)qui(h) per(h)se(h)cú(hj)ti(h) sunt(gf~) me,(f.) (;) ád(h)ju(h)va(g) me,(g) Dó(h)mi(gf)ne(f_[oh:h]g_[oh:h]e_[oh:h]e[ll:1]d.0) (,) De(d!ewf!g'h)us(f_e) me(de!fvED'e)us.(e[ll:1]d..) (::)",
+            "mp3": "communion_in-salutari-tuo.mp3",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent21-1.txt",
+            "fichier": "Latin/Tempora/Pent21-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, quod ore percépimus, pura mente sectémur.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Esth 13:9; 13:10-11\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout.\n!Ps 118:1\nHeureux ceux qui sont sans tache dans le chemin, qui marchent dans la loi du Seigneur.\n&Gloria\nv. Seigneur, tout est soumis à votre volonté, et il n'est rien qui puisse y résister ; car vous avez fait toutes choses : le ciel, la terre et tout ce qui est contenu dans l'univers ; vous êtes le Seigneur de tout.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Veillez sur votre famille, Seigneur, avec une inlassable bonté, afin que, sous votre protection, elle soit à l'abri de toute adversité et se donne entièrement à vous dans la pratique du bien.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 6:10-17\nFrères, fortifiez-vous dans le Seigneur et dans sa vertu toute-puissante. Revêtez-vous de l'armure de Dieu, afin de pouvoir résister aux embûches du diable. Car nous n'avons pas à lutter contre la chair et le sang, mais contre les princes, contre les puissances, contre les dominateurs de ce monde de ténèbres, contre les esprits mauvais répandus dans l'air. C'est pourquoi prenez l'armure de Dieu, afin de pouvoir résister au jour mauvais, et rester parfaits en toute chose. Soyez donc fermes, les reins ceints de la vérité, revêtus de la cuirasse de justice et les sandales aux pieds, prêts à annoncer l'Évangile de paix. Et surtout, prenez le bouclier de la foi, par lequel vous pourrez éteindre tous les traits enflammés du Malin. Prenez aussi le casque du salut, et le glaive de l'Esprit, qui est la parole de Dieu.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent21-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Seigneur vous êtes notre refuge de génération en génération. V. Avant que les montagnes fussent, ou que fût formée la terre et le monde, depuis toujours et pour toujours vous êtes Dieu.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent21-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Quand Israël sortit d'Égypte, et la maison de Jacob du milieu d'un peuple barbare. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:23-35\nEn ce temps-là, Jésus dit à ses disciples cette parabole : « Le royaume des cieux est semblable à un roi qui voulut régler ses comptes avec ses serviteurs. Quand il commençait, on lui amena un débiteur qui lui devait dix mille talents. Comme il n'avait pas de quoi payer, son maître ordonna qu'on le vendît, lui, sa femme, ses enfants et tout ce qu'il avait pour que paiement fût fait. Alors le serviteur, tombant à ses pieds, demeurait prosterné, disant : « Seigneur, aie patience envers moi, et je te paierai tout.» Touché de compassion, le maître de ce serviteur le laissa aller et lui remit sa dette. Ce serviteur, à peine sorti, rencontra un de ses compagnons de service, qui lui devait cent deniers. L'ayant saisi à la gorge, il l'étouffait, disant : « Paie ce que tu dois.» Son compagnon de service, tombant à ses pieds, le suppliait, disant : « Aie patience envers moi, et je te paierai.» Mais lui ne voulait pas, et il s'en alla le faire mettre en prison jusqu'à ce qu'il eût payé sa dette. Ce que voyant, ses compagnons de service furent grandement contristés, et ils vinrent raconter à leur maître ce qui s'était passé. Alors le maître le fit appeler et lui dit : « Serviteur méchant, je t'ai remis toute cette dette, parce que tu m'as supplié. Ne devais-tu pas, toi aussi, avoir pitié de ton compagnon de service, comme moi-même j'ai eu pitié de toi ?» Et son maître irrité le livra aux bourreaux, jusqu'à ce qu'il eût payé toute sa dette. Ainsi vous traitera mon Père céleste, si chacun de vous ne pardonne à son frère du fond du cœur. »",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Job 1.1\nIl y avait un homme dans la terre de Hus, du nom de Job. Il était simple et droit, et craignait Dieu. Satan demanda à le tenter, et il lui fut donné pouvoir par le Seigneur contre ses richesses et sa chair ; et il perdit tout ses richesses et ses fils ; et sa chair fut blessée d'un grave ulcère.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Accueillez avec complaisance, Seigneur, ces offrandes que vous-même avez établies pour vous laisser fléchir, et, dans votre immense amour, nous rendre le salut.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 118:81; 118:84; 118:86\nMon âme est en votre salut, et j'espère en votre parole ; quand me ferez-vous justice contre ceux qui me persécutent ? Les iniques m'ont persécuté ; aidez-moi, Seigneur mon Dieu.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent21-1.txt",
+            "fichier": "Francais/Tempora/Pent21-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Nourris du pain qui donne l'immortalité, puissions-nous, Seigneur, nous attacher avec une entière pureté d'âme à la nourriture céleste que nous venons de manger.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Tempora/Pent21-1.txt",
-        "Latin/Tempora/Pent21-1.txt"
+        "Francais/Tempora/Pent21-0.txt",
+        "Latin/Tempora/Pent21-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

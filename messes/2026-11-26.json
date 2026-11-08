@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/11-26",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Silvestre Abbé",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/11-26.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,27 @@
             "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5b.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Oratio",
-            "texte": "Clementíssime Deus, qui sanctum Silvéstrum Abbátem, sǽculi hujus vanitátem in apérto túmulo pie meditántem, ad erémum vocáre et præcláris vitæ méritis decoráre dignátus es: te súpplices exorámus; ut, ejus exémplo terréna despiciéntes, tui consórtio perfruámur ætérno.\n$Per Dominum"
+            "texte": "Clementíssime Deus, qui sanctum Silvéstrum Abbátem, sǽculi hujus vanitátem in apérto túmulo pie meditántem, ad erémum vocáre et præcláris vitæ méritis decoráre dignátus es: te súpplices exorámus; ut, ejus exémplo terréna despiciéntes, tui consórtio perfruámur ætérno.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide pretióso. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi.",
@@ -63,12 +74,14 @@
             "gabc": "(c4) DO(fe)mi(fg)ne,(gv.ff/ded.) (,) * prae(fe)ve(fg)ní(g)sti(df) e(egF'E)um(e.) (;) in(e[ll:1]d~) be(g)ne(hj)di(j)cti(i!jw!kvJI')ó(h)ni(fhf/gh)bus(g.) dul(d)cé(feg)di(gefd)nis :(d.) (:) po(f)su(gh)í(ixh.0/[-0.5]ivHG'h)sti(ef'g) (,) in(g) cá(gfh)pi(h)te(gf) e(g_[oh:h]d~)jus(d.) co(feg)ró(gefd)nam(d.) (;) de(dc) lá(f)pi(gh)de(ixh.0/[-0.5]ivHG'ef'g) pre(g)ti(df)ó(efED.)(,)(ixf.0/[-0.5]hiHG'/!ge./ghGF'Ef_gF'E)so.(e.) (::) <sp>V/</sp>. Vi(h)tam(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) pé(gf/gh)ti(g)it,(g.) (:) et(f) tri(ghgh)bu(h)í(hgh'1f)sti(e[ll:1]d) e(f_g//ef!hvGE'fd)i(d.) (;) lon(c)gi(d)tú(dffd/ffdd'd/gffd)di(fdec)nem(c.) (,) di(f)é(ghgh)rum(hgh'1f) (;) in(e[ll:1]d~) saé(f_g//ef!hvGE'fd)cu(cd)lum(d.) (,) * saé(c.d!ewf/g_[oh:h]f)cu(f!hgh)li.(hhf.) (,) (h_ghvFDgff'fvEC//dd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": "graduel_domine-praevenisti-eum.mp3",
             "fichier": "../horas/Latin/Commune/C5b.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Justus ut palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja.",
@@ -82,12 +95,14 @@
             "gabc": "\"(c4) Al(c)le(dfdf)l\\u00fa(ef//gvFE/fg~)ia.(g) (::) (hvGF//gvFE) (;4) (f!ghGF//gvFECd) (;) (dfEDC//ddc) (;) (ghFED) (;1) (de/fg//ef/gddce) (;) (ghFED//efefd) <sp>V/</sp>.(::) Ju(hhg)stus(ge) (;4) (fgf//gddc) (;) ut(cd) pal(e!fg)ma(ge//gh) (;4) flo(fvED)r\\u00e9(d//c!deDC/de)bit,(d) (:) si(dede)cut(ce) ce(gh//jg//he;fvED//fege;4fvEC//edfd;gv//e!fg)drus(e) (;1) L\\u00ed(fde)ba(cd/ef)ni(ed) (::) mul(c)ti(dfdf)pli(f)c\\u00e1(ef!gvFE)bi(fg)tur.(g//hvGE//feed) (::)\"",
             "mp3": null,
             "fichier": "Latin/Sancti/11-26.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 20:3-4\nDesidérium ánimæ ejus tribuísti ei, Dómine, et voluntáte labiórum ejus non fraudásti eum: posuísti in cápite ejus corónam de lápide pretióso. (Allelúja.)",
@@ -101,17 +116,20 @@
             "gabc": "(c4) DE(c)si(d)dé(ff)ri(fhg)um(ghff) *(`) á(d!fffg)ni(f)mae(f) e(fg!hv_G~F~)jus(gf..) (;) tri(fg)bu(f)í(g_[oh:h]f)sti(f_e) e(fg)i,(ixg!iiivG'F) (,) Dó(fg)mi(f)ne,(fggf.0) (:) et(fd~) vo(fgf)lun(gh)tá(hj)te(g) la(f)bi(f)ó(f)rum(fhg) e(fg!hv_G~F~)jus(gf..) (;) non(fh/jhj) frau(gf~)dá(fgF'D)sti(fg) e(fgF'D)um :(dfddc.) (:) po(f)su(g)í(gh/jhj)sti(g) in(f) cá(gh)pi(g)te(f) e(hf/gh)jus(g.) (;) co(f)ró(hv.fhg)nam(g.) (,) de(ixgih) lá(ixij)pi(g)de(fgF'D) (`) pre(ff)ti(gh)ó(ixhf/!gh/!jjh/!/!giH'GF.)(,)(fff//fgf/ghg/hf/g_[oh:h]f)so.(f.) (::) <i>T. P.</i> Al(gf~)le(fff//hg/h_g)lú(fg!hvGF'g){ia}.(gf..) (::)",
             "mp3": "offertoire_desiderium-animae-eius.mp3",
             "fichier": "../horas/Latin/Commune/C5b.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Secreta",
-            "texte": "Quǽsumus, Dómine: ut, dum hæc múnera divínæ majestáti tuæ reverénter offérimus; pia mentis præparatióne et cordis puritáte, beáti Silvéstri Abbátis imitatóres effécti, Corpus et Sánguinem Fílii tui sancte percípere mereámur:\n$Qui tecum"
+            "texte": "Quǽsumus, Dómine: ut, dum hæc múnera divínæ majestáti tuæ reverénter offérimus; pia mentis præparatióne et cordis puritáte, beáti Silvéstri Abbátis imitatóres effécti, Corpus et Sánguinem Fílii tui sancte percípere mereámur:\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Luc 12:42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)",
@@ -125,74 +143,95 @@
             "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_[oh:h]ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5b.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-26.txt",
             "section": "Postcommunio",
-            "texte": "Divína dape reféctis tríbue, quǽsumus, Dómine: sancti Silvéstri Abbátis vestígiis ita inhærére; ut copiósam mercédem in regno glóriæ tuæ cum Sanctis habeámus.\n$Per Dominum"
+            "texte": "Divína dape reféctis tríbue, quǽsumus, Dómine: sancti Silvéstri Abbátis vestígiis ita inhærére; ut copiósam mercédem in regno glóriæ tuæ cum Sanctis habeámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Oratio",
-            "texte": "Dieu très clément, qui avez appelé à la solitude le bienheureux Abbé Sylvestre, tandis qu’il méditait devant un tombeau ouvert la vanité de ce monde, et qui avez daigné l’orner des mérites d’une vie très sainte ; nous vous supplions de faire que, méprisant à son exemple les .biens de la terre, nous jouissions du bonheur de votre éternelle compagnie.\n$Per Dominum"
+            "texte": "Dieu très clément, qui avez appelé à la solitude le bienheureux Abbé Sylvestre, tandis qu’il méditait devant un tombeau ouvert la vanité de ce monde, et qui avez daigné l’orner des mérites d’une vie très sainte ; nous vous supplions de faire que, méprisant à son exemple les .biens de la terre, nous jouissions du bonheur de votre éternelle compagnie.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C5b.txt",
             "section": "Graduale",
-            "texte": "!Ps 20:4-5\nVous l’avez prévenu, Seigneur, de bénédictions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie et vous lui avez accordé de longs jours pour la durée des siècles. Alléluia, alléluia.\n!Ps 91:13\nLe juste fleurira comme le palmier, il s’élèvera comme le cèdre du Liban. Alléluia."
+            "texte": "!Ps 20:4-5\nVous l’avez prévenu, Seigneur, de bénédictions de choix ; vous avez posé sur sa tête une couronne de pierres précieuses.\nV. Il vous a demandé la vie et vous lui avez accordé de longs jours pour la durée des siècles. Alléluia, alléluia.\n!Ps 91:13\nLe juste fleurira comme le palmier, il s’élèvera comme le cèdre du Liban. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "../horas/Francais/Commune/C5b.txt",
             "section": "Offertorium",
-            "texte": "!Ps 20:3; 20:4\nVous lui avez accordé le désir de son cœur et vous ne l’avez point frustré de la demande de ses lèvres : vous avez mis sur sa tête une couronne de pierres précieuses. (Alléluia.)"
+            "texte": "!Ps 20:3; 20:4\nVous lui avez accordé le désir de son cœur et vous ne l’avez point frustré de la demande de ses lèvres : vous avez mis sur sa tête une couronne de pierres précieuses. (Alléluia.)",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Secreta",
-            "texte": "Nous vous demandons, Seigneur, qu’en offrant respectueusement ces dons à votre divine majesté, nous devenions par la pieuse préparation de l’âme et la pureté du cœur les imitateurs du bienheureux Abbé Sylvestre et méritions de recevoir saintement le Corps et le Sang de votre Fils.\n$Qui tecum"
+            "texte": "Nous vous demandons, Seigneur, qu’en offrant respectueusement ces dons à votre divine majesté, nous devenions par la pieuse préparation de l’âme et la pureté du cœur les imitateurs du bienheureux Abbé Sylvestre et méritions de recevoir saintement le Corps et le Sang de votre Fils.\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-26.txt",
             "section": "Postcommunio",
-            "texte": "Nourris au divin banquet, nous vous en supplions. Seigneur, accordez-nous de marcher sur les traces du saint abbé Sylvestre de telle sorte que nous ayons, avec vos saints, dans le royaume de votre gloire, la récompense abondante.\n$Per Dominum"
+            "texte": "Nourris au divin banquet, nous vous en supplions. Seigneur, accordez-nous de marcher sur les traces du saint abbé Sylvestre de telle sorte que nous ayons, avec vos saints, dans le royaume de votre gloire, la récompense abondante.\n$Per Dominum",
+            "references": null
           }
         }
       },

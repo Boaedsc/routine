@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/06-13",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Antoine de Padoue Confesseur",
         "classe": 1.1,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/06-13.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,33 @@
             "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Oratio",
-            "texte": "Ecclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris sollémnitas votiva lætíficet: ut spirituálibus semper muniátur auxíliis et gáudiis pérfrui mereátur ætérnis.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nEcclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris sollémnitas votiva lætíficet: ut spirituálibus semper muniátur auxíliis et gáudiis pérfrui mereátur ætérnis.\n$Per Dominum"
+            "texte": "Ecclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris sollémnitas votiva lætíficet: ut spirituálibus semper muniátur auxíliis et gáudiis pérfrui mereátur ætérnis.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nEcclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris sollémnitas votiva lætíficet: ut spirituálibus semper muniátur auxíliis et gáudiis pérfrui mereátur ætérnis.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-13.txt",
+                "section": "Oratio_",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-13.txt",
+                "section": "Oratio_",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
@@ -63,12 +80,14 @@
             "gabc": "(c3) JU(egf)stus(f.) *(,) ut(f) pal(f)ma(f) flo(f)ré(hfghvF'Ege/fg)bit :(f.) (:) sic(f)ut(f) ce(hf/hi'j)drus(gxhffegvFE.) (,) Lí(e)ba(e[ll:1]d/fef)ni(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) mul(hh)ti(h)pli(h)cá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')bi(f)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) do(de'fhvGF'g)mo(ef) Dó(hf)mi(hi)ni.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHFgwhf.1) (::) \r\n<sp>V/</sp>. Ad(f) an(h)nun(hi)ti(i)án(i)dum(ij~) ma(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ne(ji..) (:) mi(i!jw!kvJI'jw!kvJI)se(i)ri(i)cór(i)di(i)am(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am,(f.) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) per(de'fhvGFgef) no(hf/h_i)ctem.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
@@ -82,12 +101,14 @@
             "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_[oh:h]c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(e[ll:1]d..) (:) quó(e_[uh:l]g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0[uh:l]fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::)",
             "mp3": "alleluia_beatus-vir-qui-suffert.mp3",
             "fichier": "Latin/Sancti/06-13.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +122,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Secreta",
-            "texte": "Præsens oblátio fiat, Dómine, pópulo tuo salutáris: pro quo dignátus es Patri tuo te vivéntem hóstiam immoláre:\nv. Qui cum eódem Deo Patre et Spíritu Sancto vivis et regnas Deus, per ómnia sǽcula sæculórum."
+            "texte": "Præsens oblátio fiat, Dómine, pópulo tuo salutáris: pro quo dignátus es Patri tuo te vivéntem hóstiam immoláre:\nv. Qui cum eódem Deo Patre et Spíritu Sancto vivis et regnas Deus, per ómnia sǽcula sæculórum.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
@@ -125,74 +156,134 @@
             "gabc": "\"(c2) BE(exdde)\\u00e1(cf)tus(f) ser(g_[oh:h]f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) v\\u00e9(jkj)ne(i)rit(hvGF) D\\u00f3(h_i)mi(h)nus,(h.) (,) in(fh~)v\\u00e9(h)ne(ghg)rit(ef) vi(g)gi(fe)l\\u00e1n(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) \\u00f3(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)st\\u00ed(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(exe)le(c./[-0.5]fgF'Efgf)l\\u00fa(dfee){ia}.(e[ll:1]d..) (::)\"",
             "mp3": "communion_beatus-servus.mp3",
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-13.txt",
             "section": "Postcommunio",
-            "texte": "Divínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii Confessóris tui atque Doctóris méritis et intercessióne, salutáris sacrifícii sentiámus efféctum.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nDivínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii Confessóris tui atque Doctóris méritis et intercessióne, salutáris sacrifícii sentiámus efféctum.\n$Per Dominum"
+            "texte": "Divínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii Confessóris tui atque Doctóris méritis et intercessióne, salutáris sacrifícii sentiámus efféctum.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nDivínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii Confessóris tui atque Doctóris méritis et intercessióne, salutáris sacrifícii sentiámus efféctum.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-13.txt",
+                "section": "Postcommunio_",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/06-13.txt",
+                "section": "Postcommunio_",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Introitus",
-            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)"
+            "texte": "!Ps 36:30-31\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Oratio",
-            "texte": "Que la solennité annuelle de votre Confesseur et Docteur, le bienheureux Antoine, réjouisse votre Église, ô Dieu, afin qu’elle soit toujours munie des secours spirituels et qu’elle mérite de goûter les joies éternelles.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nQue la solennité annuelle de votre Confesseur et Docteur, le bienheureux Antoine, réjouisse votre Église, ô Dieu, afin qu’elle soit toujours munie des secours spirituels et qu’elle mérite de goûter les joies éternelles.\n$Per Dominum"
+            "texte": "Que la solennité annuelle de votre Confesseur et Docteur, le bienheureux Antoine, réjouisse votre Église, ô Dieu, afin qu’elle soit toujours munie des secours spirituels et qu’elle mérite de goûter les joies éternelles.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nQue la solennité annuelle de votre Confesseur et Docteur, le bienheureux Antoine, réjouisse votre Église, ô Dieu, afin qu’elle soit toujours munie des secours spirituels et qu’elle mérite de goûter les joies éternelles.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-13.txt",
+                "section": "Oratio_",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-13.txt",
+                "section": "Oratio_",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C5.txt",
             "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
+            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nV. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia.\n!Jas 1:12\nHeureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Secreta",
-            "texte": "Que l’oblation présente, soit, ô Seigneur, salutaire à votre peuple pour lequel, hostie vivante, vous avez daigné vous immoler à votre Père.\nv. Vous qui, étant Dieu, vivez et régnez avec le même Dieu le Père et l’Esprit-Saint, dans tous les siècles des siècles."
+            "texte": "Que l’oblation présente, soit, ô Seigneur, salutaire à votre peuple pour lequel, hostie vivante, vous avez daigné vous immoler à votre Père.\nv. Vous qui, étant Dieu, vivez et régnez avec le même Dieu le Père et l’Esprit-Saint, dans tous les siècles des siècles.",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-13.txt",
             "section": "Postcommunio",
-            "texte": "L’âme rassasiée grâce à vos dons divins, nous vous supplions, Seigneur, par les mérites et l’intercession du bienheureux Antoine, votre Confesseur et Docteur, de nous faire ressentir les effets salutaires de ce sacrifice.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nL’âme rassasiée grâce à vos dons divins, nous vous supplions, Seigneur, par les mérites et l’intercession du bienheureux Antoine, votre Confesseur et Docteur, de nous faire ressentir les effets salutaires de ce sacrifice.\n$Per Dominum"
+            "texte": "L’âme rassasiée grâce à vos dons divins, nous vous supplions, Seigneur, par les mérites et l’intercession du bienheureux Antoine, votre Confesseur et Docteur, de nous faire ressentir les effets salutaires de ce sacrifice.\n$Per Dominum\n(sed rubrica 195 aut rubrica 196)\nL’âme rassasiée grâce à vos dons divins, nous vous supplions, Seigneur, par les mérites et l’intercession du bienheureux Antoine, votre Confesseur et Docteur, de nous faire ressentir les effets salutaires de ce sacrifice.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-13.txt",
+                "section": "Postcommunio_",
+                "resolu": true,
+                "sous_references": null
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/06-13.txt",
+                "section": "Postcommunio_",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         }
       },

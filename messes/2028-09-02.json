@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/09-02",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Etienne Roi et Confesseur",
         "classe": 2.2,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/09-02.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,17 +40,20 @@
             "gabc": "\"(c4) OS(ff) ju(fgff)sti(c.) (,) * me(c)di(dcd)t\\u00e1(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)\\u00e9n(f)ti(f_[oh:h]g_[oh:h]f_[oh:h])am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qu\\u00e9(f)tur(fe) ju(df)d\\u00ed(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)ps\\u00ed(f_[oh:h]g_[oh:h]f_[oh:h])us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)l\\u00fa(fgf){ia},(fffddc.) (,) al(d)le(ff)l\\u00fa(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)l\\u00e1(h)ri(h) in(g) ma(ixi)li(h)gn\\u00e1n(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)l\\u00e1(hj)ve(g)ris(f.) fa(f)ci(f)\\u00e9n(f)tes(f') in(g)i(fd)qui(f')t\\u00e1(g)tem.(f.) (::) Gl\\u00f3(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)\"",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Oratio",
-            "texte": "Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum Stéphanum Confessórem tuum, quem regnántem in terris propagatórem hábuit, propugnatórem habére mereátur gloriósum in cœlis.\n$Per Dominum"
+            "texte": "Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum Stéphanum Confessórem tuum, quem regnántem in terris propagatórem hábuit, propugnatórem habére mereátur gloriósum in cœlis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent12-6.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Graduale": {
             "texte": "Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
@@ -63,12 +67,14 @@
             "gabc": "(c3) JU(egf)stus(f.) *(,) ut(f) pal(f)ma(f) flo(f)ré(hfghvF'Ege/fg)bit :(f.) (:) sic(f)ut(f) ce(hf/hi'j)drus(gxhffegvFE.) (,) Lí(e)ba(e[ll:1]d/fef)ni(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) mul(hh)ti(h)pli(h)cá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')bi(f)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) do(de'fhvGF'g)mo(ef) Dó(hf)mi(hi)ni.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHFgwhf.1) (::) \r\n<sp>V/</sp>. Ad(f) an(h)nun(hi)ti(i)án(i)dum(ij~) ma(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ne(ji..) (:) mi(i!jw!kvJI'jw!kvJI)se(i)ri(i)cór(i)di(i)am(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am,(f.) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) per(de'fhvGFgef) no(hf/h_i)ctem.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Graduale"
+            "section": "Graduale",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "texte": "Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja.",
@@ -82,12 +88,21 @@
             "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_[oh:h]c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(e[ll:1]d..) (:) quó(e_[uh:l]g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0[uh:l]fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/fee[ll:1]d.0) (::)",
             "mp3": "alleluia_beatus-vir-qui-suffert.mp3",
             "fichier": "Latin/Sancti/09-02.txt",
-            "section": "Alleluia"
+            "section": "Alleluia",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. ¶ Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. ¶ Cives autem ejus óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur ab eo.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/08-25.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 88:25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
@@ -101,17 +116,27 @@
             "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_[oh:h]i_[oh:h]h_[oh:h]){ia}.(h.) (::)",
             "mp3": "offerorium_veritas-mea.mp3",
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C2.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Secreta",
-            "texte": "Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut, qui passiónis Dominicæ mystéria celebrámus, imitémur quod ágimus.\n$Per eundem"
+            "texte": "Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut, qui passiónis Dominicæ mystéria celebrámus, imitémur quod ágimus.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 24:46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
@@ -125,74 +150,95 @@
             "gabc": "\"(c2) BE(exdde)\\u00e1(cf)tus(f) ser(g_[oh:h]f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) v\\u00e9(jkj)ne(i)rit(hvGF) D\\u00f3(h_i)mi(h)nus,(h.) (,) in(fh~)v\\u00e9(h)ne(ghg)rit(ef) vi(g)gi(fe)l\\u00e1n(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) \\u00f3(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)st\\u00ed(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(e[ll:1]d..) (::) <i>T. P.</i> Al(exe)le(c./[-0.5]fgF'Efgf)l\\u00fa(dfee){ia}.(e[ll:1]d..) (::)\"",
             "mp3": "communion_beatus-servus.mp3",
             "fichier": "../horas/Latin/Commune/C5.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/09-02.txt",
             "section": "Postcommunio",
-            "texte": "Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne, de terréno regno ad cœléstis regni glóriam méruit perveníre.\n$Per Dominum"
+            "texte": "Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne, de terréno regno ad cœléstis regni glóriam méruit perveníre.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Introitus",
-            "texte": "!Ps 36:30-31.\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur."
+            "texte": "!Ps 36:30-31.\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.\n!Ps 36:1\nNe porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.\n&Gloria\nv. La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez à votre Église, qu’après avoir été propagée par le bienheureux Étienne, quand il régnait sur la terre, elle mérite de l’avoir pour défenseur, maintenant qu’il est glorieux dans le ciel.\n$Per Dominum"
+            "texte": "Nous vous en prions, ô Dieu tout-puissant, accordez à votre Église, qu’après avoir été propagée par le bienheureux Étienne, quand il régnait sur la terre, elle mérite de l’avoir pour défenseur, maintenant qu’il est glorieux dans le ciel.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes."
+            "texte": "Léctio libri Sapiéntiæ.\n!Eccli 31:8-11\nHeureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/09-02.txt",
-            "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit."
+            "section": "Graduale[0]",
+            "texte": "Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban dans la maison du Seigneur. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/09-02.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Jac 1:12\nHeureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Heureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nEn ce temps-là, Jésus dit cette parabole à ses disciples : Un homme de haute naissance s’en alla dans un pays lointain, pour prendre possession d’un royaume, et revenir ensuite. Ayant appelé dix de ses serviteurs, il leur donna dix mines, et leur dit : Faites-les valoir jusqu’à ce que je revienne. Mais ses concitoyens le haïssaient, et ils envoyèrent après lui une ambassade, pour dire : Nous ne voulons pas que cet homme règne sur nous. Et il arriva qu’à son retour, après avoir pris possession du royaume, il ordonna qu’on appelât les serviteurs auxquels il avait donné de l’argent, pour savoir comment chacun l’avait fait valoir. Le premier vint, et dit : Seigneur, ta mine a produit dix mines. Et il lui dit : C’est bien, bon serviteur ; parce que tu as été fidèle en peu de chose, tu auras puissance sur dix villes. Le second vint, et dit : Seigneur, ta mine a produit cinq mines. Et il lui dit : Et toi, sois établi sur cinq villes. Un autre vint, et dit : Seigneur, voici ta mine, que j’ai tenue enveloppée dans un mouchoir ; car je t’ai craint, parce que tu es un homme sévère : tu enlèves ce que tu n’as pas déposé, et tu moissonnes ce que tu n’as pas semé. Il lui dit : Je te juge par ta propre bouche, méchant serviteur. Tu savais que je suis un homme sévère, enlevant ce que je n’ai pas déposé, et moissonnant ce que je n’ai pas semé ; pourquoi donc n’as-tu pas mis mon argent à la banque, afin qu’à mon retour je le retirasse avec les intérêts ? Puis il dit à ceux que étaient présents : Otez-lui la mine, et donnez-la à celui qui en a dix. Et ils lui dirent : Seigneur, il a dix mines. Je vous le dis, on donnera à celui qui a déjà, et il sera dans l’abondance ; mais à celui qui n’a pas, on ôtera même ce qu’il a."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 19:12-26\nEn ce temps-là, Jésus dit cette parabole à ses disciples : Un homme de haute naissance s’en alla dans un pays lointain, pour prendre possession d’un royaume, et revenir ensuite. Ayant appelé dix de ses serviteurs, il leur donna dix mines, et leur dit : Faites-les valoir jusqu’à ce que je revienne. Mais ses concitoyens le haïssaient, et ils envoyèrent après lui une ambassade, pour dire : Nous ne voulons pas que cet homme règne sur nous. Et il arriva qu’à son retour, après avoir pris possession du royaume, il ordonna qu’on appelât les serviteurs auxquels il avait donné de l’argent, pour savoir comment chacun l’avait fait valoir. Le premier vint, et dit : Seigneur, ta mine a produit dix mines. Et il lui dit : C’est bien, bon serviteur ; parce que tu as été fidèle en peu de chose, tu auras puissance sur dix villes. Le second vint, et dit : Seigneur, ta mine a produit cinq mines. Et il lui dit : Et toi, sois établi sur cinq villes. Un autre vint, et dit : Seigneur, voici ta mine, que j’ai tenue enveloppée dans un mouchoir ; car je t’ai craint, parce que tu es un homme sévère : tu enlèves ce que tu n’as pas déposé, et tu moissonnes ce que tu n’as pas semé. Il lui dit : Je te juge par ta propre bouche, méchant serviteur. Tu savais que je suis un homme sévère, enlevant ce que je n’ai pas déposé, et moissonnant ce que je n’ai pas semé ; pourquoi donc n’as-tu pas mis mon argent à la banque, afin qu’à mon retour je le retirasse avec les intérêts ? Puis il dit à ceux que étaient présents : Otez-lui la mine, et donnez-la à celui qui en a dix. Et ils lui dirent : Seigneur, il a dix mines. Je vous le dis, on donnera à celui qui a déjà, et il sera dans l’abondance ; mais à celui qui n’a pas, on ôtera même ce qu’il a.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Offertorium",
-            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance."
+            "texte": "!Ps 88:25\nMa vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Secreta",
-            "texte": "Regardez les hosties que nous offrons, Dieu tout-puissant : et faites que, nous qui célébrons les mystères de la Passion du Seigneur, nous imitions ce que nous accomplissons.\n$Per eundem"
+            "texte": "Regardez les hosties que nous offrons, Dieu tout-puissant : et faites que, nous qui célébrons les mystères de la Passion du Seigneur, nous imitions ce que nous accomplissons.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Communio",
-            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens."
+            "texte": "!Matt 24:46-47\nHeureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/09-02.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en prions, Dieu tout-puissant : donnez-nous de suivre avec la piété qui convient la foi du bienheureux Etienne votre Confesseur, qui pour la propagation de la même foi, a mérité de parvenir du royaume terrestre à la gloire du royaume céleste.\n$Per Dominum"
+            "texte": "Nous vous en prions, Dieu tout-puissant : donnez-nous de suivre avec la piété qui convient la foi du bienheureux Etienne votre Confesseur, qui pour la propagation de la même foi, a mérité de parvenir du royaume terrestre à la gloire du royaume céleste.\n$Per Dominum",
+            "references": null
           }
         }
       },

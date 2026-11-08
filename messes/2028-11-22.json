@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/11-22",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ste Cécile Vierge et Martyre",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/11-22.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c3) LO(df)qué(hhi)bar(h.) *(,) de(h) te(h)sti(h)mó(i)ni(h.f!gwh)is(h) tu(hi!jvIH'i)is(ih..) (;) in(h) con(iji~)spé(j)ctu(h) re(hjIH'i)gum,(h.) (,) et(fdf) non(hh) con(ijh)fun(hh)dé(h_[oh:h]i_[oh:h]h_[oh:h])bar :(h.) (:) et(h_) me(e)di(f)tá(hhi)bar(h.) (,) in(hihh) man(ef)dá(hhi)tis(h) tu(hh/ijh)is,(f/hhfh.) (;) quae(d) di(ef)lé(f!hhf)xi(e) ni(ef/hfh)mis.(d.) (::) <i>Ps.</i> Lau(d)dá(f)te(h) Dó(h)mi(h)num(h) o(h)mnes(h) gen(h)tes,(h.) (,) lau(h)dá(h)te(h) e(h)um(h) o(h)mnes(i) pó(i)pu(h)li :(h.) *(:) quó(f)ni(h)am(h) con(h)fir(h)má(h)ta(h) est(h) su(h)per(h) nos(h) mi(h)se(h)ri(h)cór(h)di(h)a(i) e(i)jus,(h.) (;) et(f) vé(h)ri(h)tas(h) Dó(h)mi(h)ni(h) ma(h)net(h) in(i) ae(g)tér(h)num.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos ánnua beátæ Cæcíliæ Vírginis et Mártyris tuæ sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo.\n$Per Dominum"
+            "texte": "Deus, qui nos ánnua beátæ Cæcíliæ Vírginis et Mártyris tuæ sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Eccli 51:13-17\nDómine, Deus meus, exaltásti super terram habitatiónem meam, et pro morte defluénte deprecáta sum. Invocávi Dóminum, Patrem Dómini mei, ut non derelínquat me in die tribulatiónis meæ, et in témpore superbórum sine adjutório. Laudábo nomen tuum assídue, et collaudábo illud in confessióne, et exaudíta est orátio mea. Et liberásti me de perditióne, et eripuísti me de témpore iníquo. Proptérea confitébor et laudem dicam tibi, Dómine, Deus noster."
+            "texte": "Léctio libri Sapiéntiæ\n!Eccli 51:13-17\nDómine, Deus meus, exaltásti super terram habitatiónem meam, et pro morte defluénte deprecáta sum. Invocávi Dóminum, Patrem Dómini mei, ut non derelínquat me in die tribulatiónis meæ, et in témpore superbórum sine adjutório. Laudábo nomen tuum assídue, et collaudábo illud in confessióne, et exaudíta est orátio mea. Et liberásti me de perditióne, et eripuísti me de témpore iníquo. Proptérea confitébor et laudem dicam tibi, Dómine, Deus noster.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "!Ps 44:11; 44:12\nAudi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam.\n!Ps 44:5\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.",
+            "texte": "Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam. Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.",
             "incipit": {
               "incipit": "Audi filia... quia concupivit (Grad.)",
               "version": "Solesmes",
@@ -63,15 +74,17 @@
             "gabc": "(c3) AU(e)di,(e) fí(e)li(e)a,(ehg.) <clear>*(,) et(hi~) vi(iv.hiH'Ghihi)de,(iv.h/iih/ii) (,) (hi!kkkikvvJI'jh//ivHGhg..) (:) et(f) in(hh)clí(hi//kj)na(kkkvJI'jh//ivHGhg..) (;) au(fi)rem(i!jwk) tu(ih/ikJI'H)am :(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) (:) qui(e)a(fd) con(e)cu(f)pí(hih)vit(hf~) rex(hi/kkkvIH'G//hi!jvIHih/jihvvG'FEfe..) (;) spé(g_[oh:h]e/f.g!hwiiv)ci(ih)em(hi) tu(hv.f!hhvFDff,e!hhe'gvF'E)am.(hf/hhf'ivH'GE) (,) (f!gwh_g/ihh'hhvF'Ef_gffe.) (::) <sp>V/</sp>. Spé(eh!ivji/kki//jvIHihi)ci(ihhf)e(f_efv.) tu(hg/hiF'Ehh)a,(hiHG.) (;) et(e) pul(e)chri(hh)tú(hi)di(hh/ig/hiF'E)ne(hh) (,) tu(hi)a(ijI'H[oll:0;0.94cm]/l_k//jlkk/iji.) (:) in(ij)tén(hi)de,(i!jwk) pró(i_[oh:h]h)spe(ih)re(h.) (,) pro(h)cé(ih/ikJI'H)de,(ihhvF'Effe/ff) (,) (ef!hhhfhvvGF'he//fvEDe[ll:1]d..) <clear>*(;) et(ef) re(e.f!gwh'!iv)gna.(ijIH'hghv.) (,) (ijIH'hgiv.kkkh/ijIG.hig'hvF'Ef_gffe.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/11-22.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Matt 25:4; 25:6\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.",
+            "texte": "Allelúja, allelúja. Quinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. Allelúja.",
             "incipit": {
               "incipit": "Quinque prudentes (All.)",
               "version": "Solesmes",
@@ -82,12 +95,14 @@
             "gabc": "(c3) AL(ef)le(ev.df!hvGF)lú(hi){ia}.(i.) (,) * <i>ij.</i>(jvIH'hvG'FE.fgFE.) (;) (df!hvGFhi//jvIH'hvG'FE.d/fgffe.) (::) <sp>V/</sp>. Quin(ef)que(e.) pru(df!hvGF)dén(hi)tes(i) vír(iji)gi(hi)nes(i.) (;) ac(i)ce(ijI'H)pé(h)runt(hf) ó(gfgvFE//fhG'FEfe)le(de)um(e.) (;) in(efe) va(d)sis(fh) su(h)is(hf) (,) cum(g) lam(fg)pá(ef!gvFEfe)di(de)bus :(e.) (:) mé(f)di(e')a(d) au(e)tem(f) no(hi/hji)cte(i.) (;) cla(hik)mor(kvvJIjvIHi.) (,) (hi!kvvJIjvIHi.) (,) (jvIH'hvG'FE) fa(fe)ctus(de) est :(e.) (:) Ec(f)ce(e[ll:1]d) spon(e)sus(f) ve(hi/hji)nit :(i.) (;) ex(ijI'H)í(h)te(hf) ób(gfgvFE//fhG'FEfe)vi(de)am(e.) (;) Chri(f)sto(efE'D) ()* Dó(df!hvGF)mi(hi)no.(i.) (,) (jvIH'hvG'FE.fgFE.) (;) (df!hvGFhi//jvIH'hvG'FE.d/fgffe.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/11-22.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/PentEpi6-3.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 44:15-16\nAfferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia et exsultatióne: adducéntur in templum Regi Dómino. (Allelúja.)",
@@ -101,17 +116,20 @@
             "gabc": "(c4) AF(c)fe(d)rén(f)tur(fff/ded.) ()* re(fg)gi(fe/fggf.0) (;) vír(fgffe)gi(de!fvED'e)nes(e[ll:1]d..) (`) post(dg) e(gf)am :(f.) (:) pró(hf/gh!jjh)xi(g)mae(fggf) e(d!ew!fvED)jus(dc/ded.) (;) af(c)fe(d)rén(ffd//fgf/ge/fgd)tur(dV!cd~) ti(d)bi.(dc/d!fffc//fvED'ewfd.1) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Secreta",
-            "texte": "Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut, intercedénte beáta Cæcília Vírgine et Mártyre tua, nos propitiatióne tua dignos semper effíciat.\n$Per Dominum"
+            "texte": "Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut, intercedénte beáta Cæcília Vírgine et Mártyre tua, nos propitiatióne tua dignos semper effíciat.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 118:78; 118:80\nConfundántur supérbi, quia injúste iniquitátem fecérunt in me: ego autem in mandátis tuis exercébor, in tuis justificatiónibus, ut non confúndar. (Allelúja.)",
@@ -125,74 +143,102 @@
             "gabc": "(c4) COn(fe~)fun(f)dán(gh)tur(ffe) su(dc)pér(d!ewfef)bi,(e[ll:1]d..) (;) * qui(d)a(d) in(dh~)jú(h)ste(ixhg/hih.) (,) in(g)i(g)qui(ge)tá(ghgh)tem(g) fe(f)cé(g)runt(fe) in(d) me :(fddc.) (:) e(c.d!ewffg)go(f) au(ffe~)tem(ixghg/hih.) in(g) man(h)dá(jj)tis(kjjh) tu(ixh.g!hwihi)is(ih..) (,) ex(h)er(fg~)cé(g.f!gwh_g)bor,(ghG'Fg.) (;) in(f) tu(gh)is(h) ju(hf)sti(g)fi(gf)ca(fe)ti(d)ó(d!ew!fvED')ni(d)bus,(dc/ded.) (;) ut(cd) non(fg'h) con(f_e)fún(d_c/d!ewf)dar.(e[ll:1]d..) (::) <nlba><i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.</nlba>(e[ll:1]d..) (::)",
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C6.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/11-22.txt",
             "section": "Postcommunio",
-            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum"
+            "texte": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C6a.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Introitus",
-            "texte": "!Ps 118:46-47\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)"
+            "texte": "!Ps 118:46-47\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)\n!Ps 118:1\nHeureux ceux qui sont purs sur le chemin, qui marchent dans la loi du Seigneur.\nV. Je parlerai de vos prescriptions devant les rois, et je n’aurai point honte ; je mettrai mes délices en vos commandements : je les aime passionnément. (Alléluia, alléluia.)",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu, qui nous réjouissez par la solennité annuelle de la bienheureuse Cécile, votre Vierge et Martyre, daignez nous faire la grâce d’imiter par une vie sainte, les exemples de celle à qui nous rendons aujourd’hui nos hommages.\n$Per Dominum"
+            "texte": "Ô Dieu, qui nous réjouissez par la solennité annuelle de la bienheureuse Cécile, votre Vierge et Martyre, daignez nous faire la grâce d’imiter par une vie sainte, les exemples de celle à qui nous rendons aujourd’hui nos hommages.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Lectio",
-            "texte": "Lecture de livre de la Sagesse.\n!Eccli 51:13-17\nSeigneur mon Dieu, vous m'avez élevé une demeure sur la terre. Je vous ai supplié quand la mort approchait. J'ai invoqué le Seigneur, père de mon Seigneur, pour qu'il ne m'abandonne pas au jour de ma détresse, sans défense au temps des superbes. Je célébrerai sans cesse votre nom, je le glorifierai dans mes louanges, parce que ma prière a été exaucée et que vous m'avez sauvée de la ruine et délivrée des jours mauvais. C'est pourquoi je vous glorifierai et chanterai vos louanges, ô Seigneur notre Dieu."
+            "texte": "Lecture de livre de la Sagesse.\n!Eccli 51:13-17\nSeigneur mon Dieu, vous m'avez élevé une demeure sur la terre. Je vous ai supplié quand la mort approchait. J'ai invoqué le Seigneur, père de mon Seigneur, pour qu'il ne m'abandonne pas au jour de ma détresse, sans défense au temps des superbes. Je célébrerai sans cesse votre nom, je le glorifierai dans mes louanges, parce que ma prière a été exaucée et que vous m'avez sauvée de la ruine et délivrée des jours mauvais. C'est pourquoi je vous glorifierai et chanterai vos louanges, ô Seigneur notre Dieu.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C6-1.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
             "fichier": "Francais/Sancti/11-22.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:11; 44:12\nÉcoutez, ma fille, voyez et prêtez l’oreille, car le roi s’est épris de votre beauté.\nV.Ps 44:5\nAvec votre gloire et votre majesté, avancez, marchez victorieusement et régnez."
+            "section": "Graduale[0]",
+            "texte": "Écoutez, ma fille, voyez et prêtez l’oreille, car le roi s’est épris de votre beauté. V.Ps 44:5 Avec votre gloire et votre majesté, avancez, marchez victorieusement et régnez.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/11-22.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Matt 25:4; 25:6\nCinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Cinq vierges sages prirent de l’huile dans leurs vases avec leurs lampes ; mais au milieu de la nuit, un cri se fit entendre : Voici l’époux qui vient ; allez au-devant du Christ votre Seigneur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/PentEpi6-3.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Offertorium",
-            "texte": "!Ps 44:15-16\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. On les conduira au temple du roi."
+            "texte": "!Ps 44:15-16\nDes vierges seront amenées au roi après vous ; vos compagnes seront présentées au milieu de la joie et de l’allégresse. On les conduira au temple du roi.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Seigneur, faites que votre bienheureuse Vierge et Martyre Cécile intercédant pour nous, cette hostie de propitiation et de louange nous rende toujours dignes de votre miséricorde.\n$Per Dominum"
+            "texte": "Nous vous en supplions, Seigneur, faites que votre bienheureuse Vierge et Martyre Cécile intercédant pour nous, cette hostie de propitiation et de louange nous rende toujours dignes de votre miséricorde.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Communio",
-            "texte": "!Ps 118:78; 118:80\nQue les superbes soient confondus, pour m’avoir maltraité injustement ; mais moi, je m’exercerai dans vos commandements et dans vos lois, afin que je ne sois pas confondu."
+            "texte": "!Ps 118:78; 118:80\nQue les superbes soient confondus, pour m’avoir maltraité injustement ; mais moi, je m’exercerai dans vos commandements et dans vos lois, afin que je ne sois pas confondu.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/11-22.txt",
             "section": "Postcommunio",
-            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous célébrons la fête.\n$Per Dominum"
+            "texte": "Vous avez, Seigneur, nourri votre famille de dons sacrés ; ranimez-nous toujours, s’il vous plaît, grâce à l’intervention de la sainte dont nous célébrons la fête.\n$Per Dominum",
+            "references": null
           }
         }
       },

@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quad2-4",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Jeudi de la deuxième semaine de Carême",
         "classe": 4.9,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quad2-4.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c2) DE(figgf)us(f.) *(,) in(exge) ad(f)ju(g)tó(iij)ri(i)um(i) me(iji)um(ihi.) (,) in(exgv.egf)tén(f_[oh:h]g_[oh:h]f_[oh:h])de :(f.) (:) Dó(f)mi(f)ne(hih.) (,) ad(g) ad(ghg)ju(f)ván(fff)dum(d) me(gi) fe(ihig)stí(f)na :(fgff) (:) con(d)fun(ff)dán(gh~)tur(f.) (,) et(f) re(f)ve(f)re(g)án(g!h!gh~)tur(f.) in(f)i(g)mí(g)ci(f) me(fffc/e[ll:1]d)i,(d.) (;) qui(d) quae(fg'h)runt(g) á(i)ni(h)mam(gh) me(fg/hffd)am.(dc..) (::) <i>Ps.</i> A(cfe)ver(fg~)tán(g)tur(g) ret(g)rór(g)sum(g) et(g) e(gi)ru(h)bé(hg)scant,(gh..) *(:) qui(ge) vo(fg)lunt(g!hwi) mi(g')hi(f) ma(fff)la.(dc..) (::) Gló(cfe)ri(fg)a(g) Pa(g)tri.(g) (::) <eu>E(g) u(g!hwi) o(g') u(f) a(fff) e.</eu>(dc..) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Quad2-4.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Oratio",
-            "texte": "Præsta nobis, quǽsumus, Dómine, auxílium grátiæ tuæ: ut, jejúniis et oratiónibus conveniénter inténti, liberémur ab hóstibus mentis et córporis.\n$Per Dominum"
+            "texte": "Præsta nobis, quǽsumus, Dómine, auxílium grátiæ tuæ: ut, jejúniis et oratiónibus conveniénter inténti, liberémur ab hóstibus mentis et córporis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 17:5-10\nHæc dicit Dóminus Deus: Maledíctus homo, qui confídit in hómine, et ponit carnem bráchium suum, et a Dómino recédit cor ejus. Erit enim quasi myrícæ in desérto, et non vidébit, cum vénerit bonum: sed habitábit in siccitáte in desérto, in terra salsúginis et inhabitábili. Benedíctus vir, qui confídit in Dómino, et erit Dóminus fidúcia ejus. Et erit quasi lignum, quod transplantátur super aquas, quod ad humórem mittit radíces suas: et non timébit, cum vénerit æstus. Et erit fólium ejus víride, et in témpore siccitátis non erit sollícitum, nec aliquándo désinet fácere fructum. Pravum est cor ómnium et inscrutábile: quis cognóscet illud? Ego Dóminus scrutans cor, et probans renes: qui do unicuíque juxta viam suam, et juxta fructum adinventiónum suárum: dicit Dóminus omnípotens."
+            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 17:5-10\nHæc dicit Dóminus Deus: Maledíctus homo, qui confídit in hómine, et ponit carnem bráchium suum, et a Dómino recédit cor ejus. Erit enim quasi myrícæ in desérto, et non vidébit, cum vénerit bonum: sed habitábit in siccitáte in desérto, in terra salsúginis et inhabitábili. Benedíctus vir, qui confídit in Dómino, et erit Dóminus fidúcia ejus. Et erit quasi lignum, quod transplantátur super aquas, quod ad humórem mittit radíces suas: et non timébit, cum vénerit æstus. Et erit fólium ejus víride, et in témpore siccitátis non erit sollícitum, nec aliquándo désinet fácere fructum. Pravum est cor ómnium et inscrutábile: quis cognóscet illud? Ego Dóminus scrutans cor, et probans renes: qui do unicuíque juxta viam suam, et juxta fructum adinventiónum suárum: dicit Dóminus omnípotens.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 78:9; 78:10\nPropítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum?\nV. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.",
+            "texte": "Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum? V. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.",
             "incipit": {
               "incipit": "Propitius esto (Grad.)",
               "version": "Solesmes",
@@ -63,22 +67,26 @@
             "gabc": "(c4) PRo(d)pí(ffg)ti(f)us(f) e(ghgh)sto(gv.fgFD.1) (,) * Dó(dgf/gh)mi(g)ne(ixg./hiGF'fd/f_[oh:h]g_[oh:h]f._[oh:h]) (;) pec(f)cá(ghghjkj)tis(ixhiH'G) no(ixhjg___!hwihi)stris :(ih..) (:) ne(f) quan(hg~)do(gj) di(hhg)cant(gh) gen(hg/hfg)tes :(fv.e!g'h/fg!hvF'EDef!gvgf.0) (:) U(ixf!hhi)bi(g) est(gjj) De(j)us(j) e(ixj.h!iw!jvIG'hw!ivHG)ó(fgf)rum?(f!h'j) (,) (fh'!jvjv'1IGfhg/hggf.0) (z0::c3) \r\n<sp>V/</sp>. Ad(d)ju(d)va(f) nos,(gxg) De(h)us(h.) sa(h)lu(h)tá(h)ris(h) no(h)ster :(ihhe./h_[oh:h]i_[oh:h]h_[oh:h]/!ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'hvGF.) (:) et(hh) pro(h)pter(h) ho(h)nó(ih/ij_h ih/ij_ij//hi/jij)rem(jh/jkihh/fgf.) (;) nó(d)mi(d)nis(d) tu(d)i(d) Dó(d)mi(d)ne,(d.) (,) * lí(dfE'D)be(ef)ra(fhG'Fhhh) nos.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_propitius-esto.mp3",
             "fichier": "Latin/Tempora/Quad2-4.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 16:19-31\nIn illo témpore: Dixit Jesus pharisǽis: Homo quidam erat dives, qui induebátur púrpura et bysso: et epulabátur cotídie spléndide. Et erat quidam mendícus, nómine Lázarus, qui jacébat ad jánuam ejus, ulcéribus plenus, cúpiens saturári de micis, quæ cadébant de mensa dívitis, et nemo illi dabat: sed et canes veniébant et lingébant úlcera ejus. Factum est autem, ut morerétur mendícus, et portarétur ab Angelis in sinum Abrahæ. Mórtuus est autem et dives, et sepúltus est in inférno. Elevans autem óculos suos, cum esset in torméntis, vidit Abraham a longe, et Lázarum in sinu ejus: et ipse clamans, dixit: Pater Abraham, miserére mei, et mitte Lázarum, ut intíngat extrémum dígiti sui in aquam, ut refrígeret linguam meam, quia crúcior in hac flamma. Et dixit illi Abraham: Fili, recordáre, quia recepísti bona in vita tua, et Lázarus simíliter mala: nunc autem hic consolátur, tu vero cruciáris. Et in his ómnibus, inter nos et vos chaos magnum firmátum est: ut hi, qui volunt hinc transíre ad vos, non possint, neque inde huc transmeáre. Et ait: Rogo ergo te, pater, ut mittas eum in domum patris mei. Hábeo enim quinque fratres, ut testétur illis, ne et ipsi véniant in hunc locum tormentórum. Et ait illi Abraham: Habent Móysen et Prophétas: áudiant illos. At ille dixit: Non, pater Abraham: sed si quis ex mórtuis íerit ad eos, pæniténtiam agent. Ait autem illi: Si Móysen et Prophétas non áudiunt, neque si quis ex mórtuis resurréxerit, credent."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 16:19-31\nIn illo témpore: Dixit Jesus pharisǽis: Homo quidam erat dives, qui induebátur púrpura et bysso: et epulabátur cotídie spléndide. Et erat quidam mendícus, nómine Lázarus, qui jacébat ad jánuam ejus, ulcéribus plenus, cúpiens saturári de micis, quæ cadébant de mensa dívitis, et nemo illi dabat: sed et canes veniébant et lingébant úlcera ejus. Factum est autem, ut morerétur mendícus, et portarétur ab Angelis in sinum Abrahæ. Mórtuus est autem et dives, et sepúltus est in inférno. Elevans autem óculos suos, cum esset in torméntis, vidit Abraham a longe, et Lázarum in sinu ejus: et ipse clamans, dixit: Pater Abraham, miserére mei, et mitte Lázarum, ut intíngat extrémum dígiti sui in aquam, ut refrígeret linguam meam, quia crúcior in hac flamma. Et dixit illi Abraham: Fili, recordáre, quia recepísti bona in vita tua, et Lázarus simíliter mala: nunc autem hic consolátur, tu vero cruciáris. Et in his ómnibus, inter nos et vos chaos magnum firmátum est: ut hi, qui volunt hinc transíre ad vos, non possint, neque inde huc transmeáre. Et ait: Rogo ergo te, pater, ut mittas eum in domum patris mei. Hábeo enim quinque fratres, ut testétur illis, ne et ipsi véniant in hunc locum tormentórum. Et ait illi Abraham: Habent Móysen et Prophétas: áudiant illos. At ille dixit: Non, pater Abraham: sed si quis ex mórtuis íerit ad eos, pæniténtiam agent. Ait autem illi: Si Móysen et Prophétas non áudiunt, neque si quis ex mórtuis resurréxerit, credent.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Exod 32:11; 32:13; 32:14\nPrecátus est Móyses in conspéctu Dómini, Dei sui, et dixit: Quare, Dómine, irásceris in pópulo tuo? parce iræ ánimæ tuæ: meménto Abraham, Isaac et Jacob, quibus jurásti dare terram fluéntem lac et mel. Et placátus est Dóminus de malignitáte, quam dixit fácere pópulo suo.",
@@ -92,17 +100,20 @@
             "gabc": "(c3) PRe(e)cá(fhe)tus(d!ewfef) est(f_e) (,) * Mó(f)y(h)ses(hihhvGEf.) (;) in(b) con(b)spé(de)ctu(de) Dó(f_e/f!gw!hvGF)mi(e!gw!hvGF'g)ni(g_[oh:h]f) (,) De(f)i(e[ll:1]d) su(ef!gvFE'f)i,(fe..) (;) et(e) di(e!hhe/ff//df!hvED'db//cd!efe)xit.(e.) (:) Pre(e)cá(fhe/fe)tus(d!ewfef) est(f_e) (,) Mó(f)y(h)ses(hg/hihhvGEf.) (;) in(b) con(b)spé(de)ctu(de) Dó(f_e/f!gw!hvGF)mi(e!gw!hvGF'g)ni(g_[oh:h]f) (,) De(f)i(e[ll:1]d) su(ef!gvFE'f)i,(eb..) (;) et(b) di(b!ddb//cd!efe)xit :(e.) (:) Qua(ehhi)re,(hi) Dó(h)mi(ivHF)ne,(efe.) (,) i(e)rá(e!hh//hhhffee[ll:1]d!ewf!gvFE)sce(fe)ris(e.) (;) in(d) pó(efe/fg)pu(f)lo(f) tu(e.[ll:1]d!ewfef)o?(fe..) (:) Par(de/f!hhhhi~)ce(g) i(h)rae(efe.) (,) á(hhi)ni(f)mae(efe) tu(ffeg'FEfvEDef!gvFE'f)ae :(fe..) (:) me(e)mén(ei'!jv)to(i) A(i)bra(i)ham,(i!jw!kvJI) (,) I(hi)sa(gh)ac(iih.0) (,) et(hv.hh//hhh_g/hi!kvJI) Ja(hi)cob,(i_[oh:h]e/f_[oh:h]g_[oh:h]f._[oh:h]) (;) qui(d)bus(e) ju(f)rá(fi)sti(h) da(hg)re(f) ter(h)ram(hh//hhh) (,) flu(e)én(f)tem(e[ll:1]d~) lac(e.) (`) et(e!fwgf/g_[oh:h]f/hhf/hhvFD'ew!fvEDef) mel.(e.) (:) Et(d) pla(f)cá(h)tus(hf~) fa(hi'j)ctus(i) est(hiHF.1) (,) Dó(h!iwj_i)mi(i.h!iwjij)nus(ji..) (;) de(iv.hhhh_i) ma(e)li(f)gni(g)tá(g)te,(iv.hhhh_i) (;) quam(fe~) di(h!iwj_i)xit(j) fá(ijhh)ce(hv.fh!ivHG'h)re(hg..) (;) pó(i_[oh:h]h)pu(h)lo(ihhf/hhhhv'1GE//fhfhvFD.1) (,) (ef!hvvGF'gw!hvGF) su(ef!gvFE'f)o.(fe..) (::)",
             "mp3": "offertoire_precatus-est-moyses.mp3",
             "fichier": "Latin/Tempora/Quad2-4.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Secreta",
-            "texte": "Præsénti sacrifício, nómini tuo nos, Dómine, jejúnia dicáta sanctíficent: ut, quod observántia nostra profitétur extérius, intérius operétur efféctu.\n$Per Dominum"
+            "texte": "Præsénti sacrifício, nómini tuo nos, Dómine, jejúnia dicáta sanctíficent: ut, quod observántia nostra profitétur extérius, intérius operétur efféctu.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Joann 6:57\nQui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo, dicit Dóminus.",
@@ -116,74 +127,95 @@
             "gabc": "\"(c4) Qui(c) man(d)d\\u00fa(ffv)cat(f) (::) me(f)am(f) car(gfhGF)nem,(f) (;) et(f) bi(f!gh)bit(hg) me(hj)um(j) s\\u00e1n(j)gui(jhjIH)nem,(h) (:) in(hg~) me(hj) ma(ghGFg)net,(gf) (;) et(d) e(dffv)go(d) in(dcf) e(gfg)o,(g) (;) di(ixhih//ivHG;3hghf)cit(ef) D\\u00f3(f)mi(fgf)nus.(f) (::)\"",
             "mp3": "communion_qui-manducat.mp3",
             "fichier": "Latin/Tempora/Quad2-4.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Pent09-0.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad2-4.txt",
             "section": "Postcommunio",
-            "texte": "Grátia tua nos, quǽsumus, Dómine, non derelínquat: quæ et sacræ nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.\n$Per Dominum"
+            "texte": "Grátia tua nos, quǽsumus, Dómine, non derelínquat: quæ et sacræ nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Introitus",
-            "texte": "!Ps 69:2; 69:3\nv. Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Qu’ils soient confondus et couverts de honte, ceux qui cherchent à m’ôter la vie.\n!Ps 69:4\nQu’ils reculent en arrière et soient dans la confusion, ceux qui me veulent du mal.\n&Gloria\nv. Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Qu’ils soient confondus et couverts de honte, ceux qui cherchent à m’ôter la vie."
+            "texte": "!Ps 69:2; 69:3\nv. Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Qu’ils soient confondus et couverts de honte, ceux qui cherchent à m’ôter la vie.\n!Ps 69:4\nQu’ils reculent en arrière et soient dans la confusion, ceux qui me veulent du mal.\n&Gloria\nv. Dieu, venez à mon aide ; Seigneur, hâtez-vous de me secourir. Qu’ils soient confondus et couverts de honte, ceux qui cherchent à m’ôter la vie.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Oratio",
-            "texte": "Daignez, Seigneur, nous accorder le secours de votre grâce, afin que, persévérant comme il convient dans le jeûne et la prière, nous soyons délivrés des ennemis de l’âme et du corps.\n$Per Dominum"
+            "texte": "Daignez, Seigneur, nous accorder le secours de votre grâce, afin que, persévérant comme il convient dans le jeûne et la prière, nous soyons délivrés des ennemis de l’âme et du corps.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 17:5-10\nAinsi parle le Seigneur Dieu : Maudit soit l’homme qui se confie dans l’homme, qui se fait un bras de chair, et dont le cœur se retire du Seigneur. Il sera comme les bruyères dans le désert, et il ne verra pas arriver le bonheur ; mais il habitera au désert dans la sécheresse, dans une terre de sel et inhabitable, Béni soit l’homme qui se confie dans le Seigneur, et dont le Seigneur est l’espérance, il sera comme un arbre transplanté près des eaux qui étend ses racines vers l’humidité, et qui ne craint pas la chaleur lorsqu’elle est venue. Son feuillage sera toujours vert ; il ne sera point en peine au temps de la sécheresse, et il ne cessera jamais de porter du fruit. Le cœur de tous les hommes est mauvais et impénétrable ; qui pourra e connaître ? Moi, le Seigneur, je sonde le cœur, et j’éprouve les reins ; je rends à chacun selon sa voie et selon le fruit de ses pensées, dit le Seigneur tout-Puissant."
+            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 17:5-10\nAinsi parle le Seigneur Dieu : Maudit soit l’homme qui se confie dans l’homme, qui se fait un bras de chair, et dont le cœur se retire du Seigneur. Il sera comme les bruyères dans le désert, et il ne verra pas arriver le bonheur ; mais il habitera au désert dans la sécheresse, dans une terre de sel et inhabitable, Béni soit l’homme qui se confie dans le Seigneur, et dont le Seigneur est l’espérance, il sera comme un arbre transplanté près des eaux qui étend ses racines vers l’humidité, et qui ne craint pas la chaleur lorsqu’elle est venue. Son feuillage sera toujours vert ; il ne sera point en peine au temps de la sécheresse, et il ne cessera jamais de porter du fruit. Le cœur de tous les hommes est mauvais et impénétrable ; qui pourra e connaître ? Moi, le Seigneur, je sonde le cœur, et j’éprouve les reins ; je rends à chacun selon sa voie et selon le fruit de ses pensées, dit le Seigneur tout-Puissant.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
-            "section": "Graduale",
-            "texte": "!Ps 78:9; 78:10\nSeigneur, pardonnez-nous nos péchés : de peur qu’on ne dise parmi les nations : Où est leur Dieu ?\nV. Aidez-nous, ô Dieu, notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous."
+            "section": "Graduale[0]",
+            "texte": "Seigneur, pardonnez-nous nos péchés : de peur qu’on ne dise parmi les nations : Où est leur Dieu ? V. Aidez-nous, ô Dieu, notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:19-31\nEn ce temps-là, Jésus dit aux Pharisiens : Il y avait un homme riche, qui était vêtu de pourpre et de lin, et qui faisait chaque jour une chère splendide. Il y avait aussi un mendiant, nommé Lazare, qui était couché à sa porte, couvert d’ulcères, désirant se rassasier des miettes qui tombaient de la table du riche, et personne ne lui en donnait ; mais les chiens venaient aussi, et léchaient ses plaies. Or il arriva que le mendiant mourut, et fut emporté par les anges dans le sein d’Abraham. Le riche mourut aussi, et il fut enseveli dans l’enfer. Et levant les yeux, lorsqu’il était dans les tourments, il vit de loin Abraham, et Lazare dans son sein ; et s’écriant, il dit : Père Abraham, ayez pitié de moi, et envoyez Lazare, afin qu’il trempe l’extrémité de son doigt dans l’eau, pour rafraîchir ma langue, car je suis tourmenté dans cette flamme. Mais Abraham lui dit : Mon fils, souviens-toi que tu as reçu les biens pendant ta vie, et que Lazare a reçu de même les maux ; or maintenant il est consolé, et toi, tu es tourmenté. De plus, entre nous et vous un abîme a été établi ; de sorte que ceux qui voudraient passer d’ici vers vous, où de là venir ici, ne le peuvent pas. Le riche dit : Je vous supplie donc, père, de l’envoyer dans la maison de mon père ; car j’ai cinq frères, afin qu’il leur atteste ces choses, de peur qu’ils ne viennent eux aussi, dans ce lieu de tourments. Et Abraham lui dit : Ils ont Moïse et les prophètes : qu’ils les écoutent. Et il reprit : Non, père Abraham ; mais si quelqu’un des morts va vers eux, ils feront pénitence. Abraham lui dit : S’ils n’écoutent pas Moïse et les prophètes, quand même quelqu’un des morts ressusciterait, ils ne croiront pas."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:19-31\nEn ce temps-là, Jésus dit aux Pharisiens : Il y avait un homme riche, qui était vêtu de pourpre et de lin, et qui faisait chaque jour une chère splendide. Il y avait aussi un mendiant, nommé Lazare, qui était couché à sa porte, couvert d’ulcères, désirant se rassasier des miettes qui tombaient de la table du riche, et personne ne lui en donnait ; mais les chiens venaient aussi, et léchaient ses plaies. Or il arriva que le mendiant mourut, et fut emporté par les anges dans le sein d’Abraham. Le riche mourut aussi, et il fut enseveli dans l’enfer. Et levant les yeux, lorsqu’il était dans les tourments, il vit de loin Abraham, et Lazare dans son sein ; et s’écriant, il dit : Père Abraham, ayez pitié de moi, et envoyez Lazare, afin qu’il trempe l’extrémité de son doigt dans l’eau, pour rafraîchir ma langue, car je suis tourmenté dans cette flamme. Mais Abraham lui dit : Mon fils, souviens-toi que tu as reçu les biens pendant ta vie, et que Lazare a reçu de même les maux ; or maintenant il est consolé, et toi, tu es tourmenté. De plus, entre nous et vous un abîme a été établi ; de sorte que ceux qui voudraient passer d’ici vers vous, où de là venir ici, ne le peuvent pas. Le riche dit : Je vous supplie donc, père, de l’envoyer dans la maison de mon père ; car j’ai cinq frères, afin qu’il leur atteste ces choses, de peur qu’ils ne viennent eux aussi, dans ce lieu de tourments. Et Abraham lui dit : Ils ont Moïse et les prophètes : qu’ils les écoutent. Et il reprit : Non, père Abraham ; mais si quelqu’un des morts va vers eux, ils feront pénitence. Abraham lui dit : S’ils n’écoutent pas Moïse et les prophètes, quand même quelqu’un des morts ressusciterait, ils ne croiront pas.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Offertorium",
-            "texte": "!Exod 32:11; 32:13; 32:14\nMoïse pria en la présence du Seigneur son Dieu et dit : Pourquoi, Seigneur, êtes-vous irrité contre votre peuple ? Revenez de votre colère. Souvenez-vous d’Abraham, d’Isaac, et de Jacob auxquels vous avez juré de donner la terre où coulent le lait et le miel. Et le Seigneur s’apaisa, et il ne fit point de mal qu’il avait parlé de faire à son peuple."
+            "texte": "!Exod 32:11; 32:13; 32:14\nMoïse pria en la présence du Seigneur son Dieu et dit : Pourquoi, Seigneur, êtes-vous irrité contre votre peuple ? Revenez de votre colère. Souvenez-vous d’Abraham, d’Isaac, et de Jacob auxquels vous avez juré de donner la terre où coulent le lait et le miel. Et le Seigneur s’apaisa, et il ne fit point de mal qu’il avait parlé de faire à son peuple.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Secreta",
-            "texte": "Que les jeûnes consacrés par le présent sacrifice à la gloire de votre nom, nous sanctifient, Seigneur, en sorte que ce que nous témoignons extérieurement vouloir faire en les observant, s’accomplisse intérieurement quant à leur effet en nos âmes.\n$Per Dominum"
+            "texte": "Que les jeûnes consacrés par le présent sacrifice à la gloire de votre nom, nous sanctifient, Seigneur, en sorte que ce que nous témoignons extérieurement vouloir faire en les observant, s’accomplisse intérieurement quant à leur effet en nos âmes.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Communio",
-            "texte": "!Joann 6:57\nCelui qui mange ma chair, et boit mon sang, demeure en moi et moi en lui, dit le Seigneur."
+            "texte": "!Joann 6:57\nCelui qui mange ma chair, et boit mon sang, demeure en moi et moi en lui, dit le Seigneur.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad2-4.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en supplions, Seigneur, que votre grâce ne nous fasse point défaut, qu’elle nous attache à votre saint service et qu’elle nous procure toujours votre secours.\n$Per Dominum"
+            "texte": "Nous vous en supplions, Seigneur, que votre grâce ne nous fasse point défaut, qu’elle nous attache à votre saint service et qu’elle nous procure toujours votre secours.\n$Per Dominum",
+            "references": null
           }
         }
       },

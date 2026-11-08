@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/06-15",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ss. Vite, Modeste et Crescence, Martyrs",
         "classe": 1.1,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/06-15.txt",
@@ -25,6 +25,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -41,20 +42,30 @@
             "gabc": "(c3) MUl(f)tae(efE'C) ~* tri(e)bu(f)la(hh)ti(h)ó(hih)nes(hhh) ju(hh)stó(egf)rum,(f.) (;) et(f) de(fi) his(i) ó(ij)mni(ih)bus(h.) (,) li(h)be(h)rá(hih)vit(hhh) e(e)os(e!hgh) Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])nus :(f.) (:) Dó(fi)mi(i)nus(iji) cu(h)stó(hji)dit(i.) (,) ó(ij)mni(hf)a(f) os(fi)sa(ijh) e(h_f)ó(hfge)rum :(e.) (:) u(fgf)num(f_e) ex(f!gwh) his(hhe.) (,) non(f) con(e)te(d!fef)ré(f_[oh:h]g_[oh:h]f_[oh:h])tur.(f.) (::) <i>Ps.</i> Be(e)ne(fe)dí(eh)cam(h) Dó(h)mi(h)num(h) in(hg) o(hi)mni(i) tém(hi)po(h)re :(h.) *(:) sem(hf~)per(fh) laus(h) e(h)jus(h') in(i) o(hf)re(h) me(ge)o.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-15.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Oratio",
-            "texte": "Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito, Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed tibi plácita humilitáte profícere: ut, prava despíciens, quæcúmque recta sunt, libera exérceat caritáte.\n$Per Dominum"
+            "texte": "Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito, Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed tibi plácita humilitáte profícere: ut, prava despíciens, quæcúmque recta sunt, libera exérceat caritáte.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ\n!Sap 3:1-8\nJustorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus illórum: et quod a nobis est iter, extermínium: illi autem sunt in pace. Et si coram homínibus torménta passi sunt, spes illórum immortalitáte plena est. In paucis vexáti, in multis bene disponéntur: quóniam Deus tentávit eos, et invenit illos dignos se. Tamquam aurum in fornáce probávit illos, et quasi holocáusti hóstiam accépit illos, et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum."
+            "texte": "Léctio libri Sapiéntiæ\n!Sap 3:1-8\nJustorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus illórum: et quod a nobis est iter, extermínium: illi autem sunt in pace. Et si coram homínibus torménta passi sunt, spes illórum immortalitáte plena est. In paucis vexáti, in multis bene disponéntur: quóniam Deus tentávit eos, et invenit illos dignos se. Tamquam aurum in fornáce probávit illos, et quasi holocáusti hóstiam accépit illos, et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Lectio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Graduale": {
-            "texte": "!Ps 149:5; 149:1\nExsultábunt Sancti in glória: lætabúntur in cubílibus suis.\nV. Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum.",
+            "texte": "Exsultábunt Sancti in glória: lætabúntur in cubílibus suis. V. Cantáte Dómino cánticum novum: laus ejus in ecclésia sanctórum.",
             "incipit": {
               "incipit": "Exsultabunt sancti (Grad.)",
               "version": "Solesmes",
@@ -65,15 +76,17 @@
             "gabc": "(c3) EX(c)sul(e)tá(egf)bunt(f.) *(,) san(hfghvF'Ege/fg)cti(f.) (;) in(hh/ijIH') gló(ig'hvF'Ehhe//hiH'F)ri(f)a :(f/hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (:) lae(hh)ta(h)bún(hg//hi!jvHGhhg)(,)(i_[oh:h]hivHF)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) cu(ef)bí(f.0/[-0.5]hvGF'g)li(e)bus(f) su(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Can(f)tá(h)te(ij) Dó(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)mi(ji)no(i.) (:) cán(i!jw!kvJI'jw!kvJI')ti(i)cum(ij~) no(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)vum :(f.) (:) laus(hhi~) e(ivH'GE//fhGEfh..)(,)(gi!jvHF)jus(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) ec(d)clé(de'f)si(f)a(f.0/[-0.5]hvGF'g) () * san(ef)ctó(hf/h_i)rum.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-15.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 144:10-11\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
+            "texte": "Allelúja, allelúja. Sancti tui, Dómine, benedícent te: glóriam regni tui dicent. Allelúja.",
             "incipit": {
               "incipit": "Sancti tui... benedicent",
               "version": "Solesmes",
@@ -84,12 +97,14 @@
             "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. San(f_e/f!gwh')cti(i) tu(jiihi)i,(iv.hh/fgf.) (;) Dó(f!hh/ijHF'ivH'GEf./hfhhf/ge)mi(fe)ne,(e.) (;) be(ffe/ffe/fc..)(,)(ef!hvvF'Ehhhi)ne(h)dí(h)cent(ivH'Ghf~) te :(f.) (:) gló(f!h'i)ri(jiihi)am(iv.hh/fgf.) (,) re(f!hh/ijHF'ivH'GEf./hfhhf/ge)gni(e.) tu(hh)i(hi) (,) * di(i_[oh:h]h/jij)cent.(jvvIH'GE//f!gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-15.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:16-20\nIn illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me audit: et qui vos spernit, me spernit. Qui autem me spernit, spernit eum, qui misit me. Revérsi sunt autem septuagínta duo cum gáudio, dicéntes: Dómine, étiam dæmónia subjiciúntur nobis in nómine tuo. Et ait illis: Vidébam sátanam sicut fulgur de cœlo cadéntem. Ecce, dedi vobis potestátem calcandi supra serpéntes et scorpiónes, et super omnem virtútem inimíci: et nihil vobis nocébit. Verúmtamen in hoc nolíte gaudére, quia spíritus vobis subjiciúntur: gaudéte autem, quod nómina vestra scripta sunt in cœlis."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 10:16-20\nIn illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me audit: et qui vos spernit, me spernit. Qui autem me spernit, spernit eum, qui misit me. Revérsi sunt autem septuagínta duo cum gáudio, dicéntes: Dómine, étiam dæmónia subjiciúntur nobis in nómine tuo. Et ait illis: Vidébam sátanam sicut fulgur de cœlo cadéntem. Ecce, dedi vobis potestátem calcandi supra serpéntes et scorpiónes, et super omnem virtútem inimíci: et nihil vobis nocébit. Verúmtamen in hoc nolíte gaudére, quia spíritus vobis subjiciúntur: gaudéte autem, quod nómina vestra scripta sunt in cœlis.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 67:36\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
@@ -103,17 +118,27 @@
             "gabc": "(c4) MI(d!ewf)rá(fg/h_g)bi(ghg___)lis(gh~) De(hjI'GhvGF)us(f.) *(;) in(fh) san(hj/kjkvJI'H)ctis(h.) su(hj!kvJH)is :(hjhhg.) (:) De(hj)us(jjj) Is(h!jjj)ra(gh)el,(ixfihhg.) (,) i(g)pse(h) da(iij_hjvIH'hg)bit(ghggf.0) (;) vir(h!iwji~)tú(jv.jjj/kl)tem,(jkjji.) (,) et(g) for(g/jjj)ti(j_i)tú(i!k'l)di(jvIH)nem(hjhhg.) (,) ple(h_g/jkj)bi(jjj_g) su(gjhhg)ae :(ghggf.0) (:) be(fg)ne(h)dí(hjvvH'Gh!iwji)ctus(j.) De(jkj'/ki'jvHG'gfg.)(,)(fgh!jjjg//hjggf!gw!hi)us,(hg..) (:) al(hg~)le(gjg/hggf//g.h!iwj/k_[hl:1]ijvIH'iwj_ihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-15.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C3.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Secreta",
-            "texte": "Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur: sic nobis efféctum, Dómine, tuæ salvatiónis impéndant.\n$Per Dominum"
+            "texte": "Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur: sic nobis efféctum, Dómine, tuæ salvatiónis impéndant.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Sap 3:1-2; 3:3\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace.",
@@ -127,74 +152,88 @@
             "gabc": "(c3) JU(e)stó(g)rum(gf~) á(h)ni(g)mae(f.) (,) * in(eh~) ma(h)nu(h_f) De(g)i(f) sunt,(e.) (;) et(f) non(f) tan(g)get(f) il(ef)los(e.) (,) tor(e)mén(ef/hgh)tum(fe) ma(de)lí(e)ti(ef!gvFE'f)ae :(fe..) (:) vi(ei'!jv)si(i) sunt(ihi) ó(i)cu(g)lis(h) in(he~)si(f)pi(h)én(ge~)ti(f)um(h) mo(gihh)ri,(hg..) (;) il(hhg~)li(f_e) au(f)tem(e[ll:1]d~) sunt(e_[uh:l]f) in(e) pa(cedd)ce.(dc..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/06-15.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/06-15.txt",
             "section": "Postcommunio",
-            "texte": "Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et Crescéntiæ, medicína sacraménti et corpóribus nostris prosit et méntibus.\n$Per Dominum"
+            "texte": "Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et Crescéntiæ, medicína sacraménti et corpóribus nostris prosit et méntibus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Introitus",
-            "texte": "!Ps 33:20-21\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps ; toujours sa louange sera dans ma bouche.\n&Gloria\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé."
+            "texte": "!Ps 33:20-21\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé.\n!Ps 33:2\nJe bénirai le Seigneur en tout temps ; toujours sa louange sera dans ma bouche.\n&Gloria\nv. Les tribulations des justes sont nombreuses et le Seigneur les délivrera de toutes ces peines. Le Seigneur préserve tous leurs os ; il n’y en aura pas un seul de brisé.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, Seigneur, faites que, par l’intercession de vos saints Martyrs Vite, Modeste et Crescence, votre Église, éloignée de tout sentiment d’orgueil, professe l’humilité qui a le don de vous plaire, afin que, méprisant ce qui est mal, elle pratique avec amour et liberté tout ce qui est bien.\n$Per Dominum"
+            "texte": "Nous vous en prions, Seigneur, faites que, par l’intercession de vos saints Martyrs Vite, Modeste et Crescence, votre Église, éloignée de tout sentiment d’orgueil, professe l’humilité qui a le don de vous plaire, afin que, méprisant ce qui est mal, elle pratique avec amour et liberté tout ce qui est bien.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 3:1-8\nLes âmes des justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas. Aux yeux des insensés ils ont paru mourir, et leur sortie de ce monde a été regardée comme une affliction, et leur séparation d’avec nous comme un anéantissement, et cependant ils sont en paix ; et s’ils ont souffert des tourments devant les hommes, leur espérance est pleine d’immortalité. Leur tribulation a été légère, et leur récompense sera grande, car Dieu les a éprouvés, et les a trouvés dignes de lui. Il les a mis à l’épreuve comme l’or dans la fournaise, il les a agréés comme une hostie d’holocauste, et quand leur temps sera venu, il les regardera favorablement. Les justes brilleront, et ils étincelleront comme les feux qui courent à travers les roseaux. Ils jugeront les nations, et ils domineront les peuples, et leur Seigneur régnera éternellement."
+            "texte": "Léctio libri Sapiéntiæ.\n!Sap 3:1-8\nLes âmes des justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas. Aux yeux des insensés ils ont paru mourir, et leur sortie de ce monde a été regardée comme une affliction, et leur séparation d’avec nous comme un anéantissement, et cependant ils sont en paix ; et s’ils ont souffert des tourments devant les hommes, leur espérance est pleine d’immortalité. Leur tribulation a été légère, et leur récompense sera grande, car Dieu les a éprouvés, et les a trouvés dignes de lui. Il les a mis à l’épreuve comme l’or dans la fournaise, il les a agréés comme une hostie d’holocauste, et quand leur temps sera venu, il les regardera favorablement. Les justes brilleront, et ils étincelleront comme les feux qui courent à travers les roseaux. Ils jugeront les nations, et ils domineront les peuples, et leur Seigneur régnera éternellement.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/06-15.txt",
-            "section": "Graduale",
-            "texte": "!Ps 149:5; 149:1\nLes saints tressailliront dans la gloire ; ils se réjouiront sur leurs couches.\nV. Chantez au Seigneur un cantique nouveau : que sa louange retentisse dans l’assemblée des saints."
+            "section": "Graduale[0]",
+            "texte": "Les saints tressailliront dans la gloire ; ils se réjouiront sur leurs couches. V. Chantez au Seigneur un cantique nouveau : que sa louange retentisse dans l’assemblée des saints.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/06-15.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 144:10-11\nSeigneur, Vos saints vous bénissent : ils diront la gloire de votre règne. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Seigneur, Vos saints vous bénissent : ils diront la gloire de votre règne. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:16-20\nEn ce temps-là : Jésus dit à ses disciples : Celui qui vous écoute, m’écoute ; celui qui vous méprise, me méprise. Et celui qui me méprise, méprise Celui qui m’a envoyé. Or les soixante-douze revinrent avec joie, disant : Seigneur, les démons même nous sont soumis en votre nom. Et il leur dit : Je voyais Satan tomber du Ciel comme la foudre. Voici que je vous ai donné le pouvoir de fouler aux pieds les serpents, et les scorpions, et toute la puissance de l’ennemi ; et rien ne pourra vous nuire. Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les Cieux."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 10:16-20\nEn ce temps-là : Jésus dit à ses disciples : Celui qui vous écoute, m’écoute ; celui qui vous méprise, me méprise. Et celui qui me méprise, méprise Celui qui m’a envoyé. Or les soixante-douze revinrent avec joie, disant : Seigneur, les démons même nous sont soumis en votre nom. Et il leur dit : Je voyais Satan tomber du Ciel comme la foudre. Voici que je vous ai donné le pouvoir de fouler aux pieds les serpents, et les scorpions, et toute la puissance de l’ennemi ; et rien ne pourra vous nuire. Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les Cieux.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Offertorium",
-            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia."
+            "texte": "!Ps 67:36\nDieu est admirable dans ses saints. Le Dieu d’Israël donnera lui-même à son peuple la puissance et la force. Dieu soit béni. Alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Secreta",
-            "texte": "Comme les dons offerts en l’honneur des Saints attestent la gloire de la puissance divine, que de même, ô Seigneur, ils nous procurent les fruits de votre œuvre de salut.\n$Per Dominum"
+            "texte": "Comme les dons offerts en l’honneur des Saints attestent la gloire de la puissance divine, que de même, ô Seigneur, ils nous procurent les fruits de votre œuvre de salut.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Communio",
-            "texte": "!Sap 3:1-2; 3:3\nLes âmes des Justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas ; aux yeux des insensés, ils ont paru mourir, cependant ils sont en paix."
+            "texte": "!Sap 3:1-2; 3:3\nLes âmes des Justes sont dans la main de Dieu, et le tourment de la mort ne les touchera pas ; aux yeux des insensés, ils ont paru mourir, cependant ils sont en paix.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/06-15.txt",
             "section": "Postcommunio",
-            "texte": "Nourris solennellement, Seigneur, de votre hostie de bénédiction, nous vous demandons instamment que par l’intercession de vos Saints Martyrs Vite, Modeste et Crescence, le remède qu’est votre sacrement soit utile à nos corps et à nos âmes.\n$Per Dominum"
+            "texte": "Nourris solennellement, Seigneur, de votre hostie de bénédiction, nous vous demandons instamment que par l’intercession de vos Saints Martyrs Vite, Modeste et Crescence, le remède qu’est votre sacrement soit utile à nos corps et à nos âmes.\n$Per Dominum",
+            "references": null
           }
         }
       },

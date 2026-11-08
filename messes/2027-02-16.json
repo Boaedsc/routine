@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quad1-2",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Mardi de la première semaine de Carême",
         "classe": 2.1,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quad1-2.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c3) DO(d)mi(f)ne(h) *(,) re(h)fú(hi)gi(h)um(h) fa(hihhg)ctus(e) es(f) no(high)bis(gf..) (;) a(d) ge(e)ne(f)ra(f)ti(f)ó(f!gwh)ne(ff) et(e) pro(f)gé(f!h'i)ni(hg/ih)e :(h.) (:) a(gxg) saé(gxfg'h)cu(gf)lo,(f) et(f) in(gxg) saé(gxfg'h)cu(f_e)lum(f.) (,) tu(fhF'EfvED'e) es.(e[ll:1]d..) (::) <i>Ps.</i> Pri(d)ús(f)quam(h) mon(h)tes(h) fí(h)e(h)rent,(h.) (,) aut(h) for(h)ma(h)ré(h)tur(h) ter(h)ra(h) et(i) or(i)bis :(h.) *(:) a(f) saé(h)cu(h)lo,(h) et(h) us(h)que(h) in(h) saé(h)cu(h)lum(h) tu(i) es(g) De(h)us.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Quad1-2.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Oratio",
-            "texte": "Réspice, Dómine, famíliam tuam: et præsta; ut apud te mens nostra tuo desidério fúlgeat, quæ se carnis maceratióne castígat.\n$Per Dominum"
+            "texte": "Réspice, Dómine, famíliam tuam: et præsta; ut apud te mens nostra tuo desidério fúlgeat, quæ se carnis maceratióne castígat.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nIn diébus illis: Locútus est Isaías Prophéta, dicens: Quǽrite Dóminum, dum inveníri potest: invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revertátur ad Dóminum: et miserébitur ejus, et ad Deum nostrum: quóniam multus est ad ignoscéndum. Non enim cogitationes meæ cogitatiónes vestræ: neque viæ vestræ viæ meæ, dicit Dóminus. Quia sicut exaltántur cœli a terra, sic exaltátæ sunt viæ meæ a viis vestris, et cogitatiónes meæ a cogitatiónibus vestris. Et quómodo descéndit imber et nix de cœlo, et illuc ultra non revértitur, sed inébriat terram, et infúndit eam, et germináre eam facit, et dat semen serénti, et panem comedénti: sic erit verbum meum, quod egrediétur de ore meo: non revertétur ad me vácuum, sed fáciet quæcúmque volui, et prosperábitur in his, ad quæ misi illud: ait Dóminus omnípotens."
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nIn diébus illis: Locútus est Isaías Prophéta, dicens: Quǽrite Dóminum, dum inveníri potest: invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revertátur ad Dóminum: et miserébitur ejus, et ad Deum nostrum: quóniam multus est ad ignoscéndum. Non enim cogitationes meæ cogitatiónes vestræ: neque viæ vestræ viæ meæ, dicit Dóminus. Quia sicut exaltántur cœli a terra, sic exaltátæ sunt viæ meæ a viis vestris, et cogitatiónes meæ a cogitatiónibus vestris. Et quómodo descéndit imber et nix de cœlo, et illuc ultra non revértitur, sed inébriat terram, et infúndit eam, et germináre eam facit, et dat semen serénti, et panem comedénti: sic erit verbum meum, quod egrediétur de ore meo: non revertétur ad me vácuum, sed fáciet quæcúmque volui, et prosperábitur in his, ad quæ misi illud: ait Dóminus omnípotens.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 140:2\nDirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine,\nV. Elevátio mánuum meárum sacrifícium vespertínum.",
+            "texte": "Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine, V. Elevátio mánuum meárum sacrifícium vespertínum.",
             "incipit": {
               "incipit": "Dirigatur oratio mea",
               "version": "Solesmes",
@@ -63,22 +67,26 @@
             "gabc": "(c2) DI(c)ri(cg)gá(g)tur(g_[oh:h]e/fgddc.) (,) * o(c)rá(c!feg)ti(gh)o(hfg) me(gh!ivHG'h)a(gh/ih..) (;) sic(f)ut(g) in(hj~)cén(j)sum(j_g/hg..) (,) in(g) con(h)spé(hj)ctu(i) tu(hfg)o,(g_[oh:h]e//fgf'/gddc.) (;) Dó(ffd/fef)mi(e)ne.(ce!ghGF'fe//ced/e[ll:1]ddc.) (::) \r\n<sp>V/</sp>. E(f)le(g)vá(g_[uh:l]j//ij/kii'iivGF'fd)(,)(ffd/ffg)ti(g)o(g_[oh:h]f//gih/ijhhg.) (;) má(gj)nu(j_0)um(k) me(g)á(igge//fhGF'fd!ew!fvE'DC'd)rum(dc..) (:) sa(c)cri(d)fí(fgf)ci(dgf/gh)um(g.) *(,) ves(c)per(ff)tí(fv.ef/gfg)num.(gge./giHG'ivHG'ge.) (,) (fge'fvD'Cd_eddc.) (::)",
             "mp3": "graduel_dirigatur.mp3",
             "fichier": "Latin/Tempora/Quad1-2.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 21:10-17\nIn illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa cívitas, dicens: Quis est hic? Pópuli autem dicébant: Hic est Jesus Prophéta a Názareth Galilǽæ. Et intrávit Jesus in templum Dei, et ejiciébat omnes vendéntes, et eméntes in templo; et mensas nummulariórum et cáthedras vendéntium colúmbas evértit: et dicit eis: Scriptum est: Domus mea domus oratiónis vocábitur: vos autem fecístis illam spelúncam latrónum. Et accessérunt ad eum cæci et claudi in templo: et sanávit eos. Vidéntes autem príncipes sacerdótum et scribæ mirabília, quæ fecit, et púeros clamantes in templo, et dicéntes: Hosánna fílio David: indignáti sunt, et dixérunt ei: Audis, quid isti dicunt? Jesus autem dixit eis: Utique. Numquam legístis: Quia ex ore infántium et lacténtium perfecísti laudem? Et relíctis illis, ábiit foras extra civitátem in Bethániam: ibíque mansit.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 30:15-16\nIn te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora mea.",
@@ -92,17 +100,20 @@
             "gabc": "(f3) IN(c) te(ef'g) spe(f)rá(h.f!gwh/i_[oh:h]h)vi,(hhhvGEf!gw!hvGF') (,) * Dó(f)mi(f!gwhgh)ne :(gf..) (:) di(fh)xi :(hhh/i_[uh:l]j) (,) Tu(hiH'F) es(f.) De(f!gw!hvGF)us(ef) me(f!gwh/ihhgh)us,(hg..) (:) in(hh) má(hi/jij)ni(h)bus(hhvGF) tu(hh/i_[oh:h]h)is(h.) (;) tém(h_f/hhvF'E//f!hhh)po(f_e)ra(egf) me(f_[oh:h]g_[oh:h]f_[oh:h])a.(f.) (::) <i>T. P.</i> Al(fg)le(e/hhhhiH//E'//f/hhh_f/hihi)lú(f_[oh:h]g_[oh:h]f_[oh:h]){ia}.(f.) (::)",
             "mp3": "offertoire_in-te-speravi.mp3",
             "fichier": "Latin/Tempora/Quad1-2.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Secreta",
-            "texte": "Oblátis, quǽsumus, Dómine, placáre munéribus: et a cunctis nos defénde perículis.\n$Per Dominum"
+            "texte": "Oblátis, quǽsumus, Dómine, placáre munéribus: et a cunctis nos defénde perículis.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 4:2\nCum invocárem te, exaudísti me, Deus justítiæ meæ: in tribulatióne dilatásti me: miserére mihi, Dómine, et exáudi oratiónem meam.",
@@ -116,74 +127,95 @@
             "gabc": "(f3) CUM(f) in(f!gwh)vo(hf)cá(h)rem(iji~) te,(j.) (,) * ex(j)au(ijI'G)dí(hi)sti(i) me,(h.) (;) De(h)us(fgffe) ju(f)stí(hi)ti(ji)ae(hg) me(fg!hvGF'g)ae :(gf..) (:) in(f) tri(h)bu(ij)la(i)ti(i)ó(ihi)ne(f!gwh.) (;) di(hi'j)la(j)tá(jij)sti(i) me :(hg/hiih.0) (:) mi(h)se(iji)ré(j)re(i_[oh:h]g) mi(i)hi(hi) Dó(h)mi(fgFE'f)ne,(fe..) (;) et(f) ex(fe)áu(fgef)di(efEC.) (,) o(c)ra(ef)ti(e)ó(hh)nem(ig/h_g) me(fg!hvGF'g)am.(gf..) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Quad1-2.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad1-2.txt",
             "section": "Postcommunio",
-            "texte": "Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus.\n$Per Dominum"
+            "texte": "Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cujus per hæc mystéria pignus accépimus.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Epi5-0.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Introitus",
-            "texte": "!Ps 89:1; 89:2\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.\n!Ps 89:2\nAvant que les montagnes eussent été faites, ou que la terre et le monde eussent été formés, vous êtes Dieu de toute éternité, et dans tous les siècles.\n&Gloria\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes."
+            "texte": "!Ps 89:1; 89:2\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.\n!Ps 89:2\nAvant que les montagnes eussent été faites, ou que la terre et le monde eussent été formés, vous êtes Dieu de toute éternité, et dans tous les siècles.\n&Gloria\nv. Seigneur, vous avez été pour nous un refuge de génération en génération ; de toute éternité et dans tous les siècles vous êtes.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Oratio",
-            "texte": "Regardez favorablement votre famille, Seigneur, et faites que notre âme, qui se châtie par la mortification de la chair, brille à vos yeux par un ardent désir de vous posséder.\n$Per Dominum"
+            "texte": "Regardez favorablement votre famille, Seigneur, et faites que notre âme, qui se châtie par la mortification de la chair, brille à vos yeux par un ardent désir de vous posséder.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nEn ces jours-là, le prophète Isaïe parla ainsi : Cherchez le Seigneur, pendant qu’on peut le trouver ; invoquez-le, tandis qu’il est près. Que le méchant abandonne sa voie, et le criminel ses pensées ; qu’il revienne au Seigneur, et il lui fera grâce ; à notre Dieu, car il pardonne largement, Car mes pensées ne sont pas vos pensées, et vos voies ne sont pas mes voies, - dit le Seigneur. Autant les cieux sont élevés au-dessus de la terre, autant mes voies sont élevées au-dessus de vos voies et mes pensées au-dessus de vos pensées. Comme la pluie et la neige descendent du ciel et n’y retournent pas, qu’elles n’aient abreuvé et fécondé la terre et qu’elles ne l’aient fait germer, qu’elles n’aient donné la semence au semeur ; et le pain à celui qui mange ; ainsi en est-il de ma parole qui sort de ma bouche elle ne revient pas à moi sans effet, mais elle exécute ce que j’ai voulu, et accomplit ce pour quoi je l’ai envoyée, dit le Seigneur tout-puissant."
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 55:6-11\nEn ces jours-là, le prophète Isaïe parla ainsi : Cherchez le Seigneur, pendant qu’on peut le trouver ; invoquez-le, tandis qu’il est près. Que le méchant abandonne sa voie, et le criminel ses pensées ; qu’il revienne au Seigneur, et il lui fera grâce ; à notre Dieu, car il pardonne largement, Car mes pensées ne sont pas vos pensées, et vos voies ne sont pas mes voies, - dit le Seigneur. Autant les cieux sont élevés au-dessus de la terre, autant mes voies sont élevées au-dessus de vos voies et mes pensées au-dessus de vos pensées. Comme la pluie et la neige descendent du ciel et n’y retournent pas, qu’elles n’aient abreuvé et fécondé la terre et qu’elles ne l’aient fait germer, qu’elles n’aient donné la semence au semeur ; et le pain à celui qui mange ; ainsi en est-il de ma parole qui sort de ma bouche elle ne revient pas à moi sans effet, mais elle exécute ce que j’ai voulu, et accomplit ce pour quoi je l’ai envoyée, dit le Seigneur tout-puissant.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
-            "section": "Graduale",
-            "texte": "!Ps 140:2\nQue ma prière, Seigneur, s’élève devant vous comme l’encens.\nV. Que l’élévation de mes mains vous soit comme le sacrifice du soir."
+            "section": "Graduale[0]",
+            "texte": "Que ma prière, Seigneur, s’élève devant vous comme l’encens. V. Que l’élévation de mes mains vous soit comme le sacrifice du soir.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 21:10-17\nEn ce temps- là, Jésus étant entré dans Jérusalem, toute la ville fut en émoi ; on disait : « Qui est celui-ci ? » Et les foules disaient : « C’est le prophète Jésus, de Nazareth en Galilée. » Jésus entra dans le temple et chassa tous ceux qui vendaient et achetaient dans le temple ; il renversa les tables des changeurs et les sièges de ceux qui vendaient les colombes ; et il leur dit : « Il est écrit : Ma maison sera appelée maison de prière ; mais vous, vous en faites une caverne de voleurs. » Des aveugles et des boiteux vinrent à lui dans le temple, et il les guérit. Mais les grands prêtres et les scribes, voyant les miracles qu’il venait de faire et les enfants qui criaient dans le temple et disaient : « Hosanna au fils de David ! » s’indignèrent, et ils lui dirent : « Entendez-vous ce qu’ils disent ? — Oui, leur dit Jésus. N’avez-vous jamais lu : De la bouche des petits enfants et des nourrissons vous avez préparé une louange ? » Et les ayant laissés là, il sortit de la ville pour gagner Béthanie, où il demeura."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthaeum.\n!Matt 21:10-17\nEn ce temps- là, Jésus étant entré dans Jérusalem, toute la ville fut en émoi ; on disait : « Qui est celui-ci ? » Et les foules disaient : « C’est le prophète Jésus, de Nazareth en Galilée. » Jésus entra dans le temple et chassa tous ceux qui vendaient et achetaient dans le temple ; il renversa les tables des changeurs et les sièges de ceux qui vendaient les colombes ; et il leur dit : « Il est écrit : Ma maison sera appelée maison de prière ; mais vous, vous en faites une caverne de voleurs. » Des aveugles et des boiteux vinrent à lui dans le temple, et il les guérit. Mais les grands prêtres et les scribes, voyant les miracles qu’il venait de faire et les enfants qui criaient dans le temple et disaient : « Hosanna au fils de David ! » s’indignèrent, et ils lui dirent : « Entendez-vous ce qu’ils disent ? — Oui, leur dit Jésus. N’avez-vous jamais lu : De la bouche des petits enfants et des nourrissons vous avez préparé une louange ? » Et les ayant laissés là, il sortit de la ville pour gagner Béthanie, où il demeura.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Offertorium",
-            "texte": "!Ps 30:15-16\nJ’ai espéré en vous, Seigneur. J’ai dit : Vous êtes mon Dieu ; ma destinée est entre vos mains."
+            "texte": "!Ps 30:15-16\nJ’ai espéré en vous, Seigneur. J’ai dit : Vous êtes mon Dieu ; ma destinée est entre vos mains.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Seigneur, soyez apaisé par les dons que nous vous offrons et défendez-nous de tout danger.\n$Per Dominum"
+            "texte": "Nous vous en supplions, Seigneur, soyez apaisé par les dons que nous vous offrons et défendez-nous de tout danger.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Communio",
-            "texte": "!Ps 4:2\nLorsque je vous ai invoqué, ô Dieu de ma justice, vous m’avez exaucé. Vous m’avez mis au large dans la tribulation. Ayez pitié de moi, Seigneur, et exaucez ma prière."
+            "texte": "!Ps 4:2\nLorsque je vous ai invoqué, ô Dieu de ma justice, vous m’avez exaucé. Vous m’avez mis au large dans la tribulation. Ayez pitié de moi, Seigneur, et exaucez ma prière.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad1-2.txt",
             "section": "Postcommunio",
-            "texte": "Ô Dieu tout puissant, faites, nous vous en prions, que nous ressentions l’effet du salut dont nous avons reçu le gage en ces mystères.\n$Per Dominum"
+            "texte": "Ô Dieu tout puissant, faites, nous vous en prions, que nous ressentions l’effet du salut dont nous avons reçu le gage en ces mystères.\n$Per Dominum",
+            "references": null
           }
         }
       },

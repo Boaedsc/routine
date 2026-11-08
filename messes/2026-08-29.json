@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/08-29",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Décollation de St Jean-Baptiste",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/08-29.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c3) LO(df)qué(hhi)bar(h.) *(,) de(h) te(h)sti(h)mó(i)ni(h.f!gwh)is(h) tu(hi!jvIH'i)is(ih..) (;) in(h) con(iji~)spé(j)ctu(h) re(hjIH'i)gum,(h.) (,) et(fdf) non(hh) con(ijh)fun(hh)dé(h_[oh:h]i_[oh:h]h_[oh:h])bar :(h.) (:) et(h_) me(e)di(f)tá(hhi)bar(h.) (,) in(hihh) man(ef)dá(hhi)tis(h) tu(hh/ijh)is,(f/hhfh.) (;) quae(d) di(ef)lé(f!hhf)xi(e) ni(ef/hfh)mis.(d.) (::) <i>Ps.</i> Lau(d)dá(f)te(h) Dó(h)mi(h)num(h) o(h)mnes(h) gen(h)tes,(h.) (,) lau(h)dá(h)te(h) e(h)um(h) o(h)mnes(i) pó(i)pu(h)li :(h.) *(:) quó(f)ni(h)am(h) con(h)fir(h)má(h)ta(h) est(h) su(h)per(h) nos(h) mi(h)se(h)ri(h)cór(h)di(h)a(i) e(i)jus,(h.) (;) et(f) vé(h)ri(h)tas(h) Dó(h)mi(h)ni(h) ma(h)net(h) in(i) ae(g)tér(h)num.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/08-29.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Oratio",
-            "texte": "Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus, Dómine, veneránda festívitas: salutáris auxílii nobis præstet efféctum:\n$Qui vivis"
+            "texte": "Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus, Dómine, veneránda festívitas: salutáris auxílii nobis præstet efféctum:\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 1:17-19\nIn diébus illis: Factum est verbum Dómini ad me, dicens: Accínge lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio tibi. Ne formides a fácie eórum: nec enim timére te fáciam vultum eórum. Ego quippe dedi te hódie in civitátem munítam, et in colúmnam férream, et in murum æreum, super omnem terram, régibus Juda, princípibus ejus, et sacerdótibus, et pópulo terræ. Et bellábunt advérsum te, et non prævalebunt: quia ego tecum sum, ait Dóminus, ut líberem te."
+            "texte": "Léctio Jeremíæ Prophétæ\n!Jer 1:17-19\nIn diébus illis: Factum est verbum Dómini ad me, dicens: Accínge lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio tibi. Ne formides a fácie eórum: nec enim timére te fáciam vultum eórum. Ego quippe dedi te hódie in civitátem munítam, et in colúmnam férream, et in murum æreum, super omnem terram, régibus Juda, princípibus ejus, et sacerdótibus, et pópulo terræ. Et bellábunt advérsum te, et non prævalebunt: quia ego tecum sum, ait Dóminus, ut líberem te.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 91:13; 91:14\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n!Ps 91:3\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+            "texte": "Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
             "incipit": {
               "incipit": "Justus ut palma",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c3) JU(egf)stus(f.) *(,) ut(f) pal(f)ma(f) flo(f)ré(hfghvF'Ege/fg)bit :(f.) (:) sic(f)ut(f) ce(hf/hi'j)drus(gxhffegvFE.) (,) Lí(e)ba(e[ll:1]d/fef)ni(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) mul(hh)ti(h)pli(h)cá(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF')bi(f)tur(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) in(d) do(de'fhvGF'g)mo(ef) Dó(hf)mi(hi)ni.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHFgwhf.1) (::) \r\n<sp>V/</sp>. Ad(f) an(h)nun(hi)ti(i)án(i)dum(ij~) ma(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)ne(ji..) (:) mi(i!jw!kvJI'jw!kvJI)se(i)ri(i)cór(i)di(i)am(ij~) tu(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)am,(f.) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) per(de'fhvGFgef) no(hf/h_i)ctem.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/08-29.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Osee 14:6\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
+            "texte": "Allelúja, allelúja. Justus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.",
             "incipit": {
               "incipit": "Justus germinabit",
               "version": "Solesmes",
@@ -82,12 +88,14 @@
             "gabc": "(c4) AL(d)le(ff)lú(g.f!gwhgh){ia}.(hhf.) <clear>*(,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h!j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::) <sp>V/</sp>. Ju(h_fhhvGE'fd)stus(d.) ger(dfd___dc~)mi(d)ná(d_[oh:h]e_[oh:h]d_[oh:h]hvhg/!gfixg!igh)bit(h.) (;) sic(d)ut(efg~) lí(g)li(gfhvFEgvFD)um :(d.) (:) et(f) flo(ghg)ré(h/jhhg//hvGFgvFDfvECd./ffdfvECd.)(,)(fghjhhg//hvGFhv.//defhvGE'fd)bit(d.) (;) in(fvEC) ae(egf)tér(e[ll:1]d/ffd)num(d.) (:) * an(d)te(ff) Dó(g_[oh:h]f)mi(f!gwhgh)num.(hhf.) (,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h/j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/08-29.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 6:17-29\nIn illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum in cárcere propter Herodíadem, uxorem Philíppi fratris sui, quia dúxerat eam. Dicebat enim Joánnes Heródi: Non licet tibi habére uxórem fratris tui. ¶ Heródias autem insidiabátur illi, et volébat occídere eum, nec póterat. Heródes enim metuébat Joánnem, sciens eum virum justum et sanctum: et custodiébat eum, et audíto eo multa faciébat, et libénter eum audiébat. Et cum dies opportúnus accidísset, Heródes natális sui cœnam fecit princípibus et tribúnis et primis Galilææ. Cumque introísset fília ipsíus Herodíadis, et saltásset, et placuísset Heródi simúlque recumbéntibus; rex ait puéllæ: Pete a me, quod vis, et dabo tibi. Et jurávit illi: Quia quidquid petiéris dabo tibi, licet dimídium regni mei. Quæ cum exiísset, dixit matri suæ: Quid petam? At illa dixit: Caput Joánnis Baptístæ. Cumque introísset statim cum festinatióne ad regem, petívit dicens: Volo, ut protínus des mihi in disco caput Joánnis Baptístæ. Et contristátus est rex: propter jusjurándum et propter simul discumbéntes nóluit eam contristáre: sed misso spiculatóre, præcépit afférri caput ejus in disco. Et decollávit eum in cárcere. Et áttulit caput ejus in disco: et dedit illud puéllæ, et puella dedit matri suæ. Quo audíto, discípuli ejus venérunt et tulérunt corpus ejus: et posuérunt illud in monuménto."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum\n!Marc 6:17-29\nIn illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum in cárcere propter Herodíadem, uxorem Philíppi fratris sui, quia dúxerat eam. Dicebat enim Joánnes Heródi: Non licet tibi habére uxórem fratris tui. ¶ Heródias autem insidiabátur illi, et volébat occídere eum, nec póterat. Heródes enim metuébat Joánnem, sciens eum virum justum et sanctum: et custodiébat eum, et audíto eo multa faciébat, et libénter eum audiébat. Et cum dies opportúnus accidísset, Heródes natális sui cœnam fecit princípibus et tribúnis et primis Galilææ. Cumque introísset fília ipsíus Herodíadis, et saltásset, et placuísset Heródi simúlque recumbéntibus; rex ait puéllæ: Pete a me, quod vis, et dabo tibi. Et jurávit illi: Quia quidquid petiéris dabo tibi, licet dimídium regni mei. Quæ cum exiísset, dixit matri suæ: Quid petam? At illa dixit: Caput Joánnis Baptístæ. Cumque introísset statim cum festinatióne ad regem, petívit dicens: Volo, ut protínus des mihi in disco caput Joánnis Baptístæ. Et contristátus est rex: propter jusjurándum et propter simul discumbéntes nóluit eam contristáre: sed misso spiculatóre, præcépit afférri caput ejus in disco. Et decollávit eum in cárcere. Et áttulit caput ejus in disco: et dedit illud puéllæ, et puella dedit matri suæ. Quo audíto, discípuli ejus venérunt et tulérunt corpus ejus: et posuérunt illud in monuménto.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 20:2-3\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (Allelúja.)",
@@ -101,17 +109,27 @@
             "gabc": "(c2) IN(c) vir(d)tú(ff)te(f) tu(f)a,(f.) *(,) Dó(fgf)mi(exfee)ne,(c!ece.) (;) <nlba>lae(c)tá(ffg)bi(f)tur</nlba>(fg/hg/h_g) ju(fg!hvGF'g)stus,(gf..) (:) et(f) su(f!gwh'!iv)per(h) sa(h)lu(h)tá(h/jjh/i_[uh:l]j)re(g_[oh:h]fg) tu(d!fff/g_[oh:h]f)um(f.) (;) ex(g)sul(f)tá(f)bit(d!ff) ve(d)he(ff/gf)mén(deD~'C~)ter :(dc..) (:) de(c)si(d)dé(ffg)ri(f)um(f.) (,) á(hj)ni(g)mae(f) e(d!fffvEDevD~C~)jus(dc..) (;) tri(c)bu(d)í(ffg)sti(f) <nlba>e(f!gwhghjjh//giH'GF.)(,)(fff//fgf/ghg/hf/g_[oh:h]f)i.</nlba>(f.) (::) <nlba><i>T. P.</i> Al(gf~)le(fff//hg/h_g)lú(fg!hvGF'g){ia}.</nlba>(gf..) (::)",
             "mp3": "offertoire_in-virtute-tua.mp3",
             "fichier": "Latin/Sancti/08-29.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Secreta",
-            "texte": "Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad salútem.\n$Per Dominum"
+            "texte": "Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad salútem.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 20:4\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso.",
@@ -125,74 +143,88 @@
             "gabc": "(c4) PO(c)su(d)í(ff)sti(fe/ghf') Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne(f.) *(;) in(f) cá(ixf!gwh'!iv)pi(h)te(h') e(j)jus(hhg) co(h!iwj)ró(h_ghvGF'g)nam(gf..) (;) de(fv.egf) lá(fg)pi(deDC'd)de(d_c) pre(f)ti(gfhvGF)ó(f_[oh:h]g_[oh:h]f_[oh:h])so.(f.) (::)",
             "mp3": "communion_posuisti.mp3",
             "fichier": "Latin/Sancti/08-29.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/08-29.txt",
             "section": "Postcommunio",
-            "texte": "Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in nobis pótius édita gaudeámus.\n$Per Dominum"
+            "texte": "Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in nobis pótius édita gaudeámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Introitus",
-            "texte": "!Ps 118:46-47.\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion : et je méditais sur vos commandements, car je les aime.\n!Ps 91:2\nIl est bon de louer le Seigneur : et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion : et je méditais sur vos commandements, car je les aime."
+            "texte": "!Ps 118:46-47.\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion : et je méditais sur vos commandements, car je les aime.\n!Ps 91:2\nIl est bon de louer le Seigneur : et de chanter votre nom, ô Très-Haut.\n&Gloria\nv. Je parlais de vos préceptes devant les rois, et je n’en avais pas de confusion : et je méditais sur vos commandements, car je les aime.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Oratio",
-            "texte": "Nous vous en prions, Seigneur, faites que la fête solennelle de votre saint Précurseur et Martyr Jean-Baptiste, nous procure des grâces efficaces de salut.\n$Qui vivis"
+            "texte": "Nous vous en prions, Seigneur, faites que la fête solennelle de votre saint Précurseur et Martyr Jean-Baptiste, nous procure des grâces efficaces de salut.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Lectio",
-            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 1:17-19\nEn ces jours-là : la Parole du Seigneur me fut adressée, disant : Toi donc, ceins tes reins, et lève-toi, et dis-leur tout ce que Je t’ordonne. Ne redoute pas de paraître devant eux, car Je ferai que tu ne craignes pas leur présence. Car Je t’établis aujourd’hui comme une ville forte, comme une colonne de fer et un mur d’airain sur tout le pays, à l’égard des rois de Juda, de ses princes, de ses prêtres et de son peuple. Ils combattront contre toi, mais ils n’auront pas l’avantage, car Je suis avec toi pour te délivrer, dit le Seigneur."
+            "texte": "Léctio Jeremíæ Prophétæ.\n!Jer 1:17-19\nEn ces jours-là : la Parole du Seigneur me fut adressée, disant : Toi donc, ceins tes reins, et lève-toi, et dis-leur tout ce que Je t’ordonne. Ne redoute pas de paraître devant eux, car Je ferai que tu ne craignes pas leur présence. Car Je t’établis aujourd’hui comme une ville forte, comme une colonne de fer et un mur d’airain sur tout le pays, à l’égard des rois de Juda, de ses princes, de ses prêtres et de son peuple. Ils combattront contre toi, mais ils n’auront pas l’avantage, car Je suis avec toi pour te délivrer, dit le Seigneur.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/08-29.txt",
-            "section": "Graduale",
-            "texte": "!Ps 91:13; 91:14\nLe juste fleurira comme le palmier : il se multipliera comme le cèdre du Liban dans la maison du Seigneur.\n!Ps 91:3\nPour annoncer le matin votre miséricorde et votre vérité durant la nuit."
+            "section": "Graduale[0]",
+            "texte": "Le juste fleurira comme le palmier : il se multipliera comme le cèdre du Liban dans la maison du Seigneur. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/08-29.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Osee 14:6\nLe juste germera comme le lis : et il fleurira éternellement en présence du Seigneur. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Le juste germera comme le lis : et il fleurira éternellement en présence du Seigneur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 6:17-29\nEn ce temps-là : Hérode avait envoyé prendre Jean, et l’avait enchaîné en prison, à cause d’Hérodiade, femme de son frère Philippe, qu’il avait épousée. Car Jean disait à Hérode : Il ne t’est pas permis d’avoir la femme de ton frère. Or Hérodiade tendait des pièges à Jean, et voulait le faire mourir ; mais elle ne le pouvait pas, Car Hérode craignait Jean, sachant qu’il était un homme juste et saint, et il le gardait, faisait beaucoup de choses selon ses avis, et l’écoutait volontiers. Mais il arriva un jour opportun : à l’anniversaire de sa naissance, Hérode donna un grand festin aux grands, aux officiers et aux principaux de la Galilée. La fille d’Hérodiade étant entrée, et ayant dansé, et ayant plu à Hérode et à ceux qui étaient à table avec lui, le roi dit à la jeune fille : Demande-moi ce que tu voudras, et je te le donnerai. Et il fit ce serment : Tout ce que tu me demanderas, je te le donnerai, quand ce serait la moitié de mon royaume. Elle, étant sortie, dit à sa mère : Que demanderai-je ? Sa mère lui dit : La tête de Jean-Baptiste. Et étant rentrée aussitôt en hâte auprès du roi, elle fit sa demande, en disant : Je veux que tu me donnes à l’instant sur un plat la tête de Jean-Baptiste. Le roi fut attristé ; mais, à cause de son serment et de ceux qui étaient à table avec lui, il ne voulut pas l’affliger par un refus. Il envoya donc un de ses gardes, et lui ordonna d’apporter la tête de Jean sur un plat. Le garde le décapita dans la prison, et il apporta sa tête sur un plat, et la donna à la jeune fille, et la jeune fille la donna à sa mère. L’ayant appris, les disciples de Jean vinrent, et prirent son corps, et le mirent dans un sépulcre."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Marcum.\n!Marc 6:17-29\nEn ce temps-là : Hérode avait envoyé prendre Jean, et l’avait enchaîné en prison, à cause d’Hérodiade, femme de son frère Philippe, qu’il avait épousée. Car Jean disait à Hérode : Il ne t’est pas permis d’avoir la femme de ton frère. Or Hérodiade tendait des pièges à Jean, et voulait le faire mourir ; mais elle ne le pouvait pas, Car Hérode craignait Jean, sachant qu’il était un homme juste et saint, et il le gardait, faisait beaucoup de choses selon ses avis, et l’écoutait volontiers. Mais il arriva un jour opportun : à l’anniversaire de sa naissance, Hérode donna un grand festin aux grands, aux officiers et aux principaux de la Galilée. La fille d’Hérodiade étant entrée, et ayant dansé, et ayant plu à Hérode et à ceux qui étaient à table avec lui, le roi dit à la jeune fille : Demande-moi ce que tu voudras, et je te le donnerai. Et il fit ce serment : Tout ce que tu me demanderas, je te le donnerai, quand ce serait la moitié de mon royaume. Elle, étant sortie, dit à sa mère : Que demanderai-je ? Sa mère lui dit : La tête de Jean-Baptiste. Et étant rentrée aussitôt en hâte auprès du roi, elle fit sa demande, en disant : Je veux que tu me donnes à l’instant sur un plat la tête de Jean-Baptiste. Le roi fut attristé ; mais, à cause de son serment et de ceux qui étaient à table avec lui, il ne voulut pas l’affliger par un refus. Il envoya donc un de ses gardes, et lui ordonna d’apporter la tête de Jean sur un plat. Le garde le décapita dans la prison, et il apporta sa tête sur un plat, et la donna à la jeune fille, et la jeune fille la donna à sa mère. L’ayant appris, les disciples de Jean vinrent, et prirent son corps, et le mirent dans un sépulcre.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Offertorium",
-            "texte": "!Ps 20:2-3\nSeigneur, le juste se réjouira dans votre force, et il tressaillira d’une vive allégresse, parce que vous l’avez sauvé : vous lui avez accordé le désir de son cœur."
+            "texte": "!Ps 20:2-3\nSeigneur, le juste se réjouira dans votre force, et il tressaillira d’une vive allégresse, parce que vous l’avez sauvé : vous lui avez accordé le désir de son cœur.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Secreta",
-            "texte": "Que les offrandes que nous apportons en l’honneur de la passion de votre saint Martyr Jean-Baptiste, nous vous le demandons, Seigneur, soient profitables à notre salut par son intercession.\n$Per Dominum"
+            "texte": "Que les offrandes que nous apportons en l’honneur de la passion de votre saint Martyr Jean-Baptiste, nous vous le demandons, Seigneur, soient profitables à notre salut par son intercession.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Communio",
-            "texte": "!Ps 20:4\nVous avez mis sur sa tête, Seigneur, une couronne de pierres précieuses."
+            "texte": "!Ps 20:4\nVous avez mis sur sa tête, Seigneur, une couronne de pierres précieuses.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/08-29.txt",
             "section": "Postcommunio",
-            "texte": "Que la solennité de saint Jean-Baptiste, Seigneur nous procure la grâce de révérer les sacrements augustes que nous avons reçus et qui ont été révélés, ainsi que celle de nous réjouir toujours plus de les voir réalisés parmi nous.\n$Per Dominum"
+            "texte": "Que la solennité de saint Jean-Baptiste, Seigneur nous procure la grâce de révérer les sacrements augustes que nous avons reçus et qui ont été révélés, ainsi que celle de nous réjouir toujours plus de les voir réalisés parmi nous.\n$Per Dominum",
+            "references": null
           }
         }
       },

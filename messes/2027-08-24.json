@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/08-24",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "St Barthélemy Apôtre",
         "classe": 5.5,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/08-24.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(f3) MI(e)HI(f) au(f)tem(hh) * ni(ihi)mis(ihi_[oh:h]f) (,) ho(fi)no(i)rá(ij)ti(ih) sunt(hv.gih.) (,) a(f)mí(ege)ci(f) tu(f)i,(hhi) De(fgF'E)us :(e.) (:) ni(h)mis(hhh) con(f)for(fi~)tá(i)tus(h) est(hji.) (,) prin(hihh)ci(ef)pá(hhi)tus(h) e(h)ó(hjI'H)rum.(hhh/f_[oh:h]g_[oh:h]f._[oh:h]) (::) <i>Ps.</i> Dó(e)mi(fe)ne(eh) pro(h)bá(h)sti(h) me,(h) et(hg~) co(hi)gno(i)ví(hi)sti(h) me :(h.) *(:) tu(hf) co(fh)gno(h)ví(h)sti(h) ses(h)si(h)ó(h)nem(h) me(h)am,(h.) (,) et(h) re(h)sur(h)re(h')cti(i)ó(hf)nem(h) me(ge)am.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
             "mp3": "introitus_mihi-autem-nimis.mp3",
             "fichier": "Latin/Sancti/08-24.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Introitus",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Oratio": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Oratio",
-            "texte": "Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti: da Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre quod dócuit.\n$Per Dominum"
+            "texte": "Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti: da Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre quod dócuit.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:27-31\nFratres: Vos estis corpus Christi et membra de membro. Et quosdam quidem pósuit Deus in Ecclésia primum apóstolos, secúndo prophetas, tertio doctores, deinde virtútes, exinde grátias curationum, opitulatiónes, gubernatiónes, genera linguarum, interpretatiónes sermonum. Numquid omnes apóstoli? numquid omnes prophétæ? numquid omnes doctóres? numquid omnes virtútes? numquid omnes grátiam habent curationum? numquid omnes linguis loquúntur? numquid omnes interpretántur? Æmulámini autem charísmata melióra."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:27-31\nFratres: Vos estis corpus Christi et membra de membro. Et quosdam quidem pósuit Deus in Ecclésia primum apóstolos, secúndo prophetas, tertio doctores, deinde virtútes, exinde grátias curationum, opitulatiónes, gubernatiónes, genera linguarum, interpretatiónes sermonum. Numquid omnes apóstoli? numquid omnes prophétæ? numquid omnes doctóres? numquid omnes virtútes? numquid omnes grátiam habent curationum? numquid omnes linguis loquúntur? numquid omnes interpretántur? Æmulámini autem charísmata melióra.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 44:17; 44:18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.\nV. Pro patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.",
+            "texte": "Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine. V. Pro patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.",
             "incipit": {
               "incipit": "Constitues eos principes (Grad.)",
               "version": "Solesmes",
@@ -63,15 +74,17 @@
             "gabc": "(c4) COn(d)stí(ff)tu(f!hgh)es(h) e(gg)os(gf..) <clear>*(,) prín(h)ci(ixi)pes(h_g//hiHF.ghFD.ev.dec.!/[-0.5]fg/!hggf.0) (;) su(jjk)per(j_h) o(jk~)mnem(j) ter(ixjhi)ram :(hgiHGkv.jkJ//F.0gh/jiih.0) (:) mé(ixj_h/i!jwk)mo(ixjk_[hl:1]J'_[hl:1]IH'i)res(h.) e(ixgh!i'j)runt(i_[oh:h]h) (,) nó(ixjhi)mi(gf)nis(f) tu(h_g)i,(jj) (`) Dó(ixjhi)mi(gf)ne.(fhg___) (,) (jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Pro(df) pá(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)tri(gh)bus(h.) (,) tu(ih/kkh/ih/kkvIH)is(hv.ghGF.) (;) na(h.i!jwk)ti(ih) sunt(h.) ti(f!hhe)bi(f.) (,) fí(gxfgFE.fgFD.fvEDe[ll:1]d)li(bd)i :(d.) (:) pro(de)ptér(ef)e(hf/ge)a(ef!hih.) (,) pó(h)pu(gh)li(gxfhE'D//hf/gf..) (,) con(d)fi(ef)te(f)bún(f)tur(hV_!fg~) *() ti(e.f!gwh)bi.(he) (,) (gxhfgED'//ef/hff/ded.) (::)",
             "mp3": "graduel_constitues-eos-principes.mp3",
             "fichier": "Latin/Sancti/08-24.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Te gloriósus Apostolórum chorus laudat, Dómine. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Te gloriósus Apostolórum chorus laudat, Dómine. Allelúja.",
             "incipit": {
               "incipit": "Te gloriosus (All)",
               "version": "Solesmes",
@@ -82,12 +95,14 @@
             "gabc": "(c4) AL(cd)le(ef!ghhg)lú(gi/jhivH~G~){ia}.(g.) (;) {*} <i>ij.</i>(gh/ijh.1___jvIHG.f!hfg./egFE'DC.) (,) (cd!ef!ghhvGF'De[ll:1]ddc.) (::) <sp>V/</sp>. Te(cd) glo(f)ri(e)ó(fg)sus(gvFEDfg!hvhg.) (,) A(g)po(gh)sto(hg)ló(fvED)rum(dgF'E) cho(cdc___)rus(c.) (:) lau(g/hgjv.ijh/!hvGEfg~)dat,(g.) <clear>*(,) Dó(gh/ijh.1___jvIH'G)mi(f!hfg)ne.(egFE'DC.) (,) (cd!ef!ghhvGF'De[ll:1]ddc.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/08-24.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:12-19\nIn illo témpore: Exiit Jesus in montem oráre, et erat pernóctans in oratióne Dei. Et cum dies factus esset, vocavit discípulos suos, et elégit duódecim ex ipsis - quos et Apóstolos nominávit -: Simónem, quem cognominávit Petrum, et Andream fratrem ejus, Jacóbum et Joánnem, Philíppum et Bartholomæum, Matthǽum et Thomam, Jacóbum Alphæi et Simónem, qui vocátur Zelótes, et Judam Jacóbi, et Judam Iscariótem, qui fuit próditor. Et descéndens cum illis, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judæa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 6:12-19\nIn illo témpore: Exiit Jesus in montem oráre, et erat pernóctans in oratióne Dei. Et cum dies factus esset, vocavit discípulos suos, et elégit duódecim ex ipsis - quos et Apóstolos nominávit -: Simónem, quem cognominávit Petrum, et Andream fratrem ejus, Jacóbum et Joánnem, Philíppum et Bartholomæum, Matthǽum et Thomam, Jacóbum Alphæi et Simónem, qui vocátur Zelótes, et Judam Jacóbi, et Judam Iscariótem, qui fuit próditor. Et descéndens cum illis, stetit in loco campéstri, et turba discipulórum ejus, et multitúdo copiósa plebis ab omni Judæa, et Jerúsalem, et marítima, et Tyri, et Sidónis, qui vénerant, ut audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere: quia virtus de illo exíbat, et sanábat omnes.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 138:17\nMihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
@@ -101,17 +116,27 @@
             "gabc": "(c4) MI(ef'g)hi(ixhig'hvF'E) (,) * au(ff/h)tem(h/jjj) ni(g/jjhjvGF)mis(f_e/g_[oh:h]f/gffe.) (;) ho(dg)no(gih)rá(h!iwj!kvJH)ti(h_g) sunt(giH'Gh.) (;) a(ef)mí(d/fgf)ci(e) tu(fgF0'/[-0.5]{ix}E0//fg/hihhg)i,(g./fg!hvhg.) (,) De(g_[oh:h]fhvGFgvFE)us :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) ni(df)mis(fff//fv.fff) (,) con(df/gV!ef~)for(e)tá(ff/h)tus(h/jjj) est(g/jjjvH'Ghv.ixfh/!ig/!ff/ded.) (;) prin(df/gV!ef~)ci(e)pá(ff/h_ghvGF)tus(g.) (,) e(g/jjjh)ó(hv.giH'G)rum.(gvFEf_e//g_[oh:h]f/gffe.) (::)",
             "mp3": "offertoire_mihi-autem-nimis.mp3",
             "fichier": "Latin/Sancti/08-24.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Offertorium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Secreta": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Secreta",
-            "texte": "Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus, Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi laudis hóstias immolámus.\n$Per Dominum"
+            "texte": "Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus, Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi laudis hóstias immolámus.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 19:28\nVos, qui secúti estis me, sedébitis super sedes, judicántes duódecim tribus Israël.",
@@ -125,74 +150,102 @@
             "gabc": "(f3) VOS(ff) qui(e) se(f)cú(g')ti(h) e(i_[oh:h]h)stis(fg) me,(f.) (;) * se(e)dé(f')bi(h)tis(h') su(h)per(ij) se(i.)des,(i.) (;) ju(i)di(i')cán(i)tes(g') du(i)ó(h')de(g)cim(e.) tri(gh)bus(i_[oh:h]h) Is(f)ra(e)el,(g_[uh:l]h) di(i)cit(hg) Dó(f)mi(f)nus.(f.) (::)",
             "mp3": "communion_vos-qui-secuti.mp3",
             "fichier": "Latin/Sancti/08-24.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/08-24.txt",
             "section": "Postcommunio",
-            "texte": "Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus; interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis auxílium páriter et futúræ.\n$Per Dominum"
+            "texte": "Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus; interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis auxílium páriter et futúræ.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Introitus",
-            "texte": "!Ps 138:17.\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie."
+            "texte": "!Ps 138:17.\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.\n!Ps 138:1-2\nSeigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.\n&Gloria\nv. Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant et éternel, de qui nous vient la religieuse et sainte joie que nous éprouvons à célébrer aujourd’hui la fête de votre bienheureux Apôtre Barthélémy, accordez à votre Église, nous vous en prions, la grâce d’aimer ce qu’il a cru et de prêcher ce qu’il a enseigné.\n$Per Dominum"
+            "texte": "Dieu tout-puissant et éternel, de qui nous vient la religieuse et sainte joie que nous éprouvons à célébrer aujourd’hui la fête de votre bienheureux Apôtre Barthélémy, accordez à votre Église, nous vous en prions, la grâce d’aimer ce qu’il a cru et de prêcher ce qu’il a enseigné.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:27-31\nMes Frères : vous êtes le corps du Christ, et les membres d’un membre. Ainsi Dieu a établi dans l’Église premièrement des Apôtres, secondement des prophètes, troisièmement des docteurs ; ensuite ceux qui font des miracles ; puis ceux qui ont les dons de guérir, de secourir, de gouverner, de parler diverses langues, d’interpréter les langues. Tous sont-ils Apôtres ? Tous sont-ils prophètes ? Tous sont-ils docteurs ? Tous font-ils des miracles ? Tous ont-ils la grâce de guérir ? Tous parlent-ils diverses langues ? Tous les interprètent-ils ? Aspirez aux dons les meilleurs."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n!1 Cor 12:27-31\nMes Frères : vous êtes le corps du Christ, et les membres d’un membre. Ainsi Dieu a établi dans l’Église premièrement des Apôtres, secondement des prophètes, troisièmement des docteurs ; ensuite ceux qui font des miracles ; puis ceux qui ont les dons de guérir, de secourir, de gouverner, de parler diverses langues, d’interpréter les langues. Tous sont-ils Apôtres ? Tous sont-ils prophètes ? Tous sont-ils docteurs ? Tous font-ils des miracles ? Tous ont-ils la grâce de guérir ? Tous parlent-ils diverses langues ? Tous les interprètent-ils ? Aspirez aux dons les meilleurs.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/08-24.txt",
-            "section": "Graduale",
-            "texte": "!Ps 44:17; 44:18\nVous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération, Seigneur.\nV. À la place de vos pères, des fils vous sont nés, c’est pourquoi les peuples vous loueront."
+            "section": "Graduale[0]",
+            "texte": "Vous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération, Seigneur. V. À la place de vos pères, des fils vous sont nés, c’est pourquoi les peuples vous loueront.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/08-24.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\nV. Le chœur glorieux des Apôtres chante vos louanges, Seigneur. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Le chœur glorieux des Apôtres chante vos louanges, Seigneur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:12-19\nEn ce temps-là : Jésus s’en alla sur une montagne pour prier, et Il passa toute la nuit à prier Dieu. Et quand le jour fut venu, Il appela ses disciples ; et Il en choisit douze d’entre eux, qu’Il nomma apôtres : Simon auquel Il donna le surnom de Pierre, et André son frère, Jacques et Jean, Philippe et Barthélemy, Matthieu et Thomas, Jacques fils d’Alphée, et Simon appelé le Zélote, Jude frère de Jacques, et Judas Iscariote, qui fut le traître. Et descendant avec eux, Il s’arrêta dans une plaine, avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 6:12-19\nEn ce temps-là : Jésus s’en alla sur une montagne pour prier, et Il passa toute la nuit à prier Dieu. Et quand le jour fut venu, Il appela ses disciples ; et Il en choisit douze d’entre eux, qu’Il nomma apôtres : Simon auquel Il donna le surnom de Pierre, et André son frère, Jacques et Jean, Philippe et Barthélemy, Matthieu et Thomas, Jacques fils d’Alphée, et Simon appelé le Zélote, Jude frère de Jacques, et Judas Iscariote, qui fut le traître. Et descendant avec eux, Il s’arrêta dans une plaine, avec la troupe de ses disciples et une grande multitude de peuple de toute la Judée, et de Jérusalem, et de la contrée maritime, et de Tyr, et de Sidon ; ils étaient venus pour l’entendre et pour être guéris de leurs maladies. Et ceux qui étaient tourmentés par des esprits impurs étaient guéris. Et toute la foule cherchait à le toucher, parce qu’une vertu sortait de lui et les guérissait tous.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Offertorium",
-            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi."
+            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Secreta",
-            "texte": "Aujourd’hui que nous célébrons la solennité du bienheureux Barthélemy votre Apôtre, et que nous offrons ce sacrifice de louange en son honneur, nous vous supplions, Seigneur, par son intercession, de nous accorder votre secours.\n$Per Dominum"
+            "texte": "Aujourd’hui que nous célébrons la solennité du bienheureux Barthélemy votre Apôtre, et que nous offrons ce sacrifice de louange en son honneur, nous vous supplions, Seigneur, par son intercession, de nous accorder votre secours.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Communio",
-            "texte": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël."
+            "texte": "!Matt 19:28.\nVous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/02-24.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/08-24.txt",
             "section": "Postcommunio",
-            "texte": "Que le gage de l’éternelle rédemption que nous avons reçu nous vaille, Seigneur, par les prières de votre bienheureux Apôtre Barthélemy, tous les secours de votre grâce pour la vie présente et nous mérite la vie éternelle.\n$Per Dominum"
+            "texte": "Que le gage de l’éternelle rédemption que nous avons reçu nous vaille, Seigneur, par les prières de votre bienheureux Apôtre Barthélemy, tous les secours de votre grâce pour la vie présente et nous mérite la vie éternelle.\n$Per Dominum",
+            "references": null
           }
         }
       },

@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/12-24",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Vigile de la Nativité du Seigneur",
         "classe": 6.1,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/12-24.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) HO(d/fff)di(f)e(f) sci(g)é(ixgiH'G)tis,(gf..) *(;) qui(fd)a(d) vé(d!f'g)ni(gf)et(f) Dó(f)mi(d)nus,(cd/e_[oh:h][ll:1]d) (;) et(c) sal(d)vá(ff)bit(fgf) nos :(f.) (:) et(df~) ma(fgf)ne(fef.) (,) vi(d)dé(fef)bi(deDC'd)tis(d_c) gló(ff)ri(f)am(f) e(fg~)jus.(f.) (::) <i>Ps.</i> Dó(fg)mi(gf)ni(gh) est(h) ter(h)ra,(h) et(h) ple(h)ni(g)tú(ixi)do(h) e(g)jus :(f.) *(:) or(f)bis(gh) ter(h)rá(hj)rum,(g.) (,) et(f) u(f)ni(f)vér(f)si(f) qui(f) há(f')bi(g)tant(fd) in(f') e(g)o.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
             "mp3": "introitus_hodie-scietis.mp3",
             "fichier": "Latin/Sancti/12-24.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Oratio",
-            "texte": "Deus, qui nos redemptiónis nostræ ánnua exspectatióne lætíficas: præsta; ut Unigénitum tuum, quem Redemptórem læti suscípimus, veniéntem quoque Júdicem secúri videámus, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum"
+            "texte": "Deus, qui nos redemptiónis nostræ ánnua exspectatióne lætíficas: præsta; ut Unigénitum tuum, quem Redemptórem læti suscípimus, veniéntem quoque Júdicem secúri videámus, Dóminum nostrum Jesum Christum, Fílium tuum:\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Lectio",
-            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaulus, servus Jesu Christi, vocátus Apóstolus, segregátus in Evangélium Dei, quod ante promíserat per Prophétas suos in Scriptúris sanctis de Fílio suo, qui factus est ei ex sémine David secúndum carnem: qui prædestinátus est Fílius Dei in virtúte secúndum spíritum sanctificatiónis ex resurrectióne mortuórum Jesu Christi, Dómini nostri: per quem accépimus grátiam, et apostolátum ad obœdiéndum fídei in ómnibus géntibus pro nómine ejus, in quibus estis et vos vocáti Jesu Christi, Dómini nostri."
+            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaulus, servus Jesu Christi, vocátus Apóstolus, segregátus in Evangélium Dei, quod ante promíserat per Prophétas suos in Scriptúris sanctis de Fílio suo, qui factus est ei ex sémine David secúndum carnem: qui prædestinátus est Fílius Dei in virtúte secúndum spíritum sanctificatiónis ex resurrectióne mortuórum Jesu Christi, Dómini nostri: per quem accépimus grátiam, et apostolátum ad obœdiéndum fídei in ómnibus géntibus pro nómine ejus, in quibus estis et vos vocáti Jesu Christi, Dómini nostri.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Exod 16:6; 16:7\nHódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus.\n!Ps 79:2-3\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.",
+            "texte": "Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis glóriam ejus. Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.",
             "incipit": {
               "incipit": "Hodie scietis",
               "version": "Solesmes",
@@ -63,22 +67,33 @@
             "gabc": "(c3) HO(egf)di(f)e(f.) *(,) sci(f)é(hfghvF'Ege/fg)tis,(f.) (;) qui(f)a(f) vé(hf/hi'j)ni(hvGF)et(gxfegvFE.) (,) Dó(e[ll:1]d/fef)mi(fef)nus,(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(f) sal(e)vá(hh)bit(hji) nos :(ihhf.) (;) et(f) ma(h.f!gwh/i_[oh:h]f/ij)ne(h_fhv.ghF'Ef.) (;) vi(h)dé(hfh)bi(hhh)tis(h.f!gwh!iv.hi/jhh/iih.0) (:) gló(de'f!hvGF'g)ri(e)am(f) e(hf/h_i)jus.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Qui(f) re(h)gis(hi) Is(i)ra(i)el,(i.) (,) in(ij~)tén(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI'j)de :(ji..) (:) qui(i!jw!kvJI'jw!kvJI) de(i)dú(i)cis(i.) (,) vel(i)ut(i) o(i)vem(ij~) Jo(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIH/!jvIHif)seph :(f.) (:) qui(hh) se(hji)des(ihhf.) (,) su(f)per(f) Ché(f)ru(fi)bim,(i_[oh:h]f/ijH'Fhv.ghF'E) (,) ap(fef)pá(hf/hhh)re(h.f!gwh!iv.hi/jhh/iih.0) (:) co(f)ram(f) E(fi)phra(i)im,(ijH'Ghh) (,) (gh!ijHF.hvF'Efh/!hf//hvvGF'/!hee[ll:1]d.0) (:) Bén(d)ja(ef)min,(f.0/[-0.5]hvGF'g) () * et(ef) Ma(hf)ná(hi)sse.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
             "mp3": "graduel_hodie-scietis.mp3",
             "fichier": "Latin/Sancti/12-24.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:18-21\nCum esset desponsáta Mater Jesu María Joseph, ántequam convenírent, invénta est in útero habens de Spíritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam tradúcere, vóluit occúlte dimíttere eam. Hæc autem eo cogitánte, ecce, Angelus Dómini appáruit in somnis ei, dicens: Joseph, fili David, noli timére accípere Maríam cónjugem tuam: quod enim in ea natum est, de Spíritu Sancto est. Páriet autem fílium, et vocábis nomen ejus Jesum: ipse enim salvum fáciet pópulum suum a peccátis eórum."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 1:18-21\nCum esset desponsáta Mater Jesu María Joseph, ántequam convenírent, invénta est in útero habens de Spíritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam tradúcere, vóluit occúlte dimíttere eam. Hæc autem eo cogitánte, ecce, Angelus Dómini appáruit in somnis ei, dicens: Joseph, fili David, noli timére accípere Maríam cónjugem tuam: quod enim in ea natum est, de Spíritu Sancto est. Páriet autem fílium, et vocábis nomen ejus Jesum: ipse enim salvum fáciet pópulum suum a peccátis eórum.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/03-19.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 23:7\nTóllite portas, principes, vestras: et elevámini, portæ æternáles, et introíbit Rex glóriæ.",
@@ -92,17 +107,20 @@
             "gabc": "(c3) TOl(ce/fgf)li(f)te(f.) * por(f!gwh/ig/hffe~)tas,(f.) (,) prín(f/hhh)ci(h)pes,(hji) ve(i_[oh:h]h//hhhvF'Ef!gwh_f)stras :(f.) (:) et(fge) e(h)le(hif)vá(hhhjvIHhv'1GF)mi(gf)ni,(f.) (;) por(f!gwh/ihhvG~F~)tae(f.) ae(hfh)ter(efe~)ná(hi!kvJI)les,(ih..) (:) et(h_f) in(hi)tro(i_[oh:h]h)í(hfivHG'F)bit(fhffe.) (;) Rex(ef!hhi) gló(jkI'H)ri(h_g)ae.(hhh_f) (,) (h/ihh'h//hhhf/ihghf//ihh'hh_efv.) (::)",
             "mp3": "offertoire_tollite-portas.mp3",
             "fichier": "Latin/Sancti/12-24.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Secreta",
-            "texte": "Da nobis, quǽsumus, omnípotens Deus: ut, sicut adoránda Fílii tui natalítia prævenímus, sic ejus múnera capiámus sempitérna gaudéntes:\n$Qui tecum"
+            "texte": "Da nobis, quǽsumus, omnípotens Deus: ut, sicut adoránda Fílii tui natalítia prævenímus, sic ejus múnera capiámus sempitérna gaudéntes:\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Isa 40:5\nRevelábitur glória Dómini: et vidébit omnis caro salutáre Dei nostri.",
@@ -116,74 +134,88 @@
             "gabc": "(c4) RE(dfe)ve(f)lá(fhg)bi(g_[oh:h]f)tur(fv.efd.1) ~~~~~~~*~~~(;) gló(d!f'g)ri(gf)a(f) Dó(ghgh)mi(g)ni :(fgFD.1) (:) et(d) vi(fe)dé(f_eg)bit(f) o(fff)mnis(d) ca(fv.egf)ro(f.) (;) sa(f)lu(ghg)tá(hv.fh!jvvH'GE'f)re(f.) (,) De(f_dfvECfhg___)i(ghF'Ef) no(d_[oh:h]e_[oh:h]d_[oh:h])stri.(d.) (::)",
             "mp3": "communion_revelabitur.mp3",
             "fichier": "Latin/Sancti/12-24.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/12-24.txt",
             "section": "Postcommunio",
-            "texte": "Da nobis, quǽsumus, Dómine: unigéniti Fílii tui recensíta nativitáte respiráre; cujus cœlésti mystério páscimur et potámur.\n$Per eundem"
+            "texte": "Da nobis, quǽsumus, Dómine: unigéniti Fílii tui recensíta nativitáte respiráre; cujus cœlésti mystério páscimur et potámur.\n$Per eundem",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Introitus",
-            "texte": "!Exod 16:6; 16:7\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.\n!Ps 23:1\nAu Seigneur appartient la terre et tout ce qui la remplit, l’univers et tous ceux qui l’habitent.\n&Gloria\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire."
+            "texte": "!Exod 16:6; 16:7\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.\n!Ps 23:1\nAu Seigneur appartient la terre et tout ce qui la remplit, l’univers et tous ceux qui l’habitent.\n&Gloria\nv. Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Oratio",
-            "texte": "Seigneur Dieu, vous nous donnez chaque année la joie d’attendre notre rédemption. Et puisque c’est dans la joie que nous accueillons votre Fils unique, lorsqu’il viendra nous racheter, accordez-nous de pouvoir encore le regarder sans inquiétude, quand il reviendra pour nous juger.\n$Qui tecum"
+            "texte": "Seigneur Dieu, vous nous donnez chaque année la joie d’attendre notre rédemption. Et puisque c’est dans la joie que nous accueillons votre Fils unique, lorsqu’il viendra nous racheter, accordez-nous de pouvoir encore le regarder sans inquiétude, quand il reviendra pour nous juger.\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Lectio",
-            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Evangile de Dieu, Evangile que Dieu avait promis auparavant par ses prophètes dans les saintes Ecritures, touchant son Fils né de la postérité de David selon la chair, et déclaré Fils de Dieu miraculeusement, selon l’Esprit de sainteté, par une résurrection d’entre les morts, Jésus-Christ Notre-Seigneur, par qui nous avons reçu la grâce et l’apostolat, pour amener en son nom à l’obéissance de la foi tous les Gentils, du nombre desquels vous êtes, vous aussi, par appel de Jésus-Christ."
+            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 1:1-6\nPaul, serviteur du Christ-Jésus, apôtre par son appel, mis à part pour annoncer l’Evangile de Dieu, Evangile que Dieu avait promis auparavant par ses prophètes dans les saintes Ecritures, touchant son Fils né de la postérité de David selon la chair, et déclaré Fils de Dieu miraculeusement, selon l’Esprit de sainteté, par une résurrection d’entre les morts, Jésus-Christ Notre-Seigneur, par qui nous avons reçu la grâce et l’apostolat, pour amener en son nom à l’obéissance de la foi tous les Gentils, du nombre desquels vous êtes, vous aussi, par appel de Jésus-Christ.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/12-24.txt",
-            "section": "Graduale",
-            "texte": "!Exod 16:6; 16:7\nAujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire.\n!Ps 79:2-3\nÉcoutez, Pasteur d’Israël, vous qui menez le peuple de Joseph comme un berger son troupeau. Vous dont le trône est porté par les Chérubins, montrez-vous aux descendants d’Éphraïm, de Benjamin et de Manassé."
+            "section": "Graduale[0]",
+            "texte": "Aujourd’hui, vous saurez que le Seigneur va venir et qu’il nous sauvera. Et demain matin, vous le verrez dans sa gloire. Écoutez, Pasteur d’Israël, vous qui menez le peuple de Joseph comme un berger son troupeau. Vous dont le trône est porté par les Chérubins, montrez-vous aux descendants d’Éphraïm, de Benjamin et de Manassé.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum.\n!Matt 1:18-21\nMarie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés. »"
+            "texte": "Sequéntia ++ sancti Evangélii secundum Matthǽum.\n!Matt 1:18-21\nMarie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés. »",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Offertorium",
-            "texte": "!Ps 23:7\nPortes, relevez vos frontons ! Soulevez-vous, portails antiques, et le Roi de gloire fera son entrée."
+            "texte": "!Ps 23:7\nPortes, relevez vos frontons ! Soulevez-vous, portails antiques, et le Roi de gloire fera son entrée.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Secreta",
-            "texte": "Dieu tout Puissant, nous accourons dès aujourd’hui pour adorer la naissance de votre Fils. Permettez-nous de recevoir avec la même joie les dons éternels qu’il nous apporte.\n$Qui tecum"
+            "texte": "Dieu tout Puissant, nous accourons dès aujourd’hui pour adorer la naissance de votre Fils. Permettez-nous de recevoir avec la même joie les dons éternels qu’il nous apporte.\n$Qui tecum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Communio",
-            "texte": "!Isa 40:5\nLa Seigneur apparaîtra dans sa gloire et tout être vivant verra le Sauveur notre Dieu."
+            "texte": "!Isa 40:5\nLa Seigneur apparaîtra dans sa gloire et tout être vivant verra le Sauveur notre Dieu.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/12-24.txt",
             "section": "Postcommunio",
-            "texte": "Nous vous en prions, Seigneur : en l’anniversaire de la Nativité de votre Fils unique, accordez-nous de reprendre vie, puisque déjà nous sommes nourris et abreuvés par son mystère céleste.\n$Per eundem"
+            "texte": "Nous vous en prions, Seigneur : en l’anniversaire de la Nativité de votre Fils unique, accordez-nous de reprendre vie, puisque déjà nous sommes nourris et abreuvés par son mystère céleste.\n$Per eundem",
+            "references": null
           }
         }
       },

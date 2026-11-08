@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Pent19-0",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "19e dimanche après la Pentecôte",
         "classe": 5.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Pent19-0.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) SA(fffd)lus(ef) pó(g)pu(g)li(ixgih.) (,) * e(h)go(gh_G'_FE'f) sum,(fe..) (;) di(ef'g)cit(ghG'Fghg') Dó(e)mi(egff)nus :(eef.) (:) de(d) qua(g)cúm(hg/hi)que(h) tri(hih)bu(g)la(gh/ji)ti(jjjh)ó(hiHG'h)ne(hg..) (,) cla(g)má(gh)ve(g)rint(gfh) ad(h!iw!jvI'HG'h) me,(g.) (;) ex(f)áu(e.f!gwh)di(g)am(gfh) e(h!iw!jvI'HG'h)os :(hg..) (:) et(g) e(h)ro(g') il(g)ló(fg'h)rum(g) Dó(g)mi(g.e!fwg)nus(ghF'EfvEDe[ll:1]d..) (;) in(de!f'g) per(g/jjh/i.g!hw!ivHG')pé(e)tu(egff)um.(fe..) (::) <i>Ps.</i> At(hg~)tén(gh)di(h)te(h) pó(h)pu(h)le(h) me(h)us(hg) le(gi)gem(i) me(hi)am :(h.) (:) * in(hg~)cli(gh)ná(h)te(h) au(h)rem(h) ve(h)stram(h.) (,) in(h) ver(h)ba(h) o(gf)ris(gh) me(g)i.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
             "mp3": "introitus_salus-populi.mp3",
             "fichier": "Latin/Tempora/Pent19-0.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Oratio",
-            "texte": "Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus exclúde: ut mente et córpore páriter expedíti, quæ tua sunt, líberis méntibus exsequámur.\n$Per Dominum"
+            "texte": "Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus exclúde: ut mente et córpore páriter expedíti, quæ tua sunt, líberis méntibus exsequámur.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 4:23-28\nFratres: Renovámini spíritu mentis vestræ, et indúite novum hóminem, qui secúndum Deum creátus est in justítia et sanctitáte veritátis. Propter quod deponéntes mendácium, loquímini veritátem unusquísque cum próximo suo: quóniam sumus ínvicem membra. Irascímini, et nolíte peccáre: sol non occídat super iracúndiam vestram. Nolíte locum dare diábolo: qui furabátur, jam non furétur; magis autem labóret, operándo mánibus suis, quod bonum est, ut hábeat, unde tríbuat necessitátem patiénti."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios\n!Ephes 4:23-28\nFratres: Renovámini spíritu mentis vestræ, et indúite novum hóminem, qui secúndum Deum creátus est in justítia et sanctitáte veritátis. Propter quod deponéntes mendácium, loquímini veritátem unusquísque cum próximo suo: quóniam sumus ínvicem membra. Irascímini, et nolíte peccáre: sol non occídat super iracúndiam vestram. Nolíte locum dare diábolo: qui furabátur, jam non furétur; magis autem labóret, operándo mánibus suis, quod bonum est, ut hábeat, unde tríbuat necessitátem patiénti.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 140:2\nDirigátur orátio mea, sicut incénsum in conspéctu tuo, Dómine.\nV. Elevatio mánuum meárum sacrifícium vespertínum.",
+            "texte": "Dirigátur orátio mea, sicut incénsum in conspéctu tuo, Dómine. V. Elevatio mánuum meárum sacrifícium vespertínum.",
             "incipit": {
               "incipit": "Dirigatur oratio mea",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c2) DI(c)ri(cg)gá(g)tur(g_[oh:h]e/fgddc.) (,) * o(c)rá(c!feg)ti(gh)o(hfg) me(gh!ivHG'h)a(gh/ih..) (;) sic(f)ut(g) in(hj~)cén(j)sum(j_g/hg..) (,) in(g) con(h)spé(hj)ctu(i) tu(hfg)o,(g_[oh:h]e//fgf'/gddc.) (;) Dó(ffd/fef)mi(e)ne.(ce!ghGF'fe//ced/e[ll:1]ddc.) (::) \r\n<sp>V/</sp>. E(f)le(g)vá(g_[uh:l]j//ij/kii'iivGF'fd)(,)(ffd/ffg)ti(g)o(g_[oh:h]f//gih/ijhhg.) (;) má(gj)nu(j_0)um(k) me(g)á(igge//fhGF'fd!ew!fvE'DC'd)rum(dc..) (:) sa(c)cri(d)fí(fgf)ci(dgf/gh)um(g.) *(,) ves(c)per(ff)tí(fv.ef/gfg)num.(gge./giHG'ivHG'ge.) (,) (fge'fvD'Cd_eddc.) (::)",
             "mp3": "graduel_dirigatur.mp3",
             "fichier": "Latin/Tempora/Pent19-0.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja\n!Ps 104:1\nConfitémini Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera ejus. Allelúja.",
+            "texte": "Allelúja, allelúja Confitémini Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera ejus. Allelúja.",
             "incipit": {
               "incipit": "Confitemini... et invocate",
               "version": "Solesmes",
@@ -82,12 +88,14 @@
             "gabc": "(c3) AL(ef)le(f)lú(hf/hh/ihhi){ia}.(ijhhe.) <clear>*(,) <i>ij.</i>(hhh'j!lvI'HGF'gwhf.1) (::) <sp>V/</sp>. Con(f)fi(hh)té(i)mi(h)ni(hjihh/fgf.) (,) Dó(hf/hh/ihhi)mi(f)no,(efe.) (;) et(fd) in(e)vo(f)cá(fih'/ig'/hf)te(efe.) (,) no(f)men(fgef) e(f!gwhgh)jus :(gf..) (:) an(g)nun(e)ti(f)á(hjIH'h//fiH'GEf./hf/hf/he)te(e.) (,) in(e)ter(e) gen(egFE'f!hhhf//ijhh)tes(g_[oh:h]fgvFEfe..)  <clear>*(;) ó(fd)pe(e)ra(f) e(hf/hh/ihhi)jus.(ijhhe.) (,) (hhh'j!lvI'HGF'gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Pent19-0.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:1-14\nIn illo témpore: Loquebátur Jesus princípibus sacerdótum et pharisǽis in parábolis, dicens: Símile factum est regnum cœlórum hómini regi, qui fecit núptias fílio suo. Et misit servos suos vocáre invitátos ad nuptias, et nolébant veníre. Iterum misit álios servos, dicens: Dícite invitátis: Ecce, prándium meum parávi, tauri mei et altília occísa sunt, et ómnia paráta: veníte ad núptias. Illi autem neglexérunt: et abiérunt, álius in villam suam, álius vero ad negotiatiónem suam: réliqui vero tenuérunt servos ejus, et contuméliis afféctos occidérunt. Rex autem cum audísset, iratus est: et, missis exercítibus suis, pérdidit homicídas illos et civitátem illórum succéndit. Tunc ait servis suis: Núptiæ quidem parátæ sunt, sed, qui invitáti erant, non fuérunt digni. Ite ergo ad exitus viárum et, quoscúmque invenéritis, vocáte ad núptias. Et egréssi servi ejus in vias, congregavérunt omnes, quos invenérunt, malos et bonos: et implétæ sunt núptiæ discumbéntium. Intrávit autem rex, ut vidéret discumbéntes, et vidit ibi hóminem non vestítum veste nuptiáli. Et ait illi: Amíce, quómodo huc intrásti non habens vestem nuptiálem? At ille obmútuit. Tunc dixit rex minístris: Ligátis mánibus et pédibus ejus, míttite eum in ténebras exterióres: ibi erit fletus et stridor déntium. Multi enim sunt vocáti, pauci vero elécti."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 22:1-14\nIn illo témpore: Loquebátur Jesus princípibus sacerdótum et pharisǽis in parábolis, dicens: Símile factum est regnum cœlórum hómini regi, qui fecit núptias fílio suo. Et misit servos suos vocáre invitátos ad nuptias, et nolébant veníre. Iterum misit álios servos, dicens: Dícite invitátis: Ecce, prándium meum parávi, tauri mei et altília occísa sunt, et ómnia paráta: veníte ad núptias. Illi autem neglexérunt: et abiérunt, álius in villam suam, álius vero ad negotiatiónem suam: réliqui vero tenuérunt servos ejus, et contuméliis afféctos occidérunt. Rex autem cum audísset, iratus est: et, missis exercítibus suis, pérdidit homicídas illos et civitátem illórum succéndit. Tunc ait servis suis: Núptiæ quidem parátæ sunt, sed, qui invitáti erant, non fuérunt digni. Ite ergo ad exitus viárum et, quoscúmque invenéritis, vocáte ad núptias. Et egréssi servi ejus in vias, congregavérunt omnes, quos invenérunt, malos et bonos: et implétæ sunt núptiæ discumbéntium. Intrávit autem rex, ut vidéret discumbéntes, et vidit ibi hóminem non vestítum veste nuptiáli. Et ait illi: Amíce, quómodo huc intrásti non habens vestem nuptiálem? At ille obmútuit. Tunc dixit rex minístris: Ligátis mánibus et pédibus ejus, míttite eum in ténebras exterióres: ibi erit fletus et stridor déntium. Multi enim sunt vocáti, pauci vero elécti.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 137:7\nSi ambulávero in médio tribulatiónis, vivificábis me, Dómine: et super iram inimicórum meórum exténdes manum tuam, et salvum me fáciet déxtera tua.",
@@ -101,17 +109,20 @@
             "gabc": "(c4) SI(ghg) am(f)bu(g)lá(gj/hi//hjj'1j)ve(kjjvI'HG)ro(hhg.) <clear>*(;) in(g) mé(hg/h!jjk)di(hg)o(g.) (,) tri(g!hwi_[oh:h]h)bu(hg)la(gffvED')ti(g)ó(g!hwihi)nis,(hg..) (:) vi(ghg)vi(f)fi(g)cá(gj/hi//h!jj//jjjhhggf.0)(,)(h!iwjj)bis(kj~) me,(jv.ijh'ivH'G//jjjvIH'iw!jvIH) (,) Dó(hg)mi(g!hwihi)ne :(hg..) (:) et(g!h!gh~) su(f)per(g) i(gjji!jwkj)ram(j_k) (,) in(j)i(jkJ'H)mi(ji)có(jv.ijhi)rum(hhg.) (,) me(g)ó(ghGF'gffvEDgh)rum(g.) (;) ex(h)tén(gjI'Ghh//fh!jvGF'fd/ef!ghg)des(g.) (;) ma(ig/h!jj/klKJ'jvIG)num(jj) tu(h!iw!jvI'HG'h)am,(gh/ih..) (:) et(g) sal(hi~)vum(i) me(i) fe(ij!kvJHji)cit(i.) (;) déx(ij'k)te(j)ra(kjj'jj_h) tu(jj//jjj_h//jjh//jvIGh.)(,)(fh!jvIG___//ivHGhg)a.(g.) (::)",
             "mp3": "offertoire_si-ambulavero.mp3",
             "fichier": "Latin/Tempora/Pent19-0.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Secreta",
-            "texte": "Hæc múnera, quǽsumus, Dómine, quæ óculis tuæ majestátis offérimus, salutária nobis esse concéde.\n$Per Dominum"
+            "texte": "Hæc múnera, quǽsumus, Dómine, quæ óculis tuæ majestátis offérimus, salutária nobis esse concéde.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 118:4-5\nTu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad custodiéndas justificatiónes tuas.",
@@ -125,74 +136,88 @@
             "gabc": "(c3) TU(h) man(hf~)dá(hi)sti(h.) *(,) man(fe~)dá(gxfgf)ta(e) tu(f/hhh)a(h.) (,) cu(d)sto(ef)dí(gxfgF'E)ri(hh) ni(i_[oh:h]h)mis :(hiHF.1) (:) ú(gxfg)ti(f)nam(f) di(f)ri(gxgh)gán(h)tur(f) vi(ih)ae(gxgh) me(gxh)ae,(hihh/fgf.) (;) ad(d) cu(ef)sto(gxfgf')di(e)én(fgF~'E~)das(f_e) (,) ju(d)sti(gxfgf')fi(e)ca(fgf')ti(e)ó(fg!hvG'FE)nes(fe/f_e) tu(de!fvED'e)as.(e[ll:1]d..) (::)",
             "mp3": "communion_tu-mandasti.mp3",
             "fichier": "Latin/Tempora/Pent19-0.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Pent19-0.txt",
             "section": "Postcommunio",
-            "texte": "Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus cleménter expédiat, et tuis semper fáciat inhærére mandátis.\n$Per Dominum"
+            "texte": "Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus cleménter expédiat, et tuis semper fáciat inhærére mandátis.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Introitus",
-            "texte": "v. Je suis le salut du peuple, dit le Seigneur ; de quelque tribulation qu'ils crient vers moi, je les exaucerai, et je serai leur Seigneur à jamais.\n!Ps 77:1\nÔ mon peuple, considérez ma loi ; inclinez votre oreille vers les paroles de ma bouche.\n&Gloria\nv. Je suis le salut du peuple, dit le Seigneur ; de quelque tribulation qu'ils crient vers moi, je les exaucerai, et je serai leur Seigneur à jamais."
+            "texte": "v. Je suis le salut du peuple, dit le Seigneur ; de quelque tribulation qu'ils crient vers moi, je les exaucerai, et je serai leur Seigneur à jamais.\n!Ps 77:1\nÔ mon peuple, considérez ma loi ; inclinez votre oreille vers les paroles de ma bouche.\n&Gloria\nv. Je suis le salut du peuple, dit le Seigneur ; de quelque tribulation qu'ils crient vers moi, je les exaucerai, et je serai leur Seigneur à jamais.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Oratio",
-            "texte": "Dieu tout-puissant et bon, éloignez de nous tout ce qui nous est contraire, afin que, l'âme et le corps également dégagés, nous puissions d'un cœur libre nous attacher à votre service.\n$Per Dominum"
+            "texte": "Dieu tout-puissant et bon, éloignez de nous tout ce qui nous est contraire, afin que, l'âme et le corps également dégagés, nous puissions d'un cœur libre nous attacher à votre service.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 4:23-28\nFrères, renouvelez-vous dans votre esprit et dans vos pensées, et revêtez l'homme nouveau, créé selon Dieu dans une justice et une sainteté véritables. C'est pourquoi, renonçant au mensonge, parlez selon la vérité, chacun dans ses rapports avec son prochain, car nous sommes membres les uns des autres. Êtes-vous en colère, ne péchez point ; que le soleil ne se couche point sur votre irritation. Ne donnez pas accès au diable. Que celui qui dérobait ne dérobe plus ; mais plutôt qu'il s'occupe en travaillant de ses mains à quelque honnête ouvrage, afin d'avoir de quoi donner à celui qui est dans le besoin."
+            "texte": "Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.\n!Ephes 4:23-28\nFrères, renouvelez-vous dans votre esprit et dans vos pensées, et revêtez l'homme nouveau, créé selon Dieu dans une justice et une sainteté véritables. C'est pourquoi, renonçant au mensonge, parlez selon la vérité, chacun dans ses rapports avec son prochain, car nous sommes membres les uns des autres. Êtes-vous en colère, ne péchez point ; que le soleil ne se couche point sur votre irritation. Ne donnez pas accès au diable. Que celui qui dérobait ne dérobe plus ; mais plutôt qu'il s'occupe en travaillant de ses mains à quelque honnête ouvrage, afin d'avoir de quoi donner à celui qui est dans le besoin.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 140:2\nQue ma prière s'élève comme l'encens en votre présence, Seigneur.\nV. L'élévation de mes mains comme le sacrifice du soir."
+            "section": "Graduale[0]",
+            "texte": "Que ma prière s'élève comme l'encens en votre présence, Seigneur. V. L'élévation de mes mains comme le sacrifice du soir.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 104:1\nCélébrez le Seigneur et invoquez son Nom ; annoncez parmis les peuples ses œuvres. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. Célébrez le Seigneur et invoquez son Nom ; annoncez parmis les peuples ses œuvres. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:1-14\nEn ce temps-là, Jésus parlait en paraboles aux princes des prêtres et aux Pharisiens, disant : « Le royaume des cieux est semblable à un roi qui fit les noces de son fils. Il envoya ses serviteurs appeler ceux qui avaient été invités aux noces, et ils ne voulurent pas venir. Il envoya encore d'autres serviteurs, disant : « Dites aux invités : Voilà que j'ai préparé mon festin ; on a tué mes bœufs et mes animaux gras ; tout est prêt : venez aux noces.» Mais ils n'en tinrent pas compte, et ils s'en allèrent, l'un à son champ, l'autre à son négoce ; et les autres se saisirent des serviteurs, les outragèrent et les tuèrent. Le roi entra en colère, envoya ses armées, extermina ces meurtriers et brûla leur ville. Alors il dit à ses serviteurs : « La noce est prête, mais les invités n'en étaient pas dignes. Allez donc aux carrefours des chemins, et tous ceux que vous trouverez, invitez-les aux noces.» Ces serviteurs sortirent sur les chemins, rassemblèrent tous ceux qu'ils trouvèrent, mauvais et bons ; et la salle des noces fut remplie de convives. Le roi entra pour voir ceux qui étaient à table et il aperçut là un homme qui n'était point revêtu de l'habit de noce ; et il lui dit : « Mon ami, comment es-tu entré ici sans avoir un habit de noce ?» Et lui resta muet. Alors le roi dit aux serviteurs : « Liez-lui pieds et mains, et jetez-le dans les ténèbres extérieures : là il y aura les pleurs et le grincement de dents.» Car il y a beaucoup d'appelés, mais peu d'élus. »"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 22:1-14\nEn ce temps-là, Jésus parlait en paraboles aux princes des prêtres et aux Pharisiens, disant : « Le royaume des cieux est semblable à un roi qui fit les noces de son fils. Il envoya ses serviteurs appeler ceux qui avaient été invités aux noces, et ils ne voulurent pas venir. Il envoya encore d'autres serviteurs, disant : « Dites aux invités : Voilà que j'ai préparé mon festin ; on a tué mes bœufs et mes animaux gras ; tout est prêt : venez aux noces.» Mais ils n'en tinrent pas compte, et ils s'en allèrent, l'un à son champ, l'autre à son négoce ; et les autres se saisirent des serviteurs, les outragèrent et les tuèrent. Le roi entra en colère, envoya ses armées, extermina ces meurtriers et brûla leur ville. Alors il dit à ses serviteurs : « La noce est prête, mais les invités n'en étaient pas dignes. Allez donc aux carrefours des chemins, et tous ceux que vous trouverez, invitez-les aux noces.» Ces serviteurs sortirent sur les chemins, rassemblèrent tous ceux qu'ils trouvèrent, mauvais et bons ; et la salle des noces fut remplie de convives. Le roi entra pour voir ceux qui étaient à table et il aperçut là un homme qui n'était point revêtu de l'habit de noce ; et il lui dit : « Mon ami, comment es-tu entré ici sans avoir un habit de noce ?» Et lui resta muet. Alors le roi dit aux serviteurs : « Liez-lui pieds et mains, et jetez-le dans les ténèbres extérieures : là il y aura les pleurs et le grincement de dents.» Car il y a beaucoup d'appelés, mais peu d'élus. »",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 137:7\nSi je marche au milieu de la tribulation, vous me vivifierez, Seigneur, et vous étendrez la main contre la colère de mes ennemis, et votre droite me sauvera."
+            "texte": "!Ps 137:7\nSi je marche au milieu de la tribulation, vous me vivifierez, Seigneur, et vous étendrez la main contre la colère de mes ennemis, et votre droite me sauvera.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Secreta",
-            "texte": "Ces offrandes que nous présentons aux regards de votre majesté, daignez, Seigneur, les rendre profitables à notre salut.\n$Per Dominum"
+            "texte": "Ces offrandes que nous présentons aux regards de votre majesté, daignez, Seigneur, les rendre profitables à notre salut.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Communio",
-            "texte": "!Ps 118:4-5\nVous avez commandé qu'on observe avec soin vos commandements ; puissent mes voies tendre à garder vos préceptes."
+            "texte": "!Ps 118:4-5\nVous avez commandé qu'on observe avec soin vos commandements ; puissent mes voies tendre à garder vos préceptes.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Pent19-0.txt",
             "section": "Postcommunio",
-            "texte": "Que votre action guérissante, Seigneur, nous délivre avec miséricorde de nos tendances perverses, et nous attache toujours à vos commandements.\n$Per Dominum"
+            "texte": "Que votre action guérissante, Seigneur, nous délivre avec miséricorde de nos tendances perverses, et nous attache toujours à vos commandements.\n$Per Dominum",
+            "references": null
           }
         }
       },

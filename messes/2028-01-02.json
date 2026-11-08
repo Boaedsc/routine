@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Nat02",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Très Saint Nom de Jésus",
         "classe": 5.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Nat2-0.txt",
@@ -25,6 +25,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -41,20 +42,23 @@
             "gabc": "(c4) I<sc>n</sc>(ed~) nó(g)mi(hj)ne(j) Je(ij)su(j) *(,) o(ij~)mne(j) ge(j)nu(jjj) fle(hig)ctá(h!iwjkjj)tur,(ji) (;) coe(hg)lé(hi)sti(h)um,(h) (,) ter(hji)ré(jijh)stri(hg!hwihi)um(ih) (,) et(g) in(hj)fer(jjj)nó(ikjj)rum :(ji) (:) et(i) o(k)mnis(l) lin(k)gua(j) con(hg)fi(h)te(j)á(ikjj)tur,(ji) (;) qui(gh)a(h) Dó(j)mi(h)nus(g) Je(g)sus(g) Chri(hg!hwihi)stus(ih) (;) in(hg~) gló(h!iwj)ri(g)a(h) est(g) (,) De(efh)i(h) Pa(gfhvGFgvFE)tris.(e) (::) <i>Ps</i>. Dó(g)mi(hj)ne(j) Dó(k)mi(j)nus(j) no(ih)ster :(jjj) (:) * quam(ig) ad(hj)mi(j)rá(j)bi(j)le(j) est(j) no(j)men(j) tu(j)um(j) (,) in(j) u(j)ni(jji)vér(hg)sa(h) ter(i)ra !(gh) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) E(j) u(jji) o(hg) u(h) a(i) e.(gh) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Oratio",
-            "texte": "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cœlis.\n$Per eumdem"
+            "texte": "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cœlis.\n$Per eumdem",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolorum\n!Act 4:8-12\nIn diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu Christi Nazaréni, quem vos crucifixístis, quem Deus suscitávit a mórtuis, in hoc iste astat coram vobis sanus. Hic est lapis, qui reprobátus est a vobis ædificántibus: qui factus est in caput ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est sub cœlo datum homínibus, in quo opórteat nos salvos fíeri."
+            "texte": "Léctio Actuum Apostolorum\n!Act 4:8-12\nIn diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto hóminis infírmi, in quo iste salvus factus est, notum sit ómnibus vobis et omni plebi Israël: quia in nómine Dómini nostri Jesu Christi Nazaréni, quem vos crucifixístis, quem Deus suscitávit a mórtuis, in hoc iste astat coram vobis sanus. Hic est lapis, qui reprobátus est a vobis ædificántibus: qui factus est in caput ánguli: et non est in alio áliquo salus. Nec enim aliud nomen est sub cœlo datum homínibus, in quo opórteat nos salvos fíeri.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 105:47\nSalvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in glória tua.\n!Isa 63:16\nTu, Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum.",
+            "texte": "Salvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in glória tua. Tu, Dómine, Pater noster et Redémptor noster: a sǽculo nomen tuum.",
             "incipit": {
               "incipit": "Salvos fac nos",
               "version": "Solesmes",
@@ -65,10 +69,11 @@
             "gabc": "(c4) SAl(fv.ffff_c~)vos(d!ewf_e) fac(ege/ghGF'fd) nos,(fff) <clear>*(,) Dó(e.f!gwh)mi(g)ne(g) De(g)us(gh) no(hg)ster,(ixg_[uh:l]h//e.f!gw!higff/ded.) (:) et(g) cón(hjh)gre(j)ga(jh/jj) nos(jj/khhg.) (,) de(g) na(gh)ti(h)ó(h!jij)ni(hgh)bus :(h.0/i_j_i_2/j_[hl:1]k_[hl:1]i'_[hl:1]//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) ut(gj) con(j)fi(ji)te(j)á(jk)mur(jkjji) (;) nó(jjj_h)mi(h!jj)ni(jjjvH'G) (,) san(h_g/h!iwj)cto(h_g/h!iwj) tu(hvGF'//gh_g)o,(ixg_[uh:l]h//e.f!gw!higff/ded.) (:) et(g) <nlba>glo(gji)ri(hji/j_k)é(jkJ'Hg!ihi)mur</nlba>(i.) (,) in(ij'k) gló(jki/jh)ri(hvGF')a(g) tu(f.0h!iwj'!kv)a.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.) (::) <sp>V/</sp>. Tu,(e) Dó(e)mi(e)ne,(ege/ghgff/ded.) (;) pa(g)ter(hj) no(j)ster,(i./jkh/jijHG.) (,) (ji/j_k//li/jkJ'IH.) (,) (k[oll:1{1]/li[oll:}]/jkJ'IH.jijHGjg/i_[uh:l]j//gh!jjjvH'GF'fd.) (;) et(d) red(d)ém(fd/ffd/ef/gh/j_[hl:1]k_[hl:1]j_[hl:1]//j'jjvHGjjj_i)ptor(i.) (`) no(ij/kljjij)ster :(ji..) (:) a(hj) saé(h_g/h!iwj'!kv)cu(j)lo(jv.iji//hihghFE.) (;) no(ege/g_[uh:l]h//g.h!iwj)men(jjjvG'Fg) () * tu(f.0h!iwj'!kv)um.(i_[oh:h]g//ivHGhhf/hh) (,) (g!jj//jj//<nlba>jjjvH'GF'/[-0.5]{ix}E0f_h//ivGFghg/hgge.</nlba>) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Ps 79:20; Cant 2:14\nDómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi érimus: sonet vox tua in áuribus meis. Vox enim tua dulcis, et fácies tua decóra nimis.\n!Cant 1:2\nV. Oleum effúsum nomen tuum, Jesu: ideo adolescéntulæ dilexérunt te.",
+            "texte": "Dómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi érimus: sonet vox tua in áuribus meis. Vox enim tua dulcis, et fácies tua decóra nimis. V. Oleum effúsum nomen tuum, Jesu: ideo adolescéntulæ dilexérunt te.",
             "incipit": {
               "incipit": "Domine Deus",
               "version": "Solesmes",
@@ -79,10 +84,11 @@
             "gabc": "(c4) DO(g)mi(g)ne(gv.fff_d/e_[oh:h]c cd!fvv//g./hjhhg.) (,) * De(gh)us(f) vir(ixg!hwi)tú(iiivHG'h)tum,(hg..) (;) con(g)vér(hfg)te(g/hji) nos :(jjjvHG'giH'Ghg/hg/hg/jjh/jggf.0) (:) et(f) os(f)tén(hj)de(igh) fá(gf/gh)ci(g)em(g) tu(gh)am,(g.) (;) et(g) sal(gh)vi(g) é(gh/jij)ri(j.h!iwj)mus :(jjjvIHivHGhg..) (:) so(hfg)net(g/hji) vox(j) tu(h!iwj)a(ijhhg.) (;) in(hggf) áu(f!h'j)ri(j)bus(j) me(jkjjg)(,)(jv.kli/jki'/jhhg.ixhiGF.)(,)(iyh./jh/ig)is.(g/hhg.) (::) \r\n<sp>V/</sp>. Vox(g!hwi'!jv) e(j)nim(j) tu(ij)a(j.) dul(j_kJ'//Gh_g/h!iw!jvIHijh)cis,(hg..) (:) et(ghg) fá(fg)ci(g)es(gj) tu(j)a(jjjkhhg/hg/jjh/jggf.0) (;) de(gh)có(fg)ra(gh/jij) ni(j.h!iwj)mis.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. O(gd)le(g)um(hjh) ef(j)fú(jv.jjkvJ'IGh_g/h!iw!jvIHijh)sum(hg..) (;) no(g)men(g) tu(hj)um,(j) Je(ik/ljjh)su :(jhhg/hg/jjh/jggf.0) (:) íd(fg!hi)e(h)o(h.) ad(h)o(hgh)le(gfghji)scén(j)tu(h!iwj)lae(ijhhg.) (;) * di(g)le(hg/jjghvG'F)xé(f!h'j)runt(j) te.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja\n!Ps 144:21\nLaudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.",
+            "texte": "Allelúja, allelúja Laudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus. Allelúja. Exaltábo te, Deus meus, Rex: et benedícam nómini sancto tuo, Jesu, in sǽculum, et in sǽculum sǽculi. Allelúja.\nAllelúja, allelúja Laudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.",
             "incipit": {
               "incipit": "Laudem Domini",
               "version": "Solesmes",
@@ -93,12 +99,14 @@
             "gabc": "(c4) AL(dc~)le(c/e'gF'EC'd)lú(dc/fg!hvGF'g){ia}.(g.) (;) * <i>ij.</i>~{~}(hghvGF//g_[oh:h]fgvFDffdev.dec.) (,) (e/ggh'GFgvFEffd//evDCd!ewfd.1) (::) \r\n<sp>V/</sp>. Lau(h)dem(ghG'E) Dó(fe)mi(fg)ni(gvF'EC'dw!evDCd.) (;) lo(d)qué(d/ffe/ggh)tur(fvED) os(cd) me(d!ewfd)um,(d.) (:) et(de) be(gh)ne(gh)dí(h!iwjki'jvH'G//h!iwjh)cat(h.) (,) o(h_ghvG~F~)mnis(fvED) ca(c.d!ewfd)ro(d.) (;) no(de)men(gh) san(ghgh)ctum(h.) <clear>*(,) e(h!iwjki'jvH'G//h!iwjh)jus.(h.) (,) (hghvGF//g_[oh:h]fgvFDffdev.dec.) (,) (e/ggh'GFgvFEffd//evDCd!ewfd.1) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Graduale"
+            "section": "GradualeP",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nIn illo témpore: Postquam consummáti sunt dies octo, ut circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est ab Angelo, priúsquam in útero conciperétur."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nIn illo témpore: Postquam consummáti sunt dies octo, ut circumciderétur Puer: vocátum est nomen ejus Jesus, quod vocátum est ab Angelo, priúsquam in útero conciperétur.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 85:12; 85:5\nConfitébor tibi, Dómine, Deus meus, in toto corde meo, et glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et mitis es: et multæ misericórdiæ ómnibus invocántibus te, allelúja.",
@@ -112,17 +120,20 @@
             "gabc": "(c4) COn(c)fi(d)té(ixdh'!iv)bor(h) *() ti(hjh)bi,(ghg.) (,) Dó(hf)mi(ghg)ne(hg) De(hv.g!jjj)us(fg) me(ixfh!jvHGig/hi)us,(h.) (;) in(h) to(jh//jvGF'fvD'Cd)to(d.) (,) cor(fg/h_f/ghg___/jkjj'jjvI~H~)de(hg) (,) me(gv.fhhghv.gh!jjjh)o,(hhgh.) (:) et(jk) glo(klkl)ri(j_h)fi(hg)cá(hj/kjk)bo(k_[hl:1]h_[hl:1]) (,) no(jk[oll:1{1]/lkl[oll:}])men(j_h) tu(hj)um(jjj) (;) in(hhg) ae(g_[oh:h]fg)tér(fg/h_f/ghg___//jkj//j'j)num :(hjG'Fg.) (:) quó(f)ni(gh)am(hgh) tu,(gfg) Dó(ixivHG'gf)mi(gh)ne,(h.) (;) su(h)á(gji)vis(h) et(h) mi(gji)tis(hg) es :(ghggf.0) (:) et(h) mul(fg/hg)tae(gd) mi(d)se(e)ri(f)cór(gv.fhg)di(fe)ae(f.) (;) ó(hj)mni(h)bus(ghg) in(fh)vo(g)cán(ef!gh)ti(fe)bus(cd) te,(d!ewfgff/ded.) (:) al(fff_d/f/[1]{ix}f//hiH'GF'fe~)le(ghGF'/!ge/!f_d)(,)(fge/fhGF'fd//gf'/gff)lú(dc~){ia}.(d/fff_d/fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Secreta",
-            "texte": "Benedíctio tua, clementíssime Deus, qua omnis viget creatúra, sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut majestáti tuæ placére possit ad laudem, et nobis profícere ad salútem.\n$Per eumdem"
+            "texte": "Benedíctio tua, clementíssime Deus, qua omnis viget creatúra, sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam nóminis Fílii tui, Dómini nostri Jesu Christi, offérimus tibi: ut majestáti tuæ placére possit ad laudem, et nobis profícere ad salútem.\n$Per eumdem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Ps 85:9-10\nOmnes gentes, quascúmque fecísti, vénient et adorábunt coram te, Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et fáciens mirabília: tu es Deus solus, allelúja.",
@@ -136,74 +147,88 @@
             "gabc": "(c4) O(fg'h)mnes(g) gen(gh)tes(g.) (,) * quas(g)cúm(fg~)que(g) fe(g)cí(ggfg)sti,(d.) (,) vé(d/gfg)ni(ge/fd)ent,(d.) (;) et(gfg) ad(f)o(fghjij)rá(jh/ig)bunt(g.) (,) co(j)ram(jjj) te(ih) Dó(ij'k)mi(ji)ne,(g.) (:) et(g) glo(g)ri(gh)fi(g)cá(gh/ji)bunt(ih/jkj) no(h)men(h) tu(ixh_givHF)um :(f.) (:) quó(gh)ni(g)am(g) ma(g.h!iwjjk)gnus(j) es(hg) tu,(g.) (;) et(gf~) fá(fg'1fg)ci(d)ens(d.) mi(f)ra(ef'g)bí(ge/fd)li(cd)a :(d.) (:) tu(gfg) es(ghggf.0) De(fh/jg)us(gf) so(fh/jh/ig)lus,(g.) (;) al(g)le(g)lú(g.f!gwh_g){ia}.(g.) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Nat2-0.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Nat2-0.txt",
             "section": "Postcommunio",
-            "texte": "Omnípotens ætérne Deus, qui creásti et redemísti nos, réspice propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti tuæ obtúlimus, plácido et benígno vultu suscípere dignéris; ut grátia tua nobis infúsa, sub glorióso nómine Jesu, ætérnæ prædestinatiónis titulo gaudeámus nómina nostra scripta esse in cœlis.\n$Per eumdem"
+            "texte": "Omnípotens ætérne Deus, qui creásti et redemísti nos, réspice propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in honórem nóminis Fílii tui, Dómini nostri Jesu Christi, majestáti tuæ obtúlimus, plácido et benígno vultu suscípere dignéris; ut grátia tua nobis infúsa, sub glorióso nómine Jesu, ætérnæ prædestinatiónis titulo gaudeámus nómina nostra scripta esse in cœlis.\n$Per eumdem",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Introitus",
-            "texte": "!Phil 2:10-11\nQu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père.\n!Ps 8:2.\nSeigneur, notre Maître, que votre nom est admirable dans toute la terre.\n&Gloria\nQu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père."
+            "texte": "!Phil 2:10-11\nQu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père.\n!Ps 8:2.\nSeigneur, notre Maître, que votre nom est admirable dans toute la terre.\n&Gloria\nQu’au nom de Jésus tout genou fléchisse dans le ciel, sur la terre et dans les enfers ; et que toute langue proclame que le Seigneur Jésus-Christ est dans la gloire de Dieu le Père.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Oratio",
-            "texte": "Ô Dieu qui avez établi votre Fils unique Sauveur du genre humain, et avez ordonné qu’on l’appelât Jésus, faites, dans votre miséricorde, que nous jouissions dans les cieux de la vue de celui dont nous vénérons le saint nom sur la terre.\n$Per eundem"
+            "texte": "Ô Dieu qui avez établi votre Fils unique Sauveur du genre humain, et avez ordonné qu’on l’appelât Jésus, faites, dans votre miséricorde, que nous jouissions dans les cieux de la vue de celui dont nous vénérons le saint nom sur la terre.\n$Per eundem",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Lectio",
-            "texte": "Lectures des Actes des Apôtres.\n!Act 4:8-12\nEn ce jours là : Pierre, rempli du Saint-Esprit, leur dit : « Chefs du peuple et Anciens, puisqu’on nous interroge aujourd’hui sur un bienfait accordé à un infirme, pour savoir comment cet homme a été guéri, sachez-le bien, vous tous, et tout le peuple, d’Israël : C’est par le nom de Jésus-Christ de Nazareth, que vous avez crucifié, que Dieu a ressuscité des morts, c’est par lui que cet homme est présent devant vous en pleine santé. C’est lui, la pierre rejetée par vous les constructeurs, qui est devenue tête d’angle. Et le salut n’est en aucun autre, car il n’est sous le ciel aucun autre nom donné parmi les hommes, par lequel nous devions être sauvés. »"
+            "texte": "Lectures des Actes des Apôtres.\n!Act 4:8-12\nEn ce jours là : Pierre, rempli du Saint-Esprit, leur dit : « Chefs du peuple et Anciens, puisqu’on nous interroge aujourd’hui sur un bienfait accordé à un infirme, pour savoir comment cet homme a été guéri, sachez-le bien, vous tous, et tout le peuple, d’Israël : C’est par le nom de Jésus-Christ de Nazareth, que vous avez crucifié, que Dieu a ressuscité des morts, c’est par lui que cet homme est présent devant vous en pleine santé. C’est lui, la pierre rejetée par vous les constructeurs, qui est devenue tête d’angle. Et le salut n’est en aucun autre, car il n’est sous le ciel aucun autre nom donné parmi les hommes, par lequel nous devions être sauvés. »",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 105:47\nSauvez-nous Seigneur, notre Dieu, et rassemblez-nous du milieu des nations, afin que nous célébrions votre saint nom et que nous mettions notre gloire à vous louer.\n!Isa 63:16\nC’est vous Seigneur, qui êtes notre père et notre libérateur, vous dont le nom est éternel.\n!Ps 144:21\nMa bouche publiera la louange du Seigneur, et que toute chair bénisse son saint nom."
+            "section": "Graduale[0]",
+            "texte": "Sauvez-nous Seigneur, notre Dieu, et rassemblez-nous du milieu des nations, afin que nous célébrions votre saint nom et que nous mettions notre gloire à vous louer. C’est vous Seigneur, qui êtes notre père et notre libérateur, vous dont le nom est éternel. Ma bouche publiera la louange du Seigneur, et que toute chair bénisse son saint nom.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Tractus",
-            "texte": "!Ps 79:20; Cant 2:14\nSeigneur, Dieu des armées, rétablissez-nous, et montrez-nous votre visage, et nous serons sauvés : que votre voix résonne à mes oreilles ; car votre voix est douce, et votre visage est plus qu’agréable.\n!Cant 1:2\nVotre nom est une huile répandue ; c’est pourquoi les jeunes filles vous aiment."
+            "texte": "Seigneur, Dieu des armées, rétablissez-nous, et montrez-nous votre visage, et nous serons sauvés : que votre voix résonne à mes oreilles ; car votre voix est douce, et votre visage est plus qu’agréable. Votre nom est une huile répandue ; c’est pourquoi les jeunes filles vous aiment.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
-            "section": "Graduale",
-            "texte": "Alléluia."
+            "section": "GradualeP",
+            "texte": "Allelúja, allelúja Ma bouche publiera la louange du Seigneur, et que toute chair bénisse son saint nom. Je Vous exalterai, ô Dieu mon roi, et je bénirai votre saint Nom, Jésus, à jamais et dans les siècles des siècles. Alléluia.\nAlléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nEn ce temps là, le huitième jour, auquel l’enfant devait être circoncis, étant arrivé, on lui donna le nom de Jésus, que l’ange avait indiqué avant qu’il fût conçu dans le sein de sa mère."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 2:21\nEn ce temps là, le huitième jour, auquel l’enfant devait être circoncis, étant arrivé, on lui donna le nom de Jésus, que l’ange avait indiqué avant qu’il fût conçu dans le sein de sa mère.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 85:1; 85:5\nJe vous louerai, Seigneur, mon Dieu, de tout mon cœur, et je glorifierai éternellement votre nom. Car vous êtes, Seigneur, suave et doux, et plein de miséricorde pour tous ceux qui vous invoquent, alléluia."
+            "texte": "!Ps 85:1; 85:5\nJe vous louerai, Seigneur, mon Dieu, de tout mon cœur, et je glorifierai éternellement votre nom. Car vous êtes, Seigneur, suave et doux, et plein de miséricorde pour tous ceux qui vous invoquent, alléluia.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Dieu très clément, que votre bénédiction, où toute créature puise la vie, sanctifie ce sacrifice qui est nôtre et que nous vous offrons pour glorifier le nom de votre Fils, Notre Seigneur Jésus-Christ ; afin qu’il plaise à votre majesté comme une digne louange et qu’il nous soit profitable pour le salut.\n$Per eundem"
+            "texte": "Nous vous en supplions, Dieu très clément, que votre bénédiction, où toute créature puise la vie, sanctifie ce sacrifice qui est nôtre et que nous vous offrons pour glorifier le nom de votre Fils, Notre Seigneur Jésus-Christ ; afin qu’il plaise à votre majesté comme une digne louange et qu’il nous soit profitable pour le salut.\n$Per eundem",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Communio",
-            "texte": "!Ps 85:9-10\nToutes les Nations que vous avez créées viendront et se prosterneront devant vous Seigneur, et elles rendront gloire à votre nom ; car vous êtes grand et vous faites des prodiges ; vous seul êtes Dieu, alléluia."
+            "texte": "!Ps 85:9-10\nToutes les Nations que vous avez créées viendront et se prosterneront devant vous Seigneur, et elles rendront gloire à votre nom ; car vous êtes grand et vous faites des prodiges ; vous seul êtes Dieu, alléluia.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Nat2-0.txt",
             "section": "Postcommunio",
-            "texte": "Dieu tout-puissant et éternel, qui nous avez créés et rachetés, soyez propice à nos vœux ; et daignez agréer avec un visage doux et bienveillant le sacrifice de l’hostie salutaire que nous avons offert à votre majesté en l’honneur du nom de votre Fils, Notre-Seigneur Jésus-Christ ; afin que votre grâce étant répandue dans nos âmes, nous nous réjouissions de ce que nos noms auront été écrits dans les cieux, au titre de l’éternelle prédestination, sous le glorieux nom de Jésus.\n$Per eundem"
+            "texte": "Dieu tout-puissant et éternel, qui nous avez créés et rachetés, soyez propice à nos vœux ; et daignez agréer avec un visage doux et bienveillant le sacrifice de l’hostie salutaire que nous avons offert à votre majesté en l’honneur du nom de votre Fils, Notre-Seigneur Jésus-Christ ; afin que votre grâce étant répandue dans nos âmes, nous nous réjouissions de ce que nos noms auront été écrits dans les cieux, au titre de l’éternelle prédestination, sous le glorieux nom de Jésus.\n$Per eundem",
+            "references": null
           }
         }
       },

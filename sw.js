@@ -1,5 +1,5 @@
 // Cache versionné : incrémenter CACHE à chaque mise à jour des fichiers statiques.
-var CACHE = 'routine-v12';
+var CACHE = 'routine-v13';
 var STATIC = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json'];
 // Bibliothèques externes utiles hors ligne
 var EXTERNES = [

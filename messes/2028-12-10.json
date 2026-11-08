@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Adv2-0",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "2e dimanche de l’Avent",
         "classe": 6.01,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Adv2-0.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c3) PO(ehhi)pu(h)lus(h) Si(hi)on,(hgh.) *(;) ec(hihi)ce(e.) Dó(e.f!gwhhi)mi(h)nus(h) vé(hi)ni(ig/ih)et(h.) (,) ad(iv.hig) sal(fe~)ván(ghg)das(fg) gen(efe___)tes :(e.) (:) et(e) au(eh)dí(hhi)tam(i) fá(kjki)ci(i)et(i) Dó(ij)mi(ihi)nus(iv.hiHF.1) (,) gló(hi'j)ri(jikvJI)am(ij~) vo(j.i!jwk)cis(j_i) su(iji___)ae,(i.) (;) in(e) lae(e)tí(ef'h)ti(h)a(hi!jvji) cor(gh!ijI~'H~)dis(ihhf!gwh) ve(efe___)stri.(e.) (::) <i>Ps.</i> Qui(ehg) re(hi)gis(i) Is(i)ra(i)el,(ik) in(j)tén(ji~)de :(ij..) *(:) qui(ig) de(hi)dú(i)cis(i) vel(i)ut(i!jwk) o(i')vem(h) Jo(hhh)seph.(fe..) (::) Gló(ehg)ri(hi)a(i) Pa(i)tri.(i) (::) <eu>E(i) u(i!jwk) o(i') u(h) a(hhh) e.</eu>(fe..) (::)",
             "mp3": "introitus_populus-sion.mp3",
             "fichier": "Latin/Tempora/Adv2-0.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Oratio",
-            "texte": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:\n$Qui tecum"
+            "texte": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Lectio",
-            "texte": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n!Rom 15:4-13.\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt: ut per patiéntiam et consolatiónem Scripturárum spem habeámus. Deus autem patiéntiæ et solácii det vobis idípsum sápere in altérutrum secúndum Jesum Christum: ut unánimes, uno ore honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter quod suscípite ínvicem, sicut et Christus suscépit vos in honórem Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis propter veritátem Dei, ad confirmándas promissiónes patrum: gentes autem super misericórdia honoráre Deum, sicut scriptum est: Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget régere gentes, in eum gentes sperábunt. Deus autem spei répleat vos omni gáudio et pace in credéndo: ut abundétis in spe et virtúte Spíritus Sancti."
+            "texte": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n!Rom 15:4-13.\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt: ut per patiéntiam et consolatiónem Scripturárum spem habeámus. Deus autem patiéntiæ et solácii det vobis idípsum sápere in altérutrum secúndum Jesum Christum: ut unánimes, uno ore honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter quod suscípite ínvicem, sicut et Christus suscépit vos in honórem Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis propter veritátem Dei, ad confirmándas promissiónes patrum: gentes autem super misericórdia honoráre Deum, sicut scriptum est: Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget régere gentes, in eum gentes sperábunt. Deus autem spei répleat vos omni gáudio et pace in credéndo: ut abundétis in spe et virtúte Spíritus Sancti.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 49:2-3; 49:5\nEx Sion species decóris ejus: Deus maniféste véniet,\nV. Congregáte illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia.",
+            "texte": "Ex Sion species decóris ejus: Deus maniféste véniet, V. Congregáte illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia.",
             "incipit": {
               "incipit": "Ex Sion species",
               "version": "Solesmes",
@@ -63,15 +67,17 @@
             "gabc": "(c3) EX(d) Si(fh)on(h_fhvGE//f'/hffd.) (;) * spé(f_d/ef!gwhhi)ci(h)es(h//ij'IH.ghGF.) (;) de(f!hgh)có(f_e)ris(f!gwh) e(e_[oh:h][ll:1]d~)jus :(df//e!hhhffef.) (:) De(fh/ih)us(hg!ijIH.ghGF.) (;) ma(f)ni(hg)fé(h_fhvGE'f)ste(d_e) (,) vé(def!hv.ijHF./!ghFE.)(,)(fhef)ni(d)et.(efe/fhff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) <sp>V/</sp>. Con(d)gre(f)gá(hf/hhf//hhf//hhjvIH.!f!hhjvIH'/!ihh'hf)(,)(gxgvFEfvEDfv.!hhvF'Ef)te(f.) (;) il(fh)li(h_g) san(fg'h)ctos(gxe_f_d_2//f_e/fgF'E) e(d_[oh:h]e_[oh:h]d~)jus,(d.) (:) qui(d) or(ef~)di(f)na(hfge)vé(f!hhh)runt(h./ihghFE.) (,) (h_[oh:h]i_[oh:h]h_[oh:h]/ihghFE.) (;) (f/hghivHF.1//h_g/hif.1/h_gef!gvgf.0) (:) te(f!h'i)sta(h_g)mén(fg'h)tum(e_[oh:h][ll:1]d) (`) e(fdfED//f_d/ef!gwh'/ih~)jus(hg/ijIH.ghGF.) <clear>*(;) su(f!h'i)per(hg~) sa(fg'h)cri(ef)fí(gxhfge)<nlba>ci(gxd)a.</nlba>(de/gf/g_[uh:l]h) (,) (gxfgE'De_[uh:l]fee[ll:1]d.0) (::)",
             "mp3": "graduel_ex-sion-species.mp3",
             "fichier": "Latin/Tempora/Adv2-0.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja,\n!Ps 121:1\nV. Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.",
+            "texte": "Allelúja, allelúja, V. Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.",
             "incipit": {
               "incipit": "Laetatus sum",
               "version": "Solesmes",
@@ -82,12 +88,14 @@
             "gabc": "(c4) AL(dc~)le(f)lú(ixgfi){ia}.(h.) *(,) <i>ij{.}</i>(ixiji'hig.fg/hjhhg.) (,) (fhgev.dec./ef!gvvFD'ewfd.1) (::) <nlba><sp>V/</sp>. Lae(d)tá(fddc/fg)tus</nlba>(ixfhg/hi) sum(h.) (,) in(h) his(h) quae(h) di(hjH'GF.eg/hgh)cta(fg) sunt(ef~) mi(de!fvED'e)hi :(e[ll:1]d..) (:) in(cd~) do(df/efd.1cd/fdhvhggf/hjh___)mum(h.) (;) Dó(f_[oh:h]g_[oh:h]d_[oh:h]fv.efd.!fg!hvhg)mi(egff)ni(fe..) (;) * í(d!fff/ghf)bi(ixgi)mus.(h./iji'hig.fg/hjhhg.) (,) (fhgev.dec./ef!gvvFD'ewfd.1) (::)",
             "mp3": "alleluia_laetatus-sum.mp3",
             "fichier": "Latin/Tempora/Adv2-0.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:2-10\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es, an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt, páuperes evangelizántur: et beátus est, qui non fúerit scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento agitátam? Sed quid exístis vidére? hóminem móllibus vestitum? Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Etiam dico vobis, et plus quam Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:2-10\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es, an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt, páuperes evangelizántur: et beátus est, qui non fúerit scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento agitátam? Sed quid exístis vidére? hóminem móllibus vestitum? Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Etiam dico vobis, et plus quam Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 84:7-8\nDeus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.",
@@ -101,17 +109,20 @@
             "gabc": "(c4) DE(gh'j)us(j.) * tu(jkjji) con(jjj)vér(jjjh~)tens(iji.) (;) vi(gih)vi(j)fi(jjjvHG')cá(g/jj//jjj)bis(hkjjvI~G~) nos,(hg/h!jjjvHGhh//giHG'hffe.) (:) et(f) plebs(ef'g) tu(hgj)a(jv.jjjvIH'jggf.0) (;) lae(g)tá(gjji)bi(jjjvIH')tur(h) in(hiH~'G~) te :(hg..) (:) os(g)tén(gi)de(iki/jkhhg) no(ig/h!jj/kjji)bis,(jjjvIH) (,) Dó(hj)mi(ghG'__FE'f)ne,(fe..) (;) mi(ef)se(ef)ri(e)cór(ef'h)di(hjg)am(g) tu(gfgvFE)am,(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) et(gj~) sa(jv.jjj)lu(h)tá(hih)re(g.) tu(ghG'F)um(gh!ivih.0) (,) da(jv.jjj//giHG'gf/g.h!iwj'/kjjvIH.) no(fhG'FgvFE)bis.(e.) (::)",
             "mp3": "offertoire_deus-tu-convertens.mp3",
             "fichier": "Latin/Tempora/Adv2-0.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Secreta",
-            "texte": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre præsídiis.\n$Per Dominum"
+            "texte": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre præsídiis.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Bar 5:5; 4:36\nJerúsalem, surge et sta in excélso, et vide jucunditátem, quæ véniet tibi a Deo tuo.",
@@ -125,74 +136,88 @@
             "gabc": "(f3) JE(fge)rú(fh)sa(h_g)lem(hv.ghf) () * sur(hj)ge,(i.) (,) et(iig) sta(hi) in(ij) ex(i)cél(hi)so :(gf..) (:) et(h) vi(fv.ege/fg)de(f) ju(f)cun(hffe~)di(f)tá(hihi)tem,(hg..) (;) quae(g) vé(ij)ni(ig)et(high) ti(fv.e!gef)bi(fvEC.) (,) a(e) De(gih)o(hv.giH'Gh) tu(f_[oh:h]g_[oh:h]f_[oh:h])o.(f.) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Adv2-0.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Adv2-0.txt",
             "section": "Postcommunio",
-            "texte": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna despícere et amáre cœléstia.\n$Per Dominum"
+            "texte": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna despícere et amáre cœléstia.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Introitus",
-            "texte": "!Is 30:30.\nv. Peuple de Sion, voici que le Seigneur va venir pour sauver les peuples ; et le Seigneur fera retentir l'éclat de sa voix dans la joie de votre cœur.\n!Ps 79:2\nVous qui guidez Israël, prêtez attention ; vous qui conduisez Joseph comme une brebis.\n&Gloria\nv. Peuple de Sion, voici que le Seigneur va venir pour sauver les peuples ; et le Seigneur fera retentir l'éclat de sa voix dans la joie de votre cœur."
+            "texte": "!Is 30:30.\nv. Peuple de Sion, voici que le Seigneur va venir pour sauver les peuples ; et le Seigneur fera retentir l'éclat de sa voix dans la joie de votre cœur.\n!Ps 79:2\nVous qui guidez Israël, prêtez attention ; vous qui conduisez Joseph comme une brebis.\n&Gloria\nv. Peuple de Sion, voici que le Seigneur va venir pour sauver les peuples ; et le Seigneur fera retentir l'éclat de sa voix dans la joie de votre cœur.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Oratio",
-            "texte": "Excitez nos cœurs, Seigneur, à préparer les voies de votre Fils unique, afin que par son avènement, nous méritions de vous servir avec un esprit purifié.\n$Qui tecum"
+            "texte": "Excitez nos cœurs, Seigneur, à préparer les voies de votre Fils unique, afin que par son avènement, nous méritions de vous servir avec un esprit purifié.\n$Qui tecum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Lectio",
-            "texte": "Lectio Epístolæ beáti Pauli Apostoli ad Romános.\n!Rom 15:4-13.\nFrères, tout ce qui a été écrit avant nous l'a été pour notre instruction, afin que, par la patience et la consolation que donnent les Écritures, nous possédions l'espérance. Que le Dieu de la patience et de la consolation vous donne d'avoir les uns envers les autres les mêmes sentiments selon Jésus-Christ, afin que, d'un même cœur et d'une même bouche, vous glorifiiez Dieu, le Père de Notre-Seigneur Jésus-Christ. Accueillez-vous donc les uns les autres, comme le Christ vous a accueillis, pour la gloire de Dieu. J'affirme, en effet, que le Christ a été ministre des circoncis, pour montrer la véracité de Dieu, en accomplissant les promesses faites à leurs pères, tandis que les Gentils glorifient Dieu à cause de sa miséricorde, selon qu'il est écrit : « C'est pourquoi je te louerai parmi les nations, et je chanterai à la gloire de ton nom. » L'Écriture dit encore : « Nations, réjouissez-vous avec son peuple. » Et ailleurs : « Nations, louez toutes le Seigneur ; peuples, célébrez-le tous. » Isaïe dit aussi : « Il paraîtra, le rejeton de Jessé, celui qui se lève pour régner sur les nations ; en lui les nations mettront leur espérance. » Que le Dieu de l'espérance vous remplisse de toute joie et de toute paix dans la foi, afin que vous abondiez dans l'espérance et dans la vertu de l'Esprit-Saint."
+            "texte": "Lectio Epístolæ beáti Pauli Apostoli ad Romános.\n!Rom 15:4-13.\nFrères, tout ce qui a été écrit avant nous l'a été pour notre instruction, afin que, par la patience et la consolation que donnent les Écritures, nous possédions l'espérance. Que le Dieu de la patience et de la consolation vous donne d'avoir les uns envers les autres les mêmes sentiments selon Jésus-Christ, afin que, d'un même cœur et d'une même bouche, vous glorifiiez Dieu, le Père de Notre-Seigneur Jésus-Christ. Accueillez-vous donc les uns les autres, comme le Christ vous a accueillis, pour la gloire de Dieu. J'affirme, en effet, que le Christ a été ministre des circoncis, pour montrer la véracité de Dieu, en accomplissant les promesses faites à leurs pères, tandis que les Gentils glorifient Dieu à cause de sa miséricorde, selon qu'il est écrit : « C'est pourquoi je te louerai parmi les nations, et je chanterai à la gloire de ton nom. » L'Écriture dit encore : « Nations, réjouissez-vous avec son peuple. » Et ailleurs : « Nations, louez toutes le Seigneur ; peuples, célébrez-le tous. » Isaïe dit aussi : « Il paraîtra, le rejeton de Jessé, celui qui se lève pour régner sur les nations ; en lui les nations mettront leur espérance. » Que le Dieu de l'espérance vous remplisse de toute joie et de toute paix dans la foi, afin que vous abondiez dans l'espérance et dans la vertu de l'Esprit-Saint.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
-            "section": "Graduale",
-            "texte": "!Ps 49:2-3; 49:5\nDe Sion, beauté parfaite, Dieu va se manifester.\nV. Rassemblez-lui ses fidèles, qui ont fait alliance avec Lui par un sacrifice."
+            "section": "Graduale[0]",
+            "texte": "De Sion, beauté parfaite, Dieu va se manifester. V. Rassemblez-lui ses fidèles, qui ont fait alliance avec Lui par un sacrifice.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 121:1\nV. Je me suis réjoui quand on m'a dit : Nous irons à la maison du Seigneur. Alléluia."
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Je me suis réjoui quand on m'a dit : Nous irons à la maison du Seigneur. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 11:2-10\nEn ce temps-là, lorsque Jean, dans sa prison, entendit parler des œuvres du Christ, il lui envoya dire par ses disciples : « Êtes-vous celui qui doit venir, ou devons-nous en attendre un autre ? » Jésus leur répondit : « Allez rapporter à Jean ce que vous entendez et voyez : les aveugles voient, les boiteux marchent, les lépreux sont guéris, les sourds entendent, les morts ressuscitent, les pauvres sont évangélisés. Heureux celui pour qui je ne serai pas une occasion de chute ! » Comme ils s'en allaient, Jésus se mit à dire aux foules au sujet de Jean : « Qu'êtes-vous allés voir au désert? Un roseau agité par le vent ? Qu'êtes-vous donc aller voir ? Un homme vêtu d'habits somptueux ? Mais ceux qui portent des habits somptueux se trouvent dans les demeures des rois. Mais qu'êtes-vous allés voir ? Un prophète ? Oui, je vous le dis, et plus qu'un prophète. C'est celui dont il est écrit : Voici que j'envoie mon messager en avant de toi, pour préparer la voie devant toi. »"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 11:2-10\nEn ce temps-là, lorsque Jean, dans sa prison, entendit parler des œuvres du Christ, il lui envoya dire par ses disciples : « Êtes-vous celui qui doit venir, ou devons-nous en attendre un autre ? » Jésus leur répondit : « Allez rapporter à Jean ce que vous entendez et voyez : les aveugles voient, les boiteux marchent, les lépreux sont guéris, les sourds entendent, les morts ressuscitent, les pauvres sont évangélisés. Heureux celui pour qui je ne serai pas une occasion de chute ! » Comme ils s'en allaient, Jésus se mit à dire aux foules au sujet de Jean : « Qu'êtes-vous allés voir au désert? Un roseau agité par le vent ? Qu'êtes-vous donc aller voir ? Un homme vêtu d'habits somptueux ? Mais ceux qui portent des habits somptueux se trouvent dans les demeures des rois. Mais qu'êtes-vous allés voir ? Un prophète ? Oui, je vous le dis, et plus qu'un prophète. C'est celui dont il est écrit : Voici que j'envoie mon messager en avant de toi, pour préparer la voie devant toi. »",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Offertorium",
-            "texte": "!Ps 84:7-8\nÔ Dieu, repentez-vous et donnez-nous la vie, et votre peuple se réjouira en vous. Montrez-nous, Seigneur, votre miséricorde, et donnez-nous votre salut."
+            "texte": "!Ps 84:7-8\nÔ Dieu, repentez-vous et donnez-nous la vie, et votre peuple se réjouira en vous. Montrez-nous, Seigneur, votre miséricorde, et donnez-nous votre salut.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Secreta",
-            "texte": "Accueillez favorablement, Seigneur, nos humbles prières et sacrifices, et puisque nos mérites ne peuvent rien pour nous, aidez-nous par vos secours.\n$Per Dominum"
+            "texte": "Accueillez favorablement, Seigneur, nos humbles prières et sacrifices, et puisque nos mérites ne peuvent rien pour nous, aidez-nous par vos secours.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Communio",
-            "texte": "!Bar 5:5; 4:36\nJérusalem, lève-toi, et tiens-toi sur la hauteur ; vois la joie qui te vient de ton Dieu."
+            "texte": "!Bar 5:5; 4:36\nJérusalem, lève-toi, et tiens-toi sur la hauteur ; vois la joie qui te vient de ton Dieu.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Adv2-0.txt",
             "section": "Postcommunio",
-            "texte": "Rassasiés par cet aliment spirituel, nous vous supplions de nous apprendre, Seigneur, à mépriser les réalités terrestres et à aimer les célestes.\n$Per Dominum"
+            "texte": "Rassasiés par cet aliment spirituel, nous vous supplions de nous apprendre, Seigneur, à mépriser les réalités terrestres et à aimer les célestes.\n$Per Dominum",
+            "references": null
           }
         }
       },

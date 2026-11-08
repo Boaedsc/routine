@@ -94,25 +94,25 @@
     zone.appendChild(err);
   }
 
-  function construireTexte(brut, classeLangue, estPsaume) {
-    var d = decouper(brut);
-    var conteneur = document.createElement('div');
-    conteneur.className = 'texte ' + classeLangue + (estPsaume ? ' psaume' : '');
+function construireTexte(brut, classeLangue, estPsaume) {
+  var d = decouper(brut);
+  var conteneur = document.createElement('div');
+  conteneur.className = 'texte ' + classeLangue;
 
-    if (d.origine) {
-      var o = document.createElement('p');
-      o.className = 'origine';
-      o.textContent = d.origine;
-      conteneur.appendChild(o);
-    }
-    if (d.corps) {
-      var c = document.createElement('p');
-      c.className = 'corps';
-      c.textContent = d.corps;
-      conteneur.appendChild(c);
-    }
-    return conteneur;
+  if (d.origine) {
+    var o = document.createElement('p');
+    o.className = 'origine';
+    o.textContent = d.origine;
+    conteneur.appendChild(o);
   }
+  if (d.corps) {
+    var c = document.createElement('p');
+    c.className = 'corps' + (estPsaume ? ' psaume' : '');
+    c.textContent = d.corps;
+    conteneur.appendChild(c);
+  }
+  return conteneur;
+}
 
   // Partition : rendu PDF.js de la 1re page, recadré sur la zone de notation
   function ajouterPartition(block, cle, incipit) {
@@ -212,11 +212,28 @@
     out.getContext('2d').drawImage(src, x0, y0, out.width, out.height, 0, 0, out.width, out.height);
     return out;
 }
+  // Pour Lectio et Evangelium, on retire la première ligne du texte
+  function retirerPremiereLigne(brut) {
+    var lignes = brut.split('\n');
+    return lignes.slice(1).join('\n');
+}
 
   function renderSection(cle, fr, la) {
     var frTexte = nettoyer(fr && fr.texte);
     var laTexte = nettoyer(la && la.texte);
+
+    if (FR_SEULEMENT.indexOf(cle) !== -1) {
+      frTexte = retirerPremiereLigne(frTexte);
+      laTexte = retirerPremiereLigne(laTexte);
+    }
+
     if (!frTexte && !laTexte) return null;
+    var estPsaume = cle === 'Introitus' || cle === 'Graduale' || cle === 'Tractus' ||
+                    cle === 'Offertorium' || cle === 'Communio';
+
+    var block = document.createElement('section');
+    block.className = 'section';
+    block.setAttribute('data-cle', cle);
 
     var bilingue = FR_SEULEMENT.indexOf(cle) === -1 && laTexte && frTexte;
     var estPsaume = cle === 'Introitus' || cle === 'Graduale' || cle === 'Tractus' ||

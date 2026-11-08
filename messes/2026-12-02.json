@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Adv1-3",
-        "nom_sanctoral": "",
-        "classe": 2.1,
+        "gagnant": "Tempora/Adv1-0",
+        "nom_sanctoral": "1er dimanche de l’Avent",
+        "classe": 6.9,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Adv1-3.txt",
-        "temporal": "Latin/Tempora/Adv1-3.txt",
+        "fichier_gagnant": "Latin/Tempora/Adv1-0.txt",
+        "temporal": "Latin/Tempora/Adv1-0.txt",
         "sanctoral": "Latin/Sancti/12-02.txt",
         "calendrier": null,
         "table_transfert": null,
@@ -23,141 +23,209 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Adv1-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "texte": "!Ps 24:1-3\nv. Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.\n!Ps 24:4\nVias tuas, Dómine, demónstra mihi: et sémitas tuas édoce me.\n&Gloria\nv. Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": {
+              "incipit": "Ad te levavi",
+              "version": "Solesmes 1961",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) AD(gd~) te(f) le(gh)vá(h)vi(g.) *(,) á(gjj)ni(h)mam(gh) me(fg)am :(ghggf.0) (;) De(h)us(jj) me(jj/kj)us(jk..) (,) in(fg~) te(g) con(f)fí(fh/ji)do,(i_[oh:h]h_[oh:h]) (,) non(jjj) e(hg)ru(ghfg)bé(ghg___)scam :(g.) (:) ne(j)que(jv.jjj/h_[oh:h]i_[oh:h]h_[oh:h]) ir(h)rí(jkj)de(ih)ant(jjj) me(g.) (,) in(g)i(g)mí(g.h!iwj)ci(j_h) me(h_f)i :(f.) (:) ét(fh)e(hg)nim(g.) u(g)ni(g)vér(g!ihi)si(g.) (,) qui(g) te(g) ex(hji)spé(i/jkj)ctant,(hih.) (;) non(gh~) con(h)fun(hfhg)dén(ghg___)tur.(g.) (::) <i>Ps.</i> Vi(g)as(hg) tu(gj)as,(j) Dó(j)mi(j)ne,(j) de(ji)món(jk)stra(k) mi(jk)hi :(j.) (:) * et(jh~) sé(hj)mi(j)tas(j) tu(j)as(jji) é(gh)do(ji)ce(h) me.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>sae(j)cu(jji)ló(gh)rum.(ji) A(h)men.</eu>(ghd___/ffg.) (::)",
+            "mp3": "introitus_ad-te-levavi.mp3",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab imminéntibus peccatórum nostrórum perículis, te mereámur protegénte éripi, te liberánte salvári:\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Sancti/12-02.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Lectio Epístolæ beáti Pauli Apóstoli ad Romános\n!Rom 13:11-14.\nFratres: Sciéntes, quia hora est jam nos de somno súrgere. Nunc enim própior est nostra salus, quam cum credídimus. Nox præcéssit, dies autem appropinquávit. Abjiciámus ergo ópera tenebrárum, et induámur arma lucis. Sicut in die honéste ambulémus: non in comessatiónibus et ebrietátibus, non in cubílibus et impudicítiis, non in contentióne et æmulatióne: sed induímini Dóminum Jesum Christum.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Univérsi, qui te exspéctant, non confundéntur, Dómine. V. Vias tuas, Dómine, notas fac mihi: et sémitas tuas édoce me.",
+            "incipit": {
+              "incipit": "Universi",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Graduale"
+            },
+            "gabc": "(f3) U(e)ni(f)vér(fh!ivHF'gvEC.efef)si(f.) *(,) qui(fe) te(h) ex(ij)spé(j)ctant,(j_i/j_i/j_g/h_[oh:h]i_[oh:h]h._[oh:h]) (;) non(i_[oh:h]) con(hg~)fun(ef)dén(hi)tur,(gh/ihivHG') Dó(f)mi(f_[oh:h]g_[oh:h]f_[oh:h])ne.(f.) (,) (kxef!hh//i./jkI'Gh_ihhf.) (f+::c4) <sp>V/</sp>. Vi(dh)as(h) tu(hg)as,(gh) Dó(g_[oh:h]f)mi(g_[uh:l]h)ne,(h.) (,) (fgh!jvjh//fgh!jvjh//jvvH'Gjk//jkJH.1) (,) (ixfgh!jvjh/jjh/!iggf.0) (:) no(hk)tas(k_[hl:1]j) fac([oll:1{0]j_lKJ'[oll:}]/kjjh.) (,) mi(hf/gh/jjh//jjvH'Gh!iwj_i)hi :(jjjvIH'jggf.0) (:) et(fg~) sé(g./hjHG'gf)mi(g)tas(g) tu(hv.fgf//ef'!gvffd/ec)as(c.) *(,) é(ff)do(g_[oh:h]f)ce(f!hgh) me.(hvvGF'EC//d!ewfd.1) (::)",
+            "mp3": "graduel_universi-qui-te.mp3",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja. V. Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis. Allelúja.",
+            "incipit": {
+              "incipit": "Ostende nobis",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Os(h)tén(hv.gih)de(h) no(hg)bis(g) Dó(gh!ivvHFhfg)mi(hg)ne(g.) (;) mi(g)se(g)ri(gf)cór(hji)di(h)am(gh) tu(f_ehvvGE.gxfgFD.1egF'Efe)am :(e.) (:) et(e) sa(e)lu(e)tá(feh)re(h.) tu(hfh'GE//fhF'D//gxgvFEf.0/[-1.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHG'he.gxf_e/g_[oh:h]e//gvFEfd)um(d.) (;) * da(fd/ef) no(hg/hfh)bis.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
+            "mp3": "alleluia_ostende-nobis.mp3",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Sancti/12-02.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam\n!Luc 21:25-33.\nIn illo témpore: Dixit Jesus discípulis suis: Erunt signa in sole et luna et stellis, et in terris pressúra géntium præ confusióne sónitus maris et flúctuum: arescéntibus homínibus præ timóre et exspectatióne, quæ supervénient univérso orbi: nam virtútes cœlórum movebúntur. Et tunc vidébunt Fílium hóminis veniéntem in nube cum potestáte magna et majestáte. His autem fíeri incipiéntibus, respícite et leváte cápita vestra: quóniam appropínquat redémptio vestra. Et dixit illis similitúdinem: Vidéte ficúlneam et omnes árbores: cum prodúcunt jam ex se fructum, scitis, quóniam prope est æstas. Ita et vos, cum vidéritis hæc fíeri, scitóte, quóniam prope est regnum Dei. Amen, dico vobis, quia non præteríbit generátio hæc, donec ómnia fiant. Cœlum et terra transíbunt: verba autem mea non transíbunt.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "texte": "!Ps 24:1-3.\nAd te levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur.",
+            "incipit": {
+              "incipit": "Ad te Domine",
+              "version": "Solesmes",
+              "distance": 12,
+              "similarite": 0.7,
+              "source": "Offertorium"
+            },
+            "gabc": "(f3) AD(c) te(ef//efefhhh_g) Dó(f)mi(fg!hvGF'g)ne(gf..) (;) * le(f_e/f!gwh)vá(h)vi(gf) á(hhhvF'Ef/hhh)ni(f)mam(fgef) me(f_[oh:h]g_[oh:h]f_[oh:h])am :(f.) (:) De(h)us(h) me(hihh)us,(g_[oh:h]f) (,) in(fe~) te(f) con(fe~)fí(fhG'E)do,(fe..) (;) non(hhi) e(h)ru(high)bé(h_[oh:h]i_[oh:h]h_[oh:h])scam :(h.) (:) ne(hh)que(h_g) ir(hhh)rí(f)de(e!gw!hvGF)ant(fgf) me(f.) (,) in(e)i(g)mí(i_[oh:h]h)ci(h) me(h_fgvFE'f)i :(fe..) (:) ét(fe)e(fgf)nim(fc) (,) u(efe)ni(f)vér(fih~)si(hi) qui(hg) te(f) ex(e)spé(efe)ctant,(c_[oh:h]bc.) (;) non(ef) con(ef)fun(f!gwh/ig/h_g)dén(fg!hvGF'g)tur.(gf..) (::)",
+            "mp3": "offertoire_ad-te-domine.mp3",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Hæc sacra nos, Dómine, poténti virtúte mundátos ad suum fáciant purióres veníre princípium.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "texte": "!Ps 84:13.\nDóminus dabit benignitátem: et terra nostra dabit fructum suum.",
+            "incipit": {
+              "incipit": "Dominus dabit",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c4) DO(ff)mi(fhg)nus(ghF'EfvE'DCdc..) <clear>*(,) da(ff)bit(ffg) be(fd)ni(f)gni(gh)tá(hj!kvJH)tem :(h.) (:) et(h) ter(ghg)ra(ef) no(ghhg)stra(g.) (;) da(hv.fhghvF'ED)bit(dfddc.) (,) fru(fg)ctum(e_[oh:h][ll:1]d/fgF'Ef) su(d_[oh:h]e_[oh:h]d_[oh:h])um.(d.) (::)",
+            "mp3": "communion_dominus-dabit-benignitatem.mp3",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Adv1-3.txt",
+            "fichier": "Latin/Tempora/Adv1-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Suscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut reparatiónis nostræ ventúra sollémnia cóngruis honóribus præcedámus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Ps 24:1-3.\nv. Vers vous j'élève mon âme ; mon Dieu, en vous je me confie, je n'aurai pas à rougir. Que je ne sois pas la risée de mes ennemis ! Car tous ceux qui vous attendent ne seront pas confondus.\n!Ps 24:4\nSeigneur, enseignez-moi vos voies, apprenez-moi vos chemins.\n&Gloria\nv. Vers vous j'élève mon âme ; mon Dieu, en vous je me confie, je n'aurai pas à rougir. Que je ne sois pas la risée de mes ennemis ! Car tous ceux qui vous attendent ne seront pas confondus.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Réveillez, Seigneur, votre puissance, et venez, afin que, dans les périls imminents où nous mettent nos péchés, vous soyez le protecteur qui nous défend, le libérateur qui nous sauve.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Sancti/12-02.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Lectio",
-            "texte": ""
+            "texte": "Lectio Epístolæ beati Pauli Apostoli ad Romános\n!Rom 13:11-14.\nFrères, vous le savez : l'heure est désormais venue de sortir du sommeil. Car notre salut est maintenant plus proche que quand nous avons commencé à croire. La nuit s'en va, le jour approche. Rejetons donc les œuvres des ténèbres, et revêtons-nous des armes de la lumière. Marchons donc avec décence, comme en plein jour, non dans les orgies et les enivrements, non dans la luxure et les débauches, non dans les disputes et les jalousies, mais revêtez-vous du Seigneur Jésus Christ.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Adv1-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Aucun de ceux qui vous attendent ne sera confondu, Seigneur. V. Seigneur, enseignez-moi vos voies, apprenez-moi vos chemins.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Adv1-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia, alléluia. V. Montrez-nous, Seigneur, votre miséricorde, donnez-nous votre salut. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Sancti/12-02.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Evangelium",
-            "texte": ""
+            "texte": "Sequéntia ++ sancti Evangélii secundum Lucam.\n!Luc 21:25-33.\nEn ce temps-là, Jésus disait à ses disciples : « Il y aura des signes dans le soleil, dans la lune et dans les astres, et, sur la terre, une angoisse des nations inquiètes du fracas de la mer et de son agitation, les hommes se desséchant de frayeur et d'anxiété pour ce qui doit arriver à l'univers, car les puissances des cieux seront ébranlées. Alors on verra le Fils de l'homme venant dans une nuée avec grande puissance et grande gloire. Quand ces choses commenceront à arriver, redressez-vous et relevez la tête, parce que votre délivrance approche. » Et il leur dit une parabole : « Voyez le figuier et tous les arbres : quand déjà ils bourgeonnent, à cette vue vous savez de vous-mêmes que déjà l'été est proche. Ainsi, quand vous verrez ces choses arriver, sachez que le royaume de Dieu est proche. Je vous le dis, en vérité, cette génération ne passera point que toutes ces choses ne soient arrivées. Le ciel et la terre passeront, mais mes paroles ne passeront point. »",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Ps 24:1-3.\nVers vous j'élève mon âme ; mon Dieu, en vous je me confie, je n'aurai pas à rougir. Que je ne sois pas la risée de mes ennemis ! Car tous ceux qui vous attendent ne seront pas confondus.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Que ces saints mystères, Seigneur, dont la puissante vertu nous purifie, nous mènent plus purs à vous qui en êtes le principe.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 84:13.\nLe Seigneur donnera la bonté, et notre terre donnera son fruit.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Adv1-3.txt",
+            "fichier": "Francais/Tempora/Adv1-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Puissions-nous, Seigneur, recevoir votre miséricorde au mileu de votre temple, afin de devancer par de plus dignes hommages les solennités prochaines de notre rédemption.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Sancti/12-02.txt",
-        "Francais/Tempora/Adv1-3.txt",
-        "Latin/Sancti/12-02.txt",
-        "Latin/Tempora/Adv1-3.txt"
+        "Francais/Tempora/Adv1-0.txt",
+        "Latin/Tempora/Adv1-0.txt"
       ],
-      "sections_vides": 24,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

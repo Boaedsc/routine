@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/01-25",
-        "nom_sanctoral": "In Conversione S. Pauli Apostoli",
+        "nom_sanctoral": "Conversion de St Paul, Apôtre",
         "classe": 4.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/01-25.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,58 @@
             "gabc": "(c4) SCi(h)o(ghg) () * cu(h)i(ixhg/hih) cré(fg'h)di(f)di,(d!ew!fvEC.) (;) et(fffd) cer(fg'h)tus(d!ewf_d) sum,(d.) (,) qui(d)a(d) pot(fg'h)ens(g) est(fgff/ded.) (;) de(d)pó(f)si(ef)tum(dc~) me(fh)um(gh) ser(gh~)vá(fg!hvGF'g)re(gf..) (,) in(gffvE'Cd!ewf/g_[uh:l]h) il(fd~)lum(f) di(d_[oh:h]e_[oh:h]d_[oh:h])em.(d.) (::) <i>Ps.</i> Dó(f)mi(gh)ne(h) pro(h)bá(h)sti(h) me,(h) et(h) co(hj)gno(h)ví(h)sti(hg) me :(gh..) *(:) tu(gf) co(gh)gno(h)ví(h)sti(h) ses(h)si(h)ó(h)nem(h) me(h)am,(h.) (,) et(h) re(h)sur(h)re(h)cti(hjh)ó(g')nem(f) me(fg)am.(h.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fg) e.</eu>(h.) (::)",
             "mp3": "introitus_scio-cui-credidi.mp3",
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Oratio",
-            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Oratio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum\n!Act 9:1-22\nIn diébus illis: Saulus adhuc spirans minárum et cædis in discípulos Dómini, accés sit ad príncipem sacerdótum, et pétiit ab eo epístolas in Damáscum ad synagógas: ut, si quos invenísset hujus viæ viros ac mulíeres, vinctos perdúceret in Jerúsalem. Et cum iter fáceret, cóntigit, ut appropinquáret Damásco: et súbito circumfúlsit eum lux de cœlo. Et cadens in terram, audívit vocem dicéntem sibi: Saule, Saule, quid me perséqueris? Qui dixit: Quis es, Dómine? Et ille: Ego sum Jesus, quem tu perséqueris: durum est tibi contra stímulum calcitráre. Et tremens ac stupens, dixit: Dómine, quid me vis fácere? Et Dóminus ad eum: Surge et ingrédere civitátem, et ibi dicétur tibi, quid te opórteat fácere. Viri autem illi, qui comitabántur cum eo, stabant stupefácti, audiéntes quidem vocem, néminem autem vidéntes. Surréxit autem Saulus de terra, apertísque óculis nihil vidébat. Ad manus autem illum trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non videns, et non manducávit neque bibit. Erat autem quidam discípulus Damásci, nómine Ananías: et dixit ad illum in visu Dóminus: Ananía. At ille ait: Ecce ego, Dómine. Et Dóminus ad eum: Surge et vade in vicum, qui vocátur Rectus: et quære in domo Judæ Saulum nómine Tarsénsem: ecce enim orat. Et vidit virum, Ananíam nómine, intrœúntem et imponéntem sibi manus, ut visum recipiat. Respóndit autem Ananías: Dómine, audívi a multis de viro hoc, quanta mala fécerit sanctis tuis in Jerúsalem: et hic habet potestátem a princípibus sacerdótum alligándi omnes, qui ínvocant nomen tuum. Dixit autem ad eum Dóminus: Vade, quóniam vas electiónis est mihi iste, ut portet nomen meum coram géntibus et régibus et fíliis Israël. Ego enim osténdam illi, quanta opórteat eum pro nómine meo pati. Et ábiit Ananías et introívit in domum: et impónens ei manus, dixit: Saule frater, Dóminus misit me Jesus, qui appáruit tibi in via, qua veniébas, ut vídeas et impleáris Spíritu Sancto. Ei conféstim cecidérunt ab óculis ejus tamquam squamæ, et visum recépit: et surgens baptizátus est. Et cum accepísset cibum, confortátus est. Fuit autem cum discípulis, qui erant Damásci, per dies áliquot. Et contínuo in synagógis prædicábat Jesum, quóniam hic est Fílius Dei. Stupébant autem omnes, qui audiébant, et dicébant: Nonne hic est, qui expugnábat in Jerúsalem eos, qui invocábant nomen istud: et huc ad hoc venit, ut vinctos illos dúcere ad príncipes sacerdótum?  Saulus autem multo magis convalescébat, et confundébat Judæos, qui habitábant Damásci, affírmans, quóniam hic est Christus."
+            "texte": "Léctio Actuum Apostolórum\n!Act 9:1-22\nIn diébus illis: Saulus adhuc spirans minárum et cædis in discípulos Dómini, accés sit ad príncipem sacerdótum, et pétiit ab eo epístolas in Damáscum ad synagógas: ut, si quos invenísset hujus viæ viros ac mulíeres, vinctos perdúceret in Jerúsalem. Et cum iter fáceret, cóntigit, ut appropinquáret Damásco: et súbito circumfúlsit eum lux de cœlo. Et cadens in terram, audívit vocem dicéntem sibi: Saule, Saule, quid me perséqueris? Qui dixit: Quis es, Dómine? Et ille: Ego sum Jesus, quem tu perséqueris: durum est tibi contra stímulum calcitráre. Et tremens ac stupens, dixit: Dómine, quid me vis fácere? Et Dóminus ad eum: Surge et ingrédere civitátem, et ibi dicétur tibi, quid te opórteat fácere. Viri autem illi, qui comitabántur cum eo, stabant stupefácti, audiéntes quidem vocem, néminem autem vidéntes. Surréxit autem Saulus de terra, apertísque óculis nihil vidébat. Ad manus autem illum trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non videns, et non manducávit neque bibit. Erat autem quidam discípulus Damásci, nómine Ananías: et dixit ad illum in visu Dóminus: Ananía. At ille ait: Ecce ego, Dómine. Et Dóminus ad eum: Surge et vade in vicum, qui vocátur Rectus: et quære in domo Judæ Saulum nómine Tarsénsem: ecce enim orat. Et vidit virum, Ananíam nómine, intrœúntem et imponéntem sibi manus, ut visum recipiat. Respóndit autem Ananías: Dómine, audívi a multis de viro hoc, quanta mala fécerit sanctis tuis in Jerúsalem: et hic habet potestátem a princípibus sacerdótum alligándi omnes, qui ínvocant nomen tuum. Dixit autem ad eum Dóminus: Vade, quóniam vas electiónis est mihi iste, ut portet nomen meum coram géntibus et régibus et fíliis Israël. Ego enim osténdam illi, quanta opórteat eum pro nómine meo pati. Et ábiit Ananías et introívit in domum: et impónens ei manus, dixit: Saule frater, Dóminus misit me Jesus, qui appáruit tibi in via, qua veniébas, ut vídeas et impleáris Spíritu Sancto. Ei conféstim cecidérunt ab óculis ejus tamquam squamæ, et visum recépit: et surgens baptizátus est. Et cum accepísset cibum, confortátus est. Fuit autem cum discípulis, qui erant Damásci, per dies áliquot. Et contínuo in synagógis prædicábat Jesum, quóniam hic est Fílius Dei. Stupébant autem omnes, qui audiébant, et dicébant: Nonne hic est, qui expugnábat in Jerúsalem eos, qui invocábant nomen istud: et huc ad hoc venit, ut vinctos illos dúcere ad príncipes sacerdótum?  Saulus autem multo magis convalescébat, et confundébat Judæos, qui habitábant Damásci, affírmans, quóniam hic est Christus.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Gal 2:8; 2:9\nQui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi.\nV. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet.",
+            "texte": "Qui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. V. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet.",
             "incipit": {
               "incipit": "Qui operatus est",
               "version": "Solesmes",
@@ -63,10 +102,11 @@
             "gabc": "(c4) QUI(fgf) o(f)pe(gh)rá(ixhih)tus(g) est(fgff!ded.) (,) * Pe(d!f'g)tro(ghghvGFgf..) (;) in(f) a(gh)po(g)sto(fg)lá(f)tum,(fv.ffgvD'Cfg/hghvGFgf..) (:) o(fg)pe(h)rá(jj)tus(kjjvIH) est(jj) (,) et(jk) mi(jik)hi(ixjkjj/hih.) (,) in(ixhi)ter(hhg) gen(ixjh/i_[uh:l]j)tes :(ih..) (:) et(h) co(h)gno(j)vé(j_ik)runt(jkjj/hih.) (,) <nlba>grá(h_g/h!iwj/k_[hl:1]j)ti(j_i/k!lwmk)am</nlba>(k.) De(jj/k_[hl:1]jlvKJ'jvIH)i,(ih..) (;) quae(h_g) da(hi'j)ta(h_g) est(ixhi) mi(h_fhvGF'g)hi.(f.) (,) (ixhiGF'gwhg/hjh/!h/fgf.) (z0::c3) <sp>V/</sp>. Grá(hh)ti(h)a(h) De(i_[oh:h]hghf./hiHG.hiFD.1)(,)(f!hh/i_[oh:h]hghf./hiHG.hiFD.1)(,)(gxf_[oh:h]g_[oh:h]e_[oh:h]!fwg/h_f//h_ghvFD.1)(,)(fdfED//fd/ef!hhhf//hi!kkkJ'IH'i)i(ih..) (;) in(f) me(hi) vá(j)cu(ih)a(hihh/fgf.) (,) non(f!h'i//hhhfh) fu(fhf/hhhvG'FE'f)it :(ee[ll:1]d.0) (:) sed(d) grá(efefhih)ti(gxfgF'E)a(e.) e(gxhf/g_[uh:l]h)jus(gf..) (;) sem(d)per(ef) in(f) me(fhGF') () * ma(i)net.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_qui-operatus-est.mp3",
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Gal 2:8; 2:9\nQui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi.\nV. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet.\n_\n!Tractus\nTu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus.\nV. Prædicátor veritátis et doctor géntium in fide et veritáte.\nV. Per te omnes gentes cognovérunt grátiam Dei.\nV. Intercéde pro nobis ad Deum, qui te elégit.",
+            "texte": "Qui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. V. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet. _ Tu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus. V. Prædicátor veritátis et doctor géntium in fide et veritáte. V. Per te omnes gentes cognovérunt grátiam Dei. V. Intercéde pro nobis ad Deum, qui te elégit.",
             "incipit": {
               "incipit": "Tu es Petrus (Tractus)",
               "version": "Solesmes",
@@ -77,10 +117,11 @@
             "gabc": "(f3) TU(f) es(efE'C//efe/fgf./efe/fgf.) <clear>*(,) Pe(ef/hgh)trus,(ghG'Fgf//ghghvGFgf..) (:) et(e) su(ef!hhi)per(h) hanc(hggf) pe(fe)tram(ef/gf/ggf/gh/iffe.) (;) ae(e)di(gh)fi(f)cá(f_e/f!gwh'!iv)bo(hg/hiih.0) (;) Ec(ef)clé(eh)si(h)am(gh/ih) me(hvGF')am.(f/ggf.0) (::) \r\n<sp>V/</sp>. Et(ef) por(h'/ihhf/g'/hggf/h'/ihhg/i'/jiig/h'/ighf)tae(f) ín(h)fe(hvGF)ri(f.) (;) non(f) prae(f)va(hg)lé(h)bunt(f.) (,) ad(f)vér(fg~)sus(f) e(f!hh//hhh)am :(fe/ggf/gh/iffe.) (:) et(e) ti(gh)bi(f) da(f_e/f!gwh'!iv)bo(hg/hiih.0) (;) cla(ef)ves(eh) re(gh~)gni(h) cae(gh/ih)ló(hvGF')rum.(f/ggf.0) (::) \r\n<sp>V/</sp>. Quod(ef)cúm(hihhf/hh/ijhhg/ihhggf!gwhgh)que(gf..) (,) li(h)gá(h)ve(hvGF)ris(f) su(f)per(hg~) ter(hvGF)ram,(fe/ggf/gh/iffe.) (:) e(gh)rit(f) li(f)gá(f_e/f!gwh'!iv)tum(hg/hiih.0) (;) et(ef) in(eh) cae(gh/ihhvGF')lis.(f/ggf.0) (::) \r\n<sp>V/</sp>. Et(h) quod(i)cúm(j_i~)que(kxiji___/jkI'H//j_i/jkI'H) (,) (jjijvIH//jjijvIH//j_i/jiif.) sól(hi)ve(hvGF)ris(f.) (;) su(f')per(i) ter(jiif/hhfjvIH'hvGF)ram,(fe/ggf/gh/iffe.) (:) e(gh)rit(f) so(f)lú(f_e/f!gwh'!iv)tum(kxhgi.jkiih.0) (;) * et(h/ihhe) in(fgfg.) cae(i_[oh:h]hivHFg.)(,)(h!jijH'GF)lis.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\nV. Magnus sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et méruit thronum duodécimum possídere. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Magnus sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et méruit thronum duodécimum possídere. Allelúja.",
             "incipit": {
               "incipit": "Magnus sanctus Paulus",
               "version": "Solesmes",
@@ -91,12 +132,21 @@
             "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Ma(fg~)gnus(f) san(fg~)ctus(f) Pau(f_e/f!gwh'!iv//jiihi)lus,(iv.hh/fgf.) (;) vas(fg) e(f)le(fg)cti(f)ó(f!hh/ijHF'ivH'GEf./hfhhf/ge)nis,(e.) (;) ve(f)re(ef) di(ffe/ffe/fc..)(,)(ef!hvvF'Ehhhi)gne(h) est(h) glo(h)ri(h)fi(ivH'Gh)cán(f_[oh:h]g_[oh:h]f_[oh:h])dus,(f.) (:) qui(f) et(f) mé(f!h'i)ru(jiihi)it(iv.hh/fgf.) (;) thro(fg)num(f) du(f)o(f)dé(f!hh/ijHF'ivH'GEf./hfh/!hf/ge)ci(f)mum(e.) <clear>*(;) pos(hh)si(hi)dé(i_[oh:h]h/jij)re.(jvvIH'GE//f!gwhf.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:32-34\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. ¶ Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 12:32-34\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. ¶ Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit.",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "texte": "!Ps 138:17\nMihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
@@ -110,17 +160,55 @@
             "gabc": "(c4) MI(ef'g)hi(ixhig'hvF'E) (,) * au(ff/h)tem(h/jjj) ni(g/jjhjvGF)mis(f_e/g_[oh:h]f/gffe.) (;) ho(dg)no(gih)rá(h!iwj!kvJH)ti(h_g) sunt(giH'Gh.) (;) a(ef)mí(d/fgf)ci(e) tu(fgF0'/[-0.5]{ix}E0//fg/hihhg)i,(g./fg!hvhg.) (,) De(g_[oh:h]fhvGFgvFE)us :(fff/d_[oh:h]e_[oh:h]d._[oh:h]) (:) ni(df)mis(fff//fv.fff) (,) con(df/gV!ef~)for(e)tá(ff/h)tus(h/jjj) est(g/jjjvH'Ghv.ixfh/!ig/!ff/ded.) (;) prin(df/gV!ef~)ci(e)pá(ff/h_ghvGF)tus(g.) (,) e(g/jjjh)ó(hv.giH'G)rum.(gvFEf_e//g_[oh:h]f/gffe.) (::)",
             "mp3": "offertoire_mihi-autem-nimis.mp3",
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Secreta",
-            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Secreta",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Matt 19:28-29\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (Allelúja.)",
@@ -134,74 +222,170 @@
             "gabc": "(c4) A(d!ewfe)men(fgf) (,) * di(f)co(fe) vo(ghghvGF'g)bis :(f_e//fvEDe[ll:1]d..) (;) quod(d!ewf) vos,(f_[oh:h]g_[oh:h]d_[oh:h]fv.) (,) qui(c) re(d)li(f)quí(fe)stis(g) ó(fg)mni(fvED)a,(d!ewf.) (;) et(c) se(d)cú(f)ti(fe) e(ghgh)stis(fg) me,(fggf.0) (:) cén(h)tu(hg)plum(h) ac(f)ci(f)pi(g)é(fvED)tis,(ff) (;) et(fh~) vi(h)tam(g) ae(fe)tér(ghghvG~F~)nam(gvFE'DCd.) (,) pos(f_e/ggh)si(fe)dé(d)bi(de!fvED'e)tis.(e[ll:1]d..) (::) <i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
             "mp3": "communion_amen-dico-vobis.mp3",
             "fichier": "Latin/Sancti/01-25.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C5-1.txt",
+                "section": "Communio",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/01-25.txt",
             "section": "Postcommunio",
-            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)\n(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  }
+                ]
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": true,
+                "sous_references": [
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  },
+                  {
+                    "fichier": null,
+                    "section": "Postcommunio",
+                    "resolu": false
+                  }
+                ]
+              }
+            ]
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Introitus",
-            "texte": "!2 Tim 1:12\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge.\n!Ps 138:1-2\nSeigneur, vous m’avez sondé et vous me connaissez, vous savez quand je m’assieds et quand je me lève.\n&Gloria\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge."
+            "texte": "!2 Tim 1:12\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge.\n!Ps 138:1-2\nSeigneur, vous m’avez sondé et vous me connaissez, vous savez quand je m’assieds et quand je me lève.\n&Gloria\nv. Je sais en qui j’ai cru et je suis certain qu’il est assez puissant pour garder mon dépôt jusqu’à ce jour où il me jugera en juste juge.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Oratio",
-            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": false
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Oratio",
+                "resolu": false
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Lectio",
-            "texte": "Léctio Actuum Apostolórum.\n!Act 9:1-22\nEn ces jours-là : Saul, respirant encore la menace et le meurtre contre les disciples du Seigneur, alla trouver le grand prêtre 2 et lui demanda des lettres pour Damas, à l’adresse des synagogues, afin que s’il trouvait des gens de la secte, hommes et femmes, il les amenât enchaînés à Jérusalem. Or, comme il était en chemin, alors qu’il approchait de Damas, tout à coup une lumière venant du ciel resplendit autour de lui. Il tomba à terre et entendit une voix qui lui disait : « Saul, Saul, pourquoi me persécutes-tu ?» Il dit : « Qui êtes-vous, Seigneur ?» Et lui : « Je suis Jésus que tu persécutes. Mais lève-toi et entre dans la ville, et on te dira ce que tu dois faire.» Or les hommes qui faisaient route avec lui étaient demeurés saisis de stupeur, entendant bien la voix, mais ne voyant personne. Saul se releva de terre et, bien que ses yeux fussent ouverts, il ne voyait rien. En le conduisant par la main, on le fit entrer à Damas. Et il fut trois jours sans voir et sans prendre ni nourriture ni boisson. Or il y avait à Damas un disciple nommé Ananie, et le Seigneur lui dit dans une vision : « Ananie !» Il dit : « Me voici, Seigneur.» Et le Seigneur lui dit : « Lève-toi, va dans la rue qu’on appelle la Droite, et cherche dans la maison de Judas un nommé Saul de Tarse. Car le voilà qui prie, et il a vu dans une vision un homme nommé Ananie, qui entrait et lui imposait les mains afin qu’il recouvrât la vue.» Ananie répondit : « Seigneur, j’ai appris de plusieurs sur cet homme combien de mal il a fait à vos saints dans Jérusalem. Et il a ici, de la part des grands prêtres, plein pouvoir pour enchaîner tous ceux qui invoquent votre nom.» Mais le Seigneur lui dit : « Va, car cet homme est un instrument que j’ai choisi pour porter mon nom devant les nations, les rois et les enfants d’Israël ; je lui montrerai en effet tout ce qu’il doit souffrir pour mon nom.» Ananie s’en alla, entra dans la maison, lui imposa les mains et dit : « Saul, mon frère, le Seigneur Jésus qui t’est apparu sur le chemin par lequel tu venais, m’a envoyé pour que tu recouvres la vue et que tu sois rempli de l’Esprit-Saint.» Et aussitôt il lui tomba des yeux comme des écailles, et il recouvra la vue. Il se leva et fut baptisé ; et après qu’il eut pris de la nourriture, il reprit force. Il passa quelques jours avec les disciples qui étaient à Damas ; et aussitôt il prêchait dans les synagogues que Jésus est le Fils de Dieu. Tous ceux qui l’entendaient étaient stupéfaits et disaient : « N’est-ce pas lui qui pourchassait à Jérusalem ceux qui invoquent ce nom, et n’est-il pas venu ici pour les conduire enchaînés aux grands prêtres ?» Cependant Saul se fortifiait de plus en plus, et il confondait les Juifs qui habitaient à Damas, leur démontrant que Jésus était le Christ."
+            "texte": "Léctio Actuum Apostolórum.\n!Act 9:1-22\nEn ces jours-là : Saul, respirant encore la menace et le meurtre contre les disciples du Seigneur, alla trouver le grand prêtre 2 et lui demanda des lettres pour Damas, à l’adresse des synagogues, afin que s’il trouvait des gens de la secte, hommes et femmes, il les amenât enchaînés à Jérusalem. Or, comme il était en chemin, alors qu’il approchait de Damas, tout à coup une lumière venant du ciel resplendit autour de lui. Il tomba à terre et entendit une voix qui lui disait : « Saul, Saul, pourquoi me persécutes-tu ?» Il dit : « Qui êtes-vous, Seigneur ?» Et lui : « Je suis Jésus que tu persécutes. Mais lève-toi et entre dans la ville, et on te dira ce que tu dois faire.» Or les hommes qui faisaient route avec lui étaient demeurés saisis de stupeur, entendant bien la voix, mais ne voyant personne. Saul se releva de terre et, bien que ses yeux fussent ouverts, il ne voyait rien. En le conduisant par la main, on le fit entrer à Damas. Et il fut trois jours sans voir et sans prendre ni nourriture ni boisson. Or il y avait à Damas un disciple nommé Ananie, et le Seigneur lui dit dans une vision : « Ananie !» Il dit : « Me voici, Seigneur.» Et le Seigneur lui dit : « Lève-toi, va dans la rue qu’on appelle la Droite, et cherche dans la maison de Judas un nommé Saul de Tarse. Car le voilà qui prie, et il a vu dans une vision un homme nommé Ananie, qui entrait et lui imposait les mains afin qu’il recouvrât la vue.» Ananie répondit : « Seigneur, j’ai appris de plusieurs sur cet homme combien de mal il a fait à vos saints dans Jérusalem. Et il a ici, de la part des grands prêtres, plein pouvoir pour enchaîner tous ceux qui invoquent votre nom.» Mais le Seigneur lui dit : « Va, car cet homme est un instrument que j’ai choisi pour porter mon nom devant les nations, les rois et les enfants d’Israël ; je lui montrerai en effet tout ce qu’il doit souffrir pour mon nom.» Ananie s’en alla, entra dans la maison, lui imposa les mains et dit : « Saul, mon frère, le Seigneur Jésus qui t’est apparu sur le chemin par lequel tu venais, m’a envoyé pour que tu recouvres la vue et que tu sois rempli de l’Esprit-Saint.» Et aussitôt il lui tomba des yeux comme des écailles, et il recouvra la vue. Il se leva et fut baptisé ; et après qu’il eut pris de la nourriture, il reprit force. Il passa quelques jours avec les disciples qui étaient à Damas ; et aussitôt il prêchait dans les synagogues que Jésus est le Fils de Dieu. Tous ceux qui l’entendaient étaient stupéfaits et disaient : « N’est-ce pas lui qui pourchassait à Jérusalem ceux qui invoquent ce nom, et n’est-il pas venu ici pour les conduire enchaînés aux grands prêtres ?» Cependant Saul se fortifiait de plus en plus, et il confondait les Juifs qui habitaient à Damas, leur démontrant que Jésus était le Christ.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-25.txt",
-            "section": "Graduale",
-            "texte": "!Gal 2:8; 2:9\nCelui qui a agi efficacement dans Pierre pour le rendre Apôtre, a aussi agi efficacement en moi pour me rendre Apôtre des Gentils, et ils ont reconnu la grâce de Dieu, qui m’avait été accordée.\nV. La grâce de Dieu n’a pas été stérile en moi ; mais elle demeure toujours en moi."
+            "section": "Graduale[0]",
+            "texte": "Celui qui a agi efficacement dans Pierre pour le rendre Apôtre, a aussi agi efficacement en moi pour me rendre Apôtre des Gentils, et ils ont reconnu la grâce de Dieu, qui m’avait été accordée. V. La grâce de Dieu n’a pas été stérile en moi ; mais elle demeure toujours en moi.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Tractus",
-            "texte": "!Gal 2:8; 2:9\nCelui qui a agi efficacement dans Pierre pour le rendre Apôtre, a aussi agi efficacement en moi pour me rendre Apôtre des Gentils, et ils ont reconnu la grâce de Dieu, qui m’avait été accordée.\nV. La grâce de Dieu n’a pas été stérile en moi ; mais elle demeure toujours en moi.\n_\n!Tract\nTu as été l’objet du choix de Dieu, Apôtre saint Paul, tu mérites bien d’être glorifié.\nV. Tu as prêché la vérité, tu as enseigné aux païens la vraie foi.\nV. Grâce à toi tous les peuples ont appris à connaître la grâce de Dieu.\nV. Intercède pour nous auprès de Dieu qui t’as choisi."
+            "texte": "Celui qui a agi efficacement dans Pierre pour le rendre Apôtre, a aussi agi efficacement en moi pour me rendre Apôtre des Gentils, et ils ont reconnu la grâce de Dieu, qui m’avait été accordée. V. La grâce de Dieu n’a pas été stérile en moi ; mais elle demeure toujours en moi. _ Tu as été l’objet du choix de Dieu, Apôtre saint Paul, tu mérites bien d’être glorifié. V. Tu as prêché la vérité, tu as enseigné aux païens la vraie foi. V. Grâce à toi tous les peuples ont appris à connaître la grâce de Dieu. V. Intercède pour nous auprès de Dieu qui t’as choisi.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-25.txt",
-            "section": "Graduale",
-            "texte": "Allelúja, allelúja.\nV. Le grand saint Paul, ce vase d’élection, est vraiment digne de gloire, lui qui mérita d’occuper le douzième trône. Allelúja."
+            "section": "Graduale[0]",
+            "texte": "Allelúja, allelúja. V. Le grand saint Paul, ce vase d’élection, est vraiment digne de gloire, lui qui mérita d’occuper le douzième trône. Allelúja.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Evangelium",
-            "texte": "Évangile ++ selon saint Luc.\n!Luc 12:32-34\nEn ce temps-là, Jésus dit à ses disciples : « Ne craignez pas, petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumône. Faites-vous des bourses qui ne s’usent pas, un trésor inépuisable dans les cieux, où les voleurs n’approchent pas et où la teigne ne détruit pas. Car là où est votre trésor, là aussi sera votre cœur. »"
+            "texte": "Évangile ++ selon saint Luc.\n!Luc 12:32-34\nEn ce temps-là, Jésus dit à ses disciples : « Ne craignez pas, petit troupeau ; car il a plu à votre Père de vous donner le royaume. Vendez ce que vous possédez et donnez-le en aumône. Faites-vous des bourses qui ne s’usent pas, un trésor inépuisable dans les cieux, où les voleurs n’approchent pas et où la teigne ne détruit pas. Car là où est votre trésor, là aussi sera votre cœur. »",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Francais/Commune/C5-1.txt",
+                "section": "Evangelium",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Offertorium",
-            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi."
+            "texte": "!Ps 138:17\nÔ Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Secreta",
-            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": false
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Secreta",
+                "resolu": false
+              }
+            ]
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Communio",
-            "texte": "!Matt 19:28; 19:29\nEn vérité, je vous le dis : vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple et posséderez la vie éternelle."
+            "texte": "!Matt 19:28; 19:29\nEn vérité, je vous le dis : vous qui avez tout quitté et m’avez suivi, vous recevrez le centuple et posséderez la vie éternelle.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/01-25.txt",
             "section": "Postcommunio",
-            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)"
+            "texte": "(deinde dicuntur semper)\n_\n$Oremus\n(sed rubrica 196 omittuntur)",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": false
+              },
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Francais/Sancti/01-25.txt",
+                "section": "Postcommunio",
+                "resolu": false
+              }
+            ]
           }
         }
       },

@@ -178,7 +178,7 @@ main > h1::before {
 }
 
 /* Lettrine dorée : uniquement sur le corps d'un psaume */
-#messe .psaume .corps::first-letter {
+#messe .corps::first-letter {
   font-family: 'Cinzel', serif;
   color: var(--or);
   float: left;

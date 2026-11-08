@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Tempora/Quad1-4",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Jeudi de la première semaine de Carême",
         "classe": 4.9,
         "commemorations": [],
         "fichier_gagnant": "Latin/Tempora/Quad1-4.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,30 @@
             "gabc": "(c4) CON(e[ll:1]d~)FÉS(g)SI(hj)O(j) *(,) et(j) pul(j)chri(jjj_h)tú(h/jjh)do(h_givHGh.) (;) in(ef) con(g)spé(g/jjh//jij)ctu(gh) e(hkj)jus :(jkjj'j) (:) sán(gj~)cti(j)tas(jjj) (,) et(h) ma(gf~)gni(g)fi(h)cén(h/jjj)ti(hg)a(g.h!iw!jvIH'ijgg/efe.) (;) in(ef~) san(ef~)cti(ef)fi(f)ca(ef'h)ti(h)ó(h/jjvH'G)ne(g_[oh:h]e) e(fgF~'E~)jus.(e.) (::) <i>Ps.</i> Can(g)tá(hj)te(j) Dó(j)mi(j)no(j) cán(k)ti(j)cum(j) no(ih)vum :(jjj) *(:) can(ig~)tá(hj)te(j) Dó(j)mi(j)no(jji) o(hg)mnis(h') ter(i)ra.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": null,
             "fichier": "Latin/Tempora/Quad1-4.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Oratio",
-            "texte": "Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per abstinéntiam macerántur in córpore, per fructum boni óperis reficiántur in mente.\n$Per Dominum"
+            "texte": "Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per abstinéntiam macerántur in córpore, per fructum boni óperis reficiántur in mente.\n$Per Dominum",
+            "references": [
+              {
+                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Tempora/Quad1-3.txt",
+                "section": "OratioL1",
+                "resolu": true,
+                "sous_references": null
+              }
+            ]
           },
           "Lectio": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:1-9\nIn diébus illis: Factus est sermo Dómini ad me, dicens: Quid est, quod inter vos parábolam vértitis in provérbium istud in terra Israël, dicéntes: Patres comedérunt uvam acérbam, et dentes filiórum obstupéscunt? Vivo ego, dicit Dóminus Deus, si erit ultra vobis parábola hæc in provérbium in Israël. Ecce, omnes ánimæ meæ sunt: ut ánima patris, ita et ánima fílii mea est: ánima, quæ peccáverit, ipsa moriétur. Et vir si fúerit justus, et fécerit judícium et justítiam, in móntibus non coméderit, et óculos suos non leváverit ad idóla domus Israël: et uxórem próximi sui non violáverit, et ad mulíerem menstruátam non accésserit: et hóminem non contristáverit: pignus debitóri reddíderit, per vim nihil rapúerit: panem suum esuriénti déderit, et nudum operúerit vestiménto: ad usúram non commodáverit, et ámplius non accéperit: ab iniquitáte avértent manum suam, et judícium verum fécerit inter virum et virum: in præcéptis meis ambuláverit, et judícia mea custodíerit, ut fáciat veritátem: hic justus est, vita vivet, ait Dóminus omnípotens."
+            "texte": "Léctio Ezechiélis Prophétæ\n!Ezech 18:1-9\nIn diébus illis: Factus est sermo Dómini ad me, dicens: Quid est, quod inter vos parábolam vértitis in provérbium istud in terra Israël, dicéntes: Patres comedérunt uvam acérbam, et dentes filiórum obstupéscunt? Vivo ego, dicit Dóminus Deus, si erit ultra vobis parábola hæc in provérbium in Israël. Ecce, omnes ánimæ meæ sunt: ut ánima patris, ita et ánima fílii mea est: ánima, quæ peccáverit, ipsa moriétur. Et vir si fúerit justus, et fécerit judícium et justítiam, in móntibus non coméderit, et óculos suos non leváverit ad idóla domus Israël: et uxórem próximi sui non violáverit, et ad mulíerem menstruátam non accésserit: et hóminem non contristáverit: pignus debitóri reddíderit, per vim nihil rapúerit: panem suum esuriénti déderit, et nudum operúerit vestiménto: ad usúram non commodáverit, et ámplius non accéperit: ab iniquitáte avértent manum suam, et judícium verum fécerit inter virum et virum: in præcéptis meis ambuláverit, et judícia mea custodíerit, ut fáciat veritátem: hic justus est, vita vivet, ait Dóminus omnípotens.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Ps 16:8; 16:2\nCustódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me.\nV. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.",
+            "texte": "Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege me. V. De vultu tuo judícium meum pródeat: óculi tui vídeant æquitátem.",
             "incipit": {
               "incipit": "Custodi me",
               "version": "Solesmes",
@@ -63,22 +74,26 @@
             "gabc": "(c4) CU(d)stó(d)di(cd) me,(ff//egF'EfvEDe[ll:1]d..) (,) * Dó(dfe/f_g)mi(feede)ne,(dv.cd!ffd/ffvDCfgfff'1d) (,) (ffd'e//fgdevDCdc..) (;) ut(fg) pu(f)píl(f!hgh)lam(ixhihhg) ó(f)cu(fvED)li :(d.0/[-0.5]ef'!gvF'ED.fgf'gvF'ED.) (:) sub(dcf) um(hfh)bra(h/jjh/jggf.0) (,) a(f)lá(hfhGF//hf/ghjvv)rum(hj) tu(gf)á(fv.egffvED)rum(df..) (,) (cd'f/hfh/!ghf/!f'gf/gffe.) (;) pró(f_d/f!gwhgh)te(hgffd/f/[1]{/[-1]ix}f/hiGF'hvGF')ge(gffvD'Cffc) (,) (fgfg) me.(ixhg/hiGF'ghgh'//jvHG'hvF'D//fff/d_[oh:h]e_[oh:h]d._[oh:h]) (::) <sp>V/</sp>. De(cd) vul(ixdh'!iv)tu(h) tu(h)o(hg/hhg/hh) (,) (gh!jjjh//jvvIH'jggf.0) (;) ju(dh)dí(h/jjh)ci(h/jjh)um(h.) me(hg/h/jjjg/ihhg)um(g) pród(i)e(jvIH)at :(h_[oh:h]i_[oh:h]h._[oh:h]) (:) ó(hj)cu(h_f)li(g) tu(h_f/gh!jv.ijh.1)(,)(ixjjvH'GhiG'F//ghF'Dfv.e!gwhgh)i(ixhf/higff/ded.) (:) ví(dfED'fvED.//de!fg/hjIH'hgh.)(,)(ixfh!ivGF'E//f!gwh!ivHG)de(hg)ant(g.) *(;) ae(g)qui(gh)tá(ixjhiGF'h!jjvH'G)tem.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
             "mp3": "graduel_custodi-me.mp3",
             "fichier": "Latin/Tempora/Quad1-4.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 15:21-28\nIn illo témpore: Egréssus Jesus secéssit in partes Tyri et Sidónis. Et ecce, múlier Chananǽa a fínibus illis egréssa clamávit, dicens ei: Miserére mei, Dómine, fili David: fília mea male a dæmónio vexátur. Qui non respóndit ei verbum. Et accedéntes discípuli ejus rogábant eum, dicéntes: Dimítte eam; quia clamat post nos. Ipse autem respóndens, ait: Non sum missus nisi ad oves, quæ periérunt domus Israël. At illa venit, et adorávit eum, dicens: Dómine, ádjuva me. Qui respóndens, ait: Non est bonum súmere panem filiórum, et míttere cánibus. At illa dixit: Etiam, Dómine: nam et catélli edunt de micis, quæ cadunt de mensa dominórum suórum. Tunc respóndens Jesus, ait illi: O múlier, magna est fides tua: fiat tibi, sicut vis. Et sanáta est fília ejus ex illa hora."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 15:21-28\nIn illo témpore: Egréssus Jesus secéssit in partes Tyri et Sidónis. Et ecce, múlier Chananǽa a fínibus illis egréssa clamávit, dicens ei: Miserére mei, Dómine, fili David: fília mea male a dæmónio vexátur. Qui non respóndit ei verbum. Et accedéntes discípuli ejus rogábant eum, dicéntes: Dimítte eam; quia clamat post nos. Ipse autem respóndens, ait: Non sum missus nisi ad oves, quæ periérunt domus Israël. At illa venit, et adorávit eum, dicens: Dómine, ádjuva me. Qui respóndens, ait: Non est bonum súmere panem filiórum, et míttere cánibus. At illa dixit: Etiam, Dómine: nam et catélli edunt de micis, quæ cadunt de mensa dominórum suórum. Tunc respóndens Jesus, ait illi: O múlier, magna est fides tua: fiat tibi, sicut vis. Et sanáta est fília ejus ex illa hora.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Ps 33:8-9\nImmíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos: gustáte, et vidéte, quóniam suávis est Dóminus.",
@@ -92,17 +107,20 @@
             "gabc": "(c4) IM(gh~)mít(hv.fhg)tet(g.) *(,) An(g!jj//jjj)ge(h)lus(ghg.) Dó(h!iwjjvIG)mi(h!iwjjvIG)ni(h!iwj/kjji.) (;) in(j) cir(hg~)cú(j'/ki'/jh')i(h)tu(f_[oh:h]g_[oh:h]f._[oh:h]) (,) ti(hg)mén(hg/jj//jjj)ti(hg)um(ixgv.fh!ivHG) e(ghg___)um,(g.) (:) et(g) e(gh/ji)rí(jjvIG)pi(h!iwji)et(j.) e(jjh/jkjkvJI)os :(j.) (:) gu(ji)stá(jv.jjj/kjk)te(h_g) (,) et(g) vi(hji)dé(jkj'/ki'jvH'GjjvIH'iwj)te,(g.) (;) quó(gh)ni(gf)am(g) su(h)á(h/jjj)vis(g) est(h_g/h!iwj/kjji.) (;) Dó(j'/kj'/ki'jvH'Fg.)(,)(fgh!jvvIH'iw!jvIH)mi(gh!ivHG'h)nus.(hg..) (::)",
             "mp3": "offertoire_immittet-angelus.mp3",
             "fichier": "Latin/Tempora/Quad1-4.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Secreta",
-            "texte": "Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ medicinálibus sunt institúta jejúniis.\n$Per Dominum"
+            "texte": "Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ medicinálibus sunt institúta jejúniis.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Joann 6:52\nPanis, quem ego dédero, caro mea est pro sǽculi vita.",
@@ -116,74 +134,88 @@
             "gabc": "(c4) PA(ixdg!hih)nis,(h.) (,) * quem(h) e(hhg/hggf//{/[-2]ix}g'/igh)go(h) dé(h_fg)de(h)ro,(g.) (;) ca(h)ro(g) me(ghg'/hd//fg!hvG//D')a(d) est(d.) (:) pro(g) saé(ggf/g_[oh:h]d//ef/h_g/hfg)cu(f.e!fwgfg)li(g_[oh:h]f) (,) vi(hjh'jvG'FE.)(,)(gh/jhjvGF'fvED'ew!fvED'e)ta.(e[ll:1]d..) (::)",
             "mp3": "communion_panis-quem-ego.mp3",
             "fichier": "Latin/Tempora/Quad1-4.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Tempora/Quad1-4.txt",
             "section": "Postcommunio",
-            "texte": "Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle præsídiis, et rénova sempitérnis.\n$Per Dominum"
+            "texte": "Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle præsídiis, et rénova sempitérnis.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Introitus",
-            "texte": "!Ps 95:6\nv. La louange et la splendeur sont devant lui ; la sainteté et la magnificence dans son sanctuaire.\n!Ps 95:1\nChantez au Seigneur un cantique nouveau ; chantez au Seigneur, toute la terre.\n&Gloria\nv. La louange et la splendeur sont devant lui ; la sainteté et la magnificence dans son sanctuaire."
+            "texte": "!Ps 95:6\nv. La louange et la splendeur sont devant lui ; la sainteté et la magnificence dans son sanctuaire.\n!Ps 95:1\nChantez au Seigneur un cantique nouveau ; chantez au Seigneur, toute la terre.\n&Gloria\nv. La louange et la splendeur sont devant lui ; la sainteté et la magnificence dans son sanctuaire.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Oratio",
-            "texte": "Regardez, dans votre bienveillance, nous vous en supplions, Seigneur, la dévotion de votre peuple, afin que le fruit des bonnes œuvres fortifie et renouvelle selon l’esprit ceux qui mortifie leur corps par l’abstinence.\n$Per Dominum"
+            "texte": "Regardez, dans votre bienveillance, nous vous en supplions, Seigneur, la dévotion de votre peuple, afin que le fruit des bonnes œuvres fortifie et renouvelle selon l’esprit ceux qui mortifie leur corps par l’abstinence.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Lectio",
-            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 18:1-9\nEn ces jours-là, la parole du Seigneur me fut adressée en ces termes : Pourquoi donc proférez-vous ce proverbe, au sujet du pays d’Israël : « Les pères mangent du verjus, et les dents des fils en sont agacées ?» Je suis vivant, dit le Seigneur Dieu : Vous n’aurez plus lieu de proférer ce proverbe en Israël. Voici que toutes les âmes sont à moi : l’âme du fils comme l’âme du père est à moi ; l’âme qui pèche sera celle qui mourra. Si un homme est juste et pratique le droit et la justice ; s’il ne mange pas sur les montagnes et n’élève pas les yeux vers les idoles infâmes de la maison d’Israël ; s’il ne déshonore pas la femme de son prochain et ne s’approche pas d’une femme pendant sa souillure ; s’il m’opprime personne, s’il rend au débiteur son gage, s’il ne commet pas de rapines, s’il donne son pain à celui qui a faim et couvre d’un vêtement celui qui est nu ; s’il ne prête pas à usure et ne prend pas d’intérêt ; s’il détourne sa main de l’iniquité ; s’il juge selon la vérité entre un homme et un autre ; s’il suit mes préceptes et observe mes lois, en agissant avec fidélité, celui-là est juste ; il vivra, dit le Seigneur tout-puissant."
+            "texte": "Léctio Ezechiélis Prophétæ.\n!Ezech 18:1-9\nEn ces jours-là, la parole du Seigneur me fut adressée en ces termes : Pourquoi donc proférez-vous ce proverbe, au sujet du pays d’Israël : « Les pères mangent du verjus, et les dents des fils en sont agacées ?» Je suis vivant, dit le Seigneur Dieu : Vous n’aurez plus lieu de proférer ce proverbe en Israël. Voici que toutes les âmes sont à moi : l’âme du fils comme l’âme du père est à moi ; l’âme qui pèche sera celle qui mourra. Si un homme est juste et pratique le droit et la justice ; s’il ne mange pas sur les montagnes et n’élève pas les yeux vers les idoles infâmes de la maison d’Israël ; s’il ne déshonore pas la femme de son prochain et ne s’approche pas d’une femme pendant sa souillure ; s’il m’opprime personne, s’il rend au débiteur son gage, s’il ne commet pas de rapines, s’il donne son pain à celui qui a faim et couvre d’un vêtement celui qui est nu ; s’il ne prête pas à usure et ne prend pas d’intérêt ; s’il détourne sa main de l’iniquité ; s’il juge selon la vérité entre un homme et un autre ; s’il suit mes préceptes et observe mes lois, en agissant avec fidélité, celui-là est juste ; il vivra, dit le Seigneur tout-puissant.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
-            "section": "Graduale",
-            "texte": "!Ps 16:8; 16:2\nDéfendez-moi, Seigneur, comme la prunelle de l’œil. Protégez-moi à l’ombre de vos ailes.\nV. Que mon jugement procède de votre visage ; que vos yeux regardent l’équité."
+            "section": "Graduale[0]",
+            "texte": "Défendez-moi, Seigneur, comme la prunelle de l’œil. Protégez-moi à l’ombre de vos ailes. V. Que mon jugement procède de votre visage ; que vos yeux regardent l’équité.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Alleluia",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 15:21-28\nEn ce temps-là : Jésus, étant parti, se retira dans la région de Tyr et de Sidon. Et voilà qu’une femme cananéenne, sortie de ce pays-là, se mit à crier : « Ayez pitié de moi, Seigneur, fils de David ! Ma fille est cruellement tourmentée par le démon. » Il ne lui répondit pas un mot. Alors les disciples, s’étant approchés, le priaient en disant : « Renvoyez-la, car elle nous poursuit de ses cris. » Il répondit : « Je n’ai été envoyé qu’aux brebis perdues de la maison d’Israël. » Mais elle vint se prosterner devant lui, disant : « Seigneur, secourez-moi ! » Il répondit : « Il n’est pas bien de prendre le pain des enfants pour le jeter aux petits chiens. - Oui, Seigneur, dit-elle ; mais les petits chiens mangent des miettes, qui tombent de la table de leurs maîtres. » Alors Jésus lui dit : « Ô femme, votre foi est grande : qu’il vous soit fait comme vous voulez. » Et sa fille fut guérie à l’heure même."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 15:21-28\nEn ce temps-là : Jésus, étant parti, se retira dans la région de Tyr et de Sidon. Et voilà qu’une femme cananéenne, sortie de ce pays-là, se mit à crier : « Ayez pitié de moi, Seigneur, fils de David ! Ma fille est cruellement tourmentée par le démon. » Il ne lui répondit pas un mot. Alors les disciples, s’étant approchés, le priaient en disant : « Renvoyez-la, car elle nous poursuit de ses cris. » Il répondit : « Je n’ai été envoyé qu’aux brebis perdues de la maison d’Israël. » Mais elle vint se prosterner devant lui, disant : « Seigneur, secourez-moi ! » Il répondit : « Il n’est pas bien de prendre le pain des enfants pour le jeter aux petits chiens. - Oui, Seigneur, dit-elle ; mais les petits chiens mangent des miettes, qui tombent de la table de leurs maîtres. » Alors Jésus lui dit : « Ô femme, votre foi est grande : qu’il vous soit fait comme vous voulez. » Et sa fille fut guérie à l’heure même.",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Offertorium",
-            "texte": "!Ps 33:8-9\nL’Ange du Seigneur environnera ceux qui le craignent et il les délivrera. Goûtez et voyez combien le Seigneur est doux."
+            "texte": "!Ps 33:8-9\nL’Ange du Seigneur environnera ceux qui le craignent et il les délivrera. Goûtez et voyez combien le Seigneur est doux.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Secreta",
-            "texte": "Nous vous en supplions, Seigneur, que par votre miséricorde ces sacrifices nous sauvent puisqu’ils ont été établis en ces termes de jeûnes purificateurs.\n$Per Dominum"
+            "texte": "Nous vous en supplions, Seigneur, que par votre miséricorde ces sacrifices nous sauvent puisqu’ils ont été établis en ces termes de jeûnes purificateurs.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Communio",
-            "texte": "!Joann 6:52\nLe pain que je donnerai, c’est ma chair pour la vie du monde."
+            "texte": "!Joann 6:52\nLe pain que je donnerai, c’est ma chair pour la vie du monde.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Tempora/Quad1-4.txt",
             "section": "Postcommunio",
-            "texte": "Par l’abondance de vos dons, élevez-nous, Seigneur, au-dessus des biens temporels et renouvelez-nous pour ceux qui sont éternels.\n$Per Dominum"
+            "texte": "Par l’abondance de vos dons, élevez-nous, Seigneur, au-dessus des biens temporels et renouvelez-nous pour ceux qui sont éternels.\n$Per Dominum",
+            "references": null
           }
         }
       },

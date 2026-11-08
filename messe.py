@@ -276,18 +276,25 @@ def inherited_document(path:Path|None,data:Path,lang='Latin')->dict[str,str]:
             if val:doc[key]=val
     return doc
 
-def _extraire_partie(doc: dict[str, str], part: str) -> tuple[str, str]:
+def _extraire_partie(doc: dict[str, str], part: str,
+                     data: Path, source: Path, lang: str) -> tuple[str, str]:
     """Retourne (texte, section) en appliquant les règles de extract_chants."""
     if part in ('Graduale', 'Tractus', 'Alleluia'):
-        wanted = {'Graduale': 'Graduale', 'Tractus': 'Tractus', 'Alleluia': 'Alleluia'}[part]
+        # 1. Résoudre les références @... AVANT tout filtrage,
+        #    sinon clean_lines supprime la ligne de référence.
+        brut = doc.get(part, '') or doc.get('Graduale', '')
+        if brut.strip().startswith('@'):
+            brut, _ = expand(brut, data, lang, source, part)
+            doc = {**doc, part: brut}
+
+        # 2. Puis seulement, découpe en chants typés.
         chants = extract_chants(doc)
-        if wanted == 'Alleluia':
+        if part == 'Alleluia':
             # Le pascal (GradualeP) et les alléluias coupés du Graduale sont des Alleluia.
             sel = [c for c in chants if c['type'] == 'Alleluia']
-            src = sel[0]['source'] if sel else 'Alleluia'
         else:
-            sel = [c for c in chants if c['type'] == wanted]
-            src = sel[0]['source'] if sel else wanted
+            sel = [c for c in chants if c['type'] == part]
+        src = sel[0]['source'] if sel else part
         if sel:
             return '\n'.join(c['texte'] for c in sel), src
         return '', part
@@ -446,7 +453,7 @@ def _a_un_propre(doc_path: Path | None, data: Path) -> bool:
         return False
     doc = inherited_document(doc_path, data)
     return any(
-        _extraire_partie(doc, p)[0].strip()
+        _extraire_partie(doc, p, data, doc_path, 'Latin')[0].strip()
         for p in PARTS if p not in SCRIPTURE_PARTS
     )
 
@@ -574,13 +581,13 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
             selected=None; txt=''; key=part; refs=[]
             for source in sources:
                 base=inherited_document(source,data,lang)
-                txt,key=_extraire_partie(base,part)
+                txt,key=_extraire_partie(base,part,data,source,lang)
                 rel=source.relative_to(data/'Latin').as_posix() if source.is_relative_to(data/'Latin') else None
                 langfile=find_file(data,lang,rel) if rel else None
                 if lang=='Latin' and source.is_relative_to(data/'Latin'):langfile=source
                 if langfile and langfile.is_file():
                     doc_lang=inherited_document(langfile,data,lang)
-                    t,key=_extraire_partie(doc_lang,part)
+                    t,key=_extraire_partie(doc_lang,part,data,langfile,lang)
                     if t: txt=t; selected=langfile; break
                     selected=langfile
                 if txt: break

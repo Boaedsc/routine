@@ -8,7 +8,7 @@
     {
       "occurrence": {
         "gagnant": "Sancti/10-03",
-        "nom_sanctoral": "",
+        "nom_sanctoral": "Ste Thérèse de l’Enfant Jésus, vierge et docteur de l’Eglise",
         "classe": 3.0,
         "commemorations": [],
         "fichier_gagnant": "Latin/Sancti/10-03.txt",
@@ -23,6 +23,7 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": null,
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
@@ -39,20 +40,23 @@
             "gabc": "(c4) VE(gj)ni(jjj//jv.jjj) ~~~~~~~~~~*() de(j) Lí(hj)ba(jvIH)no,(h.) (,) spon(g/jjh/jjj)sa(gh) me(hkj)a,(jkjj'j) (;) ve(g)ni(hj) de(j) Lí(hj)ba(jvIH'i)no,(hg..) (,) ve(hv.ghggef)ni :(fe..) (:) vul(gj)ne(j)rá(j)sti(j) cor(hj~) me(jvIH)um,(h.) (,) so(gh)ror(fg) me(g/jjh/jjj)a(gh) spon(hkj)sa(jkjj'j) (;) vul(g)ne(hi)rá(iij)sti(hg) cor(hi) me(ghG'FgvFE)um.(e.) (::) <i>T. P.</i> Al(e)le(f)lú(gh){ia},(g.) (,) al(gh)le(g.h!iwjjvIH'G)lú(g_[oh:h]e/fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Lau(g)dá(hj)te,(j) pú(k)e(j)ri,(j) Dó(j)mi(ih)num,(jjj) (:) * lau(ig~)dá(hj)te(j) no(jji)men(hg) Dó(h')mi(i)ni.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Introitus"
+            "section": "Introitus",
+            "references": null
           },
           "Oratio": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Oratio",
-            "texte": "Dómine, qui dixísti: Nisi efficiámini sicut párvuli, non intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia sectári, ut præmia consequámur ætérna.\n$Qui vivis"
+            "texte": "Dómine, qui dixísti: Nisi efficiámini sicut párvuli, non intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia sectári, ut præmia consequámur ætérna.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ\n!Is 66:12-14\nHæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium pacis, et quasi torréntem inundántem glóriam géntium, quam sugétis: ad úbera portabímini, et super génua blandiéntur vobis. Quómodo si cui mater blandiátur, ita ego consolábor vos, et in Jerúsalem consolabímini. Vidébitis, et gaudébit cor vestrum, et ossa vestra quasi herba germinábunt, et cognoscétur manus Dómini servis ejus."
+            "texte": "Léctio Isaíæ Prophétæ\n!Is 66:12-14\nHæc dicit Dóminus: Ecce, ego declinábo super eam quasi flúvium pacis, et quasi torréntem inundántem glóriam géntium, quam sugétis: ad úbera portabímini, et super génua blandiéntur vobis. Quómodo si cui mater blandiátur, ita ego consolábor vos, et in Jerúsalem consolabímini. Vidébitis, et gaudébit cor vestrum, et ossa vestra quasi herba germinábunt, et cognoscétur manus Dómini servis ejus.",
+            "references": null
           },
           "Graduale": {
-            "texte": "!Matt 11:25\nConfíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus, et prudéntibus, et revelásti ea párvulis.\n!Ps 70:5\nDómine, spes mea a juventúte mea.",
+            "texte": "Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus, et prudéntibus, et revelásti ea párvulis. Dómine, spes mea a juventúte mea.",
             "incipit": {
               "incipit": "Confiteor tibi",
               "version": "Solesmes",
@@ -63,24 +67,26 @@
             "gabc": "(c4) COn(d)fí(ffg)te(f)or(f) ti(fg)bi,(f.) *(,) Pa(ghg'/hg)ter,(gv.fgFD.1) (,) Dó(dgf/gh)mi(g)ne(g) cae(fg)li(f) et(f) ter(fffvDC'dff//hghf)rae,(f.) (:) qui(h)a(h) abs(g)con(jj)dí(j)sti(ji) haec(hgj.klkkj.0) (;) a(j) sa(j)pi(hj)én(j)ti(kvJH)bus(h) et(f) pru(h)dén(gv.f!hfg)ti(hg)bus,(g.) (:) et(f) re(f)ve(hg)lá(gj)sti(j) e(j)a(ixj.h!iw!jvIG'hw!ivHG') pár(f)vu(f_[oh:h]g_[oh:h]f_[oh:h])lis.(ixf.0/[-0.5]hj/klKJ'jg/h_f//hiGF.) (z0::c3) <sp>V/</sp>. Dó(hh)mi(h)ne(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (,) (fdfED//fd/ef/hh/ig/hf/hi/kkkh..) (;) spes(hf/hhh) me(h)a(h.f!gwh!iv.hi/!jh/!h/iih.0) (;) a(d) ju(d)ven(d)tú(dfE'D)te(ef) *() me(fhG'Fhhh)a.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Graduale"
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "texte": "!Cant 2:11-12\nJam hiems tránsiit, imber ábiit, et recéssit.\nV. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra.\n!Jer 31:3\nIn caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.",
+            "texte": "Jam hiems tránsiit, imber ábiit, et recéssit. V. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra. In caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.",
             "incipit": {
               "incipit": "Jam hiems",
               "version": "Solesmes",
-              "distance": 2,
-              "similarite": 0.95,
+              "distance": 0,
+              "similarite": 1.0,
               "source": "Tractus"
             },
             "gabc": "(f3) JAM(f) hi(efE'C)ems(ef//ef/hghvvGFgf..) <clear>*(,) tráns(hhgh)i(e)it,(ef/gf/ggf/gh/iffe.) (:) im(gh)ber(f) áb(f_e/f!gwh'!iv)i(hi)it,(hg/hiih.0) (;) et(hihhe) re(fgf)cés(hvGF)sit.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Flo(fhg)res(hi) ap(i)pa(ih)ru(ij)é(jvIH'FihhvGF)runt(fhffe.) (,) in(ef) ter(hi)ra(f) no(fihhvGF'g)stra,(gf..) (;) tem(f)pus(hg) pu(h)ta(f)ti(f)ó(fg)nis(f) ad(f)vé(f!hh//hhh)nit :(fe/ggf/gh/iffe.) (:) vox(e) túr(gh)tu(f)ris(f) au(f)dí(f_e/f!gwh'!iv)ta(hi) est(hg/hiih.0) (;) in(ef) ter(eh)ra(gh/ihi) no(f)stra.(f/ggf.0) (::) \r\n<sp>V/</sp>. In(f) ca(e)ri(f)tá(h/ihhf/hh/ijh/!hg/ih/!hg/!gf!gwhgh)te(gf..) (,) per(h.f!gwh'!iv)pé(hi/ji)tu(ig)a(giH'GhvGFgf..) (;) di(gh'i)lé(hhg)xi(fe) te :(ef/gf/ggf/gh/iffe.) (:) íd(gh)e(f)o(f) at(f)trá(fg)xi(f_e/f!gwh'!iv) te,(kxhgi.jkiih.0) (;) mí(h/ihhe)se(fgf)rans(g.) ()* tu(i_[oh:h]hivHFg.)(,)(h!jijH'GF)i.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Tractus"
+            "section": "Tractus",
+            "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja.\n!Ps 39:17-19\nQuasi rosa plantáta super rivos aquárum fructificate: quasi Libanus odórem suavitátis habete: florete, flores, quasi lílium, et date odórem, et frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus suis. Allelúja.",
+            "texte": "Allelúja, allelúja. V. Quasi rosa plantáta super rivos aquárum fructificáte: quasi Libánus odórem suavitátis habéte: floréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, et collaudáte cánticum, et benedícite Dóminum in opéribus suis. Allelúja. V. Gustáte, et vidéte quóniam suávis estDóminus: in ætérnum misericórdia ejus. Allelúja.\nAllelúja, allelúja. Quasi rosa plantáta super rivos aquárum fructificate: quasi Libanus odórem suavitátis habete: florete, flores, quasi lílium, et date odórem, et frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus suis. Allelúja.",
             "incipit": {
               "incipit": "Quasi rosa",
               "version": "Solesmes",
@@ -91,12 +97,14 @@
             "gabc": "(c2) AL(c)le(ce/g_[oh:h]f)lú(ef!gvFE'g){ia}.(g_[oh:h]f/g_[oh:h]e) <clear>*(,) <i>ij.</i>(g/iivG'Fgv.fffc..) (;) (dffe/fhGF'Dgf/gffc.) (,) (fffvD'Cd_eddc.) (::) <sp>V/</sp>. Qua(c)si(bc) ro(cg'!hv)sa(g) plan(g)tá(gh)ta(g.) (,) su(g)per(gh) ri(e)vos(fg) a(h)quá(g!hw!ivHG)rum(ghf//gvFEfe..) (;) fru(e)cti(f)fi(fg)cá(gffe//fg/iiivGFii/jiivHG')te :(g/hhg.) (;) qua(cg'!hv)si(g) Lí(g)ba(gh)nus(g.) (,) o(d)dó(dg)rem(g) su(h/iji)a(i_[oh:h]h)vi(iiivHG)tá(g!hw!ivHG)tis(ghf/gffe.) (,) ha(fg)bé(gvFEfg/iivG'Fii/jiivHG')te :(g/hhg.) (:) flo(gd)ré(fg)te(gf) flo(ggd)(,)(ghG'Fiii//ghG'//D)(,)(ghG'Fiii//ghg.)(,)(g/ijI'G//iiivG'Fiig.)(,)(f/iifhvGF'fc)res,(c.) (;) qua(c)si(fg) lí(ggd/ghG'FiiivHG'hwih/ij)li(ih)um,(g.) (,) et(fge) da(fg)te(g) o(fi)dó(ijiivHG)rem,(fgf.) (;) et(g) fron(cg~)dé(ghffvEC'd)te(ce/gff) in(e[ll:1]d~) grá(fgF'Efv.d!ewf/gffvE'DC)ti(dc)am,(c.) (:) et(c) col(cd~)lau(d)dá(d)te(c) cán(dc/dfd)ti(e[ll:1]ddcd)cum,(dc..) (;) et(e) be(c)ne(e)dí(g)ci(f)te(g) Dó(g)mi(hg)num(g/hgge/gwhffdev.) (;) (ghg/h_f//d!fff_d/fd/ec..) (;) * in(cd) o(cf)pé(ef/ghg___ge/gwhffde)ri(fe)bus(e.) su(ghg/h_f//d/fff_d)(,)(ghF'Eggfg)is.(g./jjvHG'd!ffd/ec..) (;) (fhg___/hiG'Fde!gvvFE'De.) (;) (dfe/f_e//dfe/f_e//dfe'/gffvD'Cd_eddc.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Graduale"
+            "section": "GradualeP",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-4\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et advocans Jesus párvulum, státuit eum in médio eórum, et dixit; Amen, dico vobis, nisi convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlorum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 18:1-4\nIn illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et advocans Jesus párvulum, státuit eum in médio eórum, et dixit; Amen, dico vobis, nisi convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlorum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum.",
+            "references": null
           },
           "Offertorium": {
             "texte": "!Luc 1:46-49\nMagníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi magna qui potens est. (Allelúja, allelúja.)",
@@ -110,17 +118,20 @@
             "gabc": "(c4) MA(cd)gní(ixdh'!iv)fi(h)cat(h.) *(,) á(hjh)ni(hg)ma(ghg) me(hv.g!jjj)a(fg) Dó(ixfh!jvHGigh)mi(ih)num :(h.) (;) et(de) ex(c)sul(d)tá(ixdh'!iv)vit(hg) spí(h)ri(hg)tus(g) me(hjh)us(ghg.) (,) in(hg~) De(ghg)o(hg) sa(f)lu(g)tá(hv.g!jjj)ri(fg) me(iyfh!jvHGig/h!jjh,jjvH'Gh!iwj_i)o :(jjjvIH'jggf.0) (:) qui(fg/h_f/ghg___//jkjj'jjh)a(hgh.) (,) re(j)spé(klkl)xit(j_h) (,) hu(hf)mi(gh)li(hj)tá(jkjk)tem(k_[hl:1]h) an(jk)cíl(klkl)lae(jhjjj) su(hhg)ae,(g_[oh:h]fg.) (:) fe(hj)cit(jji) mi(jvIH)hi(h_g) ma(g_[oh:h]e/fgffg)gna(gd..) (;) qui(d) pot(df/gfgf//f'ffd/g_[oh:h]ef.)(,)(hjg)ens(fdf) est.(fffgvFD.1) (::) ~~~<i>T. P.</i> Al(fg~)le(e_[oh:h][ll:1]d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(e[ll:1]d..) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Offertorium"
+            "section": "Offertorium",
+            "references": null
           },
           "Secreta": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Secreta",
-            "texte": "Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur, ejus méritis efficiátur accéptum.\n$Per Dominum"
+            "texte": "Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur, ejus méritis efficiátur accéptum.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "texte": "!Deut 32:10-12\nCircumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque portávit in húmeris suis. Dóminus solus dux ejus fuit. (Allelúja, allelúja.)",
@@ -134,74 +145,88 @@
             "gabc": "(c3) CIr(ef~)cum(e)dú(ehg)xit(h') e(i)am,(h.) *(,) et(hhhf) dó(fih/ij)cu(i)it(i.) (,) et(i) cu(j)sto(l)dí(kv.jlK'JIjk)vit(ji..) (;) qua(i)si(g) pu(i)píl(iji)lam(h') ó(i)cu(h)li(gh) su(fge)i.(e.) (:) Sic(e)ut(ei) á(i)qui(i)la(i') ex(i)pán(ij/k_[hl:1]i~)dit(i) a(i)las(jk) su(jkJ'IHij)as,(i.) (;) et(i) as(ij![oll:1{1]k'l)súm(lv.jl[oll:}]/K'JIjk)psit(ji) e(iji___)am,(i.) (;) at(i)que(jkj) por(h)tá(jjk)vit(j_i) in(i_[oh:h]g) hú(hi)me(h)ris(g_[oh:h]fhvG'Fg) su(efe___)is :(e.) (:) Dó(ggh)mi(f!gwh)nus(h_e) so(hf/hi)lus(g.) (,) dux(g_[uh:l]h) e(iihivHGh.f!gwh'!iv)jus(g) fu(efe___)it.(e.) (::) <i>T. P.</i>  Al(f!gwh)le(h_[oh:h]i_[oh:h]h_[oh:h]gih.f!hgh./f_[oh:h]g_[oh:h]e_[oh:h])lú(efe___){ia}.(e.) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/10-03.txt",
-            "section": "Communio"
+            "section": "Communio",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Latin/Sancti/10-03.txt",
             "section": "Postcommunio",
-            "texte": "Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam devóvit.\n$Per Dominum"
+            "texte": "Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam devóvit.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Introitus",
-            "texte": "!Cant 4:8-9.\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur.\n!Ps 112:1\nLouez le Seigneur, enfants, louez le nom du Seigneur.&Gloria\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur."
+            "texte": "!Cant 4:8-9.\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur.\n!Ps 112:1\nLouez le Seigneur, enfants, louez le nom du Seigneur.&Gloria\nv. Viens avec moi du Liban, mon épouse, viens avec moi du Liban ; tu m’as blessé au cœur, ma sœur, mon épouse, tu m’as blessé au cœur.",
+            "references": null
           },
           "Oratio": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Oratio",
-            "texte": "Seigneur qui avez dit : Si vous ne devenez semblables à de petits enfants, vous n’entrerez pas dans le Royaume des Cieux, donnez-nous, nous vous en supplions, de suivre les traces de votre sainte Vierge Thérèse dans la voie de l’humilité et de la simplicité du cœur, en sorte que nous méritions de partager sa récompense éternelle. Vous qui vivez.\n$Qui vivis"
+            "texte": "Seigneur qui avez dit : Si vous ne devenez semblables à de petits enfants, vous n’entrerez pas dans le Royaume des Cieux, donnez-nous, nous vous en supplions, de suivre les traces de votre sainte Vierge Thérèse dans la voie de l’humilité et de la simplicité du cœur, en sorte que nous méritions de partager sa récompense éternelle. Vous qui vivez.\n$Qui vivis",
+            "references": null
           },
           "Lectio": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Lectio",
-            "texte": "Léctio Isaíæ Prophétæ.\n!Is 66:12-14\nVoici ce que dit le Seigneur : Je dirigerai vers elle la paix comme un fleuve, et la gloire des nations comme un torrent qui déborde. Vous serez comme des nourrissons que l’on porte sur son bras, que l’on caresse sur ses genoux. De même qu’une mère console son enfant, moi-même je vous consolerai, dans Jérusalem vous serez consolés. Vous le verrez, et votre coeur se réjouira ; vos membres, comme l’herbe nouvelle, seront rajeunis. Et le Seigneur fera connaître sa puissance à ses serviteurs."
+            "texte": "Léctio Isaíæ Prophétæ.\n!Is 66:12-14\nVoici ce que dit le Seigneur : Je dirigerai vers elle la paix comme un fleuve, et la gloire des nations comme un torrent qui déborde. Vous serez comme des nourrissons que l’on porte sur son bras, que l’on caresse sur ses genoux. De même qu’une mère console son enfant, moi-même je vous consolerai, dans Jérusalem vous serez consolés. Vous le verrez, et votre coeur se réjouira ; vos membres, comme l’herbe nouvelle, seront rajeunis. Et le Seigneur fera connaître sa puissance à ses serviteurs.",
+            "references": null
           },
           "Graduale": {
             "fichier": "Francais/Sancti/10-03.txt",
-            "section": "Graduale",
-            "texte": "!Matt 11:25\nJe vous bénis, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents de ce monde et les avez révélées aux petits.\n!Ps 70:5\nSeigneur, dès mon enfance, j’ai espéré en vous."
+            "section": "Graduale[0]",
+            "texte": "Je vous bénis, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents de ce monde et les avez révélées aux petits. Seigneur, dès mon enfance, j’ai espéré en vous.",
+            "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Tractus",
-            "texte": "!Cant 2:11-12\nDéjà l’hiver et passé, la pluie est partie, elle s’est retirée.\nV. Les fleurs ont paru sur notre terre, le temps de tailler la vigne est venu : la voix de la tourterelle a été entendu sur notre terre.\n!Jer 31:3\nJe t’ai aimée d’un amour éternel : c’est pour cela que je t’ai attirée ayant pitié de toi."
+            "texte": "Déjà l’hiver et passé, la pluie est partie, elle s’est retirée. V. Les fleurs ont paru sur notre terre, le temps de tailler la vigne est venu : la voix de la tourterelle a été entendu sur notre terre. Je t’ai aimée d’un amour éternel : c’est pour cela que je t’ai attirée ayant pitié de toi.",
+            "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/10-03.txt",
-            "section": "Graduale",
-            "texte": "Alléluia, alléluia.\n!Ps 39:17-19\nCroissez comme la rose plantée sur les bords des eaux : comme le Liban répandez votre parfum suave : semblable au lys, faites éclore vos fleurs et exhalez vos parfums, parez-vous de beauté, chantez un cantique et louez le Seigneur pour la grandeur de ses œuvres. Alléluia."
+            "section": "GradualeP",
+            "texte": "Alléluia, alléluia V. Croissez comme la rose plantée sur les bords des eaux : comme le Liban répandez votre parfum suave : semblable au lys, faites éclore vos fleurs et exhalez vos parfums, parez-vous de beauté, chantez un cantique et louez le Seigneur pour la grandeur de ses œuvres. Alléluia. V. Goûtez et voyez combien le Seigneur est bon : et sa miséricorde éternelle. Alléluia.\nAlléluia, alléluia. Croissez comme la rose plantée sur les bords des eaux : comme le Liban répandez votre parfum suave : semblable au lys, faites éclore vos fleurs et exhalez vos parfums, parez-vous de beauté, chantez un cantique et louez le Seigneur pour la grandeur de ses œuvres. Alléluia.",
+            "references": null
           },
           "Evangelium": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-4\nEn ce temps-là, les disciples s’approchèrent de Jésus et lui dirent : « Qui donc est le plus grand dans le Royaume des cieux ? » Alors Jésus appela un petit enfant ; il le plaça au milieu d’eux, et il déclara : « Amen, je vous le dis : si vous ne changez pas pour devenir comme les petits enfants, vous n’entrerez point dans le Royaume des cieux. Mais celui qui se fera petit comme cet enfant, c’est celui-là qui est le plus grand dans le Royaume des cieux. »"
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 18:1-4\nEn ce temps-là, les disciples s’approchèrent de Jésus et lui dirent : « Qui donc est le plus grand dans le Royaume des cieux ? » Alors Jésus appela un petit enfant ; il le plaça au milieu d’eux, et il déclara : « Amen, je vous le dis : si vous ne changez pas pour devenir comme les petits enfants, vous n’entrerez point dans le Royaume des cieux. Mais celui qui se fera petit comme cet enfant, c’est celui-là qui est le plus grand dans le Royaume des cieux. »",
+            "references": null
           },
           "Offertorium": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Offertorium",
-            "texte": "!Luc 1:46-49\nMon âme exalte le Seigneur et mon esprit exulte en Dieu mon Sauveur : car il a jeté les yeux sur son humble servante, il a fait en moi de grandes choses."
+            "texte": "!Luc 1:46-49\nMon âme exalte le Seigneur et mon esprit exulte en Dieu mon Sauveur : car il a jeté les yeux sur son humble servante, il a fait en moi de grandes choses.",
+            "references": null
           },
           "Secreta": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Secreta",
-            "texte": "Seigneur, nous vous en supplions, que la prière de sainte Thérèse, votre Vierge, vous concilie notre sacrifice, afin qu’il vous devienne agréable par les mérite de celle en l’honneur de qui il est offert.\n$Per Dominum"
+            "texte": "Seigneur, nous vous en supplions, que la prière de sainte Thérèse, votre Vierge, vous concilie notre sacrifice, afin qu’il vous devienne agréable par les mérite de celle en l’honneur de qui il est offert.\n$Per Dominum",
+            "references": null
           },
           "Prefatio": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Communio",
-            "texte": "!Deut 32:10-12\nIl l’a entouré et a pris soin d’elle : il l’a gardée comme la prunelle de ses yeux. Comme l’aigle il a déployé ses ailes, l’a enlevée et emportée sur ses épaules. Le Seigneur seul fut son guide."
+            "texte": "!Deut 32:10-12\nIl l’a entouré et a pris soin d’elle : il l’a gardée comme la prunelle de ses yeux. Comme l’aigle il a déployé ses ailes, l’a enlevée et emportée sur ses épaules. Le Seigneur seul fut son guide.",
+            "references": null
           },
           "Postcommunio": {
             "fichier": "Francais/Sancti/10-03.txt",
             "section": "Postcommunio",
-            "texte": "Que ce mystère céleste nous embrase de ce feu brûlant, auquel la sainte Vierge Thérèse s’offrit en victime d’amour pour les hommes.\n$Per Dominum"
+            "texte": "Que ce mystère céleste nous embrase de ce feu brûlant, auquel la sainte Vierge Thérèse s’offrit en victime d’amour pour les hommes.\n$Per Dominum",
+            "references": null
           }
         }
       },

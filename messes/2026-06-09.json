@@ -7,12 +7,12 @@
   "messes": [
     {
       "occurrence": {
-        "gagnant": "Tempora/Pent02-2",
-        "nom_sanctoral": "",
-        "classe": 2.9,
+        "gagnant": "Tempora/Pent02-0",
+        "nom_sanctoral": "2e dimanche après la Pentecôte",
+        "classe": 5.9,
         "commemorations": [],
-        "fichier_gagnant": "Latin/Tempora/Pent02-2.txt",
-        "temporal": "Latin/Tempora/Pent02-2.txt",
+        "fichier_gagnant": "Latin/Tempora/Pent02-0.txt",
+        "temporal": "Latin/Tempora/Pent02-0.txt",
         "sanctoral": "Latin/Sancti/06-09.txt",
         "calendrier": null,
         "table_transfert": null,
@@ -23,141 +23,209 @@
         "table_transfert_saisonnier": "1960",
         "transfert_scriptura_annuel": [],
         "table_transfert_scriptura": null,
+        "oratio_dominica_source": "Tempora/Pent02-0",
         "note": "Sélection d’occurrence portée à partir des tables et rangs; limites rubricales restantes décrites dans STRUCTURE.md"
       },
       "sections": {
         "Latin": {
           "Introitus": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "texte": "!Ps 17:19-20\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.\n!Ps 17:2-3\nDíligam te. Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.\n&Gloria\nv. Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum me fecit, quóniam vóluit me.",
+            "incipit": {
+              "incipit": "Factus est Dominus",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Introitus"
+            },
+            "gabc": "(c4) FA(ixdh'!iv)ctus(h) est(h) *() Dó(h)mi(gf)nus(f.) (,) pro(gfg)té(hgh)ctor(ixhV_!gi~) me(ixig/ih)us,(h.) (;) et(h) e(jj)dú(jk)xit(hi) me(h.) (,) in(h) la(jj)ti(kvJ'Ij')tú(h)di(h_[oh:h]i_[oh:h]h_[oh:h])nem :(h.) (:) sal(h)vum(g) me(fg'h) fe(ghfg)cit,(d.) (;) quó(f)ni(fe)am(fgfefd) vó(f_h//ghg//ef'!gh)lu(ghfg)it(d!ew!fv_E~D~) me.(d.) (::) <i>Ps.</i> Dí(f)li(gh)gam(h) te(h) Dó(h)mi(h)ne(h) for(h)ti(h)tú(hj)do(h) me(hg)a :(gh..) *(:) Dó(gf)mi(gh)nus(h) fir(h)ma(h)mén(h)tum(h) me(h)um,(h) et(h) re(h)fú(h)gi(h)um(h) me(h)um,(h.) (,) et(h) li(h)be(hjh)rá(g')tor(f) me(fff)us.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+            "mp3": "introitus_factus-est-dominus.mp3",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "references": null
           },
           "Oratio": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum: quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Latin/Sancti/06-09.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Lectio",
-            "texte": "Lectio libri Sapientiæ\n!Sap 5:16-20\nJusti autem in perpétuum vivent, et apud Dóminum est merces eórum, et cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et diadéma speciéi de manu Dómini: quóniam déxtera sua teget eos, et bráchio sancto suo deféndet illos. Accípiet armatúram zelus illíus, et armábit creatúram ad ultiónem inimicórum. Induet pro thoráce justítiam, et accípiet pro gálea judícium certum. Sumet scutum inexpugnábile æquitátem."
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 John 3:13-18\nCaríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
-            "section": "Graduale",
-            "texte": ""
+            "texte": "Ad Dóminum, cum tribulárer, clamávi, et exaudívit me. V. Dómine, libera ánimam meam a lábiis iníquis, et a lingua dolósa.",
+            "incipit": {
+              "incipit": "Ad Dominum",
+              "version": "Solesmes",
+              "distance": 1,
+              "similarite": 0.975,
+              "source": "Graduale"
+            },
+            "gabc": "(c4) AD(d) Dó(ff)mi(fgff'f)num,(f_d/fge'/fgd'/e[ll:1]ddc.) <clear>*(;) dum(f) tri(f)bu(h)lá(jh/jjj)rer,(j.) (,) cla(j)má(k_[hl:1]j//ijI'H//k_[hl:1]j//j'jjvHGhg/h!jjkvJI)vi,(j.) (:) et(h) ex(h!j'k)au(jh~)dí(h!jjg/h)vit(fg) me.(fgh!jv.0/klJH.1) (,) (ixjjvH'G//hiGF'gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. Dó(h)mi(ih)ne,(hvvGF//ig/h_[oh:h]i_[oh:h]g_[oh:h]//hih//h'i_[oh:h]H'_[oh:h]GEf.ff) (,) (fffgxfff//fh/ihgg/efe.) (;) lí(gxgh'i)be(hi_[oh:h]H'_[oh:h]GF'g)ra(f.) (,) á(gxfg'h)ni(g)mam(fe~) me(f/hhh)am(hv.fhff/ded.) (;) a(d) lá(fdfED//f_d/ef!gwhhi)bi(h)is(h.) (,) in(h)í(i_[oh:h]h//ghG'F//i_[oh:h]h//h'hhvFEfe/f!hhivHG)quis,(h.) (:) et(hhi) a(h) lin(h_f/hhhe/fe/fd~)gua(e[ll:1]d..) *(,) do(h)ló(h)sa.(ihh'hvFE'e[ll:1]d.0) (;) (fdfED//fd/ef/hh/ijghf.0gxegFD.1) (::)",
+            "mp3": "graduel_ad-dominum-dum.mp3",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "texte": "Allelúja, allelúja. Dómine, Deus meus, in te sperávi: salvum me fac ex ómnibus persequéntibus me et líbera me. Allelúja.",
+            "incipit": {
+              "incipit": "Domine Deus meus in te",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(c4) AL(dc~)le(c/e'gF'EC'd)lú(dc/fg!hvGF'g){ia}.(g.) *(;) <i>ij.</i>(hghvGF//g_[oh:h]fgvFDffdev.dec.) (;) (e/ggh'GF/gvFEffd//evDCd!ewfd.1) (::) <sp>V/</sp>. Dó(h)mi(ghG'F)ne(ev.ce'!gvF'EC'dw!evDCd.) (,) De(d/ffe/ggh)us(fvED) me(c.d!ewfd)us,(d.) (;) in(de) te(gh) spe(gh)rá(h!iwj/ki'jvH'G//h!iwjh)vi :(h.) (:) sal(h_ghvGF'e[ll:1]d~)vum(fg'h) me(fvED) fac(c.d!ewfd.1) (;) ex(de) ó(ghg___//hgh)mni(h!iwj/ki'jvH'G//h!iwjh)bus(h.) (,) per(h_ghvGF'e[ll:1]d~)se(f)quén(g_[uh:l]h)ti(fvED)bus(c.d!ewfd) me,(d.) *(:) et(de) lí(gh)be(gh)ra(h!iwj/ki'jvH'G//h!iwjh) me.(h.) (,) (hghvGF//g_[oh:h]fgvFDffdev.dec.) (,) (e/ggh'GF/gvFEffd//evDCd!ewfd.1) (::)",
+            "mp3": "alleluia_domine-deus-meus.mp3",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
+            "section": "Graduale[0]",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Latin/Sancti/06-09.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum\n!Matt 11:25-30\nIn illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam\n!Luc 14:16-24\nIn illo témpore: Dixit Jesus pharisǽis parábolam hanc: Homo quidam fecit cœnam magnam, et vocávit multos. Et misit servum suum hora cœnæ dícere invitátis, ut venírent, quia jam paráta sunt ómnia. Et cœpérunt simul omnes excusáre. Primus dixit ei: Villam emi, et necésse hábeo exíre et vidére illam: rogo te, habe me excusátum. Et alter dixit: Juga boum emi quinque et eo probáre illa: rogo te, habe me excusátum. Et álius dixit: Uxórem duxi, et ídeo non possum veníre. Et revérsus servus nuntiávit hæc dómino suo. Tunc irátus paterfamílias, dixit servo suo: Exi cito in pláteas et vicos civitátis: et páuperes ac débiles et cæcos et claudos íntroduc huc. Et ait servus: Dómine, factum est, ut imperásti, et adhuc locus est. Et ait dóminus servo: Exi in vias et sepes: et compélle intrare, ut impleátur domus mea. Dico autem vobis, quod nemo virórum illórum, qui vocáti sunt, gustábit cœnam meam.",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "texte": "!Ps 6:5\nDómine, convértere, et éripe ánimam meam: salvum me fac propter misericórdiam tuam.",
+            "incipit": {
+              "incipit": "Domine convertere",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Offertorium"
+            },
+            "gabc": "(c4) DO(f)mi(f)ne(fgff) ()* con(fd~)vér(fg~)te(f)re,(f.) (,) et(fg) é(ghf)ri(f_[oh:h]g_[oh:h]f_[oh:h])pe(f.) á(fh)ni(g)mam(ffhg) me(f_[oh:h]g_[oh:h]f_[oh:h])am :(f.) (:) sal(fg~)vum(f) me(f) fac(f.) (,) pro(fd/ffd)pter(d_c) mi(d)se(ffg)ri(f)cór(fg~)di(f)am(fg/hg/h_g) tu(fg!hvGF'g)am.(gf..) (::)",
+            "mp3": "offertoire_domine-convertere.mp3",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "references": null
           },
           "Secreta": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Oblátio nos, Dómine, tuo nómini dicánda puríficet: et de die in diem ad cœléstis vitæ tránsferat actiónem.\n$Per Dominum.",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "texte": "!Ps 12:6\nCantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini altíssimi.",
+            "incipit": {
+              "incipit": "Cantabo Domino",
+              "version": "Solesmes",
+              "distance": 0,
+              "similarite": 1.0,
+              "source": "Communio"
+            },
+            "gabc": "(c3) CAn(d)tá(gxege)bo(g) *() Dó(gxf/ghg)mi(gvFE)no,(ge/fgf.) (,) qui(ef) bo(hhi)na(h) trí(hihhe)bu(f)it(fiH'Gh) mi(f_[oh:h]g_[oh:h]f_[oh:h])hi :(f.) (:) et(h) psal(hi~)lam(g_[oh:h]f) nó(hi!jk)mi(k)ni(j/klk) Dó(ij)mi(ih)ni(hihhvG'FEfe..) (,) al(gig//ijhh'hvF'ED//fhf)tís(f)si(f_[oh:h]g_[oh:h]f_[oh:h])mi.(f.) (::)",
+            "mp3": "communion_cantabo-domino.mp3",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Communio",
-            "texte": ""
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Latin/Tempora/Pent02-2.txt",
+            "fichier": "Latin/Tempora/Pent02-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Sumptis munéribus sacris, quǽsumus, Dómine: ut cum frequentatióne mystérii, crescat nostræ salútis efféctus.\n$Per Dominum",
+            "references": null
           }
         },
         "Francais": {
           "Introitus": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Introitus",
-            "texte": ""
+            "texte": "!Ps 17:19-20.\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé.\n!Ps 17:2-3\nJe vous aime, Seigneur, ma force ; le Seigneur est mon soutien, mon refuge et mon libérateur.\n&Gloria\nv. Le Seigneur s'est fait mon protecteur, et il m'a mis au large ; il m'a sauvé parce qu'il m'a aimé.",
+            "references": null
           },
           "Oratio": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Oratio",
-            "texte": ""
+            "texte": "De votre saint Nom, Seigneur, faites-nous éprouver sans cesse la crainte et l'amour, car vous ne privez jamais de votre assistance ceux que vous établissez dans la solidité de votre amour.\n$Per Dominum",
+            "references": null
           },
           "Lectio": {
-            "fichier": "Francais/Sancti/06-09.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Lectio",
-            "texte": "Léctio libri Sapiéntiæ.\n!Sap 5:16-20\nLes justes vivront éternellement, et le Seigneur leur réserve leur récompense, et le Très-Haut pense à eux. C’est pourquoi ils recevront de la main du Seigneur un royaume de gloire et un diadème éclatant ; car il les protégera de sa droite, et les défendra de son saint bras. Son zèle se munira d’une armure, et il armera les créatures pour se venger de ses ennemis. Il revêtira la justice pour cuirasse, et il prendra pour casque l’intégrité de son jugement ; il se couvrira de l’équité comme d’un bouclier impénétrable."
+            "texte": "Léctio Epístolæ beáti Joánnis Apóstoli\n!1 John 3:13-18\nBien-aimés, ne vous étonnez pas si le monde vous hait. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui. qui n'aime pas demeure dans la mort. Quiconque hait son frère est un meurtrier, et vous savez qu'aucun meurtrier n'a la vie éternelle demeurant en lui. À ceci nous avons connu l'amour de Dieu, c'est que Lui a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères. Si quelqu'un possède les biens de ce monde et que, voyant son frère dans la nécessité, il lui ferme ses entrailles, comment l'amour de Dieu demeure-t-il en lui ? Mes petits enfants, n'aimons pas avec de parole et de langue, mais par des œuvres et en vérité.",
+            "references": null
           },
           "Graduale": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
-            "section": "Graduale",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent02-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Vers le Seigneur, dans ma tribulation, j'ai crié, et il m'a exaucé. V. Seigneur, libérez mon âme des lèvres iniques et de la langue trompeuse.",
+            "references": null
           },
           "Tractus": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Tractus",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
-            "section": "Alleluia",
-            "texte": ""
+            "fichier": "Francais/Tempora/Pent02-0.txt",
+            "section": "Graduale[0]",
+            "texte": "Alléluia. Seigneur mon Dieu, en vous j'espère ; sauvez-moi de tous ceux qui me persécutent, et libérez-moi. Alléluia.",
+            "references": null
           },
           "Evangelium": {
-            "fichier": "Francais/Sancti/06-09.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Evangelium",
-            "texte": "Sequéntia ++ sancti Evangélii secúndum Matthǽum.\n!Matt 11:25-30\nEn ce temps-là Jésus prit la parole et dit : Je vous rends grâce, Père, Seigneur du ciel et de la terre, de ce que vous avez caché ces choses aux sages et aux prudents, et de ce que vous les avez révélées aux petits. Oui, Père, (je vous rends grâce) parce, qu’il vous a plu ainsi. Toutes choses m’ont été données par mon Père. Et personne ne connaît le Fils, si ce n’est le Père ; personne non plus ne connaît le Père, si ce n’est le Fils, et celui à qui le Fils aura voulu le révéler. Venez à moi, vous tous qui êtes fatigués et qui êtes chargés, et Je vous soulagerai. Prenez mon joug sur vous, et recevez mes leçons, parce que je suis doux et humble de cœur, et vous trouverez le repos pour vos âmes. Car mon joug est doux, et mon fardeau léger."
+            "texte": "Sequéntia ++ sancti Evangélii secúndum Lucam.\n!Luc 14:16-24\nEn ce temps-là, Jésus dit aux Pharisiens cette parabole : « Un homme faisait un grand dîner, auquel il avait invité beaucoup de gens. Et à l'heure du dîner, il envoya son serviteur dire aux invités : « Venez, car tout est déjà prêt.» Et tous, unanimement, se mirent à s'excuser. Le premier lui dit : « J'ai acheté un champ, et il faut nécessairement que j'aille le voir; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai acheté cinq paires de bœufs, et je vais les essayer ; je te prie, tiens-moi pour excusé.» Et un autre dit : « J'ai pris femme, et c'est pourquoi je ne puis venir.» Le serviteur s'en revint et rapporta cela à son maître. Alors le maître de maison, irrité, dit à son serviteur : « Va-t'en vite sur les places et par les rues de la ville, et amène ici les pauvres, les estropiés, les aveugles et les boiteux.» Et le serviteur dit : « Maître, ce que vous avez commandé a été fait, et il y a encore de la place.» Et le maître dit au serviteur : « Va-t'en par les chemins et aux clôtures, et contrains les gens à entrer, afin que ma maison soit remplie. Car, je vous le dis, aucun de ces hommes qui avaient été invités ne goûtera à mon dîner.» »",
+            "references": null
           },
           "Offertorium": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Offertorium",
-            "texte": ""
+            "texte": "!Ps 6:5\nSeigneur, tournez-vous vers moi, et sauvez-mon âme ; sauvez-moi à cause de votre miséricorde.",
+            "references": null
           },
           "Secreta": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Secreta",
-            "texte": ""
+            "texte": "Que cette offrande qui va vous être consacrée, Seigneur, nous purifie, et que de jour en jour elle nous fasse passer à une vie toute céleste.\n$Per Dominum.",
+            "references": null
           },
           "Prefatio": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Prefatio",
-            "texte": ""
+            "texte": "",
+            "references": null
           },
           "Communio": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Communio",
-            "texte": ""
+            "texte": "!Ps 12:6\nJe veux chanter pour le Seigneur qui m'a comblé de biens, et je psalmodierai pour le Nom du Seigneur, le Très-Haut.",
+            "references": null
           },
           "Postcommunio": {
-            "fichier": "Francais/Tempora/Pent02-2.txt",
+            "fichier": "Francais/Tempora/Pent02-0.txt",
             "section": "Postcommunio",
-            "texte": ""
+            "texte": "Nourris de vos dons sacrés, puissions-nous, Seigneur, par la fréquentation de votre sacrement, voir se développer en nous votre œuvre de salut.\n$Per Dominum",
+            "references": null
           }
         }
       },
       "fichiers_utilises": [
-        "Francais/Sancti/06-09.txt",
-        "Francais/Tempora/Pent02-2.txt",
-        "Latin/Sancti/06-09.txt",
-        "Latin/Tempora/Pent02-2.txt"
+        "Francais/Tempora/Pent02-0.txt",
+        "Latin/Tempora/Pent02-0.txt"
       ],
-      "sections_vides": 20,
+      "sections_vides": 4,
       "numero": 1
     }
   ]
