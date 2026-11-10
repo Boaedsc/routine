@@ -63,39 +63,39 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Glória et honóre coronásti eum. V. Et constituísti eum super ópera mánuum tuárum, Dómine.",
+            "texte": "!Ps 8:6-7\nGlória et honóre coronásti eum.\nV. Et constituísti eum super ópera mánuum tuárum, Dómine.",
             "incipit": {
               "incipit": "Gloria et honore (Grad.)",
               "version": "Solesmes",
-              "distance": 0,
-              "similarite": 1.0,
+              "distance": 2,
+              "similarite": 0.95,
               "source": "Graduale"
             },
             "gabc": "(c4) GLó(ixfh!ivHG')ri(hggfg)a(fv.eg'!hv//fg!hvF'EDef!gvgf.0) (;) * et(f) ho(ixfg/ih)nó(ii//iiivGF'gi'!jvIH'i)re(ixiv.hi'j/hig./hihig.) (;) co(f)ro(f)ná(ixhf/giif)sti(f.) (,) e(ffgffc/d_fixeg/hig)um.(g'/hi'GF//hghiyfh/ji/j_h) (,) (ixiv.hig.//ihivG'Fg.) (,) (fgf//f'ff'hg/hggf.0) (z0::c3) <sp>V/</sp>. Et(hh) con(h)sti(h)tu(h)í(gxhihh'hf//gvFEfvEDf.0/[-0.5]hhvF'Ef)sti(f.) (,) e(h/i_[oh:h]h/i!jwkk)um(klh.1___) (:) su(i)per(h) ó(h/jk'IG'hvF'E//f!gwhhi)pe(h)ra(h.) (;) má(hh)nu(h)um(h) tu(h)á(hih)rum,(h_f) *(,) Dó(fh!ij)mi(hg)ne.(hhhf//hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
             "mp3": null,
             "fichier": "Latin/Sancti/01-26.txt",
-            "section": "Graduale[0]",
+            "section": "Graduale",
             "references": null
           },
           "Tractus": {
-            "texte": "Glória et honóre coronásti eum. V. Et constituísti eum super ópera mánuum tuárum, Dómine. Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. V. Potens in terra erit semen ejus: generátio rectórum benedicétur. V. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi.",
-            "incipit": {
-              "incipit": "Qui gloriatur",
-              "version": "Solesmes",
-              "distance": 27,
-              "similarite": 0.325,
-              "source": "Tractus"
-            },
-            "gabc": "(c4) QUI(g) glo(g)ri(g)á(g/hih)tur,(g/hhg.) <clear>*(;) in(fg) Dó(gjjk)mi(h)no(gf/ghhg.) (,) glo(ij)ri(hji')é(j)tur :(jjjkhhg/hg/jjh/jggf.0) (:) non(f) e(hj)nim(igh) qui(gf/gh) se(g)í(gh)psum(g) com(g)mén(gh)dat,(g.) (,) <nlba>il(gh)le</nlba>(g) pro(g)bá(gh/jij)tus(j.h!iwj) est :(jjjvIHivHGhg..) (:) sed(ixfh/ih/ig~) quem(j) De(j)us(j) com(j)mén(jv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)dat.(g/hhg.) (::) \r\n<sp>V/</sp>. Mi(ggd)hi(g) au(gh)tem(g) ab(gh/jij)sit(j.) (,) glo(j)ri(j)á(j_kJ'//Gh_g/h!iw!jvIHijh)ri,(hg..) (:) ni(g)si(gj) in(j) cru(ik/ljjh)ce(jhhg/hg/jjh/jggf.0) (;) Dó(gh)mi(fg)ni(g) no(gh)stri(g) Je(hji)su(j) Chri(jk/jj'j/kjjh)(,)(ji/jjvI'G//hjh'jvHF.g.h!iwjjk)sti :(j.) (:) per(kj~) quem(j_kJ'//G) mi(gh)hi(fg) mun(g)dus(ghhg/hhg//hjjhj.) (,) cru(gh)ci(gf)fí(h!iwj)xus(jjj) est,(jh//jjjlvKJ'jvI'HGhg..) (:) et(gg/hfg) e(g/hji)go(j) mun(j.h!iwj)do.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Mi(jj)hi(j) ví(kjjg)(,)(jv.kli/jki'/jhhg.ixhiGF.iyh!iwjjk)ve(j)re(j.) (,) Chri(jj/kij)stus(hg) est,(g.jv.hkJI.hjIH.giH'G) (,) (hg/hg/hg/jjh/jjggf.0) (:) et(g) mo(hg/jjghvG'F)ri(f!h'j) () * lu(j)crum.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
-            "mp3": null,
             "fichier": "Latin/Sancti/01-26.txt",
             "section": "Tractus",
+            "texte": "",
             "references": null
           },
           "Alleluia": {
+            "texte": "Allelúja, allelúja.\nV. Hic est Sacérdos, quem coronávit Dóminus. Allelúja.",
+            "incipit": {
+              "incipit": "Hic est sacerdos",
+              "version": "Solesmes",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Hic(f_e/f!gwh'!iv//jiihi) est(iv.hh/fgf.) (,) sa(f)cér(f!hh/ijHF'ivH'GEf./hfhhf/ge)dos,(e.) (;) quem(hh) co(h)ro(h)ná(h)vit(hi) <nlba>* Dó(i_[oh:h]h/jij)mi(j)nus.</nlba>(jvvIH'GE//f!gwhf.1) (::)",
+            "mp3": "alleluia_hic-est-sacerdos.mp3",
             "fichier": "Latin/Sancti/01-26.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -202,20 +202,20 @@
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-26.txt",
-            "section": "Graduale[0]",
-            "texte": "Vous l’avez couronné de gloire et d’honneur. V. Et vous l’avez établi sur les ouvrages de vos mains, Seigneur.",
+            "section": "Graduale",
+            "texte": "!Ps 8:6-7\nVous l’avez couronné de gloire et d’honneur.\nV. Et vous l’avez établi sur les ouvrages de vos mains, Seigneur.",
             "references": null
           },
           "Tractus": {
             "fichier": "Francais/Sancti/01-26.txt",
             "section": "Tractus",
-            "texte": "Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. V. Sa race sera puissante sur la terre ; la postérité des justes sera bénie. Vous lui avez donné le désir de son âme, et vous ne l'avez pas privé du souhait qu'il avait exprimé. V. Car vous l'avez prévenu des plus douces bénédictions. V. Vous avez placé sur sa tête une couronne de pierres précieuses.",
+            "texte": "",
             "references": null
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-26.txt",
-            "section": "Graduale[0]",
-            "texte": "Allelúja, allelúja. V. C’est le Prêtre que le Seigneur a couronné. Allelúja.",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\nV. C’est le Prêtre que le Seigneur a couronné. Allelúja.",
             "references": null
           },
           "Evangelium": {
@@ -268,7 +268,7 @@
         "Francais/Sancti/01-26.txt",
         "Latin/Sancti/01-26.txt"
       ],
-      "sections_vides": 3,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

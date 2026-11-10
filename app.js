@@ -74,6 +74,51 @@
       .trim();
   }
 
+  // Déplace les références isolées trouvées dans le texte après la référence initiale.
+  // Reconnaît les références bibliques marquées (!) et les abréviations comme Ps, Isa, Act.
+  function deplacerReference(t) {
+    var lignes = t.split('\n');
+    if (lignes.length < 2) return t;
+
+    var origine = lignes[0].replace(/^\s*!\s*/, '').replace(/[.!?]+\s*$/, '').trim();
+    if (!origine) return t;
+    var references = [];
+    for (var i = lignes.length - 1; i > 0; i--) {
+      var m = lignes[i].match(/^\s*!?\s*([\p{L}][\p{L} .]*?\s+\d+\s*:\s*\d+(?:[-–]\d+)?(?:\s*;\s*\d+\s*:\s*\d+(?:[-–]\d+)?)*)\s*[.!?]*\s*$/iu);
+      if (!m) continue;
+      references.unshift(m[1].replace(/\s+/g, ' ').trim());
+      lignes.splice(i, 1);
+    }
+    if (references.length) lignes[0] = '!' + origine + '; ' + references.join('; ');
+    return lignes.join('\n');
+  }
+
+  // Retire le marqueur de vers parasite et la reprise finale de l’antienne.
+  function corrigerIntroitus(t) {
+    var lignes = deplacerReference(t).split('\n');
+    if (lignes.length < 2) return lignes.join('\n');
+
+    // Le marqueur latin est parfois attaché au texte (« v. … »), parfois seul.
+    if (/^\s*[vV]\.\s*$/.test(lignes[1])) {
+      lignes.splice(1, 1);
+    } else {
+      lignes[1] = lignes[1].replace(/^(\s*)[vV]\.\s+/i, '$1');
+    }
+
+    var gloria = lignes.findIndex(function (ligne) {
+      return /^\s*Gloria Patri\s*$/i.test(ligne);
+    });
+    var premiereAntienne = lignes[1] && lignes[1].trim();
+    var derniere = lignes.length - 1;
+    var derniereSansMarqueur = lignes[derniere] &&
+      lignes[derniere].replace(/^\s*[vV]\.\s+/i, '').trim();
+    if (gloria !== -1 && derniere > gloria && premiereAntienne &&
+        derniereSansMarqueur === premiereAntienne) {
+      lignes.splice(derniere, 1);
+    }
+    return lignes.join('\n');
+  }
+
   // Sépare l'origine (ligne commençant par "!") du corps du texte
   function decouper(t) {
     var lignes = t.split('\n');
@@ -221,6 +266,13 @@ function construireTexte(brut, classeLangue, estPsaume) {
   function renderSection(cle, fr, la) {
     var frTexte = nettoyer(fr && fr.texte);
     var laTexte = nettoyer(la && la.texte);
+    if (cle === 'Introitus') {
+      frTexte = frTexte && corrigerIntroitus(frTexte);
+      laTexte = laTexte && corrigerIntroitus(laTexte);
+    } else if (cle === 'Graduale' || cle === 'Tractus' || cle === 'Alleluia') {
+      frTexte = frTexte && deplacerReference(frTexte);
+      laTexte = laTexte && deplacerReference(laTexte);
+    }
 
     if (FR_SEULEMENT.indexOf(cle) !== -1) {
       frTexte = retirerPremiereLigne(frTexte);

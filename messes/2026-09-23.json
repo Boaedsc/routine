@@ -63,7 +63,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.",
+            "texte": "!Ps 106:32; 106:31.\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum.\nV. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum.",
             "incipit": {
               "incipit": "Exaltent eum",
               "version": "Solesmes",
@@ -75,21 +75,7 @@
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C2b.txt",
             "section": "Graduale",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4b.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": [
-                  {
-                    "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/missa/Latin/Commune/Coronatio.txt",
-                    "section": "Graduale",
-                    "resolu": true,
-                    "sous_references": null
-                  }
-                ]
-              }
-            ]
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-23.txt",
@@ -98,7 +84,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+            "texte": "!Matt 16:18\nAllelúja, allelúja.\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
             "incipit": {
               "incipit": "Tu es Petrus (Alleluia)",
               "version": "Solesmes",
@@ -108,8 +94,8 @@
             },
             "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Tu(hi) es(i) Pe(jiihi)trus,(iv.hh/fgf.) (;) et(f) su(fg)per(f) hanc(f) pe(f!hh/ijHF'ivH'GEf./hfhhf/ge)tram(e.) (:) ae(f)di(e)fi(f)cá(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)bo(ivH'Ghf..) (;) Ec(f)clé(hh)si(h)am(hi~) *() me(i_[oh:h]h/jij)am.(jvvIH'GE//f!gwhf.1) (::)",
             "mp3": "alleluia_tu-es-petrus.mp3",
-            "fichier": "Latin/Sancti/09-23.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C2b.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -283,7 +269,7 @@
         "Francais/Sancti/09-23.txt",
         "Latin/Sancti/09-23.txt"
       ],
-      "sections_vides": 16,
+      "sections_vides": 15,
       "numero": 1
     }
   ]

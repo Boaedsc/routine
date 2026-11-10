@@ -56,18 +56,9 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. V. Dicat nunc Israël, quóniam bonus: quóniam in sǽculum misericórdia ejus.",
-            "incipit": {
-              "incipit": "Haec dies... Dextera",
-              "version": "Solesmes",
-              "distance": 0,
-              "similarite": 1.0,
-              "source": "Graduale"
-            },
-            "gabc": "(c3) HAec(gxf_egvFEfd/f_h) di(hhhvFEfef)es,(f.) <clear>*(;) quam(ef) fe(hh)cit(hh//ijhhvF'Ef.) (,) Dó(hfh)mi(hhh)nus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ex(f)sul(h)té(hg/hi!jvHGhhg)(,)(i_[oh:h]hivHF)mus,(fhF'Efhhf//hvvGF'hee[ll:1]d.0) (:) et(de'f) lae(fef)té(hf/hhh)mur(hiHF.1) (;) in(ef) e(hf/h_i)a.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) \r\n<sp>V/</sp>. Déx(f)te(h)ra(ij) Dó(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_[hl:1]jkvJI)mi(ji)ni(i.) (:) fe(i!jw!kvJI'jw!kvJI')cit(i) vir(ij~)tú(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)tem,(f.) (:) déx(hh)te(h)ra(hi) Dó(ivH'GE//fhGEfh..)(,)(gi!jvHF')mi(f)ni(fhF'Efhhf//hvvGF'hee[ll:1]d.0) <clear>*(:) ex(de'f)al(f.0/[-0.5]hvGF'g)tá(ef)vit(hf/h_i) me.(i_[uh:l]jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
-            "mp3": "graduel_haec-dies-dextera.mp3",
             "fichier": "Latin/Tempora/Pasc0-1.txt",
-            "section": "Graduale[0]",
+            "section": "Graduale",
+            "texte": "",
             "references": null
           },
           "Tractus": {
@@ -77,7 +68,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja. Angelus Dómini descéndit de cœlo: et accédens revólvit lápidem, et sedébat super eum.",
+            "texte": "!Matt 28:2\nAllelúja, allelúja.\nAngelus Dómini descéndit de cœlo: et accédens revólvit lápidem, et sedébat super eum.",
             "incipit": {
               "incipit": "Angelus Domini descendit",
               "version": "Solesmes",
@@ -88,7 +79,7 @@
             "gabc": "(c4) AL(gf~)le(defghg___)lú(fg~){ia}.(g.) *(;) <i>ij.</i>(ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::) <sp>V/</sp>. An(cd)ge(e!fwg)lus(g.) Dó(fe)mi(fg)ni(g.) (,) de(g)scén(ghg___jvIHG'Efg~)dit(g.) de(gvFD') cae(e[ll:1]ddc)lo :(c.) (:) et(c) ac(d)cé(ef/ghg___fg)dens(g.) (,) re(g)vól(ghgfgfdeddc~)vit(c.) lá(cd!ef/ghg___)pi(fg)dem,(g.) (;) et(gf~) se(d)dé(e!fwg)bat(g.) *() su(hg)per(fg) e(g)um.(g.) (,) (ghgfgfdeddc.) (,) (cd!ef!gv'1//hihhg.) (::)",
             "mp3": "alleluia_angelus-domini-descendit.mp3",
             "fichier": "Latin/Tempora/Pasc0-1.txt",
-            "section": "Graduale[0]",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -168,7 +159,7 @@
           "Graduale": {
             "fichier": "Francais/Tempora/Pasc0-1.txt",
             "section": "Graduale",
-            "texte": "Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. V. Dicat nunc Israël, quóniam bonus: quóniam in sǽculum misericórdia ejus.",
+            "texte": "",
             "references": null
           },
           "Tractus": {
@@ -179,8 +170,8 @@
           },
           "Alleluia": {
             "fichier": "Francais/Tempora/Pasc0-1.txt",
-            "section": "Graduale[0]",
-            "texte": "Allelúja, allelúja. Voici le jour que fit le Seigneur : exultons et réjouissons-nous. V. Qu'Israël le dise maintenant : Il est bon, et sa miséricorde est éternelle. Alléluia, alléluia. L'ange du Seigneur descendit du ciel, et s'approchant il roula la pierre, et il s'assit dessus.",
+            "section": "Graduale",
+            "texte": "Allelúja, allelúja.\n!Matt 28:2.\nL'ange du Seigneur descendit du ciel, et s'approchant il roula la pierre, et il s'assit dessus.",
             "references": null
           },
           "Evangelium": {
@@ -225,7 +216,7 @@
         "Francais/Tempora/Pasc0-1.txt",
         "Latin/Tempora/Pasc0-1.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 6,
       "numero": 1
     }
   ]

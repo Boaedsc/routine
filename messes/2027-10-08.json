@@ -63,7 +63,7 @@
             ]
           },
           "Graduale": {
-            "texte": "Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
+            "texte": "!Ps 44:3; 44:5\nDiffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum.\nV. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.",
             "incipit": {
               "incipit": "Diffusa est",
               "version": "Solesmes",
@@ -84,7 +84,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.",
+            "texte": "!Ps 44:5\nAllelúja, allelúja.\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.",
             "incipit": {
               "incipit": "Specie tua (All.)",
               "version": "Solesmes",
@@ -94,8 +94,8 @@
             },
             "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Spé(hv.gih)ci(hg)e(g) tu(gh!ivvH'Fhf/gh)a,(g.) (;) et(g) pul(g)chri(gf)tú(hji)di(h)ne(gh) tu(f_ehvvGE.gxfgFD.1gxegF'Efe)a(e.) (:) in(e)tén(feh)de,(h.) (,) pró(hfh'GE//fhF'D//gxgvFEf.0/[-0.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHG'he.gxf_e/g_[oh:h]e//gvFEfd)spe(e[ll:1]d)re(d.) (;) pro(fd)cé(ef)de,(f) *() et(f) re(hg/hfh)gna.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
             "mp3": "alleluia_specie-tua.mp3",
-            "fichier": "Latin/Sancti/10-08.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C7a.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -203,7 +203,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C7a.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:3; 44:5\nLa grâce est répandue sur vos lèvres ; aussi Dieu vous a-t-il bénie à jamais.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat. Alléluia, alléluia.\n!Ps 44:5\nDans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.",
+            "texte": "!Ps 44:3; 44:5\nLa grâce est répandue sur vos lèvres ; aussi Dieu vous a-t-il bénie à jamais.\nV. Pour la vérité, la douceur et la justice, que votre droite se signale par des actions d’éclat.",
             "references": null
           },
           "Tractus": {
@@ -213,9 +213,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/10-08.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C7a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 44:5\nAlléluia, alléluia.\nDans votre grâce, dans votre beauté, allez, soyez heureuse et régnez. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -264,7 +264,7 @@
         "Latin/Sancti/10-08.txt",
         "Latin/Tempora/Pent20-5.txt"
       ],
-      "sections_vides": 9,
+      "sections_vides": 7,
       "numero": 1
     }
   ]

@@ -42,6 +42,16 @@ def clean_lines(texte: str) -> list[str]:
         out.append(s)
     return out
 """Fin Ajout Test"""
+REF_PSAUME_RE = re.compile(r'^!\s*(.+?)\s*$')
+
+def ref_psaume(texte: str) -> str:
+    """Première ligne '!référence' d'un bloc (ex: '!Ps 26:4'), ou chaîne vide."""
+    for l in texte.splitlines():
+        s = l.strip()
+        m = REF_PSAUME_RE.match(s)
+        if m and not SEPARATEUR_TRACTUS_RE.match(s):
+            return m.group(1)
+    return ''
 
 def easter(y:int)->dt.date:
     # Computus grégorien de Divinum Officium Date.pm::geteaster.
@@ -276,99 +286,224 @@ def inherited_document(path:Path|None,data:Path,lang='Latin')->dict[str,str]:
             if val:doc[key]=val
     return doc
 
-def _extraire_partie(doc: dict[str, str], part: str,
-                     data: Path, source: Path, lang: str) -> tuple[str, str]:
-    """Retourne (texte, section) en appliquant les règles de extract_chants."""
-    if part in ('Graduale', 'Tractus', 'Alleluia'):
-        # 1. Résoudre les références @... AVANT tout filtrage,
-        #    sinon clean_lines supprime la ligne de référence.
-        brut = doc.get(part, '') or doc.get('Graduale', '')
+def temps_liturgique(date=None, source=None, rule='', rank='', name='', temporal=None):
+    """Classe la saison utile aux chants : ordinaire, careme, pascal ou requiem.
+
+    La date/calendrier est prioritaire; les noms de fichiers Tempora et le texte
+    des rubriques fournissent un repli pour les appels sans date.
+    """
+    identifiants = [str(x or '') for x in (source, temporal)]
+    contexte = ' '.join([*identifiants, str(rule or ''), str(rank or ''), str(name or '')]).casefold()
+    if re.search(r'\b(?:defunctorum|requiem|defunctis|defuncti)\b', contexte):
+        return 'requiem'
+
+    if date is not None:
+        if isinstance(date, str):
+            date = dt.date.fromisoformat(date)
+        paques = easter(date.year)
+        # Le temps de la Septuagésime commence neuf semaines avant Pâques,
+        # avant les clés Quadp* puis Quad* produites par getweek().
+        if paques - dt.timedelta(days=63) <= date < paques:
+            return 'careme'
+        if paques <= date <= paques + dt.timedelta(days=49):
+            return 'pascal'
+        return 'ordinaire'
+
+    # Repli pour les appels isolés dont seule la clé Tempora est disponible.
+    cle = re.sub(r'\.txt$', '', ' '.join(identifiants), flags=re.I)
+    if re.search(r'(?:^|[/\s])Quadp?\w*(?:-|$|[/\s])', cle, re.I):
+        return 'careme'
+    if re.search(r'(?:^|[/\s])Pasc\w*(?:-|$|[/\s])', cle, re.I):
+        return 'pascal'
+    if re.search(r'\b(?:septuagesima|sexagesima|quinquagesima|quadragesima|quadragesimal|lent|car[eê]me|passion|ramis\w*)\b', contexte):
+        return 'careme'
+    return 'ordinaire'
+
+
+def _extraire_partie(doc, part, data, source, lang):
+    if part == 'Graduale':
+        brut = doc.get('Graduale', '')
         if brut.strip().startswith('@'):
             brut, _ = expand(brut, data, lang, source, part)
-            doc = {**doc, part: brut}
-
-        # 2. Puis seulement, découpe en chants typés.
-        chants = extract_chants(doc)
-        if part == 'Alleluia':
-            # Le pascal (GradualeP) et les alléluias coupés du Graduale sont des Alleluia.
-            sel = [c for c in chants if c['type'] == 'Alleluia']
-        else:
-            sel = [c for c in chants if c['type'] == part]
-        src = sel[0]['source'] if sel else part
+            doc = {**doc, 'Graduale': brut}
+        sel = [c for c in extract_chants({'Graduale': brut}) if c['type'] == 'Graduale']
         if sel:
-            return '\n'.join(c['texte'] for c in sel), src
+            return '\n'.join(c['texte'] for c in sel), sel[0]['source']
         return '', part
-    if part in SECTIONS_ALT:
+
+    if part in ('Tractus', 'Alleluia'):
+        # Chercher d'abord toute section explicite et ses alias. Les aliases
+        # étaient auparavant inaccessibles car ce branchement retournait avant
+        # le bloc SECTIONS_ALT situé plus bas.
         for alias in SECTIONS_ALT[part]:
-            if doc.get(alias, '').strip():
-                return doc[alias].strip(), alias
+            brut = doc.get(alias, '')
+            if brut.strip().startswith('@'):
+                brut, _ = expand(brut, data, lang, source, alias)
+            if brut.strip():
+                chants = _section_simple(brut, part, alias)
+                if chants:
+                    return chants[0]['texte'], alias
+
+        if part == 'Alleluia':
+            # GradualeP est la section explicite d'Alleluia pascal.
+            brut = doc.get('GradualeP', '')
+            if brut.strip().startswith('@'):
+                brut, _ = expand(brut, data, lang, source, 'GradualeP')
+            if brut.strip():
+                chants = _section_simple(brut, 'Alleluia', 'GradualeP')
+                if chants:
+                    return chants[0]['texte'], 'GradualeP'
+
+        # [Graduale] n'est utilisable ici qu'après découpage attesté par
+        # extract_chants. En particulier, ne jamais renvoyer le Graduale brut
+        # comme Tractus ou Alleluia si aucun segment de ce type n'a été trouvé.
+        graduale = doc.get('Graduale', '')
+        if graduale.strip().startswith('@'):
+            graduale, _ = expand(graduale, data, lang, source, 'Graduale')
+        if graduale.strip():
+            chants = [c for c in extract_chants({'Graduale': graduale})
+                      if c['type'] == part]
+            if chants:
+                return '\n'.join(c['texte'] for c in chants), chants[0]['source']
         return '', part
+
     return doc.get(part, '').strip(), part
 
-def _bloc_vers_chants(texte: str, type_bloc: str, source: str) -> list:
-    """Sépare la partie chant (type_bloc) de l'alléluia éventuel qui suit."""
-    chants = []
-    m = ALLELUIA_RE.search(texte)
-    if not m:
-        if texte.strip():
-            chants.append({"type": type_bloc, "source": source, "texte": texte.strip()})
-        return chants
 
-    avant = texte[:m.start()].strip()
-    apres = texte[m.start():].strip()   # on garde le mot trouvé, avec sa graphie
+def _extraire_partie_saison(doc, part, data, source, lang, date=None, temporal=None):
+    """Applique la disponibilité saisonnière, puis délègue au parseur intact."""
+    saison = temps_liturgique(
+        date=date, source=source, temporal=temporal,
+        rule=doc.get('Rule', ''), rank=doc.get('Rank', ''), name=doc.get('Officium', '')
+    )
+    if part == 'Tractus' and saison not in ('careme', 'requiem'):
+        return '', part
+    if part == 'Alleluia' and saison in ('careme', 'requiem'):
+        return '', part
+    if part == 'Graduale' and saison == 'pascal':
+        return '', part
 
-    if avant:
-        chants.append({"type": type_bloc, "source": source, "texte": avant})
-    chants.append({"type": "Alleluia", "source": source, "texte": apres})
-    return chants
+    document = doc
+    # GradualeP ne doit supplanter l'Alleluia classique qu'au temps pascal.
+    if part == 'Alleluia' and saison != 'pascal' and 'GradualeP' in doc:
+        document = {**doc}
+        document.pop('GradualeP', None)
+    return _extraire_partie(document, part, data, source, lang)
+
+ALLELUIA_DOUBLE_RE = re.compile(
+    r'\b(All[eé]l[uú][ij][aá])\s*,?\s*(All[eé]l[uú][ij][aá])\b', re.I)
+SEPARATEUR_TRACTUS_BLOC_RE = re.compile(r'^\s*-\s*$\n^\s*!\s*Tractus\s*$', re.M)
+
+
+TRAIT_MARK_RE = re.compile(r'^\s*_\s*$\n^\s*!\s*Tractus\s*$', re.M)
+# Certaines sources placent simplement « Tractus » en titre après le Graduel.
+TRACTUS_HEADING_RE = re.compile(r'^\s*Tractus\s*$\n?', re.I | re.M)
+ALLELUIA_PAIR_RE = re.compile(r'All[eé]l[uú][ij][aá],?\s*all[eé]l[uú][ij][aá]\.?', re.I)
+ALLELUIA_START_RE = re.compile(r'^\s*All[eé]l[uú][ij][aá],?\s*all[eé]l[uú][ij][aá]\.?', re.I)
+
+def _nettoyer(brut: str) -> str:
+    """Clean lignes : supprime vides, rubriques, références; joint en une chaîne."""
+    return " ".join(clean_lines(brut))
+
+def _section_simple(brut: str, type_chant: str, source: str) -> list:
+    if not brut or not brut.strip():
+        return []
+    ref = ref_psaume(brut)
+    "texte = _nettoyer(brut)"
+    texte = brut
+    if not texte:
+        return []
+    if ref:
+        texte = f"{texte}"
+    return [{"type": type_chant, "source": source, "texte": texte}]
 
 def extract_chants(sections: dict) -> list:
-    """Extrait les chants typés (Graduale, Tractus, Alleluia) d'une section dict.
-    Règles identiques à find incipit :
-    - [Tractus] et [Alleluia] : chant de leur type ;
-    - [GradualeP] : alléluia pascal, traité comme Alleluia ;
-    - [Graduale] : découpé en blocs sur '_' et '!Tractus' ; les blocs contenant
-      'Allelúja' sont coupés en Graduale/Tractus + Alleluia."""
     chants = []
 
-    if "Tractus" in sections:
-        texte = " ".join(clean_lines(sections["Tractus"]))
-        if texte:
-            chants.append({"type": "Tractus", "source": "Tractus", "texte": texte})
+    # 1. Tractus et Alleluia explicites
+    if "Tractus" in sections or "Alleluia" in sections:
+        # Le graduel peut coexister avec ces sections explicites : ne pas le
+        # perdre en retournant prématurément après l'extraction des chants.
+        if sections.get("Graduale", "").strip():
+            explicites = {p for p in ("Tractus", "Alleluia") if sections.get(p, "").strip()}
+            chants += [c for c in extract_chants({"Graduale": sections["Graduale"]})
+                       if c["type"] not in explicites]
+        if "Tractus" in sections:
+            chants += _section_simple(sections["Tractus"], "Tractus", "Tractus")
+        if "Alleluia" in sections:
+            chants += _section_simple(sections["Alleluia"], "Alleluia", "Alleluia")
+        return chants
 
-    if "Alleluia" in sections:
-        texte = " ".join(clean_lines(sections["Alleluia"]))
-        if texte:
-            chants.append({"type": "Alleluia", "source": "Alleluia", "texte": texte})
-
+    # 1 bis. GradualeP explicite (alléluia pascal)
     if "GradualeP" in sections:
-        texte = " ".join(clean_lines(sections["GradualeP"]))
-        if texte:
-            chants.append({"type": "Alleluia", "source": "GradualeP", "texte": texte})
+        return _section_simple(sections["GradualeP"], "Alleluia", "GradualeP")
 
-    if "Graduale" in sections:
-        blocs, courant, type_courant = [], [], "Graduale"
-        for raw in sections["Graduale"].splitlines():
-            stripped = raw.strip()
-            if stripped == "_":
-                if courant:
-                    blocs.append((type_courant, courant))
-                courant, type_courant = [], "Graduale"
-                continue
-            if SEPARATEUR_TRACTUS_RE.match(stripped):
-                if courant:
-                    blocs.append((type_courant, courant))
-                courant, type_courant = [], "Tractus"
-                continue
-            courant.append(raw)
-        if courant:
-            blocs.append((type_courant, courant))
+    brut = sections.get("Graduale", "")
+    if not brut.strip():
+        return chants
 
-        for idx, (type_bloc, lignes) in enumerate(blocs):
-            texte = " ".join(clean_lines("\n".join(lignes)))
-            if texte:
-                chants.extend(_bloc_vers_chants(texte, type_bloc, f"Graduale[{idx}]"))
+    # 2. Trait présent : motif "_" puis "!Tractus" (sans alléluia).
+    m_trait = TRAIT_MARK_RE.search(brut)
+    if m_trait:
+        graduel_brut = brut[:m_trait.start()]
+        trait_brut = brut[m_trait.end():]
+        chants += _section_simple(graduel_brut, "Graduale", "Graduale")
+        chants += _section_simple(trait_brut, "Tractus", "Graduale")
+        return chants
 
+    # Certaines sources utilisent un titre « Tractus » sans le séparateur « _ ».
+    m_heading = TRACTUS_HEADING_RE.search(brut)
+    if m_heading:
+        graduel_brut = brut[:m_heading.start()]
+        trait_brut = brut[m_heading.end():]
+        chants += _section_simple(graduel_brut, "Graduale", "Graduale")
+        chants += _section_simple(trait_brut, "Tractus", "Graduale")
+        return chants
+
+    # 3. Graduel pascal : commence par « Allelúja, allelúja. »
+    lignes = brut.splitlines()
+    premier = next((i for i, l in enumerate(lignes) if l.strip()), None)
+    if premier is not None and ALLELUIA_START_RE.match(lignes[premier]):
+        bangs = [i for i, l in enumerate(lignes) if l.strip().startswith("!")]
+        if len(bangs) >= 2:
+            idx_bang = bangs[1]
+            graduel_lignes = lignes[:idx_bang]
+            alleluia_lignes = lignes[idx_bang:]
+            if len(graduel_lignes) >= 2:
+                graduel_lignes[0], graduel_lignes[1] = graduel_lignes[1], graduel_lignes[0]
+            graduel_brut = "\n".join(graduel_lignes)
+            alleluia_brut = "\n".join([lignes[premier]] + alleluia_lignes)
+            # Garde-fou : l'alléluia doit réellement contenir le motif
+            if ALLELUIA_PAIR_RE.search(alleluia_brut):
+                chants += _section_simple(graduel_brut, "Graduale", "Graduale")
+                chants += _section_simple(alleluia_brut, "Alleluia", "Graduale")
+                return chants
+
+    # 4. Alléluia au milieu du texte
+    m_all = ALLELUIA_PAIR_RE.search(brut)
+    if m_all:
+        graduel_brut = brut[:m_all.start()]
+        apres = brut[m_all.start():]
+        lignes_apres = apres.splitlines()
+        """print(lignes_apres)"""
+        if len(lignes_apres) >= 2 and lignes_apres[1].strip().startswith("!"):
+            """print(lignes_apres[1].strip().startswith("!"))"""
+            """print(lignes_apres)"""
+            "ref_ligne = lignes_apres.pop(1)"
+            ref_ligne = lignes_apres.pop(1)
+            "print(ref_ligne)"
+            lignes_apres.insert(0, ref_ligne)
+            """print("final",lignes_apres)"""
+        alleluia_brut = "\n".join(lignes_apres)
+        # Garde-fou : on ne crée un alléluia que si le motif y figure
+        if ALLELUIA_PAIR_RE.search(alleluia_brut):
+            chants += _section_simple(graduel_brut, "Graduale", "Graduale")
+            chants += _section_simple(alleluia_brut, "Alleluia", "Graduale")
+            """print(chants)"""
+            return chants
+
+    # 5. Rien trouvé : graduel seul
+    chants += _section_simple(brut, "Graduale", "Graduale")
     return chants
 
 def _permanent_map(tab:Path,date:dt.date,version=VERSION)->tuple[dict[str,str],str|None]:
@@ -581,24 +716,28 @@ def _une_messe(date:dt.date,data:Path,tab:Path,saint:str|None)->dict:
             selected=None; txt=''; key=part; refs=[]
             for source in sources:
                 base=inherited_document(source,data,lang)
-                txt,key=_extraire_partie(base,part,data,source,lang)
+                txt,key=_extraire_partie_saison(base,part,data,source,lang,date=date,temporal=temporal)
                 rel=source.relative_to(data/'Latin').as_posix() if source.is_relative_to(data/'Latin') else None
                 langfile=find_file(data,lang,rel) if rel else None
                 if lang=='Latin' and source.is_relative_to(data/'Latin'):langfile=source
                 if langfile and langfile.is_file():
                     doc_lang=inherited_document(langfile,data,lang)
-                    t,key=_extraire_partie(doc_lang,part,data,langfile,lang)
+                    t,key=_extraire_partie_saison(doc_lang,part,data,langfile,lang,date=date,temporal=temporal)
                     if t: txt=t; selected=langfile; break
                     selected=langfile
                 if txt: break
 
-            # Commune : uniquement pour les propres, jamais pour Trait/Alleluia
-            # si le gagnant est un sanctoral qui n'en a pas (ex. Toussaint).
-            if commref and part not in SCRIPTURE_PARTS and not txt and part not in ('Tractus','Alleluia'):
+            # Commune : compléter toute partie propre absente du gagnant.
+            # Passer par _extraire_partie pour découper [Graduale] (qui peut
+            # contenir aussi l'Alleluia ou le Tractus) et honorer les sections
+            # dédiées [GradualeP], [Alleluia] et [Tractus] du commun.
+            if commref and part not in SCRIPTURE_PARTS and not txt:
                 cp=find_file(data,lang,commref)
                 if cp:
-                    v=inherited_section(cp,part,data,lang)
-                    if v: txt=v; selected=cp
+                    common_doc=inherited_document(cp,data,lang)
+                    v,key_common=_extraire_partie_saison(common_doc,part,data,cp,lang,date=date,temporal=temporal)
+                    if v:
+                        txt=v; selected=cp; key=key_common
 
             if selected is None and txt=='' and lang=='Latin' and sources:
                 selected=sources[0]

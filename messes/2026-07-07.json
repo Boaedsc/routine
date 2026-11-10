@@ -63,7 +63,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo. Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+            "texte": "!Eccli 44:16\nEcce sacérdos magnus, qui in diébus suis plácuit Deo.\n!Eccli 44:20\nNon est invéntus símilis illi, qui conserváret legem Excélsi.",
             "incipit": {
               "incipit": "Ecce sacerdos",
               "version": "Solesmes",
@@ -84,7 +84,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
+            "texte": "!Ps 109:4\nAllelúja, allelúja.\nTu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.",
             "incipit": {
               "incipit": "Tu es sacerdos",
               "version": "Solesmes",
@@ -94,8 +94,8 @@
             },
             "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_[hl:1]k_[hl:1]j_[hl:1])tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) * Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
             "mp3": "alleluia_tu-es-sacerdos.mp3",
-            "fichier": "Latin/Sancti/07-07.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C4.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -196,7 +196,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C4.txt",
             "section": "Graduale",
-            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.\n!Ps 109:4\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+            "texte": "!Eccli 44:16.\nVoici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.\n!Eccli 44:20\nIl ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut.",
             "references": null
           },
           "Tractus": {
@@ -206,9 +206,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/07-07.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C4.txt",
+            "section": "Graduale",
+            "texte": "!Ps 109:4\nAlléluia, alléluia.\nTu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -271,7 +271,7 @@
         "Latin/Sancti/07-07.txt",
         "Latin/Tempora/Pent06-2.txt"
       ],
-      "sections_vides": 9,
+      "sections_vides": 7,
       "numero": 1
     }
   ]

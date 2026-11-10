@@ -63,18 +63,9 @@
             ]
           },
           "Graduale": {
-            "texte": "Veníte, fílii, audíte me: timórem Dómini docébo vos. V. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur.",
-            "incipit": {
-              "incipit": "Venite filii",
-              "version": "Solesmes",
-              "distance": 0,
-              "similarite": 1.0,
-              "source": "Graduale"
-            },
-            "gabc": "(c4) VE(d)ní(ff)te(ghgh) fí(h_fg)li(g)i,(f.) *(,) au(hj~)dí(j_h//jij)te(ixgjh/i_[uh:l]j) me :(ixih..) (:) ti(h)mó(hg)rem(j) Dó(j)mi(ij)ni(h_f) do(gh)cé(f)bo(ef) vos.(dec.) (,) (fhg___//jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Ac(d)cé(d)di(f)te(hvvGFhvGEff) (,) (gxde!fgF'EfvEDe.) (,) (fh/ih/ih/ijh.1) (,) ad(h) e(ih/kkh/ih/kkvIH)um,(hv.ghGF.) (;) et(h) il(h)lu(h)mi(h)ná(i!jwk)mi(ih)ni :(hihh/fgf.) (:) et(fh~) fá(h)ci(h)es(g) ve(h)strae(f.) *(,) non(df) con(e!hgh)fun(f)dén(de~)tur.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::)",
-            "mp3": "graduel_venite-filii.mp3",
             "fichier": "Latin/Sancti/05-26.txt",
-            "section": "Graduale[0]",
+            "section": "Graduale",
+            "texte": "",
             "references": null
           },
           "Tractus": {
@@ -84,7 +75,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Allelúja, allelúja. De excélso misit ignem in óssibus meis, et erudívit me. Allelúja Concáluit cor meum intra me: et in meditatióne mea exardéscet ignis. Allelúja.\nAllelúja, allelúja. De excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
+            "texte": "Allelúja, allelúja.\n!Lam 1:13\nDe excélso misit ignem in óssibus meis, et erudívit me. Allelúja\n!Ps 38:4\nConcáluit cor meum intra me: et in meditatióne mea exardéscet ignis. Allelúja.",
             "incipit": {
               "incipit": "De excelso",
               "version": "Solesmes",
@@ -181,8 +172,8 @@
           },
           "Graduale": {
             "fichier": "Francais/Sancti/05-26.txt",
-            "section": "Graduale[0]",
-            "texte": "Venez, mes fils, écoutez-moi : je vous enseignerai la crainte du Seigneur. V. Approchez-vous de lui, et vous serez éclairés : et vos visages ne seront pas couverts de confusion.",
+            "section": "Graduale",
+            "texte": "",
             "references": null
           },
           "Tractus": {
@@ -194,7 +185,7 @@
           "Alleluia": {
             "fichier": "Francais/Sancti/05-26.txt",
             "section": "GradualeP",
-            "texte": "Alléluia, alléluia D’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia Mon cœur s’est échauffé au dedans de moi : et tandis que je méditais, un feu s’est embrasé. Alléluia.\nAlléluia, alléluia. D’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia.",
+            "texte": "Alléluia, alléluia\n!Lam 1:13\nD’en haut il a envoyé un feu dans mes os, et il m’a enseigné. Alléluia\n!Ps 38:4\n Mon cœur s’est échauffé au dedans de moi : et tandis que je méditais, un feu s’est embrasé. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -239,7 +230,7 @@
         "Francais/Sancti/05-26.txt",
         "Latin/Sancti/05-26.txt"
       ],
-      "sections_vides": 4,
+      "sections_vides": 6,
       "numero": 1
     }
   ]

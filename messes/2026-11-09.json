@@ -56,7 +56,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum.",
+            "texte": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est.\nV. Deus, cui astat Angelórum chorus, exáudi preces servórum tuórum.",
             "incipit": {
               "incipit": "Locus iste",
               "version": "Solesmes",
@@ -77,7 +77,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Adorábo ad templum sanctum tuum: et confitébor nómini tuo. Allelúja.",
+            "texte": "!Ps 137:2\nAllelúja, allelúja.\nAdorábo ad templum sanctum tuum: et confitébor nómini tuo. Allelúja.",
             "incipit": {
               "incipit": "Adorabo",
               "version": "Solesmes",
@@ -87,8 +87,8 @@
             },
             "gabc": "(c3) AL(e)le(fde)lú(hf/hhi){ia}.(ijhh'he.) <clear>*(,) <i>ij.</i>(hig'hvFD.1//fhg/ihh'hhvF'Ef_gffe.) (::) <sp>V/</sp>. Ad(e)o(hh)rá(iv.hif.1/[-0.5]efd.1/f!gwhhvG'FEf_e)bo(e.) (;) ad(ef~) tem(ef~)plum(e) san(df!hh/jij)ctum(i_[oh:h]h) tu(fhff/d/ef_d)um :(d.) (:) et(d) con(e)fi(f)té(h_i!kkh/ii//hhhf/hhe/ffdev.)(,)(defh_i!kkh/ii//hhhf/hhe/ffdev.)(,)(de/ffdev.f!gwhhvG'FEf_e)bor(e.) (;) * nó(ef)mi(e)ni(e.f!gwh) tu(h_f/g!hwihi)o.(i_[oh:h]g/h!iwjij//ijIG.) (,) (hig'hvF'Ef_gffe.) (::)",
             "mp3": "alleluia_adorabo-ad-templum.mp3",
-            "fichier": "Latin/Sancti/11-09.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C8.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -168,7 +168,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C8.txt",
             "section": "Graduale",
-            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs. Alléluia, alléluia.\n!Ps 137:2\nJ’adorerai vers votre saint temple, et je célébrerai votre Nom. Alléluia.",
+            "texte": "Dieu a fait de ce lieu l’inestimable sacrement de sa présence, temple d’infinie sainteté.\nV. Dieu, devant qui se tient le chœur des anges, exaucez les prières de vos serviteurs.",
             "references": null
           },
           "Tractus": {
@@ -178,9 +178,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/11-09.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C8.txt",
+            "section": "Graduale",
+            "texte": "!Ps 137:2\nAlléluia, alléluia.\nJ’adorerai vers votre saint temple, et je célébrerai votre Nom. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -227,7 +227,7 @@
         "Francais/Sancti/11-09.txt",
         "Latin/Sancti/11-09.txt"
       ],
-      "sections_vides": 10,
+      "sections_vides": 8,
       "numero": 1
     }
   ]

@@ -70,7 +70,7 @@
             ]
           },
           "Graduale": {
-            "texte": "Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes. V. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est.",
+            "texte": "!Isa 60:6; 60:1\nOmnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.\nV. Surge et illumináre, Jerúsalem: quia glória Dómini super te orta est.",
             "incipit": {
               "incipit": "Omnes de Saba",
               "version": "Solesmes",
@@ -81,7 +81,7 @@
             "gabc": "(c3) O(d!ewfef//hig'hvFE'ede)mnes(e.) *(;) de(d) Sa(efe)ba(fv.hhh/ijhhvF'Egihhf) vé(f)ni(f_[oh:h]g_[oh:h]f_[oh:h])ent,(f.) (:) au(ijI~H~)rum(ih) et(fh~) thus(h_) de(f)fe(df)rén(eh~)tes,(hig'/hf.) (;) et(f) lau(h)dem(g) Dó(h)mi(f)no(d.) (,) an(df)nun(e!hgh)ti(f)án(de~)tes.(d!ewfef//highf.dfe/fee[ll:1]d.0) (::) \r\n<sp>V/</sp>. Sur(hi~)ge,(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (;) et(d) il(d)lu(d)mi(d)ná(fdfED//fd/ef!hh/ig/hf/hi!kkk_[hl:1]h)re(h.) (;) Je(fh)rú(hih)sa(ffe)lem :(gxef__d_2//f_e/fgF'ED'dfvEDe[ll:1]d..) (:) qui(d)a(d) gló(fdfED')ri(d)a(d.) Dó(fd/ef!hh/i!jwk)mi(ih)ni(hiHF.1) (;) su(gxgg//gg)per(d) te(efe/ffe.) () * or(fhGF')ta(i) est.(hhf.) (,) (gxg_[oh:h]fgvED.fgED.fehv.hhhff//dfe/fee[ll:1]d.0) (::)",
             "mp3": "graduel_omnes-de-saba.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Graduale[0]",
+            "section": "Graduale",
             "references": null
           },
           "Tractus": {
@@ -91,9 +91,18 @@
             "references": null
           },
           "Alleluia": {
+            "texte": "!Matt 2:2.\nAllelúja, allelúja\nVídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.",
+            "incipit": {
+              "incipit": "Vidimus stellam",
+              "version": "Solesmes 1961",
+              "distance": 22,
+              "similarite": 0.45,
+              "source": "Alleluia"
+            },
+            "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_[oh:h]h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./[-0.5]ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) \r\n<sp>V/</sp>. Ví(f_e/f!gwh'!iv)di(jiihi)mus(iv.hh/fgf.) (,) stel(fg~)lam(f) e(f!hh/ijHF'ivH'GEf./hfhhf/ge)jus(e.) (:) in(f) O(e)ri(f)én(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)te,(ivH'Ghf..) (:) et(f) vé(f!h'i)ni(jiihi)mus(iv.hh/fgf.) (,) cum(fg~) mu(f)né(f!hh/ijHF'ivH'GEf./hfhhf/ge)ri(f)bus(e.) (;) ad(hh)o(h)rá(h)re(hi) * Dó(i_[oh:h]h/jij)mi(j)num.(jvvIH'GE//f!gwhf.1) (::)",
+            "mp3": "alleluia_vidimus-stellam.mp3",
             "fichier": "Latin/Sancti/01-13.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -186,8 +195,8 @@
           },
           "Graduale": {
             "fichier": "Francais/Sancti/01-13.txt",
-            "section": "Graduale[0]",
-            "texte": "Tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur. V. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi.",
+            "section": "Graduale",
+            "texte": "!Isa 60:6; 60:11\nTous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.\nV. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi.",
             "references": null
           },
           "Tractus": {
@@ -198,8 +207,8 @@
           },
           "Alleluia": {
             "fichier": "Francais/Sancti/01-13.txt",
-            "section": "Graduale[0]",
-            "texte": "Allelúja, allelúja Nous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur. Allelúja.",
+            "section": "Graduale",
+            "texte": "!Matt 2:2.\nAllelúja, allelúja\nNous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.\nAllelúja.",
             "references": null
           },
           "Evangelium": {
@@ -244,7 +253,7 @@
         "Francais/Sancti/01-13.txt",
         "Latin/Sancti/01-13.txt"
       ],
-      "sections_vides": 5,
+      "sections_vides": 4,
       "numero": 1
     }
   ]

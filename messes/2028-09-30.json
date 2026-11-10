@@ -63,7 +63,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+            "texte": "!Ps 36:30-31\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\nV. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
             "incipit": {
               "incipit": "Os justi (Grad.)",
               "version": "Solesmes",
@@ -75,14 +75,7 @@
             "mp3": null,
             "fichier": "../horas/Latin/Commune/C5a.txt",
             "section": "Graduale",
-            "references": [
-              {
-                "fichier": "/Users/etiennekiss/Desktop/GitHub/routine/web/www/horas/Latin/Commune/C4a.txt",
-                "section": "Graduale",
-                "resolu": true,
-                "sous_references": null
-              }
-            ]
+            "references": null
           },
           "Tractus": {
             "fichier": "Latin/Sancti/09-30.txt",
@@ -91,7 +84,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Amávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
+            "texte": "!Eccli 45:9\nAllelúja, allelúja.\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.",
             "incipit": {
               "incipit": "Amavit eum Dominus (All.)",
               "version": "Solesmes",
@@ -101,8 +94,8 @@
             },
             "gabc": "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) <i>ij.</i>(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) <sp>V/</sp>. A(c)má(dfd/ef)vit(f.) e(ffe)um(e[ll:1]d~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
             "mp3": "alleluia_amavit-eum-dominus.mp3",
-            "fichier": "Latin/Sancti/09-30.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C5a.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -254,7 +247,7 @@
         "Francais/Sancti/09-30.txt",
         "Latin/Sancti/09-30.txt"
       ],
-      "sections_vides": 14,
+      "sections_vides": 13,
       "numero": 1
     }
   ]

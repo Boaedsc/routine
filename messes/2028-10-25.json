@@ -56,7 +56,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+            "texte": "!Exod 15:11\nGloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens prodígia.\n!Exod 15:6\nV. Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
             "incipit": {
               "incipit": "Gloriosus Deus",
               "version": "Solesmes",
@@ -77,7 +77,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Córpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
+            "texte": "!Eccl 44:14\nAllelúja, allelúja.\nCórpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. Allelúja.",
             "incipit": {
               "incipit": "Corpora Sanctorum",
               "version": "Solesmes",
@@ -87,8 +87,8 @@
             },
             "gabc": "(f3) AL(ef!gh)le(f!gw!hvGFgvFE)lú(h!iwj){ia}.(j_i) <clear>*(,) <i>ij.</i>(jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::) <sp>V/</sp>. Cór(ef!gh)po(f/ghg)ra(hvGFgvFE) san(efg)ctó(gf/ghGF'g)rum(gf..) (;) in(f) pa(e)ce(f!gwh) se(hij)púl(ih)ta(fg) sunt,(g'ivH'GFgvFE.) (,) (gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (:) et(c) nó(ef)mi(fe)na(efh) e(hij)ó(ih)rum(i.) (,) vi(hij)vent(j) in(i) ge(hvGF)ne(e)ra(f)ti(ghg)ó(f.)ne(f.) *(;) et(c) ge(ef)ne(fe)ra(efh)ti(hij)ó(ihj)nem.(j_i) (,) (jvIHfgFE.gh!ijjvIHfgFE.gf/hf.) (,) (giH'GFgvFEf.) (::)",
             "mp3": null,
-            "fichier": "Latin/Sancti/10-25.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C3.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -168,7 +168,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C3.txt",
             "section": "Graduale",
-            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis. Alléluia, alléluia.\n!Eccl 44:14\nLes corps des saints ont été ensevelis dans la paix, et leurs noms vivront de génération en génération. Alléluia.",
+            "texte": "!Exod 15:11\nDieu est glo­rifié dans ses saints : admi­rable dans sa majesté, il fait des prodiges.\n!Exod 15:6\nV. Votre droite, Seigneur, s’est signalée par sa force, votre main droite a brisé les ennemis.",
             "references": null
           },
           "Tractus": {
@@ -178,9 +178,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/10-25.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C3.txt",
+            "section": "Graduale",
+            "texte": "!Eccl 44:14\nAlléluia, alléluia.\nLes corps des saints ont été ensevelis dans la paix, et leurs noms vivront de génération en génération. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -229,7 +229,7 @@
         "Latin/Sancti/10-25.txt",
         "Latin/Tempora/Pent20-3.txt"
       ],
-      "sections_vides": 8,
+      "sections_vides": 6,
       "numero": 1
     }
   ]

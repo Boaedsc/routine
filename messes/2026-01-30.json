@@ -56,7 +56,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Dilexísti justítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.",
+            "texte": "!Ps 44:8\nDilexísti justítiam, et odísti iniquitátem.\nV. Proptérea unxit te Deus, Deus tuus, óleo lætítiæ.",
             "incipit": {
               "incipit": "Dilexisti",
               "version": "Solesmes",
@@ -77,7 +77,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Adducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
+            "texte": "!Ps 44:15-16\nAllelúja, allelúja.\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.",
             "incipit": {
               "incipit": "Adducentur",
               "version": "Solesmes",
@@ -87,8 +87,8 @@
             },
             "gabc": "(c4) AL(eef)le(dg)lú(g_[oh:h]i_[oh:h]g_[oh:h]/h!iwjjk){ia}.(i.) *(;) <i>ij.</i>(g.h!iwj_h//jh/ig.) (,) (g.h!iwj_h//jh/igge.) (,) (ef'ghghF'Ef_gffe.) (::) <sp>V/</sp>. Ad(c.d!ewff)du(fg)cén(ixg_[oh:h]f/g/ig/hffd./fg/ighhV!gh~)tur(f.) (;) re(f.0h!iwjj)gi(ixjjvIG') vír(ixgjjh~)gi(h_[oh:h]i_[oh:h]h_[oh:h])nes(h.) (;) post(fg'hjhhfg) e(fg)am :(gv.ff/ded.) (:) pró(de!f'g)xi(ghg)mae(fg) e(ghg___)jus(g.) (;) af(f)fe(ghg)rén(ixh/ig/hh//gg/hfg.)(,)(ixgjjh/ig/hh//gg/hfg.)(,)(ixjjjh/ig/hh//gg/hfg.)(,)(ef/ghgfv.efd.1)(,)(de!fvghgfffd~)tur(ef~) ti(d_[oh:h]e_[oh:h]d_[oh:h])bi(d.) *(;) in(fc~) lae(d)tí(d!fff/g_[oh:h]f)ti(f!hgh)a.(hhf.) (,) (h_ghvFDgff'fvEC//ggf/ghdd[ull:1]c/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
             "mp3": "alleluia_adducentur-regi.mp3",
-            "fichier": "Latin/Sancti/01-30.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C6.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -168,7 +168,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C6.txt",
             "section": "Graduale",
-            "texte": "!Ps 44:8.\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie. Alléluia, alléluia.\nV. Ps 48:15; 48:16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit dans la joie. Alléluia.",
+            "texte": "!Ps 44:8.\nVous avez aimé la justice et haï l’iniquité.\nV. C’est pourquoi Dieu, votre Dieu, vous a donné l’onction de joie.",
             "references": null
           },
           "Tractus": {
@@ -178,9 +178,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/01-30.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C6.txt",
+            "section": "Graduale",
+            "texte": "Alléluia, alléluia.\nV. Ps 48:15; 48:16\nElle est conduite au Roi, suivie du cortège des vierges ses compagnes ; on les conduit dans la joie. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -227,7 +227,7 @@
         "Francais/Sancti/01-30.txt",
         "Latin/Sancti/01-30.txt"
       ],
-      "sections_vides": 10,
+      "sections_vides": 8,
       "numero": 1
     }
   ]

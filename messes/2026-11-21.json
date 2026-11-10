@@ -56,7 +56,7 @@
             "references": null
           },
           "Graduale": {
-            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
+            "texte": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénia es Mater Salvatóris.\nV. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo.",
             "incipit": {
               "incipit": "Benedicta et venerabilis",
               "version": "Solesmes",
@@ -77,7 +77,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
+            "texte": "!Luc 1:28\nAllelúja, allelúja.\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.",
             "incipit": {
               "incipit": "Ave Maria (Alleluia)",
               "version": "Solesmes",
@@ -87,8 +87,8 @@
             },
             "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_[oh:h]e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_[oh:h]h)mi(i_[oh:h]hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_[oh:h]c) tu(efhvGF.) (;) * in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
             "mp3": "alleluia_ave-maria.mp3",
-            "fichier": "Latin/Sancti/11-21.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C11.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -196,7 +196,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C11.txt",
             "section": "Graduale",
-            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein. Alléluia, alléluia.\n!Luc 1:28\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia.",
+            "texte": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur.\nV. Ô Vierge, Mère de Dieu, celui que l’univers entier ne peut contenir, devenu homme, s’est enfermé dans votre sein.",
             "references": null
           },
           "Tractus": {
@@ -206,9 +206,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/11-21.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C11.txt",
+            "section": "Graduale",
+            "texte": "!Luc 1:28\nAlléluia, alléluia.\nJe vous salue, Marie, pleine de grâces, le Seigneur est avec vous. Vous êtes bénie parmi les femmes. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -255,7 +255,7 @@
         "Francais/Sancti/11-21.txt",
         "Latin/Sancti/11-21.txt"
       ],
-      "sections_vides": 10,
+      "sections_vides": 8,
       "numero": 1
     }
   ]

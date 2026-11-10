@@ -63,7 +63,7 @@
             ]
           },
           "Graduale": {
-            "texte": "Anima nostra, sicut passer, erépta est de láqueo venántium. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.",
+            "texte": "!Ps 123:7-8\nAnima nostra, sicut passer, erépta est de láqueo venántium.\nV. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram.",
             "incipit": {
               "incipit": "Anima... sicut passer",
               "version": "Solesmes",
@@ -84,7 +84,7 @@
             "references": null
           },
           "Alleluia": {
-            "texte": "Justi epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
+            "texte": "!Ps 67:4\nAllelúja, allelúja.\nJusti epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
             "incipit": {
               "incipit": "Justi... Parasti",
               "version": "Solesmes",
@@ -94,8 +94,8 @@
             },
             "gabc": "(c4) AL(d!ff)le(ef!gvEDffd)lú(ixfghig/h_e/fg~){ia}.(g.) *(,) (def!gvEDffd) (,) (def!gvEDhv.ghF'ED.) (,) (e_[uh:l]g//fgfdeddc.) (,) (fff/g_[uh:l]hGE'fee[ll:1]d.0) (::) <sp>V/</sp>. Ju(dffeggvFE'fd)sti(d.) (,) e(d)pu(dh)lén(ixhv.fh!ivGFhv.def!hvGE'fd)tur,(d.) (;) et(d) ex(d)súl(d!fff)tent(e_[oh:h][ll:1]devDCddc.) (,) in(c.d!ewf) con(fg_[uh:l]h~)spé(hvGF'fvED)ctu(dv.cd!evDC'd) De(d!ewfef)i.(e[ll:1]d..) (:) Pa(d)rá(ddc)sti(f) in(f) dul(g)cé(f)di(gh)ne(ghg) tu(h'/jhhg/he/f_g//dfED. , ixdh'/jhhg/he/f_g//egivHGhvFDfvED , hhggf/hjh___)a(h.) *(;) páu(d!ff)pe(f)ri(ef!gvEDffd) De(ixfghig/h_e/fg)us.(g.) (,) (def!gvEDffd) (,) (def!gvEDhv.ghF'ED.) (,) (e_[uh:l]g//fgfdeddc.) (,) (fff/g_[uh:l]hGE'fee[ll:1]d.0) (::)",
             "mp3": null,
-            "fichier": "Latin/Sancti/08-11.txt",
-            "section": "Alleluia",
+            "fichier": "../horas/Latin/Commune/C3a.txt",
+            "section": "Graduale",
             "references": null
           },
           "Evangelium": {
@@ -175,7 +175,7 @@
           "Graduale": {
             "fichier": "../horas/Francais/Commune/C3a.txt",
             "section": "Graduale",
-            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia.\n!Ps 67:4\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia.",
+            "texte": "!Ps 123:7-8\nNotre âme, comme le passereau, s’est échappée du filet de l’oise­leur.\nV. Le filet s’est rompu et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre.",
             "references": null
           },
           "Tractus": {
@@ -185,9 +185,9 @@
             "references": null
           },
           "Alleluia": {
-            "fichier": "Francais/Sancti/08-11.txt",
-            "section": "Alleluia",
-            "texte": "",
+            "fichier": "../horas/Francais/Commune/C3a.txt",
+            "section": "Graduale",
+            "texte": "!Ps 67:4\nAlléluia, alléluia.\n Que les justes se réjouissent comme en un festin, qu’ils tressaillent en la présence de Dieu et qu’ils soient trans­portés d’allégresse. Alléluia.",
             "references": null
           },
           "Evangelium": {
@@ -236,7 +236,7 @@
         "Latin/Sancti/08-11.txt",
         "Latin/Tempora/Pent12-3.txt"
       ],
-      "sections_vides": 8,
+      "sections_vides": 6,
       "numero": 1
     }
   ]
